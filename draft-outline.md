@@ -119,42 +119,67 @@
 - Keep working on your card and refining it
 - No blog post / reflection this week, just work on crushing it
 - The best solution will get accepted to our monorepo of elements published and used at Penn State and beyond
+- Sunday night, each team has 1 person post the links to their repos for this
 
-# Week 7,8,9 JavaScript in the weeds (might actually be this feedback loop across several weeks)
-## Tues
+# Week 7
+## Tuesday
+- Critique / review of the cards worked on in the previous week
+- Rest of class time will be to implement the improvements and discussions that spawn off of ways of achieving the task at hand
+- cards will then be enhanced based on the feedback received
+## Thursday / Homework
+- Continue working on cards in groups while I roam around or show examples of conecpts within the context of people's repos at the front
+- Final card to be submitted by Sunday night
+
+# Week 8/9/10 Portfolio site
+- Working as a team on a portfolio site
+- Come up with a basic comp for a three page portfolio site
+- This is to be worked on as a group
+- Documenting needs and requirements to build a SPA with routing
+- Finding existing elements we can start repurposing to build things faster
+- Start working in class on the plan and shared repository for building your portfolio site
+- The start of each class, a concept that could help in the development of the final product will be discussed. These include:
+  - State management
+  - Routing
+  - Lit Template stamping / repeating
+  - Observers
+## Each Tues of these 3 weeks
+- Feedback on progress of repos. Fielding questions. Sharing techniques, articles, and unpacking concepts
+## Each Thursday of these 3 weeks
+- Group work in class
+## Homework each of these 3 weeks
+- Work outside of class as a team
+- Sunday of each week posting a status report to slack channel
+## End of the 3 weeks
+- A portfolio site that has the requirements met
+- A blog post explaining routing and lessons learned in developing the portfolio for deployment on github
+
+# In the weeds stuff yet to add
 - Short talk and demonstration of a technique (these topics need spread across)
 - Mutation Observer
 - Intersection Observer
 - Event Propagation
 - Data flow
 - Routing (discuss capture based routing vs highly controlled)
-- State Management
-- Singleton
 - Group activity: Fork a "snarky-developer" element repo and apply concepts of the above low level APIs
 ## Thurs
 - Share out solutions to different conceptual problems presented with snarky
-- Documenting needs and requirements to build a SPA with routing
-- Finding existing elements we can start repurposing to build things faster
-- Start working in class on the plan and shared repository for building your portfolio site
 ## Homework
 - Work with teammates to come up with a unified plan for approaching the personal portfolio
 - Share a link to your initial work and how far along you are in creating the repo
 
 # Additional topics that need slotted in
-- HAXschema, how it works, what it's based on, and how to wire assets up to work with it / rig demo up to use it
+- How the hell hax works. HAXschema, how it works, what it's based on, and how to wire assets up to work with it / rig demo up to use it
 - Need some kind of primer on CSS that's better than what I have currently (or maybe we build stuff on top of shoelace
 - Need to explain the end to end process of getting a JS asset working in browsers and across contexts (this should happen earlier on and might just be a picture or flow of slides)
 - Guest speakers as these guest talks / demos / crits will extend things as well; might want a block of weeks where class is just getting access to them and homework is to keep working on the longer projects
 - contribution to the monorepo directly through fork, clone, fix thing, PR back.
+- Rendering differences and the religion of SSR vs PWA - https://mobile.twitter.com/thinkLikeADev/status/1428729216800075776/photo/1 with base source of https://developers.google.com/web/updates/2019/02/rendering-on-the-web which is like a whole class / required reading.
 
-## Long term projects
-- Long term project 1: Personal portfolio site published to github pages
-- Long term project 2: Working on a team project in the issue queue
+## long term projects
+- project 3: Personal portfolio site published to github pages
+- project 4: Working on a team project in the issue queue
 
 ## Guest speakers (confirming dates)
 - Michael Potter - Red hat front-end web developer, worked on HAXTheWeb previously, now works on PatternFly Elements
 - Nikki Massaro Kauffman - HAX UX and a11y lead, my co-worker-in-crime
 - Chuck Lavera - HAX contributor, Eberly college of science
-
-## things to rope in
-- Rendering differences and the religion of SSR vs PWA - https://mobile.twitter.com/thinkLikeADev/status/1428729216800075776/photo/1 with base source of https://developers.google.com/web/updates/2019/02/rendering-on-the-web which is like a whole class / required reading.
