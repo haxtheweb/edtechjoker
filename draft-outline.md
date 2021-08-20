@@ -11,13 +11,14 @@
 - Questions
 - get ahead: install nodejs, npm, git, yarn, VSCode / and IDE on your machine
 ## Thurs: JS Ecosystem
-- Short lecture on ecosystem
+- Short lecture on the modern web ecosystem
 - Activity:
   - Get a partner; this is your pair programmer for the semester
   - Find another pair. This is your team of 4. (one group will be solo and that's ok)
   - All teams must install nodejs, npm, git, yarn, VSCode / IDE and be able to create a open-wc boilerplate
+  - If you run into roadblocks we'll work through them together. If your team gets the activity completed, help surrounding teams. We need everyone to be on this page before we can move forward
 ## Homework
-- If you haven't finished the group activity of getting everything installed; do this on your own time
+- If you haven't finished the group activity of getting everything installed; do this on your own time. We all need to get this setup before we can move forward
 - Setup account on dev.to / github / join slack channels for project
 - Write a blog post introducing yourself, and why you are interested in web development
 - Write a blog post on how to get dependencies installed for your machine to teach someone else how to install open-wc
@@ -26,8 +27,9 @@
 # Week 2: What makes tooling
 ## Tues: Brief demo of getting a hello-world boilerplate setup for open-wc
 - Individual activity: make a hello-world boilerplate and have it yarn / npm start'ed and on screen (help teammate)
-- Group activity: Look through the parts of the repo and identify aspects of this toolchain
+- Group activity: Look through the parts of the repo and identify aspects of this toolchain but also the repo in general
 - What makes a good toolchain? What should we look for (write on board as people identify things like build, demo, start, storybook, etc)
+- How do we know what commands to run?
 ## Thurs: What is it open-wc is giving us?
 - looking at the boilerplate repo that we made, now at the element level
 - Group activity: Discuss how this works. What is it doing? Why does this work?
