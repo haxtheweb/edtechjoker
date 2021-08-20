@@ -1,4 +1,4 @@
-# Draft outline
+# Draft Syllabus
 
 # Week 1: Welcome back to hell err.. Penn State
 ## Tues: Welcome to the course, format, policies, all that jazz
@@ -151,7 +151,10 @@
 - Long term project 1: Personal portfolio site published to github pages
 - Long term project 2: Working on a team project in the issue queue
 
-Guest speakers (confirming dates)
+## Guest speakers (confirming dates)
 - Michael Potter - Red hat front-end web developer, worked on HAXTheWeb previously, now works on PatternFly Elements
 - Nikki Massaro Kauffman - HAX UX and a11y lead, my co-worker-in-crime
 - Chuck Lavera - HAX contributor, Eberly college of science
+
+## things to rope in
+- Rendering differences and the religion of SSR vs PWA - https://mobile.twitter.com/thinkLikeADev/status/1428729216800075776/photo/1 with base source of https://developers.google.com/web/updates/2019/02/rendering-on-the-web which is like a whole class / required reading.
