@@ -1,6 +1,7 @@
 # Draft Syllabus
+This MD file is subject to change. As we are building this course out based on needs of our classmates, we'll occationally detour from this. This is a work in progress / general timing outline as I hope we are to achieve it.
 
-# Week 1: Welcome back to hell err.. Penn State
+# Week 1: Welcome back to almost-normal Penn State
 ## Tues: Welcome to the course, format, policies, all that jazz
 - Short lecture on web components / WHY this topic matters
 - Mention Project EdTechJoker and goals of the course for me and them
@@ -24,7 +25,7 @@
 - Write a blog post on how to get dependencies installed for your machine to teach someone else how to install open-wc
   - Optionally this can be a video tutorial / youtube screencast if desired. It's your preference
 
-# Week 2: What makes tooling
+# Week 2: What makes tooling; unpacking tool-chains
 ## Tues: Brief demo of getting a hello-world boilerplate setup for open-wc
 - Individual activity: make a hello-world boilerplate and have it yarn / npm start'ed and on screen (help teammate)
 - Group activity: Look through the parts of the repo and identify aspects of this toolchain but also the repo in general
@@ -38,15 +39,16 @@
 - Read slide deck from San diego state prof
 - Write a blog post about understanding tooling. What makes good tooling? What should you look for in any project you are building?
 
-# Week 3: What makes web components so special?
+# Week 3: What makes web components special?
 ## Tues: the 4 APIs that make them tick
-- Short Lecture on what the 4 are with examples
+- Short Lecture on what the 4 are with examples and my pitch for why they are future proof
 - Guided Class activity: find examples of web component libraries and websites that use web components
 - Step through some code, asking questions to gauge comfort with javascript in general
 - Group activity: We need exposure to other "component" concepts while we are here to know what else exists and see the similarities in syntax and concept
 - Each Group member look for hello-world / boilerplate / tutorial material for VueJS, Angular, React, and Material.IO
   - Material.io has a lot of Android examples but is very block / component oriented with many of the same concepts
 - Discussion: What do all of these have in common?
+- "Wait, What's wrong with jQuery?!?"
 - For thursday: Think about what are all of them missing or that is possibly problematic with their adoption?
 ## Thurs: exploring LitElement capabilities
 - Personal pro/con list that lead our team to web components and away from all other options (build vs buildless)
@@ -59,7 +61,7 @@
 - Run through the "Lit Tutorial" (which is in TypeScript): https://lit.dev/tutorial/
 - Write a blog post about Similarities across component libraries. What concepts do they share? What aspects of a component library lock you into the model of the authors and which set you free to build what you need quickly?
 
-# Week 4: Project 1: The damn button
+# Week 4: Project 1: Starting the "OMG I CAN'T BELIEVE THIS GOES INTO JUST A button", button
 ## Tues: Sizing up our own atom
 - Buttons are common atoms within an atomic design pattern
 - https://bradfrost.com/blog/post/atomic-web-design/ - resource for what is atomic design
@@ -86,7 +88,7 @@
 - Submit repos of all teammates to slack
 - Write a blog post about considerations when building a web component (metacognition of the exercise we engaged in)
 
-# Week 5: Critique and feedback of Button
+# Week 5: Project 1: Critique and feedback of Button
 ## Tues: Critique / code discussion
 - Code critique / open code review
 - Team member has to explain the code on screen
@@ -104,7 +106,7 @@
 - Publish a demo for the element using github actions
 - Write a blog post about the process of going from boilerplate open-wc repo to publishing asset to NPM (this could be done via video if desired)
 
-# Week 6: Building off a comp
+# Week 6: Project 2: Building off a comp
 ## Tues / Thursday
 - Let's repeat the same process from the button but now off of a real world comp
   - What are the characteristics of the card?
@@ -123,7 +125,7 @@
 - The best solution will get accepted to our monorepo of elements published and used at Penn State and beyond
 - Sunday night, each team has 1 person post the links to their repos for this
 
-# Week 7
+# Week 7: Project 2: Refinement of our card comp
 ## Tuesday
 - Critique / review of the cards worked on in the previous week
 - Rest of class time will be to implement the improvements and discussions that spawn off of ways of achieving the task at hand
@@ -132,7 +134,7 @@
 - Continue working on cards in groups while I roam around or show examples of conecpts within the context of people's repos at the front
 - Final card to be submitted by Sunday night
 
-# Week 8/9/10 Portfolio site
+# Week 8/9/10: Project 3 - Portfolio site PWA
 - Working as a team on a portfolio site
 - Come up with a basic comp for a three page portfolio site
 - This is to be worked on as a group
@@ -155,6 +157,26 @@
 - A portfolio site that has the requirements met
 - A blog post explaining routing and lessons learned in developing the portfolio for deployment on github
 
+# Week 11/12/13: Project 4: HAXTheWeb
+- The final project involves contributing to HAXTheWeb, a massive open source library of web components
+- We’ll learn what HAXTheWeb is, who’s using various pieces of it
+- How hax works. HAXschema, how it works, what it's based on, and how to wire assets up to work with it / rig demo up to use it; using the past accepted card comp and button as a basis
+- We’ll make small initial commits to the lrnwebcomponents repo to smaller tasks to get commits and feel our way around the repo
+- As a group you’ll select, investigate, work towards a solution, document and ultimately submit a pull request to our team’s repository in order to improve online courses for future students
+- Class time will be spent reviewing code, answering questions as a class, and doing group check ins
+
+# Week 14: Thanksgiving
+- Nothing but chillen.
+
+# Week 15/16: Project 4: Final feedback and open code critique
+- This time will be scheduled with presentations by teams of the state of their solutions
+- Feedback will be given by fellow HAXTheWeb developers
+- This feedback is then to be used to finalize code, documentation and other aspects of the final PR
+
+# Week 17: Finals week
+- Tuesday of finals week your team's final PR is due along with all documentation of how to use your solution to the issue(s) your team resolved
+
+
 # In the weeds stuff yet to add
 - Short talk and demonstration of a technique (these topics need spread across)
 - Mutation Observer
@@ -170,16 +192,11 @@
 - Share a link to your initial work and how far along you are in creating the repo
 
 # Additional topics that need slotted in
-- How the hell hax works. HAXschema, how it works, what it's based on, and how to wire assets up to work with it / rig demo up to use it
 - Need some kind of primer on CSS that's better than what I have currently (or maybe we build stuff on top of shoelace
 - Need to explain the end to end process of getting a JS asset working in browsers and across contexts (this should happen earlier on and might just be a picture or flow of slides)
 - Guest speakers as these guest talks / demos / crits will extend things as well; might want a block of weeks where class is just getting access to them and homework is to keep working on the longer projects
 - contribution to the monorepo directly through fork, clone, fix thing, PR back.
 - Rendering differences and the religion of SSR vs PWA - https://mobile.twitter.com/thinkLikeADev/status/1428729216800075776/photo/1 with base source of https://developers.google.com/web/updates/2019/02/rendering-on-the-web which is like a whole class / required reading.
-
-## long term projects
-- project 3: Personal portfolio site published to github pages
-- project 4: Working on a team project in the issue queue
 
 ## Guest speakers (confirming dates)
 - Michael Potter - Red hat front-end web developer, worked on HAXTheWeb previously, now works on PatternFly Elements
