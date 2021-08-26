@@ -18,6 +18,21 @@ This MD file is subject to change. As we are building this course out based on n
   - Find another pair. This is your team of 4. (one group will be solo and that's ok)
   - All teams must install nodejs, npm, git, yarn, VSCode / IDE and be able to create a open-wc boilerplate
   - If you run into roadblocks we'll work through them together. If your team gets the activity completed, help surrounding teams. We need everyone to be on this page before we can move forward
+  - common roadblocks / solutions
+   - sudo / user permission issue / common scenario:
+ ```bash
+# move to YOUR home directory
+cd ~
+# this makes you a super user to run command; put in your password for the computer
+sudo npm install -g yarn
+# if there are errors look into running something like this.
+# NOT EXACTLY THIS JUST SOMETHING LIKE IT
+sudo chmod -R 777 /FULL/PATH/TO/DIRECTORY/node_modules
+# then run the install command again and see if it fixed it
+cd ~
+yarn
+# if you see no error messages then you are golden
+```
 ## Homework
 - If you haven't finished the group activity of getting everything installed; do this on your own time. We all need to get this setup before we can move forward
 - Setup account on dev.to / github / join slack channels for project
@@ -27,17 +42,43 @@ This MD file is subject to change. As we are building this course out based on n
 
 # Week 2: What makes tooling; unpacking tool-chains
 ## Tues: Brief demo of getting a hello-world boilerplate setup for open-wc
-- Individual activity: make a hello-world boilerplate and have it yarn / npm start'ed and on screen (help teammate)
-- Group activity: Look through the parts of the repo and identify aspects of this toolchain but also the repo in general
-- What makes a good toolchain? What should we look for (write on board as people identify things like build, demo, start, storybook, etc)
+- quick tech demo / discussion: permissions, ownership, moving directories, common commands to fix issues, short cut keys, etc
+ - note that while I run these in ubuntu 20.04 there are parallels in all OS. OSX is identical.
+ - Windows you might want to get Cygwin - https://www.cygwin.com/ or a different terminal for running tooling in general
+- Individual activity: make a hello-world boilerplate and have it yarn / npm start'ed and on screen (help partner if not there yet)
+### Individual / Pair activity: 
+ - Look through the parts of the repo and identify aspects of this toolchain but also the repo in general
+ - On a whiteboard or in a doc write all the things to note about this repo
+  - Where is the demo?
+  - Where is the code?
+  - What commands can be run?
+  - Where are all the dependencies?
+  - Where is the custom element / web component / javascript that runs?
+### Shareout
+- What did people find?
+- What makes a good tool-chain?
+- What is specific to this repo and what feels like it would work in any repo?
 - How do we know what commands to run?
+- How do we get dependencies?
+- Where do they come from? where do they go?
+- What's a devDependency vs dependency?
+- What is package.json? What's the API for it?
 ## Thurs: What is it open-wc is giving us?
-- looking at the boilerplate repo that we made, now at the element level
-- Group activity: Discuss how this works. What is it doing? Why does this work?
+- looking at the boilerplate repo that we made, now at the code level
+### Pair activity
+ - What does the boilerplate do? How is it working? What's notable about this?
+ - What's "syntactical sugar" vs the way the web platform actually works?
+ - What is "stateful" in this?
+ - What is event driven in this?
+ - What is Lit specific?
+ - What is "VanillaJS" and is a convention that works anywhere?
+ - Group activity: Discuss how this works. What is it doing? Why does this work?
 ## Homework
 - Watch lecture on JS/HTML/CSS fundamentals (from past class)
-- Read slide deck from San diego state prof
-- Write a blog post about understanding tooling. What makes good tooling? What should you look for in any project you are building?
+- Read slide deck from San diego state prof on vanillaJS conventions
+- Run through the "Try LitElement" tutorial: https://lit-element.polymer-project.org/try
+- Run through the "Lit Tutorial" (which is in TypeScript): https://lit.dev/tutorial/
+- Write a blog post about Lit and unpack the hello-world repo. What conventions it has? What is Vanilla vs Lit specific? What is the scope of what Lit provides?
 
 # Week 3: What makes web components special?
 ## Tues: the 4 APIs that make them tick
@@ -57,8 +98,7 @@ This MD file is subject to change. As we are building this course out based on n
 - Vanilla VS LitElement vs others, lots of examples and asking to identify platform vs convention in each
 - Discussion of syntactical sugar using jQuery as an example of LitElement using sugar vs a real convention
 ## Homework
-- Run through the "Try LitElement" tutorial: https://lit-element.polymer-project.org/try
-- Run through the "Lit Tutorial" (which is in TypeScript): https://lit.dev/tutorial/
+
 - Write a blog post about Similarities across component libraries. What concepts do they share? What aspects of a component library lock you into the model of the authors and which set you free to build what you need quickly?
 
 # Week 4: Project 1: Starting the "OMG I CAN'T BELIEVE THIS GOES INTO JUST A button", button
