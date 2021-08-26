@@ -44,6 +44,7 @@ yarn
 ## Tues: Brief demo of getting a hello-world boilerplate setup for open-wc
 - quick tech demo / discussion: permissions, ownership, moving directories, common commands to fix issues, short cut keys, etc
  - note that while I run these in ubuntu 20.04 there are parallels in all OS. OSX is identical.
+ - I run Oh My Zsh which is a series of enhancements to a normal `bash` prompt -- https://ohmyz.sh/ (OSX / Linux)
  - Windows you might want to get Cygwin - https://www.cygwin.com/ or a different terminal for running tooling in general
 - Individual activity: make a hello-world boilerplate and have it yarn / npm start'ed and on screen (help partner if not there yet)
 ### Individual / Pair activity: 
