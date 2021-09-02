@@ -11,6 +11,9 @@ This MD file is subject to change. As we are building this course out based on n
 - What the course is / overall projects
 - Questions
 - get ahead: install nodejs, npm, git, yarn, VSCode / and IDE on your machine
+- Additional helpful tools:
+ - https://code.visualstudio.com/docs/setup/mac
+ - https://ohmyz.sh/
 ## Thurs: JS Ecosystem
 - Short lecture on the modern web ecosystem
 - Activity:
