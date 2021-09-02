@@ -96,7 +96,8 @@ When you get a working solution to the following, post it in the edtechjoker sla
 - **Create a git repo for your hello-world repo and get it pushed up to github**
 - In this repo I want to see ONE OF THESE THREE demonstrated:
  - Add an `<input>` field that updates as the value changes. So when the user clicks increment (or decrement) it will show the value.
- - Reflect the the `counter` property and use this value to write CSS that changes the background color of the button based on the counter being 10
+ - Reflect the the `counter` property and use this value to write CSS that changes the background color of the button based on the counter being 10.
+  - This should help explain how: https://lit.dev/docs/components/properties/#reflected-attributes
  - Add a button that subtracts from the counter but won't allow going below 0
   - Bonus: Disable the subtract button when hitting 0; enable it when hitting anything other than 0
 - **When you are done; post your code to the slack channel; this effectively is this weeks "blog post"**
