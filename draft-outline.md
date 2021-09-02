@@ -93,13 +93,13 @@ When you get a working solution to the following, post it in the edtechjoker sla
 ## Pair work that turns into Homework
 - Run through the "Try LitElement" tutorial: https://lit-element.polymer-project.org/try
 - Run through the "Lit Tutorial" (which is in TypeScript): https://lit.dev/tutorial/
-- Create a git repo for your hello-world repo and get it pushed up to github
+- **Create a git repo for your hello-world repo and get it pushed up to github**
 - In this repo I want to see ONE OF THESE THREE demonstrated:
  - Add an input field that updates as the value changes
  - Reflect the the `counter` property and use this value to write CSS that changes the background color of the button based on the counter being 10
  - Add a button that subtracts from the counter but won't allow going below 0
   - Bonus: Disable the subtract button when hitting 0; enable it when hitting anything other than 0
-- When you are done; post your code to the slack channel; this effectively is this weeks "blog post"
+- **When you are done; post your code to the slack channel; this effectively is this weeks "blog post"**
 
 ## Additional Homework / expected for next class
 - Read the full slide deck From Thomas Powell on HTML/CSS/JS fundamentals -- https://docs.google.com/presentation/d/13z_spZnGt7uIY_MjXOnqkxvMyUj6-SEV/edit?usp=sharing&ouid=100601982236009260859&rtpof=true&sd=true
