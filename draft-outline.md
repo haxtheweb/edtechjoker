@@ -112,27 +112,32 @@ When you get a working solution to the following, post it in the edtechjoker sla
  - Recording of lecture: https://psu.zoom.us/rec/play/bY3fvUuUDOd34uiO2R-FnaUV93Zit12oyXcWULJtpCz6d5h7jO4fEV0Dr5dzbWCQ_tiAr6CWhVtnYAHg.Ok9HdrEm_1p7to0L?autoplay=true&startTime=1612285695000
 
 # Week 3: What makes web components special?
-## Tues: the 4 APIs that make them tick
-- Short Lecture on what the 4 are with examples and my pitch for why they are future proof
-- Guided Class activity: find examples of web component libraries and websites that use web components
-- Step through some code, asking questions to gauge comfort with javascript in general
+## Tues: Critique and 4 APIs that make web components tick
+- Short Lecture on what the 4 are with examples and my pitch for why they are future proof with lots of examples - https://docs.google.com/presentation/d/1mQNGt0lLupWH8PmBMhS3wAyssZnV2jZpYoAZgWrKYWw/edit?usp=sharing
+- Critique / open review of notable examples from the 1st code exercise
+- Check Canvas for your group association if you don't already know who's in your group. Find and sit with these people (do this every class from now on)
+## Thurs: exploring LitElement capabilities
 - Group activity: We need exposure to other "component" concepts while we are here to know what else exists and see the similarities in syntax and concept
 - Each Group member look for hello-world / boilerplate / tutorial material for VueJS, Angular, React, and Material.IO
   - Material.io has a lot of Android examples but is very block / component oriented with many of the same concepts
-- Discussion: What do all of these have in common?
-- "Wait, What's wrong with jQuery?!?"
-- For thursday: Think about what are all of them missing or that is possibly problematic with their adoption?
-## Thurs: exploring LitElement capabilities
-- Personal pro/con list that lead our team to web components and away from all other options (build vs buildless)
+  - Install the hello-world / boilerplate that you find (should be git clone / download the repo and then yarn install just like our hello-world)
+- Discussion: What do all of these have in common?- "Wait, What's wrong with jQuery?!?"
+- Class Exercise: Shown code example, identify:
+ - Lines / function calls that are "vendor specific"
+ - Lines / syntax that are "library specific"
+ - Lines / functions / syntax that are platform independent / VanillaJS
 - Show Drupal code and identifying platform vs vendor vs library code
 - Future / bleeding edge capabilities (css modules just landing, json modules on the way)
 - Vanilla VS LitElement vs others, lots of examples and asking to identify platform vs convention in each
 - Discussion of syntactical sugar using jQuery as an example of LitElement using sugar vs a real convention
 ## Homework
+- Reading 1: Let's Build web components (understanding the spec) - https://dev.to/bennypowers/lets-build-web-components-part-1-the-standards-3e85
+- Reading 2: How Penn State (my team) ships web components in an "unbundled" manner -- https://dev.to/btopro/part-1-how-penn-state-unbundles-web-components-for-cdn-deployments-20di
+- Find a "CTA" or Call To Action button that is for React, then Angular, then Vue, then a web component based solution.
+ - What is similar in how they are built? What is duplicate effort? What is different / unique to the library / framework in question?
+ - Write a blog post on dev.to about this experience, answering these questions.
 
-- Write a blog post about Similarities across component libraries. What concepts do they share? What aspects of a component library lock you into the model of the authors and which set you free to build what you need quickly?
-
-# Week 4: Project 1: Starting the "OMG I CAN'T BELIEVE THIS GOES INTO JUST A button", button
+# Week 4: Project 1: Starting the "OMG I CAN'T BELIEVE THIS GOES INTO JUST A button", CTA button
 ## Tues: Sizing up our own atom
 - Buttons are common atoms within an atomic design pattern
 - https://bradfrost.com/blog/post/atomic-web-design/ - resource for what is atomic design
