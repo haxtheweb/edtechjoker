@@ -31,10 +31,10 @@ This MD file is subject to change. As we are building this course out based on n
 - Read / Watch: moar-sarcasm plz: A tOtAlLy NeCeSsArY web components tutorial https://dev.to/btopro/moar-sarcasm-plz-a-totaly-necessary-web-components-tutorial-3c51
 - Looking at the shared repo you built in class, install the different projects and look at the boilerplates for each
 - Write a blog post on dev.to about this experience, answering these questions.
- - What commonalities are there between the boilerplate code?
- - What is duplicate / overlapping?
- - Which do you think is the easiest DX (Developer eXperience) to get going?
- - If starting to build an "app" tomorrow, which would you prefer and why?
+  - What commonalities are there between the boilerplate code?
+  - What is duplicate / overlapping?
+  - Which do you think is the easiest DX (Developer eXperience) to get going?
+  - If starting to build an "app" tomorrow, which would you prefer and why?
 ## Looking ahead
 - Find a "CTA" or Call To Action button either in a specific framework or just the design comps / links where you'll look them up
 - Next week we'll start into the process of designing, developing, publishing, building, testing, everything-ing; our own CTA
