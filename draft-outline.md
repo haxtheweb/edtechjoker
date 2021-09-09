@@ -14,12 +14,12 @@ This MD file is subject to change. As we are building this course out based on n
   - use yarn (or npm) to install the assets **inside of the fork of the repo**
   - Example directory structure you should have in the end after all teammates have code PR'ed together into 1 repo
 ```
-/boilerplates
-  /react-example
-  /angularBoiler
-  /VueJSGettingStarted
-  /StencilJS-hello
-  README.md
+/boilerplates/
+/boilerplates/react-example
+/boilerplates/angularBoiler
+/boilerplates/VueJSGettingStarted
+/boilerplates/StencilJS-hello
+/boilerplates/README.md
 ```
 ### Tips
 - If you don't have everyone here, contact your teammate and assign them 1 of the projects (or if a group of 2 only do 2 of them)
