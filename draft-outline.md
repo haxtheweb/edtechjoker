@@ -39,7 +39,7 @@ This MD file is subject to change. As we are building this course out based on n
 - Find a "CTA" or Call To Action button either in a specific framework or just the design comps / links where you'll look them up
 - Next week we'll start into the process of designing, developing, publishing, building, testing, everything-ing; our own CTA
 
-# Week 4: Project 1: Starting the "OMG I CAN'T BELIEVE THIS GOES INTO JUST A button", CTA button
+# Week 4: Project 1: Starting the "OMG I CAN'T BELIEVE ALL THIS GOES INTO JUST A button", CTA button
 ## Tues: Sizing up our own atom
 - Class Exercise: Shown code example, identify:
  - Lines / function calls that are "vendor specific"
