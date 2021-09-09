@@ -2,7 +2,8 @@
 This MD file is subject to change. As we are building this course out based on needs of our classmates, we'll occationally detour from this. This is a work in progress / general timing outline as I hope we are to achieve it.
 
 # Week 3: What makes web components special?
-## Thurs: exploring LitElement capabilities
+## Tues (see weekly structure)
+## Thurs: Exploring other frameworks and getting team setup
 - Group activity: We need exposure to other "component" concepts but we also need to make sure we're all on the same page in contributing this semester
  - Each group will be responsible for making commits to the same repo
  - Pick a team member to be the starting point for repo creation (it'll make life easier) call it like github.com/`yourname`/boilerplates or something
