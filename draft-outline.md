@@ -1,127 +1,45 @@
 # Draft Syllabus
 This MD file is subject to change. As we are building this course out based on needs of our classmates, we'll occationally detour from this. This is a work in progress / general timing outline as I hope we are to achieve it.
 
-# Week 1: Welcome back to almost-normal Penn State
-## Tues: Welcome to the course, format, policies, all that jazz
-- Short lecture on web components / WHY this topic matters
-- Mention Project EdTechJoker and goals of the course for me and them
-- Collectivism vs individualism. The collective needs to succeed or your team fails. The individual must succeed or there is never any innovation. Individual must succeed or there is no innovation. individuals ensure we build new rockets; collectives ensure they launch.
-- Web components are here to ensure that we can mesh these two concepts together effectively
-- Who we are; survey results and imposter syndrome
-- What the course is / overall projects
-- Questions
-- get ahead: install nodejs, npm, git, yarn, VSCode / and IDE on your machine
-- Additional helpful tools:
- - https://code.visualstudio.com/docs/setup/mac
- - https://ohmyz.sh/
-## Thurs: JS Ecosystem
-- Short lecture on the modern web ecosystem
-- Activity:
-  - Get a partner; this is your pair programmer for the semester
-  - Find another pair. This is your team of 4. (one group will be solo and that's ok)
-  - All teams must install nodejs, npm, git, yarn, VSCode / IDE and be able to create a open-wc boilerplate
-  - If you run into roadblocks we'll work through them together. If your team gets the activity completed, help surrounding teams. We need everyone to be on this page before we can move forward
-  - common roadblocks / solutions
-   - sudo / user permission issue / common scenario:
- ```bash
-# move to YOUR home directory
-cd ~
-# this makes you a super user to run command; put in your password for the computer
-sudo npm install -g yarn
-# if there are errors look into running something like this.
-# NOT EXACTLY THIS JUST SOMETHING LIKE IT
-sudo chmod -R 777 /FULL/PATH/TO/DIRECTORY/node_modules
-# then run the install command again and see if it fixed it
-cd ~
-yarn
-# if you see no error messages then you are golden
-```
-## Homework
-- If you haven't finished the group activity of getting everything installed; do this on your own time. We all need to get this setup before we can move forward
-- Setup account on dev.to / github / join slack channels for project
-- Write a blog post introducing yourself, and why you are interested in web development
-- Write a blog post on how to get dependencies installed for your machine to teach someone else how to install open-wc
-  - Optionally this can be a video tutorial / youtube screencast if desired. It's your preference
-
-# Week 2: What makes tooling; unpacking tool-chains
-## Tues: Brief demo of getting a hello-world boilerplate setup for open-wc
-- quick tech demo / discussion: permissions, ownership, moving directories, common commands to fix issues, short cut keys, etc
- - note that while I run these in ubuntu 20.04 there are parallels in all OS. OSX is identical.
- - I run Oh My Zsh which is a series of enhancements to a normal `bash` prompt -- https://ohmyz.sh/ (OSX / Linux)
- - Windows you might want to get Cygwin - https://www.cygwin.com/ or a different terminal for running tooling in general
-- Individual activity: make a hello-world boilerplate and have it yarn / npm start'ed and on screen (help partner if not there yet)
-### Individual / Pair activity: 
- - Look through the parts of the repo and identify aspects of this toolchain but also the repo in general
- - On a whiteboard or in a doc write all the things to note about this repo
-  - Where is the demo?
-  - Where is the code?
-  - What commands can be run?
-  - Where are all the dependencies?
-  - Where is the custom element / web component / javascript that runs?
-### Shareout
-- What did people find?
-- What makes a good tool-chain?
-- What is specific to this repo and what feels like it would work in any repo?
-- How do we know what commands to run?
-- How do we get dependencies?
-- Where do they come from? where do they go?
-- What's a devDependency vs dependency?
-- What is package.json? What's the API for it?
-## What is it open-wc is giving us?
-- looking at the boilerplate repo that we made, now at the code level
-### Pair activity
- - What does the boilerplate do? How is it working? What's notable about this?
- - What's "syntactical sugar" vs the way the web platform actually works?
- - What is "stateful" in this?
- - What is event driven in this?
- - What is Lit specific?
- - What is "VanillaJS" and is a convention that works anywhere?
- - Group activity: Discuss how this works. What is it doing? Why does this work?
-
-## Thurs Sep 2 - HTML / CSS / Modifying what we have
-So we've looked into a bit of what the base line thing we're given by open-wc. Now let's start modifying it
-- Quick lecture on pieces of https://docs.google.com/presentation/d/13z_spZnGt7uIY_MjXOnqkxvMyUj6-SEV/edit?usp=sharing&ouid=100601982236009260859&rtpof=true&sd=true which is CSS / HTML / JS fundamentals of how things operate.
-- Opening and "hacking" psu.edu by modifying things in the console
-### Pair / Group activity
-Now we're going to "hack" penn state using a few different methods to better understand how the web is made.
-- [ ] Right click and inspect psu.edu. I want you to change the WE ARE to "Were Pen Stat"
-When you get a working solution to the following, post it in the edtechjoker slack:
-- [ ] Using the "Add the new style rule" button, what CSS selector would appropriately target the corona virus warning banner and make it's background red and the text on it white (you can ignore the icon as it's an SVG).
-- [ ] using javascript, target the PSU image and change it's source to point to the "were" https://i1.wp.com/images.onwardstate.com/uploads/2019/10/IMG_9180.jpg?w=960&ssl=1
-- [ ] using javascript, target the "were" image and append it as a child to the same container that has the "Give" button
-
-## Pair work that turns into Homework
-- Run through the "Try LitElement" tutorial: https://lit-element.polymer-project.org/try
-- Run through the "Lit Tutorial" (which is in TypeScript): https://lit.dev/tutorial/
-- **Create a git repo for your hello-world repo and get it pushed up to github**
-- In this repo I want to see ONE OF THESE THREE demonstrated:
- - Add an `<input>` field that updates as the value changes. So when the user clicks increment (or decrement) it will show the value.
- - Reflect the the `counter` property and use this value to write CSS that changes the background color of the button based on the counter being 10.
-  - This should help explain how: https://lit.dev/docs/components/properties/#reflected-attributes
- - Add a button that subtracts from the counter but won't allow going below 0
-  - Bonus: Disable the subtract button when hitting 0; enable it when hitting anything other than 0
-- **When you are done; post your code to the slack channel; this effectively is this weeks "blog post"**
-
-## Additional Homework / expected for next class
-- Read the full slide deck From Thomas Powell on HTML/CSS/JS fundamentals -- https://docs.google.com/presentation/d/13z_spZnGt7uIY_MjXOnqkxvMyUj6-SEV/edit?usp=sharing&ouid=100601982236009260859&rtpof=true&sd=true
-- Watch my IST 402 lecture on HTML / CSS (ignore the lab mentioned)
- - Slides: https://docs.google.com/presentation/d/1PBvgpoWxg-VAFra1Byv9nFUiUtMey4-TzDUHz-93a-0/edit?usp=sharing
- - Recording of lecture: https://psu.zoom.us/rec/play/rBvSXnalROFsn3J9qolFgtFJh9wZE4BL5X-5u4ck691C-Hjs40_33GKdo7nVo-Fy33I5tq-xOaG4IUYr.PsmsMq0SdIEH44ge?autoplay=true&startTime=1611680857000
-- Watch my past IST 402 lecture on Javascript ecosystems (ignore the lab mentioned)
- - Slides: https://docs.google.com/presentation/d/1icY6GL5N0cNXM4PjWg1N1RlKFi8lcK8GnIW7PBNBJ8w/edit?usp=sharing
- - Recording of lecture: https://psu.zoom.us/rec/play/bY3fvUuUDOd34uiO2R-FnaUV93Zit12oyXcWULJtpCz6d5h7jO4fEV0Dr5dzbWCQ_tiAr6CWhVtnYAHg.Ok9HdrEm_1p7to0L?autoplay=true&startTime=1612285695000
-
 # Week 3: What makes web components special?
-## Tues: Critique and 4 APIs that make web components tick
-- Short Lecture on what the 4 are with examples and my pitch for why they are future proof with lots of examples - https://docs.google.com/presentation/d/1mQNGt0lLupWH8PmBMhS3wAyssZnV2jZpYoAZgWrKYWw/edit?usp=sharing
-- Critique / open review of notable examples from the 1st code exercise
-- Check Canvas for your group association if you don't already know who's in your group. Find and sit with these people (do this every class from now on)
 ## Thurs: exploring LitElement capabilities
-- Group activity: We need exposure to other "component" concepts while we are here to know what else exists and see the similarities in syntax and concept
-- Each Group member look for hello-world / boilerplate / tutorial material for VueJS, Angular, React, and Material.IO
-  - Material.io has a lot of Android examples but is very block / component oriented with many of the same concepts
-  - Install the hello-world / boilerplate that you find (should be git clone / download the repo and then yarn install just like our hello-world)
-- Discussion: What do all of these have in common?- "Wait, What's wrong with jQuery?!?"
+- Group activity: We need exposure to other "component" concepts but we also need to make sure we're all on the same page in contributing this semester
+ - Each group will be responsible for making commits to the same repo
+ - Pick a team member to be the starting point for repo creation (it'll make life easier) call it like github.com/`yourname`/boilerplates or something
+ - Have each member fork this repo and clone it to their local machine
+ - *Each Group member* should create a folder for *one* of the following projects:
+  - VueJS, Angular, React, StencilJS
+  - Find a hello world style boilerplate for the project you selected (Google is your friend)
+  - use yarn (or npm) to install the assets **inside of the fork of the repo**
+  - Example directory structure you should have in the end after all teammates have code PR'ed together into 1 repo
+```
+/boilerplates
+  /react-example
+  /angularBoiler
+  /VueJSGettingStarted
+  /StencilJS-hello
+  README.md
+```
+### Tips
+- If you don't have everyone here, contact your teammate and assign them 1 of the projects (or if a group of 2 only do 2 of them)
+- have 1 person be a sort of "scrum master" that creates the initial repo
+- have each teammate fork from the "scrum master"'s repo as the source of truth
+- This forms the backdrop to make it easier for you to do the homework / blogging for the week
+## Homework
+- Read series: Let's Build web components (understanding the spec) - https://dev.to/bennypowers/lets-build-web-components-part-1-the-standards-3e85
+- Read / Watch: moar-sarcasm plz: A tOtAlLy NeCeSsArY web components tutorial https://dev.to/btopro/moar-sarcasm-plz-a-totaly-necessary-web-components-tutorial-3c51
+- Looking at the shared repo you built in class, install the different projects and look at the boilerplates for each
+- Write a blog post on dev.to about this experience, answering these questions.
+ - What commonalities are there between the boilerplate code?
+ - What is duplicate / overlapping?
+ - Which do you think is the easiest DX (Developer eXperience) to get going?
+ - If starting to build an "app" tomorrow, which would you prefer and why?
+## Looking ahead
+- Find a "CTA" or Call To Action button either in a specific framework or just the design comps / links where you'll look them up
+- Next week we'll start into the process of designing, developing, publishing, building, testing, everything-ing; our own CTA
+
+# Week 4: Project 1: Starting the "OMG I CAN'T BELIEVE THIS GOES INTO JUST A button", CTA button
+## Tues: Sizing up our own atom
 - Class Exercise: Shown code example, identify:
  - Lines / function calls that are "vendor specific"
  - Lines / syntax that are "library specific"
@@ -130,15 +48,7 @@ When you get a working solution to the following, post it in the edtechjoker sla
 - Future / bleeding edge capabilities (css modules just landing, json modules on the way)
 - Vanilla VS LitElement vs others, lots of examples and asking to identify platform vs convention in each
 - Discussion of syntactical sugar using jQuery as an example of LitElement using sugar vs a real convention
-## Homework
-- Reading 1: Let's Build web components (understanding the spec) - https://dev.to/bennypowers/lets-build-web-components-part-1-the-standards-3e85
-- Reading 2: How Penn State (my team) ships web components in an "unbundled" manner -- https://dev.to/btopro/part-1-how-penn-state-unbundles-web-components-for-cdn-deployments-20di
-- Find a "CTA" or Call To Action button that is for React, then Angular, then Vue, then a web component based solution.
- - What is similar in how they are built? What is duplicate effort? What is different / unique to the library / framework in question?
- - Write a blog post on dev.to about this experience, answering these questions.
 
-# Week 4: Project 1: Starting the "OMG I CAN'T BELIEVE THIS GOES INTO JUST A button", CTA button
-## Tues: Sizing up our own atom
 - Buttons are common atoms within an atomic design pattern
 - https://bradfrost.com/blog/post/atomic-web-design/ - resource for what is atomic design
 - Examples for discussion on screen
@@ -178,6 +88,7 @@ When you get a working solution to the following, post it in the edtechjoker sla
 - Build; ES versions, why different platforms need different things, why this is still a thing (yet less all the time)
 - Setting up github pages / workflow in order to do the building and serving for you
 ## Homework
+- Reading: How Penn State (my team) ships web components in an "unbundled" manner -- https://dev.to/btopro/part-1-how-penn-state-unbundles-web-components-for-cdn-deployments-20di
 - Get you group's elements distributed on NPM under your user name
 - Publish a demo for the element using github actions
 - Write a blog post about the process of going from boilerplate open-wc repo to publishing asset to NPM (this could be done via video if desired)
