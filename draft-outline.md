@@ -187,6 +187,6 @@ This MD file is subject to change. As we are building this course out based on n
 - Rendering differences and the religion of SSR vs PWA - https://mobile.twitter.com/thinkLikeADev/status/1428729216800075776/photo/1 with base source of https://developers.google.com/web/updates/2019/02/rendering-on-the-web which is like a whole class / required reading.
 
 ## Guest speakers (confirming dates)
-- Michael Potter - Red Hat front-end web developer, worked on HAXTheWeb previously, now works on [PatternFlyElements](https://patternflyelements.com/)
+- Michael Potter - Red Hat front-end web developer, worked on HAXTheWeb previously, now works on [PatternFly Elements](https://patternflyelements.com/)
 - Nikki Massaro Kauffman - HAX UX and a11y lead, my co-worker-in-crime
 - Chuck Lavera - HAX contributor, Eberly college of science
