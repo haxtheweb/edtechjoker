@@ -3,16 +3,11 @@ This MD file is subject to change. As we are building this course out based on n
 
 # Week 4: Project 1: Starting the "OMG I CAN'T BELIEVE ALL THIS GOES INTO JUST A button", CTA button
 ## Tues: Sizing up our own atom
-- Class Exercise: Shown code example, identify:
- - Lines / function calls that are "vendor specific"
- - Lines / syntax that are "library specific"
- - Lines / functions / syntax that are platform independent / VanillaJS
-- Show Drupal code and identifying platform vs vendor vs library code
-- Future / bleeding edge capabilities (css modules just landing, json modules on the way)
-- Vanilla VS LitElement vs others, lots of examples and asking to identify platform vs convention in each
-
 - Buttons are common atoms within an atomic design pattern
 - https://bradfrost.com/blog/post/atomic-web-design/ - resource for what is atomic design
+- We could talk about the process for building anything; or, we can start building and start into the project
+- This iteration will be a bit "on rails". I'll help frame discussion, considerations, expectations, etc.
+- We'll repeat the same feedback loop for a card in a few weeks with less guidance and similar expectations
 - Take 5 minutes and search for some possible buttons we can use to have the discussion. CTAs or really any button on any interface (otherwise I'll use Cantvas and no one wants that)
 - Group discussion / questions to answer:
   - What are the characteristics of the button?
@@ -23,19 +18,20 @@ This MD file is subject to change. As we are building this course out based on n
   - What properties do we have?
   - What do we call this?
 - Large group discussion with share-outs from these answers
-## Thurs: Starting to build the web componnet
+## Thurs: Starting to build the web component
 - Create a github repo for this element
-- Clone locally
+- Clone locally.
 - Run open-wc to populate repo
 - Start to apply the properties, css, html structure
 - Discussion of security consideration
 - Discussion of accessibility implications (color, tabindex)
 - Working with pair programmer / team help everyone create the element with these considerations in mind
+- Review of the project write up https://github.com/elmsln/edtechjoker/blob/master/fall-21/projects/p1-button/README.md
+- **Project 1 will be due September 30th**
 ## Homework
 - Continue to work on element
 - Get code pushed up to github repos
-- Submit repos of all teammates to slack
-- Write a blog post about considerations when building a web component (metacognition of the exercise we engaged in)
+- Write a blog post about considerations when building a web component and considerations when building the element's API (metacognition of the exercise we engaged in)
 
 # Week 5: Project 1: Critique and feedback of Button
 ## Tues: Critique / code discussion
@@ -45,7 +41,7 @@ This MD file is subject to change. As we are building this course out based on n
 - Task: Enhancement by adding support for icons
 - Using the simple-icon library, add conditional support for the button to render an icon
 - Steps: Look up on NPM. Install / add to dependencies in project, add script tag to existing, discuss conditional rendering, discuss data binding.
-## Thursday
+## Thursday - publishing, distribution
 - Let's publish, build and distribute this element
 - Publish; discussion of npm vs github distribution (preference stuff)
 - Build; ES versions, why different platforms need different things, why this is still a thing (yet less all the time)
@@ -56,8 +52,24 @@ This MD file is subject to change. As we are building this course out based on n
 - Publish a demo for the element using github actions
 - Write a blog post about the process of going from boilerplate open-wc repo to publishing asset to NPM (this could be done via video if desired)
 
-# Week 6: Project 2: Building off a comp
+# Week 6: Project 1: refinement
+## Tues
+- Another round of critique and feedback
+- More time to work with team and ask questions in class
+## Thursday Sep 30th
+- Another round of critiques and feedback as requested
+- **Project 1 is to be submitted by midnight, September 30th**
+
+# Week 7: Project 2: Building off a comp
 ## Tues / Thursday
+- Class Exercise: Shown code example, identify:
+ - Lines / function calls that are "vendor specific"
+ - Lines / syntax that are "library specific"
+ - Lines / functions / syntax that are platform independent / VanillaJS
+- Show Drupal code and identifying platform vs vendor vs library code
+- Future / bleeding edge capabilities (css modules just landing, json modules on the way)
+- Vanilla VS LitElement vs others, lots of examples and asking to identify platform vs convention in each
+
 - Let's repeat the same process from the button but now off of a real world comp
   - What are the characteristics of the card?
   - What design considerations must we take into account?
@@ -75,7 +87,7 @@ This MD file is subject to change. As we are building this course out based on n
 - The best solution will get accepted to our monorepo of elements published and used at Penn State and beyond
 - Sunday night, each team has 1 person post the links to their repos for this
 
-# Week 7: Project 2: Refinement of our card comp
+# Week 8: Project 2: Refinement of our card comp
 ## Tuesday
 - Critique / review of the cards worked on in the previous week
 - Rest of class time will be to implement the improvements and discussions that spawn off of ways of achieving the task at hand
@@ -84,7 +96,7 @@ This MD file is subject to change. As we are building this course out based on n
 - Continue working on cards in groups while I roam around or show examples of conecpts within the context of people's repos at the front
 - Final card to be submitted by Sunday night
 
-# Week 8/9/10: Project 3 - Portfolio site PWA
+# Week 9/10/11: Project 3 - Portfolio site PWA
 - Working as a team on a portfolio site
 - Come up with a basic comp for a three page portfolio site
 - This is to be worked on as a group
@@ -107,7 +119,7 @@ This MD file is subject to change. As we are building this course out based on n
 - A portfolio site that has the requirements met
 - A blog post explaining routing and lessons learned in developing the portfolio for deployment on github
 
-# Week 11/12/13: Project 4: HAXTheWeb
+# Week 12/13: Project 4: HAXTheWeb
 - The final project involves contributing to HAXTheWeb, a massive open source library of web components
 - We’ll learn what HAXTheWeb is, who’s using various pieces of it
 - How hax works. HAXschema, how it works, what it's based on, and how to wire assets up to work with it / rig demo up to use it; using the past accepted card comp and button as a basis
