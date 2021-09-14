@@ -1,50 +1,6 @@
 # Draft Syllabus
 This MD file is subject to change. As we are building this course out based on needs of our classmates, we'll occationally detour from this. This is a work in progress / general timing outline as I hope we are to achieve it.
 
-# Week 3: What makes web components special?
-## Tues (see weekly structure)
-## Thurs: Exploring other frameworks and getting team setup
-- Group activity: We need exposure to other "component" concepts but we also need to make sure we're all on the same page in contributing this semester
- - Create a github organization (1 person run point on this) with a name you all agree on. Also create a logo / use some random icon / something to identify you.
- - Add all team members to the organization
- - Pick a team member to be the starting point for repo creation (it'll make life easier) call it like github.com/`yourname`/boilerplates or something
- - Have each member (including person who made the org) fork this repo to their own github account and clone THAT to their local machine
- - **Each group member will be responsible for making commits to THEIR clone of the repo, then Pull Requesting to merge them together**
- - *Each Group member* should create a folder for *one* of the following projects in their fork and get it committed
-  - VueJS, Angular, React, StencilJS
-  - Find a hello world style boilerplate for the project you selected (Google is your friend)
-  - use yarn (or npm) to install the assets **inside of the fork of the repo**
-  - Example directory structure you should have in the end after all teammates have code PR'ed together into 1 repo
-```
-/boilerplates/
-/boilerplates/react-example
-/boilerplates/angularBoiler
-/boilerplates/VueJSGettingStarted
-/boilerplates/StencilJS-hello
-/boilerplates/README.md
-```
-### Tips
-- If you don't have everyone here, contact your teammate and assign them 1 of the projects (or if a group of 2 only do 2 of them)
-- have 1 person be a sort of "scrum master" that creates the initial org / repo that you all fork them (the scrum master also forks from the org repo)
-- you should probably have a README and .gitignore in your shared repo that you all agree upon prior to forking
-- have each teammate fork from the org's repo as the source of truth
-- This forms a backdrop to make it easier for you to do the homework / blogging for the week
-## Homework
-- Read series: Let's Build web components (understanding the spec) - https://dev.to/bennypowers/lets-build-web-components-part-1-the-standards-3e85
- - This is a very well written deep dive that might be slightly out of date or need updating in areas but is very solid
-- Read / Watch: moar-sarcasm plz: A tOtAlLy NeCeSsArY web components tutorial https://dev.to/btopro/moar-sarcasm-plz-a-totaly-necessary-web-components-tutorial-3c51
- - This is silly, but a very deep dive on APIs using VanillaJS
-- Looking at the shared repo you built in class, install the different projects and look at the boilerplates for each
-- Write a blog post on dev.to about this experience, answering these questions.
-  - What commonalities are there between the boilerplate code?
-  - What is duplicate / overlapping?
-  - Which do you think is the easiest DX (Developer eXperience) to get going?
-  - If starting to build an "app" tomorrow, which would you prefer and why?
-  - Provide a links in your post to your organization as well as the repo that you got your boilerplate from
-## Looking ahead
-- Find a "CTA" or Call To Action button either in a specific framework or just the design comps / links where you'll look them up
-- Next week we'll start into the process of designing, developing, publishing, building, testing, everything-ing; our own CTA
-
 # Week 4: Project 1: Starting the "OMG I CAN'T BELIEVE ALL THIS GOES INTO JUST A button", CTA button
 ## Tues: Sizing up our own atom
 - Class Exercise: Shown code example, identify:
@@ -54,17 +10,17 @@ This MD file is subject to change. As we are building this course out based on n
 - Show Drupal code and identifying platform vs vendor vs library code
 - Future / bleeding edge capabilities (css modules just landing, json modules on the way)
 - Vanilla VS LitElement vs others, lots of examples and asking to identify platform vs convention in each
-- Discussion of syntactical sugar using jQuery as an example of LitElement using sugar vs a real convention
 
 - Buttons are common atoms within an atomic design pattern
 - https://bradfrost.com/blog/post/atomic-web-design/ - resource for what is atomic design
-- Examples for discussion on screen
+- Take 5 minutes and search for some possible buttons we can use to have the discussion. CTAs or really any button on any interface (otherwise I'll use Cantvas and no one wants that)
 - Group discussion / questions to answer:
   - What are the characteristics of the button?
   - What design considerations must we take into account?
   - What accessibility concerns do we potentially have?
   - What security concerns do we potentially have?
-  - What "states" does this button have?
+  - What "states" does this button have? What events do we have that correspond with those?
+  - What properties do we have?
   - What do we call this?
 - Large group discussion with share-outs from these answers
 ## Thurs: Starting to build the web componnet
