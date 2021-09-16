@@ -23,21 +23,25 @@ This MD file is subject to change. As we are building this course out based on n
 - Clone locally.
 - Run open-wc to populate repo
 - Start to apply the properties, css, html structure
-- Discussion of security consideration
-- Discussion of accessibility implications (color, tabindex)
-- Working with pair programmer / team help everyone create the element with these considerations in mind
+- Mention security consideration
+- Mention accessibility implications (color, tabindex)
 - Review of the project write up https://github.com/elmsln/edtechjoker/blob/master/fall-21/projects/p1-button/README.md
 - **Project 1 will be due September 30th**
 ## Homework
 - Continue to work on element
 - Get code pushed up to github repos
-- Write a blog post about considerations when building a web component and considerations when building the element's API (metacognition of the exercise we engaged in)
+- Submit link to team repo for progress check by Monday at midnight
+ - Tues of next week I'll be critiquing code and offering suggestions / feedback for improvement
+ - Make sure that you have started on TEAMNOTES.md and what you've discussed / when you've met up.
+ - The further your along, even if it's just taking a stab at things, the more robust feedback I'll provide (the better the grade outcomes)
 
 # Week 5: Project 1: Critique and feedback of Button
 ## Tues: Critique / code discussion
 - Code critique / open code review
 - Team member has to explain the code on screen
 - Ask audience for an alternative methodology of approaching a problem
+- Looking into storybook and how it's wired up for visual documentation
+- Looking into accessibility testing / documentation on how to write tests for the repository
 - Task: Enhancement by adding support for icons
 - Using the simple-icon library, add conditional support for the button to render an icon
 - Steps: Look up on NPM. Install / add to dependencies in project, add script tag to existing, discuss conditional rendering, discuss data binding.
@@ -50,6 +54,7 @@ This MD file is subject to change. As we are building this course out based on n
 - Reading: How Penn State (my team) ships web components in an "unbundled" manner -- https://dev.to/btopro/part-1-how-penn-state-unbundles-web-components-for-cdn-deployments-20di
 - Get you group's elements distributed on NPM under your user name
 - Publish a demo for the element using github actions
+- Write a blog post about considerations when building a web component and considerations when building the element's API (metacognition of the exercise we engaged in)
 - Write a blog post about the process of going from boilerplate open-wc repo to publishing asset to NPM (this could be done via video if desired)
 
 # Week 6: Project 1: refinement
