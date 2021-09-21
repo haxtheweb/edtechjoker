@@ -1,51 +1,23 @@
 # Draft Syllabus
 This MD file is subject to change. As we are building this course out based on needs of our classmates, we'll occationally detour from this. This is a work in progress / general timing outline as I hope we are to achieve it.
 
-# Week 4: Project 1: Starting the "OMG I CAN'T BELIEVE ALL THIS GOES INTO JUST A button", CTA button
-## Tues: Sizing up our own atom
-- Buttons are common atoms within an atomic design pattern
-- https://bradfrost.com/blog/post/atomic-web-design/ - resource for what is atomic design
-- We could talk about the process for building anything; or, we can start building and start into the project
-- This iteration will be a bit "on rails". I'll help frame discussion, considerations, expectations, etc.
-- We'll repeat the same feedback loop for a card in a few weeks with less guidance and similar expectations
-- Take 5 minutes and search for some possible buttons we can use to have the discussion. CTAs or really any button on any interface (otherwise I'll use Cantvas and no one wants that)
-- Group discussion / questions to answer:
-  - What are the characteristics of the button?
-  - What design considerations must we take into account?
-  - What accessibility concerns do we potentially have?
-  - What security concerns do we potentially have?
-  - What "states" does this button have? What events do we have that correspond with those?
-  - What properties do we have?
-  - What do we call this?
-- Large group discussion with share-outs from these answers
-## Thurs: Starting to build the web component
-- Create a github repo for this element
-- Clone locally.
-- Run open-wc to populate repo
-- Start to apply the properties, css, html structure
-- Mention security consideration
-- Mention accessibility implications (color, tabindex)
-- Review of the project write up https://github.com/elmsln/edtechjoker/blob/master/fall-21/projects/p1-button/README.md
-- **Project 1 will be due September 30th**
-## Homework
-- Continue to work on element
-- Get code pushed up to github repos
-- Submit link to team repo for progress check by Monday at midnight
- - Tues of next week I'll be critiquing code and offering suggestions / feedback for improvement
- - Make sure that you have started on TEAMNOTES.md and what you've discussed / when you've met up.
- - The further your along, even if it's just taking a stab at things, the more robust feedback I'll provide (the better the grade outcomes)
-
 # Week 5: Project 1: Critique and feedback of Button
 ## Tues: Critique / code discussion
 - Code critique / open code review
-- Team member has to explain the code on screen
-- Ask audience for an alternative methodology of approaching a problem
+ - Ask audience for an alternative methodology of approaching a problem
+ - review different solutions and live debug / edit
+- Expected build; I'll demonstrate how I would approach this, live
+- Credit for attendence today:
+ - On slack I need the following added to your `TEAMNOTES.md` file in your repo:
+  - What did you learn today that you will apply
+  - What are your next steps
+  - Post link to this updated file in Slack please
+## Thursday - publishing, distribution
 - Looking into storybook and how it's wired up for visual documentation
 - Looking into accessibility testing / documentation on how to write tests for the repository
 - Task: Enhancement by adding support for icons
 - Using the simple-icon library, add conditional support for the button to render an icon
 - Steps: Look up on NPM. Install / add to dependencies in project, add script tag to existing, discuss conditional rendering, discuss data binding.
-## Thursday - publishing, distribution
 - Let's publish, build and distribute this element
 - Publish; discussion of npm vs github distribution (preference stuff)
 - Build; ES versions, why different platforms need different things, why this is still a thing (yet less all the time)
