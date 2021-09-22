@@ -45,8 +45,8 @@ We are going to make a button. A CTA button (Call to Action) may seem simple on 
 This rubric is to be applied per pair. Your team / additional pair is there for help and bouncing ideas off of.
 - Is your button well designed (subjective)? 1%
 - Is the button published to npm and able to be successfully consumed in another app (can a user run npm install YOURELEMENTNAME and get the CTA to consume)? 1%
-- Is the button documented with storybookJS docs (at least 3 example variations / all properties documented via knobs)? 1%
-- Does the button have at least 3 accessibility / functional tests? 1%
+- Is the button documented with storybookJS docs (at least 2 example variations / all properties documented via knobs)? 1%
+- Does the button have at least 2 accessibility / functional tests? 1%
 - Is the JS / functional API logical and robust? 2%
 - Is the CSS / style API logical and robust? 2%
 - Is the HTML semantic, logical, and accessible? 1%
