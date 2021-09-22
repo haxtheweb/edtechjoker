@@ -11,6 +11,7 @@ We are going to make a button. A CTA button (Call to Action) may seem simple on 
 - It should draw inspiration from existing work / comps, with supporting links, documentation, etc as to what lead to its construction
 - All group members must have commits to the CTA
 - It must be well designed (subjective)
+  - https://material.io/components/buttons#hierarchy-and-placement
   - https://medium.com/eightshapes-llc/and-you-thought-buttons-were-easy-26eb5b5c1871
 - It must have a robust API visually so that it can be styled using CSS properties, shadow parts, and attributes
   - https://developer.mozilla.org/en-US/docs/Web/CSS/::part 
