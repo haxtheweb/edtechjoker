@@ -8,17 +8,33 @@ We are going to make a button. A CTA button (Call to Action) may seem simple on 
 
 # Requirements of the button
 - each group is expected to produce a working, well documented, accessible, CTA that is published to NPM
-- All group members must have commits to the CTA
-- Documentation (via storybook) is required so we know how to use the button
-- It must be published to NPM
-- It must be well designed (subjective)
-- It must have a robust API visually so that it can be styled using CSS properties, shadow parts, and attributes
-- It must have optional support for an icon (using the simple-icons library)
-- It must have a `button`, a `a` link tag, padding, and at least 4 stateful, meaningful properties at minimum
-- It must support different states including disabled, hover / focus, active (clicked / tapped)
-- It must be accessible, navigatable via keyboard without issue and accurately color contrasted
-- It must support multiple color variations (normal, dark mode, high contrast)
 - It should draw inspiration from existing work / comps, with supporting links, documentation, etc as to what lead to its construction
+- All group members must have commits to the CTA
+- It must be well designed (subjective)
+  - https://medium.com/eightshapes-llc/and-you-thought-buttons-were-easy-26eb5b5c1871
+- It must have a robust API visually so that it can be styled using CSS properties, shadow parts, and attributes
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/::part 
+- It must have a `button` (or something acting as one), a `a` link tag (or something acting as one), padding, and at least 4 stateful, meaningful properties at minimum (title / label, link / url / href, color / dark / invert / high-contrast, icon)
+- It must have optional support for an icon (using the simple-icons library)
+- It must support different states including disabled, hover / focus, active (clicked / tapped)
+  - I recommend using `this.addEventListener` in a constructor to apply events to listen for such as `pointerenter` and `pointerleave` for knowing the mouse is over or off https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events
+  - Also you can do this with focus via `focusin` and `focusout` - https://developer.mozilla.org/en-US/docs/Web/API/Element/focusin_event
+- It must be accessible, navigatable via keyboard without issue and accurately color contrasted
+- It must support a color variation of some kind(dark mode, invert, color mode, high contrast type of **property**)
+  - It only needs 1 but it must support a variation via property so that you can call `<my-button>` and get the expected and then `<my-button dark>` and the CSS reacts to generate a "dark mode" version
+- Documentation (via storybook) is required so we know how to use the button
+  - https://storybook.js.org/ has the docs but the only file we'll be modifying is in `/stories/index.stories.js`
+  - the command run and review your storybook is `yarn run storybook`
+- It must have 2 tests that your element passes
+  - The test engine file is found in `/test/cta-button.test.js`
+  - Here's an article on how this file works https://dev.to/open-wc/testing-workflow-for-web-components-g73
+  - the command to run the tests is `yarn run test`
+- It must be **published to NPM**
+  - create an account on npmjs.com
+  - create an organization to match your github organization -- https://www.npmjs.com/org/create
+  - change the package.json file of your project to reflect this organization as `"name": "@your-organization/your-button"`
+  - mark a version number as `"version": "0.0.1"`
+  - 1 person taking the lead on code runs `npm publish` once all code is considered in the state for evaluation
  
  # Requirements of your team
 - All team members must contribute via PRs / commits to the final project
