@@ -12,32 +12,50 @@ This MD file is subject to change. As we are building this course out based on n
   - What did you learn today that you will apply
   - What are your next steps
   - Post link to this updated file in Slack please
-## Thursday - publishing, distribution
-- Looking into storybook and how it's wired up for visual documentation
-- Looking into accessibility testing / documentation on how to write tests for the repository
-- Task: Enhancement by adding support for icons
-- Using the simple-icon library, add conditional support for the button to render an icon
-- Steps: Look up on NPM. Install / add to dependencies in project, add script tag to existing, discuss conditional rendering, discuss data binding.
-- Let's publish, build and distribute this element
-- Publish; discussion of npm vs github distribution (preference stuff)
-- Build; ES versions, why different platforms need different things, why this is still a thing (yet less all the time)
-- Setting up github pages / workflow in order to do the building and serving for you
+## Thursday - adding in support for other elements
+- Using the simple-icon library to include support for icons, adding a property, and conditionally rendering based on an `icon` being set
+- Learning how to include other web components in our web component (from npmjs.com)
+- Class activity: Get code up in your repo with support for the `simple-icon` library
+  - https://webcomponents.psu.edu/styleguide/?path=/story/media-icons--simple-iconset-story - docs on icon names
+  - `yarn add @lrnwebcomponents/simple-icon` - add it to your project (must be in the correct directory for your project)
+  - import into your element:
+```js
+import "@lrnwebcomponents/simple-icon/lib/simple-icon-lite.js";
+import "@lrnwebcomponents/simple-icon/lib/simple-icons.js";
+```
+  - Now you can use a new web component! `<simple-icon-lite icon="save"></simple-icon-lite>` should add a save disk icon
+  - Now let's make a variable so that we can change the icon
+  - Now, let's add conditional rendering via Lit's ternary processing of variables ${this.icon ? html`...icon stuff` : html``}
+  - Now, let's make our demo show different options
+```html
+<you-button icon="save" title="Save"></you-button>
+<you-button icon="av:games" title="Play a game" link="https://ea.com"></you-button>
+<you-button title="No icon" link="https://youtube.com/"></you-button>
+```
+- After walking through this, I'll help as needed. Anything you don't get done on getting this working and up in the repo is for homework / your group meetings that you've been having to work on this further.
+- Friday I'll be at Starbucks on Calder from ~10am - 3pm for office hours as desired
 ## Homework
-- Reading: How Penn State (my team) ships web components in an "unbundled" manner -- https://dev.to/btopro/part-1-how-penn-state-unbundles-web-components-for-cdn-deployments-20di
-- Get you group's elements distributed on NPM under your user name
-- Publish a demo for the element using github actions
-- Write a blog post about considerations when building a web component and considerations when building the element's API (metacognition of the exercise we engaged in)
-- Write a blog post about the process of going from boilerplate open-wc repo to publishing asset to NPM (this could be done via video if desired)
+- Blog post: by Sunday 11:59; write up a blog post on the work you've done so far on your web component. Difficulties in making a button or understanding web components, and concepts you've connected / things you've learned so far in how to make a web component.
+- In your post, include a link to the state of your element / repo
+- "Community" credit is blogging (the check in as to where you are with your element)
+- "Class participation" is if your element includes the icon work that we stepped through in class together
 
 # Week 6: Project 1: refinement
-## Tues
-- Another round of critique and feedback
+## Tues -  publishing to npm and a brief review of where / how to modify accessibility tests and storybookJS files
+- I'll review, provide feedback on submissions in on time and talk about different interesting solutions / considerations as a class
+- Looking into storybook and how it's wired up for visual documentation
+- Looking into accessibility testing / documentation on how to write tests for the repository
+- Let's publish, build and distribute this element
+- Publish; discussion of npm vs github distribution (preference stuff)
 - More time to work with team and ask questions in class
 ## Thursday Sep 30th
 - Another round of critiques and feedback as requested
-- **Project 1 is to be submitted by midnight, September 30th**
+- More time in class to work
+## Homework
+- **Project 1 is to be submitted by 11:59pm, Sunday October 3rd**
 
 # Week 7: Project 2: Building off a comp
+## Tues - 
 ## Tues / Thursday
 - Class Exercise: Shown code example, identify:
  - Lines / function calls that are "vendor specific"
@@ -58,10 +76,9 @@ This MD file is subject to change. As we are building this course out based on n
 - Let's add a dev dependency on the button created in the 1st tutorial
 - Create a demo that illustrates how to use this element
 ## Homework
-- Start thinking about needs for building a personal portfolio site to publish to github
 - Keep working on your card and refining it
-- No blog post / reflection this week, just work on crushing it
-- The best solution will get accepted to our monorepo of elements published and used at Penn State and beyond
+- Reading: How Penn State (my team) ships web components in an "unbundled" manner -- https://dev.to/btopro/part-1-how-penn-state-unbundles-web-components-for-cdn-deployments-20di
+- Write a blog post about considerations when building a web component and considerations when building the element's API (metacognition of the exercise we engaged in)
 - Sunday night, each team has 1 person post the links to their repos for this
 
 # Week 8: Project 2: Refinement of our card comp
@@ -74,6 +91,12 @@ This MD file is subject to change. As we are building this course out based on n
 - Final card to be submitted by Sunday night
 
 # Week 9/10/11: Project 3 - Portfolio site PWA
+## Tues Building
+- Understanding why assets need compiled for the web and what that means
+- Starting on an "application" boilerplate in open-wc (run through init but for application this time)
+- Understanding github actions
+- Creating a github action that automatically builds our project and presents it on the gh-pages branch
+
 - Working as a team on a portfolio site
 - Come up with a basic comp for a three page portfolio site
 - This is to be worked on as a group
