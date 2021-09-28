@@ -2,7 +2,7 @@
 We are going to make a button. A CTA button (Call to Action) may seem simple on the surface but we're going to use it as a vehicle to understand the entire publish, build and distribution workflow end to end on any component.
 
 # Goals
-- Working as a team, mock up a button, end to end, the whole process + documentation + testing + accessibility + security + publishing considerations
+- Working as a team, mock up a button, end to end, the whole process + documentation + accessibility + security + publishing considerations
 - Understand publishing to npm
 - Learn the many considerations in creating this one component when apply to any component in any project
 
@@ -16,7 +16,8 @@ We are going to make a button. A CTA button (Call to Action) may seem simple on 
 - It must have a robust API visually so that it can be styled using CSS properties, shadow parts, and attributes
   - https://developer.mozilla.org/en-US/docs/Web/CSS/::part 
 - It must have a `button` (or something acting as one), a `a` link tag (or something acting as one), padding, and at least 4 stateful, meaningful properties at minimum (title / label, link / url / href, color / dark / invert / high-contrast, icon)
-- It must have optional support for an icon (using the simple-icons library)
+- It must have support for an icon (using the `@lrnwebcomponents/simple-icon` library, week 5 covers this in step by step detail)
+  - https://webcomponents.psu.edu/styleguide/?path=/story/media-icons--simple-iconset-story
 - It must support different states including disabled, hover / focus, active (clicked / tapped)
   - I recommend using `this.addEventListener` in a constructor to apply events to listen for such as `pointerenter` and `pointerleave` for knowing the mouse is over or off https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events
   - Also you can do this with focus via `focusin` and `focusout` - https://developer.mozilla.org/en-US/docs/Web/API/Element/focusin_event
@@ -26,10 +27,6 @@ We are going to make a button. A CTA button (Call to Action) may seem simple on 
 - Documentation (via storybook) is required so we know how to use the button
   - https://storybook.js.org/ has the docs but the only file we'll be modifying is in `/stories/index.stories.js`
   - the command run and review your storybook is `yarn run storybook`
-- It must have 2 tests that your element passes
-  - The test engine file is found in `/test/cta-button.test.js`
-  - Here's an article on how this file works https://dev.to/open-wc/testing-workflow-for-web-components-g73
-  - the command to run the tests is `yarn run test`
 - It must be **published to NPM**
   - create an account on npmjs.com
   - create an organization to match your github organization -- https://www.npmjs.com/org/create
@@ -63,11 +60,17 @@ This rubric is to be applied per pair. Your team / additional pair is there for 
 - Is your button well designed (subjective)? 1%
 - Is the button published to npm and able to be successfully consumed in another app (can a user run npm install YOURELEMENTNAME and get the CTA to consume)? 1%
 - Is the button documented with storybookJS docs (at least 2 example variations / all properties documented via knobs)? 1%
-- Does the button have at least 2 accessibility / functional tests? 1%
 - Is the JS / functional API logical and robust? 2%
 - Is the CSS / style API logical and robust? 2%
-- Is the HTML semantic, logical, and accessible? 1%
+- Is the HTML semantic, logical, and accessible? 2%
 - Are there team notes documenting times met up and work accomplished out of class? 1%
+
+# Bonus - up to 3%
+- Add support for a sound effect +1%
+  - example: https://github.com/elmsln/lrnwebcomponents/blob/master/elements/air-horn/src/air-horn.js#L52-L63
+- Using an IntersectionObserver, only render the internals of the element when it is vibile on the screen +1%
+  - https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API
+- Does the button have at least 2 accessibility / functional tests? 1%
 
 # Pro tips
 - Make sure to make use of office hours for additional help / feedback from TAs outside of class. This should be documented in your TEAMNOTES.md
