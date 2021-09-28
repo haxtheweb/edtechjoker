@@ -65,12 +65,12 @@ This rubric is to be applied per pair. Your team / additional pair is there for 
 - Is the HTML semantic, logical, and accessible? 2%
 - Are there team notes documenting times met up and work accomplished out of class? 1%
 
-# Bonus - up to 3%
-- Add support for a sound effect +1%
+# Bonus - up to +30% of this project (3% of overall grade)
+- Add support for a sound effect +10%
   - example: https://github.com/elmsln/lrnwebcomponents/blob/master/elements/air-horn/src/air-horn.js#L52-L63
-- Using an IntersectionObserver, only render the internals of the element when it is vibile on the screen +1%
+- Using an IntersectionObserver, only render the internals of the element when it is vibile on the screen +20%
   - https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API
-- Does the button have at least 2 accessibility / functional tests? 1%
+  - Solutions to this will help guide the class discussion of the technique
 
 # Pro tips
 - Make sure to make use of office hours for additional help / feedback from TAs outside of class. This should be documented in your TEAMNOTES.md
