@@ -70,7 +70,7 @@ This rubric is to be applied per pair. Your team / additional pair is there for 
   - example: https://github.com/elmsln/lrnwebcomponents/blob/master/elements/air-horn/src/air-horn.js#L52-L63
 - Using an IntersectionObserver, only render the internals of the element when it is vibile on the screen +20%
   - https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API
-  - Solutions to this will help guide the class discussion of the technique
+  - reading / examples : https://dev.to/btopro/intersectionobserver-based-import-5adh
 
 # Pro tips
 - Make sure to make use of office hours for additional help / feedback from TAs outside of class. This should be documented in your TEAMNOTES.md
