@@ -1,61 +1,43 @@
 # Draft Syllabus
 This MD file is subject to change. As we are building this course out based on needs of our classmates, we'll occationally detour from this. This is a work in progress / general timing outline as I hope we are to achieve it.
 
-# Week 5: Project 1: Critique and feedback of Button
-## Tues: Critique / code discussion
-- Code critique / open code review
- - Ask audience for an alternative methodology of approaching a problem
- - review different solutions and live debug / edit
-- Expected build; I'll demonstrate how I would approach this, live
-- Credit for attendence today:
- - On slack I need the following added to your `TEAMNOTES.md` file in your repo:
-  - What did you learn today that you will apply
-  - What are your next steps
-  - Post link to this updated file in Slack please
-## Thursday - adding in support for other elements
-- Using the simple-icon library to include support for icons, adding a property, and conditionally rendering based on an `icon` being set
-- Learning how to include other web components in our web component (from npmjs.com)
-- Class activity: Get code up in your repo with support for the `simple-icon` library
-  - https://webcomponents.psu.edu/styleguide/?path=/story/media-icons--simple-iconset-story - docs on icon names
-  - `yarn add @lrnwebcomponents/simple-icon` - add it to your project (must be in the correct directory for your project)
-  - import into your element:
-```js
-import "@lrnwebcomponents/simple-icon/lib/simple-icon-lite.js";
-import "@lrnwebcomponents/simple-icon/lib/simple-icons.js";
-```
-  - Now you can use a new web component! `<simple-icon-lite icon="save"></simple-icon-lite>` should add a save disk icon
-  - Now let's make a variable so that we can change the icon
-  - Now, let's add conditional rendering via Lit's ternary processing of variables ${this.icon ? html`...icon stuff` : html``}
-  - Now, let's make our demo show different options
-```html
-<you-button icon="save" title="Save"></you-button>
-<you-button icon="av:games" title="Play a game" link="https://ea.com"></you-button>
-<you-button title="No icon" link="https://youtube.com/"></you-button>
-```
-- After walking through this, I'll help as needed. Anything you don't get done on getting this working and up in the repo is for homework / your group meetings that you've been having to work on this further.
-- Friday I'll be at Starbucks on Calder from ~10am - 3pm for office hours as desired
-## Homework
-- Blog post: by Sunday 11:59; write up a blog post on the work you've done so far on your web component. Difficulties in making a button or understanding web components, and concepts you've connected / things you've learned so far in how to make a web component.
-- In your post, include a link to the state of your element / repo
-- "Community" credit is blogging (the check in as to where you are with your element)
-- "Class participation" is if your element includes the icon work that we stepped through in class together
-
 # Week 6: Project 1: refinement
-## Tues -  publishing to npm and a brief review of where / how to modify accessibility tests and storybookJS files
-- I'll review, provide feedback on submissions in on time and talk about different interesting solutions / considerations as a class
-- Looking into storybook and how it's wired up for visual documentation
-- Looking into accessibility testing / documentation on how to write tests for the repository
-- Let's publish, build and distribute this element
-- Publish; discussion of npm vs github distribution (preference stuff)
-- More time to work with team and ask questions in class
+- Bonus added to project - https://github.com/elmsln/edtechjoker/blob/master/fall-21/projects/p1-button/README.md
+## Tues -  publishing to npm and a brief review of where / how to modify storybookJS files
+- I'll provide small feedback to several projects quickly
+- I'll dig deeper on 3 different repos to demonstrate or point to a concept within each
+  - repos covered: https://github.com/btopro/invisi-button
+  - https://github.com/btopro/PenStat-CTA/tree/master/penguin-state-button
+  - A private repo
+- Pair activity / class:
+  - 1 pair stay still, the other pair move left to the next closest team
+  - DM each other / obtain a link to their repo
+  - Discuss with the other team your buttons. Explain how you've solved the button / state of your current button
+  - 15 minutes: Group that stayed demo's and explains their code
+  - 15 minutes: Group that sat down demo's and explains their code
+  - In your `TEAMNOTES.md` file...
+    - Write 2 things that are similar in your implementations
+    - Write 2 things that are different in your implementations
+    - List a code snippet or approach you plan on leveraging from their solution
+    - Post link to peer review in slack (link to the `TEAMNOTES.md` file)
+- For Thursday: Implement feedback from the conversation with the other peer group you met with
+- Office hours note: **I am sprinting Friday on a new project and will not be available. If you would like to meet up before or after class Thursday let me know.**
+
 ## Thursday Sep 30th
-- Another round of critiques and feedback as requested
-- More time in class to work
+- Another round of critiques and feedback as requested based on what's turned in between Tues and Thurs
+- Looking into storybook and how it's wired up for visual documentation
+- Let's publish and distribute this element
+- More time to work with team and ask questions in class
 ## Homework
 - **Project 1 is to be submitted by 11:59pm, Sunday October 3rd**
 
 # Week 7: Project 2: Building off a comp
-## Tues - 
+## Tues
+- Establishing the output of Project 2
+- Accessibility testing
+- "Application" vs "webcomponent" based projects
+- Looking into accessibility testing / documentation on how to write tests for the repository
+
 ## Tues / Thursday
 - Class Exercise: Shown code example, identify:
  - Lines / function calls that are "vendor specific"
