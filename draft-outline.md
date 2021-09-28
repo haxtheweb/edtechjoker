@@ -3,7 +3,7 @@ This MD file is subject to change. As we are building this course out based on n
 
 # Week 6: Project 1: refinement
 - Bonus added to project - https://github.com/elmsln/edtechjoker/blob/master/fall-21/projects/p1-button/README.md
-## Tues -  publishing to npm and a brief review of where / how to modify storybookJS files
+## Tues - additional feedback and critique
 - I'll provide small feedback to several projects quickly
 - I'll dig deeper on 3 different repos to demonstrate or point to a concept within each
   - repos covered: https://github.com/btopro/invisi-button
@@ -23,22 +23,19 @@ This MD file is subject to change. As we are building this course out based on n
 - For Thursday: Implement feedback from the conversation with the other peer group you met with
 - Office hours note: **I am sprinting Friday on a new project and will not be available. If you would like to meet up before or after class Thursday let me know.**
 
-## Thursday Sep 30th
+## Thursday Sep 30th - publishing to npm and a brief review of where / how to modify storybookJS files
 - Another round of critiques and feedback as requested based on what's turned in between Tues and Thurs
 - Looking into storybook and how it's wired up for visual documentation
 - Let's publish and distribute this element
 - More time to work with team and ask questions in class
+- Shedule office hours / DM questions before / after class
 ## Homework
 - **Project 1 is to be submitted by 11:59pm, Sunday October 3rd**
-
+- In Cantvas submit a link to your npmjs.com published package
+  - https://psu.instructure.com/courses/2143914/assignments/13377607
+  - Should be a link something of the likes of https://www.npmjs.com/package/@lrnwebcomponents/simple-icon 
 # Week 7: Project 2: Building off a comp
 ## Tues
-- Establishing the output of Project 2
-- Accessibility testing
-- "Application" vs "webcomponent" based projects
-- Looking into accessibility testing / documentation on how to write tests for the repository
-
-## Tues / Thursday
 - Class Exercise: Shown code example, identify:
  - Lines / function calls that are "vendor specific"
  - Lines / syntax that are "library specific"
@@ -46,6 +43,15 @@ This MD file is subject to change. As we are building this course out based on n
 - Show Drupal code and identifying platform vs vendor vs library code
 - Future / bleeding edge capabilities (css modules just landing, json modules on the way)
 - Vanilla VS LitElement vs others, lots of examples and asking to identify platform vs convention in each
+- Understanding Vanilla JS concepts:
+  - IntersectionObservers
+  - MutationObservers
+
+## Thursday
+- Establishing the output of Project 2
+- Accessibility testing
+- "Application" vs "webcomponent" based projects
+- Looking into accessibility testing / documentation on how to write tests for the repository
 
 - Let's repeat the same process from the button but now off of a real world comp
   - What are the characteristics of the card?
@@ -72,7 +78,7 @@ This MD file is subject to change. As we are building this course out based on n
 - Continue working on cards in groups while I roam around or show examples of conecpts within the context of people's repos at the front
 - Final card to be submitted by Sunday night
 
-# Week 9/10/11: Project 3 - Portfolio site PWA
+# Week 9/10/11: Project 3 - Portfolio site / Corporate employee listing
 ## Tues Building
 - Understanding why assets need compiled for the web and what that means
 - Starting on an "application" boilerplate in open-wc (run through init but for application this time)
