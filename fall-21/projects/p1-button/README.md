@@ -54,6 +54,25 @@ We are going to make a button. A CTA button (Call to Action) may seem simple on 
 - One person is project manager and ensures there are actionable tasks in the issue queue assigned to different team members
 - One person takes notes / is responsible for the `TEAMNOTES.md` meeting / actionable tasks formulated
 
+# NPM publishing
+- make an account on npmjs.com
+- verify your email address
+- make an organization that's the same name as your github but lowercase (do this on npm)
+- Add the other team members to the organization (1 person leads in doing this while the others get added in, like github)
+
+## Go to your project's main directory for your button
+- type `npm login` and login with your credentials / email address you entered
+- Edit the `package.json` file and make the following changes:
+- `"version"` set this to somethin like `"0.0.1"` as this will be your 1st version / a test
+- find `"name"` and change this to be something like : `"name": "@yourorganization/your-button"` where yourorganization is the one you created and your-button is the name of your tag. `@` and the `/` between org and project are required
+- Add the following to your package.json toward the bottom (making sure it's still valid json)
+```json
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  }
+```
+
 # Rubric - 10% of course grade
 * refined subject to class progression*
 This rubric is to be applied per pair. Your team / additional pair is there for help and bouncing ideas off of.
