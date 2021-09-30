@@ -72,6 +72,12 @@ We are going to make a button. A CTA button (Call to Action) may seem simple on 
     "access": "public"
   }
 ```
+## your workflow in the future..
+- make changes, commit to git as usual
+- when it's time for a "release" update the version number to be like "0.0.2" or "1.0.1" or whatever you want that is +1 from where you are
+- commit this to github
+- run `npm publish`
+- welcome to the NPM / JS ecosystem community! Now people can run `yarn add @yourorganization/your-button` to start leveraging your element in their code!
 
 # Rubric - 10% of course grade
 * refined subject to class progression*
