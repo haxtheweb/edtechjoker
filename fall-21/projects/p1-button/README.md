@@ -25,7 +25,7 @@ We are going to make a button. A CTA button (Call to Action) may seem simple on 
 - It must support a color variation of some kind(dark mode, invert, color mode, high contrast type of **property**)
   - It only needs 1 but it must support a variation via property so that you can call `<my-button>` and get the expected and then `<my-button dark>` and the CSS reacts to generate a "dark mode" version
 - Documentation (via storybook) is required so we know how to use the button
-  - https://storybook.js.org/ has the docs but the only file we'll be modifying is in `/stories/index.stories.js`
+  - https://storybook.js.org/docs/react/writing-stories/introduction has the docs but the only file we'll be modifying is in `/stories/index.stories.js`
   - the command run and review your storybook is `yarn run storybook`
 - It must be **published to NPM**
   - create an account on npmjs.com
