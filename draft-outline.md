@@ -26,8 +26,11 @@ This MD file is subject to change. As we are building this course out based on n
   - What areas do we need to account for flexible content / HTML entry of any kind?
   - Do we have room for additional reusable atoms to be produced? (there are 4 total by my count)
   - What should we call each of them?
+  - Answer these questions in the TEAMNOTES.md file for your group's fork
 ## Thursday
 - Starting to dig into the repository and what's provided (and how)
+- What is "building" a project? rollup? these words?
+- What is github actions / gh-pages and how is the project leveraging these to automate life?
 - Time will be open to start developing on the repo so that you can meet the project check-in for Sunday night
 
 ## Homework
@@ -48,12 +51,14 @@ _Below this line will be updated as we start each week so we can remain agile to
 
 # Week 8/9/10: Project 2: Refinement of our card comp
 ## Tuesday
+- Feedback and grading on Project 1 as well as bonus / top work
+- Reusing the button from our previous project in this one as a `devDependency`
 - Critique / review of the cards worked on in the previous week
 - Performance tricks / concepts:
-  - "Dynamic imports"
-  - Conditional loading of assets
-  - Conditional, dynamic imports
-  - Interaction Observers
+  - Google fonts -- https://fonts.google.com/specimen/Open+Sans for the font that is to spec of this project
+  - "Dynamic imports" and conditional, dynamic imports
+  - Conditional loading of assets (icons)
+  - IntersectionObservers (visibility of items on user screen)
   - Reading: How Penn State (my team) ships web components in an "unbundled" manner -- https://dev.to/btopro/part-1-how-penn-state-unbundles-web-components-for-cdn-deployments-20di
 - Rest of class time will be to implement the improvements and discussions that spawn off of ways of achieving the task at hand
 - cards will then be enhanced based on the feedback received
@@ -65,6 +70,7 @@ _Below this line will be updated as we start each week so we can remain agile to
 ## Tues Building
 - Concepts to cover:
   - `.map` / looping over data to visualize an external resource / repeat a list of items rapidly
+  - MutationObservers (change in DOM structure below an item)
 
 - Class Exercise: Shown code example, identify:
  - Lines / function calls that are "vendor specific"
