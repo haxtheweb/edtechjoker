@@ -13,8 +13,8 @@ Using https://github.com/elmsln/project-two as a basis, and the assets included 
 - Wiring up to HAXTheWeb (boilerplate in place, demo'ing, understanding, and modifying it)
 
 # Requirements
-- Fork https://github.com/elmsln/project-two to your ORGANIZATION
-  - **Teammates then fork off their organization**
+- "Use as a template" (fork without a history attached) https://github.com/elmsln/project-two to your ORGANIZATION
+  - **Teammates then fork off their organization's copy of the starting point**
 - Card must be built using the provided comp
 - Card must have at least 3 demonstrations of variations in the `index.html` file which serves as the demo
 - Card demo must include your previous project's `button` tag leveraged using the `slot` capabilities of the card we build out together
