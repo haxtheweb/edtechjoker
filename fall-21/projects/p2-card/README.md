@@ -71,3 +71,11 @@ Using https://github.com/elmsln/project-two as a basis, and the assets included 
   - 1 story
   - 1 test
   - 1 hax wiring
+
+# Due dates
+- Oct 10: check-in 1 due
+- Oct 17: check-in 2 due
+- Oct 24: check-in 3 due
+- Oct 31: check-in 4 due
+- November 2nd (A Tuesday): Project is due; turned into Canvas dropbox 1 per team
+  - This way we have the last class to work during and clean up questions
