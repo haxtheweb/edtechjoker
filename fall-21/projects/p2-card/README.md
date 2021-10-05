@@ -33,16 +33,16 @@ Using https://github.com/elmsln/project-two as a basis, and the assets included 
 # Rubric - 20% of overall grade
 - Final result matches the composit visually and supports all 3 variations - 2%
 - Four web components, working together, are in the repo and all work to match the comp - 4%
-- JavaScript properties match expectations of the comp and are stateful - 4%
+- JavaScript properties match expectations of the comp and are stateful - 3%
 - CSS flexibility to use ::part in each element as well as css variables - 1%
-- Correctly leverages a different base class for the top portion element - 1%
-- Elements use `slot` and slot attributes in order to provide progressive enhancement - 1%
-- 1 automated test per element, which are passed - 1%
-- 1 story per element and working storybook - 1%
-- `Teamnotes` maintained with status updates, on github, published to npm in the end - 5%
+- Correctly leverages a different base class (SimpleColors) for the top portion element - 1%
+- Elements use `slot` and named slots to allow for design flexibility - 1%
+- 1 automated test per element, which are passed - 2%
+- 1 story per element and working storybook - 2%
+- `Teamnotes` maintained with status updates, on github, published to npm in the end - 4%
 
 ## Check ins
-- Each Sunday at midnight there is a check-in on project status
+- **Each Sunday at midnight** there is a check-in on project status. This is why `teamnotes` above is listed as 4%. Each check-in will be worth 1%
 - There will be a task each week. Hitting these milestones will help keep you on pace but also ensure we have things to discuss each class
 - Much like project one, I'll be using your own examples to provide discussion and offer feedback throughout
 - These check-ins and accomplishments for the week are to be documented in your `TEAMNOTES.md` file along with other meetings your group has
