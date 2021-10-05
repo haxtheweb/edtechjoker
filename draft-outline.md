@@ -3,17 +3,19 @@ This MD file is subject to change. As we are building this course out based on n
 
 # Week 7: Project 2: Building off a comp
 ## Tues
-- Introducing Project 2
+- Introducing and re-scoping Project 2
   - What's expected
-  - "Application" vs "webcomponent" based project in open-wc
 - To clear up some setup issues, we're all going to fork from a repo that I made: https://github.com/elmsln/project-two
   - This is `npm init @open-wc` with all options selected and choosing "application"
   - This adds in some custom additions so we have a better blank canvas to work on
   - This adds in support for a HAX based demo which we'll add at the end
+  - I did a lot of documenting in what's there initially
 - Let's repeat the same process from the button but now off of a real world "comp" (composition)
 
 ### Class activity
 - Here are the assets you have for making this card: https://github.com/elmsln/edtechjoker/tree/master/fall-21/projects/p2-card
+- **FORK THIS TO YOUR GITHUB ORGANIZATION**: https://github.com/elmsln/project-two
+  - Teammates will fork off of this once it's time to dig into development
 - Time for that exercise we went through 4 weeks ago..
   - What are the characteristics of the card?
   - What design considerations must we take into account?
@@ -21,25 +23,33 @@ This MD file is subject to change. As we are building this course out based on n
   - What security concerns do we potentially have?
   - What "states" does this card have?
   - What do we call it?
+  - What areas do we need to account for flexible content / HTML entry of any kind?
   - Do we have room for additional reusable atoms to be produced? (there are 4 total by my count)
   - What should we call each of them?
 ## Thursday
-- Accessibility testing
-- Looking into accessibility testing / documentation on how to write tests for the repository
+- Starting to dig into the repository and what's provided (and how)
+- Time will be open to start developing on the repo so that you can meet the project check-in for Sunday night
 
 ## Homework
 - Write a blog post about considerations when building a web component and considerations when building the element's API (metacognition of the exercise we engaged in)
   - Blog post should include details about the comp so someone outside class could read it
   - How you are going to break it down into multiple elements
-  - What you expect to be difficult
+  - What do you expect to be difficult
   - What's more managable now that you made the button
-- Sunday by midnight - Post a link to your dev.to article
-- Keep working on your card repos
+- **Sunday by midnight - Post a link to your dev.to article**
+- Project check-in 1:
+  - Update the TEAMNOTES.md file in your team's fork of the repo
+  - Check-in 1 should document the possible names of these 4 elements, the properties they might have and additional design considerations of each
+  - Next steps should be documented as to what each team member is going to work on next
+
+***
+_Below this line will be updated as we start each week so we can remain agile to changes out of our control or to focus more on a topic_
+***
 
 # Week 8/9/10: Project 2: Refinement of our card comp
 ## Tuesday
 - Critique / review of the cards worked on in the previous week
-- Performance tricks:
+- Performance tricks / concepts:
   - "Dynamic imports"
   - Conditional loading of assets
   - Conditional, dynamic imports
@@ -53,6 +63,9 @@ This MD file is subject to change. As we are building this course out based on n
 
 # Week 11/12/13: Project 3: HAXTheWeb
 ## Tues Building
+- Concepts to cover:
+  - `.map` / looping over data to visualize an external resource / repeat a list of items rapidly
+
 - Class Exercise: Shown code example, identify:
  - Lines / function calls that are "vendor specific"
  - Lines / syntax that are "library specific"
