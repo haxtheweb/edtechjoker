@@ -1,9 +1,58 @@
 # Draft Syllabus
 This MD file is subject to change. As we are building this course out based on needs of our classmates, we'll occationally detour from this. This is a work in progress / general timing outline as I hope we are to achieve it.
 
-
 # Week 7: Project 2: Building off a comp
 ## Tues
+- Introducing Project 2
+  - What's expected
+  - "Application" vs "webcomponent" based project in open-wc
+- To clear up some setup issues, we're all going to fork from a repo that I made: https://github.com/elmsln/project-two
+  - This is `npm init @open-wc` with all options selected and choosing "application"
+  - This adds in some custom additions so we have a better blank canvas to work on
+  - This adds in support for a HAX based demo which we'll add at the end
+- Let's repeat the same process from the button but now off of a real world "comp" (composition)
+
+### Class activity
+- Here are the assets you have for making this card: https://github.com/elmsln/edtechjoker/tree/master/fall-21/projects/p2-card
+- Time for that exercise we went through 4 weeks ago..
+  - What are the characteristics of the card?
+  - What design considerations must we take into account?
+  - What accessibility concerns do we potentially have?
+  - What security concerns do we potentially have?
+  - What "states" does this card have?
+  - What do we call it?
+  - Do we have room for additional reusable atoms to be produced? (there are 4 total by my count)
+  - What should we call each of them?
+## Thursday
+- Accessibility testing
+- Looking into accessibility testing / documentation on how to write tests for the repository
+
+## Homework
+- Write a blog post about considerations when building a web component and considerations when building the element's API (metacognition of the exercise we engaged in)
+  - Blog post should include details about the comp so someone outside class could read it
+  - How you are going to break it down into multiple elements
+  - What you expect to be difficult
+  - What's more managable now that you made the button
+- Sunday by midnight - Post a link to your dev.to article
+- Keep working on your card repos
+
+# Week 8/9/10: Project 2: Refinement of our card comp
+## Tuesday
+- Critique / review of the cards worked on in the previous week
+- Performance tricks:
+  - "Dynamic imports"
+  - Conditional loading of assets
+  - Conditional, dynamic imports
+  - Interaction Observers
+  - Reading: How Penn State (my team) ships web components in an "unbundled" manner -- https://dev.to/btopro/part-1-how-penn-state-unbundles-web-components-for-cdn-deployments-20di
+- Rest of class time will be to implement the improvements and discussions that spawn off of ways of achieving the task at hand
+- cards will then be enhanced based on the feedback received
+## Thursday / Homework
+- Continue working on cards in groups while I roam around or show examples of conecpts within the context of people's repos at the front
+- Final card to be submitted by Sunday night
+
+# Week 11/12/13: Project 3: HAXTheWeb
+## Tues Building
 - Class Exercise: Shown code example, identify:
  - Lines / function calls that are "vendor specific"
  - Lines / syntax that are "library specific"
@@ -15,47 +64,6 @@ This MD file is subject to change. As we are building this course out based on n
 - Understanding Vanilla JS concepts:
   - IntersectionObservers
   - MutationObservers
-
-### Class activity
-- Let's
-
-### Blog post 1 for the week
-- Read shipping things buildless
-
-
-## Thursday
-- Establishing the output of Project 2
-- Accessibility testing
-- "Application" vs "webcomponent" based projects
-- Looking into accessibility testing / documentation on how to write tests for the repository
-
-- Let's repeat the same process from the button but now off of a real world comp
-  - What are the characteristics of the card?
-  - What design considerations must we take into account?
-  - What accessibility concerns do we potentially have?
-  - What security concerns do we potentially have?
-  - What "states" does this button have?
-  - What do we call this?
-- Let's create a new repo for this card element and import the simple-icon from the previous
-- Let's add a dev dependency on the button created in the 1st tutorial
-- Create a demo that illustrates how to use this element
-## Homework
-- Keep working on your card and refining it
-- Reading: How Penn State (my team) ships web components in an "unbundled" manner -- https://dev.to/btopro/part-1-how-penn-state-unbundles-web-components-for-cdn-deployments-20di
-- Write a blog post about considerations when building a web component and considerations when building the element's API (metacognition of the exercise we engaged in)
-- Sunday night, each team has 1 person post the links to their repos for this
-
-# Week 8: Project 2: Refinement of our card comp
-## Tuesday
-- Critique / review of the cards worked on in the previous week
-- Rest of class time will be to implement the improvements and discussions that spawn off of ways of achieving the task at hand
-- cards will then be enhanced based on the feedback received
-## Thursday / Homework
-- Continue working on cards in groups while I roam around or show examples of conecpts within the context of people's repos at the front
-- Final card to be submitted by Sunday night
-
-# Week 9/10/11: Project 3 - Portfolio site / Corporate employee listing
-## Tues Building
 - Understanding why assets need compiled for the web and what that means
 - Starting on an "application" boilerplate in open-wc (run through init but for application this time)
 - Understanding github actions
@@ -72,18 +80,6 @@ This MD file is subject to change. As we are building this course out based on n
   - Routing
   - Lit Template stamping / repeating
   - Observers
-## Each Tues of these 3 weeks
-- Feedback on progress of repos. Fielding questions. Sharing techniques, articles, and unpacking concepts
-## Each Thursday of these 3 weeks
-- Group work in class
-## Homework each of these 3 weeks
-- Work outside of class as a team
-- Sunday of each week posting a status report to slack channel
-## End of the 3 weeks
-- A portfolio site that has the requirements met
-- A blog post explaining routing and lessons learned in developing the portfolio for deployment on github
-
-# Week 12/13: Project 4: HAXTheWeb
 - The final project involves contributing to HAXTheWeb, a massive open source library of web components
 - We’ll learn what HAXTheWeb is, who’s using various pieces of it
 - How hax works. HAXschema, how it works, what it's based on, and how to wire assets up to work with it / rig demo up to use it; using the past accepted card comp and button as a basis
@@ -92,9 +88,9 @@ This MD file is subject to change. As we are building this course out based on n
 - Class time will be spent reviewing code, answering questions as a class, and doing group check ins
 
 # Week 14: Thanksgiving
-- Nothing but chillen.
+- Nothing but tur-key tags
 
-# Week 15/16: Project 4: Final feedback and open code critique
+# Week 15 & 16: Project 4: Final feedback and open code critique
 - This time will be scheduled with presentations by teams of the state of their solutions
 - Feedback will be given by fellow HAXTheWeb developers
 - This feedback is then to be used to finalize code, documentation and other aspects of the final PR
