@@ -5,14 +5,17 @@ This MD file is subject to change. As we are building this course out based on n
 ## Tues
 - Introducing and re-scoping Project 2
   - What's expected
-- To clear up some setup issues, we're all going to fork from a repo that I made: https://github.com/elmsln/project-two
+- To clear up some setup issues, all teams will start their repo using the template repo that I made: https://github.com/elmsln/project-two
   - This is `npm init @open-wc` with all options selected and choosing "application"
   - This adds in some custom additions so we have a better blank canvas to work on
   - This adds in support for a HAX based demo which we'll add at the end
   - I did a lot of documenting in what's there initially
+- After making the template (only 1 teammate does this so pick who will do it) edit the package.json file to..
+  - have the correct name that matches the eventual npm `@orgname/projectname` format
+  - modify the `git: {}` section of the package.json to match the name of your git repo (later on npm will then provide a link to easily jump to your repo)
 - Let's repeat the same process from the button but now off of a real world "comp" (composition)
 
-### Class activity
+### Class activity / participation
 - Here are the assets you have for making this card: https://github.com/elmsln/edtechjoker/tree/master/fall-21/projects/p2-card
 - **FORK THIS TO YOUR GITHUB ORGANIZATION**: https://github.com/elmsln/project-two
   - Teammates will fork off of this once it's time to dig into development
@@ -26,7 +29,7 @@ This MD file is subject to change. As we are building this course out based on n
   - What areas do we need to account for flexible content / HTML entry of any kind?
   - Do we have room for additional reusable atoms to be produced? (there are 4 total by my count)
   - What should we call each of them?
-  - Answer these questions in the TEAMNOTES.md file for your group's fork
+- Answer these questions in the TEAMNOTES.md file for your group's template and post a link in slack for participation / attendence today
 ## Thursday
 - Starting to dig into the repository and what's provided (and how)
 - What is "building" a project? rollup? these words?
