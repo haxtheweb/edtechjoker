@@ -46,6 +46,7 @@ This MD file is subject to change. As we are building this course out based on n
 - Project check-in 1:
   - Update the TEAMNOTES.md file in your team's fork of the repo
   - Check-in 1 should document the possible names of these 4 elements, the properties they might have and additional design considerations of each
+    - IF something accepts flexible HTML areas then we're talking about using `<slot>` tags. If there are MULTIPLE forms of HTML input then we need to use a "named" slot (which we'll cover next week). Be thinking about this in context of the card with things like header and sub header, card content vs header, etc
   - Next steps should be documented as to what each team member is going to work on next
 
 ***
@@ -56,6 +57,7 @@ _Below this line will be updated as we start each week so we can remain agile to
 ## Tuesday
 - Feedback and grading on Project 1 as well as bonus / top work
 - Reusing the button from our previous project in this one as a `devDependency`
+- Adding a concept: Named slots and how they render out
 - Critique / review of the cards worked on in the previous week
 - Performance tricks / concepts:
   - Google fonts -- https://fonts.google.com/specimen/Open+Sans for the font that is to spec of this project
