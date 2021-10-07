@@ -34,6 +34,9 @@ This MD file is subject to change. As we are building this course out based on n
 - Starting to dig into the repository and what's provided (and how)
 - What is "building" a project? rollup? these words?
 - What is github actions / gh-pages and how is the project leveraging these to automate life?
+- What are "Named slots" / what do `<slot>` tags offer us design flexibility wise?
+- Adding another element to our "app" (the real different between a single brick and a application; multiple elements)
+- https://open-ui.org/components/card.research -- A useful resource in general, but specifically when thinking about naming things
 - Time will be open to start developing on the repo so that you can meet the project check-in for Sunday night
 
 ## Homework
