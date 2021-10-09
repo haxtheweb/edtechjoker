@@ -34,9 +34,22 @@
               // team 4
               // I hate the name of this repo
               // index.js appears screwed up / modified from default
+              //     this.addEventListener = 'CTAButton'; is not correct
+              // render function has div wrapping a but the div tag is closed before the a tag
+              // so the order is <div><a></div></a> which is invalid -.25
+              // this template issue makes the button not render correctly
+              // a: active needs to be a:active -.25
+              // there's something weird like you used a windows machine after
+              // copying from some place else so I had to replace all "space" characters with a real space. I don't know why this happened
+              // disabled state listed but not implemented -.25
+              // "play" state listed but not implemented -.25
+              // no storybooks listed beyond the default -1
+              // no additional demonstrations of the button in demo file -1
+              // 7/10
+
               import { FphhbuttonfpHhButton } from '@ist-402-group-1/fphhbutton/src/FphhbuttonfpHhButton.js';
               window.customElements.define('fphhbuttonfp-hh-button', FphhbuttonfpHhButton);
-
+              // 
               import "@ist-402-group-1/kmbtn/anything-under-the-sun.js";
             </script>
             <fphhbuttonfp-hh-button></fphhbuttonfp-hh-button>
@@ -45,7 +58,9 @@
             <script type="module">
               // team 5
               // has a console.log that outputs on connection
+              // new.png / default value needs to use the import.meta.url concept in the original example
               import "@penstat2/penguin-state-button/penguin-state-button.js";
+              // login.png / yay.png images need to use the URL function or they won't render
               import "@penstat2/penguin-button/penguin-button.js";
             </script>
             <penguin-state-button></penguin-state-button>
@@ -56,7 +71,7 @@
               // very confusing name vs tag that it has :)
               import '@ist402groupf/cta-button/shop-cta.js';
             </script>
-            <cta-button></cta-button>
+            <shop-cta></shop-cta>
 
             <script type="module">
               // team 7
@@ -73,7 +88,7 @@
               window.customElements.define('cta-button-paddyshub', paddyshub);
               import "@paddyshub/button-tag/button-tag.js";
             </script>
-            <cta-button></cta-button>
+            <cta-button-paddyshub></cta-button-paddyshub>
             <button-tag></button-tag>
 
             <script type="module">
@@ -83,13 +98,15 @@
               import { CtaButton as runtimeerrorsmadeeasy2 } from '@runtimeerrorsmadeeasy/ctabutton/src/CtaButton.js';
               window.customElements.define('cta-button-runtimeerrorsmadeeasy2', runtimeerrorsmadeeasy2);
             </script>
-            <cta-button></cta-button>
-            <ctabutton></ctabutton>
+            <cta-button-runtimeerrorsmadeeasy1></cta-button-runtimeerrorsmadeeasy1>
+            <cta-button-runtimeerrorsmadeeasy2></cta-button-runtimeerrorsmadeeasy2>
 
             <script type="module">
               // team 10
               import '@ist402group19j/cta-button/cta-btn.js';
-              // syntax error on initial install -1
+              
+              // syntax error on initial install -.5
+              // original counter code is still in place and rendered -.5
               /**
                * static get properties() {
                   return {
@@ -101,7 +118,7 @@
               **/
               import "j-btn/j-btn.js";
             </script>
-            <cta-button></cta-button>
+            <cta-btn></cta-btn>
             <j-btn></j-btn>
 
             <script type="module">
