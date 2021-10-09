@@ -1,0 +1,103 @@
+{
+    "name": "all-fa21-btns",
+    "description": "Webcomponents of all submissions for project 1",
+    "license": "Apache-2.0",
+    "author": "btopro",
+    "version": "0.0.1",
+    "scripts": {
+        "lint": "eslint --ext .js,.html . --ignore-path .gitignore && prettier \"**/*.js\" --check --ignore-path .gitignore",
+        "format": "eslint --ext .js,.html . --fix --ignore-path .gitignore && prettier \"**/*.js\" --write --ignore-path .gitignore",
+        "test": "web-test-runner --coverage",
+        "test:watch": "web-test-runner --watch",
+        "storybook": "npm run analyze -- --exclude dist && web-dev-server -c .storybook/server.mjs",
+        "storybook:build": "npm run analyze -- --exclude dist && build-storybook",
+        "build": "rimraf dist && rollup -c rollup.config.js && npm run analyze -- --exclude dist",
+        "start:build": "web-dev-server --root-dir dist --app-index index.html --open",
+        "analyze": "cem analyze --litelement",
+        "start": "web-dev-server"
+      },
+    "dependencies": {
+        "@table-in-the-corner/invisi-button-group1a": "^0.0.1",
+        "@table-in-the-corner/invisi-button": "^0.0.3",
+        "@3b4b/circle-button-ad": "^0.0.3",
+        "@3b4b/circle-button-fj": "^0.0.1",
+        "@thekodingkrab/animated-button": "^0.0.1",
+        "@thekodingkrab/cta-button": "^0.0.1",
+        "@ist-402-group-1/fphhbutton": "^0.0.1",
+        "@ist-402-group-1/kmbtn": "^0.0.1",
+        "@penstat2/penguin-state-button": "^0.0.2",
+        "@penstat2/penguin-button": "^0.0.1",
+        "@ist402groupf/cta-button": "^0.0.1",
+        "@viable-slime/the-easy-button": "^0.0.2",
+        "@viable-slime/hello-button": "^0.0.1",
+        "@paddyshub/cta-button": "^0.0.1",
+        "@paddyshub/button-tag": "^0.0.1",
+        "@runtimeerrorsmadeeasy/cta-button": "^0.0.3",
+        "@runtimeerrorsmadeeasy/ctabutton": "^1.0.0",
+        "@ist402group19j/cta-button": "^1.0.0",
+        "j-btn": "^0.0.0",
+        "@ist402/dld-btn": "^0.0.1"
+    },
+    "devDependencies": {
+      "@babel/preset-env": "^7.15.6",
+      "@custom-elements-manifest/analyzer": "^0.4.17",
+      "@open-wc/building-rollup": "^1.10.0",
+      "@open-wc/eslint-config": "^4.3.0",
+      "@open-wc/testing": "next",
+      "@rollup/plugin-babel": "^5.3.0",
+      "@rollup/plugin-node-resolve": "^13.0.5",
+      "@web/dev-server": "^0.1.24",
+      "@web/dev-server-storybook": "next",
+      "@web/rollup-plugin-html": "^1.10.1",
+      "@web/rollup-plugin-import-meta-assets": "^1.0.7",
+      "@web/test-runner": "^0.13.18",
+      "babel-plugin-template-html-minifier": "^4.1.0",
+      "deepmerge": "^4.2.2",
+      "eslint": "^7.32.0",
+      "eslint-config-prettier": "^8.3.0",
+      "husky": "^4.3.8",
+      "lint-staged": "^10.5.4",
+      "prettier": "^2.4.1",
+      "rimraf": "^3.0.2",
+      "rollup": "^2.58.0",
+      "rollup-plugin-terser": "^7.0.2",
+      "rollup-plugin-workbox": "^6.2.0",
+      "@lrnwebcomponents/h-a-x": "^4.0.3",
+      "@lrnwebcomponents/grid-plate": "^4.0.1",
+      "@lrnwebcomponents/wikipedia-query": "^4.0.1",
+      "@lrnwebcomponents/meme-maker": "^4.0.1",
+      "@lrnwebcomponents/deduping-fix": "^4.0.0",
+      "web-animations-js": "2.3.2",
+      "@webcomponents/webcomponentsjs": "2.6.0"
+    },
+    "keywords": [
+      "web-components",
+      "html"
+    ],
+    "eslintConfig": {
+      "extends": [
+        "@open-wc",
+        "prettier"
+      ]
+    },
+    "prettier": {
+      "singleQuote": true,
+      "arrowParens": "avoid"
+    },
+    "husky": {
+      "hooks": {
+        "pre-commit": "lint-staged"
+      }
+    },
+    "lint-staged": {
+      "*.js": [
+        "eslint --fix",
+        "prettier --write"
+      ]
+    },
+    "private": false,
+    "publishConfig": {
+      "access": "public"
+    },
+    "customElements": "custom-elements.json"
+}
