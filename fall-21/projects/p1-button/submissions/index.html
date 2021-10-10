@@ -6,8 +6,19 @@
         <div>
             <script type="module">
               // team 1
+              // 
+              // Overall feedback
+              //
+              // Detailed feedback
+              //
               import { InvisiButton } from "@table-in-the-corner/invisi-button-group1a/src/InvisiButton.js";
               window.customElements.define('invisi-button-group1a', InvisiButton);
+
+              // 
+              // Overall feedback
+              //
+              // Detailed feedback
+              //
               import "@table-in-the-corner/invisi-button/invisi-button.js";
             </script>
             <invisi-button-group1a></invisi-button-group1a>
@@ -15,7 +26,18 @@
 
             <script type="module">
               // team 2
+              // 
+              // Overall feedback
+              //
+              // Detailed feedback
+              //
               import "@3b4b/circle-button-ad/circle-button-ad.js";
+
+              // 
+              // Overall feedback
+              //
+              // Detailed feedback
+              //
               import "@3b4b/circle-button-fj/circle-button-fj.js";
             </script>
             <circle-button-ad></circle-button-ad>
@@ -23,7 +45,18 @@
 
             <script type="module">
               // team 3
+              // 
+              // Overall feedback
+              //
+              // Detailed feedback
+              //
               import "@thekodingkrab/animated-button/animated-button.js";
+
+              // 
+              // Overall feedback
+              //
+              // Detailed feedback
+              //
               import { CtaButton as thekodingkrab} from '@thekodingkrab/cta-button/src/CtaButton.js';
               window.customElements.define('cta-button-thekodingkrab', thekodingkrab);
             </script>
@@ -32,7 +65,17 @@
 
             <script type="module">
               // team 4
-              // I hate the name of this repo
+              // 7/10
+              // overall feedback:
+              // Overall it looks like you tried reverse engineering some examples from
+              // class and got parts of concepts. This is a good first try at an element
+              // but look to some of the other examples classmates have generated as we
+              // go along. I also had to replace a lot of odd spacing characters to
+              // get this project to load correctly so the element as published in non-functioning
+              // without fixing whatever weird UTF-8 / windows copy paste thing is going on
+              // try to stick to only working in VS Code
+              // detailed feedback:
+              // I hate the name of this repo :)
               // index.js appears screwed up / modified from default
               //     this.addEventListener = 'CTAButton'; is not correct
               // render function has div wrapping a but the div tag is closed before the a tag
@@ -45,11 +88,18 @@
               // "play" state listed but not implemented -.25
               // no storybooks listed beyond the default -1
               // no additional demonstrations of the button in demo file -1
-              // 7/10
-
               import { FphhbuttonfpHhButton } from '@ist-402-group-1/fphhbutton/src/FphhbuttonfpHhButton.js';
               window.customElements.define('fphhbuttonfp-hh-button', FphhbuttonfpHhButton);
-              // 
+
+              // Overall feedback:
+              // 11.25/10 🏆
+              // Detailed feedback:
+              // I hate the name of this tag. It tells me nothing about what it's going to do.
+              // Great usage of statefulness between data properties in the element
+              // and CSS styling.
+              // implemented sound, and a clever solution to implement multiple at random +1.25
+              // I see you took a lot of my feedback from class into account in final implementation
+              // Good job implementing everything in the demo space
               import "@ist-402-group-1/kmbtn/anything-under-the-sun.js";
             </script>
             <fphhbuttonfp-hh-button></fphhbuttonfp-hh-button>
@@ -57,10 +107,53 @@
 
             <script type="module">
               // team 5
+              // 13/10 - 🏆🏒
+              // overall: Really went over the top here. It's questionable if a penguins
+              // button is actually well designed given how ridiculous a use-case it is; 
+              // however, this is an incredibly detailed, flexible, sophisticated integration
+              // that would be a good way of communicating around for an interview in the space.
+              // While ridiculous which could play to personality, the technical underpinning
+              // illustrate mastery of the concepts as you jokingly mix them together.
+              // Try to up your game stylistically for the card project to ensure accuracy
+              // and also look for simplier ways of achieving css -> variable -> data change
+              // as opposed to forcibly setting styles when JS variable states change
+              // https://www.youtube.com/watch?v=2OA07WTrD8M
+              // I also appreciate that both you and your other pair did different implementations
+              // for this element to illustrate that you all comprehended this.
+
+              // Detail feedback:
               // has a console.log that outputs on connection
               // new.png / default value needs to use the import.meta.url concept in the original example
+              // we'll be using this as a demonstration in class
+              // +3 for bonus on all fronts
+              // elite level shit here gang
+              // color variable stuff is weird but interesting
+              // disabledChange works but could be solved with css :host([disabled]) button
+              // or <button ?disabled="${this.disabled}"> which could then have CSS applied
+              // directly to it. Your solution works, it's just a bit of a meaningless "CSS IN JS" problem
               import "@penstat2/penguin-state-button/penguin-state-button.js";
+
+              // 11.9/10 - 🏆
+              // overall: Great work with a silly use-case. Lots of variety in properties
+              // all correctly typed and implemented in the storybook / demo effectively
+              // the color only on icon and no flexibility in icon feel like accounting for
+              // the ridiculously silly use-case selected but still execellent example element.
+              // I also appreciate that both you and your other pair did different implementations
+              // for this element to illustrate that you all comprehended this.
+              
+              // detail feedback:
               // login.png / yay.png images need to use the URL function or they won't render
+              // example: new URL("../images/whatever.png", import.meta.url).href;
+              // this way when others consume your element, their tooling will know where
+              // the penguin is even if they load it in an app like whatever.com/project
+              // +2 bonus for using intersection observer
+              // love the disable / invert / hover states. great job with these; CLEAN implementation
+              // css variable wrong color: var('--penguin-button-text-color'); no '' around it -.1
+              // should just be color: var(--penguin-button-text-color);
+              // icon based method could have allowed for changing the icon based on string value
+              // nice job on the demo being able to scroll down
+              // colorTxt is a little weird but functional
+              // this works, but is weird -- linkFocus: { type: String, reflect: true, attribute: 'link-target' },
               import "@penstat2/penguin-button/penguin-button.js";
             </script>
             <penguin-state-button></penguin-state-button>
@@ -68,15 +161,32 @@
 
             <script type="module">
               // team 6 - 3 ppl
-              // very confusing name vs tag that it has :)
+              // 
+              // Overall feedback
+              //
+              // Detailed feedback
+              // very confusing name vs tag that it has. make sure that repo name
+              // aligns with package name aligns with code expectations of person using it
+              // think "How would someone consuming this know what to do with it"
+              //
               import '@ist402groupf/cta-button/shop-cta.js';
             </script>
             <shop-cta></shop-cta>
 
             <script type="module">
               // team 7
-              // another confusing repo vs name
+              // 
+              // Overall feedback
+              //
+              // Detailed feedback
+              // another confusing repo vs name. Make sure it's easy-button as repo
+              // and element name for a more accurate user expectation
               import "@viable-slime/the-easy-button/easy-button.js";
+
+              // 
+              // Overall feedback
+              //
+              // Detailed feedback
               import "@viable-slime/hello-button/hello-button.js";
             </script>
             <easy-button></easy-button>
@@ -84,7 +194,16 @@
 
             <script type="module">
               // team 8
+              // 
+              // Overall feedback
+              //
+              // Detailed feedback
               import { CtaButton as paddyshub } from '@paddyshub/cta-button/src/CtaButton.js';
+              
+              // 
+              // Overall feedback
+              //
+              // Detailed feedback
               window.customElements.define('cta-button-paddyshub', paddyshub);
               import "@paddyshub/button-tag/button-tag.js";
             </script>
@@ -93,8 +212,17 @@
 
             <script type="module">
               // team 9
+              // 
+              // Overall feedback
+              //
+              // Detailed feedback
               import { CtaButton as runtimeerrorsmadeeasy1 } from '@runtimeerrorsmadeeasy/cta-button/src/CtaButton.js';
               window.customElements.define('cta-button-runtimeerrorsmadeeasy1', runtimeerrorsmadeeasy1);
+              
+              // 
+              // Overall feedback
+              //
+              // Detailed feedback
               import { CtaButton as runtimeerrorsmadeeasy2 } from '@runtimeerrorsmadeeasy/ctabutton/src/CtaButton.js';
               window.customElements.define('cta-button-runtimeerrorsmadeeasy2', runtimeerrorsmadeeasy2);
             </script>
@@ -103,8 +231,18 @@
 
             <script type="module">
               // team 10
+              // 
+              // Overall feedback
+              //
+              // Detailed feedback
+              // repo name of cta-button and tag name of cta-btn is confusing for people
+              // who would use this (as well as you when you go to use it in the future)
               import '@ist402group19j/cta-button/cta-btn.js';
               
+              // 
+              // Overall feedback
+              //
+              // Detailed feedback
               // syntax error on initial install -.5
               // original counter code is still in place and rendered -.5
               /**
@@ -123,6 +261,10 @@
 
             <script type="module">
               // team 11 - 2ppl
+              // 
+              // Overall feedback
+              //
+              // Detailed feedback
               import "@ist402/dld-btn/dld-btn.js";
             </script>
             <dld-btn></dld-btn>
