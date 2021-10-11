@@ -13,11 +13,15 @@ This MD file is subject to change. As we are building this course out based on n
 # Week 8: Skill building and more card comp work
 ## Tues
 - Feedback and grading on Project 1 as well as bonus / top work
+- Feedback from survey:
+  - Dates updated in canvas for all due dates w/ future submissions having a place holder as well
+  - Project 2 will have a lot more group share outs and code reviews of everyone's work
+  - Rule of a responsive studio style course: If you submit work for review between tues-thurs and it's a good example, I'll at least give you feedback if not spend time in class illustrating what else you could do.
+  - JS tutorials / fundamentals; this has just about everything you'll ever want for fundamentals https://javascript.info/
+- Additional tip per this project: Start making 1 element as far as HTML / CSS. Then break it up into different smaller pieces.
 - Performance optimization techniques
   - IntersectionObserver bonus from project 1
-  - Conditional rendering
   - Dynamic `import()` and conditionally using them
-
 - Time to start working together
 
 ## Homework
