@@ -20,23 +20,53 @@ This MD file is subject to change. As we are building this course out based on n
   - JS tutorials / fundamentals; this has just about everything you'll ever want for fundamentals https://javascript.info/
 - Additional tip per this project: Start making 1 element as far as HTML / CSS. Then break it up into different smaller pieces.
 - Performance optimization techniques
-  - IntersectionObserver bonus from project 1
+  - IntersectionObserver bonus from project 1 (useful in your overarching element)
   - Dynamic `import()` and conditionally using them
+  - be thinking: What could I add to my card that would help with performance optimization?
 - Time to start working together
+- **Attendence**
 
 ## Homework
-For class Thursday, read/watch this series I contribue to on advanced performance techniques: https://dev.to/btopro/lazy-web-components-the-book-278m
+For class Thursday, read the following:
+- https://hacks.mozilla.org/2021/10/lots-to-see-in-firefox-93/ - This is when you see people saying "Use the platform". What can we learn about what "the platform" supports as a result of these release notes?
+- read/watch this series I contribue to on advanced performance techniques: https://dev.to/btopro/lazy-web-components-the-book-278m
 
 ## Thursday
+- Brief discussion of articles read between classes
+- new skill : SimpleColors - using a different baseClass for the banner / header element (part of requirements)
+  - Documentation: https://webcomponents.psu.edu/styleguide/?path=/story/colors-simple-colors--simple-colors-story
+  - NPM package to add / install: @lrnwebcomponents/simple-colors
+  - Background reading / refresh: Class Inheritence - https://javascript.info/class-inheritance
+  - Example implementing this for a similar purpose: https://codepen.io/btopro/pen/yLNmVbw - note the `self-check` element
+  - npm package if interested in picking apart: `@lrnwebcomponent/self-check`
+  - Source: https://github.com/elmsln/lrnwebcomponents/blob/master/elements/self-check/src/self-check.js#L126-L129
 - Class activity to gain insight into each other's cards / progression / thinking
-- Bringing findings back to your group
+  - 3 members of each group get up and sit in another group without overlapping
+- **Class Participation** - expand your TEAMNOTES with insights gained from the activity / day:
+  - What did you take away from the portion of class about implementing SimpleColors?
+  - What did you learn from other groups?
+  - What are your next steps?
 
 ## Homework
-- Project Check-in 2 is due Sunday at midnight and I want to see the following
-- your card's icon should have a basic API to render the icon based on having the correct name leveraged
-- your card's header / banner element should have a basic API supporting two named slots and implementing your icon
-- Your icon definition should be dynamically imported in the `constructor` or `firstUpdated` life-cycle of the header / banner element (reading and examples before should help inform this)
+- Project **Check-in 2 is due Sunday at midnight** and I want to see the following:
+  - your card's icon should have a basic API to render the icon based on having the correct name leveraged
+  - your card's header / banner element should have a basic API supporting two named slots and implementing your icon
+  - Your icon definition should be dynamically imported in the `constructor` or `firstUpdated` life-cycle of the header / banner element (reading and examples before should help inform this)
 
+# Week 9: Refinement and skill building
+## Tuesday
+- Feedback / walkthrough of some classmates code submissions from check in 2
+- Guest code walk through: **Chuck Lavera** from Eberly College of Science with his solution to the card from the comps
+  - Make sure to stop and ask questions if you don't understand something he's presenting
+- Group activity / participation:
+  - Add to TEAMNOTES what you learned from the example Chuck presented.
+  - What approaches can you leverage from his example to enhance your team's element?
+  - How could you take his approach and envision a more flexible version?
+  - What are your next steps?
+
+## Thursday
+- 
+- 
 ***
 _Below this line will be updated as we start each week so we can remain agile to changes out of our control or to focus more on a topic_
 ***
@@ -48,8 +78,6 @@ _Below this line will be updated as we start each week so we can remain agile to
 - Critique / review of the cards worked on in the previous week
 - Performance tricks / concepts:
   - Google fonts -- https://fonts.google.com/specimen/Open+Sans for the font that is to spec of this project
-  - "Dynamic imports" and conditional, dynamic imports
-  - Conditional loading of assets (icons)
   - Reading: How Penn State (my team) ships web components in an "unbundled" manner -- https://dev.to/btopro/part-1-how-penn-state-unbundles-web-components-for-cdn-deployments-20di
 - Rest of class time will be to implement the improvements and discussions that spawn off of ways of achieving the task at hand
 - cards will then be enhanced based on the feedback received
