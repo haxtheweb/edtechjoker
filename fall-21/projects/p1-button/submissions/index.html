@@ -3,66 +3,162 @@
         <title>All submissions</title>
     </head>
     <body>
-        <div>
+        <div>  
+          <script>
+          window.process = window.process || {
+            env: {
+              NODE_ENV: "production"
+            }
+          };
+        </script>
+        <style>
+          body {
+            background-color: #AAAAAA;
+          }
+        </style>
+        <script src="../../../node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>    
+        <script src="../../../node_modules/@lrnwebcomponents/deduping-fix/deduping-fix.js"></script>
+        <script src="../../../node_modules/web-animations-js/web-animations-next-lite.min.js"></script>
             <script type="module">
               // team 1
-              // 
+              // 10.5/10
               // Overall feedback
-              //
+              // A reusable, well designed, simple button. Icon spin is a bit odd if used
+              // but otherwise this could be used on just about any website. Nice work.
               // Detailed feedback
-              //
+              // Sound plays but cuts off bc of changing link +.5
+              // well developed CSS for button though animated icon spin is odd looking
+              // as it fully rotates.
+              // good simple API for properties and styles via CSS vars and even leaving part behind for styling
+              // good alignment of focus / hover states
+              // <a with role="button" isn't needed as has button (if lacking button). Not hurting but not needed
               import { InvisiButton } from "@table-in-the-corner/invisi-button-group1a/src/InvisiButton.js";
               window.customElements.define('invisi-button-group1a', InvisiButton);
 
-              // 
+              // 11/10 🏆🎨 - Best Designed and most real world example
               // Overall feedback
-              //
+              // Very well designed and highly reusable button that could be used
+              // on just about any website. Attractive, simple, and well developed API.
+              // Excellent work.
               // Detailed feedback
-              //
+              // great use of CSS variables
+              // love the rotating icon on the button and alignment of focus vs hover states
+              // ...super.properties, not needed unless inheritting from a base class that supplies properties
+              // static get tag usage would require the invisi-button.js file to have this instead:
+              // window.customElements.define(InvisiButton.tag, InvisiButton);
+              // plays sound and it's not terrible ;) +1
+              // remove <br /> at end of render call
+              // id="button-id" not used or needed
+              // <a with role="button" isn't needed as has button (if lacking button). Not hurting but not needed
+              // nice job leaving behind the "part" as a backdoor to edit deeper styles
               import "@table-in-the-corner/invisi-button/invisi-button.js";
             </script>
-            <invisi-button-group1a></invisi-button-group1a>
-            <invisi-button></invisi-button>
-
+            <invisi-button-group1a title="Dark Mode" dark></invisi-button-group1a>
+            <invisi-button-group1a title="Disabled" disabled icon="block"></invisi-button-group1a>
+            <invisi-button-group1a icon="chevron-right" title="Join Now" link="https://teuxdeux.com/"></invisi-button-group1a>
+            <invisi-button title="Disabled" disabled>
+            </invisi-button>
+            <invisi-button title="Dark Theme" dark>
+            </invisi-button>
             <script type="module">
               // team 2
-              // 
+              
+              // 11.25/10
               // Overall feedback
-              //
+              // This has some extremely interesting ways of achieving things inside it
+              // while a full width display block element that's only a circle in actuality, is a bit odd
+              // this can be fixed easily with some more investment. Keep going as this has some very
+              // impressive features
               // Detailed feedback
-              //
+              // sound works and is a nice implementation to ship code +1
+              // disabled is set in an interesting way via template for button
+              // but via querySelector in the <a>. a:disabled I assume is why you did this
+              // but it's overkill. Could also do :host([disabled]) a {} in order to do CSS targetting
+              // while still achieving the a11y needs of the button being disabled and the <a> having tabindex -1
+              // interesting usage of a key press to blur; never seen that before and not wrong but interesting
+              // reflect and attribute not neeed on this bc it's the same:  title: { type: String, attribute: 'title', reflect: true },
+              // link and icon dont need htis value assigned either since they match the name already
+              // I've never see this state for css but cool: button:enabled:active
+              // https://stackoverflow.com/questions/12591966/html-disabled-button-getting-active-css-pseudo-class
+              // +.25 for teaching me something I never knew
+              // button::before I'm going to have to ask you about how this intrinsic ratio works
+              // again, teaching me something I never knew +.25
+              // taking up whole line yet rendering as circle; issue most visible in dark mode -.25
+              // audio can't be disabled unless programatically, which is fine
+              // but <circle-button-ad audio> will be redundant by default
               import "@3b4b/circle-button-ad/circle-button-ad.js";
 
-              // 
+              // 10.75/10
               // Overall feedback
-              //
+              // A small design that could break with certain types of content
+              // added to it. Illustrates states well and has some minor CSS issues
+              // that with clean up would make this a very solid, simple button
+              // for use on a club or landing page to get more info.
               // Detailed feedback
-              //
+              // description should probably be a slot for flexible input
+              // nice usage of events in audio to open AFTER playing sound
+              // plays sound effect +1
+              // solid properties list all implemented correctly
+              // css variable names should be more verbose for scoping potentially
+              // font-color variable but font isn't. maybe consider leaving parts behind part="button-face"
+              // area of focus when tabbing is not the whole button but a small square
+              // as well as some other odd visual things like clicking makes it slightly larger -.25
+              // has stories implemented w/ props
               import "@3b4b/circle-button-fj/circle-button-fj.js";
             </script>
-            <circle-button-ad></circle-button-ad>
-            <circle-button-fj></circle-button-fj>
-
+            <circle-button-ad dark></circle-button-ad>
+            <circle-button-ad disabled="true">abcd</circle-button-ad>
+            <circle-button-ad dark disabled="true"></circle-button-ad>
+            <circle-button-fj title="HMM..." link="https://www.psu.edu" description="What's next?"></circle-button-fj>
+            <br><br><circle-button-fj title="YES" link="https://www.psu.edu" description= "Take me there!"></circle-button-fj>
+            <br><br><circle-button-fj dark=true></circle-button-fj>
+            <br><br><circle-button-fj contrast=true></circle-button-fj>
+            <br><br><circle-button-fj disabled title="I'm disabled"></circle-button-fj>
+          
             <script type="module">
               // team 3
-              // 
+
+              // 11/10 🏆 - another solid, real world type button
               // Overall feedback
-              //
+              // A very simple and effective button. Maybe have defaults a bit less sunny
+              // but that's pretty mild of an issue. I can tell both pairs here worked
+              // off each other to produce similar yet different designs. Great work.
               // Detailed feedback
-              //
+              // good use of CSS variables
+              // take out accentColor and counter boilerplates
+              // nice progressive enhancement capabilities for <a> but implement them in the demo
+              // interesting chaining of multiple event callbacks; I didn't know this was possible
+              // buttonState is a weird name for "disabled" status. use disabled and reflect it
+              // disabled: { type: Boolean, reflect: true }
+              // sound plays +1
+              // slotted content is referenced in the storybook but not implemented, add <slot> in the future for most elements
               import "@thekodingkrab/animated-button/animated-button.js";
 
-              // 
+              // 11/10 🏆 - 2nd most realistic to real world scenario.
               // Overall feedback
-              //
+              // A good, simple design that's implemented effectively.
+              // Next time maybe add slot and try align states but otherwise
+              // this is a near flawless, highly reusable button. I can tell both pairs here worked
+              // off each other to produce similar yet different designs. Great work.
               // Detailed feedback
-              //
+              // nice complexity in the demo to show integration of disabled state
+              // nice use of CSS variables, property reflection and states
+              // good job taking into account feedback for names of properties
+              // default values for title2,3,4 are not needed and accentColor not used
+              // focus and hover state not aligned which is fine but not user expectation
+              // good job playing sound on event +1
+              // cool having multiple icons; try allowing for <slot> next time
+              // good storybookwiring
+              // solid accessibility settings
               import { CtaButton as thekodingkrab} from '@thekodingkrab/cta-button/src/CtaButton.js';
               window.customElements.define('cta-button-thekodingkrab', thekodingkrab);
             </script>
-            <animated-button></animated-button>
-            <cta-button-thekodingkrab></cta-button-thekodingkrab>
-
+  <animated-button title="Happy" icon="social:mood" link="https://media2.giphy.com/media/XR9Dp54ZC4dji/giphy.gif?cid=ecf05e47o5vim8pq324crq7m0rr5dxphpo2agsyiwv4vsyva&rid=giphy.gif&ct=g"></animated-button>
+  <br>
+  <animated-button title="Annoyed" icon="social:sentiment-neutral" link="https://media4.giphy.com/media/5LU6ZcEGBbhVS/giphy.gif?cid=ecf05e47itmroqmkv07aygn4tw4yf2bpq25a8xvwla7lda0e&rid=giphy.gif&ct=g"></animated-button>
+  <cta-button></cta-button>
+  <cta-button dark title='To find out...'></cta-button> 
+  <cta-button colorful title='What the dog doin??'></cta-button>
             <script type="module">
               // team 4
               // 7/10
@@ -92,13 +188,17 @@
               window.customElements.define('fphhbuttonfp-hh-button', FphhbuttonfpHhButton);
 
               // Overall feedback:
-              // 11.25/10 🏆
+              // 11.25/10 🏆 Interesting sound solution and engineering
               // Detailed feedback:
               // I hate the name of this tag. It tells me nothing about what it's going to do.
               // Great usage of statefulness between data properties in the element
               // and CSS styling.
-              // implemented sound, and a clever solution to implement multiple at random +1.25
+              // implemented sound, and a clever solution to implement multiple at random and many groups
+              // based their implementation off of the interesting way you approached this +1.
+              // +.25 for leading the class forward on this solution
               // I see you took a lot of my feedback from class into account in final implementation
+              // so I really don't have a ton to add here beyond what I originally did and then your
+              // work in implementing the parts that you got
               // Good job implementing everything in the demo space
               import "@ist-402-group-1/kmbtn/anything-under-the-sun.js";
             </script>
@@ -107,7 +207,7 @@
 
             <script type="module">
               // team 5
-              // 13/10 - 🏆🏒
+              // 13/10 - 🏆🃏 - Most ridiculous, but very technically clever
               // overall: Really went over the top here. It's questionable if a penguins
               // button is actually well designed given how ridiculous a use-case it is; 
               // however, this is an incredibly detailed, flexible, sophisticated integration
@@ -125,7 +225,7 @@
               // has a console.log that outputs on connection
               // new.png / default value needs to use the import.meta.url concept in the original example
               // we'll be using this as a demonstration in class
-              // +3 for bonus on all fronts
+              // +3 for bonus on all fronts; audio and intersection Observer
               // elite level shit here gang
               // color variable stuff is weird but interesting
               // disabledChange works but could be solved with css :host([disabled]) button
@@ -133,14 +233,14 @@
               // directly to it. Your solution works, it's just a bit of a meaningless "CSS IN JS" problem
               import "@penstat2/penguin-state-button/penguin-state-button.js";
 
-              // 11.9/10 - 🏆
+              // 11.9/10 - 🏆 - Great CSS filter for state change options
               // overall: Great work with a silly use-case. Lots of variety in properties
               // all correctly typed and implemented in the storybook / demo effectively
               // the color only on icon and no flexibility in icon feel like accounting for
               // the ridiculously silly use-case selected but still execellent example element.
               // I also appreciate that both you and your other pair did different implementations
               // for this element to illustrate that you all comprehended this.
-              
+
               // detail feedback:
               // login.png / yay.png images need to use the URL function or they won't render
               // example: new URL("../images/whatever.png", import.meta.url).href;
@@ -156,87 +256,242 @@
               // this works, but is weird -- linkFocus: { type: String, reflect: true, attribute: 'link-target' },
               import "@penstat2/penguin-button/penguin-button.js";
             </script>
-            <penguin-state-button></penguin-state-button>
-            <penguin-button></penguin-button>
-
+                <penguin-state-button text-size='6px' width='50px' height='100px' img-src="./node_modules/@penstat2/penguin-state-button/images/new.png" changed-src="./node_modules/@penstat2/penguin-state-button/images/hi.png" link-target='https://github.com'
+                background-color='#ffdd44' text-color='#ffffaa' text='github' disabled>
+              </penguin-state-button>
+              <br>
+              <penguin-state-button text-size='6px' width='50px' height='100px' img-src="./node_modules/@penstat2/penguin-state-button/images/new.png" changed-src="./node_modules/@penstat2/penguin-state-button/images/hi.png" link-target='https://github.com'
+                background-color='#ffdd44' text-color='#ffffaa' text='Github' tts='Ha ha you made a robot talk. You should do an independent study involving this. Oh wait.'>
+              </penguin-state-button>
+          <penguin-button penguinReset="./node_modules/@penstat2/penguin-button/images/login.png" penguinStatic="./node_modules/@penstat2/penguin-button/images/login.png" penguinWave="./node_modules/@penstat2/penguin-button/images/yay.png"> </penguin-button>
+            <penguin-button invert> </penguin-button>
+            <penguin-button disabled> </penguin-button>
             <script type="module">
               // team 6 - 3 ppl
-              // 
+
+              // 9.75/10
               // Overall feedback
-              //
+              // A simple but effective button implementation. Clean and meets all the requirements.
+              // Nothing overly fancy but a solidly simple design. Nice job.
               // Detailed feedback
               // very confusing name vs tag that it has. make sure that repo name
               // aligns with package name aligns with code expectations of person using it
               // think "How would someone consuming this know what to do with it"
-              //
+              // Looks vintage 1990s Mac. Simple and effective. Good contrast ratio and spacing
+              // simple CSS to match. I'd combine the :focus and :hover into 1 compound statement
+              // isDisabled I'd make just disabled. disabled is a native browser attribute so people would
+              // iconEnable isn't nessecary, could just use if this.icon is set in rendering
+              // good job wiring up for storybook
+              // expect it to match here as well.
+              // good job using the demo to illustrate the different states
+              // try to use some CSS variables or parts so that people can leverage the design more flexibly -.25
+              // Interesting solution when not using an <a> tag. Different from others and not wrong but interesting.
               import '@ist402groupf/cta-button/shop-cta.js';
             </script>
-            <shop-cta></shop-cta>
-
+            <shop-cta title="A button" link="https://google.com/"></shop-cta>
+            <shop-cta title="A save disk" icon="save" iconEnable link="https://google.com/"></shop-cta>
+            <shop-cta title="disable me" icon="save" iconEnable isDisabled></shop-cta>
             <script type="module">
               // team 7
-              // 
+
+              // 11/10 - 🏆🔥 - Legit Staples button a lot to learn from demos and states
               // Overall feedback
-              //
+              // Very strong offering from a technical perspective. While not being visually the most appealing
+              // button (hey, it's a Staples button I mean..), it definitely has a lot of technical superiority
+              // over many other offerings. The audio piece is especially impressive in implementation
+              // and the demo to show-off all the different possibilities, with many states beyond what was required
+              // is great. Keep up the great work!
               // Detailed feedback
               // another confusing repo vs name. Make sure it's easy-button as repo
               // and element name for a more accurate user expectation
+              // GREAT demo page with all kind of variations. This is what people should be striving for. +.5
+              // audio file played and it's what I'd expected it to be ;) +1
+              // love the CSS variables and amount of them
+              // great combination of reflected properties to CSS :host selectors, even combinations of them
+              // onclick in properties does nothing
+              // interesting the way you forcibly map fontSize to the css style selector in question
+              // play audio with reverse engineering the timeout code I showed previously to temporarily disable is fantastic
+              // even using onloadedmetadata fot event listening +.5
+              // render method is a bit messy; much of this could be in the constructor as far as default values but
+              // there's nothing wrong doing it here, just messy
+              // complex but nice conditional rendering section
               import "@viable-slime/the-easy-button/easy-button.js";
 
-              // 
+              // 8/10
               // Overall feedback
-              //
+              // This seemed like a very promising button but unless I'm missing 
+              // details of a later package that you pushed code but forgot to push out
+              // this appears an incomplete implementation. I like the usage of different
+              // variables to modify CSS presentation though.
               // Detailed feedback
+              // no storybook -1
+              // audio seems like you started to implement but then didn't
+              // navigate is not a function call
+              // tabindex="-1" should be on the <a> not the <button>
+              // <a> should wrap <button> not the other way around -.5
+              // no link in demo and demo only shows 1 use-case -.5
+              // nice CSS selectors / options per different properties
+              // --innerButton is a terrible class name for CSS. Good use of actual CSS variables though throughout
+              // odd default setting logic in the render function as far as this.disabled then no link, that sorta stuff
+              // if its disabled, the link won't work
+              // onclick is not a valid property name
+              // fontSize is listed but not implemented
               import "@viable-slime/hello-button/hello-button.js";
             </script>
-            <easy-button></easy-button>
-            <hello-button></hello-button>
-
+            <div id="row1"> 
+              <easy-button buttontext="STAPLES" audio="./node_modules/@viable-slime/the-easy-button/mp3/EasyButton.mp3"></easy-button>
+              <easy-button buttontext="Text"></easy-button>
+              <easy-button light buttontext="Light Theme"></easy-button>
+              <easy-button dark buttontext="Dark Theme"></easy-button>
+              <easy-button  disabled buttontext="Disabled"></easy-button>
+              <easy-button  dark disabled buttontext="Disabled"></easy-button>
+              <easy-button  light disabled buttontext="Disabled"></easy-button>
+            </div>
+            <div id="row2"> 
+              <easy-button perspective buttontext="Perspective"></easy-button>
+              <easy-button light gradient fontsize="12px" buttontext="Light Theme with gradient"></easy-button>
+              <easy-button dark gradient fontsize="12px" buttontext="Dark Theme with gradient"></easy-button>
+              <easy-button perspective icon="av:play-circle-filled"></easy-button>
+              <easy-button perspective icon="av:play-circle-filled" buttontext="Icon with text"></easy-button>
+              <easy-button perspective icon="av:play-circle-filled" buttontext="icon-above" icon-above></easy-button>
+            </div>
+            <div id="row3">
+                <easy-button perspective icon="av:play-circle-filled" buttontext="icon-below" icon-below></easy-button>
+                <easy-button perspective icon="av:play-circle-filled" buttontext="icon-reverse" icon-reverse></easy-button>
+                <easy-button  icon="av:play-circle-filled" buttontext="iconscale='200px'" scale="300px" fontsize="25px" iconscale="120px" icon-below></easy-button>
+                <easy-button scale="300px" gradient fontsize="20px" buttontext="Big with gradient"></easy-button>
+              <easy-button scale="300px" dark perspective gradient fontsize="20px" link="https://webcomponents.psu.edu/styleguide/?path=/story/media-icons--simple-iconset-story"
+            buttontext="Click to Check out the icons you can use!"></easy-button>
+            </div>
+           <hello-button buttonText="Hello" perspective icon="av:play-arrow" gradient audio="mp3/hello.mp3" above scale="1"></hello-button>
             <script type="module">
               // team 8
-              // 
+               
+              // 8.25/10
               // Overall feedback
-              //
+              // Good first attempt. Make sure to not just implement things like window.open because of
+              // a class example. Implemetning storybook would net more points. Also try doing some CSS
+              // tutorials or ask around if you have issue with styling to match comp selected.
               // Detailed feedback
+              // stories in storybook missing -1
+              // good use of css states like disabled, hover, active, etc
+              // styling of the button itself is pretty minimalist and not very appealing visually
+              // button and a tags do not align and defaults of the button are not changed -.5
+              // good use of icon implemented internal to element
+              // @click to do a "changeWindow" doesn't do anything that the <a> tag wouldn't have done anyway and
+              // as a result you actually change the current link + open another tab that has the same link in it or
+              // when the tag is disabled you can still click the button to go some place -.25
+              // align hover state of the button AND a tag in the future so that they look the same
+              // align align hover and focus states so that they look the same.
+              // To do both of these, applying stylign to the button tag and not the link tag
+              // link tag is just there semantically to indicate that it is a link
+              // button is the visual component that someone can interact with
               import { CtaButton as paddyshub } from '@paddyshub/cta-button/src/CtaButton.js';
               
-              // 
+              // 8.75/10
               // Overall feedback
-              //
+              // Clean design that matches the comp well. Try to make sure to align states (property values) to the CSS directly
+              // but a good first effort.
               // Detailed feedback
+              // good job matching the comp
+              // nice demo'ing all 3 states
+              // reduce the transition time on hover as it looks weird in transition
+              // align the hover and focus state next time as the expected user behavior is different
+              // stories in storybook missing -1
+              // css for disabled is reflected but not used. shoot for using :host([disabled]) next time
+              // interesting how you implemented the icon via slot. While not incorrect, I was looking for it being
+              // leveraged directly. As it stands currently you have an icon variable that isn't actually required to accomplish icon'ing
+              // still, accurate usage of slot to achieve an interesting alternative implementation -.25
               window.customElements.define('cta-button-paddyshub', paddyshub);
               import "@paddyshub/button-tag/button-tag.js";
             </script>
-            <cta-button-paddyshub></cta-button-paddyshub>
-            <button-tag></button-tag>
+              <cta-button-paddyshub title="Grey Goose">
+              </cta-button-paddyshub>
+              <cta-button-paddyshub icon = "editor:monetization-on" title="Vodka">
+              </cta-button-paddyshub>
+              <cta-button-paddyshub  disabled icon = "device:battery-charging-80" title="Want Grey Goose?">
+              </cta-button-paddyshub>
+              <button-tag id="left" title="Home" link="https://www.greygoose.com/"><simple-icon-lite icon="home"></simple-icon-lite>
+              </button-tag>
+              <button-tag id="right" title="Find GREY GOOSE" icon="search" link= "https://www.greygoose.com/store-locator.html"><simple-icon-lite icon="search"></simple-icon-lite>
+            </button-tag>
+            <button-tag disabled id="center" title="VIP"><simple-icon-lite icon="social:whatshot"></simple-icon-lite>
+            </button-tag>
 
             <script type="module">
               // team 9
-              // 
+              // 9.4/10
               // Overall feedback
-              //
+              // Nice implementation visually. Clean and seeks to match the comp from Bose website
+              // Icon enabled status could be achieved by just checking if there was an icon set
+              // but still nice job in conditional rendering of the icon as well as wiring the
+              // properties up for it to render the correct icon. Very nice looking and solid CSS selectors + CSS Variable usage
               // Detailed feedback
+              // good job wiring up storybook with lots of invokations of it
+              // nice job using CSS variables + properties in order to switch state of the button visually
+              // `@click="${this.link}"` is not valid though the link will still work because of having the href -.1
+              // disabled visually works but I can still tab to the link and "click" it which means it's not disabled -.5
+              // tabindex="-1" on the link would have solved this
+              // good property names, easy to follow, good default values except for invert
+              // make sure that booleans are ALWAYS false by default. Otherwise if we're thinking of the DOM
+              // there's no real way to make it false. Example:
+              // <my-button invert></my-button> here we assume invert is now true because the variable is set by person implementing
+              // <my-button></my-button> here we STILL have a true value because that's how you defaulted it
+              // not taking off for this but wanted to point it out that it causes a logical flaw
+              // also in demo: disabled="true" is not needed. If your reflecting a value it's just disabled by itself
+              // the "true" is a String value and HTML will assume that the value without being set is Boolean true
+              // for consistency this should have attribute as well: `iconEnable: { type: Boolean, reflect: true, attribute: "icon-enable" },` 
               import { CtaButton as runtimeerrorsmadeeasy1 } from '@runtimeerrorsmadeeasy/cta-button/src/CtaButton.js';
               window.customElements.define('cta-button-runtimeerrorsmadeeasy1', runtimeerrorsmadeeasy1);
               
-              // 
+              // 9.75/10
               // Overall feedback
-              //
+              // Very solid offering. Looks like the comp in question
+              // even have nice implementations in the demo to suggest legit variations in what would be submitted
+              // Good joke about michigan fading away as I hover over them too ;)
               // Detailed feedback
+              // this.michiganSucks; without setting a value is not needed in constructor
+              // great definition of values in the properties block. all type and additional settings are good
+              // <a> should be used semantically as a link as opposed to being <a> which wraps <span> with tabIndex which is not a value
+              // <a href="${this.link}" tabindex="-1" is what you were looking for there -.25 for mild accessibility error even if it
+              // does actually work the way you have it written, it's just kinda the wrong way to go about doing it
+              // good use of CSS variables and states in the buttons to flip between them
+              // lots of demos in your demo file which are good
+              // great use of properties reflected to values on :host which you then style
+              // Shadow work on the buttons is not distracting and they are visually very appealing buttons
+              // good use of transition as well to make it fade between states
               import { CtaButton as runtimeerrorsmadeeasy2 } from '@runtimeerrorsmadeeasy/ctabutton/src/CtaButton.js';
               window.customElements.define('cta-button-runtimeerrorsmadeeasy2', runtimeerrorsmadeeasy2);
             </script>
-            <cta-button-runtimeerrorsmadeeasy1></cta-button-runtimeerrorsmadeeasy1>
-            <cta-button-runtimeerrorsmadeeasy2></cta-button-runtimeerrorsmadeeasy2>
-
+            <cta-button-runtimeerrorsmadeeasy1 title="Bose Button"
+            link="https://google.com"
+            iconEnable
+            dark></cta-button-runtimeerrorsmadeeasy1>
+            <cta-button-runtimeerrorsmadeeasy2 icon="communication:location-on" link='https://static.gopsusports.com/custompages/pegula/pegula-ice-arena.html' title="Ice Arena" invert></cta-button-runtimeerrorsmadeeasy2>
+            <cta-button-runtimeerrorsmadeeasy2 icon="schedule" title="Schedule" invert></cta-button-runtimeerrorsmadeeasy2>
+            <cta-button-runtimeerrorsmadeeasy2 icon="subject" link="https://gopsusports.com/sports/mens-ice-hockey/roster" title="Roster" invert></cta-button-runtimeerrorsmadeeasy2>
+            <cta-button-runtimeerrorsmadeeasy2 michigan-sucks icon="clear" title="Michigan Hockey" disabled="true" invert  ></cta-button-runtimeerrorsmadeeasy2> 
+        
             <script type="module">
               // team 10
-              // 
+
+              // 10.5/10
               // Overall feedback
-              //
+              // Intersection observer implementation looks good and we didn't cover this in
+              // class so nice job on that. I'm not sure what the comp was this was based on
+              // or just a silly button but as a silly button it does a good job.
+              // Good job getting the states of the button visualized
               // Detailed feedback
               // repo name of cta-button and tag name of cta-btn is confusing for people
               // who would use this (as well as you when you go to use it in the future)
+              // need additional demos in implementation -.5
+              // storybook setup of properties missing -1
+              // great use of properties but this one is very confusing `text: { type: String, reflect: true, attribute: 'label' },`
+              // No need to reflect EVERYTHING but good job reflecting the disabled and dark Booleans
+              // so that you could style off of them
+              // dark mode should invert the button as well as the text but still nice work
+              // great job using CSS variables
+              // Great job implementing the intersection observer and element visibility +2
               import '@ist402group19j/cta-button/cta-btn.js';
               
               // 7/10
@@ -265,18 +520,46 @@
               */
               import "j-btn/j-btn.js";
             </script>
-            <cta-btn></cta-btn>
-            <j-btn></j-btn>
+            <cta-btn title="Stuff"></cta-btn>
+            <j-btn title="Stuff"></j-btn>
 
             <script type="module">
               // team 11 - 2ppl
-              // 
+              // 11/10 🏆 - great use of slotting for a menu; keyboard events too
               // Overall feedback
-              //
+              // Great job! This is one of the more complicated interations to make accessible
+              // but it's a good example of the power of web components. Slotting the light dom
+              // elements correctly to render shows you were taking into account the feedback that
+              // was given in class when highlighting your work earlier on.
+              // Very visually appealing, legitimate button that matches the spec in question
+              // great job! +.5 for selecting a more complicated use case than was asked and nailing it
               // Detailed feedback
+              // nice job with setting this.audio as an inline Audio loading an inline URL
+              // sound effect plays if attribute is available, nice +1
+              // sound effect plays when I hit the escape key; probably shouldn't
+              // If tabbing into the element and using keyboard and I close the menu it works great
+              // clicking to open the menu I should probably be able to click outside the menu and
+              // have it close. Much like how I hit escape anywhere in the document and it closes
+              // the same behavior would be expected for me clicking elsewhere
+              // this doesn't do anything. This should have been a this.addEventListener("pointerenter") sort
+              // of event instead of trying to do this via CSS.
+              /*  <style>
+                  img:hover {
+                    content: url(${this.img11});
+                  }
+                </style>
+              */
+                // good job applying styling via the ::slotted(a) selector!
+                // storybook looks good
+                // make sure you have multiple implementations in the demo -.5
               import "@ist402/dld-btn/dld-btn.js";
             </script>
-            <dld-btn></dld-btn>
+              <dld-btn title="Download VSCode">
+                <a href="https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal" class="links"> <img src="./node_modules/@ist402/dld-btn/image/apple.png"/> macOS</a>
+                <a href="https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user" class="links"> <img src="./node_modules/@ist402/dld-btn/image/windows.png"/> Windows</a>
+                <a href="https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64" class="links"> <img src="./node_modules/@ist402/dld-btn/image/linux.png"/> Linux</a>
+            </dld-btn>
+          
         </div>
     </body>
 </html>
