@@ -13,6 +13,7 @@ This MD file is subject to change. As we are building this course out based on n
 # Week 8: Skill building and more card comp work
 ## Tues
 - Feedback and grading on Project 1 as well as bonus / top work
+  - https://github.com/elmsln/edtechjoker/blob/master/fall-21/projects/p1-button/submissions/index.html
 - Feedback from survey:
   - Dates updated in canvas for all due dates w/ future submissions having a place holder as well
   - Project 2 will have a lot more group share outs and code reviews of everyone's work
