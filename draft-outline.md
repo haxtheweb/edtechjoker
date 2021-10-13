@@ -25,7 +25,6 @@ This MD file is subject to change. As we are building this course out based on n
   - Dynamic `import()` and conditionally using them
   - be thinking: What could I add to my card that would help with performance optimization?
 - Time to start working together
-- **Attendence**
 
 ## Homework
 For class Thursday, read the following:
@@ -41,6 +40,10 @@ For class Thursday, read the following:
   - Example implementing this for a similar purpose: https://codepen.io/btopro/pen/yLNmVbw - note the `self-check` element
   - npm package if interested in picking apart: `@lrnwebcomponent/self-check`
   - Source: https://github.com/elmsln/lrnwebcomponents/blob/master/elements/self-check/src/self-check.js#L126-L129
+  - Example of how to implement SimpleColors to extend an element: https://github.com/elmsln/lrnwebcomponents/blob/master/elements/simple-colors/demo/extending.html
+
+![SimpleColors talk through](https://user-images.githubusercontent.com/329735/137164622-5f5314c6-9d0c-438d-9209-7f30e1dd52b3.png)
+
 - Class activity to gain insight into each other's cards / progression / thinking
   - 3 members of each group get up and sit in another group without overlapping
 - **Class Participation** - expand your TEAMNOTES with insights gained from the activity / day:
