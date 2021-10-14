@@ -37,6 +37,7 @@ For class Thursday, read the following:
   - Documentation: https://webcomponents.psu.edu/styleguide/?path=/story/colors-simple-colors--simple-colors-story
   - NPM package to add / install: @lrnwebcomponents/simple-colors
   - Background reading / refresh: Class Inheritence - https://javascript.info/class-inheritance
+  - Need more JS fundamentals? LinkedIn Learning https://www.linkedin.com/learning/javascript-essential-training/
   - Example implementing this for a similar purpose: https://codepen.io/btopro/pen/yLNmVbw - note the `self-check` element
   - npm package if interested in picking apart: `@lrnwebcomponent/self-check`
   - Source: https://github.com/elmsln/lrnwebcomponents/blob/master/elements/self-check/src/self-check.js#L126-L129
