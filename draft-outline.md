@@ -13,9 +13,19 @@ This MD file is subject to change. As we are building this course out based on n
 
 # Week 9: Refinement and skill building
 ## Tuesday
-- Feedback / walkthrough of some classmates code submissions from check in 2
 - Guest code walk through: **Chuck Lavera** from Eberly College of Science with his solution to the card from the comps
   - Make sure to stop and ask questions if you don't understand something he's presenting
+  - Considerations in building:
+    - Action / title
+    - heading area
+    - type of card
+    - icon specific to the action (icon changes based on the type of action)
+    - color that was pegged to what your engaging in (so color changes based on type of action)
+    - Has support for a link to more details / information / external info
+    - type: learning object, chem connection, Did you know, Learning Strategies
+    - link doesn't render on learning objectives type
+    - major difference: very specific CSS color variables VS the generic simple-colors based ones we're doing
+    - icon that shakes / animates based on visibility (Intersection Observer + custom SVG)
 - Group activity / participation:
   - Add to TEAMNOTES what you learned from the example Chuck presented.
   - What approaches can you leverage from his example to enhance your team's element?
@@ -23,19 +33,21 @@ This MD file is subject to change. As we are building this course out based on n
   - What are your next steps?
 
 ## Thursday
-- 
-- 
+- how to implement the font using google fonts
+  - Google fonts -- https://fonts.google.com/specimen/Open+Sans for the font that is to spec of this project (viewing student example)
+- Feedback / walkthrough of some classmates code submissions from check in 2
+  - Deep dive on a few classmates elements
+- Additional time to work as a team
+
 ***
 _Below this line will be updated as we start each week so we can remain agile to changes out of our control or to focus more on a topic_
 ***
 
 # Week 9/10: Project 2: Refinement of our card comp
 ## Tuesday
-- Guest speaker: Charles Lavera is going to walk through his code he wrote to pull off the card in his own way as well as demonstrating HAX integration
 - Reusing the button from our previous project in this one as a `devDependency`
 - Critique / review of the cards worked on in the previous week
 - Performance tricks / concepts:
-  - Google fonts -- https://fonts.google.com/specimen/Open+Sans for the font that is to spec of this project
   - Reading: How Penn State (my team) ships web components in an "unbundled" manner -- https://dev.to/btopro/part-1-how-penn-state-unbundles-web-components-for-cdn-deployments-20di
 - Rest of class time will be to implement the improvements and discussions that spawn off of ways of achieving the task at hand
 - cards will then be enhanced based on the feedback received
