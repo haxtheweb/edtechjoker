@@ -43,19 +43,22 @@ This MD file is subject to change. As we are building this course out based on n
   - Understanding font loading methodologies: https://css-tricks.com/almanac/properties/f/font-display/#:~:text=swap%20%3A%20Instructs%20the%20browser%20to,the%20auto%20and%20swap%20values.
   - Seeing the "best way" to do this (philosophically as well as bc of how Lit works)
   - https://stackoverflow.com/questions/57489637/how-to-load-google-font-in-litelement
-- crit: https://github.com/runtimeErrorsMadeEasy/project2
-- demo: Passing properties down between elements
-  - How can I make the icon react to the card's type changing?
-  - example: `type="didyouknow"`
+- crit / topic: https://github.com/runtimeErrorsMadeEasy/project2
+  - Passing properties down between elements
+  - Note how they make the icon change based on the type changing
+  - Note how they use their previous button and it actually kinda works well well visually
+  - Note that if you made say... a penguin of a "button that swears at people" you should opt for using this as a devDependency and only use it in your demo
 - Additional time to work as a team
 - Attendence word of the day
 
 ## Homework
-- write a blog post about **one** of the following concepts from thius week and include code samples in your article + sources
+- write a blog post about **one** of the following concepts from this week and include code samples in your article + sources
   - "slot composition" - passing slotted code between multiple elements (header / content into card and then into scaffold)
-  - Fonts. How to implement them in Lit. How to implement them in a general setting? What "swap" is and discussion of different rendering methodologies
+  - Fonts. How to implement them in Lit. How to implement them in a general setting? What "swap" is and discussion of different rendering methodologies as well as showing how you implemented it in your element
+  - Passing properties down and leveraging past work (ala the button from past work) via css variable mapping and/or variable mapping
 - Use the state of your element / visuals / repo links as a backdrop for discussing these topics
 **Career Pro tip:** This is a highly effectivbe way of "double dipping" throughout your career. Not know something, research it, implement in a project you do, leave comments to yourself about how you learned that, then write a blog post / video tutorial
+
 ## Project Two: Check-in 3
 - By Sunday at midnight; post a link to your repo's TEAMNOTES detailing...
   - Any additional meetings you've had
