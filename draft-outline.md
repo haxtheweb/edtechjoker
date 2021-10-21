@@ -33,26 +33,54 @@ This MD file is subject to change. As we are building this course out based on n
   - What are your next steps?
 
 ## Thursday
-- how to implement the font using google fonts
-  - Seeing how group 3b4b implemented this
+- demo: What is a "linter" and why can't I make a commit?
+  - Husky is there to protect you -- https://typicode.github.io/husky/#/?id=package-scripts (and it might piss you off too)
+  - want to ignore the feedback Husky is giving? `git commit -m "some message" --no-verify` will bypass husky
+  - Husky helps ensure you write better code though so don't do this unless you know why you are
+- crit / topic: how to implement the font using google fonts
+  - Seeing how group 3b4b attmpted this
   - Google fonts -- https://fonts.google.com/specimen/Open+Sans for the font that is to spec of this project (viewing student example)
   - Understanding font loading methodologies: https://css-tricks.com/almanac/properties/f/font-display/#:~:text=swap%20%3A%20Instructs%20the%20browser%20to,the%20auto%20and%20swap%20values.
-  - 
-- Feedback / walkthrough of some classmates code submissions from check in 2
-  - Deep dive on a few classmates elements
+  - Seeing the "best way" to do this (philosophically as well as bc of how Lit works)
+  - https://stackoverflow.com/questions/57489637/how-to-load-google-font-in-litelement
+- crit: https://github.com/runtimeErrorsMadeEasy/project2
+- demo: Passing properties down between elements
+  - How can I make the icon react to the card's type changing?
+  - example: `type="didyouknow"`
 - Additional time to work as a team
+- Attendence word of the day
 
+## Homework
+- write a blog post about **one** of the following concepts from thius week and include code samples in your article + sources
+  - "slot composition" - passing slotted code between multiple elements (header / content into card and then into scaffold)
+  - Fonts. How to implement them in Lit. How to implement them in a general setting? What "swap" is and discussion of different rendering methodologies
+- Use the state of your element / visuals / repo links as a backdrop for discussing these topics
+**Career Pro tip:** This is a highly effectivbe way of "double dipping" throughout your career. Not know something, research it, implement in a project you do, leave comments to yourself about how you learned that, then write a blog post / video tutorial
+## Project Two: Check-in 3
+- By Sunday at midnight; post a link to your repo's TEAMNOTES detailing...
+  - Any additional meetings you've had
+  - Progress made / state of your current repo
+  - What problems your running into we could cover in class to help
+  - What your next steps are
+- Where you should be to be on pace:
+  - All 4 elements should at least be started
+  - icon should be almost finished and ONLY provide icon capability
+  - Header / banner element should be starting to look like the banner
+  - the "card scaffolding" should at least be attempted
+  - The overall card / wrapper element / `my-science-card` (your name there, not that one) should be using all 3 elements inside of it and generally look like the comp. Not pixel perfect but at least in the neighborhood
 ***
 _Below this line will be updated as we start each week so we can remain agile to changes out of our control or to focus more on a topic_
 ***
 
-# Week 9/10: Project 2: Refinement of our card comp
+# Week 10: Project 2: Refinement of our card comp
 ## Tuesday
+- A11y tests
+- In class activity with other teams: commenting
+  - 1 pair from each group shift left
+  - Share your repo w/ another team
+  - Pull it up in a code editor and do your best to provide code comments explaining what's going on
 - Reusing the button from our previous project in this one as a `devDependency`
 - Critique / review of the cards worked on in the previous week
-- Performance tricks / concepts:
-  - Reading: How Penn State (my team) ships web components in an "unbundled" manner -- https://dev.to/btopro/part-1-how-penn-state-unbundles-web-components-for-cdn-deployments-20di
-- Rest of class time will be to implement the improvements and discussions that spawn off of ways of achieving the task at hand
 - cards will then be enhanced based on the feedback received
 ## Thursday / Homework
 - Continue working on cards in groups while I roam around or show examples of conecpts within the context of people's repos at the front
@@ -60,6 +88,9 @@ _Below this line will be updated as we start each week so we can remain agile to
 
 # Week 11/12/13: Project 3: HAXTheWeb
 ## Tues Building
+- Performance tricks / concepts:
+  - Reading: How Penn State (my team) ships web components in an "unbundled" manner -- https://dev.to/btopro/part-1-how-penn-state-unbundles-web-components-for-cdn-deployments-20di
+- Rest of class time will be to implement the improvements and discussions that spawn off of ways of achieving the task at hand
 - Concepts to cover:
   - `.map` / looping over data to visualize an external resource / repeat a list of items rapidly
   - MutationObservers (change in DOM structure below an item)
