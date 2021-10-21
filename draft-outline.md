@@ -66,15 +66,29 @@ This MD file is subject to change. As we are building this course out based on n
   - All 4 elements should at least be started
   - icon should be almost finished and ONLY provide icon capability
   - Header / banner element should be starting to look like the banner
-  - the "card scaffolding" should at least be attempted
+  - the "card scaffolding" should at least be attempted and is basically just a hollowing out of the card in many instances so that your card element is basically just something like the following (generally speaking of course your implementation will vary)
+```html
+<card-scaffold>
+  <div slot="header">
+    <card-icon>
+    <card-banner>
+    <div slot="header"><slot name="header1"...
+    <div slot="subheader"><slot name="header2"...
+                                </div>
+  <div slot="content">
+    <slot></slot>
+  </card-scaffold>
+```
   - The overall card / wrapper element / `my-science-card` (your name there, not that one) should be using all 3 elements inside of it and generally look like the comp. Not pixel perfect but at least in the neighborhood
+## Looking ahead
+Next week we'll be doing some stand up presentations. Be prepared to explain where you are with your card for about 5 minutes as we'll have a full class discussion to see where everyone is at. I'll pull your card / code up on screen and then you'll explain how you solved something. Be thinking about what challenges you've encountered and how you solved them
 ***
 _Below this line will be updated as we start each week so we can remain agile to changes out of our control or to focus more on a topic_
 ***
 
 # Week 10: Project 2: Refinement of our card comp
 ## Tuesday
-- A11y tests
+- A11y testing. What's their currently, how to learn more about them, how to add additional tests, how to run them.
 - In class activity with other teams: commenting
   - 1 pair from each group shift left
   - Share your repo w/ another team
@@ -88,6 +102,12 @@ _Below this line will be updated as we start each week so we can remain agile to
 
 # Week 11/12/13: Project 3: HAXTheWeb
 ## Tues Building
+- The thesis in action and your practicing of technique. We're going to work on a series of different elements with a goal of...
+  - making elements that enhance online education
+  - Is another "build to a comp" but people have different comps
+  - Are things that you can chew on via web components and ask questions
+  - Make contributions to HAXTheWeb and get core commits on the project if solutions meet needs we have
+  - Get a peak into the next class as far as some of these connecting w/ concepts in that space
 - Performance tricks / concepts:
   - Reading: How Penn State (my team) ships web components in an "unbundled" manner -- https://dev.to/btopro/part-1-how-penn-state-unbundles-web-components-for-cdn-deployments-20di
 - Rest of class time will be to implement the improvements and discussions that spawn off of ways of achieving the task at hand
