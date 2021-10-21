@@ -34,7 +34,10 @@ This MD file is subject to change. As we are building this course out based on n
 
 ## Thursday
 - how to implement the font using google fonts
+  - Seeing how group 3b4b implemented this
   - Google fonts -- https://fonts.google.com/specimen/Open+Sans for the font that is to spec of this project (viewing student example)
+  - Understanding font loading methodologies: https://css-tricks.com/almanac/properties/f/font-display/#:~:text=swap%20%3A%20Instructs%20the%20browser%20to,the%20auto%20and%20swap%20values.
+  - 
 - Feedback / walkthrough of some classmates code submissions from check in 2
   - Deep dive on a few classmates elements
 - Additional time to work as a team
