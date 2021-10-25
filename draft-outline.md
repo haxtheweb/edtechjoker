@@ -15,16 +15,27 @@ This MD file is subject to change. As we are building this course out based on n
 # Week 10: Project 2: Refinement of our card comp
 ## Tuesday
 - A11y testing. What's their currently, how to learn more about them, how to add additional tests, how to run them.
-- In class activity with other teams: commenting
-  - 1 pair from each group shift left
+- In class activity with other teams:
+  - 1 pair from each group shift left.
   - Share your repo w/ another team
-  - Pull it up in a code editor and do your best to provide code comments explaining what's going on
-- Reusing the button from our previous project in this one as a `devDependency`
-- Critique / review of the cards worked on in the previous week
-- cards will then be enhanced based on the feedback received
+  - switch laptops or clone and setup their project locally to review code
+    - Each pair should be looking through code of the other group at the same time
+  - Create an issue that has 3 recommendations for how they could improve their element overall at a code level (CSS, JS logic, or HTML structure)
+  - Create a list of things that can be removed or reduced in the amount of code per file. Removing code is just as important as adding the Right code.
+  - cards are to be enhanced based on the feedback received
 ## Thursday / Homework
+- Critique / feedback on anything submitted between
 - Continue working on cards in groups while I roam around or show examples of conecpts within the context of people's repos at the front
-- Final card to be submitted by Sunday night
+
+## Homework
+- Group check in 4
+- Your card should be nearly finished
+- All 4 elements should be demo'ed on your index.html page individually
+- The over-arching card should have 3 different implementations to demonstrate flexibility in the card (different type, different slotted content, etc)
+
+# Week 11 - Tuesday
+- One last chance to get feedback on your card / submit issues
+- Final card to be submitted by Tuesday night
 
 # Week 11/12/13: Project 3: HAXTheWeb
 ## Tues Building
