@@ -14,15 +14,18 @@ This MD file is subject to change. As we are building this course out based on n
 
 # Week 10: Project 2: Refinement of our card comp
 ## Tuesday
-- A11y testing. What's their currently, how to learn more about them, how to add additional tests, how to run them.
+- Test running and how to perform and modify tests to work for your element
+  - https://modern-web.dev/guides/test-runner/getting-started/
+  - https://github.com/ist402groupj/project-two/blob/master/test/app.test.js
 - In class activity with other teams:
-  - 1 pair from each group shift left.
+  - 1 person / pair from each group shifts left.
   - Share your repo w/ another team
   - switch laptops or clone and setup their project locally to review code
     - Each pair should be looking through code of the other group at the same time
   - Create an issue that has 3 recommendations for how they could improve their element overall at a code level (CSS, JS logic, or HTML structure)
-  - Create a list of things that can be removed or reduced in the amount of code per file. Removing code is just as important as adding the Right code.
-  - cards are to be enhanced based on the feedback received
+  - Create a list of things that can be removed or refactored in each element. Removing code is just as important as adding the Right code.
+  - Cards are to be enhanced based on the feedback received in the issues found
+  - Post a link to the issue queue of each project. There should be 4 issues posted in each queue
 ## Thursday / Homework
 - Critique / feedback on anything submitted between
 - Continue working on cards in groups while I roam around or show examples of conecpts within the context of people's repos at the front
@@ -60,18 +63,6 @@ This MD file is subject to change. As we are building this course out based on n
 - Why stick close to the platform
 - Future / bleeding edge capabilities (css modules just landing, json modules on the way)
 - Vanilla VS LitElement vs others, lots of examples and asking to identify platform vs convention in each
-- Understanding Vanilla JS concepts:
-  - IntersectionObservers
-  - MutationObservers
-- Understanding why assets need compiled for the web and what that means
-- Starting on an "application" boilerplate in open-wc (run through init but for application this time)
-- Understanding github actions
-- Creating a github action that automatically builds our project and presents it on the gh-pages branch
-
-- Working as a team on a portfolio site
-- Come up with a basic comp for a three page portfolio site
-- This is to be worked on as a group
-- Documenting needs and requirements to build a SPA with routing
 - Finding existing elements we can start repurposing to build things faster
 - Start working in class on the plan and shared repository for building your portfolio site
 - The start of each class, a concept that could help in the development of the final product will be discussed. These include:
@@ -99,27 +90,15 @@ This MD file is subject to change. As we are building this course out based on n
 
 
 # In the weeds stuff yet to add
-- Short talk and demonstration of a technique (these topics need spread across)
 - Mutation Observer
-- Intersection Observer
 - Event Propagation
 - Data flow
-- Routing (discuss capture based routing vs highly controlled)
 - Group activity: Fork a "snarky-developer" element repo and apply concepts of the above low level APIs
-## Thurs
-- Share out solutions to different conceptual problems presented with snarky
-## Homework
-- Work with teammates to come up with a unified plan for approaching the personal portfolio
-- Share a link to your initial work and how far along you are in creating the repo
 
 # Additional topics that need slotted in
-- Need some kind of primer on CSS that's better than what I have currently (or maybe we build stuff on top of shoelace
 - Need to explain the end to end process of getting a JS asset working in browsers and across contexts (this should happen earlier on and might just be a picture or flow of slides)
-- Guest speakers as these guest talks / demos / crits will extend things as well; might want a block of weeks where class is just getting access to them and homework is to keep working on the longer projects
-- contribution to the monorepo directly through fork, clone, fix thing, PR back.
 - Rendering differences and the religion of SSR vs PWA - https://mobile.twitter.com/thinkLikeADev/status/1428729216800075776/photo/1 with base source of https://developers.google.com/web/updates/2019/02/rendering-on-the-web which is like a whole class / required reading.
 
 ## Guest speakers (confirming dates)
 - Michael Potter - Red Hat front-end web developer, worked on HAXTheWeb previously, now works on [PatternFly Elements](https://patternflyelements.com/)
 - Nikki Massaro Kauffman - HAX UX and a11y lead, my co-worker-in-crime
-- Chuck Lavera - HAX contributor, Eberly college of science
