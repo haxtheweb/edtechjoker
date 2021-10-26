@@ -26,7 +26,12 @@ This MD file is subject to change. As we are building this course out based on n
   - Create a list of things that can be removed or refactored in each element. Removing code is just as important as adding the Right code.
   - Cards are to be enhanced based on the feedback received in the issues found
   - Post a link to the issue queue of each project. There should be 4 issues posted in each queue
-## Thursday / Homework
+## Homework for Thursday
+- Submit anything to the channel w/ a specific problem or topic your group needs help with
+- Thursday will encompass reviewing these topics / specific issues and additional time to work
+- Review requirements to see what areas you still need to work on: https://github.com/elmsln/edtechjoker/blob/master/fall-21/projects/p2-card/README.md
+  - **a reminder that this is 20% of your overall grade in this course**
+## Thursday
 - Critique / feedback on anything submitted between
 - Continue working on cards in groups while I roam around or show examples of conecpts within the context of people's repos at the front
 
@@ -35,6 +40,8 @@ This MD file is subject to change. As we are building this course out based on n
 - Your card should be nearly finished
 - All 4 elements should be demo'ed on your index.html page individually
 - The over-arching card should have 3 different implementations to demonstrate flexibility in the card (different type, different slotted content, etc)
+- Storybook documentation should be started for all 4 elements
+- Test coverage should be attempted for all 4 elements
 
 # Week 11 - Tuesday
 - One last chance to get feedback on your card / submit issues
