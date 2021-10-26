@@ -26,7 +26,8 @@ This MD file is subject to change. As we are building this course out based on n
   - Create an issue that has 3 recommendations for how they could improve their element overall at a code level (CSS, JS logic, or HTML structure)
   - Create a list of things that can be removed or refactored in each element. Removing code is just as important as adding the Right code. This is variable but try to shoot for at least 3 things that can be removed / cleaned up.
   - Cards are to be enhanced based on the feedback received in the issues found
-  - Post a link to the issue queue of each project. There should be 4 issues posted in each queue
+  - Here is an example of what I expect to see: https://github.com/TheKodingKrab/project-two/issues/14
+  - Post a link to the issue queue of each project at the end of class. There should be 2 issues posted in each queue.
 ## Homework for Thursday
 - Submit anything to the channel w/ a specific problem or topic your group needs help with
 - Thursday will encompass reviewing these topics / specific issues and additional time to work
