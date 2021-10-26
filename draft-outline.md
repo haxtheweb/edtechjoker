@@ -15,6 +15,7 @@ This MD file is subject to change. As we are building this course out based on n
 # Week 10: Project 2: Refinement of our card comp
 ## Tuesday
 - Test running and how to perform and modify tests to work for your element
+  - https://dev.to/open-wc/testing-workflow-for-web-components-g73
   - https://modern-web.dev/guides/test-runner/getting-started/
   - https://github.com/ist402groupj/project-two/blob/master/test/app.test.js
 - In class activity with other teams:
