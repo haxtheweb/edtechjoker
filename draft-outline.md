@@ -24,7 +24,7 @@ This MD file is subject to change. As we are building this course out based on n
   - switch laptops or clone and setup their project locally to review code
     - Each pair should be looking through code of the other group at the same time
   - Create an issue that has 3 recommendations for how they could improve their element overall at a code level (CSS, JS logic, or HTML structure)
-  - Create a list of things that can be removed or refactored in each element. Removing code is just as important as adding the Right code.
+  - Create a list of things that can be removed or refactored in each element. Removing code is just as important as adding the Right code. This is variable but try to shoot for at least 3 things that can be removed / cleaned up.
   - Cards are to be enhanced based on the feedback received in the issues found
   - Post a link to the issue queue of each project. There should be 4 issues posted in each queue
 ## Homework for Thursday
