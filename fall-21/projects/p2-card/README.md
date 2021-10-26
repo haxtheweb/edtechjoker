@@ -15,18 +15,22 @@ Using https://github.com/elmsln/project-two as a basis, and the assets included 
 # Requirements
 - "Use as a template" (fork without a history attached) https://github.com/elmsln/project-two to your ORGANIZATION
   - **Teammates then fork off their organization's copy of the starting point**
-- Card must be built using the provided comp
+- Card must be built using the provided comp as close to specification as possible
+- Card must be made out of several elements (4 that we discussed in class) and be named semantically
+- Card must have 1 element inherit from a new base class called `SimpleColors`
+- Card must use slots (named and plain `<slot>` for content area) in order to pass data down from the top level implementation to lower levels like body / header
 - Card must have at least 3 demonstrations of variations in the `index.html` file which serves as the demo
+- Card demo must include dedicated implementations of each of the other tags you created (so it should have a `whatever-icon`, `whatever-body`, `whatever-header`)
 - Card demo must include your previous project's `button` tag leveraged using the `slot` capabilities of the card we build out together
   - this should be in your `devDependencies` so that it's not required for others but demonstrates that you published your previous element
-- Card must be made out of several elements (4 that we discuss in class) and be named semantically
-- Card must have 1 element inherit from a new base class called `SimpleColors`
+  - If your 1st button was generic and fits the template then feel free to use it as a core dependency instead
 - It must have 1 story per element (4 total)
   - The storybook engine is in `/stories/app.stories.js`
   - You can have multiple .stories files OR leverage each element in the story provided
   - the command to view is `yarn run storybook`
 - It must have 1 test per element and all must pass (4 total)
   - The test engine file is found in `/test/app.test.js`
+  - These tests should vary and be either accessibility, attribute evaluation, or testing a slot for what content is present
   - Here's an article on how this file works https://dev.to/open-wc/testing-workflow-for-web-components-g73
   - the command to run the tests is `yarn run test`
   
@@ -34,9 +38,8 @@ Using https://github.com/elmsln/project-two as a basis, and the assets included 
 - Final result matches the composit visually and supports all 3 variations - 2%
 - Four web components, working together, are in the repo and all work to match the comp - 4%
 - JavaScript properties match expectations of the comp and are stateful - 3%
-- CSS flexibility to use ::part in each element as well as css variables - 1%
 - Correctly leverages a different base class (SimpleColors) for the top portion element - 1%
-- Elements use `slot` and named slots to allow for design flexibility - 1%
+- Elements use `slot` and named slots to allow for design flexibility - 2%
 - 1 automated test per element, which are passed - 2%
 - 1 story per element and working storybook - 2%
 - `Teamnotes` maintained with status updates, on github, published to npm in the end - 4%
@@ -78,4 +81,5 @@ Using https://github.com/elmsln/project-two as a basis, and the assets included 
 - Oct 24: check-in 3 due
 - Oct 31: check-in 4 due
 - November 2nd (A Tuesday): Project is due; turned into Canvas dropbox 1 per team
+  - Please submit a link to your repo as well as npmjs.com published package
   - This way we have the last class to work during and clean up questions
