@@ -14,6 +14,14 @@ This MD file is subject to change. As we are building this course out based on n
 
 # Week 10: Project 2: Refinement of our card comp
 ## Tuesday
+- Blogging pro tips / harshness
+  - I read your blog posts
+  - I am aware of those that phone it in
+  - Blog posts are initially collected on a "did you do it" basis
+  - Once all blog posts are submitted I'll ask that a "series" be created on dev.to which links them all together
+  - We'll then review them all as a whole (8 was this one, 9 and 10 are in the coming weeks)
+  - All blog posts that don't have code in them that is explained relative to the concept in question will be 50% deduction
+  - When including code, using the ` character 3x so ``` and then putting code on the next line, then an ending line with ``` will allow it to present the code as formatting was intended. This is more effective (and accessible) than screenshots of code.
 - Test running and how to perform and modify tests to work for your element
   - https://dev.to/open-wc/testing-workflow-for-web-components-g73
   - https://modern-web.dev/guides/test-runner/getting-started/
