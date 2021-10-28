@@ -59,7 +59,7 @@ expect(element.textContent).to.equal('I am content');  can the equals function h
 - Your card should be nearly finished
 - All 4 elements should be demo'ed on your index.html page individually
 - The over-arching card should have 3 different implementations to demonstrate flexibility in the card (different type, different slotted content, etc)
-- Storybook documentation should nearly finished for all 4 elements
+- Storybook documentation should nearly finished for all 3 elements
 - Test coverage should be attempted for all 4 elements
 - Post to the channel your updated Teamnotes and include in it any last lingering questions that we could possibly clear up Tuesday
 
