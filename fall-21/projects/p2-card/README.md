@@ -24,7 +24,7 @@ Using https://github.com/elmsln/project-two as a basis, and the assets included 
 - Card demo must include your previous project's `button` tag leveraged using the `slot` capabilities of the card we build out together
   - this should be in your `devDependencies` so that it's not required for others but demonstrates that you published your previous element
   - If your 1st button was generic and fits the template then feel free to use it as a core dependency instead
-- It must have 1 story per element (4 total)
+- It must have 3 story for the card based on type
   - The storybook engine is in `/stories/app.stories.js`
   - You can have multiple .stories files OR leverage each element in the story provided
   - the command to view is `yarn run storybook`
@@ -57,6 +57,8 @@ Using https://github.com/elmsln/project-two as a basis, and the assets included 
   - you'll have to pattern the functionality of the previous one
 - Lazy load the card visually (IntersectionObserver) **and** lazy load icon import & SVG assets as needed +.5%
 - Modify your github actions to include a requirement to pass your tests in order to build (add tests toward the end) +.5%
+- Provide multiple stories in order to document each piece of your overall element. Multiple `whatever.stories.js` files can be created, 1 per element to group them visually in storybook - +1%
+
 
 # Other considerations
 - Make sure to fork off of your organization's fork. There should be no direct working off of my repo
