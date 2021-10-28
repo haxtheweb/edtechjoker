@@ -43,6 +43,15 @@ This MD file is subject to change. As we are building this course out based on n
   - **a reminder that this is 20% of your overall grade in this course**
 ## Thursday
 - Critique / feedback on anything submitted between
+  - https://github.com/PenStat/penstat-project2 - test coverage review
+  - https://github.com/3B4B/project-two - general review / test / storybook questions
+- Questions from class:
+  - What are our devDependencies? Should we just be importing it and using it as a tag?
+  - Should expect(element).to.exist;  be able to see elements passed in as slots?  If so, this test is failing
+expect(element.textContent).to.equal('I am content');  can the equals function have the value of html.  IE can I check for slotted content?
+  - In general how do you show multiple elements in storybook so they are on different pages
+  - How do you force arguments to only have a specific set of values?
+- Requirements reminder https://github.com/elmsln/edtechjoker/blob/master/fall-21/projects/p2-card/README.md 
 - Continue working on cards in groups while I roam around or show examples of conecpts within the context of people's repos at the front
 
 ## Homework
@@ -50,12 +59,15 @@ This MD file is subject to change. As we are building this course out based on n
 - Your card should be nearly finished
 - All 4 elements should be demo'ed on your index.html page individually
 - The over-arching card should have 3 different implementations to demonstrate flexibility in the card (different type, different slotted content, etc)
-- Storybook documentation should be started for all 4 elements
+- Storybook documentation should nearly finished for all 4 elements
 - Test coverage should be attempted for all 4 elements
+- Post to the channel your updated Teamnotes and include in it any last lingering questions that we could possibly clear up Tuesday
 
 # Week 11 - Tuesday
-- One last chance to get feedback on your card / submit issues
-- Final card to be submitted by Tuesday night
+- One last chance to get feedback on your card / answer questions
+- Time in class to finalize your card
+- Final card to be submitted by Tuesday night after being published to npm
+- Submission: Canvas Dropbox. A link to the NPM / github repo of your project
 
 # Week 11/12/13: Project 3: HAXTheWeb
 ## Tues Building
