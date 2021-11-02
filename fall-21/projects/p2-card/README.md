@@ -55,6 +55,7 @@ Using https://github.com/elmsln/project-two as a basis, and the assets included 
   - we'll cover how the current one works in class
 - Wire your banner tag to HAX and demonstrate it in the hax.html file - +1%
   - you'll have to pattern the functionality of the previous one
+- https://haxtheweb.org/documentation-1/hax-development/hax-schema
 - Lazy load the card visually (IntersectionObserver) **and** lazy load icon import & SVG assets as needed +.5%
 - Modify your github actions to include a requirement to pass your tests in order to build (add tests toward the end) +.5%
 - Provide multiple stories in order to document each piece of your overall element. Multiple `whatever.stories.js` files can be created, 1 per element to group them visually in storybook - +1%
