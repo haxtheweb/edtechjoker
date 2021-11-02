@@ -18,6 +18,7 @@ This MD file is subject to change. As we are building this course out based on n
 - Time in class to finalize your card
 - Final card to be submitted by Tuesday night after being published to npm
 - Submission: Canvas Dropbox. A link to the NPM / github repo of your project
+- Directions / rubric - https://github.com/elmsln/edtechjoker/blob/master/fall-21/projects/p2-card/README.md
 
 ---
 *Below this line is more variable*
