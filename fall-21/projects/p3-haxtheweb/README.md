@@ -35,7 +35,7 @@ Any elements that are of exceptional quality (or only needing minor tweaks for a
 # Issues to choose from
 There will only be a maximum of 2 groups per element allowed. This gives you a group that you can bounce ideas off of directly as to how you're going to do the build out while still ensuring variety in what is produced. I will be refining the expectations / some direction on how I'd attack these in the issue in the queue over the next few days. If you have questions, start asking them on the issue itself (this is teasing out requirements from the user)
 
-- `[mark-the-words] Marking defined words in a text area #882` https://github.com/elmsln/issues/issues/872
+- `[mark-the-words] Marking defined words in a text area #882` https://github.com/elmsln/issues/issues/882
 - `[sorting-question] A question that requires the user sort the possible options #872` https://github.com/elmsln/issues/issues/872
 - `[flash-card] create a flash card for practicing comprehension in material #881` https://github.com/elmsln/issues/issues/881
 - `[event-badge] make a badge / "remixable" conference image for hax #607` https://github.com/elmsln/issues/issues/607
