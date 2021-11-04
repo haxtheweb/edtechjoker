@@ -27,7 +27,15 @@ Any elements that are of exceptional quality (or only needing minor tweaks for a
 
 
 # Issues to choose from
-There will only be a maximum of 2 groups per element allowed. This gives you a group that you can bounce ideas off of directly as to how you're going to do the build out while still ensuring variety in what is produced. You do not have to choose a project another group is doing and I will help with picking something I think your group can handle.
+There will only be a maximum of 2 groups per element allowed. This gives you a group that you can bounce ideas off of directly as to how you're going to do the build out while still ensuring variety in what is produced.
+
+
+- `[event-badge] make a badge / "remixable" conference image for hax #607` https://github.com/elmsln/issues/issues/607
+- `[post-card] Make a remixable post card for hax #879` https://github.com/elmsln/issues/issues/879
+- `[trading-card] Trading cards are awesome, let's make some #880` https://github.com/elmsln/issues/issues/880
+
+## Claiming an issue
+You have github and this is an issue queue for a massive project. How would you claim a project and dig into it in the real world?
 
 # Rubric
 20% of course grade
