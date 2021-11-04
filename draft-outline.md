@@ -33,7 +33,8 @@ This MD file is subject to change. As we are building this course out based on n
 ## start in class
 - Get the repo setup and workflows in place with your team
 - 1 copy for your organization + forks for all contributors
-- Pick a project that your team wants to approach and claim it in the issue queue (I have to approve)
+- Pick 2 projects that your team is interested in approaching (1st choice and then a fall back) and claim your primary one in the issue queue (I have to approve)
+  - This should be a message like "Team `yourteamnamehere` would like to do this issue"
 - TEAMNOTES.md check in 1 should include:
   - What project / issue your picking (link to it)
   - A hand drawn / computer sketch / XD / some annotation visually of what needs to be done or what pieces get broken out. This could be drawn on over top of a screen shot of the item or a photo of whiteboard sketches. Whatever make the most sense to you.
