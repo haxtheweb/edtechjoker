@@ -1,4 +1,4 @@
-# Project 3: HAX The Web
+# Project 3: HAX Our Web
 We arrive at the activist goal of the course.. well... my goals anyway - To generate the next generation of potential contributors to HAX the web and the hope of shaping the future of content creation on the web. While our goals are lofty, never set bars so low you can step over them lest you grow complacent and old.
 
 https://github.com/elmsln/project-3 is to be used as a boilerplate to jump start development / organizing again.
@@ -47,6 +47,11 @@ You have github and this is an issue queue for a massive project. How would you 
 - A story that allows for leveraging properties - 1%
 - Teamnotes maintained with status updates, on github, published to npm in the end - 4%
 
+# Bonus oppurtunities
+- If your element can benefit from i18n - implement internationalization support in your demo. This means setting the language to one other than english (page level) and then translate your element's textual areas to another language. +1% *per language you add, up to 3 languages* (though you'll need to add more demo pages to illustrate this or create a select box that changes the page's language)
+- Add lazyloading support for all assets and the element itself +1%
+More to be announced as we move forward
+
 # Timeline
 - 2.5 weeks before Thanksgiving break
 - 2.5 weeks after Thanksgiving break
@@ -67,8 +72,10 @@ Each project will have multiple elements. You'll need to delegate in a way that 
 
 # Due Dates
 - Nov 7th: check-in 1 due
+  - Blog post 9 is also due Nov 7th
 - Nov 14th: check-in 2 due
 - Nov 28th: check-in 3 due
 - Dec 5th: check-in 4 due
+  - Blog post 10 is also due Dec 5th
 - Dec 14th (Tuesday of finals week): Project is due by 11:59pm. This is turned into Canvas dropbox 1 per team
   - Link to your repo as well as npmjs.com published package just like you did in Project two
