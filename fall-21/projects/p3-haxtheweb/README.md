@@ -23,7 +23,7 @@ This starts with demonstrating very early versions of HAX and explaining it conc
 - Produce and distribute a project on NPM that is well documented / has a working demo, has basic tests, has a basic storybook, is well designed, is reusable, maintains statefulness, is flexible design wise via CSS and JS events, **and has built in wiring for HAXTheWeb to empower others**.
 
 ## Final / top prize(s)
-Any elements that are of exceptional quality (or only needing minor tweaks for adoption) and get accepted into the HAXTheWeb portfolio of elements will get a 🏒 emoji implying that you get an official HAXTheWeb hockey jersey. The hope is that these element will also start showing up in the course work of your peers, future verisons of you, or in your own courses in coming semesters. This project is gaining momentum and we pipeline these enhancements directly to Penn State students, faculty and staff via the https://hax.psu.edu SaaS solution.
+Any elements that are of exceptional quality (or only needing minor tweaks for adoption) and get accepted into the HAXTheWeb portfolio of elements will get a 🏒 emoji implying that you get an official HAXTheWeb hockey jersey. If this is the case I'll contact your team during finals week. The hope is that these element will also start showing up in the course work of your peers, future verisons of you, or in your own courses in coming semesters. This project is gaining momentum and we pipeline these enhancements directly to Penn State students, faculty and staff via the https://hax.psu.edu SaaS solution.
 
 
 # Issues to choose from
