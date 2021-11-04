@@ -5,12 +5,18 @@ https://github.com/elmsln/project-3 is to be used as a boilerplate to jump start
 This has everything you need in a `rename-me` element. If you can't take the hint **you are to rename this across the entire project submission to make sense for your element**.
 
 # Scope
-Contribute to HAX The Web through a series of open ended issues and project requirements. While many of these issues will have overlap in scope (create a web component / series of web components) not all groups will get the same element. This is attempting to generate something generally to specification and generally looking and functioning the same way as a prototype.
+Contribute to [HAX The Web](https://haxtheweb.org/) through a series of open ended issues and project requirements. While many of these issues will have overlap in scope (create a web component / series of web components) not all groups will get the same element. This is attempting to generate something generally to specification and generally looking and functioning the same way as a prototype.
 
 This project is putting into practice what you've learned through out the semester. There will be limited training wheels as far as boilerplate code produced and the element requirements will be more reflective of a real working environment.
 
+# Relevant code samples / projects to pull to dig into further
+- [word-count](https://github.com/elmsln/lrnwebcomponents/blob/master/elements/word-count/word-count.js) - This knows how many words are in its slotted area and also has translation support for i18n
+- [multiple-choice](https://github.com/elmsln/lrnwebcomponents/blob/master/elements/multiple-choice/multiple-choice.js) - a complex element that reads data in from its light dom to create an array. It knows what options exist as well as what the right vs wrong answer is. Also supplies HAX wiring via `haxProperties` callback
+- [self-check](https://github.com/elmsln/lrnwebcomponents/blob/master/elements/self-check/self-check.js) - checking if you know the answer. Doesn't actually tell you right or wrong but does have states, click to reveal, simple colors, i18n, `haxProperties` and lazy loading integration.
+- [retro-card](https://github.com/elmsln/lrnwebcomponents/blob/master/elements/retro-card/retro-card.js) - a uniquely designed card that has hover states and interesting haxProperties integration to do things like "tags"
+
 # Background
-HAXTheWeb.org is a moon shot by me and my team to change publishing and make the web a place that all people can be creative without needing to learn complex web or CMS technologies. Our "lego" approach is entirely built on web components to encompass everything from a small icon all the way up to a full CMS as a single web component (made up of 100s of others).
+[HAXTheWeb.org](https://haxtheweb.org/) is a moon shot by me and my team to change publishing and make the web a place that all people can be creative without needing to learn complex web or CMS technologies. Our "lego" approach is entirely built on web components to encompass everything from a small icon all the way up to a full CMS as a single web component (made up of 100s of others).
 
 In order to compress 4 years of innovation and concepts down into ~5 hours, I've created a playlist of related things.
 https://www.youtube.com/playlist?list=PLJQupiji7J5d33apeMrh4LqD3i9QdB7Px
