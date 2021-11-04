@@ -13,7 +13,8 @@ This MD file is subject to change. As we are building this course out based on n
 - [Week 9](https://github.com/elmsln/edtechjoker/tree/master/fall-21/week-9)
 - [Week 10](https://github.com/elmsln/edtechjoker/tree/master/fall-21/week-10)
 
-# Week 11 - Tuesday
+# Week 11
+## Tuesday
 - One last chance to get feedback on your card / answer questions
 - Time in class to finalize your card
 - Final card to be submitted by Tuesday night after being published to npm
@@ -25,10 +26,11 @@ This MD file is subject to change. As we are building this course out based on n
 - Mention https://www.npmjs.com/package/patch-package as this wasn't possible without it
 - show renaming tags / what the patches do
 - Introducing the final project
+- https://www.youtube.com/playlist?list=PLJQupiji7J5d33apeMrh4LqD3i9QdB7Px - playlist with some tutorials, background of the project
 - https://github.com/elmsln/edtechjoker/tree/master/fall-21/projects/p3-haxtheweb - Project requirements
 - https://github.com/elmsln/project-3 - Project boilerplate to use as a template (just like last time)
 
-### start in class
+## start in class
 - Get the repo setup and workflows in place with your team
 - 1 copy for your organization + forks for all contributors
 - Pick a project that your team wants to approach and claim it in the issue queue
