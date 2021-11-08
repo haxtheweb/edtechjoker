@@ -19,7 +19,6 @@ This MD file is subject to change. As we are building this course out based on n
 ---
 # Week 12/13: Project 3: HAXTheWeb
 # Tues
-- Reviewing scoping questions for projects
 - [TheKodingKrab](https://github.com/TheKodingKrab/flash-card/blob/master/TEAMNOTES.MD)
   - How should the try again button be implemented?
   - Animations/ potenital flips?
@@ -42,16 +41,20 @@ This MD file is subject to change. As we are building this course out based on n
   - good initial mocking over the image in question
   - size and dimensions of this card?
   - repsonsiveness> (mobile, tablet, desktop)
- 
 - [IST402](https://github.com/IST402/pj3/blob/master/TEAMNOTES.MD)
-  - 
+  - So you ARE doing the postcard yes?
+  - Nice image mocked up as to what's to be set to different slots and properties.
+  - Are we making exact replicates of the post card or just have to have the same elements as the example?
 - [IST-402-Group-1](https://github.com/IST-402-Group-1/sorting-question/blob/master/TEAMNOTES.MD)
   - Please include photo of your hand made mock up
-
+  - what would be the best way to go about this to keep our run time fast
+  - what would be the best way to go about this to keep our code simple and easy to read
+  - What languange will be most vital to build the function
+  - How do we get our code to return a value to see if it is correct or not?
+  - how to format the card to make it clear to the user what is happening
 - [PenStat](https://github.com/PenStat/penguin-project-three/blob/master/TEAMNOTES.MD)
   - Great notes / direction
   - Please resubmit your picture if you have it bc github apparently didn't like it
-  
 - [wrap / unwrap conceptual helper methods](https://dev.to/btopro/simple-wrap-unwrap-methods-explained-3k5f)
 - textNode vs dom node
 - how to use a `map` / Array objects
