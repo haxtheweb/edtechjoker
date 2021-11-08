@@ -20,6 +20,38 @@ This MD file is subject to change. As we are building this course out based on n
 # Week 12/13: Project 3: HAXTheWeb
 # Tues
 - Reviewing scoping questions for projects
+- [TheKodingKrab](https://github.com/TheKodingKrab/flash-card/blob/master/TEAMNOTES.MD)
+  - How should the try again button be implemented?
+  - Animations/ potenital flips?
+  - Reset of all the components?
+- [runtimeErrorsMadeEasy](https://github.com/runtimeErrorsMadeEasy/Project3/blob/master/TEAMNOTES.MD)
+  - How do we wire our element to Hax?
+  - Can we take creative liberties with the design of our event badges that aren't a part of the comp?
+- [table-in-the-corner](https://github.com/table-in-the-corner/project-3/blob/master/TEAMNOTES.MD)
+  - https://user-images.githubusercontent.com/89546413/140660308-9ca3b50d-c107-4a48-8b9c-593fc304012f.jpeg - great mock ups / function / state definitions!
+  - animations?
+  - dragging from point a to point b
+- [IST402-Group-F](https://github.com/IST402-Group-F/proj3-haxtheweb/blob/master/TEAMNOTES.MD)
+  - https://user-images.githubusercontent.com/32485432/140665102-15c1548c-80b8-4f27-a5b3-d474d2d71f26.png - nice simplification of what's needed to get going
+  - Biggest question right now is how we are going to select words individually out of a paragraph.
+  - Heard mention of "word nodes" but aren't 100% how they work or how to use them
+- [3B4B](https://github.com/3B4B/project-3/blob/master/TEAMNOTES.MD)
+  - Execellent break down documenting what's needed. This is a great plan to go off of and nice use of leaving `<slot>` in your picture
+  - Are there any conventions that we need to be aware of based on location for the postcard? (ex. local vs. international)
+- [ist402groupj](https://github.com/ist402groupj/project-3/blob/master/TEAMNOTES.MD)
+  - good initial mocking over the image in question
+  - size and dimensions of this card?
+  - repsonsiveness> (mobile, tablet, desktop)
+ 
+- [IST402](https://github.com/IST402/pj3/blob/master/TEAMNOTES.MD)
+  - 
+- [IST-402-Group-1](https://github.com/IST-402-Group-1/sorting-question/blob/master/TEAMNOTES.MD)
+  - Please include photo of your hand made mock up
+
+- [PenStat](https://github.com/PenStat/penguin-project-three/blob/master/TEAMNOTES.MD)
+  - Great notes / direction
+  - Please resubmit your picture if you have it bc github apparently didn't like it
+  
 - [wrap / unwrap conceptual helper methods](https://dev.to/btopro/simple-wrap-unwrap-methods-explained-3k5f)
 - textNode vs dom node
 - how to use a `map` / Array objects
