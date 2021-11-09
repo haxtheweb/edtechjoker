@@ -18,7 +18,7 @@ This MD file is subject to change. As we are building this course out based on n
 # Tues
 - [TheKodingKrab](https://github.com/TheKodingKrab/flash-card/blob/master/TEAMNOTES.MD)
   - How should the try again button be implemented?
-  - **Try again would reset the element to it's initial state. Make sure that anything the user can do to modify the element has a boolean state that can be undone effectively. type in field (ok reset input to nothing). Click to check answer (Boolean for testAnswer changes from false to true, card flips and shows anwers based on boolean change. To reset, just set it back to false). Using booleans and updated() life cycle will be important here.
+  - **Try again would reset the element to it's initial state. Make sure that anything the user can do to modify the element has a boolean state that can be undone effectively. type in field (ok reset input to nothing). Click to check answer (Boolean for testAnswer changes from false to true, card flips and shows anwers based on boolean change. To reset, just set it back to false). Using booleans and updated() life cycle will be important here.**
   - Animations/ potenital flips?
   - **Flip animation not required but a nice touch to ensure user context is maintained. I click and expect soemthing to happen so it just updating would also be good but something to imply a different state is happening like a flip would be cool.**
   - Reset of all the components?
@@ -87,10 +87,14 @@ This MD file is subject to change. As we are building this course out based on n
   - is there a way to hide the hard coded correct options order
   - **See above notes in other teams doing this as it covers this. Reading at run time and then immediately shuffling them would be the way to achieve this.**
 
-
 - [wrap / unwrap conceptual helper methods](https://dev.to/btopro/simple-wrap-unwrap-methods-explained-3k5f)
-- textNode vs dom node
-- how to use a `map` / Array objects
+- [Deep dive on mark the words](https://codepen.io/btopro/pen/dyzKzMG)
+  - How to use .map and databound type Array
+  - generating content inner without a slot tag (DOM as Data)
+  - creating elements programatically and inserting them
+  - adding events and listening for them to respond accordingly
+  - checking values
+  - "wiping correct answers" so people can't cheat (within reason)
 
 ## Thurs Building
 - Feedback on anyone that submits things between Tues and Thurs / topics they want to see
