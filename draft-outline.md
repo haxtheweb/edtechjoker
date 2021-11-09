@@ -12,53 +12,94 @@ This MD file is subject to change. As we are building this course out based on n
 - [Week 8](https://github.com/elmsln/edtechjoker/tree/master/fall-21/week-8)
 - [Week 9](https://github.com/elmsln/edtechjoker/tree/master/fall-21/week-9)
 - [Week 10](https://github.com/elmsln/edtechjoker/tree/master/fall-21/week-10)
+- [Week 11](https://github.com/elmsln/edtechjoker/tree/master/fall-21/week-11)
 
-# Week 11 - Tuesday
-- One last chance to get feedback on your card / answer questions
-- Time in class to finalize your card
-- Final card to be submitted by Tuesday night after being published to npm
-- Submission: Canvas Dropbox. A link to the NPM / github repo of your project
-- Directions / rubric - https://github.com/elmsln/edtechjoker/blob/master/fall-21/projects/p2-card/README.md
+# Week 12: Project 3: HAXTheWeb
+# Tues
+- [TheKodingKrab](https://github.com/TheKodingKrab/flash-card/blob/master/TEAMNOTES.MD)
+  - How should the try again button be implemented?
+  - Animations/ potenital flips?
+  - Reset of all the components?
+- [runtimeErrorsMadeEasy](https://github.com/runtimeErrorsMadeEasy/Project3/blob/master/TEAMNOTES.MD)
+  - How do we wire our element to Hax?
+  - Can we take creative liberties with the design of our event badges that aren't a part of the comp?
+- [table-in-the-corner](https://github.com/table-in-the-corner/project-3/blob/master/TEAMNOTES.MD)
+  - https://user-images.githubusercontent.com/89546413/140660308-9ca3b50d-c107-4a48-8b9c-593fc304012f.jpeg - great mock ups / function / state definitions!
+  - animations?
+  - dragging from point a to point b
+- [IST402-Group-F](https://github.com/IST402-Group-F/proj3-haxtheweb/blob/master/TEAMNOTES.MD)
+  - https://user-images.githubusercontent.com/32485432/140665102-15c1548c-80b8-4f27-a5b3-d474d2d71f26.png - nice simplification of what's needed to get going
+  - Biggest question right now is how we are going to select words individually out of a paragraph.
+  - Heard mention of "word nodes" but aren't 100% how they work or how to use them
+- [3B4B](https://github.com/3B4B/project-3/blob/master/TEAMNOTES.MD)
+  - Execellent break down documenting what's needed. This is a great plan to go off of and nice use of leaving `<slot>` in your picture
+  - Are there any conventions that we need to be aware of based on location for the postcard? (ex. local vs. international)
+- [ist402groupj](https://github.com/ist402groupj/project-3/blob/master/TEAMNOTES.MD)
+  - good initial mocking over the image in question
+  - size and dimensions of this card?
+  - repsonsiveness> (mobile, tablet, desktop)
+- [IST402](https://github.com/IST402/pj3/blob/master/TEAMNOTES.MD)
+  - So you ARE doing the postcard yes?
+  - Nice image mocked up as to what's to be set to different slots and properties.
+  - Are we making exact replicates of the post card or just have to have the same elements as the example?
+- [IST-402-Group-1](https://github.com/IST-402-Group-1/sorting-question/blob/master/TEAMNOTES.MD)
+  - Please include photo of your hand made mock up
+  - what would be the best way to go about this to keep our run time fast
+  - what would be the best way to go about this to keep our code simple and easy to read
+  - What languange will be most vital to build the function
+  - How do we get our code to return a value to see if it is correct or not?
+  - how to format the card to make it clear to the user what is happening
+- [PenStat](https://github.com/PenStat/penguin-project-three/blob/master/TEAMNOTES.MD)
+  - Great notes / direction
+  - Please resubmit your picture if you have it bc github apparently didn't like it
+- [Viable-Slime](https://github.com/Viable-Slime/slime-the-web/blob/master/TEAMNOTES.MD)
+  - Great photo w/ notes over it + the notes are very detailed for considerations
+  - How are we going to produce logic that can determine the order of things
+  - How will we make the options draggable to different points
+  - How will we make it so the options are given at random order
+  - is there a way to hide the hard coded correct options order
+
+- [wrap / unwrap conceptual helper methods](https://dev.to/btopro/simple-wrap-unwrap-methods-explained-3k5f)
+- textNode vs dom node
+- how to use a `map` / Array objects
+
+## Thurs Building
+- Feedback on anyone that submits things between Tues and Thurs / topics they want to see
+- Working with `<input>` elements / events
+  - `@change`
+  - `@click` to test a value against the "correct answer"
+- Event Propagation
+- Unidirectional Data flow
+- Time to work in class
+
+## Homework
+- List progress made as well as anticipated delegation of work
+- You should at least be starting to piece together your elements visually / scaffolding wise
+- If you have input driven elements you should be experimenting with how to capture and leverage the input
+- If you have a design driven element you should have multiple elements started
+- List questions / problems experienced so we can address them in class Tuesday
+- I will review code in class as requested (in TEAMNOTES / slack ping before Tues).
+- Project 3, Check in 2 Due Sunday by 11:59pm
+- Submit TEAMNOTES update to slack channel
 
 ---
 *Below this line is more variable*
 ---
-# Week 11/12/13: Project 3: HAXTheWeb
-## Thurs Building
-- The thesis in action and your practicing of technique. We're going to work on a series of different elements with a goal of...
-  - making elements that enhance online education
-  - Is another "build to a comp" but people have different comps
-  - Are things that you can chew on via web components and ask questions
-  - Make contributions to HAXTheWeb and get core commits on the project if solutions meet needs we have
-  - Get a peak into the next class as far as some of these connecting w/ concepts in that space
+# Week 13
+## Tuesday
+- Internationalization - What is it, what's the methodology our team developed, when is it needed, how to implement it?
+  - article: https://dev.to/btopro/i18n-manager-web-component-41a2
+  - Wiring i18n into an element (live demo you can repurpose as many elements require i18n support)
+- MutationObservers (change in DOM structure below an item)
+- Review work submitted, providing feedback and critique
+- More time in class to work on project
+
+## Thursday
+- Review work submitted, providing feedback and critique
+- More time in class to work on project
+
 - Performance tricks / concepts:
   - Reading: How Penn State (my team) ships web components in an "unbundled" manner -- https://dev.to/btopro/part-1-how-penn-state-unbundles-web-components-for-cdn-deployments-20di
-- Rest of class time will be to implement the improvements and discussions that spawn off of ways of achieving the task at hand
-- Concepts to cover:
-  - `.map` / looping over data to visualize an external resource / repeat a list of items rapidly
-  - MutationObservers (change in DOM structure below an item)
-
-- Class Exercise: Shown code example, identify:
- - Lines / function calls that are "vendor specific"
- - Lines / syntax that are "library specific"
- - Lines / functions / syntax that are platform independent / VanillaJS
-- Show Drupal code and identifying platform vs vendor vs library code
-- Why stick close to the platform
-- Future / bleeding edge capabilities (css modules just landing, json modules on the way)
-- Vanilla VS LitElement vs others, lots of examples and asking to identify platform vs convention in each
-- Finding existing elements we can start repurposing to build things faster
-- Start working in class on the plan and shared repository for building your portfolio site
-- The start of each class, a concept that could help in the development of the final product will be discussed. These include:
-  - State management
-  - Routing
-  - Lit Template stamping / repeating
-  - Observers
-- The final project involves contributing to HAXTheWeb, a massive open source library of web components
-- We’ll learn what HAXTheWeb is, who’s using various pieces of it
-- How hax works. HAXschema, how it works, what it's based on, and how to wire assets up to work with it / rig demo up to use it; using the past accepted card comp and button as a basis
-- We’ll make small initial commits to the lrnwebcomponents repo to smaller tasks to get commits and feel our way around the repo
-- As a group you’ll select, investigate, work towards a solution, document and ultimately submit a pull request to our team’s repository in order to improve online courses for future students
-- Class time will be spent reviewing code, answering questions as a class, and doing group check ins
 
 # Week 14: Thanksgiving
 - Nothing but tur-key tags
@@ -70,17 +111,6 @@ This MD file is subject to change. As we are building this course out based on n
 
 # Week 17: Finals week
 - Tuesday of finals week your team's final PR is due along with all documentation of how to use your solution to the issue(s) your team resolved
-
-
-# In the weeds stuff yet to add
-- Mutation Observer
-- Event Propagation
-- Data flow
-- Group activity: Fork a "snarky-developer" element repo and apply concepts of the above low level APIs
-
-# Additional topics that need slotted in
-- Need to explain the end to end process of getting a JS asset working in browsers and across contexts (this should happen earlier on and might just be a picture or flow of slides)
-- Rendering differences and the religion of SSR vs PWA - https://mobile.twitter.com/thinkLikeADev/status/1428729216800075776/photo/1 with base source of https://developers.google.com/web/updates/2019/02/rendering-on-the-web which is like a whole class / required reading.
 
 ## Guest speakers (confirming dates)
 - Michael Potter - Red Hat front-end web developer, worked on HAXTheWeb previously, now works on [PatternFly Elements](https://patternflyelements.com/)
