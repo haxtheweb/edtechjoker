@@ -18,8 +18,11 @@ This MD file is subject to change. As we are building this course out based on n
 # Tues
 - [TheKodingKrab](https://github.com/TheKodingKrab/flash-card/blob/master/TEAMNOTES.MD)
   - How should the try again button be implemented?
+  - **Try again would reset the element to it's initial state. Make sure that anything the user can do to modify the element has a boolean state that can be undone effectively. type in field (ok reset input to nothing). Click to check answer (Boolean for testAnswer changes from false to true, card flips and shows anwers based on boolean change. To reset, just set it back to false). Using booleans and updated() life cycle will be important here.
   - Animations/ potenital flips?
+  - **Flip animation not required but a nice touch to ensure user context is maintained. I click and expect soemthing to happen so it just updating would also be good but something to imply a different state is happening like a flip would be cool.**
   - Reset of all the components?
+  - **If the cards in their connectedCallback set a window.addEventListener("flash-card-reset") or some such thing then when the user clicks reset in any one card you can bubble the event up. Here's the docs on making and listening for custom events -- [docs on custom events](https://developer.mozilla.org/en-US/docs/Web/Events/Creating_and_triggering_events)**
 - [runtimeErrorsMadeEasy](https://github.com/runtimeErrorsMadeEasy/Project3/blob/master/TEAMNOTES.MD)
   - How do we wire our element to Hax?
   - Can we take creative liberties with the design of our event badges that aren't a part of the comp?
