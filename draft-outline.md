@@ -123,6 +123,7 @@ This MD file is subject to change. As we are building this course out based on n
 - Internationalization - What is it, what's the methodology our team developed, when is it needed, how to implement it?
   - article: https://dev.to/btopro/i18n-manager-web-component-41a2
   - Wiring i18n into an element (live demo you can repurpose as many elements require i18n support)
+  - Examples that we have in the wild that leverage translation
 - MutationObservers (change in DOM structure below an item)
 - Review work submitted, providing feedback and critique
 - More time in class to work on project
