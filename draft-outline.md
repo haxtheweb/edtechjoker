@@ -55,6 +55,13 @@ This MD file is subject to change. As we are building this course out based on n
 - [PenStat](https://github.com/PenStat/penguin-project-three/blob/master/TEAMNOTES.MD)
   - Great notes / direction
   - Please resubmit your picture if you have it bc github apparently didn't like it
+- [Viable-Slime](https://github.com/Viable-Slime/slime-the-web/blob/master/TEAMNOTES.MD)
+  - Great photo w/ notes over it + the notes are very detailed for considerations
+  - How are we going to produce logic that can determine the order of things
+  - How will we make the options draggable to different points
+  - How will we make it so the options are given at random order
+  - is there a way to hide the hard coded correct options order
+
 - [wrap / unwrap conceptual helper methods](https://dev.to/btopro/simple-wrap-unwrap-methods-explained-3k5f)
 - textNode vs dom node
 - how to use a `map` / Array objects
