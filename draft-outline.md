@@ -98,14 +98,16 @@ This MD file is subject to change. As we are building this course out based on n
 
 ## Thurs Building
 - Feedback on anyone that submits things between Tues and Thurs / topics they want to see
+  - PenStat fork; how to deal w/ slots and input -- https://github.com/btopro/penguin-project-three/blob/master/src/BtoProBox.js
 - Working with `<input>` elements / events
-  - `@change`
+  - `@change` - this fires when the input has changed value and loses focus
+  - `@input` - this fires on each key press / ANY change in the value in the input
   - `@click` to test a value against the "correct answer"
-- Event Propagation
-- Unidirectional Data flow
 - Time to work in class
 
 ## Homework
+- **Reading** Internationalization - What is it, what's the methodology our team developed, when is it needed, how to implement it?
+  - article: https://dev.to/btopro/i18n-manager-web-component-41a2
 - List progress made as well as anticipated delegation of work
 - You should at least be starting to piece together your elements visually / scaffolding wise
 - If you have input driven elements you should be experimenting with how to capture and leverage the input
@@ -125,6 +127,7 @@ This MD file is subject to change. As we are building this course out based on n
   - Wiring i18n into an element (live demo you can repurpose as many elements require i18n support)
   - Examples that we have in the wild that leverage translation
 - MutationObservers (change in DOM structure below an item)
+- Event Propagation
 - Review work submitted, providing feedback and critique
 - More time in class to work on project
 
