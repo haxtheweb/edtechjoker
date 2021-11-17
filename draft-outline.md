@@ -21,24 +21,36 @@ This MD file is subject to change. As we are building this course out based on n
 ---
 # Week 13
 ## Tuesday - out sick; free working day
-- Internationalization - What is it, what's the methodology our team developed, when is it needed, how to implement it?
-  - article: https://dev.to/btopro/i18n-manager-web-component-41a2
-  - Wiring i18n into an element (live demo you can repurpose as many elements require i18n support)
-  - Examples that we have in the wild that leverage translation
-- MutationObservers (change in DOM structure below an item)
-- Event Propagation
-- Review work submitted, providing feedback and critique
-- More time in class to work on project
 
 ## Thursday
 - Review work submitted, providing feedback and critique
-- More time in class to work on project
+- [MutationObservers example code pen](https://codepen.io/dayvidwhy/pen/egdZyY?editors=1111) (hit console button in codepen to see what's happening)
+  - Mozilla docs - https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver
+  - change in DOM structure below an item generates a change record / specialized event
+  - Could be used to detect when lightdom children are added or changed in a more flexible manner
+  - possible example: drag and drop to reorder children would change node order, would be a mutation
+  - Mutations can happen on attributes, nodes (order, adding / removing), children of nodes / whole tree, or textNode changes (characterData)
+  - Important to do data clean up for memory / performance reasons
+- Group activity: sharing progress and providing feedback to teams developing same element as you
+- 1/2 of group move left, 1/2 stay; only within the teams working on the same problem
+  - Conference badge people group up with trading card people
+  - click the words people group up with sort the words people
+- Share your repo w/ another team
+- switch laptops or clone and setup their project locally to review code
+- Each pair should be looking through code of the other group at the same time
+- Create an issue that has 3 recommendations for how they could improve their element overall at a code level (CSS, JS logic, or HTML structure)
+- The issue should include any problems that you helped talk through with the other team (like if they are stuck on how to solve something, you showed a possible solution, gave advise, and visa versa)
+- Post a link to the issue queue of each project at the end of class. There should be at least 2 issues posted in each queue.
+- This is class participation for today
+- Come back together with your group and discuss / work on project more
+
+# Week 14: Thanksgiving
+- Nothing but tur-key tags
 
 - Performance tricks / concepts:
   - Reading: How Penn State (my team) ships web components in an "unbundled" manner -- https://dev.to/btopro/part-1-how-penn-state-unbundles-web-components-for-cdn-deployments-20di
 
-# Week 14: Thanksgiving
-- Nothing but tur-key tags
+
 
 # Week 15 & 16: Project 4: Final feedback and open code critique
 - This time will be scheduled with presentations by teams of the state of their solutions
