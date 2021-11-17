@@ -15,15 +15,16 @@ This MD file is subject to change. As we are building this course out based on n
 - [Week 11](https://github.com/elmsln/edtechjoker/tree/master/fall-21/week-11)
 - [Week 12](https://github.com/elmsln/edtechjoker/tree/master/fall-21/week-12)
 
-
----
-*Below this line is more variable*
----
 # Week 13
 ## Tuesday - out sick; free working day
 
 ## Thursday
 - Review work submitted, providing feedback and critique
+- [Reading to start understanding haxProperties wiring](https://dev.to/btopro/understanding-haxschema-the-api-powering-our-editor-2ln6)
+  - There's example wiring in the element repo I gave you
+  - When you modify your tag name, you'll need to update the associated reference in when we call "appstore" specification to make it register correctly in the HAX demo space your repo ships with. Namely this line will need updated -- https://github.com/elmsln/project-3/blob/master/assets/appstore.json#L4
+  - After break I'll go into more detail about wiring and how it works for examples but you can see in the blog post a deep dive on how an individual property can be mapped using the `inputMethod` that makes sense.
+  - Think of this like StorybookJS knobs.
 - [MutationObservers example code pen](https://codepen.io/dayvidwhy/pen/egdZyY?editors=1111) (hit console button in codepen to see what's happening)
   - Mozilla docs - https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver
   - change in DOM structure below an item generates a change record / specialized event
@@ -44,17 +45,28 @@ This MD file is subject to change. As we are building this course out based on n
 - This is class participation for today
 - Come back together with your group and discuss / work on project more
 
+## Homework
+- Read https://dev.to/btopro/understanding-haxschema-the-api-powering-our-editor-2ln6 to understand how HAXSchema can be written to allow your asset to talk to the HAX editor.
+- Project check in 3 is due the Sunday after Thanksgiving
+- This is a simple status update
+- What your group got done since last check in
+- What insights you gained from the class activity
+- What your next steps are?
+- Your design should start taking shape
+- Your logic layer should be starting to come together
+- You should at least take a stab at modifying the haxProperties HAXSchema to map to your element and understand that relationship
+
 # Week 14: Thanksgiving
 - Nothing but tur-key tags
 
-- Performance tricks / concepts:
-  - Reading: How Penn State (my team) ships web components in an "unbundled" manner -- https://dev.to/btopro/part-1-how-penn-state-unbundles-web-components-for-cdn-deployments-20di
+Nov 28th: check-in 3 due
+- 
+---
+*Below this line is more variable*
+---
 
-
-
-# Week 15 & 16: Project 4: Final feedback and open code critique
+# Week 15 & 16: This Fall with 100% more in person instruction: Project 3: Final feedback and open code critique
 - This time will be scheduled with presentations by teams of the state of their solutions
-- Feedback will be given by fellow HAXTheWeb developers
 - This feedback is then to be used to finalize code, documentation and other aspects of the final PR
 
 # Week 17: Finals week
