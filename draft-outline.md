@@ -43,9 +43,6 @@ if (propName === 't') {
   console.log(this.speech.lang);
 }
 ```
-### runtimeerrorsmadeeasy
-- code names of files at least stubbed out logically
-- minimal
 ### table-in-the-corner
 - Great prototype of drag and drop of 2 items
 - in the simple-icon project repo there's a simple-icon-button-lite in the event you want something with built in clickability / a11y to avoid wrapping in another button tag. (not a requirement, just offering as a time / consistency saver here)
@@ -58,13 +55,18 @@ if (propName === 't') {
 - When button clicked to go up or down, emulate the drag and drop functionality by detecting item ahead or after current and then inserting before or after
 - I'd also make something more semantic than sortable-frame. Maybe like sortable-question or something since frame isn't very descriptive to someone reading it as implemented code.
 - Make sure question is a variable as far as what's asked
+### viable-slime
+- https://www.youtube.com/watch?v=Ok_Qn36st3U
+- This will get a deep dive in class w/ write up before.
 
-### nothing to review
+### nothing to review / worth reviewing yet
 - IST402Group1
 - IST402-Group-F
 - ist402groupj
 - PaddysHub
 - Group k / IST402
+- TheKodingKrab
+- runtimeerrorsmadeeasy
 
 - [Reading to start understanding haxProperties wiring](https://dev.to/btopro/understanding-haxschema-the-api-powering-our-editor-2ln6)
   - There's example wiring in the element repo I gave you
