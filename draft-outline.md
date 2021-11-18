@@ -56,8 +56,10 @@ if (propName === 't') {
 - I'd also make something more semantic than sortable-frame. Maybe like sortable-question or something since frame isn't very descriptive to someone reading it as implemented code.
 - Make sure question is a variable as far as what's asked
 ### viable-slime
+- Damn. This is fantastic.
 - https://www.youtube.com/watch?v=Ok_Qn36st3U
 - This will get a deep dive in class w/ write up before.
+- https://github.com/btopro/slime-the-web
 
 ### nothing to review / worth reviewing yet
 - IST402Group1
@@ -68,6 +70,7 @@ if (propName === 't') {
 - TheKodingKrab
 - runtimeerrorsmadeeasy
 
+### Quick tutorial to run through on own time after introducing concept
 - [Reading to start understanding haxProperties wiring](https://dev.to/btopro/understanding-haxschema-the-api-powering-our-editor-2ln6)
   - There's example wiring in the element repo I gave you
   - When you modify your tag name, you'll need to update the associated reference in when we call "appstore" specification to make it register correctly in the HAX demo space your repo ships with. Namely this line will need updated -- https://github.com/elmsln/project-3/blob/master/assets/appstore.json#L4
@@ -80,14 +83,16 @@ if (propName === 't') {
   - possible example: drag and drop to reorder children would change node order, would be a mutation
   - Mutations can happen on attributes, nodes (order, adding / removing), children of nodes / whole tree, or textNode changes (characterData)
   - Important to do data clean up for memory / performance reasons
-- Group activity: sharing progress and providing feedback to teams developing same element as you
+## Group activity
+- sharing progress and providing feedback to teams developing same element as you
+- All groups working on same element move to same area
 - 1/2 of group move left, 1/2 stay; only within the teams working on the same problem
   - Conference badge people group up with trading card people
   - click the words people group up with sort the words people
 - Share your repo w/ another team
 - switch laptops or clone and setup their project locally to review code
-- Each pair should be looking through code of the other group at the same time
-- Create an issue that has 3 recommendations for how they could improve their element overall at a code level (CSS, JS logic, or HTML structure)
+- Each group should be looking through code of the other group at the same time
+- Create an issue that has at least 5 recommendations for how they could improve their element overall at a code level (CSS, JS logic, or HTML structure) or additional things to include as per [project directions](https://github.com/elmsln/edtechjoker/tree/master/fall-21/projects/p3-haxtheweb)
 - The issue should include any problems that you helped talk through with the other team (like if they are stuck on how to solve something, you showed a possible solution, gave advise, and visa versa)
 - Post a link to the issue queue of each project at the end of class. There should be at least 2 issues posted in each queue.
 - This is class participation for today
@@ -95,20 +100,29 @@ if (propName === 't') {
 
 ## Homework
 - Read https://dev.to/btopro/understanding-haxschema-the-api-powering-our-editor-2ln6 to understand how HAXSchema can be written to allow your asset to talk to the HAX editor.
-- Project check in 3 is due the Sunday after Thanksgiving
+- Project check in 3 is due the Sunday after Thanksgiving Nov 28th
 - This is a simple status update
-- What your group got done since last check in
-- What insights you gained from the class activity
+- What your group got done since last check in (so last week + whenever else you work)
+- What insights you gained from the class activity to implement
 - What your next steps are?
-- Your design should start taking shape
+- Your design should be taking shape
 - Your logic layer should be starting to come together
 - You should at least take a stab at modifying the haxProperties HAXSchema to map to your element and understand that relationship
+- `TEAMNOTES.md` updated to reflect the above + code to actually back up that your not writing things like "we talked a bunch" as I read these and am not dumb.
+- **7 groups currently lack these in a way that I can review. This is not my problem even if it wasted an hour I could have spent with my kids. It's your problem as this is 20% of the course grade.**
 
 # Week 14: Thanksgiving
 - Nothing but tur-key tags
 
 Nov 28th: check-in 3 due
-- 
+- What your group got done since last check in (so last week + whenever else you work)
+- What insights you gained from the class activity to implement
+- What your next steps are?
+- Your design should be taking shape
+- Your logic layer should be starting to come together
+- You should at least take a stab at modifying the haxProperties HAXSchema to map to your element and understand that relationship
+- `TEAMNOTES.md` updated to reflect the above + code to actually back up that your not writing things like "we talked a bunch" as I read these and am not dumb.
+
 ---
 *Below this line is more variable*
 ---
@@ -119,7 +133,4 @@ Nov 28th: check-in 3 due
 
 # Week 17: Finals week
 - Tuesday of finals week your team's final PR is due along with all documentation of how to use your solution to the issue(s) your team resolved
-
-## Guest speakers (confirming dates)
-- Michael Potter - Red Hat front-end web developer, worked on HAXTheWeb previously, now works on [PatternFly Elements](https://patternflyelements.com/)
-- Nikki Massaro Kauffman - HAX UX and a11y lead, my co-worker-in-crime
+- The clasroom / space at the normal time will be available and I will be in class for any last minute feedback / office hours advisement
