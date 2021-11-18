@@ -43,13 +43,28 @@ if (propName === 't') {
   console.log(this.speech.lang);
 }
 ```
+### runtimeerrorsmadeeasy
+- code names of files at least stubbed out logically
+- minimal
+### table-in-the-corner
+- Great prototype of drag and drop of 2 items
+- in the simple-icon project repo there's a simple-icon-button-lite in the event you want something with built in clickability / a11y to avoid wrapping in another button tag. (not a requirement, just offering as a time / consistency saver here)
+- Looks like your trying to get the dynamics down of sortable-option and applying events in the sortable-frame which is a good place to be. next shoot for having those supplied in the light dom of the `sortable-frame` tag.
+- In this setup; instead of using the `@dragstart` handler, you can loop through the light dom children when the element sets itself up and apply the drag event handling there. OR. the sortable-option could apply this to itself automatically. Especially since dragStartHandler is a global event piece of data via the dataTransfer object your using
+- Similarly, you could probably have the drop functionality be in the item itself, in which case the tag use the same `event.target` data and replacement logic to basically just insert the item ahead of itself as they'll have the same parent.
+- It's up to you how you want to envision it but the frame as a controller to ensure nothing bad leaks in, could also be that items in light dom are ANYTHING and then the frame will loop through children and convert them into data in some manner to render as options, or to wrap those options in the sortable-option tag.
+- If you went the wrap route you'd have A LOT of flexibility in how this coul dbe used; it could be paragraphs, or images, or basically anything that would then be able to be reordered.
+- In order to do the buttons up and down; the 1st option of the parent disables the up arrow, last option disabled the down arrow
+- When button clicked to go up or down, emulate the drag and drop functionality by detecting item ahead or after current and then inserting before or after
+- I'd also make something more semantic than sortable-frame. Maybe like sortable-question or something since frame isn't very descriptive to someone reading it as implemented code.
+- Make sure question is a variable as far as what's asked
 
 ### nothing to review
 - IST402Group1
 - IST402-Group-F
 - ist402groupj
 - PaddysHub
-- 
+- Group k / IST402
 
 - [Reading to start understanding haxProperties wiring](https://dev.to/btopro/understanding-haxschema-the-api-powering-our-editor-2ln6)
   - There's example wiring in the element repo I gave you
