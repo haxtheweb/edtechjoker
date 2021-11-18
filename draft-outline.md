@@ -20,6 +20,37 @@ This MD file is subject to change. As we are building this course out based on n
 
 ## Thursday
 - Review work submitted, providing feedback and critique
+### 3b4b
+- Wow. Fantastic start visually. Right on track with lots to do but really good direction.
+- Think of how you're going to approach this responsively. I joked a bit about animation of things (tho cool if it did ;) ) but it should at least scale proportionally to ~ 400px. Try to envision how it looks / does this on phone, tablet, laptop and big screen TV type sizes (find break points for these that are reasonable. usually like things like 400, 800, 1200, 1440+ but find better values)
+- Watch for a11y considerations around alt default values. For example: `this.alt = "Stamp";` should be `="";` as its a decorative image. Same w/ photo (tho need props to allow user implementing this to define at top level card implementation like photo-alt)
+- label, to and from should be translatable strings. Not sure user needs to be able to override them (card has as props currently) see i18n post from last week
+- good, effectively slots. make sure to implement more example content for them in demo
+- make sure there's the ability to override the locations variable `INSERT-LOCATIONS-HERE` via props passed down from card (same w/ stamp, postmark, photo)
+- Another possible way to do the photo is a slot in card that's passed down to right place. `::slotted(img)` instead of `img` in that will allow same thing but as long as can be modified via props not a big deal
+- Make sure to run a Lighthouse Audit (this is relevant to everyone) as it gives great feedback that's often easy to implement. For example your stock images are nutzo sizing. Should at least be smaller JPGs
+![lighthouse score](https://user-images.githubusercontent.com/329735/142298185-f2178b0f-5f26-4d95-b9ae-cdac1cdca0bf.png)
+### PenStat
+- Great progress with a lot of functionality already built in and design is starting to match comp
+- for font color when using simple-colors, do this: `color: var(--simple-colors-default-theme-grey-12);`. This will fix your color contrast when `dark` mode is activated. This is how we *gaurentee a11y* when it comes to visual contrast. background-color some low number, text color high number grey (then dark flips it)
+- `.backgroundbox` can also pick this color up and pass accentColor down across things that need to utilize the appropriate CSS variables
+- very cool on the translation being pegged to voice dialect change. Make sure this is a boolean for `speak` or something so that it shows a little icon-button for a speaker. Clicking it then does the speach as opposed to when you test correctness. It could be a form of hint or even a review mode where it's speaking them to me. Speech synthesis API could then be used to push a button to test your voice input against what it is (this was clearly a joke just to mess with you. I mean, you couldn't just create your own duo-lingo app like this for free... could you.... could you....)
+- Very creative block but this shouldn't be in the super.firstUpdated conditional block of logic
+```js
+if (propName === 't') {
+  this.i18store = window.I18NManagerStore.requestAvailability();
+  this.speech.lang = this.i18store.lang;
+  console.log(this.speech.lang);
+}
+```
+
+### nothing to review
+- IST402Group1
+- IST402-Group-F
+- ist402groupj
+- PaddysHub
+- 
+
 - [Reading to start understanding haxProperties wiring](https://dev.to/btopro/understanding-haxschema-the-api-powering-our-editor-2ln6)
   - There's example wiring in the element repo I gave you
   - When you modify your tag name, you'll need to update the associated reference in when we call "appstore" specification to make it register correctly in the HAX demo space your repo ships with. Namely this line will need updated -- https://github.com/elmsln/project-3/blob/master/assets/appstore.json#L4
