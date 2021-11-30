@@ -18,6 +18,16 @@ This MD file is subject to change. As we are building this course out based on n
 - [Week 14](https://github.com/elmsln/edtechjoker/tree/master/fall-21/week-14)
 
 # Week 15
+- IST-402-Group-1
+  - Good start on the `sq-question` element
+  - May want to look at something like the following as far as implementation:
+```html
+<sorting-question>
+  <sq-question>The thing that is a 1</sq-question>
+  <sq-question>The thing that is a 2</sq-question>
+  <sq-question>The thing that is a last step</sq-question>
+</sorting-question>
+```
 - Group 3b4b
   - i18n vanilla solution feedback requested
   - remove "POST CARD" from image and make it translated text like you have the others
@@ -45,18 +55,6 @@ What it can be (odd looking as it might be)
         <slot slot="front" name="front"></slot>
         <slot slot="back" name="back"></slot>
       </flash-card-body>
-```
-
-  - Dive through code
-- IST-402-Group-1
-  - Good start on the `sq-question` element
-  - May want to look at something like the following as far as implementation:
-```html
-<sorting-question>
-  <sq-question>The thing that is a 1</sq-question>
-  <sq-question>The thing that is a 2</sq-question>
-  <sq-question>The thing that is a last step</sq-question>
-</sorting-question>
 ```
 
 - SRTE feedback:
