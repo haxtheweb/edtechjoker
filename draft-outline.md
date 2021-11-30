@@ -18,7 +18,47 @@ This MD file is subject to change. As we are building this course out based on n
 - [Week 14](https://github.com/elmsln/edtechjoker/tree/master/fall-21/week-14)
 
 # Week 15
-- Group 3b4b - i18n vanilla solution feedback
+- Group 3b4b
+  - i18n vanilla solution feedback requested
+  - remove "POST CARD" from image and make it translated text like you have the others
+  - Work on alignment of translated text w/ the labels / lines
+  - responsive break points (maybe something like a media query in the demo does `transform: scale(.8);` in order to maintain aspect ratios in media)
+- TheKodingKrab
+  - CSS comments MUST be `/* thing */` watch for where you have notes to each other in FlashcardImage.js `// Not sure where these are appearing` bc it'll brick CSS code :)
+    - related to your comment: `export class FlashcardImage extends LitElement` you're not extending `SimpleColors` so you don't have access to these css vars
+  - imgSrc statefulness / simplification of solution in `updated()`
+  - Detection for correct answer is soooo close. Here's the issue.
+What you have:
+```html
+<flash-card-body>
+  <div slot="front">
+    <slot name="front"></slot>
+  </div>
+  <div slot="back">
+    <slot name="back"></slot>
+  </div>
+</flash-card-body>
+```
+What it can be (odd looking as it might be)
+```html
+<flash-card-body>
+        <slot slot="front" name="front"></slot>
+        <slot slot="back" name="back"></slot>
+      </flash-card-body>
+```
+
+  - Dive through code
+- IST-402-Group-1
+  - Good start on the `sq-question` element
+  - May want to look at something like the following as far as implementation:
+```html
+<sorting-question>
+  <sq-question>The thing that is a 1</sq-question>
+  <sq-question>The thing that is a 2</sq-question>
+  <sq-question>The thing that is a last step</sq-question>
+</sorting-question>
+```
+
 - SRTE feedback:
   - This does nothing for me professionally (beyond justifying that people find the topics useful and keep offering me contracts to teach)
   - I use this feedback to make improvements / adjustments each semester so please take time to fill this out so I can improve.
