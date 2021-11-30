@@ -20,6 +20,15 @@ This MD file is subject to change. As we are building this course out based on n
 # Week 15
 ## bruntimeerrorsmadeeasy
 - Cool way of solving the hole punch via css
+```css
+.holePunch {
+  margin: auto;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: white;
+}
+```
 ![hole punch top of frame](https://user-images.githubusercontent.com/329735/144101750-cb92c5cd-87ed-4e02-8470-7dd2e9d21f02.png)
 - Though this is bizarre...
 ![code for hover state blur](https://user-images.githubusercontent.com/329735/144101576-3e1a7545-4640-4533-a5ab-16b99b408f67.png)
