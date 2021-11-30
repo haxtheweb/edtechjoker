@@ -18,6 +18,7 @@ This MD file is subject to change. As we are building this course out based on n
 - [Week 14](https://github.com/elmsln/edtechjoker/tree/master/fall-21/week-14)
 
 # Week 15
+## Tuesday Nov 30
 ## bruntimeerrorsmadeeasy
 - Cool way of solving the hole punch via css
 ```css
@@ -81,6 +82,17 @@ What it can be (odd looking as it might be)
 
 - Time to work in groups / ask questions
 
+## Thursday Dec 2nd
+- More code reviews / feedback based on what's turned in between classes
+- More time to work as a class
+- I'll be holding off hours at Starbucks on Calder Friday, most of the day.
+- Check in 4 due Sunday at midnight
+ - This should be mostly done
+ - If you are not, then I'd like a detailed plan of what you are going to do to finish the project
+ - Your demo should have multiple implementations of your elements
+ - You should be starting to wire up to HAX via the file in the `lib/` directory. If you have questions relative to this, now is the time to ask.
+ - If you have questions, ask them in this document so we can address them
+ - **After this check in, you have 3 class periods before the project is due / the semester is over**
 ---
 *Below this line is more variable*
 ---
