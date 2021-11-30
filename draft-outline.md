@@ -18,15 +18,15 @@ This MD file is subject to change. As we are building this course out based on n
 - [Week 14](https://github.com/elmsln/edtechjoker/tree/master/fall-21/week-14)
 
 # Week 15
-- runtimeerrorsmadeeasy
+## bruntimeerrorsmadeeasy
 - Cool way of solving the hole punch via css
 ![hole punch top of frame](https://user-images.githubusercontent.com/329735/144101750-cb92c5cd-87ed-4e02-8470-7dd2e9d21f02.png)
 - Though this is bizarre...
 ![code for hover state blur](https://user-images.githubusercontent.com/329735/144101576-3e1a7545-4640-4533-a5ab-16b99b408f67.png)
 
-- IST-402-Group-1
-  - Good start on the `sq-question` element
-  - May want to look at something like the following as far as implementation:
+## bIST-402-Group-1
+- Good start on the `sq-question` element
+- May want to look at something like the following as far as implementation:
 ```html
 <sorting-question>
   <sq-question>The thing that is a 1</sq-question>
@@ -34,16 +34,17 @@ This MD file is subject to change. As we are building this course out based on n
   <sq-question>The thing that is a last step</sq-question>
 </sorting-question>
 ```
-- Group 3b4b
-  - i18n vanilla solution feedback requested
-  - remove "POST CARD" from image and make it translated text like you have the others
-  - Work on alignment of translated text w/ the labels / lines
-  - responsive break points (maybe something like a media query in the demo does `transform: scale(.8);` in order to maintain aspect ratios in media)
-- TheKodingKrab
-  - CSS comments MUST be `/* thing */` watch for where you have notes to each other in FlashcardImage.js `// Not sure where these are appearing` bc it'll brick CSS code :)
-    - related to your comment: `export class FlashcardImage extends LitElement` you're not extending `SimpleColors` so you don't have access to these css vars
-  - imgSrc statefulness / simplification of solution in `updated()`
-  - Detection for correct answer is soooo close. Here's the issue.
+## bGroup 3b4b
+- i18n vanilla solution feedback requested
+- remove "POST CARD" from image and make it translated text like you have the others
+- Work on alignment of translated text w/ the labels / lines
+- responsive break points (maybe something like a media query in the demo does `transform: scale(.8);` in order to maintain aspect ratios in media)
+
+## TheKodingKrab
+- CSS comments MUST be `/* thing */` watch for where you have notes to each other in FlashcardImage.js `// Not sure where these are appearing` bc it'll brick CSS code :)
+  - related to your comment: `export class FlashcardImage extends LitElement` you're not extending `SimpleColors` so you don't have access to these css vars
+- imgSrc statefulness / simplification of solution in `updated()`
+- Detection for correct answer is soooo close. Here's the issue.
 What you have:
 ```html
 <flash-card-body>
@@ -64,11 +65,12 @@ What it can be (odd looking as it might be)
 ```
 
 - SRTE feedback:
-  - This does nothing for me professionally (beyond justifying that people find the topics useful and keep offering me contracts to teach)
+  - This gives data points to justify offering me contracts; there is no $ involved otherwise so please give honest feedback.
   - I use this feedback to make improvements / adjustments each semester so please take time to fill this out so I can improve.
   - This is attendence for today
   - https://rateteaching.psu.edu/Default.aspx
-- Time to work in groups and ask questions
+
+- Time to work in groups / ask questions
 
 ---
 *Below this line is more variable*
