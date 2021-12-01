@@ -86,20 +86,33 @@ What it can be (odd looking as it might be)
 - More code reviews / feedback based on what's turned in between classes
 - More time to work as a class
 - I'll be holding off hours at Starbucks on Calder Friday, most of the day.
-- Check in 4 due Sunday at midnight
- - This should be mostly done
- - If you are not, then I'd like a detailed plan of what you are going to do to finish the project
- - Your demo should have multiple implementations of your elements
- - You should be starting to wire up to HAX via the file in the `lib/` directory. If you have questions relative to this, now is the time to ask.
- - If you have questions, ask them in this document so we can address them
- - **After this check in, you have 3 class periods before the project is due / the semester is over**
----
-*Below this line is more variable*
----
+
+## Homework
+### Check in 4 due Sunday at midnight
+- Element should be highly functional / looking like the comp in question
+- **If you are not, then I'd like a detailed plan of what you are going to do to finish the project**
+- Your demo should have _multiple implementations of your elements_
+- You should be wiring up to HAX via the file in the `lib/` directory. If you have questions relative to this, now is the time to ask.
+- If you have questions, ask them in this document so we can address them
+- **After this check in, you have 3 class periods before the project is due / the semester is over**
 
 # Week 16: This Fall with 100% more in person instruction: Project 3: Final feedback and open code critique
 - This feedback is then to be used to finalize code, documentation and other aspects of the final PR
 
+## Homework
+- Blog post 10, the final blog post is due Sunday, **Dec 12th by midnight**
+- Blog post topic (2%)
+  - You're final project. Write a post with visual documentation of your card (Gifs are helpful too)
+  - Promote your published NPM project as well as github source
+  - Write a tutorial explaining how you made the element including any novel approaches you are particularly proud of
+  - 
+  - Make sure to reference Lit, HAX, any libraries you reused, any articles that helped you create your element
+  - Bonus: +2pts publish your article with a working codepen that shows your finished web component.
+  - https://codepen.io/btopro/pen/ZEXYPZG is a demo you can fork / reverse engineer to help with the bonus using https://unpkg.com/
+
 # Week 17: Finals week
 - Tuesday of finals week your team's final PR is due along with all documentation of how to use your solution to the issue(s) your team resolved
 - The clasroom / space at the normal time will be available and I will be in class for any last minute feedback / office hours advisement
+# Final project is due submitted to Canvas as link to NPM published package by Tuesday (Dec 14th) at Midnight
+- This is 20% of your grade in the course.
+- https://github.com/elmsln/edtechjoker/tree/master/fall-21/projects/p3-haxtheweb
