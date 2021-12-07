@@ -21,6 +21,22 @@ This MD file is subject to change. As we are building this course out based on n
 # Week 16: Project 3: Final feedback and open code critique
 - This feedback is then to be used to finalize code, documentation and other aspects of the final PR
 ## Tues
+### PenStat
+- visual / functional feedback
+- awesome click to read the word. Make this smaller / well labeled as to what it'll do
+- Make the correct answer: text translatable
+- when clicking the button ensure it's reading the `innerText` of the correct thing instead of symbols / HTML brackets :)
+
+### pj3
+- make sure top level tag is not rename-me, internals
+- tc-statinfo - needs trait and stats implemented / wired up
+- header needs name wired into it
+- photo needs wired in and `alt` needs to default to `''` but you should pass this alt info down from the top level card
+
+### IST402Group1
+- Up and Down logic review
+- contextual render of reset
+
 ### table-in-the-corner
 - How can we fix the simple icon still being clickable after the button is disabled? (for up and down arrows)
   - Apply @click handler to the `button` as opposed to the icon. icons shouldnt really be clickable (semantically)
@@ -36,10 +52,6 @@ This MD file is subject to change. As we are building this course out based on n
   - We have the ability to generate nested array data but it's a very messy UX currently unfortunately
 - sortableOption needs to not be specific to 3 photos of dogs ala http://localhost:8000/assets/husky.jpeg
 
-### IST402Group1
-- Up and Down logic review
-- contextual render of reset
-
 ### runtimeErrorsMadeEasy
 - Is it ok if we do the event as hockey instead of media?
   - yes but should be variables like event-banner and the default is the hockey one. event-logo and the default is the goalie helmet
@@ -54,18 +66,6 @@ This MD file is subject to change. As we are building this course out based on n
   - need to support name, title, company properties
   - should be some kind of image that the person's picture shows up in (comp is a TV w/ the files)
   - https://remixer.visualthinkery.com/g/c/oerxdomains21 is the comp, should have properties to match
-
-### PenStat
-- visual / functional feedback
-- awesome click to read the word. Make this smaller / well labeled as to what it'll do
-- Make the correct answer: text translatable
-- when clicking the button ensure it's reading the `innerText` of the correct thing instead of symbols / HTML brackets :)
-
-### pj3
-- make sure top level tag is not rename-me, internals
-- tc-statinfo - needs trait and stats implemented / wired up
-- header needs name wired into it
-- photo needs wired in and `alt` needs to default to `''` but you should pass this alt info down from the top level card
 
 ## Thursday
 - Ask me questions in between, otherwise it's a working day in class. I'll do another pass through work people ask to have reviewed
