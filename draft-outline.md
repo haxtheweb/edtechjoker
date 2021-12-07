@@ -76,13 +76,12 @@ This MD file is subject to change. As we are building this course out based on n
   - You're final project. Write a post with visual documentation of your card (Gifs are helpful too)
   - Promote your published NPM project as well as github source
   - Write a tutorial explaining how you made the element including any novel approaches you are particularly proud of
-  - 
   - Make sure to reference Lit, HAX, any libraries you reused, any articles that helped you create your element
-  - Bonus: +2pts publish your article with a working codepen that shows your finished web component.
+  - Bonus: +2pts publish your article with a working codepen that shows your finished web component published on NPM
   - https://codepen.io/btopro/pen/ZEXYPZG is a demo you can fork / reverse engineer to help with the bonus using https://unpkg.com/
 
 # Week 17: Finals week
-- Tuesday of finals week your team's final PR is due along with all documentation of how to use your solution to the issue(s) your team resolved
+## Tuesday
 - The clasroom / space at the normal time will be available and I will be in class for any last minute feedback / office hours advisement
 # Final project is due submitted to Canvas as link to NPM published package by Tuesday (Dec 14th) at Midnight
 - This is 20% of your grade in the course.
