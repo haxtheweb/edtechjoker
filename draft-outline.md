@@ -1,7 +1,7 @@
 # Draft outline
 This is a draft of the course. The topics we'll cover and the order. It will be established and modified based on student needs.
 
-# week 1 - Hello Education, Tooling basics
+# week 1 - Hello Joker, Tooling basics
 ## Tuesday
 - Introduction to class
 - 1 of the only days I'll talk the entire time
