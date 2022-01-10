@@ -53,7 +53,11 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - Make eye contact and nod w/ your current professor to indicate you weren't completely off in another world just now
 
 ## Thursday
-- Partner and team formation activity
+- What are microservices? What are micro frontends?
+- Why do web components come up when discussing these things?
+- Lots of industry examples
+- Explaining the 3 major roles for the semester / lenses that we'll have to look at things through
+- Partner and team formation activity relative to this
 - Looking at additional examples including time until btopro's next class tag
 
 ## Homework / Lab
@@ -75,7 +79,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - Using the NASA API discussed in class, render this data using Lit and it's `map` capability to walk through `Array`'s of data
 - https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/ - additional free APIs we can parse
 
-## Week 4 - Monolithic design, and where we've been with the web before
+## Week 4 - Monolithic design; aka maintaining legacy systems (aka everything made prior to last week)
 ## Tuesday
 - Time to review the NASA API solutions people came up with
 - In your teams; all 3 partners pick a new person to review code with
@@ -95,6 +99,7 @@ This segway's into headless, decoupling and the need for well documented APIs
 ## Tuesday
 - Building web sites and deploying them has never been easier
 - We'll look at some static site generators (11ty, HAX11ty) and understand how they structure and use data
+- This will help give you insight into both CI/CD code pipelines as well as a lightweight publishing engine
 
 ## Thursday
 - You'll deploy an 11ty or HAX11ty site.
@@ -122,6 +127,7 @@ This segway's into headless, decoupling and the need for well documented APIs
 ## Week 7 - Docker
 ## Tuesday
 - What is it? Who uses it (everyone... or something similar)? Why we need it?
+- We'll spin up several apps on play with docker
 ## Thursday
 - We'll deploy a news App using "Play with Docker"
 ## Homework / Lab
@@ -134,9 +140,14 @@ This segway's into headless, decoupling and the need for well documented APIs
 
 ## Homework / Lab
 
-## Week 9 - 16 - Final project range
-## Tuesday
-
-## Thursday
-
-## Homework / Lab
+## Week 9 - Crusing on a boat or however you let loose
+- 2019 edition, not 2020 edition 😬
+## Week 10 - 15 - Final project
+- Classes these weeks will involve lots of group time
+- You'll get time to work in class with the expectation that code is submitted with each weekly check in
+- I'll then review anything submitted and use it as a basis for discussion in class
+- Each team will have a slightly different project and stack for solving potentially
+- They'll all be written in JavaScript (unless your super bold) and have an OpenAPI backend so we'll have lots we can learn from each other
+- There will also be peer review / critiques during these times
+- Homeworks will be a check in / milestone marker expected to be hit and a status update turned in
+- Check ins will account for 10% of the course and doing them will keep you and your group on pace to finish the project on time while meeting all requirements
