@@ -1,22 +1,40 @@
 # Draft outline
 This is a draft of the course. The topics we'll cover and the order. It will be established and modified based on student needs.
+
 --- THIS IS INCREDIBLY ROUGH DRAFT AND SUBJECT TO CHANGE ---
 
 # week 1 - Hello Joker, Tooling basics
 ## Tuesday
 - Introduction to class
-- 1 of the only days I'll talk the entire time
+- 1 of the only days I'll talk the entire time and you'll sit there going "wow, this guy is really full of himself".
+  - Other days you'll draw the same conclusion but with less talking on my part. Mostly just a presence really.
 - Definitely some of my best material from a comedic timing perspective
+  - fun old person fact: This goes along with years of traveling and speaking on topics in Drupal-land
+
+## Wednesday (no class, just messing with you)
+- Sit in your room in nervous anticipation of class Thursday
+
 ## Thursday
-- What is tooling? what do I need? Why do I need it? What does it do?
-- Lab: Getting tooling installed and being able to establish a hello world boilerplate
+- Quick review of what microservices are and micro frontends.
+  - We'll keep coming back to this and where things slot into this picture
+- What is tooling? what do I need? Why do I need it? What does it do? Why is the world written in JavaScript!??!? (an unknowable question)
+- This will establish one of the many technologies that swirl around this tech space.
+  - Why web components are not the only source of truth, they are often spoken in the same area because of how small and portable they are
+- Lab: Getting tooling installed and being able to establish a hello world boilerplate using web components
 - Past students of mine: Roam the class helping people get things installed
 
 ## Homework / Lab
 - Write a blog post about how to get NodeJS, Yarn, NPM, and all the other dependencies installed in order to launch https://open-wc.org/guides/#quickstart
-- Screenshots and links to other spaces and videos that helped you learn how to do this
-- What NPM is, why developers have landed on this convention, what does it provide you the ability to do on the web?
-
+- Expectations:
+  - Using this tooling I want you to make an element named hello-world
+  - Your element should resemble 1 of the following:
+    - https://lit.dev/playground/#sample=examples/full-component (simple)
+    - https://lit.dev/playground/#sample=examples/motion-simple (do this if you're used npm previously)
+  - put this element in version control and push it up to github
+  - Write a blog post on this process on dev.to that includes the following:
+    - Screenshots and links to other spaces and videos that helped you learn how to do this
+    - What NPM is, why developers have landed on this convention, what does it provide you the ability to do on the web?
+    - Links to Lit, open-wc and other resources you used in order to solve this lab
 - Past Students: Install docker and get a copy of HAXcms running locally on your machine https://github.com/elmsln/haxcms
   - Write up how to get docker installed on your machine
   - Use HAXcms as a backdrop (screenshots etc) so that your tutorial involves installing something real
@@ -26,10 +44,17 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 ## Week 2 - HTML / CSS / JS fundamentals. Git, Github, Version control
 ## Tuesday
 - We'll get into review of some code examples of the big 3 languages needed to build anything on the web
-- We'll get into git, github, and getting setup to do work in teams.
+- We'll use your posts as a backdrop for understanding what and how the 1st lab was solved
+- We'll get into git, github, and getting setup to do work in pairs / teams.
+
+## Wednesday (no class, just messing with you)
+- Stare blankly in your other classes
+- Ponder deeply "I wish I had a web component that told me the number of minutes until I'm back in btopro's class"
+- Make eye contact and nod w/ your current professor to indicate you weren't completely off in another world just now
 
 ## Thursday
-
+- Partner and team formation activity
+- Looking at additional examples including time until btopro's next class tag
 
 ## Homework / Lab
 
@@ -48,6 +73,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 ## Homework / Lab
 - Get a git repo setup with your partner
 - Using the NASA API discussed in class, render this data using Lit and it's `map` capability to walk through `Array`'s of data
+- https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/ - additional free APIs we can parse
 
 ## Week 4 - Monolithic design, and where we've been with the web before
 ## Tuesday
