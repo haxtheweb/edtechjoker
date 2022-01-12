@@ -41,6 +41,12 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
   - `cd YOURREPO` to get into this git repo
   - if you have all the dependencies installed, you'll now be able to run open-wc using the "`n`ode `p`ackage e`x`ecute" command aka `npx`
   - `npm init @open-wc` and follow the prompts to make a `hello-world` element (I'll do this in class)
+
+- Resources to help
+  - Me installing a whole bunch of stuff and explaining it -- https://www.youtube.com/watch?v=r_mio0e6v1g
+  - Lit playground - https://lit.dev/tutorial/ interactive tutorial (make sure it's in JS and not TS mode) - 
+  - Lit docs - https://lit.dev/docs/ (the library used by open-wc)
+  - Open-WC docs - bookmark for later / powerskim as this will be more about immersion in the field than "getting it" all -- https://open-wc.org/docs/ 
 - Expectations:
   - Using this tooling I want you to make an element named hello-world / some boilerplate name of your choosing
   - Your element should resemble 1 of the following:
