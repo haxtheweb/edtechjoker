@@ -13,6 +13,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 
 ## Wednesday (no class, just messing with you)
 - Sit in your room in nervous anticipation of class Thursday
+- But if you can get nodeJS, npm, yarn, and open-wc installed that'd speed things up in class. If not, we'll have a support group (aka all of class) to help fix
 
 ## Thursday
 - Quick review of what microservices are and micro frontends.
@@ -21,25 +22,43 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - This will establish one of the many technologies that swirl around this tech space.
   - Why web components are not the only source of truth, they are often spoken in the same area because of how small and portable they are
 - Lab: Getting tooling installed and being able to establish a hello world boilerplate using web components
-- Past students of mine: Roam the class helping people get things installed
+- Past students of mine: Roam the class helping people get things installed, but then you'll have a different homework 😵‍💫
 
 ## Homework / Lab
 - Write a blog post about how to get NodeJS, Yarn, NPM, and all the other dependencies installed in order to launch https://open-wc.org/guides/#quickstart
+- Best way to be successful and get started with this assignment (as far as ideal order for YOU)
+  - install all the stuff mentioned.
+  - HIGHLY RECOMMENDED: Install https://ohmyz.sh/ (windows users: https://dev.to/vsalbuq/how-to-install-oh-my-zsh-on-windows-10-home-edition-49g2 )
+    - This will give you a terminal that feels like the one that I use in class all the time and is generally what 1337 devs use across OS
+  - Make a github account
+  - create a repo on github with whatever name you want like `edtechjoker-lab1` or whatever makes sense for you
+  - Establish a secure, SSH key based handshake with github - https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh
+  - This involves generating an SSH key on your computer, and then copying the relevant public key info into your github profile
+  - Navigate to a folder via terminal as to where you'd like to store ALL these projects this semester
+  - for me that's `cd ~/Documents/git/edtechjoker` but you can name it whatever makes sense to you
+  - protip: `mkdir -p ~/Documents/git/edtechjoker` will automatically create the repo path on MOST operating systems
+  - in that folder, run `git clone git@github.com:YOURUSERNAME/YOURREPO.git`
+  - `cd YOURREPO` to get into this git repo
+  - if you have all the dependencies installed, you'll now be able to run open-wc using the "`n`ode `p`ackage e`x`ecute" command aka `npx`
+  - `npm init @open-wc` and follow the prompts to make a `hello-world` element (I'll do this in class)
 - Expectations:
-  - Using this tooling I want you to make an element named hello-world
+  - Using this tooling I want you to make an element named hello-world / some boilerplate name of your choosing
   - Your element should resemble 1 of the following:
     - https://lit.dev/playground/#sample=examples/full-component (simple)
     - https://lit.dev/playground/#sample=examples/motion-simple (do this if you're used npm previously)
+    - Make sure you toggle from "TS" to "JS". We will minimize our usage of TS (TypeScript) and will focus on JS (JavaScript)
+    - ![image](https://user-images.githubusercontent.com/329735/149159596-7eaed586-4ba2-46db-86a7-11a3274b83ed.png)
   - put this element in version control and push it up to github
   - Write a blog post on this process on dev.to that includes the following:
     - Screenshots and links to other spaces and videos that helped you learn how to do this
     - What NPM is, why developers have landed on this convention, what does it provide you the ability to do on the web?
     - Links to Lit, open-wc and other resources you used in order to solve this lab
-- Past Students: Install docker and get a copy of HAXcms running locally on your machine https://github.com/elmsln/haxcms
+- Last semester Students of mine: Install docker and get a copy of HAXcms running locally on your machine https://github.com/elmsln/haxcms
+  - Please help others get dependencies installed as you'll have all this from last class
   - Write up how to get docker installed on your machine
   - Use HAXcms as a backdrop (screenshots etc) so that your tutorial involves installing something real
   - Explain what docker is, why you think it's useful
-  - Yes. I am very aware that I didn't cover this. Welcome to being the loss-leader on assignments when you've had this topic last semester ;)
+  - Yes. I am very aware that I didn't cover this at all. Welcome to being the loss-leader on assignments when you've had a topic last semester. **#ThatsIST**
 
 ## Week 2 - HTML / CSS / JS fundamentals. Git, Github, Version control
 ## Tuesday
