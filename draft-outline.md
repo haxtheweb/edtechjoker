@@ -23,6 +23,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - Past students of mine: Roam the class helping people get things installed, but then you'll have a different homework 😵‍💫
 - I want you to bunch up a bit based on OS your using (today only). Windows machines in one area, Linux one area, OSX one area
 ## Homework / Lab
+- Read: https://dev.to/saifullahusmani/complete-web-development-roadmap-122m to get a sense of just how dence the "full stack" of web development is and what all the words are and how they generally fit together. We'll keep revising / positioning what we're talking about as far as where it lands in the landscape so we have a clear picture.
 - Write a blog post about how to get NodeJS, Yarn, NPM, and all the other dependencies installed in order to launch https://open-wc.org/guides/#quickstart
 - Best way to be successful and get started with this assignment (as far as ideal order for YOU)
   - install all the stuff mentioned.
