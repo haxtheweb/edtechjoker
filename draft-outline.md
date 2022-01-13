@@ -52,7 +52,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
   - https://lit.dev/playground/#sample=examples/motion-simple (do this if you're used npm previously)
   - Make sure you toggle from "TS" to "JS". We will minimize our usage of TS (TypeScript) and will focus on JS (JavaScript)
   - ![the lit.dev doc site format](https://user-images.githubusercontent.com/329735/149159596-7eaed586-4ba2-46db-86a7-11a3274b83ed.png)
-- put this element in version control and puimagesh it up to github
+- put this element in version control and push it up to github `git push origin master` or `git push origin main` or via the GUI
 - Write a blog post on this process on dev.to that includes the following:
   - Screenshots and links to other spaces and videos that helped you learn how to do this as needed
   - What NPM / nodejs is, why developers have landed on this convention, what does it provide you the ability to do on the web?
