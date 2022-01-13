@@ -1,8 +1,6 @@
 # Draft outline
 This is a draft of the course. The topics we'll cover and the order. It will be established and modified based on student needs.
 
---- THIS IS INCREDIBLY ROUGH DRAFT AND SUBJECT TO CHANGE ---
-
 # week 1 - Hello Joker, Tooling basics
 ## Tuesday
 - Introduction to class
@@ -39,13 +37,12 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
   - protip: `mkdir -p ~/Documents/git/edtechjoker` will automatically create the repo path on MOST operating systems
   - in that folder, run `git clone git@github.com:YOURUSERNAME/YOURREPO.git`
   - `cd YOURREPO` to get into this git repo
-  - if you have all the dependencies installed, you'll now be able to run open-wc using the "`n`ode `p`ackage e`x`ecute" command aka `npx`
   - `npm init @open-wc` and follow the prompts to make a `hello-world` element (I'll do this in class)
 
 - Resources to help
-  - Me installing a whole bunch of stuff and explaining it -- https://www.youtube.com/watch?v=r_mio0e6v1g
+  - Me installing a whole bunch of stuff and explaining it (the above in case you miss it) -- https://www.youtube.com/watch?v=r_mio0e6v1g
   - Lit playground - https://lit.dev/tutorial/ interactive tutorial (make sure it's in JS and not TS mode) - 
-  - Lit docs - https://lit.dev/docs/ (the library used by open-wc)
+  - Lit docs - https://lit.dev/docs/ (the library used by open-wc, tutorial above)
   - Open-WC docs - bookmark for later / powerskim as this will be more about immersion in the field than "getting it" all -- https://open-wc.org/docs/ 
 - Expectations:
   - Using this tooling I want you to make an element named hello-world / some boilerplate name of your choosing
@@ -53,11 +50,11 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
     - https://lit.dev/playground/#sample=examples/full-component (simple)
     - https://lit.dev/playground/#sample=examples/motion-simple (do this if you're used npm previously)
     - Make sure you toggle from "TS" to "JS". We will minimize our usage of TS (TypeScript) and will focus on JS (JavaScript)
-    - ![image](https://user-images.githubusercontent.com/329735/149159596-7eaed586-4ba2-46db-86a7-11a3274b83ed.png)
-  - put this element in version control and push it up to github
+    - ![the lit.dev doc site format](https://user-images.githubusercontent.com/329735/149159596-7eaed586-4ba2-46db-86a7-11a3274b83ed.png)
+  - put this element in version control and puimagesh it up to github
   - Write a blog post on this process on dev.to that includes the following:
-    - Screenshots and links to other spaces and videos that helped you learn how to do this
-    - What NPM is, why developers have landed on this convention, what does it provide you the ability to do on the web?
+    - Screenshots and links to other spaces and videos that helped you learn how to do this as needed
+    - What NPM / nodejs is, why developers have landed on this convention, what does it provide you the ability to do on the web?
     - Links to Lit, open-wc and other resources you used in order to solve this lab
 - Last semester Students of mine: Install docker and get a copy of HAXcms running locally on your machine https://github.com/elmsln/haxcms
   - Please help others get dependencies installed as you'll have all this from last class
@@ -65,6 +62,8 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
   - Use HAXcms as a backdrop (screenshots etc) so that your tutorial involves installing something real
   - Explain what docker is, why you think it's useful
   - Yes. I am very aware that I didn't cover this at all. Welcome to being the loss-leader on assignments when you've had a topic last semester. **#ThatsIST**
+
+--- THIS IS INCREDIBLY ROUGH DRAFT AND SUBJECT TO CHANGE ---
 
 ## Week 2 - HTML / CSS / JS fundamentals. Git, Github, Version control
 ## Tuesday
