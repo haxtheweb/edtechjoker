@@ -51,6 +51,13 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - Your element should resemble 1 of the following:
   - https://lit.dev/playground/#sample=examples/full-component (simple)
   - https://lit.dev/playground/#sample=examples/motion-simple (do this if you're used npm previously)
+  - However, I want you to run through the Lit tutorial and any other JS resources you might stubmle on and try to understand what the different parts of these very simple files mean and the functionality they are providing.
+  - writing `// whatever` is how you leave a JS comment. Any block of code you understand I want you to put a comment about what it's doing
+  - any block of code / syntax / idea you DON'T UNDERSTAND that's great (we're here to learn these things), but I want you to put a comment about what doesn't make sense (for example if you see `super();` and that means nothing to you, then I'd leave a comment like `// I think this is requried but no idea why`. something like thiat). We're trying to identify and grep code that we didn't write. Remember; effort based grading, not perfection in comprehension day one.
+  - The files in open-wc to edit are in the `/src` directory
+  - to try out your project run `npm start` or `yarn start` (if you install with yarn, start with yarn; npm if you install with, start with it)
+  - also npm / yarn `run` will tell you all the commands that are possible if you want to play more
+  - This is universal information for ANY JS project that has a `package.json` file and we'll dig into it next week
   - Make sure you toggle from "TS" to "JS". We will minimize our usage of TS (TypeScript) and will focus on JS (JavaScript)
   - ![the lit.dev doc site format](https://user-images.githubusercontent.com/329735/149159596-7eaed586-4ba2-46db-86a7-11a3274b83ed.png)
 - put this element in version control and push it up to github `git push origin master` or `git push origin main` or via the GUI
