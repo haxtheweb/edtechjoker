@@ -21,12 +21,12 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
   - Why web components are not the only source of truth, they are often spoken in the same area because of how small and portable they are
 - Lab: Getting tooling installed and being able to establish a hello world boilerplate using web components
 - Past students of mine: Roam the class helping people get things installed, but then you'll have a different homework 😵‍💫
-
+- I want you to bunch up a bit based on OS your using (today only). Windows machines in one area, Linux one area, OSX one area
 ## Homework / Lab
 - Write a blog post about how to get NodeJS, Yarn, NPM, and all the other dependencies installed in order to launch https://open-wc.org/guides/#quickstart
 - Best way to be successful and get started with this assignment (as far as ideal order for YOU)
   - install all the stuff mentioned.
-  - HIGHLY RECOMMENDED: Install https://ohmyz.sh/ (windows users: https://dev.to/vsalbuq/how-to-install-oh-my-zsh-on-windows-10-home-edition-49g2 )
+  - **HIGHLY RECOMMENDED**: Install https://ohmyz.sh/ (windows users: https://dev.to/vsalbuq/how-to-install-oh-my-zsh-on-windows-10-home-edition-49g2 )
     - This will give you a terminal that feels like the one that I use in class all the time and is generally what 1337 devs use across OS
   - Make a github account
   - create a repo on github with whatever name you want like `edtechjoker-lab1` or whatever makes sense for you
@@ -44,24 +44,25 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
   - Lit playground - https://lit.dev/tutorial/ interactive tutorial (make sure it's in JS and not TS mode) - 
   - Lit docs - https://lit.dev/docs/ (the library used by open-wc, tutorial above)
   - Open-WC docs - bookmark for later / powerskim as this will be more about immersion in the field than "getting it" all -- https://open-wc.org/docs/ 
-- Expectations:
-  - Using this tooling I want you to make an element named hello-world / some boilerplate name of your choosing
-  - Your element should resemble 1 of the following:
-    - https://lit.dev/playground/#sample=examples/full-component (simple)
-    - https://lit.dev/playground/#sample=examples/motion-simple (do this if you're used npm previously)
-    - Make sure you toggle from "TS" to "JS". We will minimize our usage of TS (TypeScript) and will focus on JS (JavaScript)
-    - ![the lit.dev doc site format](https://user-images.githubusercontent.com/329735/149159596-7eaed586-4ba2-46db-86a7-11a3274b83ed.png)
-  - put this element in version control and puimagesh it up to github
-  - Write a blog post on this process on dev.to that includes the following:
-    - Screenshots and links to other spaces and videos that helped you learn how to do this as needed
-    - What NPM / nodejs is, why developers have landed on this convention, what does it provide you the ability to do on the web?
-    - Links to Lit, open-wc and other resources you used in order to solve this lab
+### Expectations for lab submission
+- Join our slack channel https://bit.ly/haxslack for the course and join the `#edtechjoker` channel
+- Using this tooling I want you to make an element named hello-world / some boilerplate name of your choosing
+- Your element should resemble 1 of the following:
+  - https://lit.dev/playground/#sample=examples/full-component (simple)
+  - https://lit.dev/playground/#sample=examples/motion-simple (do this if you're used npm previously)
+  - Make sure you toggle from "TS" to "JS". We will minimize our usage of TS (TypeScript) and will focus on JS (JavaScript)
+  - ![the lit.dev doc site format](https://user-images.githubusercontent.com/329735/149159596-7eaed586-4ba2-46db-86a7-11a3274b83ed.png)
+- put this element in version control and puimagesh it up to github
+- Write a blog post on this process on dev.to that includes the following:
+  - Screenshots and links to other spaces and videos that helped you learn how to do this as needed
+  - What NPM / nodejs is, why developers have landed on this convention, what does it provide you the ability to do on the web?
+  - Links to Lit, open-wc and other resources you used in order to solve this lab
 - Last semester Students of mine: Install docker and get a copy of HAXcms running locally on your machine https://github.com/elmsln/haxcms
-  - Please help others get dependencies installed as you'll have all this from last class
-  - Write up how to get docker installed on your machine
-  - Use HAXcms as a backdrop (screenshots etc) so that your tutorial involves installing something real
-  - Explain what docker is, why you think it's useful
-  - Yes. I am very aware that I didn't cover this at all. Welcome to being the loss-leader on assignments when you've had a topic last semester. **#ThatsIST**
+- Please help others get dependencies installed as you'll have all this from last class
+- Write up how to get docker installed on your machine
+- Use HAXcms as a backdrop (screenshots etc) so that your tutorial involves installing something real
+- Explain what docker is, why you think it's useful
+- Yes. I am very aware that I didn't cover this at all. Welcome to being the loss-leader on assignments when you've had a topic last semester. **#ThatsIST**
 
 --- THIS IS INCREDIBLY ROUGH DRAFT AND SUBJECT TO CHANGE ---
 
