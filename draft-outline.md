@@ -11,7 +11,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 
 ## Wednesday (no class, just messing with you)
 - Sit in your room in nervous anticipation of class Thursday
-- But if you can get nodeJS, npm, yarn, and open-wc installed that'd speed things up in class. If not, we'll have a support group (aka all of class) to help fix
+- But if you can get nodeJS, npm, and open-wc installed that'd speed things up in class. If not, we'll have a support group (aka all of class) to help fix
 
 ## Thursday
 - Quick review of what microservices are and micro frontends.
@@ -24,7 +24,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - I want you to bunch up a bit based on OS your using (today only). Windows machines in one area, Linux one area, OSX one area
 ## Homework / Lab
 - Read: https://dev.to/saifullahusmani/complete-web-development-roadmap-122m to get a sense of just how dence the "full stack" of web development is and what all the words are and how they generally fit together. We'll keep revising / positioning what we're talking about as far as where it lands in the landscape so we have a clear picture.
-- Write a blog post about how to get NodeJS, Yarn, NPM, and all the other dependencies installed in order to launch https://open-wc.org/guides/#quickstart
+- Write a blog post about how to get NodeJS, NPM, and all the other dependencies installed in order to launch https://open-wc.org/guides/#quickstart
 - Best way to be successful and get started with this assignment (as far as ideal order for YOU)
   - install all the stuff mentioned.
   - **HIGHLY RECOMMENDED**: Install https://ohmyz.sh/ (windows users: https://dev.to/vsalbuq/how-to-install-oh-my-zsh-on-windows-10-home-edition-49g2 )
