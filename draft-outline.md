@@ -3,7 +3,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - [week 1](https://github.com/elmsln/edtechjoker/tree/master/sp-22/week-1)
 
 
-## Week 2 - HTML / CSS / JS fundamentals. Git, Github, Version control
+## Week 2 - Git / github practice and unpacking what's going on in an npm repo
 ## Tuesday
 
 - Well this is curious... it appears Niagra Falls (where I am typing this from) got 18 inches of snow. So, today is a skill building / class logicistics kinda day. Thank you Erica for running class
@@ -20,6 +20,8 @@ Fill this out so that we can form groups that have some balance - https://forms.
 - If your not sure, not a big deal. This is GENERALLY to inform team creation and there will be mild difference in what's the focus of labs but everyone will get experience with each "hat".
 
 ### Partner activity
+Note to the "peanut gallery" of past students -- If you get through this quickly (similar to an activity last year) please put yourself out there and help classmates who say they are stuck. In exchange for this service I'll say something nice about your past work in class. I know... really big paycheck there.
+
 - If you requested a partner / agree to work with someone, then pair up with them for this. If you don't, then just pair up with someone near you for the purposes of this activity
 - With a partner, I want you to do the following activity together:
 - Fork each other's repo, and then clone it locally to your machine
