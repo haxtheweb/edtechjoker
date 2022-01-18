@@ -24,6 +24,7 @@ Note to the "peanut gallery" of past students -- If you get through this quickly
 
 - If you requested a partner / agree to work with someone, then pair up with them for this. If you don't, then just pair up with someone near you for the purposes of this activity
 - With a partner, I want you to do the following activity together:
+  - If there is an odd number then a group can be 3 people
 - Fork each other's repo, and then clone it locally to your machine
 - `npm install` each other's repo to ensure that it installed
 - run `npm start` to verify that you were able to spin up the other person's repo. Work through issues / try to get help if you can't get this going.
@@ -38,10 +39,10 @@ After anwering these questions to the best of your abilities...
 - Go to the github site for the fork and hit the "pull request" button.
 - Issue a "PR" back to your partner's repo.
 - Copy a link to the PR into the edtechjoker slack channel so I can check them out later
-- If you and your partner know how to accept PRs, then do this too.
+- If you and your partner know how to accept PRs, then do this too so you have the info in your repo.
 
 ### Attendence
-Get as far as you can above (turning it in after class / before thursday if needed). Erica will be taking attendance / sending detail as to how we'll take attendance. Thank you for engaging today and hopefully I'll be back in town soon.
+Get as far as you can above (turning it in after class / before thursday if needed). EACH PERSON SHOULD TURN IN A LINK TO THEIR PR. This will count as attendence for the day. Thank you for engaging today and hopefully I'll be back in town soon.
 
 --- THIS IS INCREDIBLY ROUGH DRAFT AND SUBJECT TO CHANGE ---
 
