@@ -44,25 +44,47 @@ After anwering these questions to the best of your abilities...
 ### Attendence
 Get as far as you can above (turning it in after class / before thursday if needed). EACH PERSON SHOULD TURN IN A LINK TO THEIR PR. This will count as attendence for the day. Thank you for engaging today and hopefully I'll be back in town soon.
 
---- THIS IS INCREDIBLY ROUGH DRAFT AND SUBJECT TO CHANGE ---
-
 ## Wednesday (no class, just messing with you)
 - Stare blankly in your other classes
 - Ponder deeply "I wish I had a web component that told me the number of minutes until I'm back in btopro's class"
 - Make eye contact and nod w/ your current professor to indicate you weren't completely off in another world just now
 
 ## Thursday
-- We'll get into review of some code examples of the big 3 languages needed to build anything on the web
-- We'll use your posts as a backdrop for understanding what and how the 1st lab was solved
-- We'll get into git, github, and getting setup to do work in pairs / teams.
-- - What are microservices? What are micro frontends?
-- Why do web components come up when discussing these things?
-- Lots of industry examples
-- Explaining the 3 major roles for the semester / lenses that we'll have to look at things through
-- Partner and team formation activity relative to this
-- Looking at additional examples including time until btopro's next class tag
+- We'll review answers / code in general using a classmate's code as the backdrop:
+ - https://github.com/reyes-edwin/IST402_Lab-1/blob/main/hello-world/src/HelloWorld.js
+ - https://github.com/reyes-edwin/IST402_Lab-1/blob/main/hello-world/hello-world.js
+ - https://github.com/reyes-edwin/IST402_Lab-1/blob/main/activity-2.md
+- I'll start digging into an example that we'll use as the basis for our next series of labs. 
+- The repo:
+- For context; this took a few hours to conceive of and build. It will take us a few weeks to fully unpack, analyze and expand. Labs will be built off of this backbone so that we can learn about HTML, CSS, JS more deeply while growing the body of concepts we have surrounding web `fetch()` calls and mocking data to load off of an API end point.
+- Concepts to dig into
+  - Reusing existing elements
+  - Wiring things together
+  - Working with an existing API
+  - Mocking up data for building an API of your own
+  - wiring to existing HTML tags
+  - Class vs tag definitions and why their abstraction is powerful
+- Things down the road as we go:
+  - CI/CD (down the road) and getting these up into version control
+  - NPM publishing and distribution of items
+  - Rendering API data through web components
+  - Creating well constructed, normalized, simple API structured data
 
 ## Homework / Lab
+- Using the template repo I created, start your own repo based off of it
+- Install the repo
+- Get comfy with the repo, where things are located and what it does
+- 
+- Take a rough stab at "designing" a JSON response that we can parse to turn into data
+- https://jsonlint.com/ is your friend. It is able to tell you if you have valid JSON
+- For a starting point. I've made a blank `response.json` file. This file is where you'll mock up your data
+- Here is the criteria for the data in question
+  - The response must support multiple events
+  - Events take place at a location like "Westgate 300"
+  - Events have a start time
+  - Events have an end time
+
+--- THIS IS INCREDIBLY ROUGH DRAFT AND SUBJECT TO CHANGE ---
 
 ## Week 3 - Web components / NPM
 ## Tuesday
