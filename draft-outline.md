@@ -44,7 +44,7 @@ After anwering these questions to the best of your abilities...
 ### Attendence
 Get as far as you can above (turning it in after class / before thursday if needed). EACH PERSON SHOULD TURN IN A LINK TO THEIR PR. This will count as attendence for the day. Thank you for engaging today and hopefully I'll be back in town soon.
 
-## Wednesday (no class, just messing with you)
+## Wednessday (no class, just messing with you)
 - Stare blankly in your other classes
 - Ponder deeply "I wish I had a web component that told me the number of minutes until I'm back in btopro's class"
 - Make eye contact and nod w/ your current professor to indicate you weren't completely off in another world just now
@@ -54,35 +54,52 @@ Get as far as you can above (turning it in after class / before thursday if need
  - https://github.com/reyes-edwin/IST402_Lab-1/blob/main/hello-world/src/HelloWorld.js
  - https://github.com/reyes-edwin/IST402_Lab-1/blob/main/hello-world/hello-world.js
  - https://github.com/reyes-edwin/IST402_Lab-1/blob/main/activity-2.md
-- I'll start digging into an example that we'll use as the basis for our next series of labs. 
-- The repo:
+- I'll start digging into an example that we'll use as the basis for our next series of labs.
+- But first, let's view JSON... the right way. JSON Formatter plugin -- https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa
+  - Firefox / Edge have comparable plugins. Please stop using Safari it makes kittens cry
+- The repo: https://github.com/elmsln/api-project-1
 - For context; this took a few hours to conceive of and build. It will take us a few weeks to fully unpack, analyze and expand. Labs will be built off of this backbone so that we can learn about HTML, CSS, JS more deeply while growing the body of concepts we have surrounding web `fetch()` calls and mocking data to load off of an API end point.
 - Concepts to dig into
-  - Reusing existing elements
   - Wiring things together
   - Working with an existing API
   - Mocking up data for building an API of your own
   - wiring to existing HTML tags
   - Class vs tag definitions and why their abstraction is powerful
 - Things down the road as we go:
+  - Reusing existing elements
   - CI/CD (down the road) and getting these up into version control
   - NPM publishing and distribution of items
   - Rendering API data through web components
   - Creating well constructed, normalized, simple API structured data
 
 ## Homework / Lab
-- Using the template repo I created, start your own repo based off of it
-- Install the repo
+- Using the template repo I created, start your own repo based off of it (click the template button, keep the name the same)
+- Install the repo (git clone, npm install)
 - Get comfy with the repo, where things are located and what it does
-- 
+  - npm start will allow you to view the demo (and basically any demo of any repo)
+  - `code .` or opening the folder in VS Code will allow you to look at the repo and edit it while seeing the results in the browser
+  - I recommend Chrome / Firefox / Edge.
+- The API used here is documented here: https://ip-fast.com/docs/
+- This example code currently will take a call to the API end point below
+- It then returns YOUR IP address either in IPv4 or IPv6 format (hey, an IST 220 thing)
+- What I want you to do for Sunday:
+- Read the documentation and figure out how to get this to return the location as well
+- Add support into the properties() method for Lit to be aware of a location value (Type is string)
+- Modify the `updateUserIp` method to store the value from the API end point in this property locally
+- update the render function to output something like `ip address -- location of the current ip address`
+
+- Read [What is JSON?](https://aws.amazon.com/documentdb/what-is-json/)
 - Take a rough stab at "designing" a JSON response that we can parse to turn into data
-- https://jsonlint.com/ is your friend. It is able to tell you if you have valid JSON
-- For a starting point. I've made a blank `response.json` file. This file is where you'll mock up your data
+- https://jsonlint.com/ is your friend (bookmark your friend). It is able to tell you if you have valid JSON
+- For a starting point. I've made a blank `response.json` file. This file is where you'll mock up your data down the road
 - Here is the criteria for the data in question
-  - The response must support multiple events
-  - Events take place at a location like "Westgate 300"
-  - Events have a start time
-  - Events have an end time
+  - The response must support multiple events (so an Array)
+  - Events take place at a location like "Westgate 300" (a property)
+  - Events have a start time (another property in a specific format)
+  - Events have an end time (another property in a specific format)
+  - Events have details (another property, a string)
+  - Events have an order (another property, a Number)
+- No blog post this week, just a link to your repo dropped in the #edtechjoker slack channel
 
 --- THIS IS INCREDIBLY ROUGH DRAFT AND SUBJECT TO CHANGE ---
 
