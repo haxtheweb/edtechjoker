@@ -119,15 +119,16 @@ We're going to be building a data model so that we can "mock" data as to when yo
   - Events have an end time (another property in a specific format)
   - Events have details (another property, a string)
   - Events have an order they take place in (another property, a Number)
-- Using these criteria, I want you to mock up 5 example events in JSON
+- Using these criteria, I want you to mock up 5 example event objects in JSON
 
 ### Turning in options
 - No blog post this week, all code needs to be put in version control and pushed up to your repo we make in class
-- When you've completed the option in question and it's pushed up to github, drop a link to your repo in the #edtechjoker slack channel
+- When you've completed the option in question and it's pushed up to github, drop a link to your repo in the #edtechjoker slack channel with a note indicating which option you did
 - While your not currently working with a partner / teammates, this will provide a starting point so that all members can help each other with the other "roles"
 - I'll be adding to this assignment as we go through multiple labs. Being on top of this with questions early will help improve the next few weeks as these build on each other.
+- **Turn this in by Sunday at midnight** so I can review solutions and find ones we'll use to discuss in class
 - Tuesday we'll review solutions and issues people ran into
-- **Bonus**: +2% for each additional Option you do. Lab is worth 4% so you could get double the points for this one.
+- **Bonus**: +2% for each additional Option you do. Lab is worth 4% so you could get double the points for this one thing. If you do multiple options please indicate this when dropping it into slack
 
 --- THIS IS INCREDIBLY ROUGH DRAFT AND SUBJECT TO CHANGE ---
 
