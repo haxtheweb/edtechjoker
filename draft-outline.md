@@ -50,6 +50,7 @@ Get as far as you can above (turning it in after class / before thursday if need
 - Make eye contact and nod w/ your current professor to indicate you weren't completely off in another world just now
 
 ## Thursday
+I'll be stepping through a classmate's repo and explaining some of the code found there. I encourage you to follow along through this and all future code walk throughs (clone the code, install it, follow along. This is the career really). Then we'll start into the 1st project which will be the back drop for several labs coming up here in which we'll look at our 1st microservice and it playing with another microservice. Our example today is using the front end to ask an API for data, then using that data in another call to another API. This stringing along of data is way things like Uber have 1000s of microservices / tiny APIs of dedicated functionality.
 - We'll review answers / code in general using a classmate's code as the backdrop:
  - https://github.com/reyes-edwin/IST402_Lab-1/blob/main/hello-world/src/HelloWorld.js
  - https://github.com/reyes-edwin/IST402_Lab-1/blob/main/hello-world/hello-world.js
@@ -143,14 +144,32 @@ We're going to be building a data model so that we can "mock" data as to when yo
 ## Looking ahead
 Next week we'll take your answers, comb through some things that worked, some things that didn't, and try to learn collectively from our mistakes and successes. As with all of these, try your best to get it working and we'll unpack more concepts from that struggle of what did and did not make sense. This repo will be used for a few labs and concepts from it will be used as a basis for the course as `fetch` data from an end point is a big piece of microservice architecture. Lots of small messages all working together.
 
+## Week 3 - Microservices and further exploring our first API access project
+- Small slide deck about microservices using our current project as a backdrop for how bigger systems work together.
+
+## Tuesday
+- Looking over what people produced and pointing out relevant things / unpacking certain issues
+- Grouping to ensure everyone is sitting near group members for the semester
+- In class activity reviewing each other's code and making a single repo
+- Looking at npmjs.com, my own library of elements our team makes and how we can leverage existing work to buid new work
+- adding an asset to our repo
+- "template stamping" / rending an element multiple times based on data from an end point
+  - this is the basis for how any listing of "cards" is displayed. I'll review my own code to show examples of this
+- Establishing the starting point for Lab 3 that expands upon this same project.
+
+## Wednesday
+- dream about being in class
+- imagine what the sun feels like on your face as the cold breeze blows through the trees
+- "Is this really happening... am I still going to class?" - yes, the voice in your head answers
+- you look around in euphoria, "I... I've never been to class this many weeks in a row without disruption..."
+- You panic... "am I actually still dreaming... did I just pass out in the zoom of another class at my desk.. what is this"
+- "Breathe Neo" - a view calls from behind you
+- "Why.. do my lungs hurt?" you ask of the tall stranger
+- "You haven't used them in 2 years"
+- Joyfully... you return home, realizing you've been to class...yesterday. It was yesterday... and this was a dream.
+
 --- THIS IS INCREDIBLY ROUGH DRAFT AND SUBJECT TO CHANGE ---
 
-## Week 3 - Web components / NPM
-## Tuesday
-- What are web components. Why are they the future, who's using them, etc.
-- Introduction to Lit and the notion of reusable blocks of code in web properties
-- We'll leverage existing web components from a past project
-- We'll leverage existing web components from other large libraries like Shoelace
 
 ## Thursday
 - We'll review more code examples and look into how we can render remote data using Lit + `fetch()`
