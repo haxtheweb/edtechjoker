@@ -107,23 +107,27 @@ While these options are not purely A,B,C role types, think of the role you said 
 
 ### Option 3 - "API Developer"
 We're going to be building a data model so that we can "mock" data as to when your classes are.
+- Review the code in both of the above to see what the IPs they are access are
+- Open their response in a browser so you can see what example JSON data responses look like
 - Take a rough stab at "designing" a JSON response that we can parse to turn into data
 - https://jsonlint.com/ is your friend (bookmark your friend). It is able to tell you if you have valid JSON
 - For a starting point. I've made a blank `response.json` file. This file is where you'll mock up your data down the road
 - Here is the criteria for the data in question
   - The response must support multiple events (so an Array)
-  - Events take place at a location like "Westgate 300" (a property)
+  - Events take place at a named location like "Westgate 300" (a property)
   - Events have a start time (another property in a specific format)
   - Events have an end time (another property in a specific format)
   - Events have details (another property, a string)
-  - Events have an order (another property, a Number)
+  - Events have an order they take place in (another property, a Number)
+- Using these criteria, I want you to mock up 5 example events in JSON
 
 ### Turning in options
-- No blog post this week, just a link to your repo dropped in the #edtechjoker slack channel
+- No blog post this week, all code needs to be put in version control and pushed up to your repo we make in class
+- When you've completed the option in question and it's pushed up to github, drop a link to your repo in the #edtechjoker slack channel
 - While your not currently working with a partner / teammates, this will provide a starting point so that all members can help each other with the other "roles"
 - I'll be adding to this assignment as we go through multiple labs. Being on top of this with questions early will help improve the next few weeks as these build on each other.
 - Tuesday we'll review solutions and issues people ran into
-- **Bonus**: +1% for each additional Option you do
+- **Bonus**: +2% for each additional Option you do. Lab is worth 4% so you could get double the points for this one.
 
 --- THIS IS INCREDIBLY ROUGH DRAFT AND SUBJECT TO CHANGE ---
 
