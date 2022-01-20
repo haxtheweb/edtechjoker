@@ -57,9 +57,11 @@ Get as far as you can above (turning it in after class / before thursday if need
 - I'll start digging into an example that we'll use as the basis for our next series of labs.
 - But first, let's view JSON... the right way. JSON Formatter plugin -- https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa
   - Firefox / Edge have comparable plugins. Please stop using Safari it makes kittens cry
-- The repo: https://github.com/elmsln/api-project-1
+
+## Homework / Lab
+The repo: https://github.com/elmsln/api-project-1
 - For context; this took a few hours to conceive of and build. It will take us a few weeks to fully unpack, analyze and expand. Labs will be built off of this backbone so that we can learn about HTML, CSS, JS more deeply while growing the body of concepts we have surrounding web `fetch()` calls and mocking data to load off of an API end point.
-- Concepts to dig into
+- Concepts to chew on in this
   - Wiring things together
   - Working with an existing API
   - Mocking up data for building an API of your own
@@ -72,15 +74,16 @@ Get as far as you can above (turning it in after class / before thursday if need
   - Rendering API data through web components
   - Creating well constructed, normalized, simple API structured data
 
-## Homework / Lab
-- Using the template repo I created, start your own repo based off of it (click the template button, keep the name the same)
-- Install the repo (git clone, npm install)
+### Steps to get started
+- Fork my repo (top right button on github)
+- Install your fork of the repo (`git clone` using the ssh style `git clone git@github.com:YOU/api-project-1.git, `cd api-project-1`, `npm install`)
 - Get comfy with the repo, where things are located and what it does
-  - npm start will allow you to view the demo (and basically any demo of any repo)
+  - `npm start` will allow you to view the demo (and basically any demo of any repo)
   - `code .` or opening the folder in VS Code will allow you to look at the repo and edit it while seeing the results in the browser
   - I recommend Chrome / Firefox / Edge.
 - Read [What is JSON?](https://aws.amazon.com/documentdb/what-is-json/)
 - Run through the Lit.dev tutorial if you haven't already - https://lit.dev/tutorial/
+  - Google is your friend here with terms like `how to wak an object in javascript` or `how to use fetch in javascript` or `how to do whatever in LitElement`
 - Familiarize yourself with the JS, HTML and CSS based links on this site. Tutorials / articles / good google results are your friend in learning all things web. https://oer.hax.psu.edu/bto108/sites/edtechjoker/resources
 
 While these options are not purely A,B,C role types, think of the role you said you most want on your team (If you listed more than just Front End, please do that role as we had like 75% say Front End). The goal here is for us to generate lots of different examples to learn from as we keep working on our project. Nex week teams will be announced so this will dove tail into that.
@@ -92,9 +95,10 @@ While these options are not purely A,B,C role types, think of the role you said 
 - It then returns YOUR IP address either in IPv4 or IPv6 format (hey, an IST 220 thing)
 - What I want you to do for Sunday:
 - Read the documentation and figure out how to get this to return the location as well (it's changing 1 variable in the call to the API)
-- Add support into the properties() method for Lit to be aware of a location value (Type is string)
-- Modify the `updateUserIp` method to store the value from the API end point in this property locally
+- Add support into the properties() method for Lit to be aware of a `location` property so that when it changes, it can be rendered in `render()` (Type is string)
+- Modify the `updateUserIp` method to store the value from the API end point in this property on the class `this.`
 - update the render function to output something like `ip address -- location of the current ip address`
+- add comments to anything you don't understand / are educated guesses
 
 ### Option 2 - "back end developer"
 - View https://freegeoip.app/json/ to see the JSON object structure
@@ -104,6 +108,7 @@ While these options are not purely A,B,C role types, think of the role you said 
 - I want you to use the API response and the `properties()` method to capture and store the `long` and `lat` of where the user is based on IP
 - Then, I want you to use this data in the `render()` method to show a google map that focuses on this location. I've put a starting iframe embed code that focuses on a specific long / lat for starters
 - This helps demonstrate API data passed to API data (microservices, each small and dumb) and interfacing with class HTML to solve a problem
+- add comments to anything you don't understand / are educated guesses
 
 ### Option 3 - "API Developer"
 We're going to be building a data model so that we can "mock" data as to when your classes are.
