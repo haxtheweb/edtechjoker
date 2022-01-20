@@ -79,16 +79,34 @@ Get as far as you can above (turning it in after class / before thursday if need
   - npm start will allow you to view the demo (and basically any demo of any repo)
   - `code .` or opening the folder in VS Code will allow you to look at the repo and edit it while seeing the results in the browser
   - I recommend Chrome / Firefox / Edge.
+- Read [What is JSON?](https://aws.amazon.com/documentdb/what-is-json/)
+- Run through the Lit.dev tutorial if you haven't already - https://lit.dev/tutorial/
+- Familiarize yourself with the JS, HTML and CSS based links on this site. Tutorials / articles / good google results are your friend in learning all things web. https://oer.hax.psu.edu/bto108/sites/edtechjoker/resources
+
+While these options are not purely A,B,C role types, think of the role you said you most want on your team (If you listed more than just Front End, please do that role as we had like 75% say Front End). The goal here is for us to generate lots of different examples to learn from as we keep working on our project. Nex week teams will be announced so this will dove tail into that.
+
+### Option 1 - "front end developer"
+- Find the `src/UserIP.js` file
 - The API used here is documented here: https://ip-fast.com/docs/
 - This example code currently will take a call to the API end point below
 - It then returns YOUR IP address either in IPv4 or IPv6 format (hey, an IST 220 thing)
 - What I want you to do for Sunday:
-- Read the documentation and figure out how to get this to return the location as well
+- Read the documentation and figure out how to get this to return the location as well (it's changing 1 variable in the call to the API)
 - Add support into the properties() method for Lit to be aware of a location value (Type is string)
 - Modify the `updateUserIp` method to store the value from the API end point in this property locally
 - update the render function to output something like `ip address -- location of the current ip address`
 
-- Read [What is JSON?](https://aws.amazon.com/documentdb/what-is-json/)
+### Option 2 - "back end developer"
+- View https://freegeoip.app/json/ to see the JSON object structure
+- find the `src/LocationFromIP.js` file
+- You'll need to at least follow along with what's available in `src/UserIP.js` file so look that over as to what's happening there
+- I've `console.log()` a response from ANOTHER API which can convert an IP address into a response as to where the user is
+- I want you to use the API response and the `properties()` method to capture and store the `long` and `lat` of where the user is based on IP
+- Then, I want you to use this data in the `render()` method to show a google map that focuses on this location. I've put a starting iframe embed code that focuses on a specific long / lat for starters
+- This helps demonstrate API data passed to API data (microservices, each small and dumb) and interfacing with class HTML to solve a problem
+
+### Option 3 - "API Developer"
+We're going to be building a data model so that we can "mock" data as to when your classes are.
 - Take a rough stab at "designing" a JSON response that we can parse to turn into data
 - https://jsonlint.com/ is your friend (bookmark your friend). It is able to tell you if you have valid JSON
 - For a starting point. I've made a blank `response.json` file. This file is where you'll mock up your data down the road
@@ -99,7 +117,13 @@ Get as far as you can above (turning it in after class / before thursday if need
   - Events have an end time (another property in a specific format)
   - Events have details (another property, a string)
   - Events have an order (another property, a Number)
+
+### Turning in options
 - No blog post this week, just a link to your repo dropped in the #edtechjoker slack channel
+- While your not currently working with a partner / teammates, this will provide a starting point so that all members can help each other with the other "roles"
+- I'll be adding to this assignment as we go through multiple labs. Being on top of this with questions early will help improve the next few weeks as these build on each other.
+- Tuesday we'll review solutions and issues people ran into
+- **Bonus**: +1% for each additional Option you do
 
 --- THIS IS INCREDIBLY ROUGH DRAFT AND SUBJECT TO CHANGE ---
 
@@ -155,6 +179,8 @@ This segway's into headless, decoupling and the need for well documented APIs
 ## Tuesday
 - OpenAPI 3.0, what it is, how to use it, examples, how to develop a robust API. Point to the API evangelist
 - We'll look at how HAXcms uses "doc blocks" of comments in order to automatically generate Open API spec documents
+- https://stoplight.io/
+- https://www.postman.com/
 ## Thursday
 - We'll start doing some prototyping in class on paper / tablet
 - The goal of this initial rough work is to have...
