@@ -1,7 +1,7 @@
 # Draft outline
 This is a draft of the course. The topics we'll cover and the order. It will be established and modified based on student needs.
 - [week 1](https://github.com/elmsln/edtechjoker/tree/master/sp-22/week-1)
-
+- week 2 (below currently)
 
 ## Week 2 - Git / github practice and unpacking what's going on in an npm repo
 ## Tuesday
@@ -142,47 +142,96 @@ We're going to be building a data model so that we can "mock" data as to when yo
 - **Bonus**: +1% for each additional Option you do. Lab is worth 4% so you could get double the points for this one thing. It's possible to get up to 7% on this if you do all 3 bonus oppurtunities.
 
 ## Looking ahead
-Next week we'll take your answers, comb through some things that worked, some things that didn't, and try to learn collectively from our mistakes and successes. As with all of these, try your best to get it working and we'll unpack more concepts from that struggle of what did and did not make sense. This repo will be used for a few labs and concepts from it will be used as a basis for the course as `fetch` data from an end point is a big piece of microservice architecture. Lots of small messages all working together.
+Next week I'll take your answers, comb through some things that worked, some things that didn't, and try to learn collectively from our mistakes and successes. As with all of these, try your best to get it working and we'll unpack more concepts from that struggle of what did and did not make sense. This repo will be used for a few labs and concepts from it will be used as a basis for the course as `fetch` data from an end point is a big piece of microservice architecture. Lots of small messages all working together.
 
 ## Week 3 - Microservices and further exploring our first API access project
 - Small slide deck about microservices using our current project as a backdrop for how bigger systems work together.
 
 ## Tuesday
 - Looking over what people produced and pointing out relevant things / unpacking certain issues
+  - I'll give feedback on a few solutions and dig into them in more detail; at least 1 of each option / role
 - Grouping to ensure everyone is sitting near group members for the semester
 - In class activity reviewing each other's code and making a single repo
 - Looking at npmjs.com, my own library of elements our team makes and how we can leverage existing work to buid new work
-- adding an asset to our repo
-- "template stamping" / rending an element multiple times based on data from an end point
-  - this is the basis for how any listing of "cards" is displayed. I'll review my own code to show examples of this
+  - Bringing in wikipedia-query and at least putting it in our repo / dependencies via package.json or CLI method
 - Establishing the starting point for Lab 3 that expands upon this same project.
+- In class group activity:
+  - exchange contact info / make a multi-person DM on slack or whatever space of your choosing
+  - 1 of the PM / API product owners, Create an organization and add everyone in your group to it
+  - Also make sure you grant roles within the organization to everyone added so that they can adminster the projects of the org
+  - In that organization, create another fork of https://github.com/elmsln/api-project-1 and rename it to ip-project
+  - All members should fork this repo in their organization to their personal account so they have a copy
 
 ## Wednesday
+- Get the above cleared up as needed
 - dream about being in class
 - imagine what the sun feels like on your face as the cold breeze blows through the trees
 - "Is this really happening... am I still going to class?" - yes, the voice in your head answers
 - you look around in euphoria, "I... I've never been to class this many weeks in a row without disruption..."
 - You panic... "am I actually still dreaming... did I just pass out in the zoom of another class at my desk.. what is this"
-- "Breathe Neo" - a view calls from behind you
-- "Why.. do my lungs hurt?" you ask of the tall stranger
-- "You haven't used them in 2 years"
-- Joyfully... you return home, realizing you've been to class...yesterday. It was yesterday... and this was a dream.
+- You wake up... alone, the zoom meeting has ended. It's been hours since you "had class", you must have slept through it all
+- Egerly, you await the resuming class with humans
+
+## Thursday
+- I'll give additional feedback if any was warranted / we ran out of time on Tues
+- In class group activitiy:
+  - Using the feedback from class, partners in front-end, back-end, and API/Owner will work together to improve their Option to be the best it can be
+  - Each pair will use 1 person's fork; 1 "driving" (aka coding) the other pair-programming / over the shoulder / helping google / toubleshoot as needed
+  - When the solution to each option works in a team member's fork, commit it back to the fork
+  - Then, issue a Pull Request (Github UI thing) and make sure the PM / whoever owns the repo accepts it
+  - The goal is to get a working Repo that has all 3 options merged together into one
+  - After this happens, all teammates should get a UI that looks like this in their fork of the repo
+![Github UI for rebase](https://user-images.githubusercontent.com/329735/150425002-e8e06bbc-daa6-4f03-bf0a-ceb38a6a2954.png)
+
+## Homework / Lab
+- now you're going to try adding another element that leverages 1 API and routes the data through to the usage of this tag
+- Edit the `src/LocationFromIP.js` file in order to try adding the following:
+- Create an HTML link that sits below the iframe that links to the location on google maps.
+- google maps links can be formed like this: `https://www.google.com/maps/@40.804,77.910,14z` where it's `@long,lat`. The `,14z` is needed for "Zoom level"
+- When we get the data back on long / lat, also pull the City and State at this time
+- Using this information, wire the data up to a wikipedia-query tag
+- It'll need to be added as a dependency if you didn't already https://www.npmjs.com/package/@lrnwebcomponents/wikipedia-query (and then `npm install`)
+- Then you'll need to `import` the tag at the top of your file using it
+- Then in your `render()` method you'll have to implement the tag. Here's some example usage:
+ ```html
+ <wikipedia-query search="Moon"></wikipedia-query>
+ <wikipedia-query search="Pittsburgh, Pennsylvania"></wikipedia-query>
+```
+- The search property needs to take city`, ` state and the comma then a space are important to the call working
+
+## Submitting the lab
+- A blog post this week; each Option / Role covers a different API but all options should cover the following:
+- Screenshots / video (optional) conveying what the tag is, how it works to visualize the API data
+- How fetch can be used to get information from the API and feed it into a LitElement based web component to provide the stateful updating of the DOM
+- markdown block using the ` ` ` 3x in a row as a code block to illustrate the API response
+- Links to the service in question so that people can learn more about the API if they want
+- Links to your source code on github so people could poke at the code more to learn about it
+### Option specific parts
+- **Option 1 - Front end Devs** - You are writing from the perspective of the IP address / location API element
+- **Option 2 - Back end Devs** - You are writing from the perspective of the GeoIP element
+- **Option 3 - API / Product Owner** - You are writing from the perspective of the wikipedia API
+  - Wikipedia's API is documented here -- https://en.wikipedia.org/w/api.php
+  - wikipedia-query source for a backdrop of code you can walk through - https://github.com/elmsln/lrnwebcomponents/blob/master/elements/wikipedia-query/src/wikipedia-query.js#L82
+- Drop a link to your blog post into the #edtechjoker slack channel when finished
+- **each teammate is writing their own article from the option perspective in question**
+
+### Pro tip
+- remember you can hit inspect -> Network tab and when the page loads see the call go off to all 3 of the APIs to see them happen / get the data structure
+  - This will allow you to complete the above writing assignment even though you didn't write this tag :)
 
 --- THIS IS INCREDIBLY ROUGH DRAFT AND SUBJECT TO CHANGE ---
 
-
-## Thursday
+## Week 4 - Monolithic design; aka maintaining legacy systems (aka everything made prior to last week)
+- Quick presentation / review of Monolithic design vs microservice.
 - We'll review more code examples and look into how we can render remote data using Lit + `fetch()`
 - Using Lit and modeling data in a JSON blob, we'll render data from a public API
-- This is the 1st partner lab we'll do / assign partners and teams at this point
 
-## Homework / Lab
+- "template stamping" / rending an element multiple times based on data from an end point
+  - this is the basis for how any listing of "cards" is displayed. I'll review my own code to show examples of this
+## Tuesday
 - Get a git repo setup with your partner
 - Using the NASA API discussed in class, render this data using Lit and it's `map` capability to walk through `Array`'s of data
 - https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/ - additional free APIs we can parse
-
-## Week 4 - Monolithic design; aka maintaining legacy systems (aka everything made prior to last week)
-## Tuesday
 - Time to review the NASA API solutions people came up with
 - In your teams; all 3 partners pick a new person to review code with
 - Where we were - the monoliths. Wordpress / Drupal example / decks for understanding the old world
