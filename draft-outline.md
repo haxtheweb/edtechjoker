@@ -126,6 +126,11 @@ We're going to be building a data model so that we can "mock" data as to when yo
   - Events have an order they take place in (another property, a Number)
 - Using these criteria, I want you to mock up 5 example event objects in JSON
 
+### Open Bonus +1%
+- create 2 input fields on the index.html demo page for long and lat
+- when these change and the user clicks a button that says "update" I want it to update the location on the map
+- This implies you did `Option 2` above (which is either assigned to you or you get bonus for also doing)
+
 ### Turning in options
 - No blog post this week, all code needs to be put in version control and pushed up to your repo we make in class
 - When you've completed the option in question and it's pushed up to github, drop a link to your repo in the #edtechjoker slack channel with a note indicating which option you did
@@ -133,7 +138,10 @@ We're going to be building a data model so that we can "mock" data as to when yo
 - I'll be adding to this assignment as we go through multiple labs. Being on top of this with questions early will help improve the next few weeks as these build on each other.
 - **Turn this in by Sunday at midnight** so I can review solutions and find ones we'll use to discuss in class
 - Tuesday we'll review solutions and issues people ran into
-- **Bonus**: +2% for each additional Option you do. Lab is worth 4% so you could get double the points for this one thing. If you do multiple options please indicate this when dropping it into slack
+- **Bonus**: +1% for each additional Option you do. Lab is worth 4% so you could get double the points for this one thing. It's possible to get up to 7% on this if you do all 3 bonus oppurtunities.
+
+## Looking ahead
+Next week we'll take your answers, comb through some things that worked, some things that didn't, and try to learn collectively from our mistakes and successes. As with all of these, try your best to get it working and we'll unpack more concepts from that struggle of what did and did not make sense. This repo will be used for a few labs and concepts from it will be used as a basis for the course as `fetch` data from an end point is a big piece of microservice architecture. Lots of small messages all working together.
 
 --- THIS IS INCREDIBLY ROUGH DRAFT AND SUBJECT TO CHANGE ---
 
