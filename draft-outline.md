@@ -1,5 +1,6 @@
 # Draft outline
 This is a draft of the course. The topics we'll cover and the order. It will be established and modified based on student needs.
+- [Prerequisit concepts](https://youtube.com/playlist?list=PLJQupiji7J5efO_Q5VGZcPE4O_TM_HGP4) - This playlist has lots of things broken down in a lot of detail. Need a lecture on HTML/CSS? Headless? JS? CMSs? Other things? This playlist has custom and community sourced things to help
 - [week 1](https://github.com/elmsln/edtechjoker/tree/master/sp-22/week-1)
 - week 2 (below currently)
 
@@ -83,6 +84,7 @@ The repo: https://github.com/elmsln/api-project-1
   - `code .` or opening the folder in VS Code will allow you to look at the repo and edit it while seeing the results in the browser
   - I recommend Chrome / Firefox / Edge.
 - Read [What is JSON?](https://aws.amazon.com/documentdb/what-is-json/)
+- Need a primer on topics we cover in class? - https://youtube.com/playlist?list=PLJQupiji7J5efO_Q5VGZcPE4O_TM_HGP4
 - Run through the Lit.dev tutorial if you haven't already - https://lit.dev/tutorial/
   - Google is your friend here with terms like `how to wak an object in javascript` or `how to use fetch in javascript` or `how to do whatever in LitElement`
 - Familiarize yourself with the JS, HTML and CSS based links on this site. Tutorials / articles / good google results are your friend in learning all things web. https://oer.hax.psu.edu/bto108/sites/edtechjoker/resources
