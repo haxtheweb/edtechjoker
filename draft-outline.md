@@ -39,14 +39,16 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - Establishing the starting point for Lab 3 that expands upon this same project.
 - In class group activity:
   - exchange contact info / make a multi-person DM on slack or whatever space of your choosing
-  - 1 of the PM / API product owners, Create a github organization and add everyone in your group to it
+  - 1 of the PM / API product owners, Create a github organization and add everyone in your group to it (ensure you discuss who's doing this / spot check while 1 person "drives" so to speak)
   - Also make sure you grant roles within the organization to everyone added so that they can adminster the projects of the org!
-  - In that organization, create another fork of https://github.com/elmsln/api-project-1 and rename it to ip-project (fork, then you can rename under settings)
-  - All members should fork this repo in their organization to their personal account so they have a copy
-  - The renaming also avoids issues w/ already having a fork of the original copy
+  - In that organization, use the following "template" to create a starting point for everyone to work on: https://github.com/elmsln/ip-project
+  - Templates are like forks but don't retain `.git/` history. It's more of a starting point than a continuation.
+  - All members should fork this repo in their organization to their personal account so they have a copy (or if you know how to and want to work in branches you can as well but I won't be covering this)
   - Make sure everyone on your team has a fork of the repo and then has it cloned locally on their machine
   - `npm install` and `npm start` to ensure everyone has everything running properly
   - Using the feedback from class, partners in front-end, back-end, and API/Owner will work together to improve their Option to be the best it can be
+  - Each pair will use 1 person's fork; 1 "driving" (aka coding) the other pair-programming / over the shoulder / helping google / toubleshoot as needed
+  - When the solution to each option works in a team member's fork, commit it back to the fork of `ip-project` for your organization
   - If you hit this bullet point before the end of class, start into the "activity" for thursday. The faster you get Thursday done, the more time to work on the homework in class!
 
 ## Wednesday
@@ -61,13 +63,14 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 
 ## Thursday
 - I'll give additional feedback if any was warranted / we ran out of time on Tues
+- Also if you run into issues / have questions not answered in office hours (Wed) then DM / ask in edtechjoker and we'll cover these to start class if possible
 - In class group activitiy:
-  - Each pair will use 1 person's fork; 1 "driving" (aka coding) the other pair-programming / over the shoulder / helping google / toubleshoot as needed
-  - When the solution to each option works in a team member's fork, commit it back to the fork
-  - Then, issue a Pull Request (Github UI thing) and make sure the PM / whoever owns the repo accepts it
+  - Issue a Pull Request (Github UI thing) and make sure the PM / whoever owns the repo accepts it
+  - This will pull all 3 solutions into a single, agreed upon repository
   - The goal is to get a working Repo that has all 3 options merged together into one
   - After this happens, all teammates should get a UI that looks like this in their fork of the repo
 ![Github UI for rebase](https://user-images.githubusercontent.com/329735/150425002-e8e06bbc-daa6-4f03-bf0a-ceb38a6a2954.png)
+  - Rebase your personal repo so that everyone is back on the "same page". All repos for all teammates will now have the same code.
 
 ## Homework / Lab
 - now you're going to try adding another element that leverages 1 API and routes the data through to the usage of this tag
@@ -79,26 +82,29 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
   - This is a silly example of 3, unrelated web service APIs, all feeding each other info. Microservices do this all the time like get GPS location, calculate speed, 
 - It'll need to be added as a dependency if you didn't already https://www.npmjs.com/package/@lrnwebcomponents/wikipedia-query (and then `npm install`)
   - `@lrnwebcomponents/wikipedia-query`
-- Then you'll need to `import` the tag at the top of your file to use it
+  - Reading on "saving" things added -- https://www.stackchief.com/tutorials/npm%20install%20%7C%20how%20it%20works
+  - You can also manually edit the `dependencies` section of your `package.json` but ensure you don't break the `json blob` in doing so :)
+- Then you'll need to `import` the tag at the top of your file to use it (see how the other files import  assets for usage`)
+  - The path to referencing wikipedia-query is `@lrnwebcomponents/wikipedia-query/wikipedia-query.js` as a "bare import"
 - Then in your `render()` method you'll have to implement the tag. Here's some example usage:
- ```html
- <wikipedia-query search="Moon"></wikipedia-query>
- <wikipedia-query search="Pittsburgh, Pennsylvania"></wikipedia-query>
-```
-- The search property needs to take city`, ` state and the comma then a space are important to the call working
+  - https://codepen.io/btopro/pen/yLNmVbw
+- The search property in a common named city it takes city`, ` state and the comma then a space are important to the call working
+- Leverage this tag in your element three, like I have in the codepen. 1 that does the `city, state` and another that's just `city` and another that's just `state`
   - To test accuracy, if you have a VPN or Cellphone see if you show up in a different city if it still works (it should)
+  - **note**: We presently don't have a "that didn't work" fail test in querying the wikipedia API so if you say VPN to new york and put in `New York, New York` it returns nothing vs `New York` is the state while `New York City` is the result you probably would assume to be there. I say this because if you move around to other spaces they might not always work for all 3 tags, so we're basically leveraging each to illustrate reuse of an API + reuse of a visual asset
 
 ## Submitting the lab
 - A blog post this week; each Option / Role covers a different API but all options should cover the following:
 - Screenshots / video (optional) conveying what the tag is, how it works to visualize the API data
+  - While not required, screencasting might be a lot easier for this one but it's up to your preference
 - How `fetch` can be used to get information from the API and feed it into a LitElement based web component to provide the stateful updating of the DOM
 - markdown block using the ` ` ` 3x in a row as a code block to illustrate the API response
 - Links to the service in question so that people can learn more about the API if they want
-- Links to your source code on github so people could poke at the code more to learn about it
+- Links to your source code on github so people could poke at the code more to learn about it (link to which ever element your writing about below)
 ### Option specific parts
 - **Option 1 - Front end Devs** - You are writing from the perspective of the IP address / location API element
 - **Option 2 - Back end Devs** - You are writing from the perspective of the GeoIP element
-- **Option 3 - API / Product Owner** - You are writing from the perspective of the wikipedia API
+- **Option 3 - API / Product Owner** - You are writing from the perspective of the wikipedia API and leveraging it via `wikipedia-query`
   - Wikipedia's API is documented here -- https://en.wikipedia.org/w/api.php
   - wikipedia-query source for a backdrop of code you can walk through - https://github.com/elmsln/lrnwebcomponents/blob/master/elements/wikipedia-query/src/wikipedia-query.js#L82
 - Drop a link to your blog post into the #edtechjoker slack channel when finished
