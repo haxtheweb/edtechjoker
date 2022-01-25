@@ -6,7 +6,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - week 3
 
 ## Week 3 - Microservices and further exploring our first API access project
-- Small slide deck about microservices using our current project as a backdrop for how bigger systems work together.
+- Skimmed in class; read to gain context of the semester: https://divante.com/blog/10-companies-that-implemented-the-microservice-architecture-and-paved-the-way-for-others/
 
 ## Tuesday
 - Looking over what people produced and pointing out relevant things / unpacking certain issues
@@ -73,6 +73,8 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
   - Rebase your personal repo so that everyone is back on the "same page". All repos for all teammates will now have the same code.
 
 ## Homework / Lab
+- Read this article / watch the talk at the bottom to gain insight into how these things are built out and contextually leveraged, at scale: https://divante.com/blog/10-companies-that-implemented-the-microservice-architecture-and-paved-the-way-for-others/
+  - We're working in a small, some what silly way for sure, but realize that this pattern just replicates and larger complexity is just smaller complexity multiplied
 - now you're going to try adding another element that leverages 1 API and routes the data through to the usage of this tag
 - Edit the `src/LocationFromIP.js` file in order to try adding the following:
 - Create an HTML link that sits below the iframe that links to the location on google maps.
