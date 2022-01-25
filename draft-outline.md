@@ -36,10 +36,14 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - Establishing the starting point for Lab 3 that expands upon this same project.
 - In class group activity:
   - exchange contact info / make a multi-person DM on slack or whatever space of your choosing
-  - 1 of the PM / API product owners, Create an organization and add everyone in your group to it
-  - Also make sure you grant roles within the organization to everyone added so that they can adminster the projects of the org
-  - In that organization, create another fork of https://github.com/elmsln/api-project-1 and rename it to ip-project
+  - 1 of the PM / API product owners, Create a github organization and add everyone in your group to it
+  - Also make sure you grant roles within the organization to everyone added so that they can adminster the projects of the org!
+  - In that organization, create another fork of https://github.com/elmsln/api-project-1 and rename it to ip-project (fork, then you can rename under settings)
   - All members should fork this repo in their organization to their personal account so they have a copy
+  - The renaming also avoids issues w/ already having a fork of the original copy
+  - Make sure everyone on your team has a fork of the repo and then has it cloned locally on their machine
+  - `npm install` and `npm start` to ensure everyone has everything running properly
+  - If you hit this bullet point before the end of class, start into the "activity" for thursday. The faster you get Thursday done, the more time to work on the homework in class!
 
 ## Wednesday
 - Get the above cleared up as needed
