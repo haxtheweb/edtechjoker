@@ -33,6 +33,9 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - In class activity reviewing each other's code and making a single repo
 - Looking at npmjs.com, my own library of elements our team makes and how we can leverage existing work to buid new work
   - Bringing in wikipedia-query and at least putting it in our repo / dependencies via package.json or CLI method
+  - Example being used in a codepen - https://codepen.io/btopro/pen/yLNmVbw
+  - Source: https://github.com/elmsln/lrnwebcomponents/blob/master/elements/wikipedia-query/wikipedia-query.js
+  - npm: https://www.npmjs.com/package/@lrnwebcomponents/wikipedia-query
 - Establishing the starting point for Lab 3 that expands upon this same project.
 - In class group activity:
   - exchange contact info / make a multi-person DM on slack or whatever space of your choosing
