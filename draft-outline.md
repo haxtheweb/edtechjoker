@@ -43,6 +43,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
   - The renaming also avoids issues w/ already having a fork of the original copy
   - Make sure everyone on your team has a fork of the repo and then has it cloned locally on their machine
   - `npm install` and `npm start` to ensure everyone has everything running properly
+  - Using the feedback from class, partners in front-end, back-end, and API/Owner will work together to improve their Option to be the best it can be
   - If you hit this bullet point before the end of class, start into the "activity" for thursday. The faster you get Thursday done, the more time to work on the homework in class!
 
 ## Wednesday
@@ -58,7 +59,6 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 ## Thursday
 - I'll give additional feedback if any was warranted / we ran out of time on Tues
 - In class group activitiy:
-  - Using the feedback from class, partners in front-end, back-end, and API/Owner will work together to improve their Option to be the best it can be
   - Each pair will use 1 person's fork; 1 "driving" (aka coding) the other pair-programming / over the shoulder / helping google / toubleshoot as needed
   - When the solution to each option works in a team member's fork, commit it back to the fork
   - Then, issue a Pull Request (Github UI thing) and make sure the PM / whoever owns the repo accepts it
@@ -72,20 +72,23 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - Create an HTML link that sits below the iframe that links to the location on google maps.
 - google maps links can be formed like this: `https://www.google.com/maps/@40.804,77.910,14z` where it's `@long,lat`. The `,14z` is needed for "Zoom level"
 - When we get the data back on long / lat, also pull the City and State at this time
-- Using this information, wire the data up to a wikipedia-query tag
+- Using this information, wire the data up to a wikipedia-query tag so that when the IP changes, the Location Changes, the Wikipedia article changes
+  - This is a silly example of 3, unrelated web service APIs, all feeding each other info. Microservices do this all the time like get GPS location, calculate speed, 
 - It'll need to be added as a dependency if you didn't already https://www.npmjs.com/package/@lrnwebcomponents/wikipedia-query (and then `npm install`)
-- Then you'll need to `import` the tag at the top of your file using it
+  - `@lrnwebcomponents/wikipedia-query`
+- Then you'll need to `import` the tag at the top of your file to use it
 - Then in your `render()` method you'll have to implement the tag. Here's some example usage:
  ```html
  <wikipedia-query search="Moon"></wikipedia-query>
  <wikipedia-query search="Pittsburgh, Pennsylvania"></wikipedia-query>
 ```
 - The search property needs to take city`, ` state and the comma then a space are important to the call working
+  - To test accuracy, if you have a VPN or Cellphone see if you show up in a different city if it still works (it should)
 
 ## Submitting the lab
 - A blog post this week; each Option / Role covers a different API but all options should cover the following:
 - Screenshots / video (optional) conveying what the tag is, how it works to visualize the API data
-- How fetch can be used to get information from the API and feed it into a LitElement based web component to provide the stateful updating of the DOM
+- How `fetch` can be used to get information from the API and feed it into a LitElement based web component to provide the stateful updating of the DOM
 - markdown block using the ` ` ` 3x in a row as a code block to illustrate the API response
 - Links to the service in question so that people can learn more about the API if they want
 - Links to your source code on github so people could poke at the code more to learn about it
@@ -103,6 +106,14 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
   - This will allow you to complete the above writing assignment even though you didn't write this tag :)
 
 --- THIS IS INCREDIBLY ROUGH DRAFT AND SUBJECT TO CHANGE ---
+
+- Date card wiring from own API
+  - Ordered List rendering of the data as well
+  - Option to render as ordered list or as date card
+- NASA rendering; render images from NASA using their public API to render the data
+  - leverage an existing simple card for displaying the data
+  - Limit rendering to 10 results
+  - Using `display: 'inline-flex'` or comparable, get the cards to all show up next to each other
 
 ## Week 4 - Monolithic design; aka maintaining legacy systems (aka everything made prior to last week)
 - Quick presentation / review of Monolithic design vs microservice.
