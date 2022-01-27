@@ -62,15 +62,16 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - Egerly, you await the resuming class with humans
 
 ## Thursday
-- I'll give additional feedback if any was warranted / we ran out of time on Tues
-- Also if you run into issues / have questions not answered in office hours (Wed) then DM / ask in edtechjoker and we'll cover these to start class if possible
 - In class group activitiy:
   - Issue a Pull Request (Github UI thing) and make sure the PM / whoever owns the repo accepts it
   - This will pull all 3 solutions into a single, agreed upon repository
-  - The goal is to get a working Repo that has all 3 options merged together into one
+  - The goal is to get a working Repo that has all 3 options merged together into one after discussing with your partner / teammates
   - After this happens, all teammates should get a UI that looks like this in their fork of the repo
 ![Github UI for rebase](https://user-images.githubusercontent.com/329735/150425002-e8e06bbc-daa6-4f03-bf0a-ceb38a6a2954.png)
   - Rebase your personal repo so that everyone is back on the "same page". All repos for all teammates will now have the same code.
+  - local machine: `git pull origin master` and now you have the assets back local again and in sync
+  - if you run into issues with git: VSCode's git integration is well done
+  - Also https://desktop.github.com/ while not required, can at times help resolve issues in getting code all merged back together
 
 ## Homework / Lab
 - Read this article / watch the talk at the bottom to gain insight into how these things are built out and contextually leveraged, at scale: https://divante.com/blog/10-companies-that-implemented-the-microservice-architecture-and-paved-the-way-for-others/
@@ -81,36 +82,40 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - google maps links can be formed like this: `https://www.google.com/maps/@40.804,77.910,14z` where it's `@long,lat`. The `,14z` is needed for "Zoom level"
 - When we get the data back on long / lat, also pull the City and State at this time
 - Using this information, wire the data up to a wikipedia-query tag so that when the IP changes, the Location Changes, the Wikipedia article changes
-  - This is a silly example of 3, unrelated web service APIs, all feeding each other info. Microservices do this all the time like get GPS location, calculate speed, 
+  - This is a silly example of 3, unrelated web service APIs, all feeding each other info. Microservices do this all the time like get GPS location, calculate speed, etc
 - It'll need to be added as a dependency if you didn't already https://www.npmjs.com/package/@lrnwebcomponents/wikipedia-query (and then `npm install`)
   - `@lrnwebcomponents/wikipedia-query`
-  - Reading on "saving" things added -- https://www.stackchief.com/tutorials/npm%20install%20%7C%20how%20it%20works
+  - Read up on "saving" things that you add as dependencies -- https://www.stackchief.com/tutorials/npm%20install%20%7C%20how%20it%20works
   - You can also manually edit the `dependencies` section of your `package.json` but ensure you don't break the `json blob` in doing so :)
-- Then you'll need to `import` the tag at the top of your file to use it (see how the other files import  assets for usage`)
+- Then you'll need to `import` the tag at the top of your file to use it (see how the other files `import` assets for usage`)
   - The path to referencing wikipedia-query is `@lrnwebcomponents/wikipedia-query/wikipedia-query.js` as a "bare import"
+  - "bare import" refers to NOT having a reference to where the file lives. We always allow node to help interpret where it lives
 - Then in your `render()` method you'll have to implement the tag. Here's some example usage:
   - https://codepen.io/btopro/pen/yLNmVbw
-- The search property in a common named city it takes city`, ` state and the comma then a space are important to the call working
-- Leverage this tag in your element three, like I have in the codepen. 1 that does the `city, state` and another that's just `city` and another that's just `state`
+- The `search` property in a common named city. it takes city`, ` state and the comma then a space are important to the call working
+- Leverage this tag in your element three times, like I have in the codepen. 1 that does the `city, state` and another that's just `city` and another that's just `state`
   - To test accuracy, if you have a VPN or Cellphone see if you show up in a different city if it still works (it should)
   - **note**: We presently don't have a "that didn't work" fail test in querying the wikipedia API so if you say VPN to new york and put in `New York, New York` it returns nothing vs `New York` is the state while `New York City` is the result you probably would assume to be there. I say this because if you move around to other spaces they might not always work for all 3 tags, so we're basically leveraging each to illustrate reuse of an API + reuse of a visual asset
 
 ## Submitting the lab
-- A blog post this week; each Option / Role covers a different API but all options should cover the following:
+- A blog post this week; each Option / Role covers a different API in what we've put together but all options should cover the following:
 - Screenshots / video (optional) conveying what the tag is, how it works to visualize the API data
-  - While not required, screencasting might be a lot easier for this one but it's up to your preference
-- How `fetch` can be used to get information from the API and feed it into a LitElement based web component to provide the stateful updating of the DOM
-- markdown block using the ` ` ` 3x in a row as a code block to illustrate the API response
+  - While not required, screencasting might be a lot easier for this one but it's entirely up to your preference / creativity levels / desires
+- Talk about how `fetch` can be used to get information from the API and feed it into a `LitElement` based web component to provide the stateful updating of the DOM
+- markdown block using the ` ` ` 3x in a row as a code block to illustrate the JSON API response
 - Links to the service in question so that people can learn more about the API if they want
 - Links to your source code on github so people could poke at the code more to learn about it (link to which ever element your writing about below)
+  - the links and in-class assignment effectively serve as the backdrop for your blog post. Blog post doesn't make sense? Real easy to tell who didn't do the lab.
+
 ### Option specific parts
-- **Option 1 - Front end Devs** - You are writing from the perspective of the IP address / location API element
-- **Option 2 - Back end Devs** - You are writing from the perspective of the GeoIP element
-- **Option 3 - API / Product Owner** - You are writing from the perspective of the wikipedia API and leveraging it via `wikipedia-query`
+- **Option 1 - Front end Devs** - You are writing from the perspective of the IP address / location API element and how the IP address was fed into the API of the GeoIP to detect the Long / Lat coordinates
+- **Option 2 - Back end Devs** - You are writing from the perspective of the GeoIP element and taking the Long / Lat data to obtain the Google Maps iframe, link and wiring into the `wikipedia-query` tag
+- **Option 3 - API / Product Owner** - You are writing from the perspective of the wikipedia API itself and leveraging it via `wikipedia-query`. You'll be talking about how this API works and how when given a City, the API is able to render the data of the article about it.
   - Wikipedia's API is documented here -- https://en.wikipedia.org/w/api.php
   - wikipedia-query source for a backdrop of code you can walk through - https://github.com/elmsln/lrnwebcomponents/blob/master/elements/wikipedia-query/src/wikipedia-query.js#L82
+
 - Drop a link to your blog post into the #edtechjoker slack channel when finished
-- **each teammate is writing their own article from the option perspective in question**
+- **each teammate is writing their own article from the option perspective in question and each person should have their own repo w/ code as the backdrop to their article**
 
 ### Pro tip
 - remember you can hit inspect -> Network tab and when the page loads see the call go off to all 3 of the APIs to see them happen / get the data structure
