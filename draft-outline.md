@@ -36,6 +36,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
   - Example being used in a codepen - https://codepen.io/btopro/pen/yLNmVbw
   - Source: https://github.com/elmsln/lrnwebcomponents/blob/master/elements/wikipedia-query/wikipedia-query.js
   - npm: https://www.npmjs.com/package/@lrnwebcomponents/wikipedia-query
+  - more info on bare imports: https://blog.logrocket.com/es-modules-in-browsers-with-import-maps/
 - Establishing the starting point for Lab 3 that expands upon this same project.
 - In class group activity:
   - exchange contact info / make a multi-person DM on slack or whatever space of your choosing
