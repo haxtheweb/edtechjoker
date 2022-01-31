@@ -8,6 +8,9 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 
 --- THIS IS INCREDIBLY ROUGH DRAFT AND SUBJECT TO CHANGE ---
 
+# Week 4 - Putting into practice to build a NASA image viewer
+
+
 - Date card wiring from own API
   - Ordered List rendering of the data as well
   - Option to render as ordered list or as date card
