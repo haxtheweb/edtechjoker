@@ -34,7 +34,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 ## Lab this week (started today, worked on Thurs / due Sunday):
 I want you to leverage an existing asset our team made called `accent-card` in order to render media from space....
 > it's not as ridiculous as that just sounded
-
+- Example response / thing to play with -- https://hax.psu.edu Media search
 - This week this is a partner project. So pair program with someone, expect to meet up either this weekend or between classes
 - In your repo create a new file that will house your new web component and name this element `nasa-image-search` (file name can be anything you want . js)
 - This web component should include `lit` as well as the `accent-card` our team built
