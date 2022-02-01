@@ -10,17 +10,46 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 
 # Week 4 - Putting into practice to build a NASA image viewer
 
+## Tues
+- From reading through it seems most understood the fundamentals of the requests we were making and how to wire up to a wikipedia-query tag
+  - Several ran into issues w/ rate limitting, a topic we'll need to build a solution for in the future via API keys
+- To ensure we are all on the same page, I'm going to take a data model that someone in class produced (`response.json`) and wire it up to a `date-card` tag that an IST student made for us at a previous point in time
+  - `@lrnwebcomponents/date-card` is available on NPM if you'd like to follow along
+- For this exercise, we're going to take a single response from an API, parse it into an Array, and then "stamp" the data down using a specialized `for` loop called a `.map`
+  - `.map` allows you to walk `Array` data and can be read as "Take each item in this array and do the following thing with each value"
+  - `LitElement` has specialized support for `.map` and `properties` that are `type: Array`.
 
+- I'll walk through how I wired an existing date-card element up to the data in question:
+  - I'll demonstrate how stateful variables can be leveraged in order to trigger functionality in a `LitElement` based element
+  - I'll demonstrate wiring up to form input to modify how many results are rendered
+
+- Resources:
+- Read "Rendering Arrays" in the Lit docs - https://lit.dev/docs/templates/lists/#rendering-arrays (stick with the `.map` convention expressed)
+
+## Lab this week (started today, worked on Thurs / due Sunday):
+I want you to leverage an existing asset our team made called `accent-card` in order to render media from space....
+> it's not as ridiculous as that just sounded
+- In your repo create a new file called `./src/NasaImages.js`
+
+- The npm asset is `@lrnwebcomponents/accent-card` install it (from articles I saw many of you missed adding `--save` which is important for version control
+- 
 - Date card wiring from own API
   - Ordered List rendering of the data as well
   - Option to render as ordered list or as date card
+
+They have to get a resource to wire to so accent card
+
+Then wire to the api but I stub this out a bit for demonstration
+
+They wire the date card up to their shared data format
+
+
 - NASA rendering; render images from NASA using their public API to render the data
   - leverage an existing simple card for displaying the data
   - Limit rendering to 10 results
   - Using `display: 'inline-flex'` or comparable, get the cards to all show up next to each other
 
 ## Week 4 - Monolithic design; aka maintaining legacy systems (aka everything made prior to last week)
-- Quick presentation / review of Monolithic design vs microservice.
 - We'll review more code examples and look into how we can render remote data using Lit + `fetch()`
 - Using Lit and modeling data in a JSON blob, we'll render data from a public API
 
@@ -31,6 +60,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - This will be working with your partner; if they aren't here then you can group up w/ someone else in your team.
 - Get a git repo setup with your partner
 - Using the NASA API discussed in class, render this data using Lit and it's `map` capability to walk through `Array`'s of data
+- 
 - Time to review the NASA API solutions people came up with
 - In your teams; all 3 partners pick a new person to review code with
 - Where we were - the monoliths. Wordpress / Drupal example / decks for understanding the old world
