@@ -11,10 +11,12 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 ## Tues
 - From reading through it seems most understood the fundamentals of the requests we were making and how to wire up to a wikipedia-query tag
   - Several ran into issues w/ rate limitting, a topic we'll need to build a solution for in the future via API keys
+  - the codepen has a magic script in it (we call it that, literally) which references a `build.js` file and loads off a registry. It is not to be included in the code of your element. Copy paste slightly less. 🤔
   - `fetch` and this feedback loop of small thing + API is the act of building a micro-frontend
-- To ensure we are all on the same page as far as expectations, I'm going to take a data model that someone in class produced (`response.json`) and wire it up to a `date-card` webcomponent that an IST student made for us at a previous point in time - https://www.npmjs.com/package/@lrnwebcomponents/date-card
+- Today I'll be stepping through how the following works to form a basis for what your going to do the next 2 weeks: https://github.com/elmsln/ip-project/blob/master/src/CourseDates.js
+- I'm going to take a data model that someone in class produced (`response.json`) and wire it up to a `date-card` webcomponent that an IST student made for us at a previous point in time - https://www.npmjs.com/package/@lrnwebcomponents/date-card
   - `@lrnwebcomponents/date-card` is available on NPM if you'd like to follow along
-- For this exercise, we're going to take a single response from an API, parse it into an Array, transform the data into something easier to understand for our element, and then "stamp" the data down using a specialized `for` loop called a `.map`
+- For this exercise, we're going to take a single response from an API, parse it into an Array, *transform the data into something easier to understand* for our element, and then "stamp" the data down using a specialized `for` loop called a `.map`
   - `.map` allows you to walk `Array` data and can be read as "Take each item in this array and do the following thing with each value"
   - `LitElement` has specialized support for `.map` and `properties` that are `type: Array` to automatically update your element when values change, as a loop
 
@@ -26,6 +28,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
   - Read "Rendering Arrays" in the Lit docs - https://lit.dev/docs/templates/lists/#rendering-arrays (stick with the `.map` convention expressed)
   - Another quick one from open-wc (another great resource) - https://open-wc.org/guides/knowledge/lit-element/rendering/
   - Example from playground (check the JS box though) - https://lit.dev/playground/#sample=examples/repeating-and-conditional
+  - Lit Conditional rendering: https://lit.dev/docs/templates/conditionals/
   - Mozilla docs are your JS friend - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getMonth
 
 ## Lab this week (started today, worked on Thurs / due Sunday):
