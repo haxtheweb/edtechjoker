@@ -96,6 +96,9 @@ Ultimately, we'll work toward each group producing 1 solution.
 - In class activity: Working with your group, review each other's solutions (there are 2 or 3 pairs in each group so review the code of another pair than your partner and visa versa)
 - (attendence) Comment on 3 aspects of the pair you reviewed's code. Either offering suggestions, google results for resolving an issue they stated having, or 
 - You'll work with your group to produce 1 solution
+- Additional requirement:
+  - Add support for year_start and year_end in your input form
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/datetime-local could be used for snagging a date, however the API is just a year so you'd have to transform this info (a `<input>` field that's numbers only is probably fine)
 
 ## Thursday
 - Additional feedback on any solutions which 
