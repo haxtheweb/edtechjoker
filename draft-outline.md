@@ -96,12 +96,16 @@ Ultimately, we'll work toward each group producing 1 solution.
 - In class activity: Working with your group, review each other's solutions (there are 2 or 3 pairs in each group so review the code of another pair than your partner and visa versa)
 - (attendence) Comment on 3 aspects of the pair you reviewed's code. Either offering suggestions, google results for resolving an issue they stated having, or 
 - You'll work with your group to produce 1 solution
-- Additional requirement:
-  - Add support for year_start and year_end in your input form
-  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/datetime-local could be used for snagging a date, however the API is just a year so you'd have to transform this info (a `<input>` field that's numbers only is probably fine)
+- Requirements of final element:
+ - A "search" `input` that accepts text and changes what's searched for by modifying a property called `term` on your element
+ - A "page number" `input` that accepts a number and changes a property called `page` on your element to request a specific page of results
+ - A "Return data only" checkbox that modified a `Boolean` on your element to conditionally render an unordered `ul` list of items (like my date example) but defaults to the `accent-card` by default.
+ - Add support for year_start and year_end in your input form
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/datetime-local could be used for snagging a date, however the API is just a year so might be `input` better
+ - Add support for limiting the number of rendered results (100 is... a lot)
 
 ## Thursday
-- Additional feedback on any solutions which 
+- Additional feedback on any solutions 
 - Additional time to work in class
 
 ## Sunday / submitting the Lab
@@ -109,7 +113,7 @@ Ultimately, we'll work toward each group producing 1 solution.
 - This is worth 6%
 - Rubric:
   - Queries NASA and returns results as expected, rendered through the `accent-card` tag
-  - Options 1,2,3 integrated and can modify the search results 4%
+  - Options 1,2,3 integrated and can modify the search results + the additional requirements 4%
   - Best solution (subjective) +1%
 
 ## Week 6 - Static site generator revolution and understanding "build routines" / CI/CD workflows
