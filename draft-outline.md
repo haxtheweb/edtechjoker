@@ -4,7 +4,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - [week / lab 1](https://github.com/elmsln/edtechjoker/tree/master/sp-22/week-1)
 - [week / lab 2](https://github.com/elmsln/edtechjoker/tree/master/sp-22/week-2)
 - [week / lab 3](https://github.com/elmsln/edtechjoker/tree/master/sp-22/week-3)
-- week / lab 4
+- week / lab 4 / 5
 
 # Week 4/5 - Putting concepts into practice to build a NASA image viewer
 
@@ -92,40 +92,63 @@ I want you to leverage an existing asset our team made called `accent-card` in o
 Ultimately, we'll work toward each group producing 1 solution.
 
 ## Tuesday
-- I'll provide feedback on a variety of solutions
-- In class activity: Working with your group, review each other's solutions (there are 2 or 3 pairs in each group so review the code of another pair than your partner and visa versa)
-- (attendence) Comment on 3 aspects of the pair you reviewed's code. Either offering suggestions, google results for resolving an issue they stated having, or 
-- You'll work with your group to produce 1 solution
-- Requirements of final element:
+- I'll provide feedback on a variety of solutions / things to watch for, what worked well, various feedback
+- In class activity: Working with your group, review each other's solutions **within your group**. Most will have 3 options to combine / discuss, some will have 2 based on group size.
+- As a product of your review / discussion I'd like the following artifact created and submitted (**1 per person**).
+- Group dynamics will work as follows: 3 option team. 1 person from Option 1 reviews Option 2's code. 1 person from Option 1 reviews Option 3s code
+ - If you only have 2 options in your group then break in 1/2 as best you can, if there's 3 then that's fine to have 2 reviewers on 1 part of produced solution 
+ - **Create an issue in your main team project** issue queue (for most this is your-organization/ip-project/issues)
+ - In this issue call it something like "feedback on option X" where X is the option you produced feedback for
+ - In your feedback I want to see the following headings (written using markdown):
+   - What parts worked well or that you found the approach novel and should be incorporated into the final solution for your team
+   - What parts could be improved upon. "Nothing it looks great" is not a valid sentiment. Could they provide better commenting / documentation? Are there functions that can be deleted bc the code is unused? Are they monsters and used 4 spaces instead of 2? There's always something either stylistically, documentation or in control logic we can learn from to improve.
+   - Next steps: What are the next recommended course of action. If it's going to be the thing that the group uses to base their final solution on, awesome. If it needs improvement, what resources could be used to help improve understanding / fix the issue in question. Provide google results / links to possible resources to make this happen
+   - Submit this issue to the edtechjoker channel; this will be used as attendance verification for the day
+ - After everyone finishes the in class activity and submits to the channel, then it's time to start digging into crafting 1 solution based on the requirements below. This will bleed over from Tues into Thurs
+
+## Requirements of final element:
+- You'll work with your group to produce 1 solution in your main repo for your organization.
+  - **protip:** While you COULD merge / PR solutions, I'd recommend manually generating an optimal solution from all 3 options in 1 repo via the manual code review
  - A "search" `input` that accepts text and changes what's searched for by modifying a property called `term` on your element
  - A "page number" `input` that accepts a number and changes a property called `page` on your element to request a specific page of results
- - A "Return data only" checkbox that modified a `Boolean` on your element to conditionally render an unordered `ul` list of items (like my date example) but defaults to the `accent-card` by default.
- - Add support for year_start and year_end in your input form
-  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/datetime-local could be used for snagging a date, however the API is just a year so might be `input` better
- - Add support for limiting the number of rendered results (100 is... a lot)
+ - A "Return data only" checkbox that modified a `Boolean` on your element to conditionally render an unordered `ul` list of items (like my date example) but defaults to the `accent-card` for presenting results.
 
+### New requirements for the element once you get those 3 merged together
+- Add support for year_start and year_end in your input form
+  -  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/datetime-local could be used for snagging a date, however the API is just a year so might be `input` better
+- Using WAVE plugin and/or Lighthouse, make sure that your form is accessible.
+- Get github pages setup for your repo; the code is already there if using `ip-project` as your base, you just need to activate actions for your repo: https://github.com/elmsln/ip-project/blob/master/.github/workflows/main.yml is what powers the action (which we'll step through).
+ - If your code blends while you develop it, it should work as a github action.
+ - Make sure to enable github pages within your repo setting
+ - I'd recommend delegating the 3 additional requirements across your team based on different roles investigating different pieces
+- Anything submitted on Wed via DM (question or hey do you mind reviewing this code..) I'll look at and discuss at the start of class Thursday
 ## Thursday
-- Additional feedback on any solutions 
-- Additional time to work in class
+- This is primarily a working session to ensure that the requirements for your element are met
 
 ## Sunday / submitting the Lab
 - 1 Solution per team is to be submitted to Canvas for the Lab 5 Dropbox
 - This is worth 6%
 - Rubric:
-  - Queries NASA and returns results as expected, rendered through the `accent-card` tag
-  - Options 1,2,3 integrated and can modify the search results + the additional requirements 4%
+  - Queries NASA and returns results as expected, rendered through the `accent-card` while having support for Options 1,2,3 from week 4 - 3%
+  - The additional 3 requirements introduced this week and your site correctly self-rebuilds on commit via github actions 3%
   - Best solution (subjective) +1%
 
+~~ EVERYTHING BELOW HERE IS HIGHLY VARIABLE / SUBJECT TO CHANGE
+
 ## Week 6 - Static site generator revolution and understanding "build routines" / CI/CD workflows
+Switching gears. For one, it's THON and so work will be in-class labs which should be do-able within the time in question. For two, we need to address a lot of different concepts now that we have some foundations in Lit + web components + JSON + get data from a thing and do things with it (logic).
+
 ## Tuesday
 - Building web sites and deploying them has never been easier
-- We'll look at some static site generators (11ty, HAX11ty) and understand how they structure and use data
-- This will help give you insight into both CI/CD code pipelines as well as a lightweight publishing engine
+- We'll look at some static site generators (11ty, HAX11ty, jeckyll) and understand how they structure and use data
+- This will help give you insight into both CI/CD code pipelines as well as a lightweight publishing engine (which you hooked up previously)
+- Review lecture from a past semester: EdTechJoker3D: Static site generators, flat file CMS and JSON driven CMS
+  https://youtu.be/q6uasPXsZ7A?t=224
+- You'll deploy an 11ty or HAX11ty site.
+  - Requirements of your site:
+  - Pro tip: This will be part of the requirements for the final project so make sure your able to generate one of these 
 
 ## Thursday
-- You'll deploy an 11ty or HAX11ty site.
-- This site will be used to help maintain documentation about your microservice
-- It's also a window into automated workflows
 
 ## Homework / Lab
 - Do a Dev.to post on getting started with 11ty or HAX11ty. Use your site you made as a back drop for screen shots and more in the article.
