@@ -133,12 +133,28 @@ Ultimately, we'll work toward each group producing 1 solution.
   - The additional 3 requirements introduced this week and your site correctly self-rebuilds on commit via github actions 3%
   - Best solution (subjective) +1%
 
-~~ EVERYTHING BELOW HERE IS HIGHLY VARIABLE / SUBJECT TO CHANGE
+~~~ EVERYTHING BELOW HERE IS HIGHLY VARIABLE / SUBJECT TO CHANGE ~~~
 
-## Week 6 - Static site generator revolution and understanding "build routines" / CI/CD workflows
+## Week 6 - Static site generator revolution and understanding "build routines" / CI/CD workflows and Docker
 Switching gears. For one, it's THON and so work will be in-class labs which should be do-able within the time in question. For two, we need to address a lot of different concepts now that we have some foundations in Lit + web components + JSON + get data from a thing and do things with it (logic).
 
 ## Tuesday
+- This is going to be another, different way of teaching / learning (mixing things up is fun)!
+- This week we're going to cover static site generators / CI/CD workflows
+- This week we're ALSO going to cover Docker 👀
+- I'm going to give a very quick explaination of each so that you understand high level what they are, what they provide, what you could do with them
+- Then there are going to be 2 labs (so 1 per partner)
+- The 1st lab (to be done by 1 person per pair) is building a site using 11ty
+- The 2nd lab (to be done by another person) is to do a lab using play with docker to build and deploy containerized apps
+
+## How this will work...
+- Both partners will end up doing both labs in the end (if you have a partner group of 3 then 1 of the people starts at 1 and 2 start at the other)
+- This week, you'll start on the 1st lab, next week, you'll switch lab focus and teach each other how to accomplish the lab
+- This helps YOU reinforce knowledge of a topic (by teaching) and then helps your partner skip over the pitfalls you ran into
+- We'll do this in class starting today and continue on Thursday
+- There's nothing due this weekend, enjoy THON.
+
+- There are labs for each
 - Building web sites and deploying them has never been easier
 - We'll look at some static site generators (11ty, HAX11ty, jeckyll) and understand how they structure and use data
 - This will help give you insight into both CI/CD code pipelines as well as a lightweight publishing engine (which you hooked up previously)
