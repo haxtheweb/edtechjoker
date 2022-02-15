@@ -28,6 +28,7 @@ Switching gears completely, we've got to scaffold some more conceptual layers in
   - This helps YOU reinforce knowledge of a topic (by teaching) and then helps your partner skip over the pitfalls you ran into
 
 > Reality check
+> 
 > we're just going to scratch the surface on both.
 > These are whole classes / projects of their own so we're trying to get a mental framework for them conceptually
 > You can use concepts from these in the final project, or in the real world for any project (especially 11ty)
@@ -46,13 +47,17 @@ Switching gears completely, we've got to scaffold some more conceptual layers in
   - You should have 3 different repos on github, 1 for each 11ty based site
   - Each site should have it's own CI/CD deployment pipeline so that the `gh-pages` branch rebuilds the site
 
+## Some HAX11ty example sites
+- https://wcfactory.js.org/ - https://github.com/elmsln/wcfactory.js.org
+- https://elmsln.github.io/hax11ty/ - https://github.com/elmsln/hax11ty
+
 ## Submitting the 11ty lab
 - write a post on dev.to that talks about getting started with 11ty
 - Use screenshots / links to your repos as a backdrop to demonstrate the same content in 3 different 11ty sites
 - Compare the 1st user experience of 11ty to HAX11ty
 - Include links to relevant sites (11ty, hax11ty) as well as the code for your repos and you github.io addresses for the sites
 - Bonus:
-  - +2% Following the tutorials here, get your blog to be able to render your nasa web component
+  - +2% Following the tutorials here https://griffa.dev/posts/using-web-components-with-11ty/ , get your blog to be able to render your nasa web component
 - Submit your blog post to the **#edtechjoker** channel in slack
 
 ## Docker lab
