@@ -31,6 +31,7 @@ Switching gears completely, we've got to scaffold some more conceptual layers in
 > we're just going to scratch the surface on both.
 > These are whole classes / projects of their own so we're trying to get a mental framework for them conceptually
 > You can use concepts from these in the final project, or in the real world for any project (especially 11ty)
+> Also this will involve a lot of googling and finding examples. Welcome to web development.
 
 ## 11ty lab
 - Review lecture from a past semester: EdTechJoker3D: Static site generators, flat file CMS and JSON driven CMS
@@ -50,8 +51,9 @@ Switching gears completely, we've got to scaffold some more conceptual layers in
 - Use screenshots / links to your repos as a backdrop to demonstrate the same content in 3 different 11ty sites
 - Compare the 1st user experience of 11ty to HAX11ty
 - Include links to relevant sites (11ty, hax11ty) as well as the code for your repos and you github.io addresses for the sites
-- +1% use a theme other than eleventy-base-blog and make an impressive looking blog, there's awesome boilerplates out there
-- Submit your blog post to the #edtechjoker channel in slack
+- Bonus:
+  - +2% Following the tutorials here, get your blog to be able to render your nasa web component
+- Submit your blog post to the **#edtechjoker** channel in slack
 
 ## Docker lab
 - Run through the Docker 101 tutorial under tutorial on https://www.docker.com/play-with-docker
@@ -67,12 +69,14 @@ Switching gears completely, we've got to scaffold some more conceptual layers in
 - Write a blog post on dev.to
 - Explain Why docker is powerful, how to get started with play with docker
 - Using screenshots of the NewsAPI Microservice as a backdrop, write an article about how to create a DockerFile for your NASA image search repo
-- Submit your blog post to the #edtechjoker channel in slack
-- Bonus: +1% Create a docker-compose file for your Nasa image search repo
+- Bonus:
+  - +2% Create a docker-compose file for your Nasa image search repo and get your NASA repo deployable on play with docker
+- Submit your blog post to the **#edtechjoker** channel in slack
 
 ## In the end of week 7
 - You'll EACH have both labs done and many repos
 - You'll EACH have two blog posts, 1 for each lab topic
+- The next 3 classes are working days with attendance taken
 - **These are both due Sunday the 27th**
 
 ~~~ EVERYTHING BELOW HERE IS HIGHLY VARIABLE / SUBJECT TO CHANGE ~~~
