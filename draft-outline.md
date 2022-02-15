@@ -64,6 +64,7 @@ Switching gears completely, we've got to scaffold some more conceptual layers in
   - Note the parallels here with what we just did with the NASA app
   - Also this is deploying GraphQL, a powerful query engine for NoSQL databases that I recommend playing with as is shown in the directions
 - Watch this crazy industry talk https://www.youtube.com/watch?v=CZ3wIuvmHeM
+- Read this post by Michael Potter (HAX core dev for 4 years) - https://www.redhat.com/architect/micro-frontend-architecture
 
 ### Submitting the docker lab 
 - Write a blog post on dev.to
