@@ -11,60 +11,56 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 
 Switching gears completely, we've got to scaffold some more conceptual layers in order to better understand the solutions we're going to be crafting by the time we reach our final project. Now you should have some fundamentals in web components + JSON + get data from a thing and do things with it. While not fully fleshed out, this is fundamentally how any front end building blocks are constructed in modern web development and we'll come back / refine more as we go.
 
-## Tuesday
-- This is going to be another, different way of teaching / learning (mixing things up is fun)!
+## Tuesday / the next 2 weeks
+- A rare lecture day (whhaaaaat)
 - This week we're going to cover static site generators / CI/CD workflows
 - This week we're ALSO going to cover Docker 👀👀
+- You're going to do much of the research, while I provide some foundation conceptually for both pieces of technology
+- Both labs will be due in 2 weeks so nothing due immediately this weekend but staying on pace will help keep things managable for you all
+- I'll also be reviewing people's projects and offering feedback on the final solutions
 
-> Reality check
-> we're just going to scratch the surface on both. These are whole classes / projects of their own so we're trying to get a mental framework for them conceptually
-
+## How this will work...
 - I'm going to give a very quick explaination of each so that you understand high level what they are, what they provide, what you could do with them
 - Then there are going to be 2 labs (so 1 per partner)
 - The 1st lab (to be done by 1 person per pair) is building a site using **11ty**
 - The 2nd lab (to be done by another person) is to do a lab using **play with docker** to build and deploy containerized apps
+- **Each person on each team will be doing their own version of both labs but you should make sure 1/2 start at 1 and 1/2 at the other**
+  - This helps YOU reinforce knowledge of a topic (by teaching) and then helps your partner skip over the pitfalls you ran into
 
-## How this will work...
-- Both partners will end up doing both labs in the end (if you have a partner group of 3 then one of the people starts at 1 and 2 start at the other)
-- This week, you'll start on the 1st lab, next week, you'll switch lab focus and teach each other how to accomplish the lab
-- This helps YOU reinforce knowledge of a topic (by teaching) and then helps your partner skip over the pitfalls you ran into
-- We'll do this in class starting today and continue on Thursday
-- **There's nothing due this weekend, enjoy THON*. Both labs will be due to be turned in next week.
-- I'll also be reviewing people's projects and offering feedback on the final solutions
+> Reality check
+> we're just going to scratch the surface on both. These are whole classes / projects of their own so we're trying to get a mental framework for them conceptually
 
-## 11ty - Static Site generator revolution https://www.11ty.dev/
+## 11ty lab
 - Review lecture from a past semester: EdTechJoker3D: Static site generators, flat file CMS and JSON driven CMS
-  https://youtu.be/q6uasPXsZ7A?t=224
-- Building web sites and deploying them has never been easier
-- We'll look at some static site generators (11ty, HAX11ty, jeckyll) and understand how they structure and use data
-- This will help give you insight into both CI/CD code pipelines as well as a lightweight publishing engine (which you hooked up previously)
+  https://youtu.be/q6uasPXsZ7A?t=224 to get additional context of the space
+- We're going to make 3 different blogs that leverage 11ty
+- Read how to make a hello-world style blog using 11ty on
+- Use a template as a starting point to make a more powerful 11ty blog (for example: https://github.com/11ty/eleventy-base-blog but MANY exist)
+- Use HAX11ty to build a blog that deploys to github pages https://github.com/elmsln/hax11ty
+- Requirements for your 11ty sites:
+  - 11ty is in markdown, and you've written several dev.to posts (in markdown). Add these posts to your site so that you have some content pages
+  - You should have 3 different repos on github, 1 for each 11ty based site
+  - Each site should have it's own CI/CD deployment pipeline so that the `gh-pages` branch rebuilds the site
 
-### 11ty Lab requirements
-- Create a git repo
-- Clone the empty repo locally
-- run `npm init` and answer the questions to the best of your ability (this will stub out a `package.json` file)
-- run through the quick start in order to get a hello-world going https://www.11ty.dev/#quick-start
-  - this will give you the fundamental layer of how this relationship works
-- Using the workflow file with github we used last project as a template, engineer this into a sustainable publishing workflow
+## Submitting the 11ty lab
+  - write a post on dev.to that talks about the power of 11ty
+  - Use screenshots / links to your repos as a backdrop
+  - Compare the 1st user experience of 11ty to HAX11ty
+  - Submit your blog post to the #edtechjoker channel in slack
 
-#### Site requirements
-- Your website should use a template / theme that is pre-built from the listed 11ty ecosystem of options
-- Your website should explain how your NASA search element works
-- Communicate what Lit is, links to it, provide a code sample / link to git repos / docs pages / etc
-- A page that links to all your dev.to blog posts that you've written to date as a list of links
+## Docker lab
+- Run through the Docker 101 tutorial under tutorial on https://www.docker.com/play-with-docker
+- Make sure you do the prerequisits for doing this lab - https://github.com/heyMP/ist402-docker#ist402-docker-lab
+- Deploy the NodeJS TODO app https://github.com/heyMP/ist402-docker/tree/master/labs/5-nodejs-todo-app
+- Deploy the NewsAPI Microservice - https://github.com/heyMP/ist402-docker/tree/master/labs/7-news-api-microservice
+  - Note the parallels here with what we just did with the NASA app
+  - Also this is deploying GraphQL, a powerful query engine for NoSQL databases
+- Watch this powerful industry talk https://www.youtube.com/watch?v=CZ3wIuvmHeM
 
-## Docker - securely contain and spin up all the things
-- What is it? Who uses it (everyone... or something similar)? Why we need it? What words in this space relate to the web and how.
-- https://www.docker.com/101-tutorial
-- We'll deploy a news App using "Play with Docker"
-- Running throught the News App lab in class, do the same thing to make a tutorial / screen cast on how to deploy HAXcms to play with docker
-
-
-## Thursday
-
-## Homework / Lab
-- Do a Dev.to post on getting started with 11ty. Use your site you made as a back drop for screen shots and more in the article.
-- What are the pros and cons of database driven vs static site / file system driven architectures?
+### Submitting the docker lab 
+- Write a blog post on dev.to
+- Explain Why docker is powerful, how to get started, and 
+- Write a blog post about docker using screenshots of the NewsAPI Microservice as a backdrop
 
 ~~~ EVERYTHING BELOW HERE IS HIGHLY VARIABLE / SUBJECT TO CHANGE ~~~
 
