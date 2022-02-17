@@ -86,8 +86,6 @@ Switching gears completely, we've got to scaffold some more conceptual layers in
 - The next 3 classes are working days with attendance taken
 - **These are both due Sunday the 27th**
 
-~~~ EVERYTHING BELOW HERE IS HIGHLY VARIABLE / SUBJECT TO CHANGE ~~~
-
 ## Week 8 - Connecting concepts to industry
 
 ### Tuesday
@@ -105,8 +103,11 @@ Switching gears completely, we've got to scaffold some more conceptual layers in
 ### Thursday
 - We'll have another guest speaker who will set the stage for the final project / all time after spring break
 - Michael Potter, Principle front end architect at Red Hat, will show us how Red hat uses a platform called Vercel in order to rapid deploy and test iterations of front end code
-- Michael's worked on HAX and at Penn State in the past and has a wealth of experience in the field
-- He's also my best friend... so I'm almost a Red Hat developer byproxie... obviously.
+- Michael's worked on HAX and at Penn State for several years prior to joining Red Hat and has a wealth of full stack development knowledge
+- He's also my best friend... so I'm basically (the friend of) a Red Hat developer which makes me like a Red Hat developer without the pay
+- Our final project will involve building a micro frontend that uses Vercel for prototyping so this is both an introduction to an industry topic but also an introduction to the final project
+
+~~~ EVERYTHING BELOW HERE IS HIGHLY VARIABLE / SUBJECT TO CHANGE ~~~
 
 ## Week 8 - OpenAPI spec
 ## Tuesday
