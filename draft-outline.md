@@ -86,30 +86,37 @@ Switching gears completely, we've got to scaffold some more conceptual layers in
 - The next 3 classes are working days with attendance taken
 - **These are both due Sunday the 27th**
 
-## Week 8 - Connecting concepts to industry
+# Week 8 - Connecting concepts to industry
 
-### Tuesday
+## Tuesday
 - I'll be giving feedback on the NASA lab in detail. Much of this will be given via Canvas but I'll point to novel things different groups did.
 
-- We will have a guest speaker. Andrew Gearhart is a *Systems Developer for Penn State University Libraries* who I am fortunate enough to be friends with and collaborate on projects the last several years at Penn State.
+- We will have a guest speaker. **Andrew Gearhart** is a *Systems Developer for Penn State University Libraries* who I am fortunate enough to be friends with and collaborate on projects the last several years at Penn State.
 - While we met doing Drupal work, Andrew gets to experience all kinds of different solutions (good and bad) in his work at the libraries due to the nature of library systems
 - Today, Andrew is going to talk to us about 1 such collaboration we engaged in a year ago to solve a sticky problem at the libraries.
 - This is a great example of the fact that the things we're talking about in class can stack together to provide real solutions in industry
-- Details about the project: https://beaumontandfletcher.libraries.psu.edu/digital-beaumont-fletcher-1647
-  - Click on "The Sea Voyage" to see HAX11ty in action
 
 ### What the solution touches on
 - Docker / Green Blue deployment workflow
 - HAX11ty for static site building and deployment
 - Markdown editing by content contributors who are NOT technical experts
 - Custom web components to render old XML document formats live on the web in a new engaging way.
+- Details about the project: https://beaumontandfletcher.libraries.psu.edu/digital-beaumont-fletcher-1647
+  - Click on "The Sea Voyage" to see HAX11ty in action
 
-### Thursday
+## Thursday
 - We'll have another guest speaker who will set the stage for the final project / all time after spring break
-- Michael Potter, Principle front end architect at Red Hat, will show us how Red hat uses a platform called Vercel in order to rapid deploy and test iterations of front end code
-- Michael's worked on HAX and at Penn State for several years prior to joining Red Hat and has a wealth of full stack development knowledge
+- **Michael Potter**, Principle front end architect at Red Hat, will show us how Red hat uses a platform called Vercel in order to rapid deploy and test iterations of front end projects
+- Michael has worked on HAX and at Penn State for several years prior to joining Red Hat and has a wealth of full stack development knowledge
 - He's also my best friend... so I'm basically (the friend of) a Red Hat developer which makes me like a Red Hat developer without the pay
 - Our final project will involve building a micro frontend that uses Vercel for prototyping so this is both an introduction to an industry topic but also an introduction to the final project
+
+### Some links to check out
+- https://www.redhat.com/architect/micro-frontend-architecture
+  - https://github.com/heyMP/practice-question-service
+- https://github.com/heyMP/rh-footer
+- IST Hello world - https://github.com/heyMP/ist-vercel-demo
+- Shoelace design library uses Vercel as well - https://twitter.com/claviska/status/1489659763197624326
 
 ~~~ EVERYTHING BELOW HERE IS HIGHLY VARIABLE / SUBJECT TO CHANGE ~~~
 
