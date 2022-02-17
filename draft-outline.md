@@ -64,6 +64,7 @@ Switching gears completely, we've got to scaffold some more conceptual layers in
 - Run through the Docker 101 tutorial under tutorial on https://www.docker.com/play-with-docker
   - If you can install and run through deploying things via docker desktop feel free but play with docker is more then enough (and free!)
 - Make sure you do the pre-requisits for doing this lab - https://github.com/heyMP/ist402-docker#ist402-docker-lab
+  - **NOTE** this tells you you MUST link github and docker hub, this is not possible without $ unfortunately so we're not doing that. It should not be required.
 - Deploy the NodeJS TODO app https://github.com/heyMP/ist402-docker/tree/master/labs/5-nodejs-todo-app
 - Deploy the NewsAPI Microservice - https://github.com/heyMP/ist402-docker/tree/master/labs/7-news-api-microservice
   - Note the parallels here with what we just did with the NASA app
@@ -86,6 +87,23 @@ Switching gears completely, we've got to scaffold some more conceptual layers in
 - **These are both due Sunday the 27th**
 
 ~~~ EVERYTHING BELOW HERE IS HIGHLY VARIABLE / SUBJECT TO CHANGE ~~~
+
+## Week 8 - Connecting concepts to industry
+
+### Tuesday
+- I'll be giving feedback on the NASA lab in detail. Much of this will be given via Canvas but I'll point to novel things different groups did.
+- We should have a guest speaker. Andrew Gearhart is a *Systems Developer for Penn State University Libraries* who I am fortunate enough to be friends with and collaborate on projects the last several years at Penn State.
+- While we met doing Drupal work, Andrew gets to experience all kinds of different solutions (good and bad) in his work at the libraries due to the nature of library systems
+- Today, Andrew is going to talk to us about 1 such collaboration we engaged in a year ago to solve a sticky problem at the libraries.
+- This is a great example of the fact that the things we're talking about in class can stack together to provide real solutions in industry
+### What the solution touches on
+- Docker / Green Blue deployment workflow
+- HAX11ty for static site building and deployment
+- Markdown editing by content contributors who are NOT technical experts
+- Custom web components to render old XML document formats live on the web in a new engaging way.
+
+### Thursday
+-
 
 ## Week 8 - OpenAPI spec
 ## Tuesday
