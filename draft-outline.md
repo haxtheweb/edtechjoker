@@ -103,7 +103,10 @@ Switching gears completely, we've got to scaffold some more conceptual layers in
 - Custom web components to render old XML document formats live on the web in a new engaging way.
 
 ### Thursday
--
+- We'll have another guest speaker who will set the stage for the final project / all time after spring break
+- Michael Potter, Principle front end architect at Red Hat, will show us how Red hat uses a platform called Vercel in order to rapid deploy and test iterations of front end code
+- Michael's worked on HAX and at Penn State in the past and has a wealth of experience in the field
+- He's also my best friend... so I'm almost a Red Hat developer byproxie... obviously.
 
 ## Week 8 - OpenAPI spec
 ## Tuesday
