@@ -90,10 +90,14 @@ Switching gears completely, we've got to scaffold some more conceptual layers in
 
 ### Tuesday
 - I'll be giving feedback on the NASA lab in detail. Much of this will be given via Canvas but I'll point to novel things different groups did.
-- We should have a guest speaker. Andrew Gearhart is a *Systems Developer for Penn State University Libraries* who I am fortunate enough to be friends with and collaborate on projects the last several years at Penn State.
+
+- We will have a guest speaker. Andrew Gearhart is a *Systems Developer for Penn State University Libraries* who I am fortunate enough to be friends with and collaborate on projects the last several years at Penn State.
 - While we met doing Drupal work, Andrew gets to experience all kinds of different solutions (good and bad) in his work at the libraries due to the nature of library systems
 - Today, Andrew is going to talk to us about 1 such collaboration we engaged in a year ago to solve a sticky problem at the libraries.
 - This is a great example of the fact that the things we're talking about in class can stack together to provide real solutions in industry
+- Details about the project: https://beaumontandfletcher.libraries.psu.edu/digital-beaumont-fletcher-1647
+  - Click on "The Sea Voyage" to see HAX11ty in action
+
 ### What the solution touches on
 - Docker / Green Blue deployment workflow
 - HAX11ty for static site building and deployment
