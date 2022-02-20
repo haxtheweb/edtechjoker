@@ -135,7 +135,7 @@ Switching gears completely, we've got to scaffold some more conceptual layers in
   - Someone must have not realized it was a joke.
 - who knows, there might even be more favorable teaching constraints when we get back this time.. 🙏
 
-## Week 10 - 15 - Final project
+## Week 10 - 15 - Final project 40% of your grade
 ### Tuesday after break
 - Details will be released about the final project, requirements, expectations, as well as potential impact and what it sits within
 - You'll have the rest of the semester to complete this final project
