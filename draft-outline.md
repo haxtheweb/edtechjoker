@@ -89,7 +89,7 @@ Switching gears completely, we've got to scaffold some more conceptual layers in
 # Week 8 - Connecting concepts to industry
 
 ## Tuesday
-- I'll be giving feedback on the NASA lab in detail. Much of this will be given via Canvas but I'll point to novel things different groups did.
+- I'll be giving feedback on the NASA lab in detail. Much of this will be given via Canvas but I'll point to novel things different groups did so we can reflect as a class.
 
 - We will have a guest speaker. **Andrew Gearhart** is a *Systems Developer for Penn State University Libraries* who I am fortunate enough to be friends with and collaborate on projects the last several years at Penn State.
 - While we met doing Drupal work, Andrew gets to experience all kinds of different solutions (good and bad) in his work at the libraries due to the nature of library systems
@@ -118,9 +118,34 @@ Switching gears completely, we've got to scaffold some more conceptual layers in
 - IST Hello world - https://github.com/heyMP/ist-vercel-demo
 - Shoelace design library uses Vercel as well - https://twitter.com/claviska/status/1489659763197624326
 
+## Homework / Lab 8
+- Clone the ist-vercel-demo, spin it up and get your github account connected to the vercel service
+- https://vercel.com/docs - read the docs; hit the "Show more" button to find an 11ty based tutorial. Use this to deploy a new 11ty based project to vercel
+- Get this 11ty based repo hooked up and add in your blog posts as you did in the 11ty lab but now Vercel will handle the CI/CD pipeline more or less automatically
+- Write a dev.to article about Vercel based development workflows
+  - Your article should include links to things Mike discusses in class
+  - Include screenshots of your 11ty site that you setup w/ vercel
+  - Compare this approach to just using github directly as far as configuration, ease of use, etc
+  - Also be sure to look into and discuss how shoelace uses this for launching new possible branches and letting people try out possible future functionality
+- Submit your article by **Sunday March 13th** finish before spring break or after, no concern to me timing wise.
+
+## Week 9 - Cruising on a boat or however you let loose
+- 2019 edition, not 2020 edition 😬
+- In 2020 when I wrote this on a slide I made a joke about "if you don't all get sick over break and they let us come back here, we'll be working on...."
+  - Someone must have not realized it was a joke.
+- who knows, there might even be more favorable teaching constraints when we get back this time.. 🙏
+
+## Week 10 - 15 - Final project
+### Tuesday after break
+- Details will be released about the final project, requirements, expectations, as well as potential impact and what it sits within
+- You'll have the rest of the semester to complete this final project
+- Class will be a mix of check-ins, code review, link sharing, attendance and in-class working time
+- Everything goes well, you build something neat
+- Everything goes REALLY well, you build something neat and I ask you to present it at HAXcamp / it helps influence the direction of our platform
+
 ~~~ EVERYTHING BELOW HERE IS HIGHLY VARIABLE / SUBJECT TO CHANGE ~~~
 
-## Week 8 - OpenAPI spec
+## Week x - OpenAPI spec
 ## Tuesday
 - OpenAPI 3.0, what it is, how to use it, examples, how to develop a robust API. Point to the API evangelist
 - We'll look at how HAXcms uses "doc blocks" of comments in order to automatically generate Open API spec documents
@@ -132,14 +157,8 @@ Switching gears completely, we've got to scaffold some more conceptual layers in
   - the front end team envision what it might look like
   - the back end team envision what calls their might be to power data of the frontend prototype
   - the API team to refine and envision what the call structure for the API looks like
-
 ## Homework / Lab
 - What is OpenAPI. Who uses it? who developed it? What affordance does it provide? Why is it important? What is API first architecture? How do we version APIs?
-
-## Week 9 - Cruising on a boat or however you let loose
-- 2019 edition, not 2020 edition 😬
-- In 2020 when I wrote this on a slide I made a joke about "if you don't all get sick over break and they let us come back here, we'll be working on...."
-  - Someone must have not realized it was a joke.
 
 ## Week 10 - 15 - Final project
 ## Week 10 - Vercel / who needs express just know it's there via magic 🪄
