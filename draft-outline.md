@@ -50,6 +50,11 @@ Switching gears completely, we've got to scaffold some more conceptual layers in
 ## Some HAX11ty example sites
 - https://wcfactory.js.org/ - https://github.com/elmsln/wcfactory.js.org
 - https://elmsln.github.io/hax11ty/ - https://github.com/elmsln/hax11ty
+- Hints:
+  - You'll need to make a `package.json` file so that it can be put into a pipeline
+  - you'll need a `.gitignore` to ensure that `node_modules` doesn't get put in version control
+  - you'lll need to modify the other CI/CD work we've looked into as `11ty` writes to a `_site` directory instead of a `dist` directory
+  - Every file you make that ends in `.html`, `.njk`, `.md` will automatically get converted into an associated web page under the `_site` directory
 
 ## Submitting the 11ty lab
 - write a post on dev.to that talks about getting started with 11ty
