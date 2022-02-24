@@ -42,6 +42,8 @@ Switching gears completely, we've got to scaffold some more conceptual layers in
   - Install the syntax highlighting plugin to get how plugins can be used - https://www.11ty.dev/docs/plugins/syntaxhighlight/
 - Use a template as a starting point to make a more powerful 11ty blog (for example: https://github.com/11ty/eleventy-base-blog but MANY exist)
 - Use HAX11ty to build the same blog https://github.com/elmsln/hax11ty
+  - **note**: this requires yarn in order to use. commands are then `yarn install` and `yarn start`
+  - If you can't get `yarn` installed (some had issues week 1) then find an additional 11ty template other than base-blog to deploy the 3rd site. There are many templates out there, someone showed me a weird horse generating one the other day.
 - Requirements for your 11ty sites:
   - 11ty is in markdown, and you've written several dev.to posts (in markdown). Add these posts to your site so that you have some content pages
   - You should have 3 different repos on github, 1 for each 11ty based site
@@ -59,7 +61,7 @@ Switching gears completely, we've got to scaffold some more conceptual layers in
 ## Submitting the 11ty lab
 - write a post on dev.to that talks about getting started with 11ty
 - Use screenshots / links to your repos as a backdrop to demonstrate the same content in 3 different 11ty sites
-- Compare the 1st user experience of 11ty to HAX11ty
+- Compare the 1st user experience of 11ty to HAX11ty (unless you can't install hax11ty, then compare hello-world to the two template experiences)
 - Include links to relevant sites (11ty, hax11ty) as well as the code for your repos and you github.io addresses for the sites
 - Bonus:
   - +2% Following the tutorials here https://griffa.dev/posts/using-web-components-with-11ty/ , get your blog to be able to render your nasa web component
