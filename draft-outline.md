@@ -28,7 +28,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 
 ### Feedback on NASA solution
 - I'll give feedback / review some solutions to the NASA lab from 2 weeks ago
-- Grades will be available in Canvas for this
+- Grades will be available in Canvas for this by class w/ feedback per team there
 
 ### Feedback on 11ty / docker labs
 - 11ty - there were **3 sites that should be self-building on github via github actions**. If you didn't get 3 into your blog post, you should look into correcting this. Here's a post that has 3 in it that all have their own repo + have CI/CD wired up + even solve some CSS / path issues that site 2 could have.
@@ -48,18 +48,30 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - https://www.redhat.com/architect/micro-frontend-architecture
   - https://github.com/heyMP/practice-question-service
 - https://github.com/heyMP/rh-footer
-- IST Hello world - https://github.com/heyMP/ist-vercel-demo
+- IST Hello world - https://github.com/btopro/ist-vercel-demo
 - Shoelace design library uses Vercel as well - https://twitter.com/claviska/status/1489659763197624326
 
 ## Homework / Lab 8
-- Clone the ist-vercel-demo, spin it up and get your github account connected to the vercel service
+- Clone the `ist-vercel-demo`, spin it up and get your github account connected to the vercel service
+- there is a `.env` file needed for this to work locally. create a `.env` file in the git repo you cloned down locally
+- Add this as the contents of this file: https://gist.github.com/btopro/96bfbd6a5673b98d03d9f64b8f5c5c60
+- `npm install` `vercel dev`
+- if this works, you should get the same little weather "app" and comment "app" running locally
+- **Make sure you get this working as the final project will be based on something like this as a starting point**
+
+## Practicing another example w/ vercel
 - https://vercel.com/docs - read the docs; hit the "Show more" button to find an 11ty based tutorial. Use this to deploy a new 11ty based project to vercel
 - Get this 11ty based repo hooked up and add in your blog posts as you did in the 11ty lab but now Vercel will handle the CI/CD pipeline more or less automatically
+- This is another example why we need the conceptual model of what's going on in the future because this technology just came out and just eliminated the tedious github actions setup from the previous week
+
+## Submitting the lab
 - Write a dev.to article about Vercel based development workflows
   - Your article should include links to things Mike discusses in class
-  - Include screenshots of your 11ty site that you setup w/ vercel
+  - Your article should include a write up on your understanding of vercel, Functions as a service architecture, and how to get started with vercel
+  - Include links / screenshots of your 11ty site built using Vercel
+  - Include links / screenshots of your `ist-vercel-demo` site built
   - Compare this approach to just using github directly as far as configuration, ease of use, etc
-  - Also be sure to look into and discuss how shoelace uses this for launching new possible branches and letting people try out possible future functionality
+  - Bonus: +1% Fork the shoelace.style repo and get it linked up to your Vercel account. Add into your article a write up of how Shoelace uses Vercel to 
 - Submit your article by **Sunday March 13th** finish before spring break or after, no concern to me timing wise.
 
 ## Week 9 - Cruising on a boat or however you let loose
