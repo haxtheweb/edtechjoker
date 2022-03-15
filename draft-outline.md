@@ -29,10 +29,10 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
   - the API team to refine and envision what the call structure for the API looks like
 - Ask questions, refine the needs
 - Week-end check in
-  - A repo in your org (or 1 team member's account) for the doc site you are going to maintain in 11ty
-  - A repo in your org that's a fork of https://github.com/btopro/ist-vercel-demo renamed to be related to your project
-  - Teammates fork the organization repo
   - Due to limitations in vercel, you'll have to run vercel builds / wire it up to **your personal forks and NOT the organization**
+  - A way to side-step this is 1 person hooks Vercel up to their account, everyone else gets writes on their repo and then works within branches or forks off of them
+  - A repo in 1 team member's account for the doc site you are going to maintain in 11ty
+  - A repo in 1 team member's account for a fork of https://github.com/btopro/ist-vercel-demo renamed to be related to your project
 - **Sunday night by Midnight**: Submit to the #edtechjoker channel a link to your working 11ty documentation space with the following in the site
   - a section describing the project / linking to the issue you selected
   - a section linking to your fork of the repo, the repo powering your 11ty site
