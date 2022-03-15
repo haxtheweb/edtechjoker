@@ -8,7 +8,9 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - [week 6 / 7](https://github.com/elmsln/edtechjoker/tree/master/sp-22/week-6-7)
 - [week 8 / break](https://github.com/elmsln/edtechjoker/tree/master/sp-22/week-8)
 - Week 10
-
+- Final Project directions
+- Week 11
+- 
 # Week 10 - Vercel === magic 🪄 and setting up for the final project
 ## Tuesday
 - Welcome back!
@@ -26,6 +28,9 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - We'll start doing some prototyping in class on paper / tablet / figma / XD / however you prototype things
   - Need to diagram the relationship between front end and back end via box diagrams
   - Need to start to draw the front end, pointing out how different aspects of it are handled visually
+  - What does the API look like?
+  - What data does the front end have that the back end needs?
+  - What information does the back end need to bring to the front end?
 - The goal of this initial rough work is to have...
   - the front end team envision what it might look like
   - the back end team envision what calls their might be to power data of the frontend prototype
@@ -38,9 +43,8 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
   - A repo in 1 team member's account for a fork of https://github.com/btopro/ist-vercel-demo renamed to be related to your project
 - **Sunday night by Midnight**: Submit to the #edtechjoker channel a link to your working 11ty documentation space with the following in the site
   - a section describing the project / linking to the issue you selected
-  - a section describing the technologies that you'll be using for this microservice and how they all fit together
   - a section linking to your fork of the repo, the repo powering your 11ty site
-  - a "Notes" section that says Week 10, and has images of the mock ups, any notes your team generated, as well as questions and next steps
+  - a "Notes" section that says Week 10, and has images of the mock ups, details that you teased out in class Thursdauy, any notes your team generated, as well as questions and next steps
 
 ### Final project general requirements
 - Your team will have the rest of the semester to develop a fully working, well documented, promoted (via doc site / blog post), vercel based micro frontend
@@ -71,7 +75,12 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 ## Final project Rubric 40% of semester grade
 - Weekly check-ins. 5 check ins, 5% total
 - Final result matches the composite / issue selected, is polished, demo / code works, is error / console free and can be forked and replicated - 20%
-  - this will include specific requirements based on your individual project
+  - this will include specific requirements based o# Week 11
+## Tues
+- I'll review the 6 project sites for what work was generated Tues and offer feedback / discuss in class
+- Front end team should start experimenting with how to build the front end piece to this
+- API people should be researching Open API specification, naming the "end points" and listing out what data is required
+- Back end team should start experimenting with Express based end points / vercel more directly. Reading the docs, reverse engineering the IST demo space I created as a boilerplate for learning about all this.n your individual project
 - Project is well documented via 11ty site - 10%
   - site is autobuilding on github via actions or vercel
   - Site includes the following material:
@@ -97,3 +106,11 @@ Any repos that are of exceptional quality (or only needing minor tweaks for adop
 
 ## HAX Camp PSU May 9/10
 All projects would be welcome additions to discuss at HAX camp, a free event for students and industry to meet around frontend web skills -- https://www.eventbrite.com/e/hax-camp-web-components-all-the-things-tickets-288109562457
+
+
+# Week 11
+## Tues
+- I'll review the 6 project sites for what work was generated Tues and offer feedback / discuss in class
+- Front end team should start experimenting with how to build the front end piece to this
+- API people should be researching Open API specification, naming the "end points" and listing out what data is required
+- Back end team should start experimenting with Express based end points / vercel more directly. Reading the docs, reverse engineering the IST demo space I created as a boilerplate for learning about all this.
