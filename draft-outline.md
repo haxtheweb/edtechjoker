@@ -6,125 +6,81 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - [week / lab 3](https://github.com/elmsln/edtechjoker/tree/master/sp-22/week-3)
 - [week / lab 4 / 5](https://github.com/elmsln/edtechjoker/tree/master/sp-22/week-4-5)
 - [week 6 / 7](https://github.com/elmsln/edtechjoker/tree/master/sp-22/week-6-7)
-- week 8
+- [week 8](https://github.com/elmsln/edtechjoker/tree/master/sp-22/week-8)
 
-# Week 8 - Connecting concepts to industry
-
+# Week 10 - Vercel === magic 🪄 and setting up for the final project
 ## Tuesday
-- I'll be giving feedback on the NASA lab in detail. Much of this will be given via Canvas but I'll point to novel things different groups did so we can reflect as a class.
-
-- We will have a guest speaker. **Andrew Gearhart** is a *Systems Developer for Penn State University Libraries* who I am fortunate enough to be friends with and collaborate on projects the last several years at Penn State.
-- While we met doing Drupal work, Andrew gets to experience all kinds of different solutions (good and bad) in his work at the libraries due to the nature of library systems
-- Today, Andrew is going to talk to us about 1 such collaboration we engaged in a year ago to solve a sticky problem at the libraries.
-- This is a great example of the fact that the things we're talking about in class can stack together to provide real solutions in industry
-
-### What the solution touches on
-- Docker / Green Blue deployment workflow
-- HAX11ty for static site building and deployment
-- Markdown editing by content contributors who are NOT technical experts
-- Custom web components to render old XML document formats live on the web in a new engaging way.
-- Details about the project: https://beaumontandfletcher.libraries.psu.edu/digital-beaumont-fletcher-1647
-  - Click on "The Sea Voyage" to see HAX11ty in action
-
-### Feedback on NASA solution
-- I'll give feedback / review some solutions to the NASA lab from 2 weeks ago
-- Grades will be available in Canvas for this by class w/ feedback per team there
-
-### Feedback on 11ty / docker labs
-- 11ty - there were **3 sites that should be self-building on github via github actions**. If you didn't get 3 into your blog post, you should look into correcting this. Here's a post that has 3 in it that all have their own repo + have CI/CD wired up + even solve some CSS / path issues that site 2 could have.
-  - https://dev.to/mayormaier/how-to-build-powerful-sites-from-scratch-with-11ty-1lpa
-  - if you don't have a `.github/workflow/main.yml` file then you're doing CI/CD wrong (or not at all)
-  - just say'in: I'd recommend fixing these if you'd like full credit for this lab.
-- docker - uptake on this was much higher. If you didn't turn it in yet I highly recommend running through the lab and doing so. https://dev.to/erikgraybill/creating-a-dockerfile-for-an-application-5i0 is a decent step through of what's involved in making the lab work and then **an example dockerfile that would build your NASA project**
-
-## Wed / end of class
-Thursday, our guest speaker is going to be discussing Microservice architecture in the context of his work at Red Hat. Here's some things to make the most of your time and understanding of what Michael will be talking about
-- Read this article by Michael - https://www.redhat.com/architect/micro-frontend-architecture
-  - https://github.com/heyMP/practice-question-service is referenced within it, at least give it a browser conceptually. You don't have to spin it up.
-- Start exploring https://vercel.com/ as we'll be using it for Lab 8 and the final project.
-- Get your vercel account hooked up to your github account
-- Install the Vercel CLI via npm - https://vercel.com/cli
+- Welcome back!
+- I'll be doing a walk through of how the vercel file structure works and what is going on with this demo that has me lit
+  - demo: https://ist-vercel-demo-gamma.vercel.app/
+  - code: https://github.com/btopro/ist-vercel-demo
+- Guest lecture: edTechJoker 🃏 😕
+  - edTechJoker is going to talk about life, the way forward, research, and activism
+  - This establishes the final project
 
 ## Thursday
-- We'll have another guest speaker who will set the stage for the final project / all time after spring break
-- **Michael Potter**, Principle front end architect at Red Hat, will show us how Red hat uses a platform called Vercel in order to rapid deploy and test iterations of front end projects
-- Michael has worked on HAX and at Penn State for several years prior to joining Red Hat and has a wealth of full stack development knowledge
-- He's also my best friend... so I'm basically (the friend of) a Red Hat developer which makes me like a Red Hat developer without the pay
-- Our final project will involve building a micro frontend that uses Vercel for prototyping so this is both an introduction to an industry topic but also an introduction to the final project
-
-### Some links to check out
-- https://www.redhat.com/architect/micro-frontend-architecture
-  - https://github.com/heyMP/practice-question-service
-- https://github.com/heyMP/rh-footer
-- IST Hello world - https://github.com/btopro/ist-vercel-demo
-- Shoelace design library uses Vercel as well - https://twitter.com/claviska/status/1489659763197624326
-
-## Homework / Lab 8
-- Clone the `ist-vercel-demo`, spin it up and get your github account connected to the vercel service
-- there is a `.env` file needed for this to work locally. create a `.env` file in the git repo you cloned down locally
-- Add this as the contents of this file: https://gist.github.com/btopro/96bfbd6a5673b98d03d9f64b8f5c5c60
-  - This is an "environmental variable" file. This is a common thing on these sorts of service to keep security sensitive variables out of version control
-  - You'll notice that my `.gitignore` file has this file ignored. Vercel stores these variables and you can edit them via a UI for your project in the future -- https://vercel.com/docs/concepts/projects/environment-variables (this is how they deploy your project from a public repo while using secure public key values)
-- `npm install` and then run `vercel dev` in your repo
-- if this works, you should get the same little weather "app" and comment "app" running locally
-- Explore what's going on in the `/api/` paths as this is the "magic" of vercel from a developer experience. It Just Works (tm) to publish an infinitely scalable http://expressjs.com/ based webserver end point.
-- **Make sure you get this working as the final project will be based on something like this as a starting point**
-
-## Practicing another example w/ vercel
-- https://vercel.com/docs - read the docs; hit the "Show more" button to find an 11ty based tutorial. Use this to deploy a new 11ty based project to vercel
-- Using this as a model, now deploy your other 3 projects via Vercel (this should require 0 configuration and is mostly just hitting buttons in a UI)
-- **This is another example why we need the conceptual model of what's going on in the future because this technology just came out and just eliminated the tedious github actions setup from the previous week.**
-
-## Submitting the lab
-- Write a dev.to article about Vercel based development workflows
-  - Your article should include links to things Mike discusses in class as far as the context this platform / product is situated within
-  - Your article should include a write up on your understanding of vercel, Functions as a service architecture, and how to get started with vercel via docs / commands
-  - Include links / screenshots of your 11ty site(s) published using Vercel and how easy it is to do so
-  - Include links / screenshots of your `ist-vercel-demo` site that's using the environmental values to build successfully
-  - Compare this approach to other CI/CD pipeline approaches as far as DX (Developer eXperience)
-  - Bonus: +1% Fork the https://shoelace.style repo and get it linked up to your Vercel account. Add into your article a write up of how Shoelace uses Vercel to deploy builds per branch 
-- Submit your article by **Sunday March 13th** finish before spring break or after, no concern to me timing wise.
-- This is a critical piece of tech to comprehend how to use it. While simple, this is going to form the basis for our final project in this course (worth 40% of the grade) in which we'll be using Vercel to build a micro-frontend to prototype solving a problem within the HAX ecosystem.
-
-## Week 9 - Cruising on a boat or sleeping; however you recharge
-- 2019 edition, not 2020 edition 😬
-- In 2020 when I wrote this on a slide I made a joke about "if you don't all get sick over break and they let us come back here, we'll be working on...."
-  - Someone must have not realized it was a joke.
-- who knows, there might even be more favorable teaching constraints when we get back this time.. 🙏
-
-## Week 10 - 15 - Final project 40% of your grade
-### Tuesday after break
-- Details will be released about the final project, requirements, expectations, as well as potential impact and what it sits within
-- You'll have the rest of the semester to complete this final project
-- Class will be a mix of check-ins, code review, link sharing, attendance and in-class working time
-- Everything goes well, you build something neat
-- Everything goes REALLY well, you build something neat and I ask you to present it at HAXcamp / it helps influence the direction of our platform
-
-~~~ EVERYTHING BELOW HERE IS HIGHLY VARIABLE / SUBJECT TO CHANGE ~~~
-
-## Week x - OpenAPI spec
-## Tuesday
-- OpenAPI 3.0, what it is, how to use it, examples, how to develop a robust API. Point to the API evangelist
-- We'll look at how HAXcms uses "doc blocks" of comments in order to automatically generate Open API spec documents
-- https://stoplight.io/
-- https://www.postman.com/
-## Thursday
+- Thursday to start class, you'll have selected the project you want to work on
 - We'll start doing some prototyping in class on paper / tablet
 - The goal of this initial rough work is to have...
   - the front end team envision what it might look like
   - the back end team envision what calls their might be to power data of the frontend prototype
   - the API team to refine and envision what the call structure for the API looks like
-## Homework / Lab
-- What is OpenAPI. Who uses it? who developed it? What affordance does it provide? Why is it important? What is API first architecture? How do we version APIs?
+- Ask questions, refine the needs
+- Week end check in
+  - A repo in your org for the doc site your going to maintain
+  - A repo in your org that's a fork of https://github.com/btopro/ist-vercel-demo renamed to be related to your project
+  - teammates fork the organization repo
+  - due to limitations in vercel, you'll have to run vercel builds / wire it up to **your personal forks and NOT the organization**
 
-## Week 10 - 15 - Final project
-## Week 10 - Vercel / who needs express just know it's there via magic 🪄
+### Final project general requirements
+- Your team will have the rest of the semester to develop a fully working, well documented, promoted (via doc site / blog post), vercel based micro frontend
 - We'll use Vercel to deploy final projects (and learn about it as we go)
-- Classes these weeks will involve lots of group time
 - You'll get time to work in class with the expectation that code is submitted with each weekly check in
 - I'll then review anything submitted and use it as a basis for discussion in class
-- Each team will have a slightly different project and stack for solving potentially
-- They'll all be written in JavaScript (unless your super bold) and have an OpenAPI backend so we'll have lots we can learn from each other
+- They'll all be written in JavaScript and are vercel based so we'll have lots we can learn from each other
 - There will also be peer review / critiques during these times
 - Homeworks will be a check in / milestone marker expected to be hit and a status update turned in
 - Check ins will account for 10% of the course and doing them will keep you and your group on pace to finish the project on time while meeting all requirements
+- You'll be tasked with reading through and selecting one of the following projects to work on: https://github.com/elmsln/issues/labels/6H%20Class
+
+### Final project, specific requirements
+- Each element / micro has specific requirements for construction
+- These requirements must be met in addition to the general ones
+- Each project must maintain an 11ty based documentation site in another repo
+- Each team must have weekly check ins and meet regularly to communicate status updates throughout the project
+- Each project must include an OpenAPI 3.0 spec document for it's APIs (this is research based though I will demo in class / step through)
+  - https://editor.swagger.io/
+  - https://swagger.io/specification/
+- Each project must have more than 1 microservice and shoul
+- Each project must store data in a data storage engine; though a walkthrough of jsonbin.io which is free will be shown, other solutions can be researched and leveraged as desired
+- Each project must be able to demonstrate it's capabilities via demo
+- Each project must have web components, usually multiple working together
+- The way of invoking a new version of the micro frontend must be by writing 1 tag, which should be demonstrated multiple times in the demo (example; `fun-word-game-app`)
+- Additional requirements / refinement will come as we go
+
+## Final project Rubric 40% of semester grade
+- Weekly check-ins. 5 check ins, 5% total
+- Final result matches the composite / issue selected, is polished, demo / code works, is error / console free and can be forked and replicated - 20%
+  - this will include specific requirements based on your individual project
+- Project is well documented via 11ty site - 10%
+  - site is autobuilding on github via actions or vercel
+  - Site includes the following material:
+    - **Link to a swagger / OpenAPI 3.0 spec document used to build your APIs**
+    - links to background material on the project, lit, vercel, hax, etc
+    - links / short "Who made this" section to pump your SEO / give you something to point to
+    - Repo links, links to the original issue being solved
+    - Documentation on how the microservice works. What the API end points are. What is required to leverage them. How the code leverages them
+    - Visual documentation of the different states your micro frontend can be put in. Getting data, adding data, etc.
+    - This should fully explain to someone who doesn't know the stack or how it's built, what it does, how to get into the code, and learn more about the project and how to play with it 
+- Final presentation for feedback and to give other students a live demo - 5%
+  - this serves as a final check in and is more of a live demo of capability and sharing links for the class to play with and offer feedback
+  - you'll be able to use this feedback to refine your final solution submitted the next week
+
+## Final submission
+Due May 3rd to Canvas Dropbox. Link to your repo, documentation and associated demo need to be in the submission
+
+## Final / top prize(s) ❔
+Any repos that are of exceptional quality (or only needing minor tweaks for adoption) and get accepted into the HAXTheWeb portfolio of elements will get a 🏒 emoji implying that you get an official #HAXTheWeb hockey jersey. If this is the case I'll contact your team during finals week. The hope is that these element will also start showing up in the course work of your peers, future verisons of you, or in your own courses in coming semesters. This project is gaining momentum and we pipeline these enhancements directly to Penn State students, faculty and staff via the https://hax.psu.edu SaaS solution. This will not be given out to all solutions and there is no garauntee any will be given out. Last semester 2 of 11 projects got this award.
+
+## HAX Camp PSU May 9/10
+All projects would be welcome additions to discuss at HAX camp, a free event for students and industry to meet around frontend web skills -- https://www.eventbrite.com/e/hax-camp-web-components-all-the-things-tickets-288109562457
