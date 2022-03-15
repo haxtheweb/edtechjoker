@@ -15,6 +15,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - I'll be doing a walk through of how the vercel file structure works and what is going on with this demo that has me lit
   - demo: https://ist-vercel-demo-gamma.vercel.app/
   - code: https://github.com/btopro/ist-vercel-demo
+  - backend: (cheating... for sure) https://jsonbin.io/
 - Guest lecture: edTechJoker 🃏 😕
   - edTechJoker is going to talk about life, the way forward, research, and activism
   - This establishes the final project
