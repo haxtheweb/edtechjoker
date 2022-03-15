@@ -23,7 +23,9 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 ## Thursday
 - Reading through more of the requirements so we're on the same page
 - Thursday to start class, you'll have selected the project you want to work on
-- We'll start doing some prototyping in class on paper / tablet
+- We'll start doing some prototyping in class on paper / tablet / figma / XD / however you prototype things
+  - Need to diagram the relationship between front end and back end via box diagrams
+  - Need to start to draw the front end, pointing out how different aspects of it are handled visually
 - The goal of this initial rough work is to have...
   - the front end team envision what it might look like
   - the back end team envision what calls their might be to power data of the frontend prototype
@@ -36,6 +38,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
   - A repo in 1 team member's account for a fork of https://github.com/btopro/ist-vercel-demo renamed to be related to your project
 - **Sunday night by Midnight**: Submit to the #edtechjoker channel a link to your working 11ty documentation space with the following in the site
   - a section describing the project / linking to the issue you selected
+  - a section describing the technologies that you'll be using for this microservice and how they all fit together
   - a section linking to your fork of the repo, the repo powering your 11ty site
   - a "Notes" section that says Week 10, and has images of the mock ups, any notes your team generated, as well as questions and next steps
 
