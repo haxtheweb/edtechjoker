@@ -74,8 +74,10 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 
 ### Data store
 - Because of freeness, jsonbin.io is hooked up in the example repo
-- Planetscale is another potential option which has higher scale, appears to be free for a single DB and support SQL calls. It also has click to integrate vercel integration. -- https://docs.planetscale.com/tutorials/deploy-to-vercel
-  - I haven't played with this but it seems very promising and has a CLI even for working w/ the DBs there -- https://github.com/planetscale/cli
+- Planetscale is another potential option (see db.js) which has higher scale and using SQL. It appears to be free for a single account and I found this library that makes it really easy to connect to: https://github.com/planetscale/planetscale-node
+- It also has click to integrate vercel integration. -- https://docs.planetscale.com/tutorials/deploy-to-vercel
+- And here's a tutorial on planetscale for how to use their CLI to build a little connector via a Node app https://docs.planetscale.com/tutorials/connect-nodejs-app
+- can use the CLI too so that you can build your database: https://github.com/planetscale/cli
 
 ## Final project Rubric 40% of semester grade
 - Weekly check-ins. 5 check ins, 5% total
