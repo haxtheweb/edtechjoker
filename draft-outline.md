@@ -6,7 +6,8 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - [week / lab 3](https://github.com/elmsln/edtechjoker/tree/master/sp-22/week-3)
 - [week / lab 4 / 5](https://github.com/elmsln/edtechjoker/tree/master/sp-22/week-4-5)
 - [week 6 / 7](https://github.com/elmsln/edtechjoker/tree/master/sp-22/week-6-7)
-- [week 8](https://github.com/elmsln/edtechjoker/tree/master/sp-22/week-8)
+- [week 8 / break](https://github.com/elmsln/edtechjoker/tree/master/sp-22/week-8)
+- Week 10
 
 # Week 10 - Vercel === magic 🪄 and setting up for the final project
 ## Tuesday
@@ -19,6 +20,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
   - This establishes the final project
 
 ## Thursday
+- Reading through more of the requirements so we're on the same page
 - Thursday to start class, you'll have selected the project you want to work on
 - We'll start doing some prototyping in class on paper / tablet
 - The goal of this initial rough work is to have...
@@ -26,11 +28,15 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
   - the back end team envision what calls their might be to power data of the frontend prototype
   - the API team to refine and envision what the call structure for the API looks like
 - Ask questions, refine the needs
-- Week end check in
-  - A repo in your org for the doc site your going to maintain
+- Week-end check in
+  - A repo in your org (or 1 team member's account) for the doc site you are going to maintain in 11ty
   - A repo in your org that's a fork of https://github.com/btopro/ist-vercel-demo renamed to be related to your project
-  - teammates fork the organization repo
-  - due to limitations in vercel, you'll have to run vercel builds / wire it up to **your personal forks and NOT the organization**
+  - Teammates fork the organization repo
+  - Due to limitations in vercel, you'll have to run vercel builds / wire it up to **your personal forks and NOT the organization**
+- **Sunday night by Midnight**: Submit to the #edtechjoker channel a link to your working 11ty documentation space with the following in the site
+  - a section describing the project / linking to the issue you selected
+  - a section linking to your fork of the repo, the repo powering your 11ty site
+  - a "Notes" section that says Week 10, and has images of the mock ups, any notes your team generated, as well as questions and next steps
 
 ### Final project general requirements
 - Your team will have the rest of the semester to develop a fully working, well documented, promoted (via doc site / blog post), vercel based micro frontend
