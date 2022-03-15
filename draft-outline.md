@@ -72,6 +72,11 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - The way of invoking a new version of the micro frontend must be by writing 1 tag, which should be demonstrated multiple times in the demo (example; `fun-word-game-app`)
 - Additional requirements / refinement will come as we go
 
+### Data store
+- Because of freeness, jsonbin.io is hooked up in the example repo
+- Planetscale is another potential option which has higher scale, appears to be free for a single DB and support SQL calls. It also has click to integrate vercel integration. -- https://docs.planetscale.com/tutorials/deploy-to-vercel
+  - I haven't played with this but it seems very promising and has a CLI even for working w/ the DBs there -- https://github.com/planetscale/cli
+
 ## Final project Rubric 40% of semester grade
 - Weekly check-ins. 5 check ins, 5% total
 - Final result matches the composite / issue selected, is polished, demo / code works, is error / console free and can be forked and replicated - 20%
