@@ -58,7 +58,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - Each project must include an OpenAPI 3.0 spec document for it's APIs (this is research based though I will demo in class / step through)
   - https://editor.swagger.io/
   - https://swagger.io/specification/
-- Each project must have more than 1 microservice and shoul
+- Each project must have more than 1 microservice and should have as many as the specific project indicates (or more if discovered)
 - Each project must store data in a data storage engine; though a walkthrough of jsonbin.io which is free will be shown, other solutions can be researched and leveraged as desired
 - Each project must be able to demonstrate it's capabilities via demo
 - Each project must have web components, usually multiple working together
@@ -82,6 +82,9 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - Final presentation for feedback and to give other students a live demo - 5%
   - this serves as a final check in and is more of a live demo of capability and sharing links for the class to play with and offer feedback
   - you'll be able to use this feedback to refine your final solution submitted the next week
+
+### Bonus:
+- Add a very simple `authorize.js` end-point that sends back a hashed value. This hashed value is then sent on all other transactions for security purposes to validate that a bot isn't spamming the service but is actually using the web component to broker the connection. All other service calls then use this information to verify that this is a valid transaction +3
 
 ## Final submission
 Due May 3rd to Canvas Dropbox. Link to your repo, documentation and associated demo need to be in the submission
