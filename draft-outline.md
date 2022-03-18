@@ -82,12 +82,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 ## Final project Rubric 40% of semester grade
 - Weekly check-ins. 5 check ins, 5% total
 - Final result matches the composite / issue selected, is polished, demo / code works, is error / console free and can be forked and replicated - 20%
-  - this will include specific requirements based o# Week 11
-## Tues
-- I'll review the 6 project sites for what work was generated Tues and offer feedback / discuss in class
-- Front end team should start experimenting with how to build the front end piece to this
-- API people should be researching Open API specification, naming the "end points" and listing out what data is required
-- Back end team should start experimenting with Express based end points / vercel more directly. Reading the docs, reverse engineering the IST demo space I created as a boilerplate for learning about all this.n your individual project
+  - this will include specific requirements based on your individual project
 - Project is well documented via 11ty site - 10%
   - site is autobuilding on github via actions or vercel
   - Site includes the following material:
@@ -113,7 +108,6 @@ Any repos that are of exceptional quality (or only needing minor tweaks for adop
 
 ## HAX Camp PSU May 9/10
 All projects would be welcome additions to discuss at HAX camp, a free event for students and industry to meet around frontend web skills -- https://www.eventbrite.com/e/hax-camp-web-components-all-the-things-tickets-288109562457
-
 
 # Week 11
 ## Tues
