@@ -7,44 +7,48 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - [week / lab 4 / 5](https://github.com/elmsln/edtechjoker/tree/master/sp-22/week-4-5)
 - [week 6 / 7](https://github.com/elmsln/edtechjoker/tree/master/sp-22/week-6-7)
 - [week 8 / break](https://github.com/elmsln/edtechjoker/tree/master/sp-22/week-8)
-- Week 10
+- [week 10](https://github.com/elmsln/edtechjoker/tree/master/sp-22/week-10)
 - Final Project directions
 - Week 11
-- 
-# Week 10 - Vercel === magic 🪄 and setting up for the final project
-## Tuesday
-- Welcome back!
-- I'll be doing a walk through of how the vercel file structure works and what is going on with this demo that has me lit
-  - demo: https://ist-vercel-demo-gamma.vercel.app/
-  - code: https://github.com/btopro/ist-vercel-demo
-  - backend: (cheating... for sure) https://jsonbin.io/
-- Guest lecture: edTechJoker 🃏 😕
-  - edTechJoker is going to talk about life, the way forward, research, and activism
-  - This establishes the final project
 
-## Thursday
-- Reading through more of the requirements so we're on the same page
-- Thursday to start class, you'll have selected the project you want to work on
-- We'll start doing some prototyping in class on paper / tablet / figma / XD / however you prototype things
-  - Need to diagram the relationship between front end and back end via box diagrams
-  - Need to start to draw the front end, pointing out how different aspects of it are handled visually
-  - What does the API look like?
-  - What data does the front end have that the back end needs?
-  - What information does the back end need to bring to the front end?
-- The goal of this initial rough work is to have...
-  - the front end team envision what it might look like
-  - the back end team envision what calls their might be to power data of the frontend prototype
-  - the API team to refine and envision what the call structure for the API looks like
-- Ask questions, refine the needs
-- Week-end check in
-  - Due to limitations in vercel, you'll have to run vercel builds / wire it up to **your personal forks and NOT the organization**
-  - A way to side-step this is 1 person hooks Vercel up to their account, everyone else gets writes on their repo and then works within branches or forks off of them
-  - A repo in 1 team member's account for the doc site you are going to maintain in 11ty
-  - A repo in 1 team member's account for a USE AS TEMPLATE of https://github.com/btopro/ist-vercel-demo renamed to be related to your project
-- **Sunday night by Midnight**: Submit to the #edtechjoker channel a link to your working 11ty documentation space with the following in the site
-  - a section describing the project / linking to the issue you selected
-  - a section linking to your fork of the repo, the repo powering your 11ty site
-  - a "Notes" section that says Week 10, and has images of the mock ups, details that you teased out in class Thursdauy, any notes your team generated, as well as questions and next steps
+## HAX Camp PSU May 9/10
+All projects would be welcome additions to discuss at HAX camp, a free event for students and industry to meet around frontend web skills -- https://www.eventbrite.com/e/hax-camp-web-components-all-the-things-tickets-288109562457
+
+# Week 11
+## Tues
+- I'll review the 6 project sites for what work was generated Tues and offer feedback / discuss in class
+- Front end team should start experimenting with how to build the front end piece to this
+- API people should be researching Open API specification, naming the "end points" and listing out what data is required
+- Back end team should start experimenting with Express based end points / vercel more directly. Reading the docs, reverse engineering the IST demo space I created as a boilerplate for learning about all this.
+- Open team working time
+- attendance
+
+## Thurs
+- I'll respond to any questions asked in between Tues / Thurs that we didn't get to
+- more open team working time
+- attendance
+
+## Sunday, Check-in 2
+- Your checkin site should be updated with a heading for week 2
+- Week 2 should have any updates of what you worked on, where you are in the project, visuals created, etc. It should end with questions and next steps
+- Your repo that you are working in should start to have some code. Front end people should start working on front end assets. Backend people should start working on some endpoints. API people should be making user-flow diagrams that indicate what users of the solution do, how the front end works with this input, what the backend returns, how the front end then uses this to inform the user.
+  - You should have at least 2 of these user flows attempted. In the end you'll need every process loop documented of the user + frontend + backend and how they play together
+- Any data structures you need for backend and frontend should at least start being documented / generated. This will change over time potentially but you need some aggreed upon early work to get started at least. This would look like (hypothetically, this is not THE answer here this was like 2 min of thinking about it on my part):
+getNewWord.js
+```json
+{
+  "status": 200,
+  "detail": {
+    "seed" : "03/20/2022",
+    "size" : 5,
+    "attempts": 10,
+    "successes": 2
+  }
+}
+```
+Status is good so that if there are errors on the backend you could send their easily in a structured message. The `detail` part here is just bc I like to try and keep frontend events and backend message thought of as "events" even when not. Totally preference thing, you structure how you think is viable.
+- these things need turned in by Sunday at midnight, I'll review and offer feedback again and this loop will keep repeating
+- the more code you have, the more I can start to offer feedback on said code.
 
 ### Final project general requirements
 - Your team will have the rest of the semester to develop a fully working, well documented, promoted (via doc site / blog post), vercel based micro frontend
@@ -105,13 +109,3 @@ Due May 3rd to Canvas Dropbox. Link to your repo, documentation and associated d
 
 ## Final / top prize(s) ❔
 Any repos that are of exceptional quality (or only needing minor tweaks for adoption) and get accepted into the HAXTheWeb portfolio of elements will get a 🏒 emoji implying that you get an official #HAXTheWeb hockey jersey. If this is the case I'll contact your team during finals week. The hope is that these element will also start showing up in the course work of your peers, future verisons of you, or in your own courses in coming semesters. This project is gaining momentum and we pipeline these enhancements directly to Penn State students, faculty and staff via the https://hax.psu.edu SaaS solution. This will not be given out to all solutions and there is no garauntee any will be given out. Last semester 2 of 11 projects got this award.
-
-## HAX Camp PSU May 9/10
-All projects would be welcome additions to discuss at HAX camp, a free event for students and industry to meet around frontend web skills -- https://www.eventbrite.com/e/hax-camp-web-components-all-the-things-tickets-288109562457
-
-# Week 11
-## Tues
-- I'll review the 6 project sites for what work was generated Tues and offer feedback / discuss in class
-- Front end team should start experimenting with how to build the front end piece to this
-- API people should be researching Open API specification, naming the "end points" and listing out what data is required
-- Back end team should start experimenting with Express based end points / vercel more directly. Reading the docs, reverse engineering the IST demo space I created as a boilerplate for learning about all this.
