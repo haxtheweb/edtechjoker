@@ -15,6 +15,24 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 ## HAX Camp PSU May 9/10
 All projects would be welcome additions to discuss at HAX camp, a free event for students and industry to meet around frontend web skills -- https://www.eventbrite.com/e/hax-camp-web-components-all-the-things-tickets-288109562457
 
+## Week 13
+### Tues
+- Review code produced by teams for check in 3.
+- Feedback will be potentially via PR, textual comment, or me walking through how something works in class.
+- After review there will be more time to work in class
+
+Check in is to have some notes added to your 11ty doc site about what was accomplished with links to code / test spaces. Backend / API / PM people should read / watch the videos in this article -- https://swagger.io/blog/news/whats-new-in-openapi-3-0/ . This check in will touch on starting to document pieces of the API as far as what you'll need in the end to produce a working OpenAPI 3.0 spec document, a standard way of documenting APIs IRL. Here is an example from HAXcms for reference: http://haxcms.herokuapp.com/system/api/openapi/json
+
+### Thursday
+- Working day in class
+
+### Check in 4 due
+Sunday at midnight
+- any additional code you want reviewed
+- All endpoints must be started
+- Front end stub code should be at least attempted
+- OpenAPI spec document started
+
 ## Week 12
 ### Tues / Thurs
 - Working days with attendence
@@ -36,16 +54,6 @@ We'll step through the open API stuff some next week, it is part of final projec
 
 **The more code you develop, even with issues, the more feedback I can give. Tues will be stepping through code produced by teams in class. The more code, the more feedback, the faster you can develop solutions, refine them, and ace the final project. The less code now, the harder the road ahead**
 
-## Week 13
-### Tues
-- Review code produced by teams for check in 3.
-- Feedback will be potentially via PR, textual comment, or me walking through how something works in class.
-- After review there will be more time to work in class
-
-### Thursday
-- Working day in class
-
-### Check in 4 due
 
 ### Final project general requirements
 - Your team will have the rest of the semester to develop a fully working, well documented, promoted (via doc site / blog post), vercel based micro frontend
