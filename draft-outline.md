@@ -10,7 +10,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - [week 10](https://github.com/elmsln/edtechjoker/tree/master/sp-22/week-10)
 - Final Project directions
 - [week 11](https://github.com/elmsln/edtechjoker/tree/master/sp-22/week-11)
-- week 12-13()
+- [week 12-13](https://github.com/elmsln/edtechjoker/tree/master/sp-22/week-12-13)
 - week 14
 
 ## HAX Camp PSU May 9/10
