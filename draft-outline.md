@@ -26,6 +26,9 @@ All projects would be welcome additions to discuss at HAX camp, a free event for
 - Anything you get done in class today that you'd like targetted feedback on, please DM me between now and Wed and I'll review for Thurs
 
 ## Thursday
+- Check out Stoplight.io if you are doing the OpenAPI work -- stoplight.io
+  - tutorial: https://idratherbewriting.com/learnapidoc/pubapis_openapis_quickstart_stoplight.html
+  - Example from a group: https://da-penguins.stoplight.io/docs/threaded-discussion/b3A6NTAwNDMzNzI-submit-comment
 - Attendence
 - review of any questions that came up between
 - More time to keep building
