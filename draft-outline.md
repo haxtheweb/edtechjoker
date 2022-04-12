@@ -19,6 +19,7 @@ All projects would be welcome additions to discuss at HAX camp, a free event for
 # Week 14
 ## Tues
 - Reviewing a word game PR for a coding concept in web components (event + property management)
+- https://github.com/reyes-edwin/word-guessing-game/pull/3
 - More time to keep cranking.
 
 ### Final project general requirements
