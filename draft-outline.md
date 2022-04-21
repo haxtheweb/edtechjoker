@@ -16,35 +16,50 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 ## HAX Camp PSU May 9/10
 All projects would be welcome additions to discuss at HAX camp, a free event for students and industry to meet around frontend web skills -- https://www.eventbrite.com/e/hax-camp-web-components-all-the-things-tickets-288109562457
 
-# Week 14
+# Week 15
 ## Tues
-- Significantly better check in for all groups. Great to see these coming together more and more.
-- Saw some start into the OpenAPI stuff more than others. There is a great "pet store" example that a few began reverse engineering that I suggest looking for (it's the openapi example the project uses). When basing off that make sure to clean out the pet store stuff but it'll help with getting a valid spec and documenting data needs.
-- I'll do a quick review of a word game PR for a coding concept in web components (event + property management) that applies well w/ that game board
-  - https://github.com/reyes-edwin/word-guessing-game/pull/3
-- Read through the feedback or code that I submitted back to you and keep cranking through
-- Anything you get done in class today that you'd like targetted feedback on, please DM me between now and Wed and I'll review for Thurs
+- Working class
+- This is the last full week of building before demos!
+## Thurs
+- Working class
+- https://rateteaching.psu.edu/?CourseID=202122SP_____PIST__402_004_1__22211--15471&InstructorID=bto108
+- Please fill out SRTE for the course if you haven't. While this does not affect my pay or anything related to academic standing, I do read responses and adjust my style each semester and cover topics more/less/differently based on this feedback as I have the last 6 semesters.
+- Your live demo worth 5% of the project is on Tuesday, April 26th
+
+# Week 16 - Live Tech demo / last week
+## Tues
+- Tues will be a day of in-class live tech demos. **Having a live, working tech demo is worth 5% of your grade**
+### Requirements for tech demo
+- Someone on team plugs into projector to do the live demo for everyone
+- Links shared out in the slack channel to the following:
+  - Link to vercel app for people to click and be able to play with
+  - Link to the code repo powering the demo
+- Quick description of the scope of the app and what it was supposed to achieve
+- Someone gives a tour of the current state of the app so people know how to use it
+- After playing with the app, A quick trace of how the app works..
+  - Load the app, what files made that happen. If your code calls a vercel endpoint to load data, what happens in the front end that leads to this getting data
+  - Show the code that makes the call and then show the backend code the sends the message
+  - I might ask you to do this for other aspects of your app depending on how many endpoints / front end code there is.
+
+### Rubric
+- **Completely Non-functioning demos are -5. This is a live demo of a mostly functioning "app" that resembles what is expected from the requirements of the app that you picked to build**
+  - This doesn't mean 1 thing doesn't work or there's a glitch. This means that it is not in a state that people can actually play with it and witness the interplay between vercel and web components.
+  - **If you don't give a tech demo it's -5%.**
+- Did you give out the link and app is in a state others can play with it? 2%
+- Did you show code and explain how it works? 2%
+- Does it achieve the majority of what it's supposed to? 1%
+**This is 5% of your grade**
+
+## Attendance for Tues/Thurs
+- I will give out links to 6 unique surveys
+- While in the audience, you are to play with the tech demo of the other groups
+- Fill out the associated feedback survey
+- This survey serves as your attendence for the week (each person will fill out 5 since you don't do your own group)
+- After all tech demos, 1 last survey will be given out for overall impressions / who people thought did the best job in different categories.
 
 ## Thursday
-- Check out Stoplight.io if you are doing the OpenAPI work -- stoplight.io
-  - tutorial: https://idratherbewriting.com/learnapidoc/pubapis_openapis_quickstart_stoplight.html
-  - Example from a group: https://da-penguins.stoplight.io/docs/threaded-discussion/b3A6NTAwNDMzNzI-submit-comment
-- Attendence
-- review of any questions that came up between
-- More time to keep building
-
-## Sunday
-- Check in 5 is due by midnight
-- There requirements of this check in are:
-  - List what you've gotten done this week
-  - List what you have left to do
-  - List any questions you have
-  - Point to specific code you'd like reviewed if any
-
-# Week 15
-- This is the last full week of building before demos!
-- There is no check in this weekend, however your live demo worth 5% of the project is on the 26th of April
-- Class will be getting more feedback / guidance from check in 5
+- If tech demos run long than we'll use time on Thursday to finish them. I want to make sure everyone has adequet time to do the demos and get feedback from the class
+- This will be a working day
 
 ### Final project general requirements
 - Your team will have the rest of the semester to develop a fully working, well documented, promoted (via doc site / blog post), vercel based micro frontend
@@ -101,7 +116,4 @@ All projects would be welcome additions to discuss at HAX camp, a free event for
 - Add a very simple `authorize.js` end-point that sends back a hashed value. This hashed value is then sent on all other transactions for security purposes to validate that a bot isn't spamming the service but is actually using the web component to broker the connection. All other service calls then use this information to verify that this is a valid transaction +3
 
 ## Final submission
-Due May 3rd to Canvas Dropbox. Link to your repo, documentation and associated demo need to be in the submission
-
-## Final / top prize(s) ❔
-Any repos that are of exceptional quality (or only needing minor tweaks for adoption) and get accepted into the HAXTheWeb portfolio of elements will get a 🏒 emoji implying that you get an official #HAXTheWeb hockey jersey. If this is the case I'll contact your team during finals week. The hope is that these element will also start showing up in the course work of your peers, future verisons of you, or in your own courses in coming semesters. This project is gaining momentum and we pipeline these enhancements directly to Penn State students, faculty and staff via the https://hax.psu.edu SaaS solution. This will not be given out to all solutions and there is no garauntee any will be given out. Last semester 2 of 11 projects got this award.
+**Due May 3rd to Canvas Dropbox**. Link to your repo, documentation and associated demo need to be in the submission
