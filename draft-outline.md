@@ -12,19 +12,10 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - [week 11](https://github.com/elmsln/edtechjoker/tree/master/sp-22/week-11)
 - [week 12-13](https://github.com/elmsln/edtechjoker/tree/master/sp-22/week-12-13)
 - [week 14](https://github.com/elmsln/edtechjoker/tree/master/sp-22/week-14)
+- [week 15](https://github.com/elmsln/edtechjoker/tree/master/sp-22/week-15)
 
 ## HAX Camp PSU May 9/10
 All projects would be welcome additions to discuss at HAX camp, a free event for students and industry to meet around frontend web skills -- https://www.eventbrite.com/e/hax-camp-web-components-all-the-things-tickets-288109562457
-
-# Week 15
-## Tues
-- Working class
-- This is the last full week of building before demos!
-## Thurs
-- Working class
-- https://rateteaching.psu.edu/?CourseID=202122SP_____PIST__402_004_1__22211--15471&InstructorID=bto108
-- Please fill out SRTE for the course if you haven't. While this does not affect my pay or anything related to academic standing, I do read responses and adjust my style each semester and cover topics more/less/differently based on this feedback as I have the last 6 semesters.
-- Your live demo worth 5% of the project is on Tuesday, April 26th
 
 # Week 16 - Live Tech demo / last week
 ## Tues
