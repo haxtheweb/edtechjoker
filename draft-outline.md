@@ -20,6 +20,21 @@ All projects would be welcome additions to discuss at HAX camp, a free event for
 # Week 16 - Live Tech demo / last week
 ## Tues
 - Tues will be a day of in-class live tech demos. **Having a live, working tech demo is worth 5% of your grade**
+- Order (randomly selected):
+  - A: Wordle - https://forms.gle/DXieiR8V3PNHusAz6
+
+  - E: Vocab word look up - https://forms.gle/BbpbbyqeJm6EUj6V9
+
+  - D: Threaded Commenting - https://forms.gle/Wvz2p3eNDjRhweFL7
+
+  - C: Wordle - https://forms.gle/8gT46E9WVGFzJ1Q5A
+
+  - B: Vocab Word look up - https://forms.gle/qHv9CRVXNoKuAgNZ8
+
+  - F: Who's here - https://forms.gle/AE7P3uJP9vwpbs7B7
+
+- Overall / final survey after everyone goes - https://forms.gle/oQTLNmn8ttbVuFH97
+
 ### Requirements for tech demo
 - Someone on team plugs into projector to do the live demo for everyone
 - Links shared out in the slack channel to the following:
