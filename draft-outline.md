@@ -19,8 +19,25 @@ All projects would be welcome additions to discuss at HAX camp, a free event for
 
 # Week 16 - Live Tech demo / last week
 ## Tues
-- Tues will be a day of in-class live tech demos. **Having a live, working tech demo is worth 5% of your grade**
-- Order (randomly selected):
+- Tues will be a day of in-class live tech demos.
+- **Having a live, working tech demo is worth 5% of your grade**
+
+### Group role
+- All group members available for questioning
+- Share link to your code repo + published vercel demo in slack channel
+- Hook into the projector and get your demo all setup
+- Take us on a tour of how it works
+- Show the interactions leading to code running on the front end and back end for one transaction
+- I'll ask questions accordingly
+- Others are free to ask questions as well
+
+### Audience role
+- Click the links given out.
+- Play with the demo / try to understand how it works and try to break things
+- Review the code as desired
+- Take the survey associated with the group after getting time to understand their work
+
+## Order (randomly selected):
   - A: Wordle - https://forms.gle/DXieiR8V3PNHusAz6
 
   - E: Vocab word look up - https://forms.gle/BbpbbyqeJm6EUj6V9
