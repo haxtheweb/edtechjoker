@@ -8,11 +8,11 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - [week 6 / 7](https://github.com/elmsln/edtechjoker/tree/master/sp-22/week-6-7)
 - [week 8 / break](https://github.com/elmsln/edtechjoker/tree/master/sp-22/week-8)
 - [week 10](https://github.com/elmsln/edtechjoker/tree/master/sp-22/week-10)
-- Final Project directions
 - [week 11](https://github.com/elmsln/edtechjoker/tree/master/sp-22/week-11)
 - [week 12-13](https://github.com/elmsln/edtechjoker/tree/master/sp-22/week-12-13)
 - [week 14](https://github.com/elmsln/edtechjoker/tree/master/sp-22/week-14)
 - [week 15](https://github.com/elmsln/edtechjoker/tree/master/sp-22/week-15)
+- Final Project directions (see below)
 
 ## HAX Camp PSU May 9/10
 All projects would be welcome additions to discuss at HAX camp, a free event for students and industry to meet around frontend web skills -- https://www.eventbrite.com/e/hax-camp-web-components-all-the-things-tickets-288109562457
