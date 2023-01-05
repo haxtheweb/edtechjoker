@@ -37,7 +37,6 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 ## Week 4-5: JS Ecosystem
 - Tooling, how people work in industry, different projects (high level)
 - Hello world a palooza. Set up a working deployed copy of each, review the code on GitHub. What are the similarities, what are the differences in repo structure? Look at the syntax of a js/template file from each. What is vanilla and what seems to be library specific?
-- Quiz at the end of this section to verify fundamental knowledge
 
 ## Week 6-8: Web components (project 1)
 - Why web components, understanding how Wcs interplay with other libraries, who’s using them and why
