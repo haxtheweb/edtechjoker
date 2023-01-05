@@ -29,6 +29,10 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 ## Week 3: JS Fundamentals
 - How JS can access and modify HTML and CSS
 - VanillaJS vs jQuery, Event Loop and how JS works
+- Let's look at template literals (we'll use them later on)
+ - I need to learn about them, so Mozilla docs - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#tagged_templates
+   - https://codepen.io/btopro/pen/ExpNyQx?editors=1111 - let's see how this can be used
+     - https://codepen.io/btopro/pen/ZEjBObq?editors=1111 - follow up
 
 ## Week 4-5: JS Ecosystem
 - Tooling, how people work in industry, different projects (high level)
