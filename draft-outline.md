@@ -42,14 +42,15 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 ## Week 6-8: Web components (project 1)
 - Why web components, understanding how Wcs interplay with other libraries, who’s using them and why
 - OpenWC specifically running through the cli and making a new project to collaborate on GitHub. Reading the lit docs
-- CSS in ShadowRoot, prop drilling, leveraging existing packages, publishing to NPM
-- Vercel and project publishing and communication
+- CSS in ShadowRoot, prop drilling, leveraging existing packages
 - Mid-term
 - **Thursday prior to spring break there is no class**
 
 ## Week 9: Spring Break
 
 ## Week 10-11: Micro frontends (project 2)
+- Publishing to NPM
+- Vercel and project publishing and communication
 - Creating an API endpoint to return data
 - Creating a basic web component to render data from an end point using fetch to obtain information
 
