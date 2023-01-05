@@ -3,8 +3,24 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - [Prerequisit concepts](https://youtube.com/playlist?list=PLJQupiji7J5efO_Q5VGZcPE4O_TM_HGP4)
 
 ## Week 1: Welcome to class
-- Watch code and formulate ideas about HOW developers work
-- Get basic structure around code
+- Tues: Welcome and syllabus day
+- between class: https://oer.hax.psu.edu/bto108/sites/ist256/requirements - get accounts on these services
+- Thurs: Get basic structure around code, fundamentals and playing with stuff
+
+### Homework
+- Create an account on https://github.com 
+- Create accounts on the services listed here: https://oer.hax.psu.edu/bto108/sites/ist256/requirements
+- Create a PUBLIC Gist on https://gist.github.com/  called week-1.md (so that you can write markdown)
+- Watch the following video / have it open in another tab: https://youtu.be/DWvRV9KuTjk 
+- Using Markdown (Look it up if you don't know how to do it but bottom right corner in gist will have a `M^` button w/ details, answer the following questions:
+- That has answers to the following questions
+- Was the backend or frontend responsible for the bug in the video?
+- What languages do you see in this video? List them. If you're not sure what the language is, but you know it's different, indicate that.
+- What tools, strategies, and workflows used in the video do you think are common across all web development?
+- What strategies used in the video help with debugging?
+- What tools and approaches used in the video do you think help in quality control / quality assurance?
+- What are 5 syntaxes / pieces of code shown you DO recognize (could be of any scale or size), time stamp (link) or screenshot it and list what they are them. (screen shots can be drag and dropped into the comment area below your gist)
+- What are 5 syntaxes / pieces of code shown you DON'T recognize, time stamp (link) or screenshot it and list what they are them. (screen shots can be drag and dropped into the comment area below your gist)
 
 ## Week 2: HTML / CSS fundamentals
 - Discussing base line topics around HTML and how the DOM works
@@ -19,7 +35,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - Hello world a palooza. Set up a working deployed copy of each, review the code on GitHub. What are the similarities, what are the differences in repo structure? Look at the syntax of a js/template file from each. What is vanilla and what seems to be library specific?
 - Quiz at the end of this section to verify fundamental knowledge
 
-## Week 6-8: Web components
+## Week 6-8: Web components (project 1)
 - Why web components, understanding how Wcs interplay with other libraries, who’s using them and why
 - OpenWC specifically running through the cli and making a new project to collaborate on GitHub. Reading the lit docs
 - CSS in ShadowRoot, prop drilling, leveraging existing packages, publishing to NPM
@@ -29,7 +45,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 
 ## Week 9: Spring Break
 
-## Week 10-11: Micro frontends
+## Week 10-11: Micro frontends (project 2)
 - Creating an API endpoint to return data
 - Creating a basic web component to render data from an end point using fetch to obtain information
 
