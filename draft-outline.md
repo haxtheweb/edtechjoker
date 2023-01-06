@@ -22,7 +22,9 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - What are 5 syntaxes / pieces of code shown you DO recognize (could be of any scale or size), time stamp (link) or screenshot it and list what they are them. (screen shots can be drag and dropped into the comment area below your gist)
 - What are 5 syntaxes / pieces of code shown you DON'T recognize, time stamp (link) or screenshot it and list what they are them. (screen shots can be drag and dropped into the comment area below your gist)
 
---- EVERYTHING BELOW HERE IS SUBJECT TO CHANGE ---
+> EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
+# EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
+> EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
 
 ## Week 2: HTML / CSS fundamentals
 - Discussing base line topics around HTML and how the DOM works
