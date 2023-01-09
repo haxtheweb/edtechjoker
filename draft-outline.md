@@ -4,6 +4,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 
 ## Week 1: Welcome to class
 - Tues: Welcome and syllabus day
+- https://docs.google.com/presentation/d/1IQFHd8-tdwZWEvParOr5YBKNze_51aXjOKBeAkpUGbE/edit?usp=sharing
 - between class: https://oer.hax.psu.edu/bto108/sites/ist256/requirements - get accounts on these services
 - Thurs: Get basic structure around code, fundamentals and playing with stuff
 
