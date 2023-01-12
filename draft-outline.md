@@ -37,6 +37,8 @@ Submit the link to your GIST using the Canvas HW 1 Dropbox
 - A basic demonstration of Git / Github with an activity to collaboratively author content
 - Discussing base line topics around HTML and how the DOM works
 - Semantic, responsive design, accessibility, and design topics will be practiced
+- We'll glance at design libraries and other approaches to CSS management
+- There will be multiple options for how to complete the in class (thursday) activity which should lead out into homework + some individual work.
 - Homework watching:
   - https://www.youtube.com/watch?v=cM9KTKQ_4H0
   - https://www.youtube.com/watch?v=yORXfAb2Gvo
