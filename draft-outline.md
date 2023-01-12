@@ -25,6 +25,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
   - What tools and approaches used in the video do you think help in quality control / quality assurance?
   - What are 5 syntaxes / pieces of code shown you DO recognize (could be of any scale or size), time stamp (link) or screenshot it and list what they are them. (screen shots can be drag and dropped into the comment area below your gist)
   - What are 5 syntaxes / pieces of code shown you DON'T recognize, time stamp (link) or screenshot it and list what they are them. (screen shots can be drag and dropped into the comment area below your gist)
+  - You just wrote responses to these questions in Markdown. What even is that? (meme). What is Markdown and how is it similar, different, or related to HTML?
 
 Submit the link to your GIST using the Canvas HW 1 Dropbox
 
