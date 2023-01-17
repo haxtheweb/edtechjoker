@@ -83,7 +83,8 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## Apereo Foundation
-
+The Apereo Foundation is an organization that focuses on pushing open software to help those in higher education. Higher education is getting increasingly more expensive and society is getting more reliant on software. The increase of closed-source projects have made it increasingly more difficult to understand/learn code in an academic setting. The Apereo Foundation has given a framework/structure to how open-source software should work in the context of higher education.
+https://www.apereo.org/content/values 
 
 ## TravisCI
 
