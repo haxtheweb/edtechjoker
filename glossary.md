@@ -50,6 +50,7 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## VSCode
+Visual Studio Code, also commonly referred to as VS Code, is a source-code editor made by Microsoft with the Electron Framework, for Windows, Linux and macOS. Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git. 
 
 
 ## Syntactically Awesome Style Sheets (Sass)
