@@ -86,7 +86,11 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## TravisCI
-Service used to build and test software used on Git-hub. It can pin point and fix faled requests and when code is sucessful it lets the team know everyhting is running smoothly
+Service used to build and test software used on Git-hub. It can pin point and fix faled requests and when code is sucessful it lets the team know everyhting is running smoothly. This is available for Linux, macOS, and Windows systems.It is free there is no installation required.
+
+https://www.travis-ci.com/product/
+https://docs.travis-ci.com/user/tutorial/
+https://www.lambdatest.com/blog/travis-ci-vs-jenkins/
 
 ## Bash (sh)
 
