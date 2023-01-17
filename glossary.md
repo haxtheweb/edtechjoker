@@ -201,6 +201,8 @@ Saas stands for Software as a Service and is a way for applications to be access
 
 # Btopro
 
+Having a stark realization at the age of 26, Bryan realized he was destined for something greater than the dense walls of a public institution. However, the work was meant to be done from the inside out. Here he is now, in IST 256. Not only is he educating the youth, he's a:
+
 * Dad
 * Hockey Legend
 * Tetris Icon
