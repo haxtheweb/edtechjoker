@@ -2,7 +2,11 @@
 Write a paragraph explaining the term below, including 2-3 relevent links to more information about the topic.
 
 ## Front end Developer
+A front-end developer is someone who designs the front end (what is seen by the user) by using JavaScript, CSS and HTML. They tend to focus on aspects of website design such as basic website layouts, images, links, buttons among other content. These aspects are also known as GUI, and it is what the user interacts with. Front end developers also aim to optimize the application for speed, efficiency and scalability. 
 
+[https://www.techopedia.com/definition/29569/front-end-developer#:~:text=A%20front-end%20developer%20is%20a%20programmer%20that%20codes,design%2Flayout%2C%20images%2C%20content%2C%20buttons%2C%20navigation%20and%20internal%20links.]
+
+[https://www.upwork.com/hire/front-end-developers/job-description/]
 
 ## HTML
 
