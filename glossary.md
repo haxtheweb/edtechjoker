@@ -80,7 +80,8 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## Open Source Software
-
+A software that is distributed by its source code which makes it available for public use, modification and distribution
+https://www.synopsys.com/glossary/what-is-open-source-software.html
 
 ## Apereo Foundation
 
