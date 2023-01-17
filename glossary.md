@@ -121,6 +121,12 @@ More Reading:
 - [Vue.js - Wikipedia](https://en.wikipedia.org/wiki/Vue.js)
 
 ## Golang
+**Golang** is a high-level programming language designed by Google in 2009. It was created to act as memory-safe alternative to the C language, while retaining the usability of languages like Python. It is syntactically similar to C. Golang finds most of its uses in backend, cloud, and data projects (though it has also started gaining popularity in hacking circles.) The following is an example of how to say "Hello World" in Golang.
+```
+func main() {
+    fmt.Println("!... Hello World ...!")
+}
+```
 
 
 ## SQL
