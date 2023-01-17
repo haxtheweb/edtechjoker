@@ -14,7 +14,7 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## Yarn
-
+Yarn stands for Yet Another Resource Negotiator, this is a package manager that is manditory for JavaScript. Yarn is supposed to improve workflow and performance. To learn more visit https://classic.yarnpkg.com/lang/en/docs/getting-started/#:~:text=Yarn%20is%20a%20package%20manager,t%20ever%20have%20to%20worry. 
 
 ## NPM
 
