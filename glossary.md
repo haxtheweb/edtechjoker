@@ -107,9 +107,6 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## React
-React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies. Interfaces can be built efficiently with less code than traditional JS.
-
-https://blog.hubspot.com/website/react-js
 
 
 
