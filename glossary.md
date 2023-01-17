@@ -17,7 +17,7 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## NPM
-
+NPM stands for Node Package Manager. NPM is a library/registry that is used for JavaScript packages. NPM has many built in command line tools to install and manage different packages and dependencies.
 
 ## Package Manager
 
