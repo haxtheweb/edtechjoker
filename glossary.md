@@ -124,7 +124,10 @@ More Reading:
 
 
 ## SQL
+Structured Query Language is a computer language that is used to interact with a relational database. SQL is a tool for organizing, managing, and retrieving archived data from a computer database. SQL also differs from other computer languages because it describes what the user wants the computer to do rather than how to do it.
 
+More Reading:
+https://www.geeksforgeeks.org/what-is-sql/
 
 ## MySQL
 
