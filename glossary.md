@@ -23,7 +23,9 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## Markdown
-
+Markdown is a software tool used to describe how text should look on a page. Similarly to what we used for our first assignment submission, the primary use of Markdown is to make documents easy to define and visually understand especially for new users. It uses sources like headers, text styles, font, bolding statements, and more editing tools for specific files. Markdown is also used for editing webpages and ends with a ".md" which indicates that the markdown software is being used.
+Sources Used- https://www.knowledgehut.com/blog/web-development/what-is-markdown
+Sources Used- https://www.computerhope.com/jargon/m/markdown.htm 
 
 ## Git
 
