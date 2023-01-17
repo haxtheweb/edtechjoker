@@ -10,6 +10,8 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 ## CSS
 CSS stands for (Cascading Style Sheets) which is used to essentially make your web pages pretty. HTML on its own is very basic and the web would be a very boring place if everything was just the genretic default style so with CSS, you can precisely manage how HTML elements appear in the browser and show your markup in any way you desire. You can control how the webpage is laid out, design, font type, color, etc. 
 
+Source: https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS#css_syntax
+
 ## JavaScript
 
 
