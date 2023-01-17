@@ -53,6 +53,7 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 Visual Studio Code, also commonly referred to as VS Code,[10] is a source-code editor made by Microsoft with the Electron Framework, for Windows, Linux and macOS. Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git. Users can change the theme, keyboard shortcuts, preferences, and install extensions that add additional functionality.
 
 In the Stack Overflow 2021 Developer Survey, Visual Studio Code was ranked the most popular developer environment tool among 82,000 respondents, with 70% reporting that they use it.
+
 Excerpt from this site: https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 ## Syntactically Awesome Style Sheets (Sass)
