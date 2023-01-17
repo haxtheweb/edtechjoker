@@ -47,7 +47,8 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## IDE
-
+An IDE, or Integrated Development Environment, is an application used to write, run, and test code. IDEs are used by programmers to develop software in an easy manner without having to risk ruining live versions of the code. Basic functions of an IDE usually include a source code editor, a build automation tool, and a debugger. 
+https://umbraco.com/knowledge-base/development-environment/#:~:text=The%20purpose%20of%20a%20development,working%20on%20a%20live%20website.
 
 ## VSCode
 
