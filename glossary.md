@@ -43,7 +43,9 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 ## GravCMS
 
 
-## Gulp.js
+## Gulp.js: 
+Glub.js is a tool to automate repetitive tasks. It is run on the command line interface. When plugins are added they do not effect the original file until committed.
+
 
 
 ## IDE
