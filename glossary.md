@@ -50,7 +50,9 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## VSCode
-
+Visual Studio Code is a software where you can edit source code.  You can pull code directly from Github into the editor and push it to your repo.  It was announced in 2015 by Microsoft.  You can use a variety of languages in VSCode, such as C#, Java, JS, HTML, CSS, Python and more.  It can also point out errors in code such as syntax errors.  More information can be found at the following links.
+[https://en.wikipedia.org/wiki/Visual_Studio_Code](url)
+[https://code.visualstudio.com/](url)
 
 ## Syntactically Awesome Style Sheets (Sass)
 
