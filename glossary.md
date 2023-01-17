@@ -89,7 +89,11 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## Bash (sh)
-
+https://www.gnu.org/software/bash/
+Bash, or the Bourne Again Shell, is an improved version of the original Bourne shell (sh). This shell is utilized by many UNIX-based operating systems including most Linux distros. Hackers oftentimes attempt to establish a Bash shell in order to execute commands on servers that support sh. Bash is...
+* what the terminal on your Linux VM uses
+* is great for scripting and automation
+* was not developed by Jason Bourne
 
 ## SEO
 
