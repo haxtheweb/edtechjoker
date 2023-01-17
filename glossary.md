@@ -141,7 +141,9 @@ Read more about the history of Python here: https://www.geeksforgeeks.org/histor
 
 
 ## Docker
-
+Docker is an open platform that uses OS virtualization to develop, ship, and run apps. It enables you to seperate applications from infrastructure so that software may be delivered quickly
+* Has free and premium license options
+* Started in 2013, developed by Docker INC
 
 ## Vagrant
 
