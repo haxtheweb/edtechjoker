@@ -5,7 +5,8 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## HTML
-
+HTML, also known as a markup language that defines the structure of your content, is the code that is used to structure a web page and its content. For example, content could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables. HTML is a markup language that defines the structure of your content
+ https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics
 
 ## CSS
 
