@@ -32,7 +32,7 @@ Two-part homework this week; we will have time in class Thurs to start and then 
 - model things after the screenshot / pen and paper copy you came up with
 
 Create a new codepen from scratch and try to create a "card" using a mix of semantic, div and other tags to lay the card out:
-- Create a simple “card” using a few SECTION or DIV tags, a H2 for the title, a P for description of the image an IMG for an image, and a button on the card that says Details which links to hax.psu.edu
+- Create a simple “card” using a few SECTION or DIV tags, a Heading for the title, a Paragraph for description of the image an IMG for an image, and a button on the card that says "Details" which links to hax.psu.edu
 - Make the image a fixed size via height / width and ensure the card is no bigger than 400px wide (height is weird in CSS, ignore height)
 - Use the Border, Margin, and padding attributes in order to space the card to visually be appealing (the internet can help influence something to model, try making things 8px and then 12, then 16 to find what you like, ratios are key)
 - Add a media query that only shows the details button when the screen is smaller than 800px (generally a small tablet) but larger than 500px (phone)
