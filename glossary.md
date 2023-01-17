@@ -179,8 +179,8 @@ Read more about the history of Python here: https://www.geeksforgeeks.org/histor
 ## Traefik (Golang)
 Traefik is a reverse proxy that is used for microservices. It makes clients' request easier to handle as well as increase protection from attacks. Simply put, it aids with the management of client side microservice interactions to prevent overloading a server. 
 
-https://hub.docker.com/_/traefik/
-https://www.cloudflare.com/learning/cdn/glossary/reverse-proxy/#:~:text=A%20reverse%20proxy%20is%20a%20server%20that%20sits,implemented%20to%20help%20increase%20security%2C%20performance%2C%20and%20reliability.
+* https://hub.docker.com/_/traefik/
+* https://www.cloudflare.com/learning/cdn/glossary/reverse-proxy/#:~:text=A%20reverse%20proxy%20is%20a%20server%20that%20sits,implemented%20to%20help%20increase%20security%2C%20performance%2C%20and%20reliability.
 
 ## HTMLElement
 
