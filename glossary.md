@@ -23,7 +23,7 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## Markdown
-
+Markdown is a basic text language created for the purpose of proposing and discussing topics of open source code with the internet. The primary idea of this simplicity is there is no tags but still text modifiers.
 
 ## Git
 
