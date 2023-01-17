@@ -183,7 +183,7 @@ Read more about the history of Python here: https://www.geeksforgeeks.org/histor
 
 
 ## Webpack
-
+Webpack is a module bundler that JavaScript uses. Webpack bundles JS applications and can be used with fonts, images, and stylesheets
 
 ## OpenFaaS
 
