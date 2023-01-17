@@ -126,8 +126,7 @@ More Reading:
 ## SQL
 
 
-## MySQL
-
+## MySQL - My SQL is a relational database management system. It is open-source, which means anybody can use and modify it. Also, as the name implies, it implements the SQL standard. It is the most widely-used and popular database management system and is made by Oracle. The data stored could be anything as simple as a grocery list or more complex like the vast amounts of information in a corporate network.
 
 ## WebAssembly
 
@@ -189,6 +188,7 @@ Read more about the history of Python here: https://www.geeksforgeeks.org/histor
 
 
 ## PaaS
+
 (Platform as a Service) 
 PaaS (Platform as a Service), as the name suggests, provides you computing platforms which typically includes operating system, programming language execution environment, database, web server etc. Examples: AWS Elastic Beanstalk, Windows Azure, Heroku, Force.com, Google App Engine, Apache Stratos.
 
