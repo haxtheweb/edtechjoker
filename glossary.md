@@ -8,8 +8,9 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## CSS
-
-
+Cascading Style Sheets (CSS) is a ruled-based language that allows users to specify groups of styles to apply to particular elements/groups on a web page. CSS is used for describing the presentation of a document written in a markup language like HTML.
+https://www.w3schools.com/Css/css_intro.asp
+https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS
 ## JavaScript
 
 
