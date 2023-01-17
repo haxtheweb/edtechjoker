@@ -109,7 +109,7 @@ SEO stands for Search Engine Optimization, this is the process of improving the 
 
 
 ## React
-
+React is used to build interactive user interfaces and web applications using smaller amounts of code than one would need when using vanilla JS. By creating reusable components that can be thought of as building blocks, you can more easily develop applications. https://blog.hubspot.com/website/react-js#:~:text=It's%20used%20for%20building%20interactive,of%20as%20independent%20Lego%20blocks. 
 
 ## Vue.js
 
