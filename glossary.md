@@ -168,7 +168,9 @@ Read more about the history of Python here: https://www.geeksforgeeks.org/histor
 
 
 ## Nginx
-
+Nginx is an open source software that allows users access to web serving, caching, load balancing and reveres proxying. They also offer some security and application delivery.
+- It started off as a web server that heavily focused on maximizing performance and stability.
+- Read more here: https://www.nginx.com/resources/glossary/nginx/
 
 ## Apache Web server
 
