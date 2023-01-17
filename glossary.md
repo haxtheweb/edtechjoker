@@ -50,8 +50,11 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## VSCode
+Visual Studio Code (VSCode), is a source code editior. Owned by Microsoft, this application can be installed on Windows, Linux, or macOS.
+Some features in VSCode is debuggung, code refactoring, snippets, and git embed.
+VSCode adds some customizability with themes, shortcuts and a wide library of extensions available for each user.
 
-
+Source: https://en.wikipedia.org/wiki/Visual_Studio_Code
 ## Syntactically Awesome Style Sheets (Sass)
 
 
