@@ -124,7 +124,11 @@ More Reading:
 
 
 ## SQL
+Structured Query Language, commonly abbreviated as SQL, is a language designed and used for managing data held in a relational DBMS, or database management system. Information appears in a tabular form with each row representing a data entry and each column representing an attribute of that data. SQL is used to modify, retrieve, add, and remove data from databases amongst other things. As stated in the name, SQL operates off of queries which you can think of as commands; these queries can be integrated with other programming languages to allow them to effeciently interact with a relational database. One of the key distinctions of SQL is that it was created for dealing specifically with relational databases, which as the name suggests, hold data that is related to one another; read more about them [here](https://www.oracle.com/database/what-is-a-relational-database/).
 
+Here are some good resources to learn more about SQL:
+- [What is SQL?](https://aws.amazon.com/what-is/sql/)
+- [Introduction to SQL](https://www.w3schools.com/sql/sql_intro.asp)
 
 ## MySQL
 
