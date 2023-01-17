@@ -22,7 +22,7 @@ More to read: https://www.coursera.org/articles/front-end-developer, https://boo
 
 
 ## Package Manager
-
+Package manager is software that downloads necessary management tasks and data like the App Store on an iPhone. The Package manager controls the computer through instructions in the command line, and is responsible for data organization and software optimization. Typical package managers include atp and yum.
 
 ## Markdown
 
