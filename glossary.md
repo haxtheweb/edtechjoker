@@ -25,7 +25,7 @@ More to read: https://www.coursera.org/articles/front-end-developer, https://boo
 Package manager is software that downloads necessary management tasks and data like the App Store on an iPhone. The Package manager controls the computer through instructions in the command line, and is responsible for data organization and software optimization. Typical package managers include atp and yum.
 
 ## Markdown
-
+Markdown is a markup language for creating formatted text using a plain-text editor. It was designed to make it easier for people to work with articles in a period of time where publishing webpages required HTML. The intent was to make the interface similar, but more so simpler than text formatting in HTML.
 
 ## Git
 
