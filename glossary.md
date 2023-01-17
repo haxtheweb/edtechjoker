@@ -104,7 +104,13 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## Angular
+Angular is a development platform built on TypeScript
 
+Helps build web app
+
+library of different code that covers different features
+
+Helps developers make projects with different tools integrated in it
 
 ## React
 
