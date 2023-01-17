@@ -80,7 +80,9 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## Open Source Software
-A software that is distributed by its source code which makes it available for public use, modification and distribution
+A software that is distributed by its source code which makes it available for public use, modification and distribution. The idea of Open Source Software (OSS) starteed with Richard Stallman, a programmer at MIT back in 1983. He believed that code should be accessible to programmers so they could modify as they wish. Today, many of the software we enjoy are open sourced.
+
+Resource:
 https://www.synopsys.com/glossary/what-is-open-source-software.html
 
 ## Apereo Foundation
