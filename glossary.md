@@ -94,7 +94,9 @@ More to read: https://www.coursera.org/articles/front-end-developer, https://boo
 
 
 ## SEO
-
+SEO stands for Search Engine Optimization, this is the process of improving the websites overall visibility when people search for things related to your website. SEO works through search engines using bots to crawl webpages and put them into an index, the indexes are the analyzed by algorithms which then allow the SEO process to take place. This helps increase the ranking of webpages and overall helps with making them more findable and visible to users who are making related searches. An Example of a search engine using SEO is Google. 
+- https://searchengineland.com/guide/what-is-seo 
+- https://mailchimp.com/marketing-glossary/seo/
 
 ## PHP
 
@@ -106,10 +108,10 @@ More to read: https://www.coursera.org/articles/front-end-developer, https://boo
 
 
 ## Angular
-
+Angular is a TypeScript-based, free and open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations
 
 ## React
-
+React is used to build interactive user interfaces and web applications using smaller amounts of code than one would need when using vanilla JS. By creating reusable components that can be thought of as building blocks, you can more easily develop applications. https://blog.hubspot.com/website/react-js#:~:text=It's%20used%20for%20building%20interactive,of%20as%20independent%20Lego%20blocks. 
 
 ## Vue.js
 
