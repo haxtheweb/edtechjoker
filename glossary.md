@@ -80,6 +80,9 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## Open Source Software
+https://opensource.com/resources/what-open-source
+here is a link to explore more about open source software.
+Open source refers to a type of software whose source code is available to the public, meaning anyone can view, modify, and distribute the code. This allows for collaboration and customization of the software, and encourages a community-driven development process.
 
 
 ## Apereo Foundation
