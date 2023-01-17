@@ -8,6 +8,7 @@ A front-end developer is someone who designs the front end (what is seen by the 
 
 [https://www.upwork.com/hire/front-end-developers/job-description/]
 
+
 ## HTML
 
 
@@ -54,6 +55,9 @@ A front-end developer is someone who designs the front end (what is seen by the 
 
 
 ## VSCode
+Visual Studio Code, commonly known as VScode, is a source code editor created by everyone's favorite company Microsoft. Features include debugging, syntax highlighting, code completion, snippets, code refactoring and Git. VScode is a useful tool to wrtie a multitude of coding languages in a singular loaction/application.
+https://code.visualstudio.com/
+https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## Syntactically Awesome Style Sheets (Sass)
@@ -96,7 +100,9 @@ A front-end developer is someone who designs the front end (what is seen by the 
 
 
 ## SEO
-
+SEO stands for Search Engine Optimization, this is the process of improving the websites overall visibility when people search for things related to your website. SEO works through search engines using bots to crawl webpages and put them into an index, the indexes are the analyzed by algorithms which then allow the SEO process to take place. This helps increase the ranking of webpages and overall helps with making them more findable and visible to users who are making related searches. An Example of a search engine using SEO is Google. 
+- https://searchengineland.com/guide/what-is-seo 
+- https://mailchimp.com/marketing-glossary/seo/
 
 ## PHP
 
@@ -108,10 +114,10 @@ A front-end developer is someone who designs the front end (what is seen by the 
 
 
 ## Angular
-
+Angular is a TypeScript-based, free and open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations
 
 ## React
-
+React is used to build interactive user interfaces and web applications using smaller amounts of code than one would need when using vanilla JS. By creating reusable components that can be thought of as building blocks, you can more easily develop applications. https://blog.hubspot.com/website/react-js#:~:text=It's%20used%20for%20building%20interactive,of%20as%20independent%20Lego%20blocks. 
 
 ## Vue.js
 
