@@ -105,6 +105,16 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 ## Angular
 
+Angular is a TypeScript-based open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. It is used to build single-page applications and progressive web applications.
+
+https://angular.io/guide/what-is-angular
+
+Code Sample:
+
+Name:
+
+You wrote: {{ name }}
+
 
 ## React
 
