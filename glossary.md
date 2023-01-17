@@ -80,7 +80,12 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## Open Source Software
+https://www.redhat.com/en/topics/open-source/what-is-open-source
 
+Open source software is a type of software that is publicly accessible and anyone has the right to inspect, edit, and run in their own environment. This is an important aspect for projects that require a number of moving parts, and a lot of time to work on.
+
+Publicly Accessible
+Anyone can make changes
 
 ## Apereo Foundation
 
