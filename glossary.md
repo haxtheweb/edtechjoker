@@ -35,7 +35,7 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## WordPress CMS
-
+* WordPress CMS is a content management system that is used to build, modtify, and maintain websites. It runs on PHP and mySQL. https://www.hostinger.com/tutorials/what-is-wordpress
 
 ## Backdrop CMS
 
