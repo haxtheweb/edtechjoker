@@ -20,7 +20,7 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## Package Manager
-
+A packet manager is a program that map relations between different files, packages and applications, allowing users to perform maintenance and tests of their systems. Packet managers will help developers install and track dependencies, which also helps organize the dependencies if the project is being worked in a group. Packet managers can also install new dependencies based off of the developers needs.
 
 ## Markdown
 
