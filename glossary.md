@@ -104,7 +104,7 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## Angular
-
+Angular is a TypeScript-based, free and open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations
 
 ## React
 
