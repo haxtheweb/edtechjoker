@@ -147,6 +147,9 @@ Read more about the history of Python here: https://www.geeksforgeeks.org/histor
 
 
 ## VirtualBox
+Virtual Box is a type-2 Hypervisor meaning it allows user to emulate differnet operating systems on their machines. It was delevoped by Oracle and is a free open source software. It is works with Mac, Linux and Windows and can eumlate most verisons of all three as well.
+-[Virutal Box Website](https://www.virtualbox.org/)
+-[Wikipedia](https://en.wikipedia.org/wiki/VirtualBox)
 
 
 ## Composer
