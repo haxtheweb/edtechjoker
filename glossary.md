@@ -174,7 +174,9 @@ Read more about the history of Python here: https://www.geeksforgeeks.org/histor
 
 
 ## Varnish
-
+Varnish Cache is a web application accelerator also known as a caching HTTP reverse proxy.
+You install it in front of any server that speaks HTTP and configure it to cache the contents.
+https://varnish-cache.org/intro/
 
 ## Traefik (Golang)
 
