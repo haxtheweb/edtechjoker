@@ -84,6 +84,12 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 ## Apereo Foundation
 
+The Apereo Foundation is a network of institutions that helps support software used in educational communities worldwide. Their software communities develop and maintain software. They also provide an incubation process which provides schafolding of new websites at their intitial stage of devolpment. This incubation process is key reason why the Apereo Foundation was founded and is still on their most important services to web developers. 
+
+You can find out more here...
+
+* https://www.apereo.org/content/about
+* https://www.apereo.org/incubation
 
 ## TravisCI
 
