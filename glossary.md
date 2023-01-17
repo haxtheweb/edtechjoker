@@ -127,7 +127,7 @@ More Reading:
 
 
 ## MySQL
-
+MySQL is an open source database management software using SQL or structured query language. MySQL was created by Oracle and can use many different commands to create databases, diagrams and be able to pull and show data across many different databases.
 
 ## WebAssembly
 
