@@ -3,6 +3,11 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 ## Front end Developer
 
+A front end developer is someone who works on designing and programming websites and applications using web languages like JavaScript and HTML. These programs are typically created for the internet, and for different browsers such as Google Chrome, Firefox, Safari, etc. A front end developer directly works with user experience, and user inferfaces, but will usually not work on what is happening behind the scenes of the website. 
+
+[Source 1](https://www.coursera.org/articles/front-end-developer)
+
+[Source 2](https://frontendmasters.com/guides/front-end-handbook/2018/what-is-a-FD.html)
 
 ## HTML
 
