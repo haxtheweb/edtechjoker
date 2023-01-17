@@ -95,7 +95,11 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## PHP
+PHP is a general scripting language. It is centered around web development. The language is open source.
 
+<?php
+  echo "Hi, I'm a PHP script!";
+?>
 
 ## Express.js
 
