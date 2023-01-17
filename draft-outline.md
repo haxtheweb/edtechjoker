@@ -11,6 +11,9 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 ## HTML / CSS fundamentals
 ### Do for Thurs to get ahead on HW
 - Part 1 listed below
+
+## Thursday
+- https://github.com/elmsln/edtechjoker/pull/73 -- note that PR's keep piling up commits until they are merged
 - Slide deck for Thurs which I will run through quickly https://docs.google.com/presentation/d/1xjySD9ZTVXYW_o9YPrt-wgBHDBM4acaYswaxJ1t83oU/edit?usp=sharing
 
 ## Homework
@@ -53,6 +56,7 @@ Submit the link to your gist in Canvas which includes the Part 1 and Part 2 code
 - I'll do that mean thing where I call out group numbers and ask for answers to things
 - You'll work with your partner to implement specific changes brought up in class
 
+- Amazing CSS minion - https://codepen.io/AsyrafHussin/pen/wXjpyB
 
 ### JS Fundamentals
 - How JS can access and modify HTML and CSS
