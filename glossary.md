@@ -2,7 +2,7 @@
 Write a paragraph explaining the term below, including 2-3 relevent links to more information about the topic.
 
 ## Front end Developer
-
+Someone super cool..... like you know
 
 ## HTML
 
