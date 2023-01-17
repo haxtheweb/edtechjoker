@@ -142,6 +142,11 @@ Read more about the history of Python here: https://www.geeksforgeeks.org/histor
 
 ## Docker
 
+Docker is a containerization program that allows the deployment of applications to be easy, seamless and scalable. It allows you to separate deployments of applications into a box that allows the necessary dependencies to be fufilled by virtualizing the operating system it runs on. 
+
+Docker as explained by freeCodeCamp: In simple terms, Docker is a software platform that simplifies the process of building, running, managing and distributing applications. It does this by virtualizing the operating system of the computer on which it is installed and running.
+
+https://www.freecodecamp.org/news/docker-simplified-96639a35ff36/
 
 ## Vagrant
 
