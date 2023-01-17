@@ -86,7 +86,7 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## TravisCI
-
+Service used to build and test software used on Git-hub. It can pin point and fix faled requests and when code is sucessful it lets the team know everyhting is running smoothly
 
 ## Bash (sh)
 
