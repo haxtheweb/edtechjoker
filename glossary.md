@@ -96,7 +96,9 @@ Bash, or the Bourne Again Shell, is an improved version of the original Bourne s
 * was not developed by Jason Bourne
 
 ## SEO
-
+SEO stands for Search Engine Optimization, this is the process of improving the websites overall visibility when people search for things related to your website. SEO works through search engines using bots to crawl webpages and put them into an index, the indexes are the analyzed by algorithms which then allow the SEO process to take place. This helps increase the ranking of webpages and overall helps with making them more findable and visible to users who are making related searches. An Example of a search engine using SEO is Google. 
+- https://searchengineland.com/guide/what-is-seo 
+- https://mailchimp.com/marketing-glossary/seo/
 
 ## PHP
 
