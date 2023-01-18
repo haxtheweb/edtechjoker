@@ -2,7 +2,7 @@
 This is a draft of the course. The topics we'll cover and the order. It will be established and modified based on student needs and how things are going / what people ask for as far as needing things that match the trajectory we're on.
 - [Resource for reviewing concepts](https://youtube.com/playlist?list=PLJQupiji7J5efO_Q5VGZcPE4O_TM_HGP4)
 
-## Week 2: Git / Github
+## Week 2: Git / Github 
 - Git lecture + feedback from last assignment
 - Slides: https://docs.google.com/presentation/d/1zDuXtOf2EwwG3RzczyohsgU_GC0tfXvGitI9decDr6I/edit?usp=sharing
 - Git activity in class
