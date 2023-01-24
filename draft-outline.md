@@ -42,12 +42,48 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - You can apply and modify CSS / classes / ANYTHING via JS
 - Using these two abilities you can modify what is known as “states” in the industry
 
+## live demo + questions
+Issue: I have to put an image on the page
+- I need to add a button that adds a new image from a random generation service, next to it when I hit the button
+- Take 2 minutes and type up the following answers into Discord as to your guess:
+- What’s the first step?
+- Where do I get an image from (at random)?
+- How do I make the button?
+- We only have 1 image, how do we get another there?
+
 ## Homework
-Start of the Homework in class with additional requirements spelled out Thursday after some more demos
+- Create a button outside of your design in your codepen which when clicked makes a duplicate of your card
+- Write a JS selector to target the button (JUST that button)
+- `addEventListener(“click”, (e) => { // do something });`
+- Target your card. Create a clone of the node
+- Insert the new card just after your current card
+- Make a CSS selector for `:hover` that makes the button change on hover. Normalize this with `:focus` so that tabbing to the item is the same visual outcome
+- Using JavaScript Events, do the same thing to the card for “hover”
+
+Create buttons where…
+- On click, toggles the background color of the card
+- On click, change the text of the heading / title you used to “something else”
+- On click of a button, delete the last instance of the card
+With your partner..
+- Partner 1: On click of “Details”, don’t link to hax.psu.edu, instead show (or hide) your paragraph description. Do this via JavaScript.
+- Partner 2: Do the above but without JavaScript, only using HTML
+- In each, hide it by default.
+
 ## Watch the following
 - https://www.youtube.com/watch?v=cM9KTKQ_4H0 -- see where new ideas come from, but also lots of stepping through logic between HTML and JS accessing / state modification
 - https://www.youtube.com/watch?v=yORXfAb2Gvo -- a short primer on the general feedback loop of searching for a type of event on MDN and then testing it
+## Answer these questions
+### Video 1:
+- What made the idea viable?
+- What is the original issue with the Lit code highlighter?
+- What’s a strategy you can engage in in order to refactor toward better code? What strategy / how many iterations did I go through to get “better code”? - What makes this code better?
+### Video 2:
+- What weird event did I implement to solve a UX problem?
+- Find 8 events that user input can generate via the MDN Web Docs. Link to examples
 
+## Homework Submission
+- Gist that has answers to the above
+- Link to your codepen (or relink to updated codepen)
 
 > EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
 # EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
