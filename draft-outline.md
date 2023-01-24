@@ -21,6 +21,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - I'll do that mean thing where I call out group numbers and ask for answers to things
 - You'll work with your partner to implement specific changes brought up in class
 - Unrelated; Amazing CSS minion - https://codepen.io/AsyrafHussin/pen/wXjpyB
+- FlexBox really easy to understand - https://twitter.com/snowinglater/status/1615787738468610050
 
 ## Remediation
 - Swap codepens / audit the codepen of your partner. Look for the following and anything else you don’t understand
