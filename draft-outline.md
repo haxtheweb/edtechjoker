@@ -12,6 +12,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - VanillaJS vs jQuery, Event Loop and how JS works
 
 ## HW2 P1 follow up
+- Slides: https://docs.google.com/presentation/d/1qY09_UQVyIBapqIZjVefE3r4jFbOxbdIRRDq3DfohSc/edit?usp=sharing
 - Let's look at template literals (we'll use them later on)
  - I need to learn about them, so Mozilla docs - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#tagged_templates
    - https://codepen.io/btopro/pen/ExpNyQx?editors=1111 - let's see how this can be used
