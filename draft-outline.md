@@ -24,18 +24,6 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - Unrelated; Amazing CSS minion - https://codepen.io/AsyrafHussin/pen/wXjpyB
 - FlexBox really easy to understand - https://twitter.com/snowinglater/status/1615787738468610050
 
-## Remediation
-- Swap codepens / audit the codepen of your partner. Look for the following and anything else you don’t understand
-- Clean up your current card CSS so that media queries work
-- Use border and background-color to visually make your card look like a card
-- class="tihng" NOT class   =   "thing"
-- Drop usage of id=”whatever” unless for card or button
-- Usage of padding and margin that’s either base 8 or base 16
-- Remove `<br> <center> <b> <body> <head>` and any other tags discussed that have no purpose of other parallels
-- Replace all inline styles with CSS class / selector
-- Replace all tag specific CSS selectors with classes
-- Make another “card” so that 2 live on the screen side by side
-
 ## Thursday (or Tues depending on how quickly we get there)
   
 ## In class live demo
@@ -52,6 +40,18 @@ Issue: I have to put an image on the page
 - Where do I get an image from (at random)?
 - How do I make the button?
 - We only have 1 image, how do we get another there?
+
+## Remediation
+- Swap codepens / audit the codepen of your partner. Look for the following and anything else you don’t understand
+- Clean up your current card CSS so that media queries work
+- Use border and background-color to visually make your card look like a card
+- class="tihng" NOT class   =   "thing"
+- Drop usage of id=”whatever” unless for card or button
+- Usage of padding and margin that’s either base 8 or base 16
+- Remove `<br> <center> <b> <body> <head>` and any other tags discussed that have no purpose of other parallels
+- Replace all inline styles with CSS class / selector
+- Replace all tag specific CSS selectors with classes
+- Make another “card” so that 2 live on the screen side by side
 
 ## Homework
 - Create a button outside of your design in your codepen which when clicked makes a duplicate of your card
