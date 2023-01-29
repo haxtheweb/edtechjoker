@@ -70,6 +70,12 @@ Next week, we'll review these and look for similarities and differences in imple
 - Review package.json - What is common amongst them, what's different? What commands can we run? Try to run all the different commands in the repo for each project.
 - Rank order these for readability / ease of your understanding and give justification as to why one is easier than the other
 
+
+> EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
+# EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
+> EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
+
+
 ## Week 5: More JS Ecosystem shhhhhtuff
 - Tooling, how people work in industry, different projects (high level)
 - state of the industry, the node_modules folder is a blackhole
