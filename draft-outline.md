@@ -139,22 +139,22 @@ Assignment for the week will be to get hello world deployed for 4 different fram
 Next week, we'll review these and look for similarities and differences in implementation between them. To clarify my expectations:
 - you DEPLOY hello world boilerplate for all 4
 - You answer the questions below relative to that
-- You select 1 framework and try to port your card to it
+- You select 1 framework and try to port your card to it. Focus on porting the HTML and CSS at this time
+  - bonus: .5 port the JS so that it still works in your framework using the framework ways of getting this code to register using its component architecture
 - You push this code up and hopefully vercel builds your demo with your card out on the web
 
-## Submission
-- gist that has links to your git repos for each hello world as deployed on vercel
-- gist as link to your repo that has the framework + deploymen
-- gist that has answers to these questions:
+## Submission via GIST then turned into Canvas
+- links to your git repos for each hello world as deployed on vercel
+- link to your repo that has your attempt to port your card to the framework you had assigned
+- Answers to these questions:
 - What are the similarities and what are the differences in repo structure? name 5 of each.
 - Look at the syntax of a js/template file from each. What is vanilla and what seems to be library specific?
 - Review package.json - What is common amongst them, what's different? What commands can we run? Try to run all the different commands in the repo for each project.
 - Rank order these for readability / ease of your understanding and give justification as to why one is easier than the other
 
-## Week 4-5: JS Ecosystem
+## Week 5: More JS Ecosystem shhhhhtuff
 - Tooling, how people work in industry, different projects (high level)
 - state of the industry, the node_modules folder is a blackhole
-- Hello world a palooza. Set up a working deployed copy of each, review the code on GitHub. What are the similarities, what are the differences in repo structure? Look at the syntax of a js/template file from each. What is vanilla and what seems to be library specific?
 
 ## Week 6-8: Web components (project 1)
 - Why web components, understanding how Wcs interplay with other libraries, who’s using them and why
