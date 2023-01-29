@@ -92,6 +92,65 @@ With your partner..
 # EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
 > EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
 
+# Week 4:  Review and intro to JS ecosystems
+
+This week we'll start looking at how our code fits (or doesn't) into the modern JS ecosystem. What we've made so far is old school, vanilla, simple. Now we'll look at getting it into how modern JS is shipped.
+
+## Code crit from HW3
+- looking quickly through some prime examples that were submitted
+
+## Activity 1 ~10 min
+- pair up wth the pair next to you (group 1 and 2, group 3 and 4, etc; end of table closest to room group up together)
+- share a link to the repo you worked on with the opposite pair, they look at yours.
+- Fork their repo and provide `//` comments for each block of JS explaining what it does
+- If there's anything you don't understand as to how they did it, ask them to explain it
+
+## Activity 2 ~15 min
+- working together (someone "drives" and someone is co-pilot) combine your code into 1 pen so that both work
+- all your JS functions that add and remove cards should work for their respective items
+- If this was easy, why was it easy?
+- If it was hard, why was it hard?
+
+## Task
+- Make sure you have a Github and Vercel.com account
+- Link these together
+- Install vercel on your machine https://vercel.com/docs/cli using yarn or npm
+
+## Lecture (time permitting)
+- Modern JS Landscape
+
+## Activity 3 / home work
+- Hello world a palooza. Using vercel, create boilerplates for
+  - React
+  - Angular
+  - VueJS
+  - Svelte
+- Pull these down to your local machine, install them (npm install or yarn install)
+- "run" them. usuall with `yarn start` or `npm run start`
+- "build" them. usually with `yarn run build` or `npm run build`
+- Open in VSCode to review / modify the code
+
+Assignment for the week will be to get hello world deployed for 4 different frameworks / libraries. Then you and a partner pick a framework and try to port your card to that framework. Group 1 does 1&2, group 2 does 3&4 and so on. So hash out with your pair of pairs who's doing which but among the 4 of you there should end up being 1 person doing each of these:
+- angular
+- vueJs
+- react
+- svelte
+
+Next week, we'll review these and look for similarities and differences in implementation between them. To clarify my expectations:
+- you DEPLOY hello world boilerplate for all 4
+- You answer the questions below relative to that
+- You select 1 framework and try to port your card to it
+- You push this code up and hopefully vercel builds your demo with your card out on the web
+
+## Submission
+- gist that has links to your git repos for each hello world as deployed on vercel
+- gist as link to your repo that has the framework + deploymen
+- gist that has answers to these questions:
+- What are the similarities and what are the differences in repo structure? name 5 of each.
+- Look at the syntax of a js/template file from each. What is vanilla and what seems to be library specific?
+- Review package.json - What is common amongst them, what's different? What commands can we run? Try to run all the different commands in the repo for each project.
+- Rank order these for readability / ease of your understanding and give justification as to why one is easier than the other
+
 ## Week 4-5: JS Ecosystem
 - Tooling, how people work in industry, different projects (high level)
 - state of the industry, the node_modules folder is a blackhole
