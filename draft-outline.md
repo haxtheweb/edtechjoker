@@ -12,6 +12,7 @@ This week we'll start looking at how our code fits (or doesn't) into the modern 
 
 ## Code crit from HW3 20 min
 - looking quickly through some prime examples that were submitted
+- Follow along as I go through them / mess with these as we go: https://gist.github.com/btopro/0909943ff7ca3c0f256adc66e51c69ca
 
 ## Remediations and enhancements to look for
 - Here's some general things to apply during activity one
@@ -23,6 +24,8 @@ This week we'll start looking at how our code fits (or doesn't) into the modern 
 6. make sure when you delete your last card it doesn't just hide it `yourCardTarget.remove()` will delete the node so delete it
 7. make sure that if there's only 1 card left, that you DON'T DELETE IT OR IT BREAKS YOUR APPLICATION
 8. The "HTML only" way of doing details display (which is highly accessible) -- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details - apply this for your details toggling
+9. ENSURE ALL TAGS THAT OPEN, CLOSE WHERE YOU EXPECT THEM TO
+10. remove reliance on `id="whatever"` and then `querySelector("#whatever")` but ESPECIALLY `document.getElementById('whatever')` . Refactor these to be `.whatever` and `class="whatever"` and `querySelector('.whatever')` or suffer the wrath of component architecture (and a11y, and ridicule) moving forward!
 
 ## Activity 1 ~20 min
 - pair up wth the pair next to you (group 1 and 2, group 3 and 4, etc; end of table closest to room group up together)
