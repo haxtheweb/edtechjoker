@@ -6,24 +6,35 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - [Week 2](https://github.com/elmsln/edtechjoker/tree/master/sp-23/week-2)
 - [Week 3](https://github.com/elmsln/edtechjoker/tree/master/sp-23/week-3)
 
-> EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
-# EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
-> EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
-
-# Week 4:  Review and intro to JS ecosystems
+# Week 4:  Review, revision and intro to JS ecosystems
 
 This week we'll start looking at how our code fits (or doesn't) into the modern JS ecosystem. What we've made so far is old school, vanilla, simple. Now we'll look at getting it into how modern JS is shipped.
 
-## Code crit from HW3
+## Code crit from HW3 20 min
 - looking quickly through some prime examples that were submitted
 
-## Activity 1 ~10 min
-- pair up wth the pair next to you (group 1 and 2, group 3 and 4, etc; end of table closest to room group up together)
-- share a link to the repo you worked on with the opposite pair, they look at yours.
-- Fork their repo and provide `//` comments for each block of JS explaining what it does
-- If there's anything you don't understand as to how they did it, ask them to explain it
+## Remediations and enhancements to look for
+- Here's some general things to apply during activity one
+1. make sure that things like `class="whatever"` is NOT `class = "whatever"` spaces in attributes are not allowed
+2. if your testing for a style "state" like for example `if (thing.style.display == "block") { } ` change this to test if there's a class OR attribute. If the class exists `if (thing.classList.contains('namedclass')) {` then toggle the class on and off
+3. Use NAMED FUNCTIONS instead of annonymous ones. For example `function changeBackgroundColor() { }` and then `colorButton.addEventListener(“click”, changeBackgroundColor);` so that it's more readable and reusable
+4. make sure when you duplicate the card it doesn't duplicate the buttons as well (bc they won't work as the events are not applied to them)
+5. When you hit duplicate, make sure it's able to make more than 1 (infinite duplication and delete)
+6. make sure when you delete your last card it doesn't just hide it `yourCardTarget.remove()` will delete the node so delete it
+7. make sure that if there's only 1 card left, that you DON'T DELETE IT OR IT BREAKS YOUR APPLICATION
+8. The "HTML only" way of doing details display (which is highly accessible) -- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details - apply this for your details toggling
 
-## Activity 2 ~15 min
+## Activity 1 ~20 min
+- pair up wth the pair next to you (group 1 and 2, group 3 and 4, etc; end of table closest to room group up together)
+- share a link to the repo you worked on with the opposite pair, they look at yours. (partner 1 of group A shares with partner 1 of Group B, etc)
+- Fork their repo and provide `//` comments for each block of JS explaining what it does
+- Provide recommendations based on seeing if they have any of the required remediations above
+- If they are missing the functionality from the homework, suggest ways they can implement that by using your own code
+- If you are missing anything from the requirements, ask them for how they solved it. If you both didn't get it, ask your other partners
+- If there's anything you don't understand as to how they did it, ask them to explain it
+- If there's anything you STILL don't get after that, DM me on Discord and we'll discuss as a class / I'll answer for everyone
+
+## Activity 2 ~10 min
 - working together (someone "drives" and someone is co-pilot) combine your code into 1 pen so that both work
 - all your JS functions that add and remove cards should work for their respective items
 - If this was easy, why was it easy?
@@ -34,10 +45,15 @@ This week we'll start looking at how our code fits (or doesn't) into the modern 
 - Link these together
 - Install vercel on your machine https://vercel.com/docs/cli using yarn or npm
 
-## Lecture (time permitting)
-- Modern JS Landscape
+## Lecture (time permitting or we'll start into it Thursday)
+- Modern JS Landscape - https://docs.google.com/presentation/d/1oUqfiXL5L5XvErox5HEdnk-xA7xSCBJEYhZ9k2p1Gj8/edit?usp=sharing
 
-## Activity 3 / home work
+
+> EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
+# EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
+> EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
+
+## Activity 3 / leading into home work
 - Hello world a palooza. Using vercel, create boilerplates for
   - React
   - Angular
@@ -69,11 +85,6 @@ Next week, we'll review these and look for similarities and differences in imple
 - Look at the syntax of a js/template file from each. What is vanilla and what seems to be library specific?
 - Review package.json - What is common amongst them, what's different? What commands can we run? Try to run all the different commands in the repo for each project.
 - Rank order these for readability / ease of your understanding and give justification as to why one is easier than the other
-
-
-> EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
-# EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
-> EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
 
 
 ## Week 5: More JS Ecosystem shhhhhtuff
