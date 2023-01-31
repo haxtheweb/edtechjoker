@@ -43,7 +43,7 @@ This week we'll start looking at how our code fits (or doesn't) into the modern 
 - If this was easy, why was it easy?
 - If it was hard, why was it hard?
 
-## Task
+## Task before Thursday preferably
 - Make sure you have a Github and Vercel.com account
 - Link these together
 - Install vercel on your machine https://vercel.com/docs/cli using yarn or npm
