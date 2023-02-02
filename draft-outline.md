@@ -47,14 +47,14 @@ About 1/2 the class expressed a need for additional feedback / help. I've produc
 - Go to TA's office hours (Thurs & Fri this week)
 - DM me or the TA with **specific questions** you have have how to do **specific things**
 
-## Activity 2
+## Activity 2 recap
 - working together (someone "drives" and someone is co-pilot) combine your code into 1 pen so that both work
 - all your JS functions that add and remove cards should work for their respective items
 - If you did this Tuesday, DM me your repo so I can share with the class
 - If this was easy, why was it easy?
 - If it was hard, why was it hard?
 
-## Task after Activity 2
+## Task while I run through the deck
 - Make sure you have a Github and Vercel.com account
 - Link these together
 - Install vercel on your machine https://vercel.com/docs/cli using yarn or npm
@@ -70,7 +70,8 @@ About 1/2 the class expressed a need for additional feedback / help. I've produc
   - Angular
   - VueJS
   - Svelte
-- Pull these down to your local machine, install them (npm install or yarn install)
+- Pull these down to your local machine (via git clone)
+- install them (npm install or yarn install)
 - "run" them. usually with `yarn start` or `npm run start`
 - "build" them. usually with `yarn run build` or `npm run build`
 - Open in VSCode to review / modify the code
@@ -84,18 +85,18 @@ Row 3 (right): React
 Next week, we'll review these and look for similarities and differences in implementation between them. To clarify my expectations:
 - you DEPLOY hello world boilerplate for all 4
 - You answer the questions below relative to that
-- You select 1 framework and try to port your card to it. Focus on porting the HTML and CSS at this time
+- You do the framework based on your row your sitting in and try to port your card to it. Focus on porting the HTML and CSS at this time
   - If you want to take a stab at it, attempt to port the JS so that it still works in your framework using the framework ways of getting this code to register using its component architecture
-- You push this code up and hopefully vercel builds your demo with your card out on the web
+- You push this code up and hopefully vercel builds your demo with your card out on the web (if it doesn't, explore their website as to what went wrong / what the error messages are)
 
 ## Submission via GIST then turned into Canvas
-- links to your git repos for each hello world as deployed on vercel
+- links to your github repos for each hello world as deployed on vercel
 - link to your repo that has your attempt to port your card to the framework you had assigned
-- Answers to these questions:
-- What are the similarities and what are the differences in repo structure? name 5 of each.
+- Provide answers to these questions:
+- What are the similarities and what are the differences in repo structure? Find 5 similarities and 1 difference between each of the 4.
 - Look at the syntax of a js/template file from each. What is vanilla and what seems to be library specific?
 - Review package.json - What is common amongst them, what's different? What commands can we run? Try to run all the different commands in the repo for each project.
-- Rank order these for readability / ease of your understanding and give justification as to why one is easier than the other
+- Rank order these for readability / ease of your understanding and give a brief justification as to why you thought 1 was the easiest and 4 was the hardest to understand (or that you didn't understand!)
 
 ### Final note on Week 4
 - We'll keep iterating over this
