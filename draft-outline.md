@@ -80,9 +80,9 @@ About 1/2 the class expressed a need for additional feedback / help. I've produc
 
 Assignment for the week will be to get hello world deployed for 4 different frameworks / libraries. In order to have a discussion with others who are working on similar things, each ROW in class will be assigned a different framework to try their hand at.
 
-Row 1 (left side as you enter) : Angular
-Row 2 (middle) : VueJS
-Row 3 (right): React
+- Row 1 (left side as you enter) : Angular
+- Row 2 (middle) : VueJS
+- Row 3 (right): React
 
 Next week, we'll review these and look for similarities and differences in implementation between them. To clarify my expectations:
 - Watch my video to ensure you've got the baseline of all the things down
