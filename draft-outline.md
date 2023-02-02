@@ -40,8 +40,10 @@ This week we'll start looking at how our code fits (or doesn't) into the modern 
 # Thursday
 
 ## Remediation
-Video showing how I would do the 1st card assignment end to end -- https://youtu.be/5OXwR-aw0UU
-- code in the end (watch the video to really grep how I got here though: https://codepen.io/btopro/pen/zYLyZWE )
+Me making the card for all your ghosts out there
+- video: https://youtu.be/5OXwR-aw0UU
+- code: https://codepen.io/btopro/pen/zYLyZWE
+
 About 1/2 the class expressed a need for additional feedback / help. I've produced a video of how I would have approached the assignment end to end. This way you can review and work to enhance your card relative to this. After watching this video and trying to apply improvements to your card your options are...
 - Run through JS fundamentals here https://www.w3schools.com/js/default.asp
 - CSS fundamentals here https://www.w3schools.com/css/default.asp
