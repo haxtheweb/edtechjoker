@@ -37,24 +37,32 @@ This week we'll start looking at how our code fits (or doesn't) into the modern 
 - If there's anything you don't understand as to how they did it, ask them to explain it
 - If there's anything you STILL don't get after that, DM me on Discord and we'll discuss as a class / I'll answer for everyone
 
-## Activity 2 ~10 min
+## Thursday
+
+## Remediation
+About 1/2 the class expressed a need for additional feedback / help. I've produced a video of how I would have approached the assignment end to end. This way you can review and work to enhance your card relative to this. After watching this video and trying to apply improvements to your card your options are...
+- Run through JS fundamentals here https://www.w3schools.com/js/default.asp
+- CSS fundamentals here https://www.w3schools.com/css/default.asp
+- HTML fundamentals here https://www.w3schools.com/html/default.asp
+- Go to TA's office hours (Thurs & Fri this week)
+- DM me or the TA with **specific questions** you have have how to do **specific things**
+
+## Activity 2
 - working together (someone "drives" and someone is co-pilot) combine your code into 1 pen so that both work
 - all your JS functions that add and remove cards should work for their respective items
+- If you did this Tuesday, DM me your repo so I can share with the class
 - If this was easy, why was it easy?
 - If it was hard, why was it hard?
 
-## Task before Thursday preferably
+## Task after Activity 2
 - Make sure you have a Github and Vercel.com account
 - Link these together
 - Install vercel on your machine https://vercel.com/docs/cli using yarn or npm
 
-## Lecture (time permitting or we'll start into it Thursday)
+## Lecture to set some context
 - Modern JS Landscape - https://docs.google.com/presentation/d/1oUqfiXL5L5XvErox5HEdnk-xA7xSCBJEYhZ9k2p1Gj8/edit?usp=sharing
-
-
-> EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
-# EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
-> EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
+- Tooling, how people work in industry, different projects (high level)
+- state of the industry, the node_modules folder is a blackhole
 
 ## Activity 3 / leading into home work
 - Hello world a palooza. Using vercel, create boilerplates for
@@ -63,21 +71,21 @@ This week we'll start looking at how our code fits (or doesn't) into the modern 
   - VueJS
   - Svelte
 - Pull these down to your local machine, install them (npm install or yarn install)
-- "run" them. usuall with `yarn start` or `npm run start`
+- "run" them. usually with `yarn start` or `npm run start`
 - "build" them. usually with `yarn run build` or `npm run build`
 - Open in VSCode to review / modify the code
 
-Assignment for the week will be to get hello world deployed for 4 different frameworks / libraries. Then you and a partner pick a framework and try to port your card to that framework. Group 1 does 1&2, group 2 does 3&4 and so on. So hash out with your pair of pairs who's doing which but among the 4 of you there should end up being 1 person doing each of these:
-- angular
-- vueJs
-- react
-- svelte
+Assignment for the week will be to get hello world deployed for 4 different frameworks / libraries. In order to have a discussion with others who are working on similar things, each ROW in class will be assigned a different framework to try their hand at.
+
+Row 1 (left side as you enter) : Angular
+Row 2 (middle) : VueJS
+Row 3 (right): React
 
 Next week, we'll review these and look for similarities and differences in implementation between them. To clarify my expectations:
 - you DEPLOY hello world boilerplate for all 4
 - You answer the questions below relative to that
 - You select 1 framework and try to port your card to it. Focus on porting the HTML and CSS at this time
-  - bonus: .5 port the JS so that it still works in your framework using the framework ways of getting this code to register using its component architecture
+  - If you want to take a stab at it, attempt to port the JS so that it still works in your framework using the framework ways of getting this code to register using its component architecture
 - You push this code up and hopefully vercel builds your demo with your card out on the web
 
 ## Submission via GIST then turned into Canvas
@@ -89,10 +97,18 @@ Next week, we'll review these and look for similarities and differences in imple
 - Review package.json - What is common amongst them, what's different? What commands can we run? Try to run all the different commands in the repo for each project.
 - Rank order these for readability / ease of your understanding and give justification as to why one is easier than the other
 
+### Final note on Week 4
+- We'll keep iterating over this
+- This is a **PROGRAMMING FOR THE WEB** course. Frameworks are a step toward actual programming by my definition which is that you can build real applications
+- No one is able to build a "real" application using the stock methods that we have attempted in the first few weeks here
+- I said this course would be confusing. The industry is confusing. You have to make meaning, try, fail, iterate, succeed and make your own meaning
+
+> EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
+# EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
+> EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
 
 ## Week 5: More JS Ecosystem shhhhhtuff
-- Tooling, how people work in industry, different projects (high level)
-- state of the industry, the node_modules folder is a blackhole
+- More detail and exploring code examples based on what everyone wrote
 
 ## Week 6-8: Web components (project 1)
 - Why web components, understanding how Wcs interplay with other libraries, who’s using them and why
