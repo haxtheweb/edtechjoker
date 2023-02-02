@@ -37,9 +37,11 @@ This week we'll start looking at how our code fits (or doesn't) into the modern 
 - If there's anything you don't understand as to how they did it, ask them to explain it
 - If there's anything you STILL don't get after that, DM me on Discord and we'll discuss as a class / I'll answer for everyone
 
-## Thursday
+# Thursday
 
 ## Remediation
+Video showing how I would do the 1st card assignment end to end -- https://youtu.be/5OXwR-aw0UU
+- code in the end (watch the video to really grep how I got here though: https://codepen.io/btopro/pen/zYLyZWE )
 About 1/2 the class expressed a need for additional feedback / help. I've produced a video of how I would have approached the assignment end to end. This way you can review and work to enhance your card relative to this. After watching this video and trying to apply improvements to your card your options are...
 - Run through JS fundamentals here https://www.w3schools.com/js/default.asp
 - CSS fundamentals here https://www.w3schools.com/css/default.asp
@@ -47,12 +49,10 @@ About 1/2 the class expressed a need for additional feedback / help. I've produc
 - Go to TA's office hours (Thurs & Fri this week)
 - DM me or the TA with **specific questions** you have have how to do **specific things**
 
-## Activity 2 recap
-- working together (someone "drives" and someone is co-pilot) combine your code into 1 pen so that both work
+## Activity 2 (quickly)
+- working together (someone "drives" and someone is co-pilot) combine your code into 1 pen so that both work (copy and paste both into 1 repo)
 - all your JS functions that add and remove cards should work for their respective items
-- If you did this Tuesday, DM me your repo so I can share with the class
-- If this was easy, why was it easy?
-- If it was hard, why was it hard?
+- Post to the thread on discord what it looks like so we can look. If they break, that's not a concern, I want you to smash them together via all code (css, html, and JS) in 1 codepen
 
 ## Task while I run through the deck
 - Make sure you have a Github and Vercel.com account
@@ -83,26 +83,30 @@ Row 2 (middle) : VueJS
 Row 3 (right): React
 
 Next week, we'll review these and look for similarities and differences in implementation between them. To clarify my expectations:
-- you DEPLOY hello world boilerplate for all 4
-- You answer the questions below relative to that
-- You do the framework based on your row your sitting in and try to port your card to it. Focus on porting the HTML and CSS at this time
-  - If you want to take a stab at it, attempt to port the JS so that it still works in your framework using the framework ways of getting this code to register using its component architecture
-- You push this code up and hopefully vercel builds your demo with your card out on the web (if it doesn't, explore their website as to what went wrong / what the error messages are)
+- Watch my video to ensure you've got the baseline of all the things down
+- Implement those things while watching in your own card to clean it up so you get better grades on week 3 (we are in 4...)
+- you **DEPLOY** hello world boilerplate for all 4 frameworks listed above by using Vercel's GUI
+- You answer the questions below relative to that process when you pull the code down locally / review it on github (since its wired to your github)
+- You try to implement your card **after cleaning it up from watching my video** in the framework based on your row your sitting in. You do this by pulling the code locally to your machine and working on it in VSCode / local development via `npm install` / `npm start`. **Focus on porting the HTML and CSS at this time**
+  - If you want to take a stab at it, attempt to port the JS so that it still works in your framework using the framework ways of getting this code to register using its component architecture. We will be getting into that in the near future as an assignment so this can get you ahead if you find the 1st part easy. The cleaner the code when merging your projects together, the easier this is.
+- You push this code up and vercel builds your demo with your card out on the web (if it doesn't, explore their website as to what went wrong / what the error messages are)
 
 ## Submission via GIST then turned into Canvas
-- links to your github repos for each hello world as deployed on vercel
-- link to your repo that has your attempt to port your card to the framework you had assigned
+- links to your github repos for each hello world as deployed on vercel (click some UI buttons, generate github links, this should be easy)
+- link to your repo that has your attempt to port your card to the framework you had assigned (where the bulk of work happens)
 - Provide answers to these questions:
-- What are the similarities and what are the differences in repo structure? Find 5 similarities and 1 difference between each of the 4.
-- Look at the syntax of a js/template file from each. What is vanilla and what seems to be library specific?
-- Review package.json - What is common amongst them, what's different? What commands can we run? Try to run all the different commands in the repo for each project.
-- Rank order these for readability / ease of your understanding and give a brief justification as to why you thought 1 was the easiest and 4 was the hardest to understand (or that you didn't understand!)
+  - What are the similarities and what are the differences in repo structure? Find 5 similarities and 1 difference between each of the 4.
+  - Look at the syntax of a js/template file from each. What is vanilla and what seems to be library specific?
+  - Review package.json - What is common amongst them, what's different? What commands can we run? Try to run all the different commands in the repo for each project.
+  - Rank order these for readability / ease of your understanding and give a brief justification as to why you thought 1 was the easiest and 4 was the hardest to understand (or that you didn't understand!)
+- turn in a link to your gist that has the above info in canvas
 
 ### Final note on Week 4
 - We'll keep iterating over this
+- I am not keep tabs on if you watch my video, however if your code has issues it will be penalized as opposed to "hey try" feedback from before. The video is intended to cut through a lot of misconceptions.
 - This is a **PROGRAMMING FOR THE WEB** course. Frameworks are a step toward actual programming by my definition which is that you can build real applications
 - No one is able to build a "real" application using the stock methods that we have attempted in the first few weeks here
-- I said this course would be confusing. The industry is confusing. You have to make meaning, try, fail, iterate, succeed and make your own meaning
+- I said this course would be confusing. The industry is confusing. You have to make meaning, try, fail, iterate, succeed and make your own meaning. You got this.
 
 > EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
 # EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
