@@ -65,27 +65,48 @@ Two parts;
   - Also note: We will be using open-wc the rest of the semester in some capacity so best to familiarize yourself with the community docs
 - `npm start` and you'll be able to develop using this locally / see a live reloading environment that has a spinning svg
 - Take this boilerplate repo like you did the others and port your card so that it works as a web component
+- I want your buttons that control your card to be updated to work with this repo
 - Push results back up to github (make sure it's a public repo)
 
 ## Submission
 - Gist linked to Canvas
 - Links to all 3 github repos of the port of your card working in React, Angular, Vue+Vite
 - Link to your card port attempt as a web component using the open-wc tooling
+- Port the JS as well, keeping in mind that `document.querySelector` won't work without querying the `shadowRoot` of an element
+  - or if the buttons are contained inside your element `this.shadowRoot.querySelector`
 
 > EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
 # EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
 > EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
 
-# Week 6: Web components
-- Refinement / critique / review of several high end examples
+# Week 6: Web components === life
+
+## Refinement / critique / review of several high end examples
 - Compare / Contrast between the two major approaches (frameworks vs web component based)
 - Leveraging the work of others - Pulling in Web components from other people via NPM
 - Enhancing your card to use Slots, properties, CSS variables, parts and more
+
+## Activity 1: Combining elements into a single repo
+- `file-name.js` === `element`
+- As a result, I want you to create a new repository and combine the two cards into it
+- Implement both within your demo
+- You might want to give ownership of the repo to both people (so your aware of permissions delegation later)
+
+## Activity 2: Reuse and refactoring
+- Enhancing your card to use Slots, properties, CSS variables, parts and more
+- No one makes things from scratch (unless they have to)
+- let's make our cards more reusable via slot, properties, and css variables
+
+# Homework
+- Code is only as good as it's reusable / packagable / modifiable by others when it comes to open source
+- My team has made a huge library of icons. I want you to implement our team's icon library
+- Implement our card, to make it function just like yours
 
 ## Week 6-8: Web components (project 1)
 - OpenWC specifically running through the cli and making a new project to collaborate on GitHub. Reading the lit docs
 - CSS in ShadowRoot, prop drilling, leveraging existing packages
 - Mid-term
+
 - **Thursday prior to spring break there is no class**
 
 # Week 8: Mid-term
