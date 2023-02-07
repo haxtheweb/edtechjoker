@@ -37,7 +37,7 @@ If we cover yours, come get a (completely useful, great, awesome.. sticker)
 Now we should have some fundamental understanding of what's where, you have a working copy of a classmate's card for each one.
 Now knowing this..
 - Hollow out their portions of this so that it's your card CSS and HTML
-- attempt to get your JS in there as well
+- attempt to get your JS in there as well on the Vue One
 - Push all 3 back to their respective github locations
 - Ensure the demo rebuilds on vercel / it's wired up to vercel (you can add projects in after the fact via vercel)
 
