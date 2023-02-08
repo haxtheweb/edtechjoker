@@ -137,6 +137,14 @@ Try your best, ask questions. We're going to go from complex / big idea / world 
 - let's make our cards more reusable via slot, properties, and css variables
 
 # Homework
+- Review this slide deck https://docs.google.com/presentation/d/13z_spZnGt7uIY_MjXOnqkxvMyUj6-SEV/edit?usp=sharing&ouid=100601982236009260859&rtpof=true&sd=true
+  - Google DOM (if needed) and see explainataions / opinions
+  - Google Virtual DOM and see explainataions / opinions
+  - Google ShadowDOM and see explainataions / opinions
+  - Write a definition of each, how they differ and link to an example pen / article to learn more / where you got this understanding from
+  - Which is fastest? Is there a fastest?
+  - Which approaches work across frameworks vs are framework specific? 
+
 - Code is only as good as it's reusable / packagable / modifiable by others when it comes to open source
 - My team has made a huge library of icons. I want you to implement our team's icon library
 - Implement our card, to make it function just like yours
