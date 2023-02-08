@@ -42,6 +42,16 @@ Now knowing this..
 - Ensure the demo rebuilds on vercel / it's wired up to vercel (you can add projects in after the fact via vercel)
 
 ## Thursday
+### Developer workflow tips
+- Github: Setup SSH keys https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh
+- Github: **FORK** means you have a copy of someone's codebase on your github account
+- Github / Your machine: **CLONE** means you are bringing that code onto your personal computer. Always get repos either via the **SSH** option OR **Github Desktop**
+- **Github Desktop** in the GUI, select your project (top left, or create new, or add from Github). Then Hit **Open in VSCode**
+- **VSCode** your code will be open on the left **for your local copy**. Go to the toolbar for VSCode and hit "Terminal" and new Terminal if one is not already open
+- **this opens the folder tree / command line to the same spot VSCode is looking** . Here is where you type `npm install` and when that finished, `npm start` or `npm run dev` or whatever the command is you are looking to run
+- 
+
+
 - Now that we've got the basis for workflow, location, building demos to present them.. it's time to move into the world beyond them
 - We have JS, where the web started, then we had jQuery to prop it up, then we had frameworks to make component like things
 - Now, it's time for where all development is heading and where you can best invest your time learning and building
@@ -54,6 +64,7 @@ Two parts;
 
 ### Part 1 Links to all 3 repos with your card working in Angular, React, Vue
 - very easy if your following along in class Tues..
+- Follow the steps from above to pull your code in locally
 
 ### Part 2
 - Run through ALL Lit.dev tutorials on "Build" and "Build" found here https://lit.dev/tutorials/
@@ -64,22 +75,35 @@ Two parts;
   - When it asks you to write files to disk, pick yes. When it asks to install via npm / yarn, install via npm.
   - Also note: We will be using open-wc the rest of the semester in some capacity so best to familiarize yourself with the community docs
 - `npm start` and you'll be able to develop using this locally / see a live reloading environment that has a spinning svg
-- Take this boilerplate repo like you did the others and port your card so that it works as a web component
-- I want your buttons that control your card to be updated to work with this repo
+- Take this boilerplate repo, looking in `src` for source and `index.html` for the "demo" page that's launched **and port your CSS / HTML to this approach**
+  - If that was easy, then take a stab at doing this w/ your JS events in your buttons, if not then just getting code in place is fine.
+  - `document.querySelector` is global but in a web component, `this.shadowRoot.querySelector` is for querying JUST inside your component
 - Push results back up to github (make sure it's a public repo)
 
 ## Submission
 - Gist linked to Canvas
-- Links to all 3 github repos of the port of your card working in React, Angular, Vue+Vite
-- Link to your card port attempt as a web component using the open-wc tooling
-- Port the JS as well, keeping in mind that `document.querySelector` won't work without querying the `shadowRoot` of an element
-  - or if the buttons are contained inside your element `this.shadowRoot.querySelector`
+- Links to all 3 github repos of the port of your card hopefully looking correct in React, Angular, Vue+Vite
+- Link to your github repo for making a card in `open-wc`
+- Answers to these questions
+- 5 similarities between the open-wc repo structure and your react / vue / angular structures
+- Was this easier, harder, or the same difficulty as exploring the frameworks?
+- Any concept, structure, terminology, etc that your struggling with and need additional guidance at the end of this homework / 1st 5 weeks (1/3 of course)
+- Try to hook this up to vercel (code up on github, then add the project via vercel.com . You'll need to change "output" to `dist` in your settings). If you attempt this and it doesn't work don't worry about it but if it does work, add that link into your gist so we can see it built
+![vercel GUI for settings](https://user-images.githubusercontent.com/329735/217584610-449ee034-ff60-49c5-8c8d-41f6283aa512.png)
+
+## Final notes on this week
+Try your best, ask questions. We're going to go from complex / big idea / world view sorta stuff back into details. The frameworks were mostly so that we have an idea of where the world used to be. Now we'll start drilling into web components and JS within this context as it really is the future of the web (and the future is here now).
 
 > EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
 # EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
 > EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
 
-# Week 6: Web components === life
+# Week 6: Web components === life === project 1
+# Project 1
+- This is really a series of homeworks which are assessed along the way to provide feedback
+- Then you submit the project as an npm package
+- We'll step our way there the whole time but keeping up with the homeworks in this section will make the "project" easy to submit
+
 
 ## Refinement / critique / review of several high end examples
 - Compare / Contrast between the two major approaches (frameworks vs web component based)
@@ -105,14 +129,16 @@ Two parts;
 ## Week 6-8: Web components (project 1)
 - OpenWC specifically running through the cli and making a new project to collaborate on GitHub. Reading the lit docs
 - CSS in ShadowRoot, prop drilling, leveraging existing packages
+- Publishing to NPM
 - Mid-term
 
 - **Thursday prior to spring break there is no class**
 
 # Week 8: Mid-term
 - In class Tues, mid-term.
-- There is no homework this week, or class on Thursday
-- Use this time to catch up / clean up past assignments you may have missed
+- There is no homework this week, or class on Thursday however project 1 is due at the end of this week
+- Use this time to catch up / clean up past assignments you may have missed and refine your project 1 submission to maximize points
+- This will be graded with more scrutiny than things leading up to it
 
 ## Week 9: Spring Break
 
