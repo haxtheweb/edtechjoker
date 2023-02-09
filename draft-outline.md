@@ -95,6 +95,17 @@ Two parts;
   - `document.querySelector` is global but in a web component, `this.shadowRoot.querySelector` is for querying JUST inside your component
 - Push results back up to github (make sure it's a public repo)
 
+## LINT DISABLE
+if you get an error in your `open-wc` code when you go to commit to github. Go into `package.json` and delete this block from it
+```
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+```
+This is ensuring coding conventions match a certain specification. The feedback is useful usually but some times can be limiting to newbees.
+
 ## Submission
 - Gist linked to Canvas
 - Links to all 3 github repos of the port of your card hopefully looking correct in React, Angular, Vue+Vite
