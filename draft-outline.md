@@ -18,6 +18,11 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 
 ## Refinement / critique / review of several high end examples
 - looking over some examples generated from work in class
+  - farisnif: "One thing I would like to explore more is why is HTML going in to .js files at times"
+  - "please work i cry" - I'm going to show building this from 0 today. Follow along
+  - https://github.com/platinumfishes/tf2-pyroland/blob/main/my-card/src/MyCard.js#L9 - I enjoy this commenting blocks of things style
+  - https://github.com/Pandaalifter/openwc-chad/blob/main/src/openwc-chad.js - has some scoping correct
+  - https://github.com/NewJerkey/bryce-card --> https://bryce-card.vercel.app/
 - Common things asked about:
   - The rest of the class now is a web components / JS in this context. We'll read more JS and wire things together to understand them
   - Its repetition till it clicks; there's no other way
@@ -70,13 +75,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - `npm install --save @lrnwebcomponents/meme-maker`
 - Enhancing your card to use Slots, properties, CSS variables, parts and more
 
-## Activity 1: Combining elements into a single repo
-- `file-name.js` === `element`
-- As a result, I want you to create a new repository and combine the two cards into it
-- Implement both within your demo
-- You might want to give ownership of the repo to both people (so your aware of permissions delegation later)
-
-## Activity 2: Reuse and refactoring
+## Activity 1: Reuse and refactoring
 - Enhancing your card to use Slots, properties, CSS variables, parts and more
 - No one makes things from scratch (unless they have to)
 - let's make our cards more reusable via slot, properties, and css variables
