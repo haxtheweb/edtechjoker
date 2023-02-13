@@ -13,6 +13,14 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 > EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
 
 # Week 6: Web components === life === project 1
+
+## Refinement / critique / review of several high end examples
+- looking over some examples generated from work in class
+- Common things asked about:
+  - The rest of the class now is a web components / JS in this context. We'll read more JS and wire things together to understand them
+  - Its repetition till it clicks; there's no other way
+  - "I'd like a video on X" is Google. Lit.dev has great tutorials (that you were to go through). There is content all over the internet for this stuff. If a specific concept doesn't make sense after many a google and video, then I can try to help unpack; not prior to that search.
+
 ## Project 1
 - This is really a series of homeworks which are assessed along the way to provide feedback
 - There is also light reading / background info to look up
@@ -22,13 +30,11 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
   - Submitted to Canvas as a link to your github repo for the "application" (knowing that if the assets aren't from NPM, it won't work)
 - I'll be walking through aspects of what's required in class and leaving time for you to work on your projects to ensure you get there
 
-## Refinement / critique / review of several high end examples
-- looking over some examples generated from work in class
-
 ## Requirements for clean up in your card (as individuals)
-- Must implement `<slot>` tags so that you can write custom content on your card
+- Must implement `<slot>` tags so that you can write custom HTML content on your card in the details section
 - Must implement CSS variables for changing the background
-- Must have `properties` in order to change the title. When changing the title, modify the property
+- Must have `properties` in order to change the title and sub-title
+- Must use `details` and `summary` tags to do the collapse
 - image / source should be a property in order to set the image
 - Must use `styles` for shadow scoped styles
 - Buttons to modify your card, must work OUTSIDE OF YOUR CARD. `my-card` is JUST a card
