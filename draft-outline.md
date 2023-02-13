@@ -8,11 +8,13 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - [Week 4](https://github.com/elmsln/edtechjoker/tree/master/sp-23/week-4)
 - [Week 5](https://github.com/elmsln/edtechjoker/tree/master/sp-23/week-5)
 
-> EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
-# EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
-> EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
-
 # Week 6: Web components === life === project 1
+
+## Tues
+- I'm going to go through some working examples
+- I will make the card from nothing, as a web component. Follow along if you have not been able to make this work from step 0
+- Project 1 is announced so you have some scope as to what your working on for it.
+- Class will be a mix of demos of specific things people need help with and time to work and ask questions
 
 ## Refinement / critique / review of several high end examples
 - looking over some examples generated from work in class
@@ -20,6 +22,8 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
   - The rest of the class now is a web components / JS in this context. We'll read more JS and wire things together to understand them
   - Its repetition till it clicks; there's no other way
   - "I'd like a video on X" is Google. Lit.dev has great tutorials (that you were to go through). There is content all over the internet for this stuff. If a specific concept doesn't make sense after many a google and video, then I can try to help unpack; not prior to that search.
+- this image means that you need the repo to not be like`my-thing/my-thing/index.html` and instead `my-thing/index.html`
+![image](https://user-images.githubusercontent.com/329735/218572953-39168565-f0a5-4f00-84e2-4d7ab9348165.png)
 
 ## Project 1
 - This is really a series of homeworks which are assessed along the way to provide feedback
@@ -31,6 +35,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - I'll be walking through aspects of what's required in class and leaving time for you to work on your projects to ensure you get there
 
 ## Requirements for clean up in your card (as individuals)
+- clean up your code so there are no remnants of the spinning OpenWC logo boilerplate. JUST your code.
 - Must implement `<slot>` tags so that you can write custom HTML content on your card in the details section
 - Must implement CSS variables for changing the background
 - Must have `properties` in order to change the title and sub-title
@@ -50,9 +55,19 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
   - title change is on BOTH of your cards
   - color and delete should also apply to both of your cards
 
-## Technique practice
+
+> EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
+# EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
+> EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
+
+## Thursday
+
+## Technique practice -- Reusing someone elses stuff
 - Leveraging the work of others - Pulling in Web components from other people via NPM
 - Get an account on https://www.npmjs.com/ - you don't need it to download stuff but you will for getting stuff up there
+- We're going to use my meme-maker in order to enhance your image
+- Demo: https://haxapi.vercel.app/?path=/story/media-memes--basic-meme
+- `npm install --save @lrnwebcomponents/meme-maker`
 - Enhancing your card to use Slots, properties, CSS variables, parts and more
 
 ## Activity 1: Combining elements into a single repo
