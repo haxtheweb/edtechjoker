@@ -8,7 +8,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - [Week 4](https://github.com/elmsln/edtechjoker/tree/master/sp-23/week-4)
 - [Week 5](https://github.com/elmsln/edtechjoker/tree/master/sp-23/week-5)
 
-# Week 6: Web components === life === project 1
+# Week 6: Web components === project 1
 
 ## Tues
 - I'm going to go through some working examples
@@ -81,16 +81,15 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - let's make our cards more reusable via slot, properties, and css variables
 
 # Homework
-- Review this slide deck https://docs.google.com/presentation/d/13z_spZnGt7uIY_MjXOnqkxvMyUj6-SEV/edit?usp=sharing&ouid=100601982236009260859&rtpof=true&sd=true
-  - Google DOM (if needed) and see explainataions / opinions
-  - Google Virtual DOM and see explainataions / opinions
-  - Google ShadowDOM and see explainataions / opinions
+- Skim this slide deck https://docs.google.com/presentation/d/13z_spZnGt7uIY_MjXOnqkxvMyUj6-SEV/edit?usp=sharing&ouid=100601982236009260859&rtpof=true&sd=true
+  - Google **HTML DOM** (if needed) and see explainataions
+  - Google **Virtual DOM** and see explainataions / opinions
+  - Google **ShadowDOM** and see explainataions / opinions
   - Write a definition of each, how they differ and link to an example pen / article to learn more / where you got this understanding from
   - Which is fastest? Is there a fastest?
-  - Which approaches work across frameworks vs are framework specific? 
+  - Which approaches work across frameworks vs is framework specific?
 
-- Code is only as good as it's reusable / packagable / modifiable by others when it comes to open source
-- My team has made a huge library of icons. I want you to implement our team's icon library
+
 
 # week 7: More project work and feeedback
 
