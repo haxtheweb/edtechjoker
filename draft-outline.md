@@ -30,7 +30,24 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - this image means that you need the repo to not be like`my-thing/my-thing/index.html` and instead `my-thing/index.html`
 ![image](https://user-images.githubusercontent.com/329735/218572953-39168565-f0a5-4f00-84e2-4d7ab9348165.png)
 
-## Project 1
+# WATCH OUTSIDE OF CLASS PRIOR TO THURSDAY
+I recorded end to end, me creating the `drew-card`. https://www.youtube.com/watch?v=mxTYv_8EPIo
+Your Element should be up to where I get in this repo by Thursday in order to be on task
+- vercel built, working card
+- code: https://github.com/btopro/drew-card
+- demo: https://drew-card.vercel.app/
+- Atomic design, referenced in the video https://bradfrost.com/blog/post/atomic-web-design/
+
+# In class Activity today (submit to the 
+- We will envision the API for our card
+- What is its name? How can we make it abstract and reusable
+  - examples: NOT pika-chu-card. `pokemon-card` or even better `character-card`
+  - `lawncare-card` not `my-card` or `mycard-2` or something meaningless
+  - Semantics matter.
+- If it had "properties" that we could modify and see change; what would we call them? What can be modified via a variable? What are those variables named? What do they do?
+- Is there anything that could be HTML based input vs a single value? What Type is that single value?
+
+## Project 1 - 5% of grade + the 2 home work check ins + in-class attendence (so 11% total..)
 - This is really a series of homeworks which are assessed along the way to provide feedback
 - There is also light reading / background info to look up
 - In the end you and your partner will have (high level):
@@ -43,9 +60,11 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - clean up your code so there are no remnants of the spinning OpenWC logo boilerplate. JUST your code.
 - Must implement `<slot>` tags so that you can write custom HTML content on your card in the details section
 - Must implement CSS variables for changing the background
+- Must have a `Boolean` that is `reflect: true` in order to toggle a shadow, color change, or style of the card
 - Must have `properties` in order to change the title and sub-title
 - Must use `details` and `summary` tags to do the collapse
 - image / source should be a property in order to set the image
+- @click event on your title that toggles it to say `Clicked` or the original title `${this._toggled ? 'Clicked' : this.title}`
 - Must use `styles` for shadow scoped styles
 - Buttons to modify your card, must work OUTSIDE OF YOUR CARD. `my-card` is JUST a card
 - Ability to render multiple cards next to each other as opposed to below
