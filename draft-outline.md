@@ -68,6 +68,7 @@ Your Element should be up to where I get in this repo by Thursday in order to be
 - Must use `styles` for shadow scoped styles
 - Buttons to modify your card, must work OUTSIDE OF YOUR CARD. `my-card` is JUST a card
 - Ability to render multiple cards next to each other as opposed to below
+- Leveraging `meme-maker` for your image (meaning it needs to be part of your package.json / installed / using `@lrnwebcomponents/meme-maker`) to demonstrate you understand reusing and stacking web components
 - published to NPM
 
 ## Requirements for Project 1
