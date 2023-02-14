@@ -101,15 +101,20 @@ Your Element should be up to where I get in this repo by Thursday in order to be
 - let's make our cards more reusable via slot, properties, and css variables
 
 # Homework
+- Watch me going through doing the whole thing; following along so you can meet the requirements
+- Card should be well named, built using vercel for its demo and starting to meet the requirements
+- Properties should be used to deliver the title / subtitle
+- All CSS / JS / HTML in your card tag should be ONLY related to the card itself
+- Buttons should be in index.html and wired to work in their new scoping of the element
+- Anything you do beyond this meeting the requirements is stuff you can ask about
+- Bring questions to class for working sessions next week of things to see demo'ed / debugged
+
 - Skim this slide deck https://docs.google.com/presentation/d/13z_spZnGt7uIY_MjXOnqkxvMyUj6-SEV/edit?usp=sharing&ouid=100601982236009260859&rtpof=true&sd=true
   - Google **HTML DOM** (if needed) and see explainataions
   - Google **Virtual DOM** and see explainataions / opinions
   - Google **ShadowDOM** and see explainataions / opinions
-  - Write a definition of each, how they differ and link to an example pen / article to learn more / where you got this understanding from
-  - Which is fastest? Is there a fastest?
-  - Which approaches work across frameworks vs is framework specific?
-
-
+  - What is the difference between these three?
+- Submit to Canvas dropbox: Gist; link to your github repo for your card's progression. Answer to the question above
 
 # week 7: More project work and feeedback
 
