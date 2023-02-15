@@ -81,19 +81,28 @@ Your Element should be up to where I get in this repo by Thursday in order to be
   - color and delete should also apply to both of your cards
 
 
+# Thursday
+
+
 > EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
 # EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
 > EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
 
 ## Thursday
+Analyzing a vanillaJS Web component vs a Lit Web component
 
-## Technique practice -- Reusing someone elses stuff
 - Leveraging the work of others - Pulling in Web components from other people via NPM
 - Get an account on https://www.npmjs.com/ - you don't need it to download stuff but you will for getting stuff up there
 - We're going to use my meme-maker in order to enhance your image
 - Demo: https://haxapi.vercel.app/?path=/story/media-memes--basic-meme
 - `npm install --save @lrnwebcomponents/meme-maker`
 - Enhancing your card to use Slots, properties, CSS variables, parts and more
+
+
+
+
+## Technique practice -- Reusing someone elses stuff
+
 
 ## Activity 1: Reuse and refactoring
 - Enhancing your card to use Slots, properties, CSS variables, parts and more
