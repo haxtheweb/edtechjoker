@@ -2,6 +2,43 @@
 This is a draft of the course. The topics we'll cover and the order. It will be established and modified based on student needs and how things are going / what people ask for as far as needing things that match the trajectory we're on.
 - [Resource for reviewing concepts](https://youtube.com/playlist?list=PLJQupiji7J5efO_Q5VGZcPE4O_TM_HGP4)
 
+# Project 1 - 5% of grade + the 2 home work check ins + in-class attendence (so 11% total..)
+- This is really a series of homeworks which are assessed along the way to provide feedback
+- There is also light reading / background info to look up
+- In the end you and your partner will have (high level):
+  - your own element published on npmjs.com (so 1 each)
+  - an "application" that's implementing both of these elements, using vercel to build it
+  - Submitted to Canvas as a link to your github repo for the "application" (knowing that if the assets aren't from NPM, it won't work)
+- I'll be walking through aspects of what's required in class and leaving time for you to work on your projects to ensure you get there
+
+## Requirements for clean up in your card (as individuals)
+- clean up your code so there are no remnants of the spinning OpenWC logo boilerplate. JUST your code.
+- Must implement `<slot>` tags so that you can write custom HTML content on your card in the details section
+- Must implement CSS variables for changing the background
+- Must have a `Boolean` that is `reflect: true` in order to toggle a shadow, color change, or style of the card
+- Must have `properties` in order to change the title and sub-title
+- Must use `details` and `summary` tags to do the collapse
+- image / source should be a property in order to set the image
+- @click event on your dropdown / collapse set so that it toggles a stateful variable
+- custom event that talks to the buttons in your demo so that the state of the collapse is aligned with the button to do the toggling
+- Must use `styles` for shadow scoped styles
+- Buttons to modify your card, must work OUTSIDE OF YOUR CARD. `my-card` is JUST a card
+- Ability to render multiple cards next to each other as opposed to below
+- Leveraging `meme-maker` for your image (meaning it needs to be part of your package.json / installed / using `@lrnwebcomponents/meme-maker`) to demonstrate you understand reusing and stacking web components
+- published to NPM
+
+## Requirements for Project 1
+- Both partners (or all 3) have card published to NPM (if names identical, you'll only be able to wire in 1 bc of the spec so similar name like `sport-card-2` and `sport-card`
+- Make a new github repo that's hooked up to vercel which is an `application` made via `open-wc`
+- Install your cards into this new repo. Make your buttons work in this new repo
+- Write buttons into your demo for this that can do the operations to both types of card
+  - Duplicate makes a copy of BOTH OF YOUR CARDS
+  - title change is on BOTH of your cards
+  - color and delete should also apply to both of your cards
+- There is no JS in this repo beyond putting in your existing elements as dependencies instead of referencing the JS of 1 file locally.
+
+# Schedule
+
 - [Week 1](https://github.com/elmsln/edtechjoker/tree/master/sp-23/week-1)
 - [Week 2](https://github.com/elmsln/edtechjoker/tree/master/sp-23/week-2)
 - [Week 3](https://github.com/elmsln/edtechjoker/tree/master/sp-23/week-3)
@@ -46,39 +83,6 @@ Your Element should be up to where I get in this repo by Thursday in order to be
   - Semantics matter.
 - If it had "properties" that we could modify and see change; what would we call them? What can be modified via a variable? What are those variables named? What do they do?
 - Is there anything that could be HTML based input vs a single value? What Type is that single value?
-
-## Project 1 - 5% of grade + the 2 home work check ins + in-class attendence (so 11% total..)
-- This is really a series of homeworks which are assessed along the way to provide feedback
-- There is also light reading / background info to look up
-- In the end you and your partner will have (high level):
-  - your own element published on npmjs.com (so 1 each)
-  - an "application" that's implementing both of these elements, using vercel to build it
-  - Submitted to Canvas as a link to your github repo for the "application" (knowing that if the assets aren't from NPM, it won't work)
-- I'll be walking through aspects of what's required in class and leaving time for you to work on your projects to ensure you get there
-
-## Requirements for clean up in your card (as individuals)
-- clean up your code so there are no remnants of the spinning OpenWC logo boilerplate. JUST your code.
-- Must implement `<slot>` tags so that you can write custom HTML content on your card in the details section
-- Must implement CSS variables for changing the background
-- Must have a `Boolean` that is `reflect: true` in order to toggle a shadow, color change, or style of the card
-- Must have `properties` in order to change the title and sub-title
-- Must use `details` and `summary` tags to do the collapse
-- image / source should be a property in order to set the image
-- @click event on your title that toggles it to say `Clicked` or the original title `${this._toggled ? 'Clicked' : this.title}`
-- Must use `styles` for shadow scoped styles
-- Buttons to modify your card, must work OUTSIDE OF YOUR CARD. `my-card` is JUST a card
-- Ability to render multiple cards next to each other as opposed to below
-- Leveraging `meme-maker` for your image (meaning it needs to be part of your package.json / installed / using `@lrnwebcomponents/meme-maker`) to demonstrate you understand reusing and stacking web components
-- published to NPM
-
-## Requirements for Project 1
-- Both partners (or all 3) have card published to NPM
-- Make a new github repo that's hooked up to vercel which is an `application` made via `open-wc`
-- Install your cards into this new repo
-- Write buttons into your demo for this that can do the operations to both types of card
-  - Duplicate makes a copy of BOTH OF YOUR CARDS
-  - title change is on BOTH of your cards
-  - color and delete should also apply to both of your cards
 
 # Thursday
 
