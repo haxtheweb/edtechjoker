@@ -3,6 +3,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - [Resource for reviewing concepts](https://youtube.com/playlist?list=PLJQupiji7J5efO_Q5VGZcPE4O_TM_HGP4)
 
 # Project 1 - 5% of grade + the 2 home work check ins + in-class attendence (so 11% total..)
+Example of what I made which is in the neighborhood of what you're making -- https://drew-card.vercel.app/
 - This is really a series of homeworks which are assessed along the way to provide feedback
 - There is also light reading / background info to look up
 - In the end you and your partner will have (high level):
