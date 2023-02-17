@@ -29,14 +29,13 @@ Example of what I made which is in the neighborhood of what you're making -- htt
 - published to NPM
 
 ## Requirements for Project 1
-- Both partners (or all 3) have card published to NPM (if names identical, you'll only be able to wire in 1 bc of the spec so similar name like `sport-card-2` and `sport-card`
+- **Both partners** (or all 3) have card published to NPM (if names identical, you'll only be able to wire in 1 bc of the spec so similar name like `sport-card-2` and `sport-card`
 - Make a new github repo that's hooked up to vercel which is an `application` made via `open-wc`
-- Install your cards into this new repo. Make your buttons work in this new repo
-- Write buttons into your demo for this that can do the operations to both types of card
-  - Duplicate makes a copy of BOTH OF YOUR CARDS
-  - title change is on BOTH of your cards
-  - color and delete should also apply to both of your cards
-- There is no JS in this repo beyond putting in your existing elements as dependencies instead of referencing the JS of 1 file locally.
+- Call this repo `card-list`
+- Make a single element, that pulls in both of your cards and has 5 implementations of each of your cards (so 10 total or 15 total depending on team size)
+- Cards should be displayed next to each other
+- You don't need buttons that are interactive in this repo, just different implementations of each card to show differences
+- This should be pushed back to github and built using vercel
 
 # Schedule
 
