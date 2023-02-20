@@ -40,9 +40,7 @@ In class: https://github.com/gleyze/character-card2
 - Time to implement custom events in your own code
 - End of class, turn in status check in into Canvas dropbox
 
-> EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
-# EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
-> EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
+BEFORE THURSDAY WATCH THE CRIT VIDEO AND APPLY THE PROJECT REQUIREMENTS TO YOUR CARD: https://www.youtube.com/watch?v=waYp5pjp75Q
 
 ## Thursday
 
@@ -63,14 +61,10 @@ In class: https://github.com/gleyze/character-card2
 - Watch this debate to understand a React worldview vs a Web component / platform worldview from two titans https://www.youtube.com/watch?v=ChfjZV-aA_Y
 - Write a follow up response on dev.to from the perspective of a new developer in the field
   - What is confusing about platforms?
+  - How could web components and VanillaJS standards be taught in a way that is more approachable?
   - What did you find easiest to work with on 1st stab? (You don't have to say web components, this is an honest take, if it was Vue cool, but justify it)
-  - Think back on the tooling. What parts were confusing? What clicked?
-  - What additional reading to you have to do in order to make sense of things.
-
-## Week 6-8: Web components (project 1)
-- OpenWC specifically running through the cli and making a new project to collaborate on GitHub. Reading the lit docs
-- CSS in ShadowRoot, prop drilling, leveraging existing packages
-- Publishing to NPM
+  - Think back on the tooling. What parts were confusing? What clicked with you immediately?
+  - What additional readings did you have to do in order to make sense of things.
 
 ## Mid-term exam - Week 8 we'll have an exam
 - Anything from slides is fair game
@@ -78,16 +72,23 @@ In class: https://github.com/gleyze/character-card2
 - Anything produced in class or part of class is fair game
 - The internet exists; it will also be fair game
 - Google also exists, so it will also be fair game (for you)
-
-- Project 1 is due at the end of this week
-- Use this time to catch up / clean up past assignments you may have missed and refine your project 1 submission to maximize points
-- This will be graded with more scrutiny than things leading up to it
+- This will take place during the start of class and is short
 
 ## Thursday
 - This is open office hours. If your having issues with your code come get additional help from our TA
 
+# Project 1 is due March 5th by 11:59pm
+- Project 1 is due at the end of this week
+- Use this time to catch up / clean up past assignments you may have missed and refine your project 1 submission to maximize points
+- This will be graded with more scrutiny than things leading up to it
+- The dropbox for this is on Canvas and is ultimately a repo you are turning in
+- [Project 1 Requirements](https://github.com/elmsln/edtechjoker/blob/master/sp-23/projects/project-1.md)
 
 ## Week 9: Spring Break
+
+> EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
+# EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
+> EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
 
 ## Week 10-11: Micro frontends (project 2)
 - Vercel and project publishing and communication
