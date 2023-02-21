@@ -28,6 +28,7 @@ Common issues, many of which are remediated in the video from above
 - Make sure files are top of your repo not `my-repo-name/my-card-name/src/my-card-name.js` just `my-repo-name/src/my-card-name.js`
 - if you get this on your vercel demo it most likely means its not at the top level (above) OR you need `meme-maker` to be included in the listed `dependencies` of your package.json file "Uncaught TypeError: Failed to resolve module specifier "lit". Relative references must start with either "/", "./", or "../"."
 - `npm install --save @lrnwebcomponents/meme-maker` -- the `--save` flag writes the dependency into your package.json otherwise it'll work local but not for others
+- Another possible issue with that is if you have `node_modules` showing on github, these files won't get installed over top of so you potentially are missing things from version control. delete node_modules, commit this to version control (the removal of files) and then ensure you have a `.gitignore` which has `/node_modules/` listed in it. Then do npm install and it'll work locally / push things back up to github and see if vercel rebuilds correctly.
 - buttons when trying to work on your card should select `document.querySelector("my-card-name")` and not a random class name within your card.
 
 In class: https://github.com/gleyze/character-card2
