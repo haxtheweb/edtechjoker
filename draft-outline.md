@@ -75,6 +75,12 @@ BEFORE THURSDAY WATCH THE CRIT VIDEO AND APPLY THE PROJECT REQUIREMENTS TO YOUR 
   - What did you find easiest to work with on 1st stab? (You don't have to say web components, this is an honest take, if it was Vue cool, but justify it)
   - Think back on the tooling. What parts were confusing? What clicked with you immediately?
   - What additional readings did you have to do in order to make sense of things.
+- Create a gist that references your dev.to article
+- Point to your updated repo / state of your card
+- If you have specific issues / questions, ask them in this gist
+- submit gist to canvas
+
+
 
 ## Mid-term exam - Week 8 we'll have an exam
 - Anything from slides is fair game
@@ -84,7 +90,7 @@ BEFORE THURSDAY WATCH THE CRIT VIDEO AND APPLY THE PROJECT REQUIREMENTS TO YOUR 
 - Google also exists, so it will also be fair game (for you)
 - This will take place during the start of class and is short
 
-## Thursday
+## Thursday (Week 8)
 - This is open office hours. If your having issues with your code come get additional help from our TA
 
 # Project 1 is due March 5th by 11:59pm
