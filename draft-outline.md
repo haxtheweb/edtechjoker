@@ -23,6 +23,13 @@ I did full on crits of these 3 with how to fix common issues as well as how to i
 - example 2 from video: https://github.com/lizblake/band-card
 - example 3 from video: https://github.com/Fawaz1077/fawaz-nice-card
 
+Common issues, many of which are remediated in the video from above
+- your buttons need to be in index.html (or their own scoped element) and NOT with your card. your card is a card and thats it
+- Make sure files are top of your repo not `my-repo-name/my-card-name/src/my-card-name.js` just `my-repo-name/src/my-card-name.js`
+- if you get this on your vercel demo it most likely means its not at the top level (above) OR you need `meme-maker` to be included in the listed `dependencies` of your package.json file "Uncaught TypeError: Failed to resolve module specifier "lit". Relative references must start with either "/", "./", or "../"."
+- `npm install --save @lrnwebcomponents/meme-maker` -- the `--save` flag writes the dependency into your package.json otherwise it'll work local but not for others
+- buttons when trying to work on your card should select `document.querySelector("my-card-name")` and not a random class name within your card.
+
 In class: https://github.com/gleyze/character-card2
 
 ## CSS Variables and Shadow Parts
@@ -52,6 +59,9 @@ BEFORE THURSDAY WATCH THE CRIT VIDEO AND APPLY THE PROJECT REQUIREMENTS TO YOUR 
 
 ## Activity
 - Get your element code published to NPM
+- Get an account on npmjs.com and log into it
+- from your repo in a terminal run `npm publish` and step through any login steps required to make this work
+- in the end you should get something like https://www.npmjs.com/package/@lrnwebcomponents/meme-maker
 - Start a new repo and start implementing your code inside of it
 - End of class, turn in status check in into Canvas dropbox
 
