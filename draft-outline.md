@@ -122,6 +122,7 @@ BEFORE THURSDAY WATCH THE CRIT VIDEO AND APPLY THE PROJECT REQUIREMENTS TO YOUR 
 > EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
 
 ## Week 10-11: Micro frontends (project 2)
+- Watch this video to understand the concept: https://www.youtube.com/watch?v=tgZKpJhQ7os
 - Vercel and project publishing and communication
 - Creating an API endpoint to return data
 - Creating a basic web component to render data from an end point using fetch to obtain information
