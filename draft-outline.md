@@ -45,10 +45,10 @@ In class: https://github.com/gleyze/character-card2
 
 BEFORE THURSDAY WATCH THE CRIT VIDEO AND APPLY THE PROJECT REQUIREMENTS TO YOUR CARD: https://www.youtube.com/watch?v=waYp5pjp75Q
 
-## Thursday
+# Thursday
 
-# Custom Events
-
+## Custom Events
+- I'll do a quick demo of Custom Events applied to a card for a different purpose to understand the relationship between events and the DOM
 - We're going to peg the collapse to a stateful variable so we'll add a `expanded` variable to our element
 - We're going to make a custom event for when the state of the collapse changes
 - We're going to make an event listener for the custom event so that our Button's label updates to match
