@@ -48,6 +48,8 @@ BEFORE THURSDAY WATCH THE CRIT VIDEO AND APPLY THE PROJECT REQUIREMENTS TO YOUR 
 # Thursday
 
 ## Custom Events
+- Codepen: https://codepen.io/btopro/pen/XWPKevM?editors=1111
+- Video explaining in more detail VanillaJS Web components + CustomEvents: https://www.youtube.com/watch?v=HU8K4EyAncg
 - I'll do a quick demo of Custom Events applied to a card for a different purpose to understand the relationship between events and the DOM
 - We're going to peg the collapse to a stateful variable so we'll add a `expanded` variable to our element
 - We're going to make a custom event for when the state of the collapse changes
