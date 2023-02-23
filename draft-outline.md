@@ -38,11 +38,6 @@ In class: https://github.com/gleyze/character-card2
 - We're going to look at how to name and leverage css variables to allow others to influence our design
 - We're going to see what a CSS Shadow `part` is and how to style using them
 
-# Custom Events
-- We're going to peg the collapse to a stateful variable so we'll add a `expanded` variable to our element
-- We're going to make a custom event for when the state of the collapse changes
-- We're going to make an event listener for the custom event so that our Button's label updates to match
-
 ## Activity
 - Time to implement CSS Variables / shadow parts
 - Time to implement custom events in your own code
@@ -52,18 +47,38 @@ BEFORE THURSDAY WATCH THE CRIT VIDEO AND APPLY THE PROJECT REQUIREMENTS TO YOUR 
 
 ## Thursday
 
+# Custom Events
+
+- We're going to peg the collapse to a stateful variable so we'll add a `expanded` variable to our element
+- We're going to make a custom event for when the state of the collapse changes
+- We're going to make an event listener for the custom event so that our Button's label updates to match
+
 ### Publishing to NPM
+- https://docs.npmjs.com/creating-and-publishing-unscoped-public-packages
 - Now it's time to publish our code to NPM
 - Now it's time to make another repo
 - In this other repo, it's time to pull in our 1st code that was published and build upon it
 - This is the feedback loop with web components and all web development going forward
 
-## Activity
+## Activity part 1 - Custom Event
+- Work on implementing a Custom Event to do proper state management
+- The video from this week I showwed how to do this and get your toggle to 100% be wired up (statefully) to a button in the index.html
+- You can name your custom event whatever you want, but then listening on the window in `index.html` you'll want to react to that event and make your toggle button change its label dynamically based on the toggle changing
+
+## Part 2 - NPM
 - Get your element code published to NPM
 - Get an account on npmjs.com and log into it
 - from your repo in a terminal run `npm publish` and step through any login steps required to make this work
 - in the end you should get something like https://www.npmjs.com/package/@lrnwebcomponents/meme-maker
-- Start a new repo and start implementing your code inside of it
+  - if your element name already exists on npm (namespaces are unique universally) then you can modify the package name in package.json to be something like `abc123-business-card` or whatever
+
+## Part 3 - New Repo for submitting your project 1
+- Start a new repo and start implementing your code inside of it. The following is taken from the Project 1 requirements:
+> - Call this repo card-list
+> - Make a single element, that pulls in both of your cards and has 5 implementations of each of your cards (so 10 total or 15 total depending on team size)
+> - Cards should be displayed next to each other
+> - You don't need buttons that are interactive in this repo, just different implementations of each card to show differences
+> - This should be pushed back to github and built using vercel
 - End of class, turn in status check in into Canvas dropbox
 
 ## Homework
@@ -79,9 +94,8 @@ BEFORE THURSDAY WATCH THE CRIT VIDEO AND APPLY THE PROJECT REQUIREMENTS TO YOUR 
 - Create a gist that references your dev.to article
 - Point to your updated repo / state of your card
 - If you have specific issues / questions, ask them in this gist
+- I will be glancing at your code for this check in because it should be pretty far along; specific questions and your article is what i'll be focusing on
 - submit gist to canvas
-
-
 
 ## Mid-term exam - Week 8 we'll have an exam
 - Anything from slides is fair game
