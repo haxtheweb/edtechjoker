@@ -38,15 +38,19 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
   - response sent back and front end does something with it
 
 ## Thurs
-- Looking more at the "Back end" code and understanding what' possible
+- Start looking at my boilerplate repo, fork it and start working on the homework
 
 > EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
 # EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
 > EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
 
 ## Homework
-- Project status check in / pre-flight issues identified
-- What questions you have
+- We're going to build a very simple API from a boilerplate repo to ensure we've got the initial concept down
+- I've done a lot of the initial wiring. Take this repo and refactor it to
+  - Print an additional card
+  - Change the data about the cards to match your data
+  - Use your card asset instead of mine
+- Project status check in / pre-flight issues identified / What questions you have
 
 
 ## Week 13 – 16: Final Project
