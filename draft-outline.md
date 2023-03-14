@@ -20,17 +20,26 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - Week 9 - Spring break
 
 ## Week 10-12: Micro frontends (project 2)
+
+# Guest lecturer
+EdTechJoker
+
 ### Overview
 - Vercel and project publishing and communication
 - Creating an API endpoint to return data
 - Creating a basic web component to render data from an end point using fetch to obtain information
 
 ## Tues
-- Discussing project two and the notion of micro front ends
+- Discussing project two and the notion of micro front ends to get there
+- [Project 2](https://github.com/elmsln/edtechjoker/blob/master/sp-23/projects/project-2.md)
 - Playing with and deploying example from a previous IST class
-- Starting the spec work of scoping the front end assets
+
+## Activity to get some base concepts
+- EVERYONE. Make a new repo https://github.com/btopro/ist-vercel-demo
 
 ## In between class
+- Keeping up with industry arguments: https://eisenbergeffect.medium.com/about-web-components-7b2a3ed67a78
+- Why people keep writing long artitcles like this is bc of statements like this are rampant https://twitter.com/dannymoerkerke/status/1635387397105139713
 - Watch this video to understand the concept with a different example: https://www.youtube.com/watch?v=tgZKpJhQ7os
 - We are building the front end to be more robust than this example but the same concepts apply
   - Front end asks for data or user has input
@@ -38,19 +47,29 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
   - response sent back and front end does something with it
 
 ## Thurs
-- Start looking at my boilerplate repo, fork it and start working on the homework
+## Activity 1
+- Tracing network calls and how this repo is working
+- Understanding what Vercel Magic is happening w/ Lambdas
+- Vanilla-ish which is why I have adopted (and what my definition of that is)
 
-> EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
-# EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
-> EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
+## Activity 2
+- Starting the spec work of scoping the front end assets
 
 ## Homework
-- We're going to build a very simple API from a boilerplate repo to ensure we've got the initial concept down
+- We're going to build a very simple API from a boilerplate repo to ensure we've got the initial concept down (will post Thursday)
 - I've done a lot of the initial wiring. Take this repo and refactor it to
   - Print an additional card
   - Change the data about the cards to match your data
   - Use your card asset instead of mine
-- Project status check in / pre-flight issues identified / What questions you have
+- Blog post check in:
+  - Writing the 1st article in a series about the scope of what your going to be building
+  - Include images of how you are conceiving the API for the elements involved and the names
+  - What properties do you think you'll need
+  - What sorta of information will need to come from the backend to make this work?
+
+> EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
+# EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
+> EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
 
 
 ## Week 13 – 16: Final Project
