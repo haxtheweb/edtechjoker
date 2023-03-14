@@ -1,7 +1,3 @@
-> EVERYTHING BELOW HERE IS SUBJECT TO REVISION
-# EVERYTHING BELOW HERE IS SUBJECT TO REVISION
-> EVERYTHING BELOW HERE IS SUBJECT TO REVISION
-
 # Project 2 - Building a "Microfrontend" via a live "comp"
 Creating elements in elements, and delivering them via Vercel endpoints. The goal is to make ONE of these two UIs with searchable input
 
@@ -15,17 +11,23 @@ Creating elements in elements, and delivering them via Vercel endpoints. The goa
 - need to think of your "badge" or "collapse" as an API, and then create data in your endpoint that delivers that
 - need to design your elements to attempt to match the "comp"
 - This is not using any of your code from Project 1, but ideas translate
-- Need to leverage `@lrnwebcomponents/simple-icons` in order to get an icon library
+- Need to npm install `@lrnwebcomponents/simple-icon` in order to get an icon library
+```js
+import "@lrnwebcomponents/simple-icon/simple-icon.js";
+import "@lrnwebcomponents/simple-icon/lib/simple-icons.js";
+```
+- [Storybook about all available Icons](https://haxapi.vercel.app/?path=/story/media-icons--simple-iconset-story) - Search icons to find implementation
 
-## Option 1 - Dashboard, high level search
+## Even Numbered Groups (option 1) - Dashboard, high level search
 - Link: https://badgesapp.psu.edu/explore
 - Cards shown here as "badge"
 - Search area that then filters the "badge" listing
 ![image](https://user-images.githubusercontent.com/329735/219685741-046eee78-b044-4175-a884-9f21a200e318.png)
 
-## Option 2 - Badge list
+## Odd Numbered Groups (option 2) - Badge list
 - Search is not shown in this screenshot, but search / filtering needs to be added to it to filter the high level collapsed fieldset title
 - Collapsed fieldset that shows details below when expanded
+- to help with collapse either use the summary / details relationship from before (then style it) OR https://haxapi.vercel.app/?path=/story/navigation-collapse--a-11-y-collapse
 - Link: https://badgesapp.psu.edu/missions/45
 ![something like this](https://user-images.githubusercontent.com/329735/219682742-b9f88703-7255-481a-8c14-9e8b37e9568c.png)
 
