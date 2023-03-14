@@ -19,7 +19,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - [Week 8](https://github.com/elmsln/edtechjoker/tree/master/sp-23/week-8)
 - Week 9 - Spring break
 
-## Week 10-12: Micro frontends (project 2)
+## Week 10: Micro frontends (project 2)
 
 # Guest lecturer
 EdTechJoker
@@ -35,12 +35,16 @@ EdTechJoker
 - Playing with and deploying example from a previous IST class
 
 ## Activity to get some base concepts
-- EVERYONE. Make a new repo https://github.com/btopro/ist-vercel-demo
+- EVERYONE. Make a new repo off of https://github.com/btopro/ist-vercel-demo
+- Deploy to vercel
+- While that's happening, git clone it to your computer
+- run `npm install` then `npm start` then open another terminal and run `vercel dev`
+- Some parts won't work, some will (That's fine, it's to have a copy for the time being). it's more important to have something to trace and see the flow of information
 
 ## In between class
 - Keeping up with industry arguments: https://eisenbergeffect.medium.com/about-web-components-7b2a3ed67a78
 - Why people keep writing long artitcles like this is bc of statements like this are rampant https://twitter.com/dannymoerkerke/status/1635387397105139713
-- Watch this video to understand the concept with a different example: https://www.youtube.com/watch?v=tgZKpJhQ7os
+- Watch this video to understand what's going on here but with a different example from scratch: https://www.youtube.com/watch?v=tgZKpJhQ7os
 - We are building the front end to be more robust than this example but the same concepts apply
   - Front end asks for data or user has input
   - `fetch` hits vercel `/api` and processes information
@@ -49,11 +53,19 @@ EdTechJoker
 ## Thurs
 ## Activity 1
 - Tracing network calls and how this repo is working
-- Understanding what Vercel Magic is happening w/ Lambdas
+- Understanding what Vercel Magic is happening w/ Lambdas and JSON responses
 - Vanilla-ish which is why I have adopted (and what my definition of that is)
 
 ## Activity 2
 - Starting the spec work of scoping the front end assets
+- Take 15 minutes and start doing this with your partner / people around you if they aren't here
+  - What can we make an element? How many elements are there? What are their scopes? (Card vs Card list vs icon. things like that)
+  - What should it be called?
+  - What properties / data need exist and what types?
+  - If input could be flexible, what is a good name for the slot. Does it have more than 1 slot?
+  - What fake data / what's some example data we could use to power this? We want to print at least 8 items so we have robust example output
+  - What should the endpoint be name to be logical? `/api/whatever`
+- From this, we will collectively agree upon a contract for each option of the project (as well as see the overlap)
 
 ## Homework
 - We're going to build a very simple API from a boilerplate repo to ensure we've got the initial concept down (will post Thursday)
@@ -71,8 +83,7 @@ EdTechJoker
 # EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
 > EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
 
-
-## Week 13 – 16: Final Project
+## Week 10 – 16: Final Projects
 - Final projects laid out. Lectures / lessons / code reviews still happen but are more focused on ways of helping pairs complete the project in question.
 - Scope / requirements of each project will vary. Students will pick from one of a variety of options
 - https://github.com/elmsln/issues/labels/7B
