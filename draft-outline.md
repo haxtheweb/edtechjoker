@@ -88,17 +88,22 @@ EdTechJoker
 - Due to limitations in vercel, you'll have to run vercel builds / wire it up to your personal forks
 - A way to side-step this is 1 person hooks Vercel up to their account, everyone else gets writes on their repo and then works within branches or forks off of them
 - Have 1 partner start the repo and then you contribute to their repo. Commit logs later prove you both worked on it (dont worry about credit)
-- Repo to build off of -- https://github.com/btopro/drew-card
-- We're going to build a very simple API from a differnt boilerplate repo to ensure we've got the initial concept down
-- I've done a lot of the initial wiring. Take this repo and refactor it to
-  - Print an additional card
-  - Change the data about the cards to match your data
-  - Use your card asset instead of mine
+- Repo to pattern off of -- https://github.com/btopro/drew-card
+- Watch / follow along with this https://youtu.be/b7dcEM8qYNo -- I recommend getting together with your partner to both watch / implement and pair-program your way to victory
+- You are free to use your `card-list` repo or create a new one, or edit one of your card repos to make it work like this. Do whatever makes the most sense to you as this is practice for when we do it for project 2
+- Following along, make a repo that is able to take your card (1 of them) and then print a listing of them.
+- So instead of you hard coding the `drew-card` 5x to get 5 of them. I want you to use a `map` method as shown in the video, in order to print 5 cards from an `Array` using vercel's `/api` capability in order to achieve this.
+
 - Blog post check in:
   - Writing the 1st article in a series about the scope of what your going to be building
   - Include images of how you are conceiving the API for the elements involved and the names
   - What properties do you think you'll need
   - What sorta of information will need to come from the backend to make this work?
+  - Either using a screen cast or taking screen shots, write up the 
+
+If division of labor helps you through this, 1 person "Drives" and does the coding while another watches and helps offer feedback. At that same time, the 2nd person is the one doing the article writing and making sure that blog post 1 makes sense.
+
+** this is 1 submission per group **
 
 > EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
 # EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
