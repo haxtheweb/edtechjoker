@@ -51,8 +51,25 @@ EdTechJoker
   - response sent back and front end does something with it
 
 ## Thurs
-## Activity 1
-- Tracing network calls and how this repo is working
+## Follow along demo
+- https://github.com/elmsln/ip-project - IP Project (ignore odd name) is a demonstration of loading JSON data and running a `map` to present it in 2 different ways
+- follow along through the code to see how they relate.
+- Data is loaded when clicking the button
+- `fetch` obtains the data from a `.json` file
+- that data is loaded from the file and converted into an `Array` of `Object`s
+- Lit then sees the `Array` of items change and automatically re-renders the data 🤯
+
+## Activity 1 - Adding environmental variables to play along
+- We need to add environmental variables in order to make this work. For the purposes of this being easy, I will give you 3 key pair values in discord (if they are made public it'll get the repo potentially shut down hence I can't include them)
+- Go to your project on vercel.com and find Settings -> Environment variables
+- See the thread I made on Discord for 3 settings to put in place. Make sure you mark them as Production, Staging AND Development
+- Save. Now go to a terminal prompt for your fork on your local computer
+- type: `vercel pull` and then `vercel dev` from the git repo on your machine
+- You should have the weather in Pittsburgh and a few other cities as well as a busteed looking comment thread
+- these just loaded from endpoints in vercel!
+- Let's say hello. http://localhost:3000/api/hello?name=Bob (you may need to hit CTRL + Shift + R to make it show)
+- Look in the `/api` directory to find the associated file `hello.js`
+- Now we'll look at the other calls in the "app" to see how they work with the network trace tool
 - Understanding what Vercel Magic is happening w/ Lambdas and JSON responses
 - Vanilla-ish which is why I have adopted (and what my definition of that is)
 
@@ -68,7 +85,11 @@ EdTechJoker
 - From this, we will collectively agree upon a contract for each option of the project (as well as see the overlap)
 
 ## Homework
-- We're going to build a very simple API from a boilerplate repo to ensure we've got the initial concept down (will post Thursday)
+- Due to limitations in vercel, you'll have to run vercel builds / wire it up to your personal forks
+- A way to side-step this is 1 person hooks Vercel up to their account, everyone else gets writes on their repo and then works within branches or forks off of them
+- Have 1 partner start the repo and then you contribute to their repo. Commit logs later prove you both worked on it (dont worry about credit)
+- Repo to build off of -- https://github.com/btopro/drew-card
+- We're going to build a very simple API from a differnt boilerplate repo to ensure we've got the initial concept down
 - I've done a lot of the initial wiring. Take this repo and refactor it to
   - Print an additional card
   - Change the data about the cards to match your data
