@@ -1,4 +1,4 @@
-# Project 2 - Building a "Microfrontend" via a live "comp"
+# Project 2 (10%) - Building a "Microfrontend" via a live "comp"
 Creating elements in elements, and delivering them via Vercel endpoints. The goal is to make ONE of these two UIs with searchable input
 
 ## Requirements of each
