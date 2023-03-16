@@ -73,7 +73,8 @@ EdTechJoker
 - Understanding what Vercel Magic is happening w/ Lambdas and JSON responses
 - Vanilla-ish which is why I have adopted (and what my definition of that is)
 
-## Activity
+## Activity about Project 2 Comps
+[Project 2 Requirements](https://github.com/elmsln/edtechjoker/blob/master/sp-23/projects/project-2.md)
 - Starting the spec work of scoping the front end assets
 - Take 15 minutes and start doing this with your partner / people around you if they aren't here
   - What can we make an element? How many elements are there? What are their scopes? (Card vs Card list vs icon. things like that)
