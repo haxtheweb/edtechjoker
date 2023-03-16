@@ -51,7 +51,7 @@ EdTechJoker
   - response sent back and front end does something with it
 
 ## Thurs
-## Follow along demo
+## Follow along demo 1
 - https://github.com/elmsln/ip-project - IP Project (ignore odd name) is a demonstration of loading JSON data and running a `map` to present it in 2 different ways
 - follow along through the code to see how they relate.
 - Data is loaded when clicking the button
@@ -59,7 +59,7 @@ EdTechJoker
 - that data is loaded from the file and converted into an `Array` of `Object`s
 - Lit then sees the `Array` of items change and automatically re-renders the data 🤯
 
-## Activity 1 - Adding environmental variables to play along
+## Follow along demo 2 - Adding environmental variables to play along
 - We need to add environmental variables in order to make this work. For the purposes of this being easy, I will give you 3 key pair values in discord (if they are made public it'll get the repo potentially shut down hence I can't include them)
 - Go to your project on vercel.com and find Settings -> Environment variables
 - See the thread I made on Discord for 3 settings to put in place. Make sure you mark them as Production, Staging AND Development
@@ -73,7 +73,7 @@ EdTechJoker
 - Understanding what Vercel Magic is happening w/ Lambdas and JSON responses
 - Vanilla-ish which is why I have adopted (and what my definition of that is)
 
-## Activity 2
+## Activity
 - Starting the spec work of scoping the front end assets
 - Take 15 minutes and start doing this with your partner / people around you if they aren't here
   - What can we make an element? How many elements are there? What are their scopes? (Card vs Card list vs icon. things like that)
