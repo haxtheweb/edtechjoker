@@ -101,7 +101,7 @@ EdTechJoker
   - What sorta of information will need to come from the backend to make this work?
   - Either using a screen cast or taking screen shots, write up the 
 
-If division of labor helps you through this, 1 person "Drives" and does the coding while another watches and helps offer feedback. At that same time, the 2nd person is the one doing the article writing and making sure that blog post 1 makes sense.
+If division of labor helps you through this, 1 person "Drives" and does the coding while another watches and helps offer feedback. At that same time, the 2nd person is the one doing the article writing and making sure that blog post 1 makes sense. **if there are people not participating I am aware and will divide appropriately**
 
 ** this is 1 submission per group **
 
