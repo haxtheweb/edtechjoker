@@ -86,6 +86,10 @@ EdTechJoker
 - From this, we will collectively agree upon a contract for each option of the project (as well as see the overlap)
 
 ## Homework
+**this is 1 submission per group**
+**NOTE** Homework is two parts. You are using Project 1 as a basis to do this homework. *project 1 and project 2 are NOT building on each other*. The meat of your article is about this new project you are starting.
+
+## HW Part 1 - coding (as concept practice)
 - Due to limitations in vercel, you'll have to run vercel builds / wire it up to your personal forks
 - A way to side-step this is 1 person hooks Vercel up to their account, everyone else gets writes on their repo and then works within branches or forks off of them
 - Have 1 partner start the repo and then you contribute to their repo. Commit logs later prove you both worked on it (dont worry about credit)
@@ -95,16 +99,18 @@ EdTechJoker
 - Following along, make a repo that is able to take your card (1 of them) and then print a listing of them.
 - So instead of you hard coding the `drew-card` 5x to get 5 of them. I want you to use a `map` method as shown in the video, in order to print 5 cards from an `Array` using vercel's `/api` capability in order to achieve this.
 
-- Blog post check in:
-  - Writing the 1st article in a series about the scope of what your going to be building
-  - Include images of how you are conceiving the API for the elements involved and the names
-  - What properties do you think you'll need
-  - What sorta of information will need to come from the backend to make this work?
-  - Either using a screen cast or taking screen shots, write up the 
+## HW Part 2 - writing -- Blog post check in: Scoping Project 2:
+- Writing the 1st article in a series about the scope of what your going to be building
+- Include images of how you are conceiving the API for the elements involved and the names
+- What properties do you think you'll need
+- What sort of information will need to come from the backend to make this work?
+- Either using a screen cast, taking screen shots, links to your code, show how you'll apply concepts from the Homework
+- Relate it to what you'll have to do in order to pull this off for Project 2
+- Article one is a focus on scope and the activity we did in class. What is the project, what will things be named, how will you initially conceive of attacking the problem
+
+This is worth 3 points; much like last project though, HW's will help in completing the project more easily while comprehending what's going on along the way.
 
 If division of labor helps you through this, 1 person "Drives" and does the coding while another watches and helps offer feedback. At that same time, the 2nd person is the one doing the article writing and making sure that blog post 1 makes sense. **if there are people not participating I am aware and will divide appropriately**
-
-** this is 1 submission per group **
 
 > EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
 # EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
