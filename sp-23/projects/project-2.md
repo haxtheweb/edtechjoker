@@ -1,4 +1,4 @@
-# Project 2 (10%) - Building a "Microfrontend" via a live "comp"
+# Project 2 (13%) - Building a "Microfrontend" via a live "comp"
 Creating elements in elements, and delivering them via Vercel endpoints. The goal is to make ONE of these two UIs with searchable input
 
 ## Requirements of each
@@ -31,6 +31,20 @@ import "@lrnwebcomponents/simple-icon/lib/simple-icons.js";
 - Link: https://badgesapp.psu.edu/missions/45
 ![something like this](https://user-images.githubusercontent.com/329735/219682742-b9f88703-7255-481a-8c14-9e8b37e9568c.png)
 
+## Rubric 13% overall grade
+- CSS matches comp and is (reasonably) mobile responsive **(3%)**
+  - CSS variables / parts for flexibility
+  - matches the design as perfectly as possible
+  - no unused CSS / all selectors are scoped to the element they are part of
+- HTML is semantic, simple as possible **(2%)**
+  - if collapse, uses a semantic tag for collapse (or a11y-collapse) or equivalant
+  - if badge, simple div structure without overuse of Headings
+- badge / "requirement collapse" is stateful, well made and scoped appropriately **(4%)**
+  - Implements simple-icon via property
+  - search / other elemenets to break up the code is logical (search could be simple-field or a well designed input tag)
+- JS to Search `/api` endpoint is stateful, it's own element + vercel deployed endpoint that renders badges/requirements based on results **(4%)** 
+  - element that performs the fetch based on an input tag being updated
+  - backend needs to take in search parameter and only return results matching (backend should have at least 10 results for searchability)
 
 ## Check ins
 - Home work check ins each week will involve documenting the process of building this microfrontend.
