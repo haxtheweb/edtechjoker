@@ -31,6 +31,11 @@ import "@lrnwebcomponents/simple-icon/lib/simple-icons.js";
 - Link: https://badgesapp.psu.edu/missions/45
 ![something like this](https://user-images.githubusercontent.com/329735/219682742-b9f88703-7255-481a-8c14-9e8b37e9568c.png)
 
+## Search
+Search happens in EITHER option (option 2, look at screen in option 1 for what search should look like)
+Some options on search to either do it via a drop down for "type" of search (more front end work) OR a magic search that finds things regardless of how they are structured on the backend (a little more backend work)
+![image](https://cdn.discordapp.com/attachments/1047225346061246535/1087779467096760410/rn_image_picker_lib_temp_387f1401-11db-4c51-b83e-724b21165711.jpg)
+
 ## Rubric 13% overall grade
 - CSS matches comp and is (reasonably) mobile responsive **(3%)**
   - CSS variables / parts for flexibility
