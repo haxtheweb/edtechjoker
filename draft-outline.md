@@ -21,6 +21,10 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - [Week 10](https://github.com/elmsln/edtechjoker/tree/master/sp-23/week-10)
 
 # Week 11
+## Quick code walk through exercise
+- input vs change event
+- https://codepen.io/btopro/pen/XWPxNKj?editors=1111
+
 ## Activity - start on project 2
 - [Project 2 requirements
 ](https://github.com/elmsln/edtechjoker/blob/master/sp-23/projects/project-2.md)
