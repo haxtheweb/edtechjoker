@@ -51,14 +51,52 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - If you didn't submit your work last week as a blog post, please do so
 - 2nd post in the series focused on how you are concieving the API for your element both on the frontend and backend
 - Screens of your current progression visually on your element
+- Write from the perspective of including answers to these questions:
+  - How did you start?
+  - What did you decide to attack first?
+  - What issues have you had?
+  - What concepts translated from Project 1's card?
+  - What's your next priority?
+  - What problems are you unsure of how to solve?
+
+## Week 12 - Project 2 Critique and feedback
+- In class reivew of some in-progress work
+
+## Tues
+- More time to work, ask questions, run into problems
+- Using async await + Booleans to show loading
+- How to test loading in slow environments
+
+## Thurs
+- Accesibility considerations
+- More time to work
+
+## Homework
+- More code check in / progress. By this weekend your app should be wired up, rendering badge / collapses and feel like it's almost working
+- Blog post about progression you've made
+- How did you get the relationship between Searching and rendering results working
+- Draw a diagram on draw.io for user interaction pattern. What happens from user input, through machine sending value, to re-rendering on the page
+- Think of a real world use-case from industry (Media streaming, youtube, corporate, cable company provider, web platform, etc) where micro-service architecture could fit into their business context. How could we use this approach to solve a real problem at a company currently using a monolithic design architecture?
+
+## Week 13 - Project 2 Due; begin scoping Project 3
+- More feedback
+- More time to work in class
+## Tues
+- Review of Project 3 optionst
+
+## Thurs
+- Selection of Project 3 / scoping and asking questions (in class)
+- More time to work
+
+## Homework
+- Finished badge app submitted to vercel
+- Final blog post wrapping up the project and pointing to your code / running demo for others to enjoy
+- What was the hardest aspect of this?
+- What part of this project was easier than you expected?
 
 > EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
 # EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
 > EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
-
-## Week 12 - Project 2 Critique and feedback
-
-## Week 13 - Project 2 Due; begin scoping Project 3
 
 ## Week 14 – 16: Final Projects
 - Final projects laid out. Lectures / lessons / code reviews still happen but are more focused on ways of helping pairs complete the project in question.
@@ -66,11 +104,8 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - https://github.com/elmsln/issues/labels/7B
 - Check ins / progression expectations each week
 - MobX / State management practice
-65
 - Routing
-66
 - localStorage
-67
 - Peformance enhancements
 
 ## Week 17: Final project due Tuesday of Finals week
