@@ -27,13 +27,14 @@ import "@lrnwebcomponents/simple-icon/lib/simple-icons.js";
 ## Odd Numbered Groups (option 2) - Badge list
 - Search is not shown in this screenshot, but search / filtering needs to be added to it to filter the high level collapsed fieldset title
 - Collapsed fieldset that shows details below when expanded
+- replace the image in this comp with a `simple-icon` (mentioned above)
 - to help with collapse either use the summary / details relationship from before (then style it) OR https://haxapi.vercel.app/?path=/story/navigation-collapse--a-11-y-collapse
 - Link: https://badgesapp.psu.edu/missions/45
 ![something like this](https://user-images.githubusercontent.com/329735/219682742-b9f88703-7255-481a-8c14-9e8b37e9568c.png)
 
 ## Search
 Search happens in EITHER option (option 2, look at screen in option 1 for what search should look like)
-Some options on search to either do it via a drop down for "type" of search (more front end work) OR a magic search that finds things regardless of how they are structured on the backend (a little more backend work)
+Some options on search to either do it via a drop down for "type" of search (more front end work) OR a magic search that finds things regardless of how they are structured on the backend (a little more backend work). Data coming from here for your `icon` could just be a property that uses any `icon` name you feel like from the documentation site (referenced above) `icons:save` for example.
 ![image](https://cdn.discordapp.com/attachments/1047225346061246535/1087779467096760410/rn_image_picker_lib_temp_387f1401-11db-4c51-b83e-724b21165711.jpg)
 
 ## Rubric 13% overall grade
