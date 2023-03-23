@@ -17,6 +17,7 @@ import "@lrnwebcomponents/simple-icon/simple-icon.js";
 import "@lrnwebcomponents/simple-icon/lib/simple-icons.js";
 ```
 - [Storybook about all available Icons](https://haxapi.vercel.app/?path=/story/media-icons--simple-iconset-story) - Search icons to find implementation
+- [Storybook for implementing a single icon](https://haxapi.vercel.app/?path=/story/media-icons--simple-icon-story)
 
 ## Even Numbered Groups (option 1) - Dashboard, high level search
 - Link: https://badgesapp.psu.edu/explore
