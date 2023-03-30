@@ -42,6 +42,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - How did you get the relationship between Searching and rendering results working
 - Draw a diagram on draw.io for user interaction pattern. What happens from user input, through machine sending value, to re-rendering on the page
 - Think of a real world use-case from industry (Media streaming, youtube, corporate, cable company provider, web platform, etc) where micro-service architecture could fit into their business context. How could we use this approach to solve a real problem at a company currently using a monolithic design architecture?
+- More questions you have / things your stuck on
 
 ## Week 13 - Project 2 Due; begin scoping Project 3
 - More feedback
@@ -51,7 +52,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 
 ## Thurs
 - Selection of Project 3 / scoping and asking questions (in class)
-- More time to work
+- More time to work on project 2
 
 ## Homework
 - Finished badge app submitted to vercel
@@ -64,14 +65,11 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 > EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
 
 ## Week 14 – 16: Final Projects
-- Final projects laid out. Lectures / lessons / code reviews still happen but are more focused on ways of helping pairs complete the project in question.
-- Scope / requirements of each project will vary. Students will pick from one of a variety of options
+- Final projects laid out. Scope / requirements of each project will vary. Students will pick from one of a variety of options
 - https://github.com/elmsln/issues/labels/7B
 - Check ins / progression expectations each week
-- MobX / State management practice
-- Routing
-- localStorage
-- Peformance enhancements
+- this is 30% of the course so treat it like a real world problem you are solving
+- if you crush this, crush the course and enjoy the projects section, this is what independent studies are with me except the whole semester (3 credit 400 level course)
 
 ## Week 17: Final project due Tuesday of Finals week
 - Class held for last minute office hours / debugging
