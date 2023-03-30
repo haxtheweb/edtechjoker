@@ -19,6 +19,11 @@ import "@lrnwebcomponents/simple-icon/lib/simple-icons.js";
 - [Storybook about all available Icons](https://haxapi.vercel.app/?path=/story/media-icons--simple-iconset-story) - Search icons to find implementation
 - [Storybook for implementing a single icon](https://haxapi.vercel.app/?path=/story/media-icons--simple-icon-story)
 
+### Making icons work on vercel
+Because of performance enhancements in the icon library and "tree shaking" in open-wc (via rollup) the following plugin is needed in your project `rollup-plugin-copy` . Here are 2 Pull requests I applied elsewhere so you can seee the changes required for this to work.
+- https://github.com/Pandaalifter/badge-list/pull/1/files
+- https://github.com/Pandaalifter/badge-list/pull/2/files
+
 ## Even Numbered Groups (option 1) - Dashboard, high level search
 - Link: https://badgesapp.psu.edu/explore
 - Cards shown here as "badge"
