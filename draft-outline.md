@@ -44,7 +44,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - Think of a real world use-case from industry (Media streaming, youtube, corporate, cable company provider, web platform, etc) where micro-service architecture could fit into their business context. How could we use this approach to solve a real problem at a company currently using a monolithic design architecture?
 - More questions you have / things your stuck on
 
-## Week 13 - Project 2 Due; begin scoping Project 3
+## Week 13 - Project 2 Due April 9th; begin scoping Project 3
 - More feedback
 - More time to work in class
 ## Tues
