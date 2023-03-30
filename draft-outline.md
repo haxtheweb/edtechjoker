@@ -34,6 +34,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 
 ## Thurs
 - Accesibility considerations
+- https://wave.webaim.org/
 - More time to work
 
 ## Homework
@@ -48,7 +49,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - More feedback
 - More time to work in class
 ## Tues
-- Review of Project 3 optionst
+- Review of Project 3 options
 
 ## Thurs
 - Selection of Project 3 / scoping and asking questions (in class)
