@@ -1,5 +1,8 @@
 # Project 2 (13%) - Building a "Microfrontend" via a live "comp"
 Creating elements in elements, and delivering them via Vercel endpoints. The goal is to make ONE of these two UIs with searchable input
+- drew-card rendered based on endpoint - https://www.youtube.com/watch?v=b7dcEM8qYNo
+- input vs change event - https://codepen.io/btopro/pen/XWPxNKj?editors=1111
+- making an endpoint in vercel - https://www.youtube.com/watch?v=tgZKpJhQ7os
 
 ## Requirements of each
 - Get account: https://badgesapp.psu.edu/
