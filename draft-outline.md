@@ -33,6 +33,13 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 
 - example (Pull request) to get search to talk to the higher app -- https://github.com/AaronLobitana/badge-search/pull/1
 
+tag stack
+![image](https://user-images.githubusercontent.com/329735/229645934-d0818590-deb2-4ec3-aa3a-b42eea609485.png)
+
+event flow
+![image](https://user-images.githubusercontent.com/329735/229646551-9d169c0e-be03-48b5-a18a-60bad17b3e75.png)
+
+
 ## Tues
 - More time to work in class
 
