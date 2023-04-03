@@ -20,44 +20,29 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - Week 9 - Spring break
 - [Week 10](https://github.com/elmsln/edtechjoker/tree/master/sp-23/week-10)
 - [Week 11](https://github.com/elmsln/edtechjoker/tree/master/sp-23/week-11)
-
-## Week 12 - Project 2 Critique and feedback
-- In class reivew of some in-progress work
-
-## Tues
-- Crit / feedback
-- Super-Daemon concept demo
-  - Using async await + Booleans to show loading
-  - How to test loading in slow environments
-  - Creating an "index" from multiple values to apply search / filter against
-- More time to work, ask questions, run into problems
-
-## Thurs
-- Accesibility considerations
-- https://wave.webaim.org/
-- More time to work
-
-## Homework
-- More code check in / progress. By this weekend your app should be wired up, rendering badge / collapses and feel like it's almost working
-- Blog post about progression you've made
-- How did you get the relationship between Searching and rendering results working
-- Draw a diagram on draw.io for user interaction pattern. What happens from user input, through machine sending value, to re-rendering on the page
-- Think of a real world use-case from industry (Media streaming, youtube, corporate, cable company provider, web platform, etc) where micro-service architecture could fit into their business context. How could we use this approach to solve a real problem at a company currently using a monolithic design architecture?
-- More questions you have / things your stuck on
+- [Week 12](https://github.com/elmsln/edtechjoker/tree/master/sp-23/week-12)
 
 ## Week 13 - Project 2 Due April 9th; begin scoping Project 3
-- More feedback
-- More time to work in class
+### High Level how you should be approaching this
+- Generally we want dumb components that are design oriented and smart components that bring them to life
+- Badge element (visually)
+- Badge List element (Array, map'ed and prints Badge element)
+- Search element (visually)
+- "app" element that listens to events on search (input), does the searching in `/api/search`, and then takes those results and prop drills them into the Badge List element (which then prints them out)
+- Logic could happen in your `index.html` but might be easier to manage events in a `badge-app` level element so that top document is just `<badge-app>`
+
 ## Tues
-- Review of Project 3 options
+- More time to work in class
 
 ## Thurs
+- Review of Project 3 options
 - Selection of Project 3 / scoping and asking questions (in class)
 - More time to work on project 2
 
 ## Homework
 - Finished badge app submitted to vercel
 - Final blog post wrapping up the project and pointing to your code / running demo for others to enjoy
+- How many elements did you end up going with? Why did you break it up that way?
 - What was the hardest aspect of this?
 - What part of this project was easier than you expected?
 
