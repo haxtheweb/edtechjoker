@@ -65,5 +65,5 @@ event flow
 - this is 30% of the course so treat it like a real world problem you are solving
 - if you crush this, crush the course and enjoy the projects section, this is what independent studies are with me except the whole semester (3 credit 400 level course)
 
-## Week 17: Final project due Tuesday of Finals week
+## Week 17: Final project due Wed of Finals week
 - Class held for last minute office hours / debugging
