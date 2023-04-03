@@ -5,7 +5,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 # Project requirements
 - [Project 1 Requirements](https://github.com/elmsln/edtechjoker/blob/master/sp-23/projects/project-1.md)
 - [Project 2 Requirements](https://github.com/elmsln/edtechjoker/blob/master/sp-23/projects/project-2.md)
-- Project 3 Requirements
+- [Project 3 Requirements](https://github.com/elmsln/edtechjoker/blob/master/sp-23/projects/project-3.md)
 
 # Schedule
 
@@ -35,8 +35,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - More time to work in class
 
 ## Thurs
-- Review of Project 3 options
-- Selection of Project 3 / scoping and asking questions (in class)
+- Review of Project 3 options. Select the option you want to do for Project 3 by the weekend. Do this by claiming it in the issue queue. max of 10 per project (2 projects may have 11, all must have 10 1st)
 - More time to work on project 2
 
 ## Homework
