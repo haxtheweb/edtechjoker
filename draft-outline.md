@@ -31,6 +31,8 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - "app" element that listens to events on search (input), does the searching in `/api/search`, and then takes those results and prop drills them into the Badge List element (which then prints them out)
 - Logic could happen in your `index.html` but might be easier to manage events in a `badge-app` level element so that top document is just `<badge-app>`
 
+- example (Pull request) to get search to talk to the higher app -- https://github.com/AaronLobitana/badge-search/pull/1
+
 ## Tues
 - More time to work in class
 
