@@ -14,8 +14,9 @@ For this project, you'll be selecting a real issue from our project's issue queu
 - There are _individual requirements for each project_ and general high level requirements listed on this page.
 - If there are unknowns, details should be teased out on discord or in the issue queue for this issue
 - **This is an individual assignment. There are 5 projects, 53 in the class, that's ~10 solutions per project** 
-- We will get into larger groups to swap ideas and come up with the problems / requirements for each project
-- There will be a limit of 12 per project (or 6 pairs if you both want to work on it, though the work is individual)
+  - We will get into larger groups in class to swap ideas and do reviews together
+  - There will be a limit of 12 per project (or 6 pairs if you both want to work on it, **though the work is individual**)
+  - Solutions within the larger group will be somewhat similar at times, this isn't a bad thing, but blatant copying is pretty obvious as I review and is unacceptable.
 
 ## Requirements regardless of project selection
 - [ ] Small gist style check in weekly answering the following: What did you do? What do you need advisement on? Link to code repo for specific questions.
