@@ -18,17 +18,17 @@ For this project, you'll be selecting a real issue from our project's issue queu
 - There will be a limit of 12 per project (or 6 pairs if you both want to work on it, though the work is individual)
 
 ## Requirements regardless of project selection
-- [ ] Blog about the problem space and progress made each week as check ins. Small form writing, 3 paragraphs at most, screen shots / code samples / links off to demo.
+- [ ] Small gist style check in weekly answering the following: What did you do? What do you need advisement on?
 - [ ] Open-WC / Lit based, vercel as a stand alone demo but shown on an example page made
 - [ ] **worked on and submitted individually**
 - [ ] Create a group on Discord for your tag name. As I am the "client" for all 5 of these, make sure to ask questions of other people working on the problem 1st, THEN if it's a question of requirements / being lost, ask this question and @ me there.
 - [ ] I will give specific feedback about specific problems and questions
 
 ## Rubric
-- Does the project meet the requirements laid out in the specification for the project 26%
-  - CSS, DESIGN based requirements met. Does it look like what was requested? 8%
+- Does the project meet the requirements laid out in the specification for the project 27%
+  - CSS, DESIGN based requirements met. Does it look like what was requested either exactly or as interpretted? 8%
   - Is it Accessible? Did it meet the accessibility requirements spelled out and does it have any obvious a11y errors? 4%
-  - Did you implement the code that was asked to be reused (sub-class / superclass usage, elements from our library, JSON to load content etc)? 4%
+  - Did you implement the code that was asked to be reused (sub-class / superclass usage, elements from our library, JSON to load content etc)? 5%
   - Did you implement the properties to make this truly reusable? Does it implement custom events correctly when logical? 5%
   - Is it using Vercel for the demo? Does the demo work? Does it meet requirements based on feedback and is it a complete working solution? 5%
-- Blog posts, 4 total, 1 each weekend + 1 as part of finished product. Is your writing clear as to what you're building and what problem you were trying to solve? - 4%
+- Small gist status checks. (Every Sunday, 3 of them) - 3%
