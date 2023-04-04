@@ -48,6 +48,7 @@ event flow
 - More time to work on project 2
 
 ## Homework
+- Review the available project options for [Project 3](https://github.com/elmsln/edtechjoker/blob/master/sp-23/projects/project-3.md) (we start it next week) and respond in the issue queue for which issue you are claiming (max 10 per item)
 - Finished badge app submitted to vercel
 - Final blog post wrapping up the project and pointing to your code / running demo for others to enjoy
 - How many elements did you end up going with? Why did you break it up that way?
