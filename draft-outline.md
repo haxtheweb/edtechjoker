@@ -54,16 +54,14 @@ event flow
 - What was the hardest aspect of this?
 - What part of this project was easier than you expected?
 
-> EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
-# EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
-> EVERYTHING BELOW HERE IS SUBJECT TO CHANGE
+
 
 ## Week 14 – 16: Final Projects
 - Final projects laid out. Scope / requirements of each project will vary. Students will pick from one of a variety of options
-- https://github.com/elmsln/issues/labels/7B
-- Check ins / progression expectations each week
+- [See Project 3 Requirements document](https://github.com/elmsln/edtechjoker/blob/master/sp-23/projects/project-3.md)
+- Check ins / progression expectations each week (1% each, simple status check to see what questions you have)
 - this is 30% of the course so treat it like a real world problem you are solving
 - if you crush this, crush the course and enjoy the projects section, this is what independent studies are with me except the whole semester (3 credit 400 level course)
 
 ## Week 17: Final project due Wed of Finals week
-- Class held for last minute office hours / debugging
+- Optional Class held Tuesday of finals week for last minute office hours
