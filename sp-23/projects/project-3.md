@@ -18,7 +18,7 @@ For this project, you'll be selecting a real issue from our project's issue queu
 - There will be a limit of 12 per project (or 6 pairs if you both want to work on it, though the work is individual)
 
 ## Requirements regardless of project selection
-- [ ] Small gist style check in weekly answering the following: What did you do? What do you need advisement on?
+- [ ] Small gist style check in weekly answering the following: What did you do? What do you need advisement on? Link to code repo for specific questions.
 - [ ] Open-WC / Lit based, vercel as a stand alone demo but shown on an example page made
 - [ ] **worked on and submitted individually**
 - [ ] Create a group on Discord for your tag name. As I am the "client" for all 5 of these, make sure to ask questions of other people working on the problem 1st, THEN if it's a question of requirements / being lost, ask this question and @ me there.
