@@ -24,10 +24,16 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - [Week 13](https://github.com/elmsln/edtechjoker/tree/master/sp-23/week-13)
 
 ## Week 14
-Tues
+## Tues
 - project scope
 - Turn into issue queue drawings and other media associated with what your making
 - properties requirements, gists, code samples, anything to help in building this
+## Wed
+- link to any code repos starting into the task at hand
+- use issue queue to bridge this communication
+
+## Thurs Code
+- review of things there, feedback, keep building
 
 ## Week 14 – 16: Final Projects
 - Final projects laid out. Scope / requirements of each project will vary. Students will pick from one of a variety of options
