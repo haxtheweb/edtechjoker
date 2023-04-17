@@ -29,7 +29,7 @@ For this project, you'll be selecting a real issue from our project's issue queu
 - Does the project meet the requirements laid out in the specification for the project 27%
   - CSS, DESIGN based requirements met. Does it look like what was requested either exactly or as interpretted? 8%
   - Is it Accessible? Did it meet the accessibility requirements spelled out and does it have any obvious a11y errors? 4%
-  - Did you implement the code that was asked to be reused (sub-class / superclass usage, elements from our library, JSON to load content etc)? 5%
+  - Did you implement the code that was asked to be reused (sub-class / superclass usage, elements from our library, JSON to load content [if requested] etc)? 5%
   - Did you implement the properties to make this truly reusable? Does it implement custom events correctly when logical? 5%
   - Is it using Vercel for the demo? Does the demo work? Does it meet requirements based on feedback and is it a complete working solution? 5%
 - Small gist status checks. (Every Sunday, 3 of them) - 3%
