@@ -22,18 +22,7 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - [Week 11](https://github.com/elmsln/edtechjoker/tree/master/sp-23/week-11)
 - [Week 12](https://github.com/elmsln/edtechjoker/tree/master/sp-23/week-12)
 - [Week 13](https://github.com/elmsln/edtechjoker/tree/master/sp-23/week-13)
-
-## Week 14
-## Tues
-- project scope
-- Turn into issue queue drawings and other media associated with what your making
-- properties requirements, gists, code samples, anything to help in building this
-## Wed
-- link to any code repos starting into the task at hand
-- use issue queue to bridge this communication
-
-## Thurs Code
-- review of things there, feedback, keep building
+- [Week 14](https://github.com/elmsln/edtechjoker/tree/master/sp-23/week-14)
 
 ## Week 15
 ## Tues:
@@ -42,7 +31,17 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - Hit me up in the issue queue with these once I say and I'll review
 - Keep working
 
-## Week 14 – 16: Final Projects
+## Thurs
+- quick review of a repo and why "statefulness" matters.
+- https://inline-audio-mocha.vercel.app/
+- After 8 minutes of work I have this
+
+![image](https://user-images.githubusercontent.com/329735/233409223-292b69f7-fd8e-49bf-8a3d-9c1a48038695.png)
+
+![image](https://user-images.githubusercontent.com/329735/233409201-4e207655-3b7f-4e2c-ae62-a0fb6b7a8823.png)
+
+
+## Week 16: Final Projects
 - Final projects laid out. Scope / requirements of each project will vary. Students will pick from one of a variety of options
 - [See Project 3 Requirements document](https://github.com/elmsln/edtechjoker/blob/master/sp-23/projects/project-3.md)
 - Check ins / progression expectations each week (1% each, simple status check to see what questions you have)
