@@ -43,11 +43,13 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 
 *Submit the link to your GIST using the Cantvas HW 1 Dropbox*
 
-~~~ EVERYTHING BELOW THIS LINE IS SUBJECT TO CHANGE ~~~
+# EVERYTHING BELOW THIS LINE IS SUBJECT TO CHANGE BASED ON COURSE PROGRESS
+
+~~~~~~
 
 # Week 2: Git / Github 
 - Git lecture + feedback from last assignment
-- Slides: https://docs.google.com/presentation/d/1zDuXtOf2EwwG3RzczyohsgU_GC0tfXvGitI9decDr6I/edit?usp=sharing
+- Slides: https://docs.google.com/presentation/d/1FGsxBAKmnr9fIdtEx8f4T9ORRWp1KAUTh01dAbps940/edit?usp=sharing
 - Git activity in class
 - Exercise to do between Tues and Thurs to jump start on hw
 
@@ -432,3 +434,5 @@ Try your best, ask questions. We're going to go from complex / big idea / world 
 
 ## Week 17: Final project due Wed of Finals week
 - Optional Class held Tuesday of finals week for last minute office hours
+
+~~~~~~
