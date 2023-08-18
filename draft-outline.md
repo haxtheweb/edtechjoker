@@ -1,26 +1,434 @@
 # Draft outline
 This is a draft of the course. The topics we'll cover and the order. It will be established and modified based on student needs and how things are going / what people ask for as far as needing things that match the trajectory we're on.
 - [Resource for reviewing concepts](https://youtube.com/playlist?list=PLJQupiji7J5efO_Q5VGZcPE4O_TM_HGP4)
+- [Common issues, run through this before talking to me plz](common-issues.md)
 
 # Project requirements
-- [Project 1 Requirements](https://github.com/elmsln/edtechjoker/blob/master/sp-23/projects/project-1.md)
-- [Project 2 Requirements](https://github.com/elmsln/edtechjoker/blob/master/sp-23/projects/project-2.md)
-- [Project 3 Requirements](https://github.com/elmsln/edtechjoker/blob/master/sp-23/projects/project-3.md)
+Project 1 is well established. Based on our progress and class skill I throttle how the projects beyond that go as far as number, scope, and focus.
+- [Project 1 Requirements](fa-23/projects/project-1.md) - this is a draft and will change
+- Project 2
+- Project 3..5
+
 
 # Schedule
+This schedule will be modified as we go. Look to it for what we are doing in clas that day / week. This becomes more refined as we get closer to the dates. I modulate based on needing to remediate on concepts of adding concepts based on how far we get that week.
 
-- [Week 1](https://github.com/elmsln/edtechjoker/tree/master/sp-23/week-1)
-- [Week 2](https://github.com/elmsln/edtechjoker/tree/master/sp-23/week-2)
-- [Week 3](https://github.com/elmsln/edtechjoker/tree/master/sp-23/week-3)
-- [Week 4](https://github.com/elmsln/edtechjoker/tree/master/sp-23/week-4)
-- [Week 5](https://github.com/elmsln/edtechjoker/tree/master/sp-23/week-5)
-- [Week 6](https://github.com/elmsln/edtechjoker/tree/master/sp-23/week-6)
-- [Week 7](https://github.com/elmsln/edtechjoker/tree/master/sp-23/week-7)
-- [Week 8](https://github.com/elmsln/edtechjoker/tree/master/sp-23/week-8)
-- Week 9 - Spring break
-- [Week 10](https://github.com/elmsln/edtechjoker/tree/master/sp-23/week-10)
-- [Week 11](https://github.com/elmsln/edtechjoker/tree/master/sp-23/week-11)
-- [Week 12](https://github.com/elmsln/edtechjoker/tree/master/sp-23/week-12)
-- [Week 13](https://github.com/elmsln/edtechjoker/tree/master/sp-23/week-13)
-- [Week 14](https://github.com/elmsln/edtechjoker/tree/master/sp-23/week-14)
-- [Week 15-17](https://github.com/elmsln/edtechjoker/tree/master/sp-23/week-15-17)
+
+# Week 1: Welcome to class
+- Tues: Welcome and syllabus day
+- https://docs.google.com/presentation/d/1COF18kEgkrr25gxVEYNjL8aPgYrH5XoFMngiu1i_T8o/edit?usp=sharing
+- between class: https://oer.hax.psu.edu/bto108/sites/ist256/requirements - get accounts on these services, start installing this software
+- Thurs: Get basic structure around code, fundamentals and playing with stuff
+
+## Homework
+- Create an account on https://github.com 
+- Create accounts on the services listed here: https://oer.hax.psu.edu/bto108/sites/ist256/requirements
+- Create a PUBLIC Gist on https://gist.github.com/  called week-1.md (so that you can write markdown)
+- Watch the following video / have it open in another tab: https://youtu.be/DWvRV9KuTjk 
+- Write responses using Markdown (Look it up if you don't know how to do it but bottom right corner in gist will have a `M^` button w/ details):
+  - If the question is a simple answer / response. Then make it a HEADING using markdown for the question `## `
+  - If the question has multiple responses (like 5 syntaxes) then make the question a HEADING level 2, but the responses using a bulleted list (look this up)
+  - If you end up adding a code sample, use the ` ``` ` three back ticks syntax in order to show the code in a block.
+- Questions to answer
+  - Was the backend or frontend responsible for the bug in the video?
+  - What languages do you see in this video? List ALL of them. If you're not sure what the language is, but you know there's an additional one, indicate that.
+  - What tools, strategies, and workflows used in the video do you think are common across all web development?
+  - What strategies used in the video help with debugging?
+  - What strategies have you used before that are shown here for debugging?
+  - What tools and approaches used in the video do you think help in quality control / quality assurance?
+  - What are 5 syntaxes / pieces of code shown you DO recognize (could be of any scale or size), time stamp (link) or screenshot it and list what they are them. (screen shots can be drag and dropped into the comment area below your gist)
+  - What are 5 syntaxes / pieces of code shown you DON'T recognize, time stamp (link) or screenshot it and list what they are them. (screen shots can be drag and dropped into the comment area below your gist)
+  - You just wrote responses to these questions in Markdown. What even is that? (insert meme here :p). What is Markdown and how is it similar, different, or related to HTML?
+  - What are 3 things you CAN NOT do in markdown that you CAN do in HTML?
+
+*Submit the link to your GIST using the Cantvas HW 1 Dropbox*
+
+~~~ EVERYTHING BELOW THIS LINE IS SUBJECT TO CHANGE ~~~
+
+# Week 2: Git / Github 
+- Git lecture + feedback from last assignment
+- Slides: https://docs.google.com/presentation/d/1zDuXtOf2EwwG3RzczyohsgU_GC0tfXvGitI9decDr6I/edit?usp=sharing
+- Git activity in class
+- Exercise to do between Tues and Thurs to jump start on hw
+
+## HTML / CSS fundamentals
+### Do for Thurs to get ahead on HW
+- Part 1 listed below
+
+## Thursday
+- https://github.com/elmsln/edtechjoker/pull/73 -- note that PR's keep piling up commits until they are merged
+- Slide deck for Thurs which I will run through quickly https://docs.google.com/presentation/d/1xjySD9ZTVXYW_o9YPrt-wgBHDBM4acaYswaxJ1t83oU/edit?usp=sharing
+
+## Homework
+Two-part homework this week; we will have time in class Thurs to start and then Tues the focus will be critique via submissions generated by the class.
+
+### Part 1
+- Fork this pen on codepen https://codepen.io/btopro/pen/gOjGpam
+- Try to make more than 1 meme by duplicating the HTML portion of the code
+- Modify the text / image used in the meme on the HTML portion
+- Try to modify the font-size using the CSS tab.
+- Make a new gist where you try to answer the following questions
+  - Provide a Link to your fork of the codepen
+  - Can you change the font color? If not, where do you think it is that being set
+  - Look at the constructor() what does this do?
+  - Look at @media in styles() what does this do?
+  - Look at the render method, is this convention "vanilla" (built in) or do you think a library is delivering this?
+
+### Part 2:
+- Working with your partner, come up with an agreed upon visual as to how you'd conceive the following problem
+- model things after the screenshot / pen and paper copy you came up with
+
+Create a new codepen from scratch and try to create a "card" using a mix of semantic, div and other tags to lay the card out:
+- Create a simple “card” using a few SECTION or DIV tags, a Heading for the title, a Paragraph for description of the image an IMG for an image, and a button on the card that says "Details" which links to hax.psu.edu
+- Make the image a fixed size via height / width and ensure the card is no bigger than 400px wide (height is weird in CSS, ignore height)
+- Use the Border, Margin, and padding attributes in order to space the card to visually be appealing (the internet can help influence something to model, try making things 8px and then 12, then 16 to find what you like, ratios are key)
+- Add a media query that only shows the details button when the screen is smaller than 800px (generally a small tablet) but larger than 500px (phone)
+- Add a media query that scales the card (and image / items within) when on a screen smaller than 500px (generally considered phone)
+- Include the link to this codepen in your gist. If you found particular websites helpful from a tutorial perspective on any of these specific requirements, then include them so we can share with the class.
+
+
+Submit the link to your gist in Canvas which includes the Part 1 and Part 2 codepen links + any written questions answered + a picture of the mock up you were trying to model the card off of.
+
+# Week 3: Code Review
+
+## JS Fundamentals
+- How JS can access and modify HTML and CSS
+- VanillaJS vs jQuery, Event Loop and how JS works
+
+## HW2 P1 follow up
+- Slides: https://docs.google.com/presentation/d/1qY09_UQVyIBapqIZjVefE3r4jFbOxbdIRRDq3DfohSc/edit?usp=sharing
+- Let's look at template literals (we'll use them later on)
+ - I need to learn about them, so Mozilla docs - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#tagged_templates
+   - https://codepen.io/btopro/pen/ExpNyQx?editors=1111 - let's see how this can be used
+     - https://codepen.io/btopro/pen/ZEjBObq?editors=1111 - follow up
+
+- We'll dig into the code written the previous week and see different ways of solving the same problem
+- I'll do that mean thing where I call out group numbers and ask for answers to things
+- You'll work with your partner to implement specific changes brought up in class
+- Unrelated; Amazing CSS minion - https://codepen.io/AsyrafHussin/pen/wXjpyB
+- FlexBox really easy to understand - https://twitter.com/snowinglater/status/1615787738468610050
+
+## Thursday (or Tues depending on how quickly we get there)
+  
+## In class live demo
+- Going to create a button that makes a css class change on the page
+- You target HTML using CSS selectors
+- You can apply and modify CSS / classes / ANYTHING via JS
+- Using these two abilities you can modify what is known as “states” in the industry
+
+## live demo + questions
+Issue: I have to put an image on the page
+- I need to add a button that adds a new image from a random generation service, next to it when I hit the button
+- Take 2 minutes and type up the following answers into Discord as to your guess:
+- What’s the first step?
+- Where do I get an image from (at random)?
+- How do I make the button?
+- We only have 1 image, how do we get another there?
+
+## Remediation
+- Swap codepens / audit the codepen of your partner. Look for the following and anything else you don’t understand
+- Clean up your current card CSS so that media queries work
+- Use border and background-color to visually make your card look like a card
+- class="tihng" NOT class   =   "thing"
+- Drop usage of id=”whatever” unless for card or button
+- Usage of padding and margin that’s either base 8 or base 16
+- Remove `<br> <center> <b> <body> <head>` and any other tags discussed that have no purpose of other parallels
+- Replace all inline styles with CSS class / selector
+- Replace all tag specific CSS selectors with classes
+- Make another “card” so that 2 live on the screen side by side
+
+## Homework
+- Create a button outside of your design in your codepen which when clicked makes a duplicate of your card
+- Write a JS selector to target the button (JUST that button)
+- `addEventListener(“click”, (e) => { // do something });`
+- Target your card. Create a clone of the node
+- Insert the new card just after your current card
+- Make a CSS selector for `:hover` that makes the button change on hover. Normalize this with `:focus` so that tabbing to the item is the same visual outcome
+- Using JavaScript Events, do the same thing to the card for “hover”
+
+Create buttons where…
+- On click, toggles the background color of the card
+- On click, change the text of the heading / title you used to “something else”
+- On click of a button, delete the last instance of the card
+With your partner..
+- Partner 1: On click of “Details”, don’t link to hax.psu.edu, instead show (or hide) your paragraph description. Do this via JavaScript.
+- Partner 2: Do the above but without JavaScript, only using HTML
+- In each, hide it by default.
+
+## Watch the following
+- https://www.youtube.com/watch?v=cM9KTKQ_4H0 -- see where new ideas come from, but also lots of stepping through logic between HTML and JS accessing / state modification
+- https://www.youtube.com/watch?v=yORXfAb2Gvo -- a short primer on the general feedback loop of searching for a type of event on MDN and then testing it
+## Answer these questions
+### Video 1:
+- What made the idea viable?
+- What is the original issue with the Lit code highlighter?
+- What’s a strategy you can engage in in order to refactor toward better code? What strategy / how many iterations did I go through to get “better code”? - What makes this code better?
+### Video 2:
+- What weird event did I implement to solve a UX problem?
+- What is the difference between document and window in javascript? Find the Mozilla Developer Network page about this.
+- Find 8 events that user input can generate via the MDN Web Docs. Link to examples
+
+## Homework Submission
+- Gist that has answers to the above
+- Link to your codepen (or relink to updated codepen)
+
+
+# Week 4:  Review, revision and intro to JS ecosystems
+
+This week we'll start looking at how our code fits (or doesn't) into the modern JS ecosystem. What we've made so far is old school, vanilla, simple. Now we'll look at getting it into how modern JS is shipped.
+
+## Code crit from HW3 20 min
+- looking quickly through some prime examples that were submitted
+- Follow along as I go through them / mess with these as we go: https://gist.github.com/btopro/0909943ff7ca3c0f256adc66e51c69ca
+
+## Remediations and enhancements to look for
+- Here's some general things to apply during activity one
+1. make sure that things like `class="whatever"` is NOT `class = "whatever"` spaces in attributes are not allowed
+2. if your testing for a style "state" like for example `if (thing.style.display == "block") { } ` change this to test if there's a class OR attribute. If the class exists `if (thing.classList.contains('namedclass')) {` then toggle the class on and off
+3. Use NAMED FUNCTIONS instead of annonymous ones. For example `function changeBackgroundColor() { }` and then `colorButton.addEventListener(“click”, changeBackgroundColor);` so that it's more readable and reusable
+4. make sure when you duplicate the card it doesn't duplicate the buttons as well (bc they won't work as the events are not applied to them)
+5. When you hit duplicate, make sure it's able to make more than 1 (infinite duplication and delete)
+6. make sure when you delete your last card it doesn't just hide it `yourCardTarget.remove()` will delete the node so delete it
+7. make sure that if there's only 1 card left, that you DON'T DELETE IT OR IT BREAKS YOUR APPLICATION
+8. The "HTML only" way of doing details display (which is highly accessible) -- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details - apply this for your details toggling
+9. ENSURE ALL TAGS THAT OPEN, CLOSE WHERE YOU EXPECT THEM TO
+10. remove reliance on `id="whatever"` and then `querySelector("#whatever")` but ESPECIALLY `document.getElementById('whatever')` . Refactor these to be `.whatever` and `class="whatever"` and `querySelector('.whatever')` or suffer the wrath of component architecture (and a11y, and ridicule) moving forward!
+
+## Activity 1 ~20 min
+- pair up wth the pair next to you (group 1 and 2, group 3 and 4, etc; end of table closest to room group up together)
+- share a link to the repo you worked on with the opposite pair, they look at yours. (partner 1 of group A shares with partner 1 of Group B, etc)
+- Fork their repo and provide `//` comments for each block of JS explaining what it does
+- Provide recommendations based on seeing if they have any of the required remediations above
+- If they are missing the functionality from the homework, suggest ways they can implement that by using your own code
+- If you are missing anything from the requirements, ask them for how they solved it. If you both didn't get it, ask your other partners
+- If there's anything you don't understand as to how they did it, ask them to explain it
+- If there's anything you STILL don't get after that, DM me on Discord and we'll discuss as a class / I'll answer for everyone
+
+# Thursday
+
+## Remediation
+Me making the card for all your ghosts out there
+- video: https://youtu.be/5OXwR-aw0UU
+- code: https://codepen.io/btopro/pen/zYLyZWE
+
+About 1/2 the class expressed a need for additional feedback / help. I've produced a video of how I would have approached the assignment end to end. This way you can review and work to enhance your card relative to this. After watching this video and trying to apply improvements to your card your options are...
+- Run through JS fundamentals here https://www.w3schools.com/js/default.asp
+- CSS fundamentals here https://www.w3schools.com/css/default.asp
+- HTML fundamentals here https://www.w3schools.com/html/default.asp
+- Go to TA's office hours (Thurs & Fri this week)
+- DM me or the TA with **specific questions** you have have how to do **specific things**
+
+## Activity 2 (quickly)
+- working together (someone "drives" and someone is co-pilot) combine your code into 1 pen so that both work (copy and paste both into 1 repo)
+- all your JS functions that add and remove cards should work for their respective items
+- Post to the thread on discord what it looks like so we can look. If they break, that's not a concern, I want you to smash them together via all code (css, html, and JS) in 1 codepen
+
+## Task while I run through the deck
+- Make sure you have a Github and Vercel.com account
+- Link these together
+- Install vercel on your machine https://vercel.com/docs/cli using yarn or npm
+
+## Lecture to set some context
+- Modern JS Landscape - https://docs.google.com/presentation/d/1oUqfiXL5L5XvErox5HEdnk-xA7xSCBJEYhZ9k2p1Gj8/edit?usp=sharing
+- Tooling, how people work in industry, different projects (high level)
+- state of the industry, the node_modules folder is a blackhole
+
+## Activity 3 / leading into home work
+- Hello world a palooza. Using vercel, create boilerplates for
+  - React
+  - Angular
+  - VueJS
+  - Svelte
+- Pull these down to your local machine (via git clone)
+- install them (npm install or yarn install)
+- "run" them. usually with `yarn start` or `npm run start`
+- "build" them. usually with `yarn run build` or `npm run build`
+- Open in VSCode to review / modify the code
+
+Assignment for the week will be to get hello world deployed for 4 different frameworks / libraries. In order to have a discussion with others who are working on similar things, each ROW in class will be assigned a different framework to try their hand at.
+
+- Row 1 (left side as you enter) : Angular
+- Row 2 (middle) : VueJS
+- Row 3 (right): React
+
+Next week, we'll review these and look for similarities and differences in implementation between them. To clarify my expectations:
+- Watch my video to ensure you've got the baseline of all the things down
+- Implement those things while watching in your own card to clean it up so you get better grades on week 3 (we are in 4...)
+- you **DEPLOY** hello world boilerplate for all 4 frameworks listed above by using Vercel's GUI
+- You answer the questions below relative to that process when you pull the code down locally / review it on github (since its wired to your github)
+- You try to implement your card **after cleaning it up from watching my video** in the framework based on your row your sitting in. You do this by pulling the code locally to your machine and working on it in VSCode / local development via `npm install` / `npm start`. **Focus on porting the HTML and CSS at this time**
+  - If you want to take a stab at it, attempt to port the JS so that it still works in your framework using the framework ways of getting this code to register using its component architecture. We will be getting into that in the near future as an assignment so this can get you ahead if you find the 1st part easy. The cleaner the code when merging your projects together, the easier this is.
+- You push this code up and vercel builds your demo with your card out on the web (if it doesn't, explore their website as to what went wrong / what the error messages are)
+
+## Submission via GIST then turned into Canvas
+- links to your github repos for each hello world as deployed on vercel (click some UI buttons, generate github links, this should be easy)
+- link to your repo that has your attempt to port your card to the framework you had assigned (where the bulk of work happens)
+- Provide answers to these questions:
+  - What are the similarities and what are the differences in repo structure? Find 5 similarities and 1 difference between each of the 4.
+  - Look at the syntax of a js/template file from each. What is vanilla and what seems to be library specific?
+  - Review package.json - What is common amongst them, what's different? What commands can we run? Try to run all the different commands in the repo for each project.
+  - Rank order these for readability / ease of your understanding and give a brief justification as to why you thought 1 was the easiest and 4 was the hardest to understand (or that you didn't understand!)
+- turn in a link to your gist that has the above info in canvas
+
+### Final note on Week 4
+- We'll keep iterating over this
+- I am not keep tabs on if you watch my video, however if your code has issues it will be penalized as opposed to "hey try" feedback from before. The video is intended to cut through a lot of misconceptions.
+- This is a **PROGRAMMING FOR THE WEB** course. Frameworks are a step toward actual programming by my definition which is that you can build real applications
+- No one is able to build a "real" application using the stock methods that we have attempted in the first few weeks here
+- I said this course would be confusing. The industry is confusing. You have to make meaning, try, fail, iterate, succeed and make your own meaning. You got this.
+
+
+# Week 5: More JS Ecosystem shhhhhtuff
+- This is not react just loading into the index.html :) https://github.com/M18ab/react-app/blob/main/public/index.html
+- Many of you didn't get it working
+- This was rough... by design.
+- Now, we'll use working examples from people who did, to learn about all 3 and slow down (slightly)
+
+## Common issues / general feedback
+- "error when running `npm start`" - npm command must be run from the project root. Clone the project, you have to be in that directory to run commands
+- VueJS deployment on vercel needed to be the VueJS + Vite; this came up in class.
+- Ensure you mark your repos public on github. Private repos we can't see and can't be graded. Verify your work is public so it can be reviewed
+- "Should I run commands from inside VSCode or terminal window?" USUALLY it doesn't matter, but if you have an issue running a command from inside VSCode, make sure you attempt in another window just to rule that out
+
+## Activity 1: fork / play with classmates working examples
+For each of these, let's go through and do this together. With each of these I want you to do the following..
+- Go to the example, fork the example to your own github
+- clone it to your machine
+- `npm install`
+- `npm start`
+- `code .` or just open VScode
+- As I go through, follow along so you can understand the structure
+
+If we cover yours, come get a (completely useful, great, awesome.. sticker)
+- top React example: https://github.com/Jps709/create-react-app
+- top Angular example: https://github.com/ashnaabhide/angular
+- top VueJS example: https://github.com/Pandaalifter/card-chad
+
+## Activity 2 / Part 1 of homework
+Now we should have some fundamental understanding of what's where, you have a working copy of a classmate's card for each one.
+Now knowing this..
+- Hollow out their portions of this so that it's your card CSS and HTML
+- attempt to get your JS in there as well on the Vue One
+- Push all 3 back to their respective github locations
+- Ensure the demo rebuilds on vercel / it's wired up to vercel (you can add projects in after the fact via vercel)
+
+## Thursday
+### Developer workflow tips
+- Github: Setup SSH keys https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh
+- Github: **FORK** means you have a copy of someone's codebase on your github account
+- Github / Your machine: **CLONE** means you are bringing that code onto your personal computer. Always get repos either via the **SSH** option OR **Github Desktop**
+- **Github Desktop** in the GUI, select your project (top left, or create new, or add from Github). Then Hit **Open in VSCode**
+- **VSCode** your code will be open on the left **for your local copy**. Go to the toolbar for VSCode and hit "Terminal" and new Terminal if one is not already open
+- **this opens the folder tree / command line to the same spot VSCode is looking** . Here is where you type `npm install` and when that finished, `npm start` or `npm run dev` or whatever the command is you are looking to run
+
+### Terminal basics
+everything you do in a GUI is just a button mapped to running a command in the CLI. The GUIs differ between Linux, Mac, Windows, but the commands are very similar in most instances or exactly the same.
+
+- you are in a folder; that folder is your code
+- the "directory tree" / structure goes all the way back to the root of your hard drive `C:\` or `/`
+- `cd` is for CHANGE DIRECTORY to go up it's `cd foldername` to go down it's `cd ../`
+- `ls -las` will give you a LISTING of the files in the current directory
+- `cwd` CURRENT WORKING DIRECTORY will print out where you currently are in case you forget
+- `mkdir` MAKES A DIRECTORY
+- `code FILENAME` SHOULD open the file in VSCode (could vary based on OS)
+- `open .` will work to allow you to open a finder / folder in your GUI (could vary based on OS configuration)
+- `npm` a program that runs node, package, manager commands (`yarn` is a different program but runs the same commands)
+- `git add -A` - add everything to git bc we want to track these changes (this is also visible on the left side of VSCode)
+- `git commit -m "the message"` commits the changes (this is also visible on the left side of VSCode)
+- `rm` is for REMOVE so you can delete things via CLI. you delete it, it's gone, unless you bring it back via version control
+
+## Short lecture for context of where we go next
+- Now that we've got the basis for workflow, location, building demos to present them.. it's time to move into the world beyond them
+- We have JS, where the web started, then we had jQuery to prop it up, then we had frameworks to make component like things
+- Now, it's time for where all development is heading and where you can best invest your time learning and building
+- I changed my entire career focus, outlook, and professional affiliations based on this technology standard..
+- Why web components, understanding how Wcs interplay with other libraries, who’s using them and why
+- Short lecture: https://docs.google.com/presentation/d/1heprQE0TXrKgc1T1ISnvlpUREREFIAehArEncg_I9-o/edit?usp=sharing
+
+## Homework
+Two parts;
+
+### Part 1 Links to all 3 repos with your card working in Angular, React, Vue
+- easy if your following along in class Tues. If your struggling here DM / ask after lecture / office hours
+- Follow the steps from above to pull your code in locally
+
+### Part 2
+- Run through ALL Lit.dev tutorials on "Build" and "Build" found here https://lit.dev/tutorials/ so that you understand how we'll be building going forward
+- Create a new (empty) github repo with a name for your card. Let's call it `my-card` or `cyber-chad` or some name for your card but make sure it has a `-` and is all lowercase; clone it locally from github so you have a copy of a blank repo on your computer with which to start working
+- Run the command found here https://open-wc.org/guides/ in order to create a new element called `my-card`.
+  - create a new "application" called the name of your repo (my-card, cyber-chad, etc)
+  - Note: in the options via CLI, if you see a `O` circle this is a checkbox. move between them using the arrow keys and hit spacebar to select each option
+  - When it asks you to write files to disk, pick yes. When it asks to install via npm / yarn, install via npm.
+  - Also note: We will be using open-wc the rest of the semester in some capacity so best to familiarize yourself with the community docs
+- `npm start` and you'll be able to develop using this locally / see a live reloading environment that has a spinning svg
+- Take this boilerplate repo, looking in `src` for source and `index.html` for the "demo" page that's launched **and port your CSS / HTML to this approach**
+  - If that was easy, then take a stab at doing this w/ your JS events in your buttons, if not then just getting code in place is fine.
+  - `document.querySelector` is global but in a web component, `this.shadowRoot.querySelector` is for querying JUST inside your component
+- Push results back up to github (make sure it's a public repo)
+
+## LINT DISABLE
+if you get an error in your `open-wc` code when you go to commit to github. Go into `package.json` and delete this block from it
+```
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+```
+This is ensuring coding conventions match a certain specification. The feedback is useful usually but some times can be limiting to newbees.
+
+## Submission
+- Gist linked to Canvas
+- Links to all 3 github repos of the port of your card hopefully looking correct in React, Angular, Vue+Vite
+- Link to your github repo for making a card in `open-wc`
+- Answers to these questions
+- 5 similarities between the open-wc repo structure and your react / vue / angular structures
+- Was this easier, harder, or the same difficulty as exploring the frameworks?
+- Any concept, structure, terminology, etc that your struggling with and need additional guidance at the end of this homework / 1st 5 weeks (1/3 of course)
+- Try to hook this up to vercel (code up on github, then add the project via vercel.com . You'll need to change "output" to `dist` in your settings). If you attempt this and it doesn't work don't worry about it but if it does work, add that link into your gist so we can see it built
+![vercel GUI for settings](https://user-images.githubusercontent.com/329735/217584610-449ee034-ff60-49c5-8c8d-41f6283aa512.png)
+
+## Final notes on this week
+Try your best, ask questions. We're going to go from complex / big idea / world view sorta stuff back into details. The frameworks were mostly so that we have an idea of where the world used to be. Now we'll start drilling into web components and JS within this context as it really is the future of the web (and the future is here now).
+
+
+# Week 6
+
+# Week 7 Mid-term exam 10%
+## Tues
+- Anything from slides is fair game
+- Anything from readings is fair game
+- Anything produced in class or part of class is fair game
+- The internet exists; it will also be fair game
+- Google also exists, so it will also be fair game (for you)
+- AI exists. But good luck with that. See how it works out.
+- This will take place during the start of class and is relatively short
+
+## Thursday
+- in class working time on finishing up project 1
+
+# Project 1 is due end of this week
+- Project 1 is due at the end of this week
+- Use this time to catch up / clean up past assignments you may have missed and refine your project 1 submission to maximize points
+- This will be graded with more scrutiny than things leading up to it
+- The dropbox for this is on Canvas and is ultimately a repo you are turning in
+- [Project 1 Requirements](https://github.com/elmsln/edtechjoker/blob/master/sp-23/projects/project-1.md)
+
+
+# Week 8
+
+# Week 9
+
+# Week 10
+
+# Week 11
+
+# Week 12
+
+
+## Week 13 - Thanksgiving
+
+## Week 14-16
+
+## Week 17: Final project due Wed of Finals week
+- Optional Class held Tuesday of finals week for last minute office hours
