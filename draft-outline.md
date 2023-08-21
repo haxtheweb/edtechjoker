@@ -24,7 +24,9 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 - Create an account on https://github.com 
 - Create accounts on the services listed here: https://oer.hax.psu.edu/bto108/sites/ist256/requirements
 - Create a PUBLIC Gist on https://gist.github.com/  called week-1.md (so that you can write markdown)
-- Watch the following video / have it open in another tab: https://youtu.be/DWvRV9KuTjk 
+- Watch this video on terminal basics: https://www.youtube.com/watch?v=cwTswuFkMH4
+- Read this [common issues document](common-issues.md) (and keep it in mind going forward):
+- Watch the following video / have it open in another tab: https://youtu.be/DWvRV9KuTjk
 - Write responses using Markdown (Look it up if you don't know how to do it but bottom right corner in gist will have a `M^` button w/ details):
   - If the question is a simple answer / response. Then make it a HEADING using markdown for the question `## `
   - If the question has multiple responses (like 5 syntaxes) then make the question a HEADING level 2, but the responses using a bulleted list (look this up)

@@ -34,7 +34,7 @@ It's blank / failed / didn't do what you expected
 This is literally the feedback loop of the job and the way to solve 99% of issues. If you hate this, you might end up hating development. If this makes sense, hopefully you have just found your passion.
 
 # Video of how to get started / OS level explainer
-- coming soon
+- https://www.youtube.com/watch?v=cwTswuFkMH4
 
 # Lit life cycle activity
 - https://lit.dev/tutorials/ make sure you do all the tutorials
