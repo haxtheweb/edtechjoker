@@ -1,4 +1,4 @@
-# Project 1 - 10% of grade
+# Project 1 - 15% of grade
 Example of what I made which is in the neighborhood of what you're making -- https://drew-card.vercel.app/
 - This is really a series of homeworks which are assessed along the way to provide feedback
 - There is also light reading / background info to look up
