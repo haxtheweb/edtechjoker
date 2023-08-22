@@ -1,4 +1,4 @@
-# Project 1 - 5% of grade + the 2 home work check ins + in-class attendence (so 11% total..)
+# Project 1 - 10% of grade
 Example of what I made which is in the neighborhood of what you're making -- https://drew-card.vercel.app/
 - This is really a series of homeworks which are assessed along the way to provide feedback
 - There is also light reading / background info to look up
