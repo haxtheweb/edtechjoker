@@ -3,13 +3,6 @@ This is a draft of the course. The topics we'll cover and the order. It will be 
 - [Resource for reviewing concepts](https://youtube.com/playlist?list=PLJQupiji7J5efO_Q5VGZcPE4O_TM_HGP4)
 - [Common issues, run through this before talking to me plz](common-issues.md)
 
-# Project requirements
-Project 1 is well established. Based on our progress and class skill I throttle how the projects beyond that go as far as number, scope, and focus.
-- [Project 1 Requirements](fa-23/projects/project-1.md) - this is a draft and will change
-- Project 2
-- Project 3..5
-
-
 # Schedule
 This schedule will be modified as we go. Look to it for what we are doing in clas that day / week. This becomes more refined as we get closer to the dates. I modulate based on needing to remediate on concepts of adding concepts based on how far we get that week.
 
@@ -48,6 +41,12 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 # EVERYTHING BELOW THIS LINE IS SUBJECT TO CHANGE BASED ON COURSE PROGRESS
 
 ~~~~~~
+
+# Project requirements
+Project 1 is well established. Based on our progress and class skill I throttle how the projects beyond that go as far as number, scope, and focus.
+- [Project 1 Requirements](fa-23/projects/project-1.md) - this is a draft and will change
+- Project 2
+- Project 3..5
 
 # Week 2: Git / Github 
 - Git lecture + feedback from last assignment
