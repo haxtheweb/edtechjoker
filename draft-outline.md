@@ -11,7 +11,7 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 - Tues: Welcome and syllabus day
 - Context setting what we'll be working on, learning about and the industry at large as well as establishing what brought me from the classrooms you've taken to the stage where I am today and online
 
-## Wed - between class if possiblee
+## Wed - between class if possible
 - https://oer.hax.psu.edu/bto108/sites/ist256/requirements - get accounts on these services, start installing this software
 
 ## Thurs: Get basic structure around the big 3, fundamentals and playing with stuff
