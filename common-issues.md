@@ -10,11 +10,11 @@ This is a list of common problems and common remedies. Before raising your hand 
 - ensure you are in the correct directory when you run the command
 
 #### It says "whatever" is not a command
-
 every repo ever that has a `package.json` in it needs to be installed. The feedback loop is ALWAYS:
 1. git clone / download the thing
 2. go to the project in a terminal window and run `npm install` to install the dependencies
 3. reading `package.json` you can see the commands available under `scripts` though `npm start` is pretty common followed by `npm run dev`
+4. YOU MUST BE IN THE SAME DIRECTORY AS THAT package.json FILE IN ORDER TO EXECUTE COMMANDS
 
 #### Common commands
 - `cd` change directory `cd whatever` moves into the `whatever` directory
@@ -29,6 +29,35 @@ It's blank / failed / didn't do what you expected
 - Look at terminal, are there errors / warnings?
 - Look in VS Code, is anything in red on the right edge? If so, scroll to see that code in view and hover for hints about what's wrong syntax or dependency wise
 - Go to the browser, right click and hit Inspect. In the tab that opens, look at the `Console` to see if there are error messages
+
+### HTML common mistakes
+- attributes MUST be like so `<p class="whatever">`. some systems (like codepen) will allow `<p CLASS = "STUFF">` or `<P class=stuff>` but these are not correct and can cause issues.
+- It's always `<` tag name in lower case, space, attribute name, =", then the value and then ". Tag must always end with `>` and to bee complete will have a matching `</tagname>` or `</p>`
+- VSCode will at times identify an open tag without a closing
+
+### CSS common mistakes
+- `#thing` would target `<p id="thing">`
+- `.thing` would target `<p class="thing">`
+- `.thing .nesting .here` is `<p class="thing"><div class="nesting"><a class="here">`
+- `.thing.nesting.here` without spaces, implies `<p class="thing nesting here">` because you can stack classes / selectors together
+- ALL css attributes MUST have `;` at the end of them. JS is forgiving at times but CSS is not. for example `p.orange { color: orange }` will break
+- `<p class="orange">` with a `p.orange { color: orange;}` will work
+- Try to target class names and not tag names (generally)
+- Try to avoid using `id="whatever"`. While not "wrong", over-use of this approach can cause accessibility errors in certain situations and `<section class="whatever">` is just as specific if you never use "whatever" elsewhere
+- you can sorta "make up" selectors when we get into web components via attributes. This allows you to somewhat abuse the specification of HTML for CSS purposes and is a good thing but you won't see it a lot outside of web components
+  - example: `<my-tag cool>` could have a selector internally of `:host([cool]) { background-color: green;}`
+  - more universal / vanillaJS / any context example: `<div data-cool="data-cool">` w/ a global selector of `div[data-cool] { background-color: green; }`
+- CSS scoping when we get into web components, is that CSS does not cascade when you see "shadow-root" in the browser inspector. This is a feature, not a bug, but frustrating at first for sure!
+
+### JS Common mistakes
+- We will be doing modular javascript which means that local "tooling" or development tools, actually build and make the code work while you review it.
+- As a result when you reference other code it should be like `import "@whatever/library/thing.js";` and NOT `import "../../../../node_modules/@whatever/library/thing.js"`
+JS feedback loop when using NPM
+- find asset on npm
+- `npm install --save @what/ever`
+- `npm run start` (restart / reload your development environment)
+- import the code into your code like `import "@what/ever/thing.js"`
+- now, if it's another webcomponent then you'll be able to use the `<what-ever>` tag
 
 # Get in the habit of doing these all the time.
 This is literally the feedback loop of the job and the way to solve 99% of issues. If you hate this, you might end up hating development. If this makes sense, hopefully you have just found your passion.
