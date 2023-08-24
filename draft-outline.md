@@ -18,6 +18,7 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 - We'll "hack" the penn state website
 - Play with a very watered down "web application" called the "Stupid Simpsons App"
 - Check out a code pen, a really easy way of learning HTML/CSS/JS by remixing examples of others
+- https://oer.hax.psu.edu/bto108/sites/ist256/activities/day-1
 
 ## Homework
 - Create an account on https://github.com 
