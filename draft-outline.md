@@ -53,6 +53,12 @@ Create a new codepen from scratch and try to create a "card" using a mix of sema
 - Add a media query that scales the card (and image / items within) when on a screen smaller than 500px (generally considered phone)
 - Include the link to this codepen in your gist. If you found particular websites helpful from a tutorial perspective on any of these specific requirements, then include them so we can share with the class.
 
+#### Remediation
+I will not verify you completing these, but here are 2 low level tutorials from W3Schools for practicing HTML and CSS fundamentals
+- https://www.w3schools.com/html/default.asp
+- https://www.w3schools.com/css/default.asp
+- https://oer.hax.psu.edu/bto108/sites/ist256/resources -- the resources section of the course site has links to free "books" which cover a lot of fundamentals as well
+
 ## Homework Submission
 **Submit the link to your gist in Canvas**
 The gist should include the following:
