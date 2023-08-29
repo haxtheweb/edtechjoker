@@ -99,8 +99,14 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 ## SEO
 
 ## PHP
-
-
+PHP is an open source server-side scripting language which developers use. Server-side means that the script is being executed on the back-end instead of the front-end. PHP is mostly used for webservers and can also run on the command line. There are a lot of things that PHP can do, including: encrypting data,send and recieve cookies, generate dynamic page content, among others. Companies like Facebook, Wikipedia use PHP. Some advantages of PHP include:
+* It's cross-platform, and thus can be used in any OS system
+* It's an open source progamming language
+* It's easy to learn
+Sources:
+https://www.hostinger.com/tutorials/what-is-php/
+https://www.w3schools.com/PHP/php_intro.asp
+https://www.freecodecamp.org/news/what-is-php-the-php-programming-language-meaning-explained/
 ## Express.js
 
 
