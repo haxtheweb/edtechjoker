@@ -121,7 +121,10 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## MySQL
+MySQL stands for Standard Query Language and is used to manage databases. MySQL is used in relational database management systems to query and get useful results. MySQL was originally developed in 1994 by a Swedish company, MySQL AB. 
 
+https://dri.es/the-history-of-mysql-ab
+https://www.oracle.com/mysql/what-is-mysql/
 
 ## WebAssembly
 
