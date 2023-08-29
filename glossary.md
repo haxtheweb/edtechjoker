@@ -118,7 +118,7 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## SQL
-
+SQL, or Structured Query Language, is a programming language that stores and processes information in a relational database. SQL is used to store, update, remove, search, and retrieve information from the database. https://aws.amazon.com/what-is/sql/
 
 ## MySQL
 
