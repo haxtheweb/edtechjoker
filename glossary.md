@@ -30,7 +30,14 @@ More to read: https://www.coursera.org/articles/front-end-developer, https://boo
 
 
 ## Content Management System
+Content management system (CMS) is a software that helps users create, manage, and modify content on a website without need for starting the code. In other words, a CMS lets you build a website without needing to write code from scratch (or even know how to code at all).
 
+- Intuitive indexing, search and retrieval: These features index all data for easy access through search functions and enable users to search by attributes such as publication dates, keywords or author.
+- Format management: This helps turn scanned paper documents and legacy electronic documents into HTML or PDF documents.
+- Revision features: These features enable content to be updated and edited after initial publication. Revision control also tracks any changes individuals make to files.
+- Publishing: This functionality enables individuals to use a template or a set of templates that an organization approves -- as well as wizards and other tools -- for content creation and modification.
+
+Overall, content management system is faster, simpler, and allows for multiple editors and users to edit at once.
 
 ## Drupal CMS
 
