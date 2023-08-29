@@ -39,7 +39,8 @@ More to read: https://www.coursera.org/articles/front-end-developer, https://boo
 
 
 ## Backdrop CMS
-Backdrop CMS is a community devoloped content managment system, it is considered open source. Backdrop CMS was forked from the Drupal CMS in 2013 by two Drupal developers, Nate Lampton and Jen Lampton.
+Backdrop CMS is a community devoloped content managment system, it is considered open source. Backdrop CMS was forked from the Drupal CMS in
+2013 by two Drupal developers, Nate Lampton and Jen Lampton.
 
 ## GravCMS
 
