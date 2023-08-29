@@ -121,6 +121,9 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## MySQL
+MySQL is one of the most popular open-source, relational database managment systems. It uses Structured Query Language (SQL), a programming language for relational databases, which oragnizes data into structered tables.
+https://www.mysql.com
+https://www.oracle.com/mysql/what-is-mysql/
 
 
 ## WebAssembly
