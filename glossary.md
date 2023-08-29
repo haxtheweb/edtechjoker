@@ -115,6 +115,9 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## Golang
+Golang is a statically typed language. It is primarily built around the idea of C systematically. This language was initially created by google and ran into multiple problems early on.
+- a static language is a language that has you specify a data type at the time of declaration
+![image](https://github.com/AidenWik/edtechjoker/assets/142683824/9437a519-c3ef-4fa6-9f8b-384a8e1307c7)
 
 
 ## SQL
