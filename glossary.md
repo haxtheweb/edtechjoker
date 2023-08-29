@@ -142,6 +142,15 @@ https://www.oracle.com/mysql/what-is-mysql/
 
 
 ## Docker
+Think of Docker like a special box filled with building blocks, the kind you'd use to make awesome stuff like houses, cars, or robots. You know how building things is fun, but redoing them exactly the same way can be a bit of a chore? Well, Docker comes to the rescue! It's like a super-efficient building block organizer. You can store all the specific blocks you need in this virtual box, and when you want to build something again, Docker helps you put them all together effortlessly.
+
+Now, picture programmers using Docker as a magical tool to build software apps. It's like a secret weapon that simplifies the whole process – creating, launching, and managing apps becomes a breeze. Just like your building blocks make creating things more enjoyable, Docker makes the lives of programmers easier by letting them focus on making amazing software without all the usual complications. 
+<br> 
+<br> 
+This is how you create a new docker image :)
+<br>
+```docker build -t <image_name> .```
+
 
 ## Vagrant
 
