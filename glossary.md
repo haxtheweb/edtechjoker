@@ -70,7 +70,9 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## HAXcms
+https://oer.hax.psu.edu/fnd5013/sites/hax-cms/what-is-haxcms-
 
+HAXcms written out is HAX Content Management System. It uses everything with HAX to make a CMS. You can use HAXcms to create websites, and it is a more organic management system so it is deeemed "living" as it constantly updates with version control. Helps create a website/code without having to write the code through a user-friendly UI. Along with that, you do not need infrastructure to run, so what I understand is it runs "locally" instead of on a server.
 
 ## WCFactory
 
