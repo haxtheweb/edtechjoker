@@ -89,6 +89,10 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 ## Apereo Foundation
 
+Apereo Foundation is a non-profit organization dedicated to supporting and advancing open-source software in higher educations. Apereo supports a long list of softwares including Apereo OAE, CAS, Karuta, Sakai LMS, and much more. Apereo is also a global network, with member institutions on six continents. Apereo actively seeks to develop partnerships to further creating and sustaining software.
+
+https://www.apereo.org/content/about
+https://www.apereo.org/content/projects-communities
 
 ## TravisCI
 
