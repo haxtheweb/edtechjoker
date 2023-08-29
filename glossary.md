@@ -45,8 +45,7 @@ More to read: https://www.coursera.org/articles/front-end-developer, https://boo
 
 
 ## Gulp.js
-Gulp is an open-source JavaScript toolkit to automate & enhance your workflow. gulp is an open-source JavaScript toolkit created by Eric Schoffstall[5] used as a streaming build system (similar to a more package-focused Make) in front-end web development.
-It is a task runner built on Node.js and npm, used for automation of time-consuming and repetitive tasks involved in web development like minification, concatenation, cache busting, unit testing, linting, optimization, etc. 
+Gulp is an open-source JavaScript toolkit to automate & enhance your workflow. Gulp is an open-source JavaScript toolkit created by Eric Schoffstall used as a streaming build system (similar to a more package-focused Make) in front-end web development. It is a task runner built on Node.js and npm, used for automation of time-consuming and repetitive tasks involved in web development like minification, concatenation, cache busting, unit testing, linting, optimization, etc. 
 https://gulpjs.com
 https://en.wikipedia.org/wiki/Gulp.js
 
