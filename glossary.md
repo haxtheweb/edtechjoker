@@ -45,7 +45,8 @@ More to read: https://www.coursera.org/articles/front-end-developer, https://boo
 
 
 ## Gulp.js
-
+Gulp is an open-source JavaScript toolkit to automate & enhance your workflow. 
+https://gulpjs.com/
 
 ## IDE
 An IDE, or Integrated Development Environment, is an application used to write, run, and test code. IDEs are used by programmers to develop software in an easy manner without having to risk ruining live versions of the code. Basic functions of an IDE usually include a source code editor, a build automation tool, and a debugger. 
