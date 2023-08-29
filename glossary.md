@@ -135,7 +135,10 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## VirtualBox
-
+VirtualBox is a type 2 hypervisor used to virtualize machines.
+It is free and open source software program for virtualizing the x86 computer architecture.
+VirtualBox runs on MacOS, Linux, Windows, and Solaris hosts.
+(https://www.virtualbox.org/)
 
 ## Composer
 
