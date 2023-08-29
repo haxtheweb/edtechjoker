@@ -138,7 +138,7 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## Composer
-
+Composer is a dependency management tool for PHP that allows you to declare and manage the libraries and packages your PHP project depends on. 
 
 ## Kubernetes / K8s
 
