@@ -139,6 +139,25 @@ Key features of the Go programming language include:
 
 Overall, Go has become a valuable tool in the programming world, offering developers a modern and efficient language for a wide range of applications.
 
+'''package main
+
+import "fmt"
+
+// Recursive function to calculate factorial
+func factorial(n int) int {
+    if n <= 0 {
+        return 1
+    }
+    return n * factorial(n-1)
+}
+
+func main() {
+    num := 5
+    result := factorial(num)
+    fmt.Printf("Factorial of %d is %d\n", num, result)
+}
+''
+
 ## SQL
 
 
