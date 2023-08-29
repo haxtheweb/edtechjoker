@@ -138,7 +138,7 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## Composer
-
+Composer is a tool for PHP developers. It helps them easily bring in and manage pieces of code created by others to use in their projects. This makes it quicker and more organized to build websites and applications with PHP. https://getcomposer.org/doc/00-intro.md
 
 ## Kubernetes / K8s
 
