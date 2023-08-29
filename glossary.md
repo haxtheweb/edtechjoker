@@ -121,6 +121,7 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## MySQL
+MySQL is an open source database that uses Structured Query Language as its query language. It allows one to store, manage, and retrieve data that is organized in tables.
 
 
 ## WebAssembly
