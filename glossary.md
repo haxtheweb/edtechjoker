@@ -135,7 +135,8 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## VirtualBox
-
+More info: https://www.computerhope.com/jargon/v/virtualbox.htm
+VirtualBox is an open-source software that acts as a hypervisor. It creates a virtual machine so the user can run another operating system, such Windows, MacOS, Linux and more. This allows you to do things like test a website before deploying, learn new operating systems, and develop cross-platform software. 
 
 ## Composer
 
