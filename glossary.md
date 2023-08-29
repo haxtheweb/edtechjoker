@@ -52,7 +52,7 @@ An IDE, or Integrated Development Environment, is an application used to write, 
 https://umbraco.com/knowledge-base/development-environment/#:~:text=The%20purpose%20of%20a%20development,working%20on%20a%20live%20website.
 
 ## VSCode
-Visual Studio Code, commonly known as VScode, is a source code editor created by everyone's favorite company Microsoft. Features include debugging, syntax highlighting, code completion, snippets, code refactoring and Git. VScode is a useful tool to wrtie a multitude of coding languages in a singular loaction/application.
+Visual Studio Code, commonly known as VScode, is a source code editor created by everyone's favorite company Microsoft. Features include debugging, syntax highlighting, code completion, snippets, code refactoring and Git. VScode is a useful tool to write a multitude of coding languages in a singular loaction/application.
 https://code.visualstudio.com/
 https://en.wikipedia.org/wiki/Visual_Studio_Code
 
@@ -159,6 +159,9 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## Apache Web server
+It is a high-grade, open-source, server set-up software. It is contributed to by a global network of volunteers. It is the most popular system currently for the set-up of servers. It is used across the globe to keep websites hosted on the internet.
+[Apache's homepage](https://httpd.apache.org/)
+[Apache's about page](https://httpd.apache.org/ABOUT_APACHE.html)
 
 
 ## Varnish
