@@ -91,6 +91,17 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## TravisCI
+TravisCI is a integration service tool that is commonly used to test software projects that are on the following platforms
+
+Github
+GitLab
+BitBucket
+Perforce
+Apache Subversion
+Assembla
+It is also known for having a new approach to building code in the cloud. This allows user to link their repositories, build and test their code, and integrate it with common repositories on GitHub and Bitbucket as examples.
+
+Link: https://www.travis-ci.com
 
 
 ## Bash (sh)
