@@ -39,7 +39,8 @@ More to read: https://www.coursera.org/articles/front-end-developer, https://boo
 
 
 ## Backdrop CMS
-
+Backdrop CMS is an Open source, community-developed, content management system,[4] written in PHP, and licensed under the GNU General Public License.[3] Backdrop CMS was forked from the Drupal CMS in 2013 by two Drupal developers, Nate Lampton (née Nate Haug) and Jen Lampton.
+https://en.wikipedia.org/wiki/Backdrop_CMS
 
 ## GravCMS
 
