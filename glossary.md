@@ -39,7 +39,9 @@ More to read: https://www.coursera.org/articles/front-end-developer, https://boo
 
 
 ## Backdrop CMS
-
+Backdrop CMS is an Open source, content management system written in PHP.  It helps you build modern, comprehensive websites for businesses and non-profits.  Backdrop is also a fork of the Drupal project.  
+https://backdropcms.org/
+https://en.wikipedia.org/wiki/Backdrop_CMS
 
 ## GravCMS
 
