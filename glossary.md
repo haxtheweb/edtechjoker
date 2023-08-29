@@ -127,7 +127,7 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## Python
-
+Python is a programming language that lets you communicate with computers by giving them step-by-step instructions. It's known for being easy to understand and use, making it a great choice for beginners. You can create a wide range of programs with Python, from simple calculations to games and even advanced applications like artificial intelligence.
 
 ## Docker
 
