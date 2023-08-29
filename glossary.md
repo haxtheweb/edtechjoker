@@ -127,7 +127,17 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## Python
-
+Python is a high level, object-oriented programming language with dynamic semantics. Python is used for application development along with scripting. Python's 
+syntax is easy to learn which allows developers to reduce the cost of development.
+-Object oriented
+-Simple syntax
+-Easy to learn
+-Pthyon code example:
+```
+print("Hello world")
+x = 1
+print (x)
+```
 
 ## Docker
 
