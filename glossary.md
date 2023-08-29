@@ -150,8 +150,12 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## User Experience / Usability
-
-
+UX otherwise known as User Experience is a branch in technology that is concerned with users needs, constraints, satisfaction, their values, and capabilities. It considers business goals, along with the perception users will have of a particular product. There are several terms considered when determining how solid a UX product might be. Some of which include:
+-  Discoverable
+-  Accessible
+-  Credible
+-  UseAble
+  Some more concepts can be discovered here: https://www.hci.org.uk/user-experience/
 ## Open Educational Resources (OER)
 
 
