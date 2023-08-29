@@ -115,7 +115,29 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## Golang
+Golang, also known as Go, is a programming language developed by Google. It was created by a team of engineers at Google, including Robert Griesemer, Rob Pike, and Ken Thompson, with the goal of combining the simplicity and efficiency of programming languages like C and C++ with modern features that address some of the shortcomings of those languages.
 
+Key features of the Go programming language include:
+
+Simplicity and Clarity: Go was designed with a focus on simplicity and readability. Its syntax is clean and straightforward, making it easy for developers to write and understand code.
+
+Concurrency Support: Go includes built-in support for concurrency through goroutines and channels. Goroutines are lightweight threads that enable concurrent execution, while channels facilitate communication and synchronization between goroutines.
+
+Fast Compilation: Go's compiler is known for its speed, which makes the development process more efficient. Quick compilation times are especially useful for larger projects.
+
+Garbage Collection: Go features automatic memory management with a garbage collection system that helps developers manage memory without manual memory allocation and deallocation.
+
+Static Typing: Go is statically typed, which means that variable types are determined at compile time. This helps catch type-related errors early in the development process.
+
+Standard Library: Go comes with a rich standard library that provides many essential functions and packages for tasks like networking, file I/O, and more.
+
+Cross-Platform Support: Go is designed to be portable and is available on a variety of platforms, including Windows, macOS, and various Linux distributions.
+
+Open Source: Go is open source, which means that its source code is available to the public, allowing developers to contribute to its development and create their own modifications.
+
+Go has gained popularity for its performance, simplicity, and suitability for building scalable and efficient software systems. It's often used for web development, system programming, network services, and cloud-based applications. Its concurrency features make it particularly well-suited for applications that require handling multiple tasks simultaneously.
+
+Overall, Go has become a valuable tool in the programming world, offering developers a modern and efficient language for a wide range of applications.
 
 ## SQL
 
