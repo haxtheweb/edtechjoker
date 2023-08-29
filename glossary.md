@@ -112,6 +112,15 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 ## React
 
 ## Vue.js
+ Vue.js is an open-source model–view–viewmodel front end JavaScript library for building user interfaces and single-page applications. It was created by Evan You, and is maintained by him and the rest of the active core team members. 
+
+- A JavaScript framework for building user interfaces. 
+- It builds on top of standard HTML, CSS, and JavaScript and provides a declarative and component-based programming model that helps you efficiently develop user interfaces, be they simple or complex. 
+- Vue. js is a front-end framework that experienced developers may use without needing to have a thorough command of many different programming languages. 
+- If you know the fundamentals of CSS, HTML, and Javascript, you can create fantastic, convenient, and thorough web apps. 
+- 
+![image](https://github.com/elmsln/edtechjoker/assets/143022108/fb1501c2-37c7-4067-ac2d-3b21f939df63)
+![image](https://github.com/elmsln/edtechjoker/assets/143022108/de837d6a-f09a-4776-a390-050f2db9e8ba)
 
 
 ## Golang
