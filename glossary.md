@@ -138,7 +138,7 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## Composer
-Composer is a dependency management tool for PHP that allows you to declare and manage the libraries and packages your PHP project depends on. 
+Composer is a dependency management tool for PHP that allows you to declare and manage the libraries and packages your PHP project depends on. It has the capability to declare, manage, and install dependencies.  When navigating in GitHub, composer can help companies by saving time when searching libraries since it's automatic.  Installation can be done with PHP commands. 
 
 ## Kubernetes / K8s
 
