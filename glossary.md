@@ -139,7 +139,8 @@ Key features of the Go programming language include:
 
 Overall, Go has become a valuable tool in the programming world, offering developers a modern and efficient language for a wide range of applications.
 
-'''package main
+```
+package main
 
 import "fmt"
 
@@ -156,7 +157,7 @@ func main() {
     result := factorial(num)
     fmt.Printf("Factorial of %d is %d\n", num, result)
 }
-''
+```
 
 ## SQL
 
