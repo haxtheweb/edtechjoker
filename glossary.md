@@ -126,8 +126,15 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 ## WebAssembly
 
 
-## Python
+## Python 
+Python is an objected oriented, high level programming langueage that is easy to use and utilizes dynamic typing and language. This language is perfect for rapid application development becasue of how usable and friendly it is. It is an easier to learn language and allows for growth in the coding community. 
+Read more: https://www.python.org/doc/essays/blurb/ 
+```
+numbers = [2, 4, 6, 8, 10]
+sum_result = sum(numbers)
 
+print(f"The sum of the numbers is: {sum_result}")
+```
 
 ## Docker
 
