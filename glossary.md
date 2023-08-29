@@ -10,6 +10,8 @@ More to read: https://www.coursera.org/articles/front-end-developer, https://boo
 
 
 ## CSS
+CSS, Cascading Style Sheets, is a style language that discribes the presentation and display of elements in an HTML document that is written in a markup language. CSS adds elements of style such as font, color, and spacing to a web page. While HTML is responsible for content, CSS implements the design of the content on screen. https://developer.mozilla.org/en-US/docs/Web/CSS
+
 
 
 ## JavaScript
