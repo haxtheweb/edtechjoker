@@ -108,6 +108,8 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## Angular
+Angular is a framework for web application development. It uses TypeScript, which in turn is built on JavaScript. It was made by people at Google and is FOSS.
+```ngOnInit()``` and ```ngOnDestroy()``` are two really important methods that every Angular project uses.
 
 ## React
 
