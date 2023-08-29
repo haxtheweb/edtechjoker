@@ -121,7 +121,9 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## MySQL
+MySQL is an open-source relational database management system. The database structure is organized into physical files optimized for speed. The logical data model, with objects such as data tables, views, rows, and columns, offers a flexible programming environment.
 
+More information: https://www.oracle.com/mysql/what-is-mysql/#:~:text=MySQL%20is%20a%20relational%20database%20management%20system,-Databases%20are%20the&text=The%20database%20structure%20is%20organized,offers%20a%20flexible%20programming%20environment.
 
 ## WebAssembly
 
