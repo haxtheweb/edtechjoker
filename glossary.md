@@ -127,7 +127,15 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## Python
+Python is a computer programming language which is commonly utilized when constructing software. Python is a simple, very user-friendly language and syntax with easy readability. This allows for the quick and efficient development of software and maintanance. Python was released on February 20th, 1991 by Guido van Rossum in hopes of creating a successor to ABC which was capable of interfacing with the Amoeba operating system.
 
+Here is an example of some sample code written in Python:
+```
+numbers = [1, 2, 3, 4, 5]
+
+for num in numbers:
+    print(num)
+```
 
 ## Docker
 
