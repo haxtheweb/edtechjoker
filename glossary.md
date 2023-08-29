@@ -94,7 +94,8 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## Bash (sh)
-
+Bash and sh are two shells of the Unix operating system. Bash stands for Born Again Shell, and is an updated version of sh with more features. Bash is primarily an application used in the command line to run other applications. One of the reasons that Bash is so popular is because it is scriptable. Bash can run commands from a plain text file, and since most of Linux runs on top of Bash, nearly all aspects of Linux can be scripted using Bash.
+https://opensource.com/resources/what-bash
 
 ## SEO
 
