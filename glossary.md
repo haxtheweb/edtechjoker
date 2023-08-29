@@ -151,6 +151,9 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 ## User Experience / Usability
 
+User experience is the experience someone has while using a product, website, or essentially any technology. It has to be easy for the user to use the product, along with pleasing to use. Usability is more along the lines of how easy it is for the person to learn how to use the tech and whether it is efficient to use. For those who work in User Experience, they are addressing issues or pains the user may experience. 
+
+Here is more information about User Experience (UX Design): https://www.interaction-design.org/literature/topics/ux-design
 
 ## Open Educational Resources (OER)
 
