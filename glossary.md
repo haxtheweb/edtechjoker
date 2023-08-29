@@ -1,5 +1,5 @@
  # Glossary
-Write a paragraph explaining the term below, including 2-3 relevent links to more information about the topic.
+Write a paragraph explaining the term below, including 2-3 relevant links to more information about the topic.
 
 ## Front end Developer
 A front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to access and interact with the site or app. When you visit a website, the design elements you see were created by a front-end developer. Front-end developers create the user interface (UI) that determines what each part of a site or application does and how it will look.
