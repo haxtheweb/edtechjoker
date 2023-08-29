@@ -118,7 +118,10 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## SQL
-
+Structured Query Language is a domain-specific language used in programming and designed for managing data held in a relational database management system, or for stream processing in a relational data stream management system. Many large companies use SQL to contain employee-related information.
+https://aws.amazon.com/what-is/sql/#:~:text=Structured%20query%20language%20(SQL)%20is,information%20in%20a%20relational%20database.
+https://www.codecademy.com 
+https://www.sussex.ac.uk/its/help/faq?faqid=897#:~:text=SQL%20(pronounced%20%22ess%2Dque,for%20relational%20database%20management%20systems.
 
 ## MySQL
 
