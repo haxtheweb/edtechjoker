@@ -24,6 +24,7 @@ More to read: https://www.coursera.org/articles/front-end-developer, https://boo
 ## Package Manager
 
 ## Markdown
+Markdown is a language used to format plain text to structured content. Moreover, Using a straightforward and understandable syntax, it enables users to quickly add structure to documents, including headings, lists, links, and emphasis. John Gruber's Markdown provides a simple approach to producing material without the difficulties of conventional HTML.
 
 
 ## Git
