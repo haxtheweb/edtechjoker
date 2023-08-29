@@ -130,7 +130,7 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## Docker
-<sub> Docker is a platform that allows to build, test, and deploy applications. It uses virtualized environments called containers; containters are packages of software that are able to run in any environment, meaning they can run in different types of hardware and OS'. This makes the development process much more efficient. </sub>
+Docker is a platform that allows to build, test, and deploy applications. It uses virtualized environments called containers; containters are packages of software that are able to run in any environment, meaning they can run in different types of hardware and OS'. This makes the development process much more efficient. 
 ## Vagrant
 
 
