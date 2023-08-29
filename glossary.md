@@ -121,7 +121,8 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## MySQL
-
+MySQL is an open-source relational database management system. As with other relational databases, MySQL stores data in tables made up of rows and columns. Users can define, manipulate, control, and query data using Structured Query Language, more commonly known as SQL. Because of how flexible and powerful program, MySQL is the most popular open-source database system in the world.
+https://www.digitalocean.com/community/tutorials/what-is-mysql 
 
 ## WebAssembly
 
