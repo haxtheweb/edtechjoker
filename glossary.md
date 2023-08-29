@@ -135,6 +135,7 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## VirtualBox
+Oracle VM VirtualBox is cross-platform virtualization software. It allows users to extend their existing computer to run multiple operating systems including Microsoft Windows, Mac OS X, Linux, and Oracle Solaris, at the same time.
 
 
 ## Composer
