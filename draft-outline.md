@@ -19,7 +19,10 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 - **HW Part 1** listed below: do between class for discussion as well as jump starting the homework
 
 ## Thursday
-- https://github.com/elmsln/edtechjoker/pull/73 -- note that PR's keep piling up commits until they are merged
+- Quick live demo of 2 different code commit + CI works I use every day
+  - Vercel CI to rebuild site / code when there's a change
+  - Webhook to push notification on git commit for custom workflows
+  - ![Webhook to push notification](https://github.com/elmsln/edtechjoker/assets/329735/7ca9cf74-f272-4042-98a2-d9d526bdd7cc)
 - Slide deck for Thurs which I will run through very quickly (you can read on your own time or use as basis to googlee concepts) https://docs.google.com/presentation/d/1rbC4d-sXTyDUArLPXl-tBEQ8ZJldD9_QFfuFhgIW73g/edit?usp=sharing
 
 ## Homework
@@ -42,10 +45,18 @@ Two-part homework this week; we will have time in class Thurs to start and then 
   - Can you change the font color? If not, where do you think it is that being set
 
 ### Part 2:
-- Working with your pod, come up with an agreed upon visual as to how you'd conceive the following problem
+- Working with your pod, come up with an agreed upon visual as to how you'd conceive the following problem:
+#### We need to make a card with a fancy button on it
+- I will model the button on the white board
+- I'll use codepen to create the button based on my model
+- You are free to follow along and copy or just watch and ingest technique
+
+#### Now it's your turn, kicked up a notch
+- Working with your Pod, created a shared model of a card visually based on the requirements below
 - model things after the screenshot / pen and paper copy you came up with
 
-Create a new codepen from scratch and try to create a "card" using a mix of semantic, div and other tags to lay the card out:
+#### Required steps:
+- Create a new codepen from scratch and try to create a "card" using a mix of semantic, div and other tags to lay the card out:
 - Create a simple “card” using a few SECTION or DIV tags, a Heading for the title, a Paragraph for description of the image an IMG for an image, and a button on the card that says "Details" which links to hax.psu.edu
 - Make the image a fixed size via height / width and ensure the card is no bigger than 400px wide (height is weird in CSS, ignore height)
 - Use the Border, Margin, and padding attributes in order to space the card to visually be appealing (the internet can help influence something to model, try making things 8px and then 12, then 16 to find what you like, ratios are key)
