@@ -32,7 +32,7 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 - Review slide deck in detail
 - Bring improvements to class based on discussion
 
-## Thursday (or Tues depending on how quickly we get there)
+## Thursday
   
 ## In class live demo
 - Going to create a button that makes a css class change on the page
