@@ -41,25 +41,34 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 - Using these two abilities you can modify what is known as “states” in the industry
 
 ## live demo + questions
-Issue: I have to put an image on the page
-- I need to add a button that adds a new image from a random generation service, next to it when I hit the button
-- Take 2 minutes and type up the following answers into Discord as to your guess:
+Issue: I have an image on the page
+- I need to add a button that adds a new image next to it when I hit the button
+- Take 2 minutes and type up the following answers into Teams as to your guess:
 - What’s the first step?
-- Where do I get an image from (at random)?
 - How do I make the button?
 - We only have 1 image, how do we get another there?
+  - https://cdn.pixabay.com/photo/2015/11/03/08/56/question-mark-1019820_1280.jpg
+
 
 ## Remediation
 - Swap codepens / audit the codepen of your pod. Look for the following and anything else you don’t understand
-- Clean up your current card CSS so that media queries work
-- Use border and background-color to visually make your card look like a card
+- Clean up your current card CSS so that **media queries work** - this was a common thing that was missing in HW2.
+- **Use border and background-color to visually make your card look like a card** - it shouldn't just be a blank white space. It should visually appear as a single card, even if it has multiple things inside of it
+- create a wrapper div around your entire design, then another so you can put all the cards in it as a container
+```
+<div class="wrapper">
+..... your stuff to be a card
+..... your stuff to be another card
+</div>
+```
+- in order to get things "to sit next to each other" look up how to use the `display` attribute in `CSS`. This defaults to `block` for `div` and most tags but changing it to `flex` means "make things flex side by side inside of me"
 - class="tihng" NOT class   =   "thing"
 - Drop usage of id=”whatever” unless for card or button
 - Usage of padding and margin that’s either base 8 or base 16
 - Remove `<br> <center> <b> <body> <head>` and any other tags discussed that have no purpose of other parallels
 - Replace all inline styles with CSS class / selector
 - Replace all tag specific CSS selectors with classes
-- Make another “card” so that 2 live on the screen side by side
+- Make another “card” so that 2 live on the screen side by side, then another so that 3 do
 
 ## Homework
 - Create a button outside of your design in your codepen which when clicked makes a duplicate of your card
@@ -68,13 +77,14 @@ Issue: I have to put an image on the page
 - Target your card. Create a clone of the node
 - Insert the new card just after your current card
 - Make a CSS selector for `:hover` that makes the button change on hover. Normalize this with `:focus` so that tabbing to the item is the same visual outcome
+- Modify your CSS media query so that on mobile / BELOW 800px we hide the details button but anything else we display it
 - Using **JavaScript Events**, do the same thing to the card for “hover”
 
 Create buttons where…
 - On click, toggles the background color of the card
 - On click, change the text of the heading / title you used to “something else”
 - On click of a button, delete the last instance of the card
-With your pod divide up (or all work on both)
+With your pod divide up / research (or all work on both)
 - 1: On click of “Details”, don’t link to hax.psu.edu, instead show (or hide) your paragraph description. Do this via JavaScript.
 - 2: Do the above but without JavaScript, only using HTML
 - In each, hide it by default.
@@ -95,7 +105,8 @@ With your pod divide up (or all work on both)
 
 ## Homework Submission
 - Create Gist that has answers to the above after watching the videos
-- Link to your codepen (or relink to updated codepen) added to the same gist
+- **YES YOU HAVE TO CREATE AND SUBMIT A LINK TO A GIST. THIS DEMONSTRATES YOU UNDERSTAND MARKDOWN. IF YOU DO NOT, THEN GOOGLE / RESEARCH MARKDOWN**
+- Link to your codepen (or relink to an updated version of your original codepen) added to the same gist
 - drop link to your gist into canvas HW3
 
 
