@@ -71,6 +71,9 @@ Issue: I have an image on the page
 - Make another “card” so that 2 live on the screen side by side, then another so that 3 do
 
 ## Homework
+- Built examples live in class:
+  - https://codepen.io/btopro/pen/QWzdMav
+  - https://codepen.io/btopro/pen/WNLRZNX
 - Create a button outside of your design in your codepen which when clicked makes a duplicate of your card
 - Write a JS selector to target the button (JUST that button)
 - `addEventListener(“click”, (e) => { // do something });`
