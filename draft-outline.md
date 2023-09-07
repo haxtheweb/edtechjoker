@@ -74,7 +74,7 @@ Issue: I have an image on the page
 - Create a button outside of your design in your codepen which when clicked makes a duplicate of your card
 - Write a JS selector to target the button (JUST that button)
 - `addEventListener(“click”, (e) => { // do something });`
-- Target your card. Create a clone of the node
+- Target your card. Create a clone of the node (hint: .... whatever sleector  `.cloneNode(true)`    )
 - Insert the new card just after your current card
 - Make a CSS selector for `:hover` that makes the button change on hover. Normalize this with `:focus` so that tabbing to the item is the same visual outcome
 - Modify your CSS media query so that on mobile / BELOW 800px we hide the details button but anything else we display it
