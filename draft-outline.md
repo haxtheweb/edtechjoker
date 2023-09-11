@@ -9,6 +9,11 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 - [Week 2](fa-23/week-2/README.md)
 - [Week 3](fa-23/week-3/README.md)
 
+# Week 4:  Review, revision and intro to JS ecosystems
+
+This week we'll start looking at how our code fits (or doesn't) into the modern JS ecosystem. What we've made so far is old school, vanilla, simple. Now we'll look at getting it into how modern JS is shipped.
+
+
 # EVERYTHING BELOW THIS LINE IS SUBJECT TO CHANGE BASED ON COURSE PROGRESS
 ~~~~~~
 
