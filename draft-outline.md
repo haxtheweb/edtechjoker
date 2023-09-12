@@ -35,6 +35,7 @@ This week we'll start looking at how our code fits (or doesn't) into the modern 
 - https://codepen.io/suaveboy1/pen/ExGWYBj
 - https://codepen.io/miajocz/pen/xxmdLmz
 - https://codepen.io/christianwasta/pen/GRPrMmm
+- https://codepen.io/Anatoli_B/pen/eYbzRvy
 
 ## Remediations and enhancements to look for
 - Here's some general things to apply during activity one
@@ -48,6 +49,7 @@ This week we'll start looking at how our code fits (or doesn't) into the modern 
 8. The "HTML only" way of doing details display (which is highly accessible) -- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details - apply this for your details toggling
 9. ENSURE ALL TAGS THAT OPEN, CLOSE WHERE YOU EXPECT THEM TO
 10. remove reliance on `id="whatever"` and then `querySelector("#whatever")` but ESPECIALLY `document.getElementById('whatever')` . Refactor these to be `.whatever` and `class="whatever"` and `querySelector('.whatever')` or suffer the wrath of component architecture (and a11y, and ridicule) moving forward!!
+11. When using `@media` queries, verify you are using to use the same selector as you are doing in the rest of the document
 
 ## Activity 1 ~30 min
 - Pass your work to the left of you amongst your pod
@@ -65,6 +67,8 @@ We're not going to keep working in codepen much longer, it's great training whee
 - https://hax-psu.vercel.app/ this is a work in progress revision of https://hax.psu.edu/ - Open it up and let's look around a modern repo structure
 - https://github.com/elmsln/hax-psu
 - I'll step through the code and what I've been building recently, applying concepts from class but at higher scales
+- Toggle the wrong (but interesting way) -- https://codepen.io/Anatoli_B/pen/eYbzRvy
+- Toggle the right, and nice looking way (on the site in the FAQ section)
 - if you nail the little stuff, the syntax, the small structures, minimizing CSS and HTML and JS written to complete tasks, then thinking in bigger and bigger structures is more natural. It's a big pattern.
 
 ## Between class / Wed remediation
