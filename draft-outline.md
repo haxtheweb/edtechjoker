@@ -217,7 +217,7 @@ everything you do in a GUI is just a button mapped to running a command in the C
 - Now, it's time for where all development is heading and where you can best invest your time learning and building
 - I changed my entire career focus, outlook, and professional affiliations based on this technology standard..
 - Why web components, understanding how Wcs interplay with other libraries, who’s using them and why
-- Short lecture: https://docs.google.com/presentation/d/1heprQE0TXrKgc1T1ISnvlpUREREFIAehArEncg_I9-o/edit?usp=sharing
+- Short lecture: https://docs.google.com/presentation/d/1PBbN6x3wKTa9yuisBDkh80scPfZuR2R8GdvJMuGHLwk/edit?usp=sharing
 
 ## Homework
 Two parts;
@@ -263,10 +263,20 @@ This is ensuring coding conventions match a certain specification. The feedback 
 ![vercel GUI for settings](https://user-images.githubusercontent.com/329735/217584610-449ee034-ff60-49c5-8c8d-41f6283aa512.png)
 
 ## Final notes on this week
-Try your best, ask questions. We're going to go from complex / big idea / world view sorta stuff back into details. The frameworks were mostly so that we have an idea of where the world used to be. Now we'll start drilling into web components and JS within this context as it really is the future of the web (and the future is here now).
+Try your best, ask questions. We're going to go from complex / big idea / world view sorta stuff back into details. The frameworks were mostly so that we have an idea of where the world is or has been. Now we'll start drilling into web components and JS within this context as it really is the future of the web (and the future is here now).
+
+
 
 
 # Week 6
+## Tues
+- Remediation on card
+- NPM publishing of card
+- Vercel demo building of card
+## Thurs
+- Getting multiple cards into the same UI
+- Building and deploying to vercel your "app" that has all 4-5 cards in the same environment
+- If someone in your pod hasn't been doing their card / has nothing to add to the overall, then that does not impact your grade
 
 # Week 7 Mid-term exam 10%
 ## Tues
