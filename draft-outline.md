@@ -11,7 +11,10 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 - [Week 4](fa-23/week-4/README.md)
 
 # Week 5: More JS Ecosystem shhhhhtuff
-- This was rough... by design.
+- This was rough... by design. 23/59 submissions, only a handful that got it working
+- vanilla vs platforms specific identification was decent, probably 70% success rate from what I saw
+  - this comes with just reviewing code and googl'ing for parts of code in docs to understand differences
+  - you also start to see some things over and over again and realize it's built in
 - Now, we'll use working examples from people who did, to learn about all 4 and remediate
 
 ## Common issues / general feedback
@@ -28,18 +31,20 @@ For each of these, let's go through and do this together. With each of these I w
 - `npm start`
 - `code .` or just open VScode
 - As I go through, follow along so you can understand the structure
+- I am intentionally doing this in class so you can follow along
+- this also makes for a more authentic process of seeing how to learn something new
+- This is the 1st time I am looking at these beyond verifying they work, and that's about it
 
-If we cover yours, come get a (completely useful, great, awesome.. sticker)
-- React example - 
-- Angular example - 
-- VueJS example - 
-- Svelte example - 
+If we cover yours, come get a (completely useful, great, awesome.. you may come snag a sticker)
+- React example - https://github.com/huh354/week4-cardReact (and I saw several get this one)
+- Angular example - https://github.com/d-murphy12/angular-boilerplate (1 of 2 I saw)
+- VueJS example - https://github.com/StephanieGoodie/vue_pod2 ⭐  (1 of 2 I saw)
+- Svelte example - no one seemed to get it :\
 
 ## Activity 2 / Part 1 of homework
 Now we should have some fundamental understanding of what's where, you have a working copy of a classmate's card for each one.
 Now knowing this..
 - Hollow out their portions of this so that it's your card CSS and HTML
-- attempt to get your JS in there as well on the Vue one. Vue is probably the easiest of the 4
 - Push all 3 back to their respective github locations (yours + the 3 others)
 - Ensure the demo rebuilds on vercel / it's wired up to vercel (you can add projects in after the fact via vercel UI)
 
@@ -86,7 +91,7 @@ Two parts;
 ### Part 1 Links to all 3 repos with your card working in Angular, React, Vue
 - easy if you're following along in class Tues. If your struggling here DM / ask after lecture / office hours
 - Follow the steps from above to pull your code in locally, hollow out known, working copies, and then replace with your card
-- this allows you to practice in these 4 libraries but also to demystify that they aren't really that different and have more in common than they have distinct
+- this allows you to practice in these libraries but also to demystify that they aren't really that different and have more in common than they have distinct
 
 ### Part 2
 - Run through ALL Lit.dev tutorials on this page -- https://lit.dev/tutorials/
