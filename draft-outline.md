@@ -134,8 +134,8 @@ Try your best, ask questions. We're going to go from complex / big idea / world 
 # Project requirements
 Project 1 is well established. Based on our progress and class skill I throttle how the projects beyond that go as far as number, scope, and focus.
 - Project 1 - coming soon -- Implementing a piece of the Penn State Brand / style as a web component
-- Project 2 - coming soon
-- Project 3 - coming soon
+- Project 2 - coming soon -- HAX problem space
+- Project 3 - coming soon -- More advanced HAX problem space
 
 # Week 6
 ## Tues
