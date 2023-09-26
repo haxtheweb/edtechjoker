@@ -12,20 +12,66 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 - [Week 5](fa-23/week-5/README.md)
 
 # Week 6 - remediation
+
+## Let's get GENERAL BROAD concepts down here of how to develop with open WC here
+![How to class / work with these different projects](https://github.com/elmsln/edtechjoker/assets/329735/c110a2de-09c9-4a5d-81bf-9d9d07d3a886)
+
 Some of you are getting it, but we've got a lot of ghosts out there right now. There's a few ways to solve this:
 - Office hours with TAs, they know what they are doing and can help
 - Office hours, ask me about them if needed
 - In class time is a lot of open office hours
 
-## Let's get GENERAL BROAD concepts down here of how to develop with open WC here
-![git-open-wc-flow](https://github.com/elmsln/edtechjoker/assets/329735/ee61514b-dff2-4e85-83a0-8db1ce23855d)
+## Critique of 3 projects
+- https://github.com/VivekUppalapu/my-card -- TS / typescript
+- https://github.com/christianwasta/my-card
+- https://github.com/Seig1xo/owl-card
 
-## What if I don't get how to use something
-- Ask
-- Ask ChatGPT
-- Ask Google
+## Time in class to work through issues
+By the end of this week your card should be (examples shown after, you do your actual open wc card)
+- In JavaScript, not typescript
+- Code On github - https://github.com/elmsln/haxcms-odl -- Code on github, link to public repo
+- Build with a URL that you can review a preview using Vercel with an address similar to https://haxcms-odl-five.vercel.app/
+- Buttons working using refactored conventions to work in Web components context
 
-There are dozens of resources, MANY produced by people who took earlier versions of this class, that can help.
+## Wed between class
+- Watch this video about making a card via open-wc -- https://www.youtube.com/watch?v=mxTYv_8EPIo
+
+## Rest of class
+- Working in your pod, ask teammates for help, review where people are stuck. If no one in your pod can help and you are really stuck, ask TAs / me for help
+- Explaining to some one how something works, helps you refine your understanding / check understanding of how it works
+
+# HW for Week 6
+- The above working, turned in on a Gist with links to  your code and your built code working (not a vercel.com.... address, the actual card rendered and working)
+- Watch the following to help with week 6 and see ideas for week 7:
+  - https://www.youtube.com/watch?v=waYp5pjp75Q
+  - https://www.youtube.com/watch?v=HU8K4EyAncg
+
+# Week 7
+
+## Critique
+- examples to come:
+
+# Goals for this week's iteration
+- Making our component / card reusable via properties, slots
+- Buttons refactored to be stemming from the index.html while card is a stand alone component
+- Published to NPM https://docs.npmjs.com/creating-and-publishing-scoped-public-packages
+- Reusing code in code (this completes the development life cycle / feedback loop)
+
+## Bringing code together
+- Make a new repo (everyone does) with a new project done  via Open-WC
+- Call this project `cards-app` because it's an app, with all your cards in it
+- Pull in and `npm install` the work you did previously.
+- Pulling in and reusing work from others in the Pod. Cards should be able to be built on the same page
+
+## HW turn in to Canvas
+- The above working, turned in on a Gist with links to  your code and your built code working (not a vercel.com.... address, the actual card rendered and working)
+- Watch the following again if you need help / review from before
+  - https://www.youtube.com/watch?v=mxTYv_8EPIo
+  - https://www.youtube.com/watch?v=waYp5pjp75Q
+  - https://www.youtube.com/watch?v=HU8K4EyAncg
+
+
+# Week 8 - Project 1...
 
 # EVERYTHING BELOW THIS LINE IS SUBJECT TO CHANGE BASED ON COURSE PROGRESS
 ~~~~~~
