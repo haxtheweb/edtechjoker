@@ -65,6 +65,10 @@ By the end of this week your card should be (examples shown after, you do your a
 
 ## HW turn in to Canvas
 - The above working, turned in on a Gist with links to  your code and your built code working (not a vercel.com.... address, the actual card rendered and working)
+- Read and answer the following: https://bradfrost.com/blog/post/the-design-system-ecosystem/
+  - What are your take aways with regard to web components?
+  - Are they here to stay? Is it the future? Is the future now? What would Brad say
+  - What are some additional ways to make web components that Brad mentions? Link to some examples that we aren't covering in class.
 - Watch the following again if you need help / review from before
   - https://www.youtube.com/watch?v=mxTYv_8EPIo
   - https://www.youtube.com/watch?v=waYp5pjp75Q
