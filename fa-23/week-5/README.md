@@ -1,12 +1,13 @@
 # Week 5: More JS Ecosystem shhhhhtuff
-- This is not react just loading into the index.html :) https://github.com/M18ab/react-app/blob/main/public/index.html
-- Many of you didn't get it working
-- This was rough... by design.
-- Now, we'll use working examples from people who did, to learn about all 3 and slow down (slightly)
+- This was rough... by design. 23/59 submissions, only a handful that got it working
+- vanilla vs platforms specific identification was decent, probably 70% success rate from what I saw
+  - this comes with just reviewing code and googl'ing for parts of code in docs to understand differences
+  - you also start to see some things over and over again and realize it's built in
+- Now, we'll use working examples from people who did, to learn about all 4 and remediate
 
 ## Common issues / general feedback
+- https://github.com/elmsln/edtechjoker/blob/master/common-issues.md - this common issues document should help with the most common beginner issues when doing front end development
 - "error when running `npm start`" - npm command must be run from the project root. Clone the project, you have to be in that directory to run commands
-- VueJS deployment on vercel needed to be the VueJS + Vite; this came up in class.
 - Ensure you mark your repos public on github. Private repos we can't see and can't be graded. Verify your work is public so it can be reviewed
 - "Should I run commands from inside VSCode or terminal window?" USUALLY it doesn't matter, but if you have an issue running a command from inside VSCode, make sure you attempt in another window just to rule that out
 
@@ -18,21 +19,26 @@ For each of these, let's go through and do this together. With each of these I w
 - `npm start`
 - `code .` or just open VScode
 - As I go through, follow along so you can understand the structure
+- I am intentionally doing this in class so you can follow along
+- this also makes for a more authentic process of seeing how to learn something new
+- This is the 1st time I am looking at these beyond verifying they work, and that's about it
 
-If we cover yours, come get a (completely useful, great, awesome.. sticker)
-- top React example: https://github.com/Jps709/create-react-app
-- top Angular example: https://github.com/ashnaabhide/angular
-- top VueJS example: https://github.com/Pandaalifter/card-chad
+If we cover yours, come get a (completely useful, great, awesome.. you may come snag a sticker)
+- React example - https://github.com/huh354/week4-cardReact (and I saw several get this one)
+- Angular example - https://github.com/d-murphy12/angular-boilerplate (1 of 2 I saw)
+- VueJS example - https://github.com/StephanieGoodie/vue_pod2 ⭐  (1 of 2 I saw)
+- Svelte example - no one seemed to get it :\
 
 ## Activity 2 / Part 1 of homework
 Now we should have some fundamental understanding of what's where, you have a working copy of a classmate's card for each one.
 Now knowing this..
 - Hollow out their portions of this so that it's your card CSS and HTML
-- attempt to get your JS in there as well on the Vue One
-- Push all 3 back to their respective github locations
-- Ensure the demo rebuilds on vercel / it's wired up to vercel (you can add projects in after the fact via vercel)
+- Push all 3 back to their respective github locations (yours + the 3 others)
+- Ensure the demo rebuilds on vercel / it's wired up to vercel (you can add projects in after the fact via vercel UI)
 
-## Thursday
+## Wed between class
+Review the following: 
+More things from https://github.com/elmsln/edtechjoker/blob/master/common-issues.md but worth spelling out here
 ### Developer workflow tips
 - Github: Setup SSH keys https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh
 - Github: **FORK** means you have a copy of someone's codebase on your github account
@@ -57,23 +63,27 @@ everything you do in a GUI is just a button mapped to running a command in the C
 - `git commit -m "the message"` commits the changes (this is also visible on the left side of VSCode)
 - `rm` is for REMOVE so you can delete things via CLI. you delete it, it's gone, unless you bring it back via version control
 
-## Short lecture for context of where we go next
+## Thursday
+
+## Very Short lecture for context of where we go next
 - Now that we've got the basis for workflow, location, building demos to present them.. it's time to move into the world beyond them
 - We have JS, where the web started, then we had jQuery to prop it up, then we had frameworks to make component like things
 - Now, it's time for where all development is heading and where you can best invest your time learning and building
 - I changed my entire career focus, outlook, and professional affiliations based on this technology standard..
 - Why web components, understanding how Wcs interplay with other libraries, who’s using them and why
-- Short lecture: https://docs.google.com/presentation/d/1heprQE0TXrKgc1T1ISnvlpUREREFIAehArEncg_I9-o/edit?usp=sharing
+- Short lecture: https://docs.google.com/presentation/d/1PBbN6x3wKTa9yuisBDkh80scPfZuR2R8GdvJMuGHLwk/edit?usp=sharing
 
 ## Homework
 Two parts;
 
 ### Part 1 Links to all 3 repos with your card working in Angular, React, Vue
-- easy if your following along in class Tues. If your struggling here DM / ask after lecture / office hours
-- Follow the steps from above to pull your code in locally
+- easy if you're following along in class Tues. If your struggling here DM / ask after lecture / office hours
+- Follow the steps from above to pull your code in locally, hollow out known, working copies, and then replace with your card
+- this allows you to practice in these libraries but also to demystify that they aren't really that different and have more in common than they have distinct
 
 ### Part 2
-- Run through ALL Lit.dev tutorials on "Build" and "Build" found here https://lit.dev/tutorials/ so that you understand how we'll be building going forward
+- Run through ALL Lit.dev tutorials on this page -- https://lit.dev/tutorials/
+- Run through the Code labs in OpenWC's docs section -- https://open-wc.org/guides/developing-components/codelabs/
 - Create a new (empty) github repo with a name for your card. Let's call it `my-card` or `cyber-chad` or some name for your card but make sure it has a `-` and is all lowercase; clone it locally from github so you have a copy of a blank repo on your computer with which to start working
 - Run the command found here https://open-wc.org/guides/ in order to create a new element called `my-card`.
   - create a new "application" called the name of your repo (my-card, cyber-chad, etc)
@@ -99,14 +109,14 @@ This is ensuring coding conventions match a certain specification. The feedback 
 
 ## Submission
 - Gist linked to Canvas
-- Links to all 3 github repos of the port of your card hopefully looking correct in React, Angular, Vue+Vite
+- Links to all 4 github repos of the port of your card hopefully looking correct in React, Angular, Vue+Vite, Svelte
 - Link to your github repo for making a card in `open-wc`
 - Answers to these questions
 - 5 similarities between the open-wc repo structure and your react / vue / angular structures
 - Was this easier, harder, or the same difficulty as exploring the frameworks?
-- Any concept, structure, terminology, etc that your struggling with and need additional guidance at the end of this homework / 1st 5 weeks (1/3 of course)
+- Any concept, structure, terminology, etc that you're struggling with and need additional guidance at the end of this homework / 1st 5 weeks (1/3 of course)
 - Try to hook this up to vercel (code up on github, then add the project via vercel.com . You'll need to change "output" to `dist` in your settings). If you attempt this and it doesn't work don't worry about it but if it does work, add that link into your gist so we can see it built
 ![vercel GUI for settings](https://user-images.githubusercontent.com/329735/217584610-449ee034-ff60-49c5-8c8d-41f6283aa512.png)
 
 ## Final notes on this week
-Try your best, ask questions. We're going to go from complex / big idea / world view sorta stuff back into details. The frameworks were mostly so that we have an idea of where the world used to be. Now we'll start drilling into web components and JS within this context as it really is the future of the web (and the future is here now).
+Try your best, ask questions. We're going to go from complex / big idea / world view sorta stuff back into details. The frameworks were mostly so that we have an idea of where the world is or has been. Now we'll start drilling into web components and JS within this context as it really is the future of the web (and the future is here now!).
