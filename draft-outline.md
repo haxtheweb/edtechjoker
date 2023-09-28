@@ -107,61 +107,12 @@ By the end of this week your card should be (examples shown after, you do your a
 
 ## HW for SUNDAY THIS WEEK PROJECT 1 IS DUE
 
-# Week 10-12 - Project 2
-
-# Week 13 - 16 - Project 3
 
 
 # EVERYTHING BELOW THIS LINE IS SUBJECT TO CHANGE BASED ON COURSE PROGRESS
 ~~~~~~
 
-# Project requirements
-Project 1 is well established. Based on our progress and class skill I throttle how the projects beyond that go as far as number, scope, and focus.
-- Project 1 - coming soon -- Implementing a piece of the Penn State Brand / style as a web component
-- Project 2 - coming soon -- HAX problem space
-- Project 3 - coming soon -- More advanced HAX problem space
-
-# Week 6
-## Tues
-- Remediation on card
-- NPM publishing of card
-- Vercel demo building of card
-## Thurs
-- Getting multiple cards into the same UI
-- Building and deploying to vercel your "app" that has all 4-5 cards in the same environment
-- If someone in your pod hasn't been doing their card / has nothing to add to the overall, then that does not impact your grade
-
-# Week 7 Mid-term exam 10%
-## Tues
-- Anything from slides is fair game
-- Anything from readings is fair game
-- Anything produced in class or part of class is fair game
-- The internet exists; it will also be fair game
-- Google also exists, so it will also be fair game (for you)
-- AI exists. But good luck with that. See how it works out.
-- This will take place during the start of class and is relatively short
-
-## Thursday
-- in class working time on finishing up project 1
-
-# Project 1 is due end of this week
-- Project 1 is due at the end of this week
-- Use this time to catch up / clean up past assignments you may have missed and refine your project 1 submission to maximize points
-- This will be graded with more scrutiny than things leading up to it
-- The dropbox for this is on Canvas and is ultimately a repo you are turning in
-- [Project 1 Requirements](https://github.com/elmsln/edtechjoker/blob/master/sp-23/projects/project-1.md)
-
-
-# Week 8
-
-# Week 9
-
-# Week 10
-
-# Week 11
-
-# Week 12
-
+# Week 10-12 - Project 2
 
 ## Week 13 - Thanksgiving
 
@@ -169,5 +120,11 @@ Project 1 is well established. Based on our progress and class skill I throttle 
 
 ## Week 17: Final project due Wed of Finals week
 - Optional Class held Tuesday of finals week for last minute office hours
+
+# Project requirements
+Project 1 is well established. Based on our progress and class skill I throttle how the projects beyond that go as far as number, scope, and focus.
+- Project 1 - coming soon -- Implementing a piece of the Penn State Brand / style as a web component
+- Project 2 - coming soon -- HAX problem space
+- Project 3 - coming soon -- More advanced HAX problem space
 
 ~~~~~~
