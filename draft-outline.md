@@ -42,6 +42,10 @@ By the end of this week your card should be (examples shown after, you do your a
 
 # HW for Week 6
 - The above working, turned in on a Gist with links to  your code and your built code working (not a vercel.com.... address, the actual card rendered and working)
+- Your Card made in open-wc, published to github with HTML and CSS working, with a website auto-rebuilding with a whatever.vercel.app addresss that you share
+- You have taken / reviewed all of the tutorials here - https://lit.dev/tutorials/
+- After that, make a best effort attempt at getting the JavaScript to work
+- You watched the video above between classes, if not, do so https://www.youtube.com/watch?v=mxTYv_8EPIo
 - Watch the following to help with week 6 and see ideas for week 7:
   - https://www.youtube.com/watch?v=waYp5pjp75Q
   - https://www.youtube.com/watch?v=HU8K4EyAncg
@@ -73,9 +77,14 @@ By the end of this week your card should be (examples shown after, you do your a
   - https://www.youtube.com/watch?v=mxTYv_8EPIo
   - https://www.youtube.com/watch?v=waYp5pjp75Q
   - https://www.youtube.com/watch?v=HU8K4EyAncg
+- Watch this to prepare for Project 1:
+- https://www.youtube.com/watch?v=Ilw51giJWB0
 
+# Week 8 - Project 1:
+- Implementing a piece of the Penn State Brand / style as a web component
+- https://www.youtube.com/watch?v=Ilw51giJWB0
 
-# Week 8 - Project 1...
+## Project 1 Requirements
 
 # EVERYTHING BELOW THIS LINE IS SUBJECT TO CHANGE BASED ON COURSE PROGRESS
 ~~~~~~
