@@ -80,11 +80,37 @@ By the end of this week your card should be (examples shown after, you do your a
 - Watch this to prepare for Project 1:
 - https://www.youtube.com/watch?v=Ilw51giJWB0
 
-# Week 8 - Project 1:
+# Week 8 - Project 1: starting fresh with something we've all seen
 - Implementing a piece of the Penn State Brand / style as a web component
 - https://www.youtube.com/watch?v=Ilw51giJWB0
+- https://github.com/elmsln/issues/issues/1738
+
+## Tues in class
+- We'll start a new project called `polaris-theme`
+- We'll go through the 1st part of the issue to work on a 'chip' together
+- The more you put into the chip in class, the easier it'll be to work on Project 1
+
+## Wed
+- If you didn't watch it, watch it again -- https://www.youtube.com/watch?v=Ilw51giJWB0
+- https://github.com/elmsln/issues/issues/1738 -- get familiar with the different elements
+
+## Thurs
+- I will assign differenet pods different elements
 
 ## Project 1 Requirements
+- able to be reviewed on github (code) and stand alone vercel.app published location
+- should match the handed comp as closely as possible
+- should account for all of the details mentioned
+- the closer to the comp, the higher the score
+
+# Week 9 - Project 1 refinement
+
+## HW for SUNDAY THIS WEEK PROJECT 1 IS DUE
+
+# Week 10-12 - Project 2
+
+# Week 13 - 16 - Project 3
+
 
 # EVERYTHING BELOW THIS LINE IS SUBJECT TO CHANGE BASED ON COURSE PROGRESS
 ~~~~~~
