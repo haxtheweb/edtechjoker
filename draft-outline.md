@@ -47,6 +47,7 @@ By the end of this week your card should be (examples shown after, you do your a
 - After that, make a best effort attempt at getting the JavaScript to work
 - You watched the video above between classes, if not, do so https://www.youtube.com/watch?v=mxTYv_8EPIo
 - Watch the following to help with week 6 and see ideas for week 7:
+  - https://youtu.be/NZbnjG4SBJQ -- someone from class and feedback on how to make the buttons work
   - https://www.youtube.com/watch?v=waYp5pjp75Q
   - https://www.youtube.com/watch?v=HU8K4EyAncg
 
