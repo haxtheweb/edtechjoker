@@ -36,6 +36,7 @@ The material is not super easy, it's a lot of work, it's a lot of googl'ing, but
 - I can help you through this if you don't have a `build` command
 
 - Live Crit: https://github.com/btopro/my-card-owen
+- Live code: https://youtu.be/mVarAZyiUgU
   - adding stateful properties
   - adding slot
   - reflecting properties for design changes
