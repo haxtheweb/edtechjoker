@@ -1,7 +1,5 @@
 # Draft outline
 This is a draft of the course. The topics we'll cover and the order. It will be established and modified based on student needs and how things are going / what people ask for as far as needing things that match the trajectory we're on.
-- [Resource for reviewing concepts](https://youtube.com/playlist?list=PLJQupiji7J5efO_Q5VGZcPE4O_TM_HGP4)
-- [Common issues, run through this before talking to me plz](common-issues.md)
 
 # Schedule
 This schedule will be modified as we go. Look to it for what we are doing in clas that day / week. This becomes more refined as we get closer to the dates. I modulate based on needing to remediate on concepts of adding concepts based on how far we get that week.
@@ -10,51 +8,28 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 - [Week 3](fa-23/week-3/README.md)
 - [Week 4](fa-23/week-4/README.md)
 - [Week 5](fa-23/week-5/README.md)
+- [Week 6](fa-23/week-6/README.md)
 
-# Week 6 - remediation
-
-## Let's get GENERAL BROAD concepts down here of how to develop with open WC here
 ![How to class / work with these different projects](https://github.com/elmsln/edtechjoker/assets/329735/c110a2de-09c9-4a5d-81bf-9d9d07d3a886)
-
-Some of you are getting it, but we've got a lot of ghosts out there right now. There's a few ways to solve this:
-- Office hours with TAs, they know what they are doing and can help
-- Office hours, ask me about them if needed
-- In class time is a lot of open office hours
-
-## Critique of 3 projects
-- https://github.com/VivekUppalapu/my-card -- TS / typescript
-- https://github.com/christianwasta/my-card
-- https://github.com/Seig1xo/owl-card
-
-## Time in class to work through issues
-By the end of this week your card should be (examples shown after, you do your actual open wc card)
-- In JavaScript, not typescript
-- Code On github - https://github.com/elmsln/haxcms-odl -- Code on github, link to public repo
-- Build with a URL that you can review a preview using Vercel with an address similar to https://haxcms-odl-five.vercel.app/
-- Buttons working using refactored conventions to work in Web components context
-
-## Wed between class
-- Watch this video about making a card via open-wc -- https://www.youtube.com/watch?v=mxTYv_8EPIo
-
-## Rest of class
-- Working in your pod, ask teammates for help, review where people are stuck. If no one in your pod can help and you are really stuck, ask TAs / me for help
-- Explaining to some one how something works, helps you refine your understanding / check understanding of how it works
-
-# HW for Week 6
-- The above working, turned in on a Gist with links to  your code and your built code working (not a vercel.com.... address, the actual card rendered and working)
-- Your Card made in open-wc, published to github with HTML and CSS working, with a website auto-rebuilding with a whatever.vercel.app addresss that you share
-- You have taken / reviewed all of the tutorials here - https://lit.dev/tutorials/
-- After that, make a best effort attempt at getting the JavaScript to work
-- You watched the video above between classes, if not, do so https://www.youtube.com/watch?v=mxTYv_8EPIo
-- Watch the following to help with week 6 and see ideas for week 7:
-  - https://youtu.be/NZbnjG4SBJQ -- someone from class and feedback on how to make the buttons work
-  - https://www.youtube.com/watch?v=waYp5pjp75Q
-  - https://www.youtube.com/watch?v=HU8K4EyAncg
+- [Resource for reviewing concepts](https://youtube.com/playlist?list=PLJQupiji7J5efO_Q5VGZcPE4O_TM_HGP4)
+- [Common issues, run through this before talking to me plz](common-issues.md)
 
 # Week 7
+If you are behind and need help. Come to offer hours, contact the TAs, contact me about meeting up. We will be starting to move into project territory as this week is the last home work submission.
+I am willing to drop the exam in exchange for more project work and project time, but I have to see improvement in the quantity of home work submissions. They will still be accepted late, but if we
+don't get at least 80% submission rate for all work through HW 7 I will be forced to stick with the original plan of having a mid-term. This was previously laid out that there is a mid-term, my preference is to replace this with project work both in points and time to work on them as far as quality of output, but I have to be more confident you are getting what's going on and keeping up with where we are in order to do that. Exams assess working knowledge and right now it seems we need more focus on that working knowledge.
+
+The material is not super easy, it's a lot of work, it's a lot of googl'ing, but we also have a lot of people to help and we took last week to stop and spend all of class doing open office hours. I said week one to anticipate around 10 hours of out of class work, this isn't just about showing up and working here. We are very available.
+
+## Tues
 
 ## Critique
-- examples to come:
+- Live Crit: https://github.com/btopro/my-card-owen
+  - adding stateful properties
+  - adding slot
+  - reflecting properties for design changes
+- Refactoring a card based on what's been submitted  -- https://youtu.be/OJu30hh4qps
+  - code: https://github.com/btopro/clothing-card
 
 # Goals for this week's iteration
 - Making our component / card reusable via properties, slots
@@ -62,14 +37,35 @@ By the end of this week your card should be (examples shown after, you do your a
 - Published to NPM https://docs.npmjs.com/creating-and-publishing-scoped-public-packages
 - Reusing code in code (this completes the development life cycle / feedback loop)
 
+## Wed
+- Look up how to setup npm so that you can publish code there
+- `npm publish` which involves getting an account on npmjs.com
+
 ## Bringing code together
 - Make a new repo (everyone does) with a new project done  via Open-WC
 - Call this project `cards-app` because it's an app, with all your cards in it
 - Pull in and `npm install` the work you did previously.
 - Pulling in and reusing work from others in the Pod. Cards should be able to be built on the same page
+- If no one in your pod gets to this point, let's  pull in 2 things to use:
+  - your own work
+  - my `meme-maker` tag -- https://webcomponents.psu.edu/?path=/story/media-memes--basic-meme
+
+```
+# install the tag so it's added to your package.json file
+npm install --save @lrnwebcomponents/meme-maker
+
+// top of your `cards-app/src/CardsApp.js` or whatever file is in src directory of this new repo
+import "@lrnwebcomponents/meme-maker/meme-maker.js"; // use for your .js file
+
+// in your render method
+<meme-maker alt="Cat stalking a small toy" image-url="https://cdn2.thecatapi.com/images/9j5.jpg" top-text="I bring you" bottom-text="the death">
+</meme-maker>
+```
 
 ## HW turn in to Canvas
 - The above working, turned in on a Gist with links to  your code and your built code working (not a vercel.com.... address, the actual card rendered and working)
+- power skim if not familiar with the concept of Atomic Design: https://atomicdesign.bradfrost.com/
+  - I am not assessing on this but it's a very important foundational concept if you want to do this as a career. He basically invented the low level patterns by which everyone designs logical things that work together
 - Read and answer the following: https://bradfrost.com/blog/post/the-design-system-ecosystem/
   - What are your take aways with regard to web components?
   - Are they here to stay? Is it the future? Is the future now? What would Brad say
@@ -80,6 +76,8 @@ By the end of this week your card should be (examples shown after, you do your a
   - https://www.youtube.com/watch?v=HU8K4EyAncg
 - Watch this to prepare for Project 1:
 - https://www.youtube.com/watch?v=Ilw51giJWB0
+
+
 
 # Week 8 - Project 1: starting fresh with something we've all seen
 - Implementing a piece of the Penn State Brand / style as a web component
