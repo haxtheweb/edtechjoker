@@ -1,81 +1,39 @@
-# Week 6: Web components === project 1
+# Week 6 - remediation
 
-## Tues
-- I'm going to go through some working examples
-- I will make the card from nothing, as a web component. Follow along if you have not been able to make this work from step 0
-- Project 1 is announced so you have some scope as to what your working on for it.
-- Class will be a mix of demos of specific things people need help with and time to work and ask questions
+## Let's get GENERAL BROAD concepts down here of how to develop with open WC here
+![How to class / work with these different projects](https://github.com/elmsln/edtechjoker/assets/329735/c110a2de-09c9-4a5d-81bf-9d9d07d3a886)
 
-## Refinement / critique / review of several high end examples
-- looking over some examples generated from work in class
-  - farisnif: "One thing I would like to explore more is why is HTML going in to .js files at times"
-  - "please work i cry" - I'm going to show building this from 0 today. Follow along
-  - https://github.com/platinumfishes/tf2-pyroland/blob/main/my-card/src/MyCard.js#L9 - I enjoy this commenting blocks of things style
-  - https://github.com/Pandaalifter/openwc-chad/blob/main/src/openwc-chad.js - has some scoping correct
-  - https://github.com/NewJerkey/bryce-card --> https://bryce-card.vercel.app/
-- Common things asked about:
-  - The rest of the class now is a web components / JS in this context. We'll read more JS and wire things together to understand them
-  - Its repetition till it clicks; there's no other way
-  - "I'd like a video on X" is Google. Lit.dev has great tutorials (that you were to go through). There is content all over the internet for this stuff. If a specific concept doesn't make sense after many a google and video, then I can try to help unpack; not prior to that search.
-- this image means that you need the repo to not be like`my-thing/my-thing/index.html` and instead `my-thing/index.html`
-![image](https://user-images.githubusercontent.com/329735/218572953-39168565-f0a5-4f00-84e2-4d7ab9348165.png)
+Some of you are getting it, but we've got a lot of ghosts out there right now. There's a few ways to solve this:
+- Office hours with TAs, they know what they are doing and can help
+- Office hours, ask me about them if needed
+- In class time is a lot of open office hours
 
-# WATCH OUTSIDE OF CLASS PRIOR TO THURSDAY
-I recorded end to end, me creating the `drew-card`. https://www.youtube.com/watch?v=mxTYv_8EPIo
-Your Element should be up to where I get in this repo by Thursday in order to be on task
-- vercel built, working card
-- code: https://github.com/btopro/drew-card
-- demo: https://drew-card.vercel.app/
-- Atomic design, referenced in the video https://bradfrost.com/blog/post/atomic-web-design/
+## Critique of 3 projects
+- https://github.com/VivekUppalapu/my-card -- TS / typescript
+- https://github.com/christianwasta/my-card
+- https://github.com/Seig1xo/owl-card
 
-# In class Activity today (submit to the 
-- We will envision the API for our card
-- What is its name? How can we make it abstract and reusable
-  - examples: NOT pika-chu-card. `pokemon-card` or even better `character-card`
-  - `lawncare-card` not `my-card` or `mycard-2` or something meaningless
-  - Semantics matter.
-- If it had "properties" that we could modify and see change; what would we call them? What can be modified via a variable? What are those variables named? What do they do?
-- Is there anything that could be HTML based input vs a single value? What Type is that single value?
+## Time in class to work through issues
+By the end of this week your card should be (examples shown after, you do your actual open wc card)
+- In JavaScript, not typescript
+- Code On github - https://github.com/elmsln/haxcms-odl -- Code on github, link to public repo
+- Build with a URL that you can review a preview using Vercel with an address similar to https://haxcms-odl-five.vercel.app/
+- Buttons working using refactored conventions to work in Web components context
 
-# Thursday
+## Wed between class
+- Watch this video about making a card via open-wc -- https://www.youtube.com/watch?v=mxTYv_8EPIo
 
-- Looking at VanillaJS vs LitElement via 2 trolly tags
-- moar-sarcasm - 
-  - demo: https://haxapi.vercel.app/?path=/story/extra-sarcasm--progressive-enhancement
-  - source: https://github.com/elmsln/lrnwebcomponents/blob/master/elements/moar-sarcasm/src/moar-sarcasm.js
-  - article: https://dev.to/btopro/moar-sarcasm-plz-a-totaly-necessary-web-components-tutorial-3c51
-  - property / attribute based input vs "slot"
-- meme-maker
-  - demo: https://haxapi.vercel.app/?path=/story/media-memes--basic-meme
-  - source: https://github.com/elmsln/lrnwebcomponents/blob/master/elements/meme-maker/src/meme-maker.js
+## Rest of class
+- Working in your pod, ask teammates for help, review where people are stuck. If no one in your pod can help and you are really stuck, ask TAs / me for help
+- Explaining to some one how something works, helps you refine your understanding / check understanding of how it works
 
-- How is `<slot>` used and how can `drew-card` benefit from it
-- Implementing meme-maker into an existing project
-- "Prop drilling" how wee can pass properties down between elements to use them how we want
-
-## Activity: Reuse and refactoring
-- Now it's your turn. With your peers as help as needed, implement `<slot>`, `meme-maker` and 2 new properties on your card
-- let's make our cards more reusable via slot, oither people's tags, and properties.
-- Anything that's specific language (Details, Drew Doughty, etc) should be a property that can be modified
-- Anything that allows for any kind of HTML to be applied, should be done via a `<slot>`
-- Get an account on https://www.npmjs.com/ - you don't need it to download stuff but you will for getting stuff up there later
-- `npm install --save @lrnwebcomponents/meme-maker`
-- get it implemented in your card with 2 properties for top and bottom text wired into it
-- push your code up to Github and then drop a link to your current state of work in Canvas
-
-# Homework
-- Watch me going through doing the whole thing (if you didn't already); following along so you can meet the requirements https://www.youtube.com/watch?v=mxTYv_8EPIo
-- Card should be well named, built using vercel for its demo and starting to meet the requirements outlined in Project 1
-- Properties should be used to deliver the title / subtitle
-- meme-maker should be implemented with properties "drilled" down from your card into the `meme-maker` image
-- All CSS / JS / HTML in your card tag should be ONLY related to the card itself
-- Buttons should be in index.html and wired to work in their new scoping of the element
-- Anything you do beyond this meeting the requirements is stuff you can ask about
-- Bring questions to class for working sessions next week of things to see demo'ed / debugged
-
-- Skim this slide deck https://docs.google.com/presentation/d/13z_spZnGt7uIY_MjXOnqkxvMyUj6-SEV/edit?usp=sharing&ouid=100601982236009260859&rtpof=true&sd=true
-  - Google **HTML DOM** (if needed) and see explainataions
-  - Google **Virtual DOM** and see explainataions / opinions
-  - Google **ShadowDOM** and see explainataions / opinions
-  - What is the difference between these three?
-- Submit to Canvas dropbox: Gist; link to your github repo for your card's progression. Answer to the question above
+# HW for Week 6
+- The above working, turned in on a Gist with links to  your code and your built code working (not a vercel.com.... address, the actual card rendered and working)
+- Your Card made in open-wc, published to github with HTML and CSS working, with a website auto-rebuilding with a whatever.vercel.app addresss that you share
+- You have taken / reviewed all of the tutorials here - https://lit.dev/tutorials/
+- After that, make a best effort attempt at getting the JavaScript to work
+- You watched the video above between classes, if not, do so https://www.youtube.com/watch?v=mxTYv_8EPIo
+- Watch the following to help with week 6 and see ideas for week 7:
+  - https://youtu.be/NZbnjG4SBJQ -- someone from class and feedback on how to make the buttons work
+  - https://www.youtube.com/watch?v=waYp5pjp75Q
+  - https://www.youtube.com/watch?v=HU8K4EyAncg
