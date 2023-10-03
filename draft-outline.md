@@ -24,6 +24,17 @@ The material is not super easy, it's a lot of work, it's a lot of googl'ing, but
 ## Tues
 
 ## Critique
+
+## "my code isn't building on vercel"
+- Open WC changed... like a week ago
+- after running `npm init @open-wc` make sure you select the `Application` option. This way there is a build routinee
+### How to fix after the fact
+- go to the folder JUST ABOVE the folder where you card is like `Documents/Github` if there is `Documents/Github/my-card`
+- run `npm init @open-wc` again
+- go through the options to build an application, ensuring you select `build` in the options presented (all the options except `lint`)
+- when it asks about overwriting files, you'll want to NOT overwrite all of them, but you will want to overwrite package.json as it has changes required
+- I can help you through this if you don't have a `build` command
+
 - Live Crit: https://github.com/btopro/my-card-owen
   - adding stateful properties
   - adding slot
