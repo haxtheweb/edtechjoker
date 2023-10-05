@@ -57,10 +57,10 @@ The material is not super easy, it's a lot of work, it's a lot of googl'ing, but
 - Make a new repo (everyone does) with a new project done  via Open-WC
 - Call this project `cards-app` because it's an app, with all your cards in it
 - Pull in and `npm install` the work you did previously.
-- Pulling in and reusing work from others in the Pod. Cards should be able to be built on the same page
+- Pull in the work of 1 other person in your pod from THEIR npm repo... OR.....
 - If no one in your pod gets to this point, let's  pull in 2 things to use:
-  - your own work
-  - my `meme-maker` tag -- https://webcomponents.psu.edu/?path=/story/media-memes--basic-meme
+  - your own work (requirement)
+  - my `meme-maker` tag -- https://webcomponents.psu.edu/?path=/story/media-memes--basic-meme (these same steps apply to if its someone else in your pod)
 
 ```
 # install the tag so it's added to your package.json file
@@ -73,6 +73,10 @@ import "@lrnwebcomponents/meme-maker/meme-maker.js"; // use for your .js file
 <meme-maker alt="Cat stalking a small toy" image-url="https://cdn2.thecatapi.com/images/9j5.jpg" top-text="I bring you" bottom-text="the death">
 </meme-maker>
 ```
+
+- This repo's `cards-app` element should have 3 import statements at the top of it. meme-maker (or a member of your pod), your own element, lit.
+- the render method should have your card (without the buttons in it since those were just in the demo) + the other element
+- this is the  feedback loop of modern development. Make something, resuse other things, reuse your own work.
 
 ## HW turn in to Canvas
 - The above working, turned in on a Gist with links to  your code and your built code working (not a vercel.com.... address, the actual card rendered and working)
