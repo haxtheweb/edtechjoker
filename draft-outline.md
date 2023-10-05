@@ -73,6 +73,10 @@ import "@lrnwebcomponents/meme-maker/meme-maker.js"; // use for your .js file
 <meme-maker alt="Cat stalking a small toy" image-url="https://cdn2.thecatapi.com/images/9j5.jpg" top-text="I bring you" bottom-text="the death">
 </meme-maker>
 ```
+## What I did in class
+- https://github.com/btopro/cards-app
+- https://cards-app-one.vercel.app/
+- https://www.youtube.com/watch?v=PedcMZihFbM
 
 - This repo's `cards-app` element should have 3 import statements at the top of it. meme-maker (or a member of your pod), your own element, lit.
 - the render method should have your card (without the buttons in it since those were just in the demo) + the other element
