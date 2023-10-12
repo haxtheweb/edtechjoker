@@ -14,6 +14,7 @@ In class we will do this together, as a group for discussion, walking through st
 - We are going to do the polaris-chip element found on this page:
   - issue: https://github.com/elmsln/issues/issues/1738
   - example in context (scroll to bottom in the 'tags' section of this page): https://www.psu.edu/news/academics/story/penn-state-rises-world-university-rankings-places-20th-among-us-publics/
+- Video from class live building this -- https://www.youtube.com/watch?v=tXibz3KeGL4
 
 You have to meet the requirements of the element visually and turn in the following:
 1. A link to your publicly available github repo of YOUR work
@@ -43,12 +44,6 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 - [Week 6](fa-23/week-6/README.md)
 - [Week 7](fa-23/week-7/README.md)
 
-![How to class / work with these different projects](https://github.com/elmsln/edtechjoker/assets/329735/c110a2de-09c9-4a5d-81bf-9d9d07d3a886)
-- [Resource for reviewing concepts](https://youtube.com/playlist?list=PLJQupiji7J5efO_Q5VGZcPE4O_TM_HGP4)
-- [Common issues, run through this before talking to me plz](common-issues.md)
-
-
-
 # Week 8 - Exam / Project 1
 - Implementing a piece of the Penn State Brand / style as a web component
 - https://www.youtube.com/watch?v=Ilw51giJWB0
@@ -61,13 +56,29 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 
 ## Thurs
 - Guest lecture about web components
+- Devices down, taking notes on paper if you have it
 
 ## Homework
 - "Exam" / Project 1 is due Sunday; the requirements are above
 - If you didn't watch it, watch it again -- https://www.youtube.com/watch?v=Ilw51giJWB0
+- Review the live build for process and concept -- https://www.youtube.com/watch?v=tXibz3KeGL4
 - https://github.com/elmsln/issues/issues/1738 -- get familiar with the different elements
 
 # Week 9 - Project 2 Assignment and Beginning work
+
+## Tues
+- Issue discussed
+- Pods assigned project 2 to work on
+- Using https://github.com/btopro/polaris-chip as a foundation will speed up development, though you'll want to rename directories and files
+- Time to start working in class. This is worth 15% of the grade
+
+## Thurs
+- Open working time in class to ask questions, work through scope, collaborate.
+
+## Homework
+- P2 check-in 1 (2pts)
+ - Code check in via github repo submitted
+ - 
 
 # EVERYTHING BELOW THIS LINE IS SUBJECT TO CHANGE BASED ON COURSE PROGRESS
 ~~~~~~
