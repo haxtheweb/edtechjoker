@@ -49,7 +49,7 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 
 
 
-# Week 8 - Project 1: starting fresh with something we've all seen
+# Week 8 - Exam / Project 1
 - Implementing a piece of the Penn State Brand / style as a web component
 - https://www.youtube.com/watch?v=Ilw51giJWB0
 - https://github.com/elmsln/issues/issues/1738
@@ -59,24 +59,15 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 - We'll go through the 1st part of the issue to work on a 'chip' together
 - The more you put into the chip in class, the easier it'll be to work on Project 1
 
-## Wed
+## Thurs
+- Guest lecture about web components
+
+## Homework
+- "Exam" / Project 1 is due Sunday; the requirements are above
 - If you didn't watch it, watch it again -- https://www.youtube.com/watch?v=Ilw51giJWB0
 - https://github.com/elmsln/issues/issues/1738 -- get familiar with the different elements
 
-## Thurs
-- I will assign differenet pods different elements
-
-## Project 1 Requirements
-- able to be reviewed on github (code) and stand alone vercel.app published location
-- should match the handed comp as closely as possible
-- should account for all of the details mentioned
-- the closer to the comp, the higher the score
-
-# Week 9 - Project 1 refinement
-
-## HW for SUNDAY THIS WEEK PROJECT 1 IS DUE
-
-
+# Week 9 - Project 2 Assignment and Beginning work
 
 # EVERYTHING BELOW THIS LINE IS SUBJECT TO CHANGE BASED ON COURSE PROGRESS
 ~~~~~~
