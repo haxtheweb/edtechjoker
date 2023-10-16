@@ -47,43 +47,72 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 
 # Week 9 - Project 2 - start
 
+Project requirements:
+- Use Project 1 `chip` template as starting point
+- Must supply code and point to vercel app address for demo
+- Evaluation is based on accuracy in meeting the comp / requirements all being met.
+## Project rubric
+- Miss a requirement? auto 1 point off
+- Stylistic / unused code / thing to clean up as a developer? -.1 - -1 depending on scale of the issue
+- Minor issue like CSS doesn't look correct or has small positioning issue? -.25 - .75 depending on scale of issue
+- Accessibility / security / other issue? -.1 - .75 depeending on scale of issue
+- We will grade project 3 more harshly than project 2 as we are working toward perfection based on the best looking, functioning code that matches the comps our 'client' requires.
+
 ## Tues
 - HAX.psu.edu for context of where this will be used
 - issue in question: https://github.com/elmsln/issues/issues/1738
 - Note team assignments for the 3 atoms we will make. Each team has a different atom
 - Using https://github.com/btopro/polaris-chip as a foundation will speed up development, though you'll want to rename directories and files
 - Time to start working in class. This is worth 15% of the grade
-- This is due Nov 5th (Sunday, 3 weeks from today)
+- This is due Oct 31st (2 weeks from today)
 
 ## Thurs
 - Open working time in class to ask questions, work through scope, collaborate.
 
 ## Homework
-- P2 check-in 1 (2pts)
- - Code check in via github repo submitted
+- Code check in via github repo submitted
+- Example from each of the 3 projects will serve for feedback and shaping of projects
 
 # Week 10 - Project 2 continued
+## Tues Critique
+# Week 11 - Submit Project 2
+## Tues
+- Time to work in class and finish up
+- Project 2 due at Midnight
 
-# Week 11 - Submit Project 2, start project 3
+## Thursday
+- Start of Project 3. Understanding scope and requirements
+  - https://github.com/elmsln/issues/issues/1450
+  - https://github.com/elmsln/issues/issues/1429
 
-# Week 12 - Project 3 
+## Sunday
+- Check in for inital scope comprehension and mock up generation (3pts)
+
+# Week 12
+# Tues / Thurs
+- Class will be time to work and some critique / occational lessons (like how to `map` an Array of objects)
+## Sunday
+- Check in for status check and progress (4pts)
+
+# Week 13
+# Tues / Thurs
+- Class will be time to work and some critique / occational lessons (like how to `map` an Array of objects)
+## Sunday
+- Check in for status check and progress (4pts)
+
+# week 14 - Tday week off
 
 # EVERYTHING BELOW THIS LINE IS SUBJECT TO CHANGE BASED ON COURSE PROGRESS
 ~~~~~~
-
-# Week 10-12 - Project 2
-
-## Week 13 - Thanksgiving
-
-## Week 14-16
+# Week 15
+# Tues / Thurs
+- Class will be time to work and some critique
+## Sunday
+- Check in for status check and progress (4pts)
+# Week 16
+# Tues / Thurs
+- Class will be time to work and some critique
 
 ## Week 17: Final project due Wed of Finals week
 - Optional Class held Tuesday of finals week for last minute office hours
-
-# Project requirements
-Project 1 is well established. Based on our progress and class skill I throttle how the projects beyond that go as far as number, scope, and focus.
-- Project 1 - coming soon -- Implementing a piece of the Penn State Brand / style as a web component
-- Project 2 - coming soon -- HAX problem space
-- Project 3 - coming soon -- More advanced HAX problem space
-
 ~~~~~~
