@@ -43,34 +43,17 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 - [Week 5](fa-23/week-5/README.md)
 - [Week 6](fa-23/week-6/README.md)
 - [Week 7](fa-23/week-7/README.md)
+- [Week 8 - "exam" / project 1](fa-23/week-8/README.md)
 
-# Week 8 - Exam / Project 1
-- Implementing a piece of the Penn State Brand / style as a web component
-- https://www.youtube.com/watch?v=Ilw51giJWB0
-- https://github.com/elmsln/issues/issues/1738
-
-## Tues in class
-- We'll start a new project called `polaris-theme`
-- We'll go through the 1st part of the issue to work on a 'chip' together
-- The more you put into the chip in class, the easier it'll be to work on Project 1
-
-## Thurs
-- Guest lecture about web components
-- Devices down, taking notes on paper if you have it
-
-## Homework
-- "Exam" / Project 1 is due Sunday; the requirements are above
-- If you didn't watch it, watch it again -- https://www.youtube.com/watch?v=Ilw51giJWB0
-- Review the live build for process and concept -- https://www.youtube.com/watch?v=tXibz3KeGL4
-- https://github.com/elmsln/issues/issues/1738 -- get familiar with the different elements
-
-# Week 9 - Project 2 Assignment and Beginning work
+# Week 9 - Project 2 - start
 
 ## Tues
-- Issue discussed
-- Pods assigned project 2 to work on
+- HAX.psu.edu for context of where this will be used
+- issue in question: https://github.com/elmsln/issues/issues/1738
+- Note team assignments for the 3 atoms we will make. Each team has a different atom
 - Using https://github.com/btopro/polaris-chip as a foundation will speed up development, though you'll want to rename directories and files
 - Time to start working in class. This is worth 15% of the grade
+- This is due Nov 5th (Sunday, 3 weeks from today)
 
 ## Thurs
 - Open working time in class to ask questions, work through scope, collaborate.
@@ -78,7 +61,12 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 ## Homework
 - P2 check-in 1 (2pts)
  - Code check in via github repo submitted
- - 
+
+# Week 10 - Project 2 continued
+
+# Week 11 - Submit Project 2, start project 3
+
+# Week 12 - Project 3 
 
 # EVERYTHING BELOW THIS LINE IS SUBJECT TO CHANGE BASED ON COURSE PROGRESS
 ~~~~~~
