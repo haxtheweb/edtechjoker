@@ -13,7 +13,7 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 - [Week 8 - "exam" / project 1](fa-23/week-8/README.md)
 
 # Week 9 - Project 2 - start
-
+https://github.com/elmsln/issues/issues/1738
 Project requirements:
 - Use Project 1 `chip` template as starting point
 - Must supply code and point to vercel app address for demo
