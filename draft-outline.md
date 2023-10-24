@@ -11,6 +11,7 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 - [Week 6](fa-23/week-6/README.md)
 - [Week 7](fa-23/week-7/README.md)
 - [Week 8 - "exam" / project 1](fa-23/week-8/README.md)
+- Week 9-10 Project 2
 
 # Week 9 - Project 2 - start
 - https://brand.psu.edu/
@@ -43,13 +44,36 @@ Project requirements:
 
 # Week 10 - Project 2 continued
 ## Tues Critique
+- Will start class walking through a few repos to show current state and offer feedback
+- I will record this process but please stop me to ask questions as we go
+- Open time to work on implementing this feedback and improving upon what you have
+
+## Wed
+- If you think of specific questions / examples of issues you are having, DM me or a TA so that we can discuss Thurs
+- Keep working on your element to refine it
+
+## Thurs
+- Answering questions that came in / offering additional advisement
+- More time to collaborate in class
+- If you have yours working, make sure the other people on your team have theirs working. Teaching often refines your knowledge
+- 
+## Homework
+- Continue to work on Project 2.
+- Recall that this is Due Tuesday at Midnight
+- If you generate additional questions / things you'd like reviewed for Tuesday please continue to DM me / the TAs and we'll bring up what we can in class
+- In class Tuesday we will start planning out and understanding the scope of project 3
+
 # Week 11 - Submit Project 2
 ## Tues
+- Start of Project 3. Understanding scope and requirements
 - Time to work in class and finish up
 - Project 2 due at Midnight
 
+# Wed
+- Generate questions surrounding scope for project 3
+
 ## Thursday
-- Start of Project 3. Understanding scope and requirements
+- Time to start working on Project 3
   - https://github.com/elmsln/issues/issues/1450
   - https://github.com/elmsln/issues/issues/1429
 
