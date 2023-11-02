@@ -11,7 +11,7 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 - [Week 6](fa-23/week-6/README.md)
 - [Week 7](fa-23/week-7/README.md)
 - [Week 8 - "exam" / project 1](fa-23/week-8/README.md)
-- [Week 9-10 Project 2](fa-23/week-9-10/README.md)
+- [Week 9-10 Project 2](fa-23/week-9/README.md)
 
 # Week 11 - Submit Project 2
 ## Tues
@@ -23,9 +23,10 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 - Generate questions surrounding scope for project 3
 
 ## Thursday
-- Time to start working on Project 3
-  - https://github.com/elmsln/issues/issues/1450
-  - https://github.com/elmsln/issues/issues/1429
+- Discussion of the scope of each issue and possible ways of attacking them
+  - Team 1: https://github.com/elmsln/issues/issues/1450
+  - Team 2: https://github.com/elmsln/issues/issues/1788
+  - Team 3: https://github.com/elmsln/issues/issues/1789
 
 ## Sunday
 - Check in for inital scope comprehension and mock up generation (3pts)
