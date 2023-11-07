@@ -12,40 +12,31 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 - [Week 7](fa-23/week-7/README.md)
 - [Week 8 - "exam" / project 1](fa-23/week-8/README.md)
 - [Week 9-10 Project 2](fa-23/week-9/README.md)
-
-# Week 11 - Submit Project 2
+- [Week 11](fa-23/week-11/README.md)
+  
+# Week 12
 ## Tues
-- Start of Project 3. Understanding scope and requirements
-- Time to work in class and finish up
-- Project 2 due at Midnight
-
-# Wed
-- Generate questions surrounding scope for project 3
-
-## Thursday
-Today in class I'll be walking through how the repo for the project 3 boilerplate works. Here's the trade I just made with you all:
-
-- I increased the requirements of all 3 projects beyond what I originally intended
-- I improved the baseline / boilerplate to solve some of the complex issues up-front
-- This will be a mix of design and JS state management
-- Each of these can be thought of as a "full applicaation"
-- You are encouraged to work together
-- You still are submitting individually
-- You are encouraged to borrow past work from my design system - https://haxapi.vercel.app/
-- You are encouraged to borrow past work from this design system - https://shoelace.style/
-- Discussion of the scope of each issue and possible ways of attacking them
+- Briefly mention feedback / Project 2 outcomes
+- State management / Data Stores
+- Live Demo: Event monitoring and keeping track of "what's active"
+- Class will be time to work and some critique / occational lessons (like how to `map` an Array of objects)
   - Team 1: https://github.com/elmsln/issues/issues/1450
   - Team 2: https://github.com/elmsln/issues/issues/1788
   - Team 3: https://github.com/elmsln/issues/issues/1789
 
-## Sunday
-- Check in for inital scope comprehension and mock up generation (3pts)
+## Thurs
+- Additional demo / notes from reviewing work
+- More time to work in class and ask questions
 
-# Week 12
-# Tues / Thurs
-- Class will be time to work and some critique / occational lessons (like how to `map` an Array of objects)
-## Sunday
-- Check in for status check and progress (4pts)
+## Due for Sunday Check in 2
+- Turn in Code / Repo / Built on Vercel (if it's build-able) with current state of work
+- Design should start to be visible either as scaffolding or designing a specific element
+- Data in your JSON Array should be realistic looking data
+- Event feedback loop of click something and know what is active
+- Where are you stuck?
+- What are your next steps?
+
+
 
 # Week 13
 # Tues / Thurs
