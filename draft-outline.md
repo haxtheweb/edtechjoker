@@ -25,6 +25,10 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
   - Team 3: https://github.com/elmsln/issues/issues/1789
 
 ## Thurs
+- Accessing video player's current time
+- `this.shadowRoot.querySelector('video-player').shadowRoot.querySelector("a11y-media-player").media.currentTime`
+- ^ this is a bit ridiculous and I appologize ^
+- https://haxapi.vercel.app/?path=/story/media-video--basic-video-player -- how to use this
 - Additional demo / notes from reviewing work
 - More time to work in class and ask questions
 
