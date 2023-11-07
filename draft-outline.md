@@ -18,6 +18,7 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 ## Tues
 - Briefly mention feedback / Project 2 outcomes
 - State management / Data Stores
+- https://github.com/btopro/tv-app -- tv-app, updated in class
 - Live Demo: Event monitoring and keeping track of "what's active"
 - Class will be time to work and some critique / occational lessons (like how to `map` an Array of objects)
   - Team 1: https://github.com/elmsln/issues/issues/1450
