@@ -29,6 +29,7 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 - `this.shadowRoot.querySelector('video-player').shadowRoot.querySelector("a11y-media-player").media.currentTime`
 - ^ this is a bit ridiculous and I appologize ^
 - https://haxapi.vercel.app/?path=/story/media-video--basic-video-player -- how to use this
+- OR. using a native `<video>` tag - https://stackoverflow.com/questions/5981427/start-html5-video-at-a-particular-position-when-loading
 - Additional demo / notes from reviewing work
 - More time to work in class and ask questions
 
