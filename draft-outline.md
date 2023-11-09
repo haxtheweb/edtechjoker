@@ -26,12 +26,32 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
   - Team 3: https://github.com/elmsln/issues/issues/1789
 
 ## Thurs
+### Icon library
+run these commands to get our icon library
+```
+npm install -s @lrnwebcomponents/simple-icon
+npm install -s @lrnwebcomponents/hax-iconset
+```
+Then to add an icon button the below
+```
+import "@lrnwebcomponents/simple-icon/lib/simple-icon-button-lite.js";
+import "@lrnwebcomponents/simple-icon/lib/simple-icon-lite.js";
+import "@lrnwebcomponents/simple-icon/lib/simple-icons.js";
+import "@lrnwebcomponents/hax-iconset/lib/simple-hax-iconset.js";
+```
+Here's docs on usage / seeing some possible icons of wich we have 600+ https://haxapi.vercel.app/?path=/story/media-icons--simple-icon-button-story
+
+You are free to use the icons from shoelace as well if you prefer theirs - https://shoelace.style/components/icon-button
+
+### video timestamp if needed
 - Accessing video player's current time
 - `this.shadowRoot.querySelector('video-player').shadowRoot.querySelector("a11y-media-player").media.currentTime`
 - ^ this is a bit ridiculous and I appologize ^
+### how to get / use the video-player
 - https://haxapi.vercel.app/?path=/story/media-video--basic-video-player -- how to use this
 - OR. using a native `<video>` tag - https://stackoverflow.com/questions/5981427/start-html5-video-at-a-particular-position-when-loading
 - Additional demo / notes from reviewing work
+
 - More time to work in class and ask questions
 
 ## Due for Sunday Check in 2
