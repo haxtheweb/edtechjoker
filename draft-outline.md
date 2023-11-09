@@ -65,6 +65,7 @@ You are free to use the icons from shoelace as well if you prefer theirs - https
 
 
 # Week 13
+- state management maintaining an `activeIndex` - https://www.youtube.com/watch?v=XKfz4e2o6aU
 # Tues / Thurs
 - Class will be time to work and some critique / occational lessons (like how to `map` an Array of objects)
 ## Sunday
