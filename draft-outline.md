@@ -13,63 +13,36 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 - [Week 8 - "exam" / project 1](fa-23/week-8/README.md)
 - [Week 9-10 Project 2](fa-23/week-9/README.md)
 - [Week 11](fa-23/week-11/README.md)
-  
-# Week 12
-## Tues
-- Briefly mention feedback / Project 2 outcomes
-- State management / Data Stores
-- https://github.com/btopro/tv-app -- tv-app, updated in class
-- Live Demo: Event monitoring and keeping track of "what's active"
-- Class will be time to work and some critique / occational lessons (like how to `map` an Array of objects)
-  - Team 1: https://github.com/elmsln/issues/issues/1450
-  - Team 2: https://github.com/elmsln/issues/issues/1788
-  - Team 3: https://github.com/elmsln/issues/issues/1789
-
-## Thurs
-### Icon library
-run these commands to get our icon library
-```
-npm install -s @lrnwebcomponents/simple-icon
-npm install -s @lrnwebcomponents/hax-iconset
-```
-Then to add an icon button the below
-```
-import "@lrnwebcomponents/simple-icon/lib/simple-icon-button-lite.js";
-import "@lrnwebcomponents/simple-icon/lib/simple-icon-lite.js";
-import "@lrnwebcomponents/simple-icon/lib/simple-icons.js";
-import "@lrnwebcomponents/hax-iconset/lib/simple-hax-iconset.js";
-```
-Here's docs on usage / seeing some possible icons of wich we have 600+ https://haxapi.vercel.app/?path=/story/media-icons--simple-icon-button-story
-
-You are free to use the icons from shoelace as well if you prefer theirs - https://shoelace.style/components/icon-button
-
-### video timestamp if needed
-- Accessing video player's current time
-- `this.shadowRoot.querySelector('video-player').shadowRoot.querySelector("a11y-media-player").media.currentTime`
-- ^ this is a bit ridiculous and I appologize ^
-### how to get / use the video-player
-- https://haxapi.vercel.app/?path=/story/media-video--basic-video-player -- how to use this
-- OR. using a native `<video>` tag - https://stackoverflow.com/questions/5981427/start-html5-video-at-a-particular-position-when-loading
-- Additional demo / notes from reviewing work
-
-- More time to work in class and ask questions
-
-## Due for Sunday Check in 2
-- Turn in Code / Repo / Built on Vercel (if it's build-able) with current state of work
-- Design should start to be visible either as scaffolding or designing a specific element
-- Data in your JSON Array should be realistic looking data
-- Event feedback loop of click something and know what is active
-- Where are you stuck?
-- What are your next steps?
-
-
+- [Week 12](fa-23/week-12/README.md)
 
 # Week 13
-- state management maintaining an `activeIndex` - https://www.youtube.com/watch?v=XKfz4e2o6aU
-# Tues / Thurs
-- Class will be time to work and some critique / occational lessons (like how to `map` an Array of objects)
+- Video from class last week: state management maintaining an `activeIndex` - https://www.youtube.com/watch?v=XKfz4e2o6aU
+- Effectively, we need a way of knowing what's active and sticking with it so that when we click things we know what's active or when the time code changes that we know to switch what's "active"
+- `updated()` life cycle of Lit https://lit.dev/docs/components/lifecycle/#updated is critical to maintaining "state" of the application!
+
+# Tues - Pod work
+- 5 minutes; Review with your pod the questions / issues you are currently having
+  - What are you stuck on?
+  - Are you all on the same page?
+- 20 minutes; review with ALL pods / whole team and come up with concensus on the following:
+  - What do we have different approaches to the same problem? Review each other's code, I should see links being shared to the team's back-channels so that you can easily find them
+  - What issue are we all stuck on?
+  - What code can we repurpose from each other?
+  - What are your next steps (next 3 things to do in some sense of order)?
+  - If there is not consensus on what the next steps are, ask me. TA's should be embedded with these discussions to keep them on track.
+  - Names of everyone there (TAs will use this for attendence)
+- 1 person is effectively the 'documentation' / project manager person for this activity. Have someone run point on asking these questions and by 12:30 I want this submitted to the Team's channel (the discussion / answers to questions above / anything of note from this discussion).
+- After you are done with the above activity then the time is yours to work on implementing these improvements and ask questions
+
+# Thursday
+- Additional time to work and collaborate in class
+
 ## Sunday
 - Check in for status check and progress (4pts)
+- Ways you plan on making the design flexible? If there are colors / padding / etc, what CSS variables will you be adding?
+- If there are slots, how are you using them to allow for implementation flexibility?
+- What next steps are YOU going to take to finish this prior to the deadline?
+- Where you are currently (link to vercel.app running example + github source code)
 
 # week 14 - Tday week off
 
