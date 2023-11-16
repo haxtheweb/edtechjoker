@@ -35,10 +35,13 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 - After you are done with the above activity then the time is yours to work on implementing these improvements and ask questions
 
 # Thursday
-- Additional time to work and collaborate in class
+If you liked yesterday, congrats, welcome to open source code sprints and open source ethos. We go further together, building on each other's ideas rathere than working lone wolf.
+
+- 40 minutes Additional time to work, ask questions and collaborate in class with your pod
+- 35 minutes group up with full team (or do this from the start, up to you) and share progress, where you are stuck, what you need help with and generate ideas
 
 ## Sunday
-- Check in for status check and progress (4pts)
+- Check in 3 for status check and progress (4pts)
 - Ways you plan on making the design flexible? If there are colors / padding / etc, what CSS variables will you be adding?
 - If there are slots, how are you using them to allow for implementation flexibility?
 - What next steps are YOU going to take to finish this prior to the deadline?
@@ -46,8 +49,27 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 
 # week 14 - Tday week off
 
+# Week 15
+
+## Tues
+- 5 min, regroup with your pod, make sure everyone is on the same page
+- 45 min, share and discuss code with other pods in the following activity:
+  - Pick a person in a different pod
+  - swap code repos with them
+  - review code and ask questions
+  - See how they are handling state management / variable names / etc and compare / contrast with your own
+  - Seee how they've handled CSS styling and design flexibility. If they lack design flexibility, point out areas where they could improve it.
+  - See how they're data model in the `json` file works relative to their element doing the rendering. Are there naming conventions or ways of structuring the data that would enhance the experience?
+  - Is there anything repeated many times, either logic or design, that feels like it could be refactored? Often times nothing `thing-1, thing-2` or `if A and B and C and D` sort of logic or class names are a hint that it could be refactored.
+  - Are there any
+- 30 min - work, take notes, implement feedback, generate your next steps
+
+## Thurs
+
+
 # EVERYTHING BELOW THIS LINE IS SUBJECT TO CHANGE BASED ON COURSE PROGRESS
 ~~~~~~
+## Sunday Check in 4
 # Week 15
 # Tues / Thurs
 - Class will be time to work and some critique
