@@ -14,40 +14,8 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 - [Week 9-10 Project 2](fa-23/week-9/README.md)
 - [Week 11](fa-23/week-11/README.md)
 - [Week 12](fa-23/week-12/README.md)
-
-# Week 13
-- Video from class last week: state management maintaining an `activeIndex` - https://www.youtube.com/watch?v=XKfz4e2o6aU
-- Effectively, we need a way of knowing what's active and sticking with it so that when we click things we know what's active or when the time code changes that we know to switch what's "active"
-- `updated()` life cycle of Lit https://lit.dev/docs/components/lifecycle/#updated is critical to maintaining "state" of the application!
-
-# Tues - Pod work
-- 5 minutes; Review with your pod the questions / issues you are currently having
-  - What are you stuck on?
-  - Are you all on the same page?
-- 20 minutes; review with ALL pods / whole team and come up with concensus on the following:
-  - What do we have different approaches to the same problem? Review each other's code, I should see links being shared to the team's back-channels so that you can easily find them
-  - What issue are we all stuck on?
-  - What code can we repurpose from each other?
-  - What are your next steps (next 3 things to do in some sense of order)?
-  - If there is not consensus on what the next steps are, ask me. TA's should be embedded with these discussions to keep them on track.
-  - Names of everyone there (TAs will use this for attendence)
-- 1 person is effectively the 'documentation' / project manager person for this activity. Have someone run point on asking these questions and by 12:30 I want this submitted to the Team's channel (the discussion / answers to questions above / anything of note from this discussion).
-- After you are done with the above activity then the time is yours to work on implementing these improvements and ask questions
-
-# Thursday
-If you liked yesterday, congrats, welcome to open source code sprints and open source ethos. We go further together, building on each other's ideas rathere than working lone wolf.
-
-- 40 minutes Additional time to work, ask questions and collaborate in class with your pod
-- 35 minutes group up with full team (or do this from the start, up to you) and share progress, where you are stuck, what you need help with and generate ideas
-
-## Sunday
-- Check in 3 for status check and progress (4pts)
-- Ways you plan on making the design flexible? If there are colors / padding / etc, what CSS variables will you be adding?
-- If there are slots, how are you using them to allow for implementation flexibility?
-- What next steps are YOU going to take to finish this prior to the deadline?
-- Where you are currently (link to vercel.app running example + github source code)
-
-# week 14 - Tday week off
+- [Week 13](fa-23/week-13/README.md)
+- Week 14 - Tday week off
 
 # Week 15
 
@@ -61,15 +29,31 @@ If you liked yesterday, congrats, welcome to open source code sprints and open s
   - Seee how they've handled CSS styling and design flexibility. If they lack design flexibility, point out areas where they could improve it.
   - See how they're data model in the `json` file works relative to their element doing the rendering. Are there naming conventions or ways of structuring the data that would enhance the experience?
   - Is there anything repeated many times, either logic or design, that feels like it could be refactored? Often times nothing `thing-1, thing-2` or `if A and B and C and D` sort of logic or class names are a hint that it could be refactored.
-  - Are there any
 - 30 min - work, take notes, implement feedback, generate your next steps
+- READ AHEAD TO THURSDAY, IDENTIFY SOMEONE TO PRESENT AND HAVE THINGS AS FAR ALONG AS POSSIBLE FOR LIVE CRIT
 
-## Thurs
+## Thurs - live code review
+- Teams present work to the class for feedback and questioning
+- My expectations for a "presentation"
+  - Nominate 1 or 2 people to speak to the work and demo where they are (if you don't, I'll pick someone at random so step up, this is not difficult)
+  - Pick whoever is furthers along VISUALLY and/or STATE MANAGEMENT wise
+  - Demo where you are with code in 1 screen and application in other 1/2 of screen
+  - Be ready to answer questions about tracing the code
+- Audience activity (in teams, for participation)
+  - In the thread for the Team in question - Whoever is presenting, post a link to your work in Teams so that others scan follow along.
+  - Provide feedback visually; What needs improved (answers like "nothing it looks great" or "not sure" will be worth 0 participation) there is always room for improvement
+  - In discussing the element and answering questions, what's 1 thing you found interesting about this project if you are not doing this option actively
+  - What is 1 thing you could apply to your own work / pay attention to as a result of reviewing someone else's work?
+- Any time remaining is additional working time / open office hours
 
+## Sunday Check in 4
+- Link to code / demo + the following reflection
+  - What are you confident that you have down and is good in great shape / ready to go?
+  - What do you NOT think you'll be able to get done without having questions resolved?
+  - Any lingering questions / concerns about finishing
 
 # EVERYTHING BELOW THIS LINE IS SUBJECT TO CHANGE BASED ON COURSE PROGRESS
 ~~~~~~
-## Sunday Check in 4
 # Week 15
 # Tues / Thurs
 - Class will be time to work and some critique
