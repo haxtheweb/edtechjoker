@@ -52,17 +52,9 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
   - What do you NOT think you'll be able to get done without having questions resolved?
   - Any lingering questions / concerns about finishing
 
-# EVERYTHING BELOW THIS LINE IS SUBJECT TO CHANGE BASED ON COURSE PROGRESS
-~~~~~~
-# Week 15
-# Tues / Thurs
-- Class will be time to work and some critique
-## Sunday
-- Check in for status check and progress (4pts)
 # Week 16
 # Tues / Thurs
 - Class will be time to work and some critique
 
 ## Week 17: Final project due Wed of Finals week
 - Optional Class held Tuesday of finals week for last minute office hours
-~~~~~~
