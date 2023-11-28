@@ -17,6 +17,16 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 - [Week 13](fa-23/week-13/README.md)
 - Week 14 - Tday week off
 
+## VIDEO PLAYER INTERACTION TO OBTAIN DATA FROM IT
+```js
+// this will give you the current time so that you can progress what's active based on it playing
+this.shadowRoot.querySelector('video-player').shadowRoot.querySelector("a11y-media-player").media.currentTime
+// this forces the video to play
+this.shadowRoot.querySelector('video-player').shadowRoot.querySelector('a11y-media-player').play()
+// this forces the video to jump to this point in the video via SECONDS
+this.shadowRoot.querySelector('video-player').shadowRoot.querySelector('a11y-media-player').seek(40)
+```
+
 # Week 15
 
 ## Tues
