@@ -18,6 +18,7 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 - Week 14 - Tday week off
 
 ## VIDEO PLAYER INTERACTION TO OBTAIN DATA FROM IT
+[https://haxapi.vercel.app/?path=/story/media-video--basic-video-player](https://haxapi.vercel.app/?path=/story/media-video--basic-video-player)
 ```js
 // this will give you the current time so that you can progress what's active based on it playing
 this.shadowRoot.querySelector('video-player').shadowRoot.querySelector("a11y-media-player").media.currentTime
