@@ -17,7 +17,7 @@ I won't quiz you on it but it's going to make life a lot more logical as we go t
 
 I'd also question that you need a book in the age of AI, free online tutorials, and a mountain of resources from Google Code Labs to YouTube to Coursera. The web is made of the stuff we use to learn about it, so look there.
 
-# How this class works
+# How this class works - ALWAYS IN THE [draft-outline.md](draft-outline.md)
 - You log into this repo, and go to the [draft-outline.md](draft-outline.md) file so that you can see what we are working on
 - You follow along with tutorial and discussions in class
 - You continue work beyond class, usually with external videos to watch, readings, code to write
