@@ -6,9 +6,7 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 
 # Week 1 - The one with the Git
 ## Tues - The one where we go through the contract
-
-# Week 1: Welcome to class
-- Tues: Welcome and syllabus day
+- Welcome and syllabus day
 - Context setting what we'll be working on, learning about and the industry at large as well as establishing what brought me from the classrooms you've taken to the stage where I am today and online
 
 ## Wed - between class if possible
