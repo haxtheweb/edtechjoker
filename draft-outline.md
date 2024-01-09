@@ -23,9 +23,9 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 - Create an account on https://github.com 
 - Create accounts on the services listed here: https://oer.hax.psu.edu/bto108/sites/ist256/requirements
 - Create a PUBLIC Gist on https://gist.github.com/  called week-1.md (so that you can write markdown)
-- Watch this video on terminal basics: https://www.youtube.com/watch?v=cwTswuFkMH4
+- Watch this video on terminal basics: https://www.youtube.com/watch?v=cwTswuFkMH4 
 - Read this [common issues document](common-issues.md) (and keep it in mind going forward as it'll save us time and time is valuable!):
-- Watch the following video / have it open in another tab: https://youtu.be/DWvRV9KuTjk
+- Watch the following video / have it open in another tab: https://youtu.be/DWvRV9KuTjk 
 - Write responses using Markdown (Look it up if you don't know how to do it but bottom right corner in gist will have a `M^` button w/ details):
   - If the question is a simple answer / response. Then make it a HEADING using markdown for the question `## `
   - If the question has multiple responses (like 5 syntaxes) then make the question a HEADING level 2, but the responses using a bulleted list (look this up)
@@ -44,9 +44,10 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 
 *Submit the link to your GIST using the Cantvas HW 1 Dropbox*
 
+--- TOPICS BELOW THIS LINE STILL IN FLUX ---
+
 # Week 2 - The one with the Web
-## Tues - Hack, Penn State
-- Hacking The web
+## Tues - 
 - How we use the Browser as a development environment
 ## Thurs - Cascading styles, what even is this?
 - CSS
@@ -63,8 +64,6 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 ## Tues - Modern JavaScript development environments
 
 ## Thurs - 
-
---- TOPICS BELOW THIS LINE STILL IN FLUX ---
 
 # Week 5-9 - The ones with some topics about stuff
 - Lit Fundamentals
