@@ -12,9 +12,10 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 ## Wed - between class if possible
 - https://oer.hax.psu.edu/bto108/sites/ist256/requirements - get accounts on these services
 - Install the software mentioned and bring any issues you have to class
+- *If you have issues with vercel, please contact their support as soon as possible. They take awhile to respond sometimes and it will enhance your ability to see 'built' work out at live web addresses when having it.*
 
 ## Thurs: Get basic structure around the big 3, fundamentals and playing with stuff
-- We'll "hack" the penn state website
+- We'll "hack" the penn state website and learn that the browser is the debugging environment
 - Play with a very watered down "web application" called the "Stupid Simpsons App"
 - Check out a code pen, a really easy way of learning HTML/CSS/JS by remixing examples of others
 - https://oer.hax.psu.edu/bto108/sites/ist256/activities/day-1
@@ -22,7 +23,7 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 ## Homework
 - Create an account on https://github.com 
 - Create accounts on the services listed here: https://oer.hax.psu.edu/bto108/sites/ist256/requirements
-- Create a PUBLIC Gist on https://gist.github.com/  called week-1.md (so that you can write markdown)
+- Create a **PUBLIC** Gist on https://gist.github.com/  called **week-1.md** (so that you can write markdown and practice doing so)
 - Watch this video on terminal basics: https://www.youtube.com/watch?v=cwTswuFkMH4 
 - Read this [common issues document](common-issues.md) (and keep it in mind going forward as it'll save us time and time is valuable!):
 - Watch the following video / have it open in another tab: https://youtu.be/DWvRV9KuTjk 
@@ -50,7 +51,7 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 
 # Week 2: Git / Github
 ## Tuesday
-- Git lecture + feedback from last assignment
+- Git lecture
 - Slides: https://docs.google.com/presentation/d/1bfNIILQxz8giCLSszmdvDnfNDXY9fpcgYgc-cDE1fFQ/edit?usp=sharing
 - Git activity in class
 
