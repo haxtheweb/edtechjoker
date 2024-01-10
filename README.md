@@ -12,10 +12,18 @@ Why?
 - People taking my courses in the past have instantly gone into dev careers implementing web components because they are becoming a valid industry go to
 
 # I need a book
-If that's true. I suggest you read this. https://eloquentjavascript.net/
+If that's true. I suggest you read this. https://eloquentjavascript.net/ or http://Javascript.info
 I won't quiz you on it but it's going to make life a lot more logical as we go through things like event loop and JS logic.
 
+# I need courses / additional tutorials
 I'd also question that you need a book in the age of AI, free online tutorials, and a mountain of resources from Google Code Labs to YouTube to Coursera. The web is made of the stuff we use to learn about it, so look there.
+- UI/UX - http://learnux.io
+- HTML -https://w3schools.com
+- CSS - https://web.dev/learn/css/
+- JavaScript http://Javascript.info
+- Git / Github - https://gitimmersion.com
+
+List a sub-set of this list compiled by X @mujeeb0147 - https://twitter.com/mujeeb0147/status/1744569325241958809
 
 # How this class works - ALWAYS IN THE [draft-outline.md](draft-outline.md)
 - You log into this repo, and go to the [draft-outline.md](draft-outline.md) file so that you can see what we are working on
@@ -27,3 +35,5 @@ I'd also question that you need a book in the age of AI, free online tutorials, 
 # Resources
 - [common-issues.md](common-issues.md) is for.. common... issues. We all have them, especially when getting a pattern for learning down. To make my life more plesant and you to get answers faster, look through it before you have issues as we dig into code. It's a very repeatable feedback loop.
 - https://lit.dev - I will assign things from the tutorial / playground there but its on you to get into documentation and better understand the library and how it impacts the web
+- https://lit.dev/learn/ - different tutorials in video, written and playground form. Really great stuff here though a lot of it is a bit more advanced than how we'll be approaching Lit for development
+- https://open-wc.org/ - OpenWC is the toolchain we're using, probably won't need this site but worth mentioning at least
