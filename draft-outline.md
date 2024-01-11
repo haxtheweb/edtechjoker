@@ -23,7 +23,7 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 ## Homework
 - Create an account on https://github.com 
 - Create accounts on the services listed here: https://oer.hax.psu.edu/bto108/sites/ist256/requirements
-- Create a **PUBLIC** Gist on https://gist.github.com/  called **week-1.md** (so that you can write markdown and practice doing so)
+- Create a **PUBLIC** Gist on https://gist.github.com/ called **week-1.md** (so that you can write markdown and practice doing so)
 - Watch this video on terminal basics: https://www.youtube.com/watch?v=cwTswuFkMH4 
 - Read this [common issues document](common-issues.md) (and keep it in mind going forward as it'll save us time and time is valuable!):
 - Watch the following video / have it open in another tab: https://youtu.be/DWvRV9KuTjk 
