@@ -13,7 +13,30 @@ More to read: https://www.coursera.org/articles/front-end-developer, https://boo
 
 
 ## JavaScript
+JavaScript is a programming language that is commonly used for building interactive web pages/applications. It allows developers to create dynamic pages, display timely content updates, interactive maps, and 2D/3D graphics. It works together with HTML and CSS. Where HTML creates the structure(skeleton) of the webpage, then CSS adds the styling, background colors, and fonts(like adding clothes to the skeleton), and Javascript makes the page interactive (like making the skeleton move). 
 
+Things you can DO with JS:
+- Develop mobile, desktop, and web applications
+- Build Games
+- Update and change HTML
+- Build AI applications
+- Third-party plugins for your browser
+
+Code:
+You would create a button in an HTML file and then a CSS file to style the button. They use JS to create a prompt window asking for the user to enter their name. Then it will be displayed on the button.
+JavaScript
+```
+const button = document.querySelector("button");
+button.addEventListener("click", updateName);
+function updateName() {
+  const name = prompt("Enter your name");
+  button.textContent = `Your name is: ${name} !!`;
+} 
+```
+
+More to Read:
+- https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript
+- https://www.orientsoftware.com/blog/what-can-you-do-with-javascript/
 
 ## Yarn
 
