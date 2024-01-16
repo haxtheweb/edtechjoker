@@ -124,6 +124,18 @@ https://www.freecodecamp.org/news/what-is-php-the-php-programming-language-meani
 
 
 ## SQL
+SQL, known as the Structured Query Language, is a programming language used to manage and manipulate information in relational databases.
+For more information:
+- https://www.techtarget.com/searchdatamanagement/definition/SQL
+- https://aws.amazon.com/what-is/sql/#:~:text=Structured%20query%20language%20(SQL)%20is,relationships%20between%20the%20data%20values.
+
+SQL uses tables and keys to reference or perform operations on data in different relational databases. Modifying columns, adding rows, and data retrieval from a table are feature examples within SQL. SQL was adopted as an official standard by the American National Standards Institute(ANSI) and the International Organization of Standardizations(ISO) for proprietary and open-source use. Oracle, Microsoft, and IBM are notable companies that provide SQL server products that follow ISO standards. The development of SQL extensions was followed to emphasize database operations in different work sectors/areas. Transact-SQL for commercial use is an example. 
+For more information:
+- https://www.techtarget.com/searchdatamanagement/definition/SQL
+
+SQL Query Example:
+```SELECT * FROM table```
+
 
 
 ## MySQL
