@@ -7,6 +7,11 @@ A front-end developer creates websites and applications using web languages such
 More to read: https://www.coursera.org/articles/front-end-developer, https://bootcamp.berkeley.edu/resources/coding/learn-web-development/what-does-a-front-end-web-developer-do/
 
 ## HTML
+HTML is the HyperText Markup Language. It is essentially Legos for the web. HyperText is about links that connect all web pages. Basic interaction on the internet is creating webpages and then linking them to other webpages that already exist.  HTML elements are defined with tags that are noted with "<>". Some common tags are:
+- ```<title></title>```
+- ```<body></body>```
+- ```<header></header>```
+- ```<p></p>```
 
 
 ## CSS
