@@ -95,9 +95,16 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 ## Bash (sh)
 
-
 ## SEO
+SEO stands for Search Engine Optimization. SEO is a practice designed to improve the appearance and positioning of a site among search engines. The goal of SEO is to maximize the traffic to a website coming from users using a search engine like google.
+* SEO is a practice of standards
+* Increases clicks to a website from a search engine
+* Goal is to create the best presentation and positioning of a Website when using a search engine (Google, Bing, etc)
 
+Sources:
+- https://moz.com/learn/seo/what-is-seo
+- https://neilpatel.com/what-is-seo/
+  
 ## PHP
 PHP is an open source server-side scripting language which developers use. Server-side means that the script is being executed on the back-end instead of the front-end. PHP is mostly used for webservers and can also run on the command line. There are a lot of things that PHP can do, including: encrypting data,send and recieve cookies, generate dynamic page content, among others. Companies like Facebook, Wikipedia use PHP. Some advantages of PHP include:
 * It's cross-platform, and thus can be used in any OS system
