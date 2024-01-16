@@ -45,9 +45,7 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 
 *Submit the link to your GIST using the Cantvas HW 1 Dropbox*
 
---- TOPICS BELOW THIS LINE STILL IN FLUX SO WORK AHEAD AT YOUR OWN PERRIL ---
-
-# Week 2 - The one with Git
+# Week 2 - The one with Git.. AND SNOW
 
 # Week 2: Git / Github
 ## Tuesday
@@ -60,10 +58,7 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 - **HW Part 1** listed below: do between class for discussion as well as jump starting the homework
 
 ## Thursday
-- Quick live demo of 2 different code commit + CI works I use every day
-  - Vercel CI to rebuild site / code when there's a change
-  - Webhook to push notification on git commit for custom workflows
-  - ![Webhook to push notification](https://github.com/elmsln/edtechjoker/assets/329735/7ca9cf74-f272-4042-98a2-d9d526bdd7cc)
+- Let's start working on cards!
 - Slide deck for Thurs which I will run through very quickly (you can read on your own time or use as basis to googlee concepts) https://docs.google.com/presentation/d/1rbC4d-sXTyDUArLPXl-tBEQ8ZJldD9_QFfuFhgIW73g/edit?usp=sharing
 
 ## Homework
@@ -74,7 +69,7 @@ Two-part homework this week; we will have time in class Thurs to start and then 
 - Try to make more than 1 meme by duplicating the HTML portion of the code
 - Modify the text / image used in the meme on the HTML portion
 - Try to modify the font-size using the CSS tab.
-- Make a new gist where you try to answer the following questions
+- Make a new HAX.PSU.EDU BLOG POST where you try to answer the following questions
   - Provide a Link to your fork of the codepen
   - The top of the JS code says `import ....` what is this doing? Is this vanilla?
   - The bottom says `export { MemeMaker };` what do you think this does? Is this vanilla?
@@ -103,7 +98,7 @@ Two-part homework this week; we will have time in class Thurs to start and then 
 - Use the Border, Margin, and padding attributes in order to space the card to visually be appealing (the internet can help influence something to model, try making things 8px and then 12, then 16 to find what you like, ratios are key)
 - Add a media query that only shows the details button when the screen is smaller than 800px (generally a small tablet) but larger than 500px (phone)
 - Add a media query that scales the card (and image / items within) when on a screen smaller than 500px (generally considered phone)
-- Include the link to this codepen in your gist. If you found particular websites helpful from a tutorial perspective on any of these specific requirements, then include them so we can share with the class.
+- Include the link to this codepen in your HAX.PSU BLOG POST. If you found particular websites helpful from a tutorial perspective on any of these specific requirements, then include them so we can share with the class.
 
 #### Remediation
 I will not verify you completing these, but here are 2 low level tutorials from W3Schools for practicing HTML and CSS fundamentals
@@ -112,14 +107,15 @@ I will not verify you completing these, but here are 2 low level tutorials from 
 - https://oer.hax.psu.edu/bto108/sites/ist256/resources -- the resources section of the course site has links to free "books" which cover a lot of fundamentals as well
 
 ## Homework Submission
-**Submit the link to your gist in Canvas**
-The gist should include the following:
+**Submit the link to your HAX.PSU BLOG POST in Canvas**
+The HAX.PSU BLOG POST should include the following:
 - Part 1 and Part 2 codepen links
 - any written questions answered
-- a picture of the mock up you were trying to model the card off of (can upload to the comments area on a gist via drag and drop)
+- a picture of the mock up you were trying to model the card off of (YOU CAN UPLOAD VIA DRAG AND DROP OR BLOCKS TAB OR MERLIN MENU AT THE TOP OF THE UI)
 
+--- TOPICS BELOW THIS LINE STILL IN FLUX SO WORK AHEAD AT YOUR OWN PERRIL ---
 
-# Week 3 - The one with the codepen
+# Week 3 - The one with the codepen ONE LAST TIME
 ## Tues - Code by Numbers
 - code pen to make a card
 ## Thurs - Code by Numbers
