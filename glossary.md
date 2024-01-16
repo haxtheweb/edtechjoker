@@ -124,7 +124,9 @@ https://www.freecodecamp.org/news/what-is-php-the-php-programming-language-meani
 
 
 ## SQL
+SQL is a programming language that stands for structured query language. It is used to manage data stored in databases, and the data is stored in tables. You can use SQL to store, update, and remove information in these data tables. 
 
+https://aws.amazon.com/what-is/sql/
 
 ## MySQL
 MySQL is an open source database that uses Structured Query Language as its query language. It allows one to store, manage, and retrieve data that is organized in tables.
