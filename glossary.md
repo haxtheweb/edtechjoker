@@ -19,7 +19,7 @@ More to read: https://www.coursera.org/articles/front-end-developer, https://boo
 
 
 ## NPM
-Node Package Manager or NPM for short is where developers can find, create or build code packages. This can be especially useful for web develoopment where developers have large amount of code and they can use the package manager to handle dependencies. npm is the world largest software registry and currently contains over 800,000 code packages. These packages are open source. [for more info click here](https://www.npmjs.com/)
+Node Package Manager or NPM for short is where developers can find, create or build code packages. This can be especially useful for web development where developers have large amount of code and they can use the package manager to handle dependencies. npm is the world largest software registry and currently contains over 800,000 code packages. These packages are open source. [for more info click here](https://www.npmjs.com/)
 
 ## Package Manager
 
