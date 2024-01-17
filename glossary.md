@@ -7,7 +7,12 @@ A front-end developer creates websites and applications using web languages such
 More to read: https://www.coursera.org/articles/front-end-developer, https://bootcamp.berkeley.edu/resources/coding/learn-web-development/what-does-a-front-end-web-developer-do/
 
 ## HTML
+HTML is Hypertext markup language that is the backbone of design in websites. Furthermore HTML is one of the building blocks of code for websites and defines the structure of the web. HTML can annotate images, texts, and various amount of content to display on a web browser. HTML is also assisted with other types of programming languages such as CSS and JavaScript. Most websites and webpages are structred with HTML. Web developers primarly use HTML in order to organize, format and even display whatever it is they want to display on the website as well.
+* Easier to read
+* Useful in web developing
 
+More to read: https://developer.mozilla.org/en-US/docs/Web/HTML
+https://www.codecademy.com/resources/blog/what-is-html/
 
 ## CSS
 
