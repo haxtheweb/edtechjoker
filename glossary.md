@@ -139,6 +139,20 @@ https://www.oracle.com/mysql/what-is-mysql/
 
 
 ## Python
+Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. It is used for server-side web development, software development, mathematics, and system scripting. It is also popular for Rapid Application Development and as a scripting or glue language to tie existing components because of its high-level, built-in data structures, dynamic typing, and dynamic binding. Python's simple and has easy-to-learn syntax that emphasizes readability and therefore reduces the cost of program maintenance. It also has no compilation step, and the edit-test-debug cycle is incredibly fast. Below is an example of code that adds two numbers
+```# This program adds two numbers
+num1 = 1.5
+num2 = 6.
+# Add two numbers
+sum = num1 + num2
+# Display the sum
+print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
+```
+Output: The sum of 1.5 and 6.3 is 7.8
+
+- https://www.python.org/doc/essays/blurb/
+- https://www.teradata.com/glossary/what-is-python
+- https://www.programiz.com/python-programming/examples/add-number
 
 
 ## Docker
