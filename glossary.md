@@ -85,7 +85,13 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## Open Source Software
+Open Source Software is essentially software that is distributed to users which allows them to utilize said software's source code to create projects or applications of their own. In most cases, OSS is free or relatively cheap in comparison to proprietary software. Some examples of OSS include Python, Mozilla Firefox, and Linux. For more information on Open Source Software, feel free to explore the links below:
 
+What Is Open Source Software and How Does It Work? 
+https://www.synopsys.com/glossary/what-is-open-source-software.html#:~:text=Definition,distribution%20with%20its%20original%20rights.
+
+10 Best Open Source Software Examples (2023-2024)
+https://www.designrush.com/agency/software-development/trends/open-source-software-examples 
 
 ## Apereo Foundation
 
@@ -207,3 +213,5 @@ Saas stands for Software as a Service and is a way for applications to be access
 (Software as a Service) is a software licensing and delivery model in which software is licensed on a subscription basis.
 
 # Btopro
+
+
