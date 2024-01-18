@@ -71,21 +71,16 @@ Two-part homework this week; we will have time in class Thurs to start and then 
 - Try to modify the font-size using the CSS tab.
 - Make a new HAX.PSU.EDU BLOG POST where you try to answer the following questions
   - Provide a Link to your fork of the codepen
-  - The top of the JS code says `import ....` what is this doing? Is this vanilla?
-  - The bottom says `export { MemeMaker };` what do you think this does? Is this vanilla?
-  - Look at the constructor() what does this do? Does this remind you of anything?
-  - Look at the `render()` method, is this convention "vanilla" (built in) or do you think a library is delivering this?
-  - What is `this` throughout the JS? How do you think these values being populated?
   - Look at the CSS / styles; What's special about `--meme-maker-font-size-medium`?
   - Look at @media in styles() what does this do?
-  - Can you change the font color? If not, where do you think it is that being set
+  - In the CSS area, write a selector for changing the font color on both tags. If you can change this, how did you do it? If  you can't, why don't you think it is working?
 
 ### Part 2:
 - here's what I made in class: https://codepen.io/btopro/pen/dyrWXBp
 - Working with your pod, come up with an agreed upon visual as to how you'd conceive the following problem:
 #### We need to make a card with a fancy button on it
 - I will model the button on the white board
-- I'll use codepen to create the button based on my model
+- I'll use codepen to create the button based on my model - https://codepen.io/btopro/pen/dyrWXBp
 - You are free to follow along and copy or just watch and ingest technique
 
 #### Now it's your turn, kicked up a notch
@@ -99,7 +94,7 @@ Two-part homework this week; we will have time in class Thurs to start and then 
 - Use the Border, Margin, and padding attributes in order to space the card to visually be appealing (the internet can help influence something to model, try making things 8px and then 12, then 16 to find what you like, ratios are key)
 - Add a media query that only shows the details button when the screen is smaller than 800px (generally a small tablet) but larger than 500px (phone)
 - Add a media query that scales the card (and image / items within) when on a screen smaller than 500px (generally considered phone)
-- Include the link to this codepen in your HAX.PSU BLOG POST. If you found particular websites helpful from a tutorial perspective on any of these specific requirements, then include them so we can share with the class.
+- Create a new blog post on hax.psu.edu
 
 #### Remediation
 I will not verify you completing these, but here are 2 low level tutorials from W3Schools for practicing HTML and CSS fundamentals
@@ -110,15 +105,40 @@ I will not verify you completing these, but here are 2 low level tutorials from 
 ## Homework Submission
 **Submit the link to your HAX.PSU BLOG POST in Canvas**
 The HAX.PSU BLOG POST should include the following:
-- Part 1 and Part 2 codepen links
-- any written questions answered
+- A link to your code pen fork from Part 1 of the meme and part 2 of the "Card"
+- Answers to the questions asked about part 1.
+- If you found particular websites helpful from a tutorial perspective on any of these specific requirements, then include them so we can share with the class.
+- If you have questioned unanswered / things you couldn't figure out from the "Card" activity, what are they?
 - a picture of the mock up you were trying to model the card off of (YOU CAN UPLOAD VIA DRAG AND DROP OR BLOCKS TAB OR MERLIN MENU AT THE TOP OF THE UI)
 
 --- TOPICS BELOW THIS LINE STILL IN FLUX SO WORK AHEAD AT YOUR OWN PERRIL ---
 
 # Week 3 - The one with the codepen ONE LAST TIME
-## Tues - Code by Numbers
-- code pen to make a card
+## Tues - 
+### Review cards that were made / blog posts
+- 
+- 
+- 
+### Code by Numbers
+The way these activities will work:
+- I will give a series of steps that are required
+- I will start doing the activity live in class with you following along
+- I'll ask questions, sometimes playing dumb, sometimes legitimate as far as how we want something to work
+- The faster we get through these tasks, the more of them you already have done. Hence the more responses I get to questions, the more likely we are to finish more of the activity
+- Anything we don't get to, is homework to attempt between class
+- The next class I'll then use examples people produced as the basis for what we'll review together
+- This feedback loop will continue repeating, usually each loop finishing it's cycle with additional tasks for you to do out of class + blog about a specific topic
+
+#### By Numbers
+- Let's add JavaScript into our card now
+- Let's add a button that when we press it, it generates a new copy of our card
+- Let's add a button that when we press it, the title of the card changes
+- Let's add a button that when we press it, the image changes to a different image
+- Let's add a button that when we press it, the LAST CARD gets removed
+- Let's make sure that when we go to remove cards, that we don't delete our only one
+- Let's make sure that when we go to add cards, we don't add more than 10
+- Let's make sure that when we have more than 1 card on the screen, that they render side by side with 20px margins between them
+
 ## Thurs - Code by Numbers
 
 # Week 4 - The one with real development
