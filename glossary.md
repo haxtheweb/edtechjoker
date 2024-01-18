@@ -24,7 +24,10 @@ More to read: https://www.coursera.org/articles/front-end-developer, https://boo
 ## Package Manager
 
 ## Markdown
+Markdown is a lightweight markup language that is essentially a simplified version of HTML. It is used to write in this GitHub file. You can use Markdown by using symbols and other elements to indicate what text is to be changed when formatted. Markdown is a more user-friendly method to format text as it has simple syntax and a smaller scale of stylistic options than HTML. Eventually, Markdown can be translated into HTML but requires an additional processor. 
 
+https://www.knowledgehut.com/blog/web-development/what-is-markdown
+https://www.markdownguide.org/getting-started/
 
 ## Git
 
