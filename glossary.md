@@ -114,6 +114,9 @@ https://www.freecodecamp.org/news/what-is-php-the-php-programming-language-meani
 
 
 ## Angular
+Angular is an open-source JavaScript developed by Google. It enhances efficiency for web development. Angular was created in 2009 and there there multiple versions out there today. 
+- https://www.simplilearn.com/tutorials/angular-tutorial/what-is-angular
+- There are four main concepts to Angular: HTML template, TypeScript Class, CSS Selector, and CSS styles (optional)
 
 ## React
 
