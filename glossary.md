@@ -193,6 +193,8 @@ Oracle VM VirtualBox is cross-platform virtualization software. It allows users 
 
 
 ## Webpack
+Webpack is a static module bundling tool that was mostly designed for Jacascript, but is also works for HTML and CSS. Webpack is a tool the bundles pieces of code and their dependencies together into one file or multiple files by procesing the application and creating a dependency graph.  Webpack is a free and open source tool that can be used to efficinetly enhance workflows and the performance of web applications. Learn more about Webpack here: https://webpack.js.org/ and here: https://www.freecodecamp.org/news/an-intro-to-webpack-what-it-is-and-how-to-use-it-8304ecdc3c60/
+
 
 
 ## OpenFaaS
