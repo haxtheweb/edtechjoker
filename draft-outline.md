@@ -111,7 +111,12 @@ The HAX.PSU BLOG POST should include the following:
 - If you have questioned unanswered / things you couldn't figure out from the "Card" activity, what are they?
 - a picture of the mock up you were trying to model the card off of (YOU CAN UPLOAD VIA DRAG AND DROP OR BLOCKS TAB OR MERLIN MENU AT THE TOP OF THE UI)
 
---- TOPICS BELOW THIS LINE STILL IN FLUX SO WORK AHEAD AT YOUR OWN PERRIL ---
+
+---
+
+# TOPICS BELOW THIS LINE STILL IN FLUX SO WORK AHEAD AT YOUR OWN PERRIL
+
+---
 
 # Week 3 - The one with the codepen ONE LAST TIME
 ## Tues - 
