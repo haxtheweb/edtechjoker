@@ -81,6 +81,7 @@ Two-part homework this week; we will have time in class Thurs to start and then 
   - Can you change the font color? If not, where do you think it is that being set
 
 ### Part 2:
+- here's what I made in class: https://codepen.io/btopro/pen/dyrWXBp
 - Working with your pod, come up with an agreed upon visual as to how you'd conceive the following problem:
 #### We need to make a card with a fancy button on it
 - I will model the button on the white board
