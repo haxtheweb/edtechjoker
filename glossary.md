@@ -142,6 +142,10 @@ https://www.oracle.com/mysql/what-is-mysql/
 
 
 ## Python
+Python is a high-level programming language created by Guido van Rossum in 1991. Python is very readable and consider easier to use than other languages. Concepts can be expressed faster in fewer lines of code than comparable languages.
+
+A snippet of Python:
+'''print("Hello, World!")'''
 
 
 ## Docker
