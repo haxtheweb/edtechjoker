@@ -22,6 +22,7 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 ## Thursday
 
 ## live demo + questions
+- Where we got started on - https://codepen.io/btopro/pen/OJqjoLb 
 Issue: I have an image on the page
 - I need to add a button that adds a new image next to it when I hit the button
 - Take 2 minutes and type up the following answers into Teams as to your guess:
