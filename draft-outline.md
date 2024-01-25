@@ -64,6 +64,7 @@ The way these activities will work:
 
 #### Code By The Numbers - Activity Together
 - We're going to start from this pen about amazing professors: https://codepen.io/btopro/pen/PoLJXVj
+- Recording from class that day: https://www.youtube.com/watch?v=LGZHodz7dLo
 - Fork the pen and follow along / answering questions in the activity along the way
 - Let's add a button that when we press it, it generates a new copy of our card
 - Let's add a button that when we press it, the title of the card changes
