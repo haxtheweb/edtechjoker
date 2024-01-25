@@ -17,12 +17,7 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 - You'll work with your pod to implement specific changes brought up in class
 - FlexBox really easy to understand - https://twitter.com/snowinglater/status/1615787738468610050
 
-## Wed - start into the homework as far as watching videos and responding to things on hax.psu
-
-## Thursday
-
-## live demo + questions
-- Where we got started on - https://codepen.io/btopro/pen/OJqjoLb 
+- Where we got started on end of day Tues - https://codepen.io/btopro/pen/OJqjoLb 
 Issue: I have an image on the page
 - I need to add a button that adds a new image next to it when I hit the button
 - Take 2 minutes and type up the following answers into Teams as to your guess:
@@ -51,6 +46,9 @@ Issue: I have an image on the page
 - Replace all tag specific CSS selectors with classes
 - Make another “card” so that 2 live on the screen side by side, then another so that 3 do
 
+## Wed - start into the homework as far as watching videos and responding to things on hax.psu
+
+## Thursday
 
 ### Code by Numbers
 The way these activities will work:
@@ -59,24 +57,27 @@ The way these activities will work:
 - I'll ask questions, sometimes playing dumb, sometimes legitimate as far as how we want something to work
 - The faster we get through these tasks, the more of them you already have done. Hence the more responses I get to questions, the more likely we are to finish more of the activity
 - I will stop as I progress through code by numbers and stop to give you a chance to chew on it
-- Anything I don't get to in live demonstration together is part of the homework of what's expected to be done
+- We will do the things in question to a fork, clone, example, etc. **that mirrors what you are to do on your own project code**
+- **For example, if in class we start with a card repo and wire up a button, after the live activity you will then wire up that button in YOUR card repo**
 - The next class I'll then use examples people produced as the basis for what we'll review together
 - This feedback loop will continue repeating, usually each loop finishing it's cycle with additional tasks for you to do out of class + blog about a specific topic
 
-#### Code By The Numbers Together
-- Let's add JavaScript into our card now
+#### Code By The Numbers - Activity Together
+- We're going to start from this pen about amazing professors: https://codepen.io/btopro/pen/PoLJXVj
+- Fork the pen and follow along / answering questions in the activity along the way
 - Let's add a button that when we press it, it generates a new copy of our card
 - Let's add a button that when we press it, the title of the card changes
 - Let's add a button that when we press it, the image changes to a different image
+- Let's add a button that when we press it, the background-color of the card changes **via a css Class**
 - Let's add a button that when we press it, the LAST CARD gets removed
-- Let's make sure that when we go to remove cards, that we don't delete our only one
-- Let's make sure that when we go to add cards, we don't add more than 10
-- Let's make sure that when we have more than 1 card on the screen, that they render side by side with 20px margins between them
+  - Let's make sure that when we go to remove cards, that we don't delete our only one
+  - Let's make sure that when we go to add cards, we don't add more than 10
 
 ## Homework
-- Some simple examples that can help;
-  - https://codepen.io/btopro/pen/QWzdMav
-  - https://codepen.io/btopro/pen/WNLRZNX
+- Some examples that can help you apply to your card
+  - https://codepen.io/btopro/pen/OJqjoLb  (pen from Tues)
+  - https://codepen.io/btopro/pen/PoLJXVj (the pen from Thurs)
+  - https://codepen.io/btopro/pen/QWzdMav (example of class toggling)
 - Add things to yours that say "Code By The Numbers" above
 
 ## Watch the following
@@ -90,14 +91,13 @@ The way these activities will work:
 - What’s a strategy you can engage in in order to refactor toward better code? What strategy / how many iterations did I go through to get “better code”? - What makes this code better?
 ### Video 2:
 - What weird event did I implement to solve a UX problem?
-- What is the difference between document and window in javascript? Find the Mozilla Developer Network page about this.
-- Find 8 events that user input can generate via the MDN Web Docs. Link to examples
+- What is the difference between document and window in javascript? What is globalThis?? Find these on Mozilla Developer Network page to explore what they are and what you can do with them.
+- Find 5 events that user input can generate via the MDN Web Docs. Link to examples
 
 ## Homework Submission
-- Create a HAX.PSU page that has answers to the above after watching the videos
-- Finish the "code by the numbers" work started in class together
-- Link to your codepen (or relink to an updated version of your original codepen) where you've added the javascript in and improvements to your 'card'
-- drop link to your page into canvas HW3
+- Create a HAX.PSU blog post that has answers to the above after watching the videos
+- Finish the "code by the numbers" work started in class together **but applied to your card you made previously** and provide a link in your blog post
+- drop link to your post into canvas HW3
 
 ---
 
