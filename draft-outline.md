@@ -70,8 +70,10 @@ The way these activities will work:
 - Let's add a button that when we press it, the image changes to a different image
 - Let's add a button that when we press it, the background-color of the card changes **via a css Class**
 - Let's add a button that when we press it, the LAST CARD gets removed
-  - Let's make sure that when we go to remove cards, that we don't delete our only one
-  - Let's make sure that when we go to add cards, we don't add more than 10
+Additional logic to add:
+- Let's make sure that when we go to remove cards, that we don't delete our only one
+- Let's make sure that when we go to add cards, we don't add more than 10
+- Let's make sure when we change the background-color that we can toggle it off and on **for all of the cards on the screen**
 
 ## Homework
 - Some examples that can help you apply to your card
