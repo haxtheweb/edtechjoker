@@ -142,6 +142,10 @@ https://www.oracle.com/mysql/what-is-mysql/
 
 
 ## Python
+Python is a dynamically types high level language which is versatile and used in a lot of different domains due to its ease of code and easy learnability.It was created by Guido Von in the 90s and it has emerged as one of the most popular programing languages used in fields such as machine learning, A.I , Data science and so on.
+https://www.python.org
+https://www.freecodecamp.org/news/learning-python-from-zero-to-hero-120ea540b567/
+https://www.hackerrank.com/domains/python?filters%5Bsubdomains%5D%5B%5D=py-introduction
 
 
 ## Docker
