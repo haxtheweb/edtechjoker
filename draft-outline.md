@@ -75,34 +75,53 @@ If you need additional help after watching that, here's some next steps
 
 
 # Thursday (we'll see how Tues goes and adjust from there)
+Now that we have some workflow and process down, let's start looking at a web component and building from juuust above nothing
+Quick deck: What is web components? https://docs.google.com/presentation/d/1cvM-4v745oQWcpX4M0ytFLQd_eIyaOJgUEgs4V6UFk0/edit?usp=sharing
 ## Code by numbers
-- We'll start looking into open WC
-- We'll take a boilerplate repo, use it as a template and try to get it deployed on vercel
+- Take this boilerplate: https://github.com/btopro/polaris-chip make a template for yourself
+- get this code cloned to your computer
+- follow along in class
+
+### Activity 10 min discussion
+- What properties could we add to make this support links?
+- What data type is this?
+- What are the steps required to do this? What needs accounted for / changed in code.
+- If we wanted to do an 'active' state that is for 'hover', focus and to draw attention by default, how could we do that?
+- Post in Teams what properties you came up with?
+
+### Activity 10 min
+- Pod activity. Look at your cards in your pod. What properties could you add to make your card flexible?
+- Are there any 'active' or visual 'state' driven capabilities to your card?
+- Are there any areas that could be HTML in nature?
+
+## Homework
+
+Now it's your turn:
+
+- Apply your CSS / HTML of a card to the my-card element
+- Ignore the card modifying JS for now; we're just trying to get our card visually there
+- Try to add your properties into the element so that you can change the variables to make instances of your card
+  - You should have at least 2-4 properties that I can think of at a glance
+- Create 5 implementations of this in the demo / index.html area (meaning 5 different implementations of `<my-card>` using attributes)
+- Run through the lit tutorial - https://lit.dev/tutorials/intro-to-lit/ to help MAKE SURE IT IS USING JS AND NOT TS
+
+### Bonus 1pt
+Skipping ahead a week or so, try and get your JS wired up so that you can modify things on the card via your buttons. hint: buttons and js are in the demo. You'll need to rescope your calls and some other aspects to get the data to change, added, calculated how many there are, etc.
+
+## Submission
+- HAX.psu post that links to your github repo that you made
+- When doing the tutorial, what did you get stuck on?
+  - In reading through the deck / tutorials / googling, what's not making sense?
+  - Same, but what DOES make sense? Is this a superior approach to coding in the 'global scope' ala code pen, or does this scoping make it more complicated?
+    - If more compplicated, what makes it harder?
+    - If superior approach, why did you feel this was easier than the code pen based global way?
+- Ideally it is published on vercel; if we get to that in class / your account works on it, cool; if not, not end of world
 
 ---
 
 # TOPICS BELOW THIS LINE STILL IN FLUX SO WORK AHEAD AT YOUR OWN PERRIL
 
 ---
-
-- We'll start to implement a card as I am writing it
-- It'll be your turn to lead off into home work doing research, tutorials, but also attempting to get your card to build on vercel like we did with mine in class
-
-## Activity / leading into homework
-
-## Homework
-- Read through this slide deck
-- Do these tutorials on lit
-- HAX.psu blog post that is largely links and answering some questions:
-  - Link to the activity we did in class Tuesday on the hax-psu repo fork
-  - Link to the activity we did in class Thursday making our own card from a boilerplate repo
-  - Link to your attempt to rescope your card to work as a web component
-- Answer these questions
-  - When doing the tutorials, which (if any) did you get stuck on?
-  - In reading through the deck / tutorials / googling, what's not making sense?
-  - Same, but what DOES make sense? Is this a superior approach to coding in the 'global scope' ala code pen, or does this scoping make it more complicated?
-    - If more compplicated, what makes it harder?
-    - If superior approach, why did you feel this was easier than the code pen based global way?
 
 # Week 5 - More with Web components
 This week we start into thinking like an HTML spec author. This is deep thought work for sure and we are lucky to be building on abstractions, but let's start the process that they went through to think about the attribute and design considerations of the HTML primative tags (p, img, a, table, etc) and use that process to build our own card so that it is reusable like the original tags but more robust!
