@@ -19,6 +19,8 @@ As expected, results from homework were very mixed. It's not an easy subject, an
 ## Tues
 - Let's review issues people had in doing that
 - Crit:
+  - https://github.com/ssambender/polaris-chip
+  - https://github.com/emirahanna/polaris-chip
   - https://github.com/infodigger33/polaris-chip - This one let's fork / clone and dig into together
 
 ### Activity: Talk to people in your pod 20 min
