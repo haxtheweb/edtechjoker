@@ -19,8 +19,7 @@ As expected, results from homework were very mixed. It's not an easy subject, an
 ## Tues
 - Let's review issues people had in doing that
 - Crit:
-  - https://github.com/infodigger33/polaris-chip
-  - 
+  - https://github.com/infodigger33/polaris-chip - This one let's fork / clone and dig into together
 
 ### Activity: Talk to people in your pod 20 min
 - Did anyone get their card working? If so, let that person drive so to speak as far as explaining how they got their card working
@@ -49,13 +48,12 @@ When you feel confident that everyone in your pod has a working card that is reu
 - `.shadowRoot`... wth is that??
 - Is there a better way to do this? When it comes to manually modifying a `.shadowRoot`, absolutely there's a more correct way with Lit. Let's look!
 
-
 ## Wed
 - If your card isn't working / your having issues, talk to the LAs / reach out for help
 - For Thursday, try to appl the 3 approaches above as best you can. Rescoping your JS based on the example we looked at in class, support flexible HTML, and support a `fancy` CSS selector.
 
 ## Thursday
-- More remediation
+- More remediation based on how far we got through the concepts above
 - More building on and cleaning up the concepts of what we have
 - Building our code to work on vercel / hooking up vercel
 
@@ -65,7 +63,7 @@ When you feel confident that everyone in your pod has a working card that is reu
 
 ---
 ## Homework
-
+- Remediations within your card to include the capabilities we covered in class
 
 # Week 6-9 - The ones with some topics about stuff
 - Lit Fundamentals
