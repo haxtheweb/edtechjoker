@@ -52,13 +52,16 @@ When you feel confident that everyone in your pod has a working card that is reu
 
 ## Wed
 - If your card isn't working / your having issues, talk to the LAs / reach out for help
-- For Thursday, try to appl the 3 approaches above as best you can. Rescoping your JS based on the example we looked at in class, support flexible HTML, and support a `fancy` CSS selector.
+- For Thursday, clean up your card and try to implement the rescoped JS based on the example we looked at in class, support flexible HTML, and support a `fancy` CSS selector.
 
 ## Thursday
+- We'll discuss and implement `fancy` attributes
+- We'll discuss and implement `<slot>` tags for flexible HTML
 - More remediation based on how far we got through the concepts above
 - More building on and cleaning up the concepts of what we have
 - Building our code to work on vercel / hooking up vercel
 
+This largely will wrap up our card and we'll start into the next one
 ---
 
 # TOPICS BELOW THIS LINE STILL IN FLUX SO WORK AHEAD AT YOUR OWN PERRIL
