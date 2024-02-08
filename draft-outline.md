@@ -121,6 +121,21 @@ This is the JS method I'll be adding to my `class`
   }
 ```
 
+# IF THIS DOESNT WORK FOR YOU TRY THIS ONE
+Welcome to browser differences. If you use safair the 1st one will never work. If you use the latest version of Chrome it will work, if you use the previous version of chrome it won't. I had no intention of creating htis problem and yet here we are... learning exactly the issue w/ an evolving spec.
+```js
+// put this anywhere on the MyCard class; just above render() is probably good
+openChanged(e) {
+  console.log(e);
+  if (e.target.getAttribute('open') !== null) {
+    this.fancy = true;
+  }
+  else {
+    this.fancy = false;
+  }
+}
+```
+
 ## Additional Design considerations
 - Get your card to have height / sizing requirements so that long title don't bork the design
 - Same thing but with images -- https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio helpful article / attribute for this
