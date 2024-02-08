@@ -42,6 +42,7 @@ When you feel confident that everyone in your pod has a working card that is reu
 
 ## Thursday
 - Live demo / follow along adding the things below
+- Class recording of the below: https://www.youtube.com/watch?v=hLDrFa45wJQ
 
 ## Let's get fancy with CSS selectors
 - Adding a 'reflected' variable to our element. Reflected variables allow you to change the properties of your card and have the CSS change as a result
