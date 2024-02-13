@@ -47,28 +47,34 @@ openChanged(e) {
 }
 ```
 
----
-
-# TOPICS BELOW THIS LINE STILL IN FLUX SO WORK AHEAD AT YOUR OWN PERRIL
-
----
-
-# Week 6: Stretch Time
-
 ## Tues
+
 - We'll quickly go over 1 well made solution doing everything correct
 - Have your code open
+
+### Class Activity
+
+- ~30 min activity
 - Let's wire our repo up to vercel (if you don't have vercel working bc of account lock, not end of the world; just watch w/ a partner)
-- We'll pull in an existing resource - https://haxapi.vercel.app/?path=/story/media-memes--basic-meme -- Add a meme to your card
+- We'll pull in an existing resource - https://haxapi.vercel.app/?path=/story/media-memes--basic-meme
+- Add this meme to your card to replace the image
+- Get this working locally and then pushed up to github for vercel to rebuild
 
 ## Stretch time
-I've given you the wiring and process to start building things with web components. SO, now its your turn. Below are the requirements for the
+The rest of class is to start into this and ask questions of me / our TAs / each other. We'll also have time to work on Thursday. I've given you the wiring and process to start building things with web components. SO, now its your turn. Below are the requirements for the
 homework this week. Discuss them with your pod, co-work, share research, and come up with how to best build the following:
+
 # Counter App
 - "Counter" is the most common demo repo in any project implementation because it illustrates simple "state management"
 - Using your current repo; create a new element in `src/counter-app.js`
+- Discuss with your team just like how we started with the Card.
 
-### HTML
+- What does the design look like (roughly)? What HTML / CSS requirements are there
+- What properties should this have?
+- Are there flexible HTML areas?
+- Is there anything we have to worry about to ensure this remains stateful
+
+### HTML / Demo
 - Web component so that we can get `<counter-app counter="16" min="10" max="25"></counter-app>` as for how the HTML is written
 - Ideally there would be multiple in you `index.html` but only 2 are required.
 - 1 that has sane defaults so it "just works" with `<counter-app></counter-app>` and 1 with values supplied
@@ -102,14 +108,24 @@ Here's some JS that can be used to make it rain confetti
 
 updated(changedProperties) {
   if (changedProperties.has('counter')) {
-    // do your testing of the value and make it rain here
+    // do your testing of the value and make it rain by calling makeItRain
   }
 }
 
 makeItRain() {
+  // this is called a dynamic import. It means it won't import the code for confetti until this method is called
+  // the .then() syntax after is because dynamic imports return a Promise object. Meaning the then() code
+  // will only run AFTER the code is imported and available to us
   import("@lrnwebcomponents/multiple-choice/lib/confetti-container.js").then(
     (module) => {
+      // This is a minor timing 'hack'. We know the code library above will import prior to this running
+      // The "set timeout 0" means "wait 1 microtask and run it on the next cycle.
+      // this "hack" ensures the element has had time to process in the DOM so that when we set popped
+      // it's listening for changes so it can react
       setTimeout(() => {
+        // forcibly set the poppped attribute on something with id confetti
+        // while I've said in general NOT to do this, the confetti container element will reset this
+        // after the animation runs so it's a simple way to generate the effect over and over again
         this.shadowRoot.querySelector("#confetti").setAttribute("popped", "");
       }, 0);
     }
@@ -121,16 +137,29 @@ makeItRain() {
 - Commit your solution to the above problem to your git repo
 - Ideally this will be built and working on vercel; (if that part doesn't work, not end of world)
 - Turn in a link to your github repo and the link to your project working on vercel (should be like whatever.vercel.app as an address)
-- LAs will be grading based on meeting requirements outlined
 
-## WC Workshop
+### Considerations
+- I know it's THON this weekend
+- Do the best you can to provide the most complete solution you can
+- Next week we'll remediate to improve solutions and ensure everyone stretches to the same level
+- LAs will grade harshly based on requirements, but realize this is still only 2 points. The more critical thing will be the feedback given as far as what's missing
+
+---
+
+# TOPICS BELOW THIS LINE STILL IN FLUX SO WORK AHEAD AT YOUR OWN PERRIL
+
+---
+
+# Week 7 - Remediation + WC Workshop
+- Printing multiple items from a web service
 - Last year I wrote a stand alone workshop for some non-IST students
 - We'll use a variation of this to start to look at how we can get data via `fetch` and `json` structures in order to "stamp" multiple copies of our template
 
-# Week 7-9 - The ones with some topics about stuff
-- Lit Fundamentals
-- Printing multiple items from a web service
-
+# Week 8 & 9 - Another mini-project, this time from a real situation
+- PSU is looking to leverage web components for it's 'brand' style assets (headers, footers, etc)
+- Each Team will have a different mini-project to work on these 2 weeks before spring break
+- These will be built on top of a work-in-progress design system that I am working on with a student
+- These will be judged based on accuracy, in the past several of these have made their way into adoption in PSU web properties
 
 # Week 10 - sPrInG bReAk
 # Week 11 - The one where society doesn't shut down completely during spring break
