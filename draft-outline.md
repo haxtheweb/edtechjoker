@@ -100,6 +100,8 @@ Discuss with your pod the best way to go about solving this stretch given the fo
 # Week 10 - The one where society doesn't shut down completely during spring break
 ## Tues - The one with the GuEsT LeCtUrE
 - EdTechJoker talking about what Project EdTechJoker is and finding your purpose in this world
+- All I ask is that you bring paper, something to write with, and an open mind
+- I will ask that devices are away, and that you just.. listen, and write things down you find relevant
 
 ## Thursday - Unconference
 - I love unconferences and feel that I learn WAY MORE at them than a traditional learning experience
