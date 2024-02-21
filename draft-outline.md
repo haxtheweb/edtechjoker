@@ -12,146 +12,11 @@ Before saying "it doesn't work" with web development in general, please consult 
 - [Week 3 - card remediation](sp24/week3.md)
 - [Week 4 - Card into web component](sp24/week4.md)
 - [Week 5 - More card into web component](sp24/week5.md)
-
-# Week 6 - Streeeeetch time
-## Why this class changes all the time
-A few people could not get the change event to map correctly. In digging, it was because Chrome supported a way of sending this event data that is different from Safari / Even past versions of Chrome!
-
-### Works in newest Chrome
-
-```js
-// put this anywhere on the MyCard class; just above render() is probably good
-  openChanged(e) {
-    console.log(e.newState);
-    if (e.newState === "open") {
-      this.fancy = true;
-    }
-    else {
-      this.fancy = false;
-    }
-  }
-```
-
-### Will work across platforms
-
-```js
-// put this anywhere on the MyCard class; just above render() is probably good
-openChanged(e) {
-  console.log(e);
-  if (e.target.getAttribute('open') !== null) {
-    this.fancy = true;
-  }
-  else {
-    this.fancy = false;
-  }
-}
-```
-
-## Tues
-
-- We'll quickly go over 1 well made solution doing everything correct
-- Have your code open
-- https://github.com/NickBoi0/polaris-chip
-- https://github.com/drichards6/polaris-chip
-
-### Class Activity
-
-- ~30 min activity
-- Let's wire our repo up to vercel (if you don't have vercel working bc of account lock, not end of the world; just watch w/ a partner)
-- We'll pull in an existing resource - https://haxapi.vercel.app/?path=/story/media-memes--basic-meme
-- Add this meme to your card to replace the image
-- Get this working locally and then pushed up to github for vercel to rebuild
-
-## Stretch time
-The rest of class is to start into this and ask questions of me / our TAs / each other. We'll also have time to work on Thursday. I've given you the wiring and process to start building things with web components. SO, now its your turn. Below are the requirements for the
-homework this week. Discuss them with your pod, co-work, share research, and come up with how to best build the following:
-
-# Counter App
-- "Counter" is the most common demo repo in any project implementation because it illustrates simple "state management"
-- Using your current repo; create a new element in `src/counter-app.js`
-- Discuss with your team just like how we started with the Card.
-
-- What does the design look like (roughly)? What HTML / CSS requirements are there
-- What properties should this have?
-- Are there flexible HTML areas?
-- Is there anything we have to worry about to ensure this remains stateful
-
-### HTML / Demo
-- Web component so that we can get `<counter-app counter="16" min="10" max="25"></counter-app>` as for how the HTML is written
-- Ideally there would be multiple in you `index.html` but only 2 are required.
-- 1 that has sane defaults so it "just works" with `<counter-app></counter-app>` and 1 with values supplied
-
-### shadowRoot / render contents
-- I just want to print the current `counter` number with 2 buttons below it. One that's `+` and one thats `-`
-- When you click `+` I want it to increment counter but not go over max
-- Same for `-` but I want it to decrease the counter and not go below the minimum
-- This should shoot for the minimum amount of `html` tags required in order to generate a decent looking counter
-
-### styles
-- The number should be a rather large font size
-- the buttons should be next to each other but below the number
-- the buttons should have focus / hover states
-- when we hit 18 on the counter the color of the number should change
-- when we hit 21 on the counter the color of the number should change
-- when we hit min or max the color of the number should change
-- apply spacing to buttons and elements to ensure they look reasonable (think golden ratio like multiples of 4, 8, 16)
-
-### Logic
-- When we hit min, disable the min button `?disabled="${this.min === this.counter}"`
-- when we hit max, disable the max button
-- when the counter hits 21, `makeItRain` by using the `updated(changedProperties)` lifeCycle method - https://lit.dev/docs/components/lifecycle/#updated
-
-### Leveraging outside code
-install outside code: `npm install @lrnwebcomponents/multiple-choice --save`
-use it to wrap the content you want to explode (probably the entire counter to be honest) - `<confetti-container id="confetti"></confetti-container>`
-Here's some JS that can be used to make it rain confetti
-
-```js
-
-updated(changedProperties) {
-  if (changedProperties.has('counter')) {
-    // do your testing of the value and make it rain by calling makeItRain
-  }
-}
-
-makeItRain() {
-  // this is called a dynamic import. It means it won't import the code for confetti until this method is called
-  // the .then() syntax after is because dynamic imports return a Promise object. Meaning the then() code
-  // will only run AFTER the code is imported and available to us
-  import("@lrnwebcomponents/multiple-choice/lib/confetti-container.js").then(
-    (module) => {
-      // This is a minor timing 'hack'. We know the code library above will import prior to this running
-      // The "set timeout 0" means "wait 1 microtask and run it on the next cycle.
-      // this "hack" ensures the element has had time to process in the DOM so that when we set popped
-      // it's listening for changes so it can react
-      setTimeout(() => {
-        // forcibly set the poppped attribute on something with id confetti
-        // while I've said in general NOT to do this, the confetti container element will reset this
-        // after the animation runs so it's a simple way to generate the effect over and over again
-        this.shadowRoot.querySelector("#confetti").setAttribute("popped", "");
-      }, 0);
-    }
-  );
-}
-```
-
-## Homework
-- Commit your solution to the above problem to your git repo
-- Ideally this will be built and working on vercel; (if that part doesn't work, not end of world)
-- Turn in a link to your github repo and the link to your project working on vercel (should be like whatever.vercel.app as an address)
-
-### Considerations
-- I know it's THON this weekend
-- Do the best you can to provide the most complete solution you can
-- Next week we'll remediate to improve solutions and ensure everyone stretches to the same level
-- LAs will grade harshly based on requirements, but realize this is still only 2 points. The more critical thing will be the feedback given as far as what's missing
-
+- [Week 6 - STRETCH 1](sp24/week6.md)
 
 # Week 7 - 8 - Remediation & another Stretch
 - We'll review progress made on the stretch from last week
 - Sticker worthy examples:
-  - 
-  - 
   - 
 
 ## Stretch 1 considerations:
@@ -215,22 +80,20 @@ Discuss with your pod the best way to go about solving this stretch given the fo
 
 ### Due this Sunday
 - Turn in a link to your github repo where the code is, hopefully auto-built on vercel so that we can see your current status
-- Remediations on Stretch 1 (and notify your LA so they can verify)
+- Remediations on Stretch 1 (and notify your LA so they can verify) and you can earn back full credit here if applying fixes / missing requirements
+- This is purely a status check in associated with Stretch 2. LAs will provide feedback based on what's there but it will be more of the form of "make sure to account for..." as opposed to "this is wrong"
+- So long as you demonstrate progress in what you submit this weekend (generally has a tag name, looks sorta like a thing, starting to take into account requirements) it is full credit
 
 ### Due as part of the full submission for Stretch 2
 - Link to code / published to vercel
 - Blog post on HAX.psu
 - Link to your code / working vercel demo in the post
 - Write a post about your experience doing these stretches / web components based development up to this point
+- What worked well with Stretch 1? What did you struggle with but figure out? What do you still not fully grasp?
+- What worked well with Stretch 2? What did you struggle with but figure out? What do you still not fully grasp?
 - What are 3 things you feel confident in knowing how to do now?
 - What are any things you don't feel confident in knowing how to do by this point?
-
-
----
-
-# TOPICS BELOW THIS LINE STILL IN FLUX SO WORK AHEAD AT YOUR OWN PERRIL
-
----
+- This is due Sunday AFTER break though I'd encourage you to clear you plate mentally prior to break
 
 # Week 9 - sPrInG bReAk
 
@@ -238,7 +101,52 @@ Discuss with your pod the best way to go about solving this stretch given the fo
 ## Tues - The one with the GuEsT LeCtUrE
 - EdTechJoker talking about what Project EdTechJoker is and finding your purpose in this world
 
-# Week 7 - WC Workshop
+## Thursday - Unconference
+- I love unconferences and feel that I learn WAY MORE at them than a traditional learning experience
+- So let's blow up the typical topic
+
+## 20+ minutes
+In your pods, review your last blog post and code. Mark someone as the 'scribe' to document the conversation
+
+### Everyone discuss what you struggled with in Stretch 1 (the counter app)
+
+- When someone nailed it, show how you achieved that
+- If EVERYONE struggled with something and didn't get it; write down what your pod DID NOT GET AT ALL
+- If everyone nailed something, write that down in another column
+
+### Everyone discuss what you struggled with in Stretch 2 (the university status element)
+
+- When someone nailed it, show how you achieved that
+- If EVERYONE struggled with something and didn't get it; write down what your pod DID NOT GET AT ALL
+- If everyone nailed something, write that down in another column
+
+### Scribes. What did we not understand?
+- We'll go a pod at a time. What concepts / things in both stretches did you NOT understand?
+- When someone mentions something that they didn't get, if your group wrote down that you 'got it' for that concept, raise your hand / say so.
+- We'll write down on the board concepts that need additional coverage
+- After this list is generated, we'll form mini-study groups for each concept
+- People that feel confident they understood the concept, you are the defactor instructor there
+- People that feel lost on a concept, you are the students working with that instructor to better understand the concept
+
+- This will involve getting up and moving. If we have 3 concepts, that's 3 groups. if we have 8 concepts its' 8. this will be highly contextual to the topic space / what is missing
+
+## Homework
+- Write a HAX.psu blog post about your experience with this 'unconference' style of learning
+- Apply any additional remediations you desire to Stretch 2 based on feedback / points missed as well as the discussions you had
+  - You can gain full credit on these for meeting all requirements
+- What did you learn that you were unsure of prior to the unconference groups?
+- What (if anything) was your take away from the talk "With the right tools, you can build anything"?
+- How can you apply this to your life and career?
+- What other topics do you wish were covered or questions you have about the web that we can untangle in a similar manner? This does not have to be course material, it could be any web related concept you are unsure of still.
+- Turn this in by Sunday night. This concludes the homework portion of the course
+ 
+---
+
+# TOPICS BELOW THIS LINE STILL IN FLUX SO WORK AHEAD AT YOUR OWN PERRIL
+
+---
+
+# WC Workshop
 - Printing multiple items from a web service
 - Last year I wrote a stand alone workshop for some non-IST students
 - We'll use a variation of this to start to look at how we can get data via `fetch` and `json` structures in order to "stamp" multiple copies of our template
