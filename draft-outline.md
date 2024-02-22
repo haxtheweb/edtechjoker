@@ -17,7 +17,8 @@ Before saying "it doesn't work" with web development in general, please consult 
 # Week 7 - 8 - Remediation & another Stretch
 - We'll review progress made on the stretch from last week
 - Sticker worthy examples:
-  - 
+  - https://github.com/Kimaj0424/polaris-chip
+  - https://github.com/ipeskin04/polaris-chip
 
 ## Stretch 1 considerations:
 - If you go back and implement the feedback that the LAs gave by this weekend, you can earn those points back
