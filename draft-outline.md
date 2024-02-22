@@ -19,6 +19,7 @@ Before saying "it doesn't work" with web development in general, please consult 
 - Sticker worthy examples:
   - https://github.com/Kimaj0424/polaris-chip
   - https://github.com/ipeskin04/polaris-chip
+  - https://github.com/ssambender/polaris-chip -- awesome playing card version
 
 ## Stretch 1 considerations:
 - If you go back and implement the feedback that the LAs gave by this weekend, you can earn those points back
