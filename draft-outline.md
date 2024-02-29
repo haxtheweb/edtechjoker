@@ -40,6 +40,8 @@ PSU is in the process of increasingly adopting more and more web components beca
   - https://elements-dev.psu.edu/theme-development/content-page-with-sidenav/ - More well developed of the two
   - https://stamp.prod.fbweb.psu.edu/basic-page-1 - variation to demonstrate color option
 
+- localStorage from class -- https://youtu.be/NpL3Tq1ipGU
+
  ### Expected of you
 Discuss with your pod the best way to go about solving this stretch given the following requirements
 
