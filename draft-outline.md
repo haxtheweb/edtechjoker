@@ -22,6 +22,10 @@ Before saying "it doesn't work" with web development in general, please consult 
 - All I ask is that you bring paper, something to write with, and an open mind
 - I will ask that devices are away, and that you just.. listen, and write things down you find relevant
 
+These questions are things I want you to think about while you listen / take notes:
+- What (if anything) was your take away from the talk "With the right tools, you can build anything"?
+- How can you apply this to your life and career?
+
 ## Thursday - Unconference
 - I love unconferences and feel that I learn WAY MORE at them than a traditional learning experience
 - So let's blow up the typical topic
@@ -46,7 +50,7 @@ In your pods, review your last blog post and code. Mark someone as the 'scribe' 
 - When someone mentions something that they didn't get, if your group wrote down that you 'got it' for that concept, raise your hand / say so.
 - We'll write down on the board concepts that need additional coverage
 - After this list is generated, we'll form mini-study groups for each concept
-- People that feel confident they understood the concept, you are the defactor instructor there
+- People that feel confident they understood the concept, you are the defacto instructor there
 - People that feel lost on a concept, you are the students working with that instructor to better understand the concept
 
 - This will involve getting up and moving. If we have 3 concepts, that's 3 groups. if we have 8 concepts its' 8. this will be highly contextual to the topic space / what is missing
@@ -59,8 +63,8 @@ In your pods, review your last blog post and code. Mark someone as the 'scribe' 
 - What (if anything) was your take away from the talk "With the right tools, you can build anything"?
 - How can you apply this to your life and career?
 - What other topics do you wish were covered or questions you have about the web that we can untangle in a similar manner? This does not have to be course material, it could be any web related concept you are unsure of still.
-- Turn this in by Sunday night. This concludes the homework portion of the course
- 
+- Turn this in by Sunday night. This concludes the homework portion of the course. Things from here are now status check oriented
+
 ---
 
 # TOPICS BELOW THIS LINE STILL IN FLUX SO WORK AHEAD AT YOUR OWN PERRIL
