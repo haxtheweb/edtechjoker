@@ -14,7 +14,7 @@ Before saying "it doesn't work" with web development in general, please consult 
 - [Week 5 - More card into web component](sp24/week5.md)
 - [Week 6 - STRETCH 1](sp24/week6.md)
 - [Week 7-8 - STRETCH 2](sp24/week7-8.md)
-- Week 9- SpRiNg BrEaK
+- Week 9 - SpRiNg BrEaK
 - [Week 10](sp24/week10.md)
 
 # Week 11 - Project 1
@@ -51,6 +51,9 @@ The LAs and I will be grading based on the following types of criteria though as
 - Is it a stand alone web component? Is it reusable? Is there anything else that could be done to make it more reusable?
 
 ## Thursday
+Discussion via this repo and the relationship with an Array of values, finding what is selected within it
+- https://github.com/btopro/example-event
+- https://example-event.vercel.app/
 - More time to discuss and ask questions.
 - Discussion groups around researching specific questions.
 
