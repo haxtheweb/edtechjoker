@@ -26,10 +26,17 @@ Specific things I'll touch on in this:
 - How to convert some of this into an array via map
 - When and how to apply some CSS variables from DDD for color as well as spacing (more importantly, spacing)
 
-## Discussion with Pods
+## Discussion with Pods 30 min
+- How are you wire-framing / building a visual consensus / agreement of what is to be built? Is it figma? A photo of a note? Some other process?
 - Are you presently 'map'ing the data correctly to print an array? Are people in your pod using an Array of Objects approach or an Array of Strings approach?
 - Are you implementing CSS variables for DDD? Do you have the ability to override the setting DDD is using or are you enforcing design?
-- Do you have the adding / pushing onto the array working?
+- Do you have the adding / pushing onto the array working? What events are you using to obtain this?
+- Are you able to delete items once added? Are you using events to do this?
+- Have you created additional web components in order to solve your problem more easily? (Anything more than a div, some css and JS logic that you start referencing as a noun, is probably a good candidate for a new web component to simplify scope)
+
+Post answers in Teams so other pods can comb through and get a sense for how people are solving this and where they are at presently.
+
+Any time after 1 is yours to keep working on your project. Ask questions as they arrise in the discussion topics above. Be sure after class or 1 to scroll through the teams messages posted to get a sense for where others are at and see if there's any ideas to solving things you haven't figured out just yet.
 
 ---
 
