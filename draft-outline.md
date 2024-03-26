@@ -26,6 +26,11 @@ Specific things I'll touch on in this:
 - How to convert some of this into an array via map
 - When and how to apply some CSS variables from DDD for color as well as spacing (more importantly, spacing)
 
+## Discussion with Pods
+- Are you presently 'map'ing the data correctly to print an array? Are people in your pod using an Array of Objects approach or an Array of Strings approach?
+- Are you implementing CSS variables for DDD? Do you have the ability to override the setting DDD is using or are you enforcing design?
+- Do you have the adding / pushing onto the array working?
+
 ---
 
 # TOPICS BELOW THIS LINE STILL IN FLUX SO WORK AHEAD AT YOUR OWN PERRIL
