@@ -38,6 +38,28 @@ Post answers in Teams so other pods can comb through and get a sense for how peo
 
 Any time after 1 is yours to keep working on your project. Ask questions as they arrise in the discussion topics above. Be sure after class or 1 to scroll through the teams messages posted to get a sense for where others are at and see if there's any ideas to solving things you haven't figured out just yet.
 
+Example from class to refactor the 'copy' aspect shown in the video: https://github.com/btopro/haxcms-user-flow/blob/master/rollup.config.js
+
+```js
+npm install --save rollup-plugin-copy
+
+import copy from 'rollup-plugin-copy';
+
+ copy({
+      targets: [
+        {
+          src: 'node_modules/@lrnwebcomponents/rpg-character/lib',
+          dest: 'dist',
+        },
+        {
+          src: 'node_modules/@lrnwebcomponents/simple-icon/lib/svgs',
+          dest: 'dist',
+        },
+      ],
+    }),
+
+```
+
 ---
 
 # TOPICS BELOW THIS LINE STILL IN FLUX SO WORK AHEAD AT YOUR OWN PERRIL
