@@ -60,6 +60,10 @@ import copy from 'rollup-plugin-copy';
 
 ```
 
+## Thursday repo to review
+- https://polaris-chip-blue.vercel.app/
+- https://github.com/icm5131/polaris-chip
+
 ---
 
 # TOPICS BELOW THIS LINE STILL IN FLUX SO WORK AHEAD AT YOUR OWN PERRIL
