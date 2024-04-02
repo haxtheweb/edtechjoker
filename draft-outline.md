@@ -64,14 +64,17 @@ import copy from 'rollup-plugin-copy';
 - https://polaris-chip-blue.vercel.app/
 - https://github.com/icm5131/polaris-chip
 
+# Week 13
+- Repo to refiew in class - https://github.com/Kermitopalis/polarischip
+- More time to ask questions
+- This is a week to work, get finalized feedback from LAs and me.
+- Thursday is another working day. If you want a live critique / feedback of your item please email me and I will
+
 ---
 
 # TOPICS BELOW THIS LINE STILL IN FLUX SO WORK AHEAD AT YOUR OWN PERRIL
 
 ---
-
-## Week 12 - More Project 1 working time and feedback
-
 
 ## Week 13 - Project 1 due Sunday
 
