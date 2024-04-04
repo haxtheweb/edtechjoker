@@ -28,7 +28,6 @@ The LAs and I will be grading based on the following types of criteria though as
 - Does it look good? Is it responsive? Does it meet the visual requirements?
 - Is the mark up / HTML semantic and accessible? Is it simple in structure and easy to read?
 - Does it leverage the DDD Design system? Does it have CSS variables left behind for flexibility?
-- Does the demo exhibit variations of the implementation?
 - Is it a stand alone web component? Is it reusable? Is there anything else that could be done to make it more reusable?
 
 ## Thursday
