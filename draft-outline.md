@@ -70,6 +70,12 @@ import copy from 'rollup-plugin-copy';
 - This is a week to work, get finalized feedback from LAs and me.
 - Thursday is another working day. If you want a live critique / feedback of your item please email me and I will
 
+## Thursday
+Repo to review. Additional helpful links for this:
+- https://github.com/AshleySantana/Polaris-Chip
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog
+- https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent/CustomEvent
+
 ---
 
 # TOPICS BELOW THIS LINE STILL IN FLUX SO WORK AHEAD AT YOUR OWN PERRIL
