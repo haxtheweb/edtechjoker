@@ -40,7 +40,12 @@ https://github.com/elmsln/issues/issues/1946
 - Same feedback loop as before; produce work. I'll pick 1 solution from each option and we'll review.
 - Even when an option is not your own, walking through the code can help generate ideas about how you could solve a similar problem in your own
 
-## Rubric
+## Programs required for use to ensure quality
+Both of these are Chrome store, there might be versions for Firefox if you use that browser.
+- Light House -- Work on obtaining the highest scores possible; it might not be possible to get 100% but it will give really good feedback about things like accessibility, performance, and structure https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?pli=1
+- WAVE - accessibility testing plugin. Gives good feedback on really nitty gritty areas https://chromewebstore.google.com/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh
+
+# Rubric for Project 2 (Final project)
 This is a bit more subjective than the previous one because if this was an industry grade project (and it is) then your boss is going to accept solutions that maximize the following aspects:
 - How closely does it match the requirements laid out by the client? is anything missing? were there compromises for additional gains?
 - Is it well designed? Is it visually pleasing? Is it easy to use and understand what is expected when a user goes to interact with it?
