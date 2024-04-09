@@ -16,22 +16,44 @@ Before saying "it doesn't work" with web development in general, please consult 
 - [Week 7-8 - STRETCH 2](sp24/week7-8.md)
 - Week 9 - SpRiNg BrEaK
 - [Week 10](sp24/week10.md)
-- [Week 11,12,13 - Project 1](sp24/week11.md)
----
+- [Week 11,12,13 - Project 1](sp24/week11-12-13-project1.md)
 
-# TOPICS BELOW THIS LINE STILL IN FLUX SO WORK AHEAD AT YOUR OWN PERRIL
 
----
+# Project 2
 
-## Week 14 - 16 - Project 2
-- Code hard, Kick butt and chew bubble gum*
-  - *We're all out of bubble gum
+> Code hard, Kick butt and chew bubble gum*
+> *We're all out of bubble gum
+
+ Project 2 is another issue from the queue, but this time you and your pod get to research it and pick from several options. These are all similar scope and complexity but touch on different aspects of what's available in a larger system context. Read through them in full detail, find the one that's of interest to you and your pod and claim it. I want to see roughly 1/2 the classs doing each issue. This way there's enough variety for you in reviewing solution paths with other pods. Ideally 1/2 the class does each.
+
+## State managment internal to a single element - Tagging question
+https://github.com/elmsln/issues/issues/1334
+
+## State management external to a singleton element - Image gallery / presentation method
+https://github.com/elmsln/issues/issues/1946
+
+# Requirements of either
+- An initial comp; preferrably in Figma / design program of choice to produce an agreed upon image / wireframe. This can be hand drawn as long as it has all details expressed
+- Start from a new boilerplate for this project using the Template option like we did many weeks ago -- https://github.com/btopro/polaris-chip
+- Weekly check-ins
+- Class to get feedback
+- Same feedback loop as before; produce work. I'll pick 1 solution from each option and we'll review.
+- Even when an option is not your own, walking through the code can help generate ideas about how you could solve a similar problem in your own
+
+## Rubric
+This is a bit more subjective than the previous one because if this was an industry grade project (and it is) then your boss is going to accept solutions that maximize the following aspects:
+- How closely does it match the requirements laid out by the client? is anything missing? were there compromises for additional gains?
+- Is it well designed? Is it visually pleasing? Is it easy to use and understand what is expected when a user goes to interact with it?
+- Is it maintaining a high level of accessibility?
+- Is it performant? Are there areas for added efficiency where it could be even faster?
+- Is it stateful? Can we modify properties and other HTML after the fact and everything still works as expected?
+- Are multiple web components used and work together using events and properties to manage state?
+- Is this reusable? Could we drop it into any web site / project and leverage it outright?
+- Could this be used in a production environment? Can we go live with this or are there other modifications required to do so?
+- Is the code well written, clean, commented, original, and understandable?
+
+Week 14 - 16 will follow this pattern like we've been doing. Class is still required attendence and you are once again encouraged to work together. We'll have additional dedicated segments where you swap work and provide feedback on problems you are having with other pods doing the same project.
 
 # Week 17 - Final Destination
 - no items, 5 stock, no mr game n watch
 - Final project Due Wed of Finals week
-
-# WC Workshop
-- Printing multiple items from a web service
-- Last year I wrote a stand alone workshop for some non-IST students
-- We'll use a variation of this to start to look at how we can get data via `fetch` and `json` structures in order to "stamp" multiple copies of our template
