@@ -54,6 +54,20 @@ This is a bit more subjective than the previous one because if this was an indus
 
 Week 14 - 16 will follow this pattern like we've been doing. Class is still required attendence and you are once again encouraged to work together. We'll have additional dedicated segments where you swap work and provide feedback on problems you are having with other pods doing the same project.
 
+# Week 14 - Tuesday
+- It's amazing outside. I want you to take your pod and go outside / meet some place not this class and discuss the following:
+- Review each issue, thoroughly and answer the following
+
+1. What do you think the hardest aspect of both issues is?
+2. What do you think the easiest parts of both issues is?
+3. Doodle a wireframe of each.
+4. Which of these are you more interested in doing?
+
+- Where ever you are in these discussions, submit to the Teams general channel at 12:50, and then walk back to continue class.
+- We will discuss these concerns / project options as a class
+- **As the discussion is taking place we'll take attendence.**
+- I will ask after this discussion, to confirm with your pod which issue you are going to work on. I would like to have about a 50/50 split for the class but as long as there are 5 pods doing an issue we are good.
+
 # Week 17 - Final Destination
 - no items, 5 stock, no mr game n watch
 - Final project Due Wed of Finals week
