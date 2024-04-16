@@ -73,6 +73,43 @@ Week 14 - 16 will follow this pattern like we've been doing. Class is still requ
 - **As the discussion is taking place we'll take attendence.**
 - I will ask after this discussion, to confirm with your pod which issue you are going to work on. I would like to have about a 50/50 split for the class but as long as there are 5 pods doing an issue we are good.
 
+# Week 15 - Keep working
+
+## Tuesday
+- More time to keep working
+
+## Thursday
+Class Discussion:
+- Take 10 minutes and discuss what you all have working
+- What you are stuck on is especially important. Not nessecarily what you haven't done so much as what you are struggling to get started on.
+- Post to Teams what you are stuck on so we can link people up to solve these problems as best we can
+
+## Sunday / check in
+
+- Check in 2 Due Sunday
+- There should be code either heavily on the design side or on the logic side
+- It should be starting to take shape and if it is not, you should be asking questions or attending office hours to make this happen
+
+# Week 16 - Keep working
+
+## Tues
+Class Discussion:
+- Mix up so that you are sitting with one person who is working on the same project as you but is NOT in your team
+- Go anywhere and discuss issues you are having (this can be in the room, outside if it's nice or the many hall way desks)
+- With this partner, discuss what you have working, what you don't have working, what you are stuck on, and help each other with the parts you've nailed
+- Take 30 minutes to do this. So back in the room at 12:40
+- At the end of this partner exercise. Come back to your pod and discuss what you learned and generate discussion about how you can solve the problems you have remaining
+- Should be wrapping up the project, enhancing, finalizing, confirming with other pods
+
+## Thursday
+- Open office hours to come in and work and finalize projects
+- Can also get feedback about specific things missing or that should be improved to maximize output
+
 # Week 17 - Final Destination
 - no items, 5 stock, no mr game n watch
-- Final project Due Wed of Finals week
+
+## Tueday of finals week
+- No requirement on class; come to class though if you'd like open office hours for last minute questions
+
+
+# Final project Due **Wed of Finals week**
