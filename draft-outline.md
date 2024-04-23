@@ -93,10 +93,13 @@ Class Discussion:
 # Week 16 - Keep working
 
 ## Tues
-Class Discussion:
+## Walk throughs to watch outside of class / during discussion time
+- Feedback on an image gallery project: https://www.youtube.com/watch?v=tN3OfRTTWeE
+- Feedback on a tagging question project: https://www.youtube.com/watch?v=09WY2qTxOvI
+## Class Discussion:
 - Mix up so that you are sitting with one person who is working on the same project as you but is NOT in your team
 - Go anywhere and discuss issues you are having (this can be in the room, outside if it's nice or the many hall way desks)
-- With this partner, discuss what you have working, what you don't have working, what you are stuck on, and help each other with the parts you've nailed
+- With this partner / small group, discuss what you have working, what you don't have working, what you are stuck on, and help each other with the parts you've nailed
 - Take 30 minutes to do this. So back in the room at 12:40
 - At the end of this partner exercise. Come back to your pod and discuss what you learned and generate discussion about how you can solve the problems you have remaining
 - Should be wrapping up the project, enhancing, finalizing, confirming with other pods
