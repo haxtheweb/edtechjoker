@@ -1,7 +1,7 @@
-# IST 256 - SP 2024
+# IST 256 - FA 2024
 Welcome to the "web components are the future that is here right now" course. This course is for advanced Web application development and that could go one of two ways.
 1. Industry way. Adopt whatever gets you an app quickly. You understand how nothing works, adopting whatever conventions someone blogs about
-2. My way. We learn vanilla and use a very small library just above vanilla called Lit.
+2. My way. We learn vanilla and use a very small library just above vanilla called Lit. If you can grasp the micro you can build macro.
 
 Why?
 - You'll know what makes up industry tools
