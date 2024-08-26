@@ -8,111 +8,112 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 Before saying "it doesn't work" with web development in general, please consult this [common issues document](common-issues.md). It is the solution to 95% of the problems I've seen young web devs have when working with web components, terminal, VS code and javascript/html/css more broadly.
 
 # Past weeks
-- [Week 1 & 2 - git / intro](sp24/week1-2.md)
-- [Week 3 - card remediation](sp24/week3.md)
-- [Week 4 - Card into web component](sp24/week4.md)
-- [Week 5 - More card into web component](sp24/week5.md)
-- [Week 6 - STRETCH 1](sp24/week6.md)
-- [Week 7-8 - STRETCH 2](sp24/week7-8.md)
-- Week 9 - SpRiNg BrEaK
-- [Week 10](sp24/week10.md)
-- [Week 11,12,13 - Project 1](sp24/week11-12-13-project1.md)
+- Week 1 & 2 - git / intro
 
+# Week 1 - The one with getting started
+## Tues - The one where we go through the contract
+- Welcome and syllabus day
+- Context setting what we'll be working on, learning about and the industry at large as well as establishing what brought me from the classrooms you've taken to the stage where I am today and online
+- This is a rare sit and listen day so you should be googling stuff and installing requirements for the class https://oer.hax.psu.edu/bto108/sites/ist256/requirements 
 
-# Project 2
+## Wed - between class if possible
+- https://oer.hax.psu.edu/bto108/sites/ist256/requirements - get accounts on these services
+- Install the software mentioned and bring any issues you have to class
+- *If you have issues with vercel, please contact their support as soon as possible. They take awhile to respond sometimes and it will enhance your ability to see 'built' work out at live web addresses when having it.*
 
-> Code hard, Kick butt and chew bubble gum*
-> *We're all out of bubble gum
+## Thurs: Get basic structure around the big 3, fundamentals and playing with stuff
+- We'll "hack" the penn state website and learn that the browser is the debugging environment
+- Play with a very watered down "web application" called the "Stupid Simpsons App"
+- Check out a code pen, a really easy way of learning HTML/CSS/JS by remixing examples of others
+- https://oer.hax.psu.edu/bto108/sites/ist256/activities/day-1
 
- Project 2 is another issue from the queue, but this time you and your pod get to research it and pick from several options. These are all similar scope and complexity but touch on different aspects of what's available in a larger system context. Read through them in full detail, find the one that's of interest to you and your pod and claim it. I want to see roughly 1/2 the classs doing each issue. This way there's enough variety for you in reviewing solution paths with other pods. Ideally 1/2 the class does each.
+## Homework
+- Create an account on https://github.com 
+- Create accounts on the services listed here: https://oer.hax.psu.edu/bto108/sites/ist256/requirements
+- Create a **PUBLIC** Gist on https://gist.github.com/ called **week-1.md** (so that you can write markdown and practice doing so)
+- Watch this video on terminal basics: https://www.youtube.com/watch?v=cwTswuFkMH4 
+- Read this [common issues document](common-issues.md) (and keep it in mind going forward as it'll save us time and time is valuable!):
+- Watch the following video / have it open in another tab: https://youtu.be/DWvRV9KuTjk 
+- Write responses using Markdown (Look it up if you don't know how to do it but bottom right corner in gist will have a `M^` button w/ details):
+  - If the question is a simple answer / response. Then make it a HEADING using markdown for the question `## `
+  - If the question has multiple responses (like 5 syntaxes) then make the question a HEADING level 2, but the responses using a bulleted list (look this up)
+  - If you end up adding a code sample, use the ` ``` ` three back ticks syntax in order to show the code in a block.
+- Questions to answer
+  - Was the backend or frontend responsible for the bug in the video?
+  - What languages do you see in this video? List ALL of them. If you're not sure what the language is, but you know there's an additional one, indicate that.
+  - What tools, strategies, and workflows used in the video do you think are common across all web development?
+  - What strategies used in the video help with debugging?
+  - What strategies have you used before that are shown here for debugging?
+  - What tools and approaches used in the video do you think help in quality control / quality assurance?
+  - What are 5 syntaxes / pieces of code shown you DO recognize (could be of any scale or size), time stamp (link) or screenshot it and list what they are them. (screen shots can be drag and dropped into the comment area below your gist)
+  - What are 5 syntaxes / pieces of code shown you DON'T recognize, time stamp (link) or screenshot it and list what they are them. (screen shots can be drag and dropped into the comment area below your gist)
+  - You just wrote responses to these questions in Markdown. What even is that? (insert meme here :p). What is Markdown and how is it similar, different, or related to HTML?
+  - What are 3 things you CAN NOT do in markdown that you CAN do in HTML?
 
-## State managment internal to a single element - Tagging question
-https://github.com/elmsln/issues/issues/1334
+*Submit the link to your GIST using the Cantvas HW 1 Dropbox*
 
-## State management external to a singleton element - Image gallery / presentation method
-https://github.com/elmsln/issues/issues/1946
+# Week 2 - The one with Git.. AND SNOW
 
-# Requirements of either
-- An initial comp; preferrably in Figma / design program of choice to produce an agreed upon image / wireframe. This can be hand drawn as long as it has all details expressed
-- Start from a new boilerplate for this project using the Template option like we did many weeks ago -- https://github.com/btopro/polaris-chip
-- Weekly check-ins
-- Class to get feedback
-- Same feedback loop as before; produce work. I'll pick 1 solution from each option and we'll review.
-- Even when an option is not your own, walking through the code can help generate ideas about how you could solve a similar problem in your own
-
-## Programs required for use to ensure quality
-Both of these are Chrome store, there might be versions for Firefox if you use that browser.
-- Light House -- Work on obtaining the highest scores possible; it might not be possible to get 100% but it will give really good feedback about things like accessibility, performance, and structure https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?pli=1
-- WAVE - accessibility testing plugin. Gives good feedback on really nitty gritty areas https://chromewebstore.google.com/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh
-
-# Rubric for Project 2 (Final project)
-This is a bit more subjective than the previous one because if this was an industry grade project (and it is) then your boss is going to accept solutions that maximize the following aspects:
-- How closely does it match the requirements laid out by the client? is anything missing? were there compromises for additional gains?
-- Is it well designed? Is it visually pleasing? Is it easy to use and understand what is expected when a user goes to interact with it?
-- Is it maintaining a high level of accessibility?
-- Is it performant? Are there areas for added efficiency where it could be even faster?
-- Is it stateful? Can we modify properties and other HTML after the fact and everything still works as expected?
-- Are multiple web components used and work together using events and properties to manage state?
-- Is this reusable? Could we drop it into any web site / project and leverage it outright?
-- Could this be used in a production environment? Can we go live with this or are there other modifications required to do so?
-- Is the code well written, clean, commented, original, and understandable?
-
-Week 14 - 16 will follow this pattern like we've been doing. Class is still required attendence and you are once again encouraged to work together. We'll have additional dedicated segments where you swap work and provide feedback on problems you are having with other pods doing the same project.
-
-# Week 14 - Tuesday
-- It's amazing outside. I want you to take your pod and go outside / meet some place not this class and discuss the following:
-- Review each issue, thoroughly and answer the following
-
-1. What do you think the hardest aspect of both issues is?
-2. What do you think the easiest parts of both issues is?
-3. Doodle a wireframe of each.
-4. Which of these are you more interested in doing?
-
-- Where ever you are in these discussions, submit to the Teams general channel at 12:50, and then walk back to continue class.
-- We will discuss these concerns / project options as a class
-- **As the discussion is taking place we'll take attendence.**
-- I will ask after this discussion, to confirm with your pod which issue you are going to work on. I would like to have about a 50/50 split for the class but as long as there are 5 pods doing an issue we are good.
-
-# Week 15 - Keep working
-
+# Week 2: Git / Github
 ## Tuesday
-- More time to keep working
+- Git lecture
+- Slides: https://docs.google.com/presentation/d/1bfNIILQxz8giCLSszmdvDnfNDXY9fpcgYgc-cDE1fFQ/edit?usp=sharing
+- Git activity in class
+
+## Wed between class
+- Watch this video of me solving a problem and the full end to end pipeline with github and process: https://www.youtube.com/watch?v=oc7sNh2Zisg
+- **HW Part 1** listed below: do between class for discussion as well as jump starting the homework
 
 ## Thursday
-Class Discussion:
-- Take 10 minutes and discuss what you all have working
-- What you are stuck on is especially important. Not nessecarily what you haven't done so much as what you are struggling to get started on.
-- Post to Teams what you are stuck on so we can link people up to solve these problems as best we can
+- Let's start working on cards!
+- Slide deck for Thurs which I will run through very quickly (you can read on your own time or use as basis to google concepts) https://docs.google.com/presentation/d/1rbC4d-sXTyDUArLPXl-tBEQ8ZJldD9_QFfuFhgIW73g/edit?usp=sharing
 
-## Sunday / check in
+## Homework
+Two-part homework this week; we will have time in class Thurs to start and then Tues the focus will be critique via submissions generated by the class.
 
-- Check in 2 Due Sunday
-- There should be code either heavily on the design side or on the logic side
-- It should be starting to take shape and if it is not, you should be asking questions or attending office hours to make this happen
+### HW Part 1
+- Fork this pen on codepen https://codepen.io/btopro/pen/jOJVyXN
+- Try to make more than 1 meme by duplicating the HTML portion of the code
+- Modify the text / image used in the meme on the HTML portion
+- Try to modify the font-size using the CSS tab.
+- Make a new HAX.PSU.EDU BLOG POST where you try to answer the following questions
+  - Provide a Link to your fork of the codepen
+  - Look at the CSS / styles; What's special about `--meme-maker-font-size-medium`?
+  - Look at @media in styles() what does this do?
+  - In the CSS area, write a selector for changing the font color on both tags. If you can change this, how did you do it? If  you can't, why don't you think it is working?
 
-# Week 16 - Keep working
+### Part 2:
+- here's what I made in a previous class: https://codepen.io/btopro/pen/dyrWXBp
+- Working with your pod, come up with an agreed upon visual as to how you'd conceive the following problem:
+#### We need to make a card with a fancy button on it
+- I will model the button on the white board
+- I'll use codepen to create the button based on my model - https://codepen.io/btopro/pen/dyrWXBp
+- You are free to follow along and copy or just watch and ingest technique
 
-## Tues
-## Walk throughs to watch outside of class / during discussion time
-- Feedback on an image gallery project: https://www.youtube.com/watch?v=tN3OfRTTWeE
-- Feedback on a tagging question project: https://www.youtube.com/watch?v=09WY2qTxOvI
-## Class Discussion:
-- Mix up so that you are sitting with one person who is working on the same project as you but is NOT in your team
-- Go anywhere and discuss issues you are having (this can be in the room, outside if it's nice or the many hall way desks)
-- With this partner / small group, discuss what you have working, what you don't have working, what you are stuck on, and help each other with the parts you've nailed
-- Take 30 minutes to do this. So back in the room at 12:40
-- At the end of this partner exercise. Come back to your pod and discuss what you learned and generate discussion about how you can solve the problems you have remaining
-- Should be wrapping up the project, enhancing, finalizing, confirming with other pods
+#### Now it's your turn, kicked up a notch
+- Working with your Pod, created a shared model of a card visually based on the requirements below
+- model things after the screenshot / pen and paper copy you came up with
 
-## Thursday
-- Open office hours to come in and work and finalize projects
-- Can also get feedback about specific things missing or that should be improved to maximize output
+#### Required steps:
+- Create a new codepen from scratch and try to create a "card" using a mix of semantic, div and other tags to lay the card out:
+- Create a simple “card” using a few SECTION or DIV tags, a Heading for the title, a Paragraph for description of the image an IMG for an image, and a button on the card that says "Details" which links to hax.psu.edu
+- Make the image a fixed size via height / width and ensure the card is no bigger than 400px wide (height is weird in CSS, ignore height)
+- Use the Border, Margin, and padding attributes in order to space the card to visually be appealing (the internet can help influence something to model, try making things 8px and then 12, then 16 to find what you like, ratios are key)
+- Add a media query that only shows the details button when the screen is smaller than 800px (generally a small tablet) but larger than 500px (phone)
+- Add a media query that scales the card (and image / items within) when on a screen smaller than 500px (generally considered phone)
+- Create a new blog post on hax.psu.edu
 
-# Week 17 - Final Destination
-- no items, 5 stock, no mr game n watch
+#### Remediation
+I will not verify you completing these, but here are 2 low level tutorials from W3Schools for practicing HTML and CSS fundamentals
+- https://www.w3schools.com/html/default.asp
+- https://www.w3schools.com/css/default.asp
+- https://oer.hax.psu.edu/bto108/sites/ist256/resources -- the resources section of the course site has links to free "books" which cover a lot of fundamentals as well
 
-## Tueday of finals week
-- No requirement on class; come to class though if you'd like open office hours for last minute questions
-
-
-# Final project Due **Wed of Finals week**
+## Homework Submission
+**Submit the link to your HAX.PSU BLOG POST in Canvas**
+The HAX.PSU BLOG POST should include the following:
+- A link to your code pen fork from Part 1 of the meme and part 2 of the "Card"
+- Answers to the questions asked about part 1.
+- If you found particular websites helpful from a tutorial perspective on any of these specific requirements, then include them so we can share with the class.
+- If you have questioned unanswered / things you couldn't figure out from the "Card" activity, what are they?
+- a picture of the mock up you were trying to model the card off of (YOU CAN UPLOAD VIA DRAG AND DROP OR BLOCKS TAB OR MERLIN MENU AT THE TOP OF THE UI)
