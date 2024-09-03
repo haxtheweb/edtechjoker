@@ -16,7 +16,8 @@ More to read: https://www.coursera.org/articles/front-end-developer, https://boo
 
 
 ## Yarn
-
+Yarn is an open source packet manager focused around JS projects. Focuses on updating and removing packages
+https://yarnpkg.com/getting-started#:~:text=Yarn%20is%20an%20established%20open,objectives%20faster%20with%20fewer%20distractions.
 
 ## NPM
 Node Package Manager or NPM for short is where developers can find, create or build code packages. This can be especially useful for web development where developers have large amount of code and they can use the package manager to handle dependencies. npm is the world largest software registry and currently contains over 800,000 code packages. These packages are open source. [For more info click here](https://www.npmjs.com/) [or to learn how to use it click here](https://www.w3schools.com/whatis/whatis_npm.asp)
