@@ -175,6 +175,8 @@ Oracle VM VirtualBox is cross-platform virtualization software. It allows users 
 
 
 ## User Experience / Usability
+User Experience and Usability is the overall experience a person has while using a product or software like a website or computer application. It is focuses on different aspects on how users interact and feel about the product. 
+https://www.interaction-design.org/literature/topics/ux-design?srsltid=AfmBOoru6-RmWs_0XWOKslyI6ZQsXaQY-KrCzGrBQoRxJbJOOa9zn276
 
 
 ## Open Educational Resources (OER)
