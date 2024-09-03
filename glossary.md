@@ -48,7 +48,15 @@ https://www.markdownguide.org/getting-started/
 
 
 ## Gulp.js
-
+Gulp.js is an open soruce JavaScript toolkit used as a streaming build system in frotned development. It is a task runner built on Node.js used in automation of reptitive tasks. Gulp reads the file system and pipes the data at hand from one single-purposed plugin to another through the .pipe() operator
+https://gulpjs.com/ 
+```// Images task Example
+gulp.task('images', function () {
+    return gulp.src('images/*.{png,gif,jpg}')
+        .pipe(imagemin())
+        .pipe(gulp.dest('dist/images/'));
+});
+```
 
 ## IDE
 An IDE, or Integrated Development Environment, is an application used to write, run, and test code. IDEs are used by programmers to develop software in an easy manner without having to risk ruining live versions of the code. Basic functions of an IDE usually include a source code editor, a build automation tool, and a debugger. 
