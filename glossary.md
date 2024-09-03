@@ -124,7 +124,23 @@ https://www.freecodecamp.org/news/what-is-php-the-php-programming-language-meani
 
 
 ## Golang
+Golang or Go language, is an Open Source programming language that Google developed. Software developers use Go in an array of operating systems and frameworks to develop web applications, cloud and networking services, and other types of software.
 
+Golang helps with static typing, code package management, platform independence and much more. 
+
+Links for refrences:
+- https://www.techtarget.com/searchitoperations/definition/Go-programming-language
+- https://go.dev/doc/tutorial/getting-started
+
+**Code example:
+  // Hello World
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello, World!")
+}
 
 ## SQL
 
