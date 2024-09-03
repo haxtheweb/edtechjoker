@@ -13,7 +13,9 @@ This is the standard markup language used to create and structure web pages and 
 
 
 ## JavaScript
-
+JavaScript is an object-oriented computer programming language commonly used to create interactive effects within web browsers. JavaScript is involved in just about every website known to man. Whether they update their content in real time, have funny animations, any effects on screen, etc uses JavaScript. 
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript
+https://www.w3schools.com/whatis/whatis_js.asp
 
 ## Yarn
 
@@ -48,6 +50,7 @@ Git is a tool that helps people manage different versions of their computer file
 
 
 ## Gulp.js
+
 
 
 ## IDE
@@ -97,7 +100,8 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## Bash (sh)
-
+Bash is a scripting language that lets users execute commands, do complex operations, and automate tasks. It is especially useful for Linux and MacOS users.
+https://unstop.com/blog/what-is-bash
 
 ## SEO
 
@@ -110,7 +114,13 @@ Sources:
 https://www.hostinger.com/tutorials/what-is-php/
 https://www.w3schools.com/PHP/php_intro.asp
 https://www.freecodecamp.org/news/what-is-php-the-php-programming-language-meaning-explained/
+
 ## Express.js
+Express is a broad framework that's used to build web and mobile applications. More specifically, it's used for building RESTful APIs with Node.js. It is considered a standard server framework for Node.js. It was initially released on November 16, 2010. 
+More information: 
+https://oer.hax.psu.edu/nbl5254/sites/nickletwin/article-1
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction
+
 
 
 ## Bootstrap (design library)
@@ -127,7 +137,7 @@ https://www.freecodecamp.org/news/what-is-php-the-php-programming-language-meani
 
 
 ## SQL
-
+SQL (Structured Query Language) is a programming language designed for managing and interacting with relational databases. It allows users to perform various operations such as querying data, updating records, creating and modifying database structures, and controlling access to the data. SQL is essential for tasks like retrieving specific data from large datasets, joining tables, and ensuring data integrity.
 
 ## MySQL
 MySQL is an open source database that uses Structured Query Language as its query language. It allows one to store, manage, and retrieve data that is organized in tables.
@@ -156,7 +166,10 @@ This is how you create a new docker image :)
 
 
 ## Vagrant
-
+Vagrant is an open-source software tool used to build and maintain virtual software development environments, which are built upon virtual machines (e.g. VirtualBox). The tool provides a simplistic command-line client to manage said environents, along with an interpreter for text-based definitions of each environment's appearance via Vagrantfiles. This makes it easier to create local environments that mimic the environment your code will be deployed and ran on, which is important for making code compatible across several types of devices with different operating system. Vagrant is written in the Ruby programming language. Some of the basic terminologies related to Vagrant include:
+- Box: A packaged Vagrant environment (aka virtual machine)
+- Provider: The location where the virtual environment runs (locally, remotely, etc.)
+- Provisioner: A tool of any complexity established by the virtual environment
 
 ## VirtualBox
 Oracle VM VirtualBox is cross-platform virtualization software. It allows users to extend their existing computer to run multiple operating systems including Microsoft Windows, Mac OS X, Linux, and Oracle Solaris, at the same time.
@@ -166,7 +179,11 @@ Oracle VM VirtualBox is cross-platform virtualization software. It allows users 
 
 
 ## Kubernetes / K8s
-
+Kubernetes is an open source system to automate tasks for container management, which is a way to bundle up the application to decomplicate it. Kubernetes allows us to run systems with little to no downtime, by doing the following tasks:
+- Load balancing
+- Automation
+- Scaling
+It can also be used for other tasks related to containers.
 
 ## Accessibility / A11y
 
@@ -184,6 +201,12 @@ Oracle VM VirtualBox is cross-platform virtualization software. It allows users 
 
 
 ## Apache Web server
+Also known as an Apache HTTP Server, an Apache web server is an open-source software that essentially helps websites accesible on the internet
+
+When someone submits a request to a web server for access to a website, Apache is the software running on that server. It looks at the request, finds the right files (like HTML pages, images, videos etc.), and sends them to their browser.
+
+More info: https://en.wikipedia.org/wiki/Apache_HTTP_Server
+https://httpd.apache.org/
 
 
 ## Varnish
