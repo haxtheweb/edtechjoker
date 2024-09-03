@@ -97,7 +97,7 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## Bash (sh)
-
+Bash is a shell program used as a command line language. It it widely used in Linux machines. This program allows you to interact with your machine's operating system, graphic interface, and command line interface. 
 
 ## SEO
 
