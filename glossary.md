@@ -134,7 +134,23 @@ https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introd
 
 
 ## Golang
+Golang or Go language, is an Open Source programming language that Google developed. Software developers use Go in an array of operating systems and frameworks to develop web applications, cloud and networking services, and other types of software.
 
+Golang helps with static typing, code package management, platform independence and much more. 
+
+Links for refrences:
+- https://www.techtarget.com/searchitoperations/definition/Go-programming-language
+- https://go.dev/doc/tutorial/getting-started
+
+**Code example:
+  // Hello World
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello, World!")
+}
 
 ## SQL
 SQL (Structured Query Language) is a programming language designed for managing and interacting with relational databases. It allows users to perform various operations such as querying data, updating records, creating and modifying database structures, and controlling access to the data. SQL is essential for tasks like retrieving specific data from large datasets, joining tables, and ensuring data integrity.
