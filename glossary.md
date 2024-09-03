@@ -139,7 +139,10 @@ MySQL is the world’s most popular open source database. According to DB-Engine
 https://www.oracle.com/mysql/what-is-mysql/
 
 ## WebAssembly
+WebAssembly is a low level assembly language with a compact binary language. It provides languages such as C++ and Rust. It provides a way to run code written in multiple
+languages on the web at near native speed. WebAssembly is designed to complement and run alongside Javascript. This allows you to take WebAssembly's performance and power and Javascript's expressiveness and flexibility in the same app. 
 
+https://developer.mozilla.org/en-US/docs/WebAssembly
 
 ## Python
 
