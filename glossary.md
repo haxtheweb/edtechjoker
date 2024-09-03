@@ -184,6 +184,8 @@ Oracle VM VirtualBox is cross-platform virtualization software. It allows users 
 
 
 ## Apache Web server
+Apache is a free HTTP open source web server tool that allows users to deliver web content over the internet. Wordpress is a popular website builder that uses apache to display content over the internet. This service uses TCP?IP port 80. Apache web servers can also use HTTPS by including SSL encryption and running over port 443. Apache Web Servers are used to display static content. [CLICK HERE](https://www.sumologic.com/blog/apache-web-server-introduction/) to learn more about Apache Web Servers and how they are used through the internet.
+
 
 
 ## Varnish
