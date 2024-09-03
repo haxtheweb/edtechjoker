@@ -165,7 +165,8 @@ Oracle VM VirtualBox is cross-platform virtualization software. It allows users 
 ## Composer
 
 
-## Kubernetes / K8s
+## Kubernetes / https://kubernetes.io/ 
+Kubernetes is a tool thats used for container management. Container management basically takes the process of deploying different services within an IT environment and automates it. It is an open source application that was created by Google in 2014. 
 
 
 ## Accessibility / A11y
