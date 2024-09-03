@@ -127,6 +127,8 @@ https://www.freecodecamp.org/news/what-is-php-the-php-programming-language-meani
 
 
 ## SQL
+SQL is a programming language used in databases that allows for the storing, altering, and manipulation of stored data.
+- https://aws.amazon.com/what-is/sql/#:~:text=Structured%20query%20language%20(SQL)%20is,relationships%20between%20the%20data%20values. 
 
 
 ## MySQL
