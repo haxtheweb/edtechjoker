@@ -187,6 +187,7 @@ Oracle VM VirtualBox is cross-platform virtualization software. It allows users 
 
 
 ## Varnish
+Varnish is an HTTP reverse proxy that works by caching frequently requested web pages. 
 
 
 ## Traefik (Golang)
