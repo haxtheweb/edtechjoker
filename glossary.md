@@ -7,8 +7,11 @@ A front-end developer creates websites and applications using web languages such
 More to read: https://www.coursera.org/articles/front-end-developer, https://bootcamp.berkeley.edu/resources/coding/learn-web-development/what-does-a-front-end-web-developer-do/
 
 ## HTML
+Hypertext Markup Language is the standard markup language for documents displayed on the web. This includes a text based approach. HTML is the foundation that holds all content and design elements in one spot. 
 
+https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.w3schools.com/html/html_intro.asp%23:~:text%3DHTML%2520is%2520the%2520standard%2520markup%2520language%2520for%2520creating%2520Web%2520pages.&ved=2ahUKEwihk76pnqeIAxXLFFkFHdylEiEQFnoECAYQAw&usg=AOvVaw1jMa38mQ92pheUIrpFWljx
 
+https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics&ved=2ahUKEwjn9I-ZnaeIAxW0FFkFHZ1WLE0QFnoECBYQAQ&usg=AOvVaw2B7J2pkjcevy81Skwuo4QN
 ## CSS
 
 
