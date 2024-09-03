@@ -138,6 +138,20 @@ MySQL is the world’s most popular open source database. According to DB-Engine
 
 https://www.oracle.com/mysql/what-is-mysql/
 
+
+MySQL is an open-source Relational Database Management System (RDBMS) that enables users to store, manage, and retrieve structured data efficiently. 
+It is widely used for various applications, from small-scale projects to large-scale websites and enterprise-level solutions.
+
+more info on:
+* https://www.w3schools.com/MySQL/default.asp
+* https://www.hostinger.com/tutorials/what-is-mysql
+
+MySQL stands as a cornerstone in the ever-evolving landscape of data management. Its widespread adoption across diverse applications and its use by tech giants prove its versatility and reliability. It's flexibility and user-friendliness are some of the reasons behind its popularity. Additionally, its status as an industry standard has fostered a rich pool of resources and skilled developers, ensuring continuous development and ample support for users. Futhermore, MySQL remains an invaluable tool for harnessing the potential of data with efficiency, performance, and security. Whether you are a novice or a seasoned data enthusiast, mastering MySQL opens doors to a world of data-driven possibilities, enabling you to stay ahead in this ever-evolving landscape of technology and business.
+
+Despite being a the most popular, MAC users beware! Since the  launch of the MAC OS X Sonoma, mac users have been unable to use the reverse engineering feature. When used revere engineer to create a table the software crashes, rendering the the feature useless. I was taking an SQL course and at the end of the semester my macbook updated automically to Sonoma, so I was no longer able to use the feature and had to relay on alternate solution like draw.io to make a relationship table. As of 2024, the MySQL team acknowledged the issue, but there has nott been a full blown fix released yet.
+
+For more info:
+* https://forums.mysql.com/read.php?152,710054,711925
 ## WebAssembly
 
 
