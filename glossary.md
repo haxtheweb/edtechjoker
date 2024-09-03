@@ -193,6 +193,15 @@ Oracle VM VirtualBox is cross-platform virtualization software. It allows users 
 
 
 ## HTMLElement
+The HTML element is everything from the start tag to the end tag:
+
+<tagname>Content goes here...</tagname>
+Examples of some HTML elements:
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+https://www.w3schools.com/html/html_elements.asp
+https://www.digitalocean.com/community/tutorials/what-is-an-html-element
 
 
 ## Webpack
