@@ -120,6 +120,11 @@ https://www.freecodecamp.org/news/what-is-php-the-php-programming-language-meani
 
 ## React
 
+React is an open source JavaScript library used to create reusable components to build a UI interface. Components are JavaScript functions which can return UI elements, and be used to write JavaScript and add styling directly in the HTML. It is maintained by Meta and used by many companies including Twitter, BBC, and PayPal.
+
+* https://react.dev/reference/react
+* https://react.dev/learn
+
 ## Vue.js
 
 
