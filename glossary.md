@@ -124,7 +124,11 @@ https://www.freecodecamp.org/news/what-is-php-the-php-programming-language-meani
 
 
 ## Golang
-
+- A statically typed, compiled high-level programming language designed at Google
+- Golang is one of the best languages for backend development
+- Go was originally built for programs related to networking and infrastructure. It was intended to replace popular high-performance server-side languages like Java and C++. Today, Go is used for a variety of applications like cloud and server side applications, DevOps, command line tools and much more.
+- Extra links: https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.pluralsight.com/resources/blog/cloud/what-is-go-an-intro-to-googles-go-programming-language-aka-golang%23:~:text%3DGolang%2520used%2520for%253F-,Go%2520was%2520originally%2520built%2520for%2520programs%2520related%2520to%2520networking%2520and,line%2520tools%2520and%2520much%2520more.&ved=2ahUKEwjUt6DYnaeIAxWpGlkFHdmSH5AQFnoECHEQAw&usg=AOvVaw1snuWlOefD7dgx79G6cQiO
+- Code sample: ```$ go run hello-world.go```
 
 ## SQL
 
