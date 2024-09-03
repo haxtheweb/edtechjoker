@@ -22,6 +22,10 @@ More to read: https://www.coursera.org/articles/front-end-developer, https://boo
 Node Package Manager or NPM for short is where developers can find, create or build code packages. This can be especially useful for web development where developers have large amount of code and they can use the package manager to handle dependencies. npm is the world largest software registry and currently contains over 800,000 code packages. These packages are open source. [For more info click here](https://www.npmjs.com/) [or to learn how to use it click here](https://www.w3schools.com/whatis/whatis_npm.asp)
 
 ## Package Manager
+A package manager is a collection of tools that allows for the automating of installing, upgrading, and configuring of software. They are very important for ensuring proper use of dependencies. 
+
+For more info visit: https://en.wikipedia.org/wiki/Package_manager
+For more info visit: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Package_management
 
 ## Markdown
 Markdown is a lightweight markup language that is essentially a simplified version of HTML. It is used to write in this GitHub file. You can use Markdown by using symbols and other elements to indicate what text is to be changed when formatted. Markdown is a more user-friendly method to format text as it has simple syntax and a smaller scale of stylistic options than HTML. Eventually, Markdown can be translated into HTML but requires an additional processor. 
