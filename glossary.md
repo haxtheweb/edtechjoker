@@ -50,6 +50,7 @@ https://www.markdownguide.org/getting-started/
 ## Gulp.js
 
 
+
 ## IDE
 An IDE, or Integrated Development Environment, is an application used to write, run, and test code. IDEs are used by programmers to develop software in an easy manner without having to risk ruining live versions of the code. Basic functions of an IDE usually include a source code editor, a build automation tool, and a debugger. 
 https://umbraco.com/knowledge-base/development-environment/#:~:text=The%20purpose%20of%20a%20development,working%20on%20a%20live%20website.
@@ -110,7 +111,13 @@ Sources:
 https://www.hostinger.com/tutorials/what-is-php/
 https://www.w3schools.com/PHP/php_intro.asp
 https://www.freecodecamp.org/news/what-is-php-the-php-programming-language-meaning-explained/
+
 ## Express.js
+Express is a broad framework that's used to build web and mobile applications. More specifically, it's used for building RESTful APIs with Node.js. It is considered a standard server framework for Node.js. It was initially released on November 16, 2010. 
+More information: 
+https://oer.hax.psu.edu/nbl5254/sites/nickletwin/article-1
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction
+
 
 
 ## Bootstrap (design library)
