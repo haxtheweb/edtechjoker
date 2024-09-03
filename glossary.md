@@ -134,7 +134,7 @@ https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introd
 
 
 ## Golang
-
+Golang, also known as Go, is a programming language developed by Google that's known for being fast and easy to use. It's designed for building reliable and efficient software, especially for large-scale systems. Go is popular for its simplicity, making it easier to learn and write clean, clear code.
 
 ## SQL
 SQL (Structured Query Language) is a programming language designed for managing and interacting with relational databases. It allows users to perform various operations such as querying data, updating records, creating and modifying database structures, and controlling access to the data. SQL is essential for tasks like retrieving specific data from large datasets, joining tables, and ensuring data integrity.
