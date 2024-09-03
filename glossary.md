@@ -7,7 +7,7 @@ A front-end developer creates websites and applications using web languages such
 More to read: https://www.coursera.org/articles/front-end-developer, https://bootcamp.berkeley.edu/resources/coding/learn-web-development/what-does-a-front-end-web-developer-do/
 
 ## HTML
-
+This is the standard markup language used to create and structure web pages and web applications. Web browsers read HTML documents and render them into visible or audible web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
 
 ## CSS
 
@@ -30,7 +30,7 @@ https://www.knowledgehut.com/blog/web-development/what-is-markdown
 https://www.markdownguide.org/getting-started/
 
 ## Git
-
+Git is a tool that helps people manage different versions of their computer files. It's especially used by programmers to track changes in their code. Imagine it like a time machine for your project; you can go back and see old versions of your work, and if something goes wrong, you can restore a previous version. This is super helpful when many people are working together on the same project because it lets everyone share their updates and make sure everything fits together nicely.
 
 ## Content Management System
 
