@@ -75,7 +75,7 @@ Two-part homework this week; we will have time in class Thurs to start and then 
 
 ### HW Part 1
 - https://www.w3schools.com/ -- Do the "Learn CSS" tutorials (all of them, this is mostly a primer and they go quick as you start to get them)
-- Fork this pen on codepen https://codepen.io/btopro/pen/jOJVyXN
+- Fork this pen on codepen https://codepen.io/btopro/pen/gOjGpam
 - Try to make more than 1 meme by duplicating the HTML portion of the code
 - Modify the text / image used in the meme on the HTML portion
 - Try to modify the font-size using the CSS tab.
