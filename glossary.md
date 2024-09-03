@@ -201,7 +201,7 @@ Webpack is a static module bundling tool that was mostly designed for Jacascript
 
 
 ## OpenFaaS
-
+OpenFaas builds serverless functions with kubernetes. This helps prevent lock-in with specific vendors and allows your function to run on any cloud environment. Since it utilizes kubernetes, the functions you write can scale to meed demand and dial down when they are not in use. (For more info vist: https://www.openfaas.com/)
 
 ## PaaS
 (Platform as a Service) 
