@@ -1,4 +1,4 @@
- # Glossary
+# Glossary
 Write a paragraph explaining the term below, including 2-3 relevent links to more information about the topic.
 
 ## Front end Developer
@@ -166,7 +166,19 @@ Oracle VM VirtualBox is cross-platform virtualization software. It allows users 
 
 
 ## Kubernetes / K8s
+Kubernetes is an open-source software that helps to containerize applications. It makes it easier to manage if a company uses a ton of applications, you can run them in containers.
 
+- It also takes cares of deploying a new container in case one goes down. So using Kubernetes provides less downtime than managing all of your own containers on your own
+- Highly scalable and provides load balancing so the network is not overrun.
+
+![image](https://github.com/user-attachments/assets/e1e838e8-7cd8-4ceb-9ad1-824479d91d64)
+The image above shows the development of how applications were run in a system
+
+- Traditional is just an application running on your computer
+- Virtualized shows an application running in a virtual machine
+- Containerized shows how one app can run in an isolated software, but not take up as many resources as a virtual machine does while still being isolated from the host machine
+
+[Overview of Kubernetes](https://kubernetes.io/docs/concepts/overview/)
 
 ## Accessibility / A11y
 
