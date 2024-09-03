@@ -119,6 +119,7 @@ https://www.freecodecamp.org/news/what-is-php-the-php-programming-language-meani
 ## Angular
 
 ## React
+React is a language that is a component-based and open-source JavaScript library for front-end development. It is used to build interfaces for single-page applications. React allows user to write their code within JavaCript.JSX. 
 
 ## Vue.js
 
