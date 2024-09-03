@@ -52,7 +52,6 @@ https://www.markdownguide.org/getting-started/
 ## Gulp.js
 
 
-
 ## IDE
 An IDE, or Integrated Development Environment, is an application used to write, run, and test code. IDEs are used by programmers to develop software in an easy manner without having to risk ruining live versions of the code. Basic functions of an IDE usually include a source code editor, a build automation tool, and a debugger. 
 https://umbraco.com/knowledge-base/development-environment/#:~:text=The%20purpose%20of%20a%20development,working%20on%20a%20live%20website.
@@ -114,17 +113,15 @@ Sources:
 https://www.hostinger.com/tutorials/what-is-php/
 https://www.w3schools.com/PHP/php_intro.asp
 https://www.freecodecamp.org/news/what-is-php-the-php-programming-language-meaning-explained/
-
 ## Express.js
-Express is a broad framework that's used to build web and mobile applications. More specifically, it's used for building RESTful APIs with Node.js. It is considered a standard server framework for Node.js. It was initially released on November 16, 2010. 
-More information: 
-https://oer.hax.psu.edu/nbl5254/sites/nickletwin/article-1
-https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction
-
 
 
 ## Bootstrap (design library)
+Bootstrap is a design library for CSS/HTML/Javascript that you can use to edit code. It has many bootstrap templates, code snippets, and themes that you can use on any project. It is comparable to vscode for Java/Python.
 
+Sources:
+https://getbootstrap.com/
+https://startbootstrap.com/
 
 ## Angular
 
@@ -137,7 +134,7 @@ https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introd
 
 
 ## SQL
-SQL (Structured Query Language) is a programming language designed for managing and interacting with relational databases. It allows users to perform various operations such as querying data, updating records, creating and modifying database structures, and controlling access to the data. SQL is essential for tasks like retrieving specific data from large datasets, joining tables, and ensuring data integrity.
+
 
 ## MySQL
 MySQL is an open source database that uses Structured Query Language as its query language. It allows one to store, manage, and retrieve data that is organized in tables.
@@ -179,11 +176,7 @@ Oracle VM VirtualBox is cross-platform virtualization software. It allows users 
 
 
 ## Kubernetes / K8s
-Kubernetes is an open source system to automate tasks for container management, which is a way to bundle up the application to decomplicate it. Kubernetes allows us to run systems with little to no downtime, by doing the following tasks:
-- Load balancing
-- Automation
-- Scaling
-It can also be used for other tasks related to containers.
+
 
 ## Accessibility / A11y
 
