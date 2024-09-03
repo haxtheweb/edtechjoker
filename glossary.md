@@ -97,7 +97,8 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## Bash (sh)
-
+Bash is a scripting language that lets users execute commands, do complex operations, and automate tasks. It is especially useful for Linux and MacOS users.
+https://unstop.com/blog/what-is-bash
 
 ## SEO
 
