@@ -47,7 +47,9 @@ https://www.markdownguide.org/getting-started/
 ## GravCMS
 
 
-## Gulp.js
+## Gulp.js 
+Gulp.js is what we call a JavaScript Task Runner, it is Open Source and available on GitHub. It helps you automate repetitive tasks such as minification, compilation, unit testing, linting, etc. Gulp.js does not revolutionize automation but simplifies it tremendously.
+https://julienrenaux.fr/2014/05/25/introduction-to-gulp-js-with-practical-examples/
 
 
 ## IDE
