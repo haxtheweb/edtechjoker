@@ -124,7 +124,7 @@ https://www.freecodecamp.org/news/what-is-php-the-php-programming-language-meani
 
 
 ## Golang
-Golang, also known as Go, is a programming language developed by Google that's known for being fast and easy to use. It's designed for building reliable and efficient software, especially for large-scale systems. Go is popular for its simplicity, making it easier to learn and write clean, clear code.
+Golang, also known as Go, is a programming language developed by Google that's known for being fast and easy to use. It's designed for building reliable and efficient software, especially for large-scale systems. Go is popular for its simplicity, making it easier to learn and write clean, clear code
 
 ## SQL
 
