@@ -67,6 +67,11 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## LitElement
+It allows you to create interactive web content that can be built on any stack, as well as building web components quickly. It has easy-to-use templates. It is a great software for web platform evolution and works anywhere you can use HTML. It helps connect CSS, HTML and JavaScript on a simple software that makes web development easy!
+relevnt links: 
+https://lit.dev
+https://www.npmjs.com/package/lit-element
+
 
 
 ## lit-html
