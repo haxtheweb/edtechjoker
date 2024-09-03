@@ -181,7 +181,8 @@ Oracle VM VirtualBox is cross-platform virtualization software. It allows users 
 
 
 ## Nginx
-Nginx is an open source web server software that used for reverse proxy, load balancing, and caching.
+Nginx is an open source web server software that used for reverse proxy, load balancing, and caching. In order to make your computer a web server, you must use this software or another one similar to it. 
+Link: https://www.papertrail.com/solution/guides/nginx/#:~:text=NGINX%20is%20open%2Dsource%20web,IMAP%2C%20POP3%2C%20and%20SMTP.
 
 ## Apache Web server
 
