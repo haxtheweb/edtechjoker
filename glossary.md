@@ -16,7 +16,10 @@ More to read: https://www.coursera.org/articles/front-end-developer, https://boo
 
 
 ## Yarn
+Yarn is a package manager that also helps as an entire project manager. It also checks to make sure that the data being installed works properly and does not install things that will break your project.
 
+* https://yarnpkg.com/#:~:text=Yarn%20is%20a%20package%20manager,user%2C%20Yarn%20has%20your%20back.
+* Here is an example of yarn being used: https://github.com/yarnpkg/example-yarn-package
 
 ## NPM
 Node Package Manager or NPM for short is where developers can find, create or build code packages. This can be especially useful for web development where developers have large amount of code and they can use the package manager to handle dependencies. npm is the world largest software registry and currently contains over 800,000 code packages. These packages are open source. [For more info click here](https://www.npmjs.com/) [or to learn how to use it click here](https://www.w3schools.com/whatis/whatis_npm.asp)
