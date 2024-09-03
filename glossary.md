@@ -13,7 +13,9 @@ Hawwwwwww teeee meee laaaa
 
 
 ## JavaScript
-
+JavaScript is an object-oriented computer programming language commonly used to create interactive effects within web browsers. JavaScript is involved in just about every website known to man. Whether they update their content in real time, have funny animations, any effects on screen, etc uses JavaScript. 
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript
+https://www.w3schools.com/whatis/whatis_js.asp
 
 ## Yarn
 
