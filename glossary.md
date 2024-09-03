@@ -33,7 +33,12 @@ https://www.markdownguide.org/getting-started/
 
 
 ## Content Management System
+* CMS is a software that helps users create, manage, store, and modify their digital content
+* It is described as a one stop shop to store content for users, such as apps, images and websites
+https://www.ibm.com/topics/content-management-system
 
+A visualization of CMS:
+* https://www.bing.com/images/search?view=detailV2&ccid=XjIuruxL&id=BB9612A8BDB4D13E0FADC0C72C414E0336F5A5D1&thid=OIP.XjIuruxLN7oNJiT7B31vgwHaFr&mediaurl=https%3A%2F%2Fthiel.com%2Fwp-content%2Fuploads%2F2019%2F10%2FiStock-622068606.jpg&cdnurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.5e322eaeec4b37ba0d2624fb077d6f83%3Frik%3D0aX1NgNOQSzHwA%26pid%3DImgRaw%26r%3D0&exph=1064&expw=1389&q=what+is+a+content+management+system&simid=608052398017495702&FORM=IRPRST&ck=FEC6AF501355C9612D958E1A3D9FC384&selectedIndex=1&itb=0&cw=1375&ch=666&ajaxhist=0&ajaxserp=0
 
 ## Drupal CMS
 
