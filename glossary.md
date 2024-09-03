@@ -181,6 +181,7 @@ Oracle VM VirtualBox is cross-platform virtualization software. It allows users 
 
 
 ## Nginx
+Nginx is a web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache. It provides HTTPS server capabilities and is mainly designed for maximum performance and stability. It also functions as a proxy server for email communications protocols, such as IMAP, POP3, and SMTP. [More information](https://www.papertrail.com/solution/guides/nginx/#:~:text=NGINX%20is%20open%2Dsource%20web,IMAP%2C%20POP3%2C%20and%20SMTP.)
 
 
 ## Apache Web server
