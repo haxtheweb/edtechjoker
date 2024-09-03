@@ -169,7 +169,13 @@ Oracle VM VirtualBox is cross-platform virtualization software. It allows users 
 
 
 ## Accessibility / A11y
+The Accessibility (A11Y) Project is an Open-source, community-driven effort to make digital accessibility easier. The project focuses on:
+- Enabling as many people as possible to use websites, even when their abilities are limited in some way.
+- Making websites, applications, tools, and other technologies accessible to all people, including those with disabilities.
+- Providing a better user experience for people with visual, auditory, physical, speech, cognitive, and neurological disabilities.
+- Ensuring that web platforms grant an equivalent user experience to individuals with disabilities.
 
+[The A11Y Project GitHub](https://github.com/a11yproject/a11yproject.com)
 
 ## Internationalization / i18n
 
