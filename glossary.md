@@ -16,7 +16,8 @@ More to read: https://www.coursera.org/articles/front-end-developer, https://boo
 
 
 ## Yarn
-
+Yarn is used to manage packages for JavaScript and it is open-source. It helps with installing packages, updating packages, and configuring them.  Each line of code is dependent on other lines of code so these "dependencies" are basically managed by package managers like Yarn. You can learn more by clicking on the link below:
+https://engineering.fb.com/2016/10/11/web/yarn-a-new-package-manager-for-javascript/
 
 ## NPM
 Node Package Manager or NPM for short is where developers can find, create or build code packages. This can be especially useful for web development where developers have large amount of code and they can use the package manager to handle dependencies. npm is the world largest software registry and currently contains over 800,000 code packages. These packages are open source. [For more info click here](https://www.npmjs.com/) [or to learn how to use it click here](https://www.w3schools.com/whatis/whatis_npm.asp)
