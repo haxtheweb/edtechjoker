@@ -166,7 +166,11 @@ Oracle VM VirtualBox is cross-platform virtualization software. It allows users 
 
 
 ## Kubernetes / K8s
-
+Kubernetes is an open source system to automate tasks for container management, which is a way to bundle up the application to decomplicate it. Kubernetes allows us to run systems with little to no downtime, by doing the following tasks:
+- Load balancing
+- Automation
+- Scaling
+It can also be used for other tasks related to containers.
 
 ## Accessibility / A11y
 
