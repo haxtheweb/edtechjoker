@@ -97,7 +97,7 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## Bash (sh)
-
+Bash is short for Bourne Again Shell. Bash (sh) is the original Bourne shell, developed by Stephen Bourne. This is used in many different linux distributions. It is the default login shell and interprets command language.
 
 ## SEO
 
