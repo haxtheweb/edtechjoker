@@ -30,7 +30,9 @@ https://www.knowledgehut.com/blog/web-development/what-is-markdown
 https://www.markdownguide.org/getting-started/
 
 ## Git
-
+- Git (Global Information tracker)
+- Git is a version control system that tracks different version of files often used in controlling code between different developers
+- https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F
 
 ## Content Management System
 
