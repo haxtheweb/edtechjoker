@@ -70,7 +70,9 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## lit-html
-
+lit-html is the template system that powers the Lit library for building fast web components. Lit combines the component model of LitElement with JavaScript template literal-based rendering into an easy-to-use package. However, the templating portion of Lit is factored into a standalone library called lit-html, which can be used outside of the Lit component model anywhere you need to efficiently render and update HTML. When using lit-html to develop web components, most users should import lit-html via the lit package rather than installing and importing from lit-html directly.
+https://www.npmjs.com/package/lit-html
+https://lit.dev/docs/libraries/standalone-templates/
 
 ## HAXcms
 
