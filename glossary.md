@@ -166,7 +166,15 @@ Oracle VM VirtualBox is cross-platform virtualization software. It allows users 
 
 
 ## Kubernetes / K8s
+Kubernetes or K8 is an open-source system largely used by tech companies for scaling and automating deployment of SaaS; grouping containers into logical units for easier parsing
 
+*Code example: 
+mkdir $GOPATH/src && cd $GOPATH/src && go get github.com/kubernetes/kubernetes : This will download the entire Kubernetes source code to your local machine.
+
+Links for further reference: 
+* https://kubernetes.io/ - Official K8 page
+* https://cloud.google.com/learn/what-is-kubernetes - Googles explanation of K8
+* https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-kubernetes#watch-how-kubernetes-works - Microsoft explanation of K8
 
 ## Accessibility / A11y
 
