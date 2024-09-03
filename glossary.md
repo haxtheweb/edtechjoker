@@ -156,7 +156,10 @@ This is how you create a new docker image :)
 
 
 ## Vagrant
-
+Vagrant is an open-source software tool used to build and maintain virtual software development environments, which are built upon virtual machines (e.g. VirtualBox). The tool provides a simplistic command-line client to manage said environents, along with an interpreter for text-based definitions of each environment's appearance via Vagrantfiles. This makes it easier to create local environments that mimic the environment your code will be deployed and ran on, which is important for making code compatible across several types of devices with different operating system. Vagrant is written in the Ruby programming language. Some of the basic terminologies related to Vagrant include:
+- Box: A packaged Vagrant environment (aka virtual machine)
+- Provider: The location where the virtual environment runs (locally, remotely, etc.)
+- Provisioner: A tool of any complexity established by the virtual environment
 
 ## VirtualBox
 Oracle VM VirtualBox is cross-platform virtualization software. It allows users to extend their existing computer to run multiple operating systems including Microsoft Windows, Mac OS X, Linux, and Oracle Solaris, at the same time.
