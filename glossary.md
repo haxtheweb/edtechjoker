@@ -156,7 +156,8 @@ This is how you create a new docker image :)
 
 
 ## Vagrant
-
+Vagrant is an open-source tool used for creating/managing virtual machines in a single file. Virtual machines are machines that operate in a non-physical sense based on physical hardware, which operate like a computer or a "physical machine". Vagrant is a simple way of controlling/ creating these through command lines.
+https://www.geeksforgeeks.org/what-is-vagrant/
 
 ## VirtualBox
 Oracle VM VirtualBox is cross-platform virtualization software. It allows users to extend their existing computer to run multiple operating systems including Microsoft Windows, Mac OS X, Linux, and Oracle Solaris, at the same time.
