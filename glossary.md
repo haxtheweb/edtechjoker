@@ -30,7 +30,7 @@ https://www.knowledgehut.com/blog/web-development/what-is-markdown
 https://www.markdownguide.org/getting-started/
 
 ## Git
-
+Git is a version control system that allows multiple developers to collaborate productively. It can be used to avoid developers stepping one each others' toes. Git involves push and pull requests. It is used by every type of developer in industry.
 
 ## Content Management System
 
