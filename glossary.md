@@ -184,6 +184,12 @@ Oracle VM VirtualBox is cross-platform virtualization software. It allows users 
 
 
 ## Apache Web server
+Also known as an Apache HTTP Server, an Apache web server is an open-source software that essentially helps websites accesible on the internet
+
+When someone submits a request to a web server for access to a website, Apache is the software running on that server. It looks at the request, finds the right files (like HTML pages, images, videos etc.), and sends them to their browser.
+
+More info: https://en.wikipedia.org/wiki/Apache_HTTP_Server
+https://httpd.apache.org/
 
 
 ## Varnish
