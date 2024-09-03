@@ -97,7 +97,10 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## Bash (sh)
-
+Bash (Bourne-Again Shell) is a program that reads commands and executes them. It supports the execution of commands from files (shell scripts). It can help you navigate to a specific directory, create a folder, clean up log files, back up data, and more.
+https://www.codecademy.com/resources/blog/what-is-bash-used-for/#:~:text=Bash%20scripting%20is%20a%20way,manual%20errors%20and%20save%20time.
+https://opensource.com/resources/what-bash
+https://www.techtarget.com/searchdatacenter/definition/bash-Bourne-Again-Shell
 
 ## SEO
 
