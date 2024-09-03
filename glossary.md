@@ -181,7 +181,7 @@ Oracle VM VirtualBox is cross-platform virtualization software. It allows users 
 
 
 ## Nginx
-
+Nginx is an open source web server software that used for reverse proxy, load balancing, and caching.
 
 ## Apache Web server
 
