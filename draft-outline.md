@@ -25,10 +25,10 @@ Issue: I have an image on the page
 - What’s the first step?
 - How do I make the button?
 - We only have 1 image, how do we get another there?
-  - https://cdn.pixabay.com/photo/2015/11/03/08/56/question-mark-1019820_1280.jpg
+  - https://github.com/btopro.png
 
 ## after the questions
-- Starting point https://codepen.io/btopro/pen/zYVbGyO
+- Starting point I'll post in Teams once we think through above briefly
 
 ## Remediation
 - Swap codepens / audit the codepen of your pod. Look for the following and anything else you don’t understand
