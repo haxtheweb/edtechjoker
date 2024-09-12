@@ -54,6 +54,10 @@ Issue: I have an image on the page
 
 ## Thursday
 
+### Live code
+- Follow along as we step through https://codepen.io/btopro/pen/zYVbGyO
+- I'll wire this up so that the button is able to duplicate the "card" in the pen
+
 ### Code by Numbers
 The way these activities will work:
 - I will give a series of steps that are required
@@ -66,9 +70,9 @@ The way these activities will work:
 - The next class I'll then use examples people produced as the basis for what we'll review together
 - This feedback loop will continue repeating, usually each loop finishing it's cycle with additional tasks for you to do out of class + blog about a specific topic
 
-#### Code By The Numbers - Activity Together
+#### Code By The Numbers
 - We're going to start from this pen about amazing professors: https://codepen.io/btopro/pen/PoLJXVj
-- Recording from class that day: https://www.youtube.com/watch?v=LGZHodz7dLo
+- Recording from a past class running through this activity: https://www.youtube.com/watch?v=LGZHodz7dLo
 - Fork the pen and follow along / answering questions in the activity along the way
 - Let's add a button that when we press it, it generates a new copy of our card
 - Let's add a button that when we press it, the title of the card changes
@@ -92,10 +96,12 @@ Additional logic to add:
 - https://www.youtube.com/watch?v=yORXfAb2Gvo -- a short primer on the general feedback loop of searching for a type of event on MDN and then testing it
 
 ## Answer these questions
+
 ### Video 1:
 - What made the idea viable?
 - What is the original issue with the Lit code highlighter?
 - What’s a strategy you can engage in in order to refactor toward better code? What strategy / how many iterations did I go through to get “better code”? - What makes this code better?
+
 ### Video 2:
 - What weird event did I implement to solve a UX problem?
 - What is the difference between document and window in javascript? What is globalThis?? Find these on Mozilla Developer Network page to explore what they are and what you can do with them.
