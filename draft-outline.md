@@ -74,7 +74,14 @@ If you need additional help after watching that, here's some next steps
 - DM me or the TA with **specific questions** you have have how to do **specific things** and we are happy to help
 
 
-# Thursday (we'll see how Tues goes and adjust from there)
+# Thursday
+picking up from overlap in Tuesday. Let's start here
+- type `npm run` which will list the commands you can run. _Almost every project_ responds to `npm start` or `npm run start`
+  - This should open up a browser window. Set your display up so these are side by side
+- Let's start digging through the code
+- This is not currently meeting brand guideance. Let's update that so that we can push this out and match the brand
+- if you nail the little stuff, the syntax, the small structures, minimizing CSS and HTML and JS written to complete tasks, then thinking in bigger and bigger structures is more natural. It's a big pattern.
+
 Now that we have some workflow and process down, let's start looking at a web component and building from juuust above nothing
 Quick deck: What is web components? https://docs.google.com/presentation/d/1cvM-4v745oQWcpX4M0ytFLQd_eIyaOJgUEgs4V6UFk0/edit?usp=sharing
 ## Code by numbers
