@@ -116,7 +116,9 @@ Now it's your turn:
 Skipping ahead a week or so, try and get your JS wired up so that you can modify things on the card via your buttons. hint: buttons and js are in the demo as opposed to in your card. You'll need to rescope your calls and some other aspects to get the data to change, added, calculated how many there are, etc.
 
 ## Submission
-- HAX.psu post that links to your github repo that you made
+- HAX.psu post with the following:
+- link(s) to your github repo that you made
+- Answer the following:
 - When doing the tutorial, what did you get stuck on?
   - In reading through the deck / tutorials / googling, what's not making sense?
   - Same, but what DOES make sense? Is this a superior approach to coding in the 'global scope' ala code pen, or does this scoping make it more complicated?
