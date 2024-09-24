@@ -24,8 +24,8 @@ Before saying "it doesn't work" with web development in general, please consult 
 So that aside, when we take the first leep into big kid web development, it is shockingly difficult at first. I can see that in the feedback you gave to answers. Today, we're going to go through some of the things that went well as well as what didn't. The goal of today is to get everyone in class to have their web component working and get everyone the help they need.
 
 # Crit
-- https://github.com/nrousseau4/polaris-chip
 - https://github.com/djr23523/Polaris-Chip
+- https://github.com/nrousseau4/polaris-chip
 - https://github.com/SkylerKoba88/polaris-chip
 
 - Install these and follow along if it helps but what's more likely is that you should have your own code up and running and as I run through things if you have similar issues in your code, you should be taking note of the changes to apply
