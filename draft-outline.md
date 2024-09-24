@@ -27,7 +27,7 @@ So that aside, when we take the first leep into big kid web development, it is s
 - https://github.com/djr23523/Polaris-Chip
 - https://github.com/nrousseau4/polaris-chip
 - https://github.com/SkylerKoba88/polaris-chip
-
+- video of the above: https://youtu.be/Yv6L7fTrhv4
 - Install these and follow along if it helps but what's more likely is that you should have your own code up and running and as I run through things if you have similar issues in your code, you should be taking note of the changes to apply
 
 # Enhancements for Thursday
