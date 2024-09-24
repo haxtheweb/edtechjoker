@@ -10,7 +10,7 @@ Before saying "it doesn't work" with web development in general, please consult 
 # Past weeks
 - [Week 1 & 2 - git / intro](fa24/week1-2.md)
 - [Week 3](fa24/week-3.md)
-- Week 4
+- [Week 4](fa24/week-4.md)
 
 # Week 5
 ## Recognition
