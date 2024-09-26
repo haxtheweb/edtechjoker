@@ -174,7 +174,6 @@ openChanged(e) {
 - Ensure that when you change fancy (or set it ahead of time) that it ensures we collapse or expand to match
 - Add support for `<slot>` and get your description to load that way instead of via property (unless you want to support both like in the example)
 - Get your images / titles allowing for the cards to look relatively uniform (not some squishy, some gigantic by constraining image max size)
-- Get the JS working for the buttons in `index.html` so that the operations work
 - Turn into Canvas a link to your github repo where this code is located
 
 ## Note
