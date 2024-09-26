@@ -48,10 +48,147 @@ my-card[fancy] {
 ```
 
 # Thursday
-- Starting to work more with ShadowRoots, event listeners and trying to get our buttons working in the index.html
-- how we can querySelect in the main document (index.html) in order to set properties automatically to remain stateful
-- how we can use named slots to support multiple slots
+## Let's get fancy with CSS selectors
+- Adding a 'reflected' variable to our element. Reflected variables allow you to change the properties of your card and have the CSS change as a result
+- live code demo adding a reflected variable in CSS so that `:host([fancy]) { background-color: golden; }` works
+- `fancy: { type: Boolean, reflect: true }`
+- Follow along and add support for `fancy` so that we can add fancy which changes the background color / borders / drop shadow of our card
+- https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
+```js
 
-# Homework
-- Homework will be dictated based on the progression I see in class this week
-- Most likely it will be remaking your buttons from the prior assignment so that we get all the same capabilities but in a web component world
+constructor() {
+  super();
+  this.fancy = false;
+}
+
+static get properties() {
+  return {
+    fancy: { type: Boolean, reflect: true }
+  }
+}
+```
+
+```css
+:host([fancy]) {
+display: block;
+  background-color: pink;
+  border: 2px solid fuchsia;
+  box-shadow: 10px 5px 5px red;
+}
+```
+
+## Let's support flexible HTML areas in web components
+- Some of you had properties that were "description" or really long blobs of text to put on the card.
+- Let's try an experiment. In either your title or 'description' property try to make some of the text bold
+- What happens? Why did this happen? Throw a screen shot in Teams of what happens when you tried to apply this
+- `<slot>` to the rescue, but let's put it in 2 new tags that can work together `<details>` and `<summary>`
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details - allows you to collapse an area
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Slot (the docs on slot are confusing but including just so you see them)
+ 
+```html
+<details ?open="${this.fancy}">
+  <summary>Description</summary>
+  <div>
+    <slot>${this.description}</slot>
+  </div>
+</details>
+```
+
+## Let's make it so when fancy changes, our details area opens as well
+- A few of you have asked "Is this just a design element? Where does the JS go?" or some version of "Should I add methods to my card?"
+- This is an example of when it makes sense to do something like that -- responding to events and actions in the element itself
+- Let's add a method called `openChanged(e)` This will flip `fancy` between `true` and `false` based on the Details area opening and closing
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details#events -- details has a `toggle` event
+- **Question**: If the user is clicking this to open and close it, why are we not listening for the "click" event?
+
+```html
+<!-- put this in your render method where you had details -->
+  <details ?open="${this.fancy}" @toggle="${this.openChanged}">
+```
+Note that the `@` is somethign lit specific. You won't be able to do this in `index.html` and is a good example of "syntactical sugar", meaning something that is NOT vanilla.
+Here is the equivallent to what this is doing in case you were wondering
+```js
+this.shadowRoot.querySelector('details').addEventListener('toggle', this.openChanged.bind(this));
+```
+We won't do it that way but so you are aware; think of it like the jquery `$("details")` selector syntax but JUST for events to make it easier to read.
+
+This is the JS method I'll be adding to my `class`
+```js
+// put this anywhere on the MyCard class; just above render() is probably good
+  openChanged(e) {
+    console.log(e.newState);
+    if (e.newState === "open") {
+      this.fancy = true;
+    }
+    else {
+      this.fancy = false;
+    }
+  }
+```
+
+# IF THIS DOESNT WORK FOR YOU TRY THIS ONE
+Welcome to browser differences. If you use safair the 1st one will never work. If you use the latest version of Chrome it will work, if you use the previous version of chrome it won't. I had no intention of creating htis problem and yet here we are... learning exactly the issue w/ an evolving spec.
+```js
+// put this anywhere on the MyCard class; just above render() is probably good
+openChanged(e) {
+  console.log(e);
+  if (e.target.getAttribute('open') !== null) {
+    this.fancy = true;
+  }
+  else {
+    this.fancy = false;
+  }
+}
+```
+
+## Additional Design considerations
+- Get your card to have height / sizing requirements so that long title don't bork the design
+- Same thing but with images -- https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio helpful article / attribute for this
+- Same thing but with the description area
+
+```css
+ details summary {
+    text-align: left;
+    font-size: 20px;
+    padding: 8px 0;
+  }
+
+  details[open] summary {
+    font-weight: bold;
+  }
+  
+  details div {
+    border: 2px solid black;
+    text-align: left;
+    padding: 8px;
+    height: 70px;
+    overflow: auto;
+  }
+```
+
+## Homework
+- Get your card to have a `fancy` attribute like from class that changes the styling
+- Add the details and summary so that when you toggle details it also toggle fancy
+- Ensure that when you change fancy (or set it ahead of time) that it ensures we collapse or expand to match
+- Add support for `<slot>` and get your description to load that way instead of via property (unless you want to support both like in the example)
+- Get your images / titles allowing for the cards to look relatively uniform (not some squishy, some gigantic by constraining image max size)
+- Get the JS working for the buttons in `index.html` so that the operations work
+- Turn into Canvas a link to your github repo where this code is located
+
+## Note
+This largely ends our work with the `card`. We will publish them to NPM and use them in a new repo to complete the end to end workflow of a developer in this space.
+
+After that we will work on a new element. Each time we work on a new project there will be less training wheels but this feedback loop is the same over and over again in the industry:
+- Get requirements
+- Make a design (step we are skipping a bit to learn)
+- Make a new element / boilerplate repo
+- Start to translate the design to the element
+- push up to github
+- Deploy demo to a URL (vercel for us starting next week / many others exist)
+- automated testing (skipping this to learn)
+- publish to npm / leverage in the production project
+
+### Get ahead
+Next week, and going forward, we will use a new "tooling" that you actually installed earleirin the course.
+`npx @haxtheweb/create`. If you want to get ahead, we're going to start using that tooling to produce web components that leverage a design system called DDD. DDD is based on how Penn State wants properties to look (broadly speaking) as far as spacing, colors and font usage.
+Next week we will use this tooliing to build a new element and get it pushed to github then published on vercel to understand that workflow. Once we get that down and where DDD is as far as visual documentation, you'll get to build a card to spec using university spacing to try and match the composite in question.
