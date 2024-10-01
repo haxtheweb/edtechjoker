@@ -16,6 +16,7 @@ Before saying "it doesn't work" with web development in general, please consult 
 # Week 6 - Streeeeetch time
 ## Tues
 
+- In Teams. How's it emoji-goin?
 - We'll quickly go over 1 well made solution doing everything correct
 - https://github.com/SkylerKoba88/polaris-chip -- even has buttons wired up (which was not a requirement)
 - Have your code open
