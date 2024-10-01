@@ -33,6 +33,25 @@ Before saying "it doesn't work" with web development in general, please consult 
 - We need to load the js so that the definition of our HTML loads in the `index.html`
 - When you get it working get the code back up on github / post a screenshot in Teams for today
 
+## Having issues?
+- we need to install the dependencies
+- and then reference them
+- We didn't really talk about how there now did we....
+
+```js
+# I have an error in the tooling, this wasn't on purpose, but it was missing this dependency
+npm install @haxtheweb/grid-plate --save
+
+# in your code...
+
+import "@haxtheweb/multiple-choice/multiple-choice.js";
+
+# or if you look in the CDN versions, they'll work like
+
+<script type="module" src="https://cdn.hax.cloud/cdn/build/es6/node_modules/@haxtheweb/multiple-choice/multiple-choice.js"></script>
+
+```
+
 ## Stretch time
 
 We are going to use a new tooling to start working on this project. This is the developer on-boarding tooling that I wrote for our HAX community.
