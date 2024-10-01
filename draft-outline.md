@@ -54,6 +54,8 @@ import "@haxtheweb/multiple-choice/multiple-choice.js";
 
 ## Stretch time
 
+class recording starting into below: https://www.youtube.com/watch?v=x08w5yq1Axc
+
 We are going to use a new tooling to start working on this project. This is the developer on-boarding tooling that I wrote for our HAX community.
 
 - Open a terminal window, navigate to where you'd like to run it from (for me that's `~/Documents/git/btopro` but can be wherever you are storing your code)
