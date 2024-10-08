@@ -48,6 +48,12 @@ Common gotchas:
   - Common next steps
   - Common questions
 
+## My Github is having issues
+- edit the following file: `.git/config`
+- find the address that says git@github.com:yourname/yourproject
+- change it to say: `https://github.com/yourname/yourproject`
+- use desktop to push up
+
 ## Working time, not 'get up and leave immediately' time
 (I feel seen)
 
