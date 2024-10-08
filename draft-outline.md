@@ -27,6 +27,7 @@ Common gotchas:
 - ensure you have a `.gitignore` file, not everyone's machines copied / produced these, though many did.
 
 ### Crit
+- Recording of live crit: https://www.youtube.com/watch?v=czJcArUPtco
 - Live review of a well made examples:
   - https://github.com/tay3434/counter-app
   - https://github.com/DylanConnor28/counter-app
