@@ -27,8 +27,10 @@ Common gotchas:
 - ensure you have a `.gitignore` file, not everyone's machines copied / produced these, though many did.
 
 ### Crit
-- Live review of a well made sample: https://github.com/tay3434/counter-app
-- Mood check
+- Live review of a well made examples:
+  - https://github.com/tay3434/counter-app
+  - https://github.com/DylanConnor28/counter-app
+- Mood check; how we feeling about current progression?
 
 ## Next Stretch
 - https://github.com/haxtheweb/issues/issues/2147
