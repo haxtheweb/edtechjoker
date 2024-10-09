@@ -54,7 +54,7 @@ Common gotchas:
 - change it to say: `https://github.com/yourname/yourproject.git`
 - use desktop to push up
 
-## Working time, not 'get up and leave immediately' time
+## Working time
 (I feel seen)
 
 - We will start in class on this element with the expectation being that you get _as close to done_ as possible by **Thursday**
@@ -63,22 +63,38 @@ Common gotchas:
 - Code you would like live reviewed to improve upon please submit to Teams Wed night for review Thursday in class
 
 ## Thursday
-- Reviewing current solutions / problems
-- Sta******* product
+- Reviewing current solutions / problems that anyone brings
+- Let's get AI to help. I put the directions into a tool called [https://bolt.new]()
+- https://stackblitz.com/edit/sb1-xhsigv?file=src%2Fun-sdg.js - I took what bolt made, then cleaned it up to actually work. It has a lot wrong, but many things right. As always with AI, you must know how to read it to accurately use it.
+- More time to work and ask questions
+
+## Common questions
+- `npm init @haxtheweb` to start the repo
+- when this asks you about git, it will default to something like `git@github.com:yourname/yourproject.git` DO NOT USE THIS FORMAT
+- insead change it to `https://github.com/yourname/yourproject.git`
+- If you already did accept the default see the next heading for how to fix it.
+
+## My Github is having issues
+- edit the following file: `.git/config`
+- find the address that says `git@github.com:yourname/yourproject.git`
+- change it to say: `https://github.com/yourname/yourproject.git`
+- use desktop to push up or the git capability built directly into VSCode.
 
 ## Homework
+- **Because I am giving you a large chunk here for help, I want every 5 lines there to be a comment as to what that block of code does. You don't need to comment on the large array of objects and I highly recommend you use that piece, however every method should be commented, any time there is an if statement / looping logic, I'd like it commented as to what or why it is doing that**.
 - https://github.com/haxtheweb/issues/issues/2147 fully working solution
 - published on vercel
 - code on github
 - link to whatever.vercel.app address + github code
 
+
 ## Looking ahead
 
-# Week 8 - Life
+# Week 8 - about 1/2 way home. So the topic is Life.
 
 ## Tues
 - Guest lecture
-- Bring pen / paper
+- Bring pen, paper, and take notes of thoughts along the way.
 
-## Thurs
+## Thursday
 - Project 1
