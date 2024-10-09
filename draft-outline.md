@@ -95,6 +95,9 @@ Common gotchas:
 ## Tues
 - Guest lecture
 - Bring pen, paper, and take notes of thoughts along the way.
+- What (if anything) was your take away from the talk?
+- How can you apply this to your life and career?
+- There are no right answers, and they vary every year from this speaker. My hope is he makes you think.
 
 ## Thursday
 - Project 1
