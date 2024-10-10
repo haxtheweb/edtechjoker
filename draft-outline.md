@@ -63,9 +63,10 @@ Common gotchas:
 - Code you would like live reviewed to improve upon please submit to Teams Wed night for review Thursday in class
 
 ## Thursday
-- Reviewing current solutions / problems that anyone brings
-- Let's get AI to help. I put the directions into a tool called [https://bolt.new]()
-- https://stackblitz.com/edit/sb1-xhsigv?file=src%2Fun-sdg.js - I took what bolt made, then cleaned it up to actually work. It has a lot wrong, but many things right. As always with AI, you must know how to read it to accurately use it.
+- Learning from an interesting proposed solution: [https://github.com/xTyten/un-sdg/](https://github.com/xTyten/un-sdg/)
+- This solution has several flaws and is overly complex but it does work. No one's submission should look anything like this or we'll be aware you just copied this one, which I am writing here **is not an acceptable solution given how verbose it is and there are far simpler ways of doing this**. Only this person can turn it in this way and I am recommending not to.
+- Let's get AI to help. I put the directions into a tool called [https://bolt.new](https://bolt.new)
+- [https://stackblitz.com/edit/sb1-xhsigv?file=src%2Fun-sdg.js](https://stackblitz.com/edit/sb1-xhsigv?file=src%2Fun-sdg.js) - I took what bolt made, then cleaned it up to actually work. It has a lot wrong, but many things right. As always with AI, you must know how to read it to accurately use it.
 - More time to work and ask questions
 
 ## Common questions
