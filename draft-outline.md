@@ -20,10 +20,13 @@ Before saying "it doesn't work" with web development in general, please consult 
 ## Tues
 - We need a week to catch back up and resubmit past work. If you have fallen behind or not submitted the last assignment or did and don't feel it is in a working state, this is your week to play catch up
 - However, today we'll be changing pace a bit with a Guest lecture
-- Bring pen, paper, and take notes of thoughts along the way.
+- Bring pen, paper, and take notes of thoughts along the way:
 - What (if anything) was your take away from the talk?
 - How can you apply this to your life and career?
-- There are no right answers, and they vary every year from this speaker. My hope is he makes you think.
+- Where do you see your self in 5 years with your career?
+- Where do you want to do with the next 10 years of your life?
+- Does work drive life or life drive work? "Some people live to work, and other people work to live"
+- There are no right answers, and they vary every year from this speaker. My hope is he makes you think and contemplate where you will go with this one shot you get at making this life what you will.
 
 ## Wed
 Catch up on Week 7's homework
