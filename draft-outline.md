@@ -29,6 +29,8 @@ Before saying "it doesn't work" with web development in general, please consult 
 - There are no right answers, and they vary every year from this speaker. My hope is he makes you think and contemplate where you will go with this one shot you get at making this life what you will.
 
 ## Wed
+This, is Water. https://www.youtube.com/watch?v=GbAH5DAs1oU
+
 Catch up on Week 7's homework
 
 ### My images don't load
