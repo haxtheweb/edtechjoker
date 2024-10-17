@@ -54,12 +54,13 @@ Now run `npm run build` and it should build successfully. If this happens, then 
 images in the output.
 
 ## Thursday
-- Additional working class
-- Project 1. Pick between one of these two options.
+- Additional working time in class and ask question
 
 ## HW 8
 - Submit HW 8 as written answers to the questions posed in the guest lecture
-- Fix and resubmit your code for HW 7. The grade from Week 8 will be reflected into Week 7  (so  if you get 3.5 week 8, you'll get this in week 7 as well). It effectively counts as double given that I am giving you an additional week to clean it up
+- Fix and resubmit your code for HW 7. The grade from Week 8 will be reflected into Week 7  (so  if you get 3.5 week 8, you'll get this in week 7 as well). It effectively counts as double given that I am giving you an additional week to clean it up.
+- You should be turning into Canvas link to your code + written answers to the questions about what you took away from the lecture
+  - This is an older, more 'web friendly' version of the same material if you'd like to rewatch https://www.youtube.com/watch?v=G5yEgFIxzl0
 - **This is like a mini project as far as point value then. LAs will be grading harshly based on missing requirements**
 
 ## Looking ahead
