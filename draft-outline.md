@@ -44,7 +44,7 @@ Right above where it says `nodeResolve(),` add the following
 ```js
 copy({
   targets: [
-    { src: 'lib/', dest: 'dist' }
+    { src: 'lib/', dest: 'public' }
   ]
 }),
 ```
