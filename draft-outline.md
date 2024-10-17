@@ -60,7 +60,9 @@ images in the output.
 ## HW 8
 - Submit HW 8 as written answers to the questions posed in the guest lecture
 - Fix and resubmit your code for HW 7. The grade from Week 8 will be reflected into Week 7  (so  if you get 3.5 week 8, you'll get this in week 7 as well). It effectively counts as double given that I am giving you an additional week to clean it up
+- **This is like a mini project as far as point value then. LAs will be grading harshly based on missing requirements**
 
 ## Looking ahead
-- We will start into project 1 next week. it is a multiple week assignment worth a significant portion of your grade
-- Project 2 will be a harder version of project 1.
+- We will start into project 1 next week. It is a multiple week assignment worth a significant portion of your grade
+- We'll have a smaller exercise due next week to help prepare for the scope of project 1
+- Project 2 will be a more difficult version of project 1.
