@@ -19,12 +19,12 @@ Before saying "it doesn't work" with web development in general, please consult 
 # Week 9 - Project 1 and last home work
 
 # Tues
-- Project 1 - We will be visualizing data from an end point so that people can view the data in that end point and make decisions about it
+- [Project 1](https://github.com/haxtheweb/issues/issues/2174) - We will be visualizing data from an end point so that people can view the data in that end point and make decisions about it
   - It also helps you understand the idea of "headless" that data is loaded remotely via javascript from an API / backend, and then presented
   - this is how much of the modern web apps render content
   - We will do a homework with minor refactoring and data walking so you get the concept
   - Then you will have **3 weeks** to apply it to your solution for project 1
-  - There will be minimal guidance beyond very detailed directions
+  - There will be minimal guidance beyond detailed directions
   - We will have weekly check-ins which are to monitor progress but largely a "You demonstrated progress" status checks
   - These status checks help inform the basis for discussions in class followed by time to work and build futher
   - I will give you generate "here's how far you should be". This is not "just do this 1 hour of work in class" but a time to be together so that you can get questions answered and work with peers in person. The expectation is that this is roughly a 30 hour project.
@@ -52,9 +52,17 @@ Before saying "it doesn't work" with web development in general, please consult 
 
 # Thurs
 - More time to work on Homework 9 in class
-- Ability to start asking questions about Project 1
+- Ability to start asking questions about [Project 1](https://github.com/haxtheweb/issues/issues/2174)
 
 # Sun
 - HW 9 due submitted to canvas.
 - Github link to code
 - vercel code link to working demo
+
+# Week 10-11-12
+- Check ins, review and feedback / critique of submissions associated with [Project 1](https://github.com/haxtheweb/issues/issues/2174)
+- End of Week 12, we will introduce Project 2 so you can choose to start on it prior to break if you desire.
+# Week 13 - Turkey
+
+# Week 14,15,16
+- Check ins, review and feedback / critique of submissions associated with Project 2 (TBA)
