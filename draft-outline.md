@@ -39,6 +39,8 @@ Before saying "it doesn't work" with web development in general, please consult 
 
 ## Homework 9
 - Create a new project using the hax cli `npm init @haxtheweb`
+- verify you have a `.gitignore` file. if you do not on creation of your project, make that file with these contents https://github.com/btopro/nasa-search/blob/main/.gitignore
+- Then delete your `node_modules` directory and commit this change to github. This way vercel can build appropriately later on.
 - Build a dashboard that connects to NASA (yes, you can largely repurpose my example to do this)
 - It needs to render cards that are made conforming to DDD design spec (so using DDD just like the tooling generates for the nasa-search element you are making)
 - Instead of **my** NASA card, it should be an element using DDD that has the following capabilities:
