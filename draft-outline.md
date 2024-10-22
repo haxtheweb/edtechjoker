@@ -49,6 +49,7 @@ Before saying "it doesn't work" with web development in general, please consult 
   - Needs to support secondary_creator as far as `owner` of the media and should present it on the card as well
   - card should change color on hover
   - ability to tab to the card and hit enter to open in new window (hint. links natively behave this way)
+- If you are missing any past assignments. Get them in. Week 9 is the end of assignment focus and TAs will not be focusing on past assignments beyond this point.
 
 # Thurs
 - More time to work on Homework 9 in class
