@@ -63,7 +63,12 @@ Before saying "it doesn't work" with web development in general, please consult 
 - vercel code link to working demo
 
 # Week 10-11-12
+## Tues
 - Check ins, review and feedback / critique of submissions associated with [Project 1](https://github.com/haxtheweb/issues/issues/2174)
+
+## Thurs
+- Feedback and setting the requirements of the check-in
+
 - End of Week 12, we will introduce Project 2 so you can choose to start on it prior to break if you desire.
 # Week 13 - Turkey
 
