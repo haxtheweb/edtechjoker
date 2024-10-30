@@ -25,10 +25,18 @@ Before saying "it doesn't work" with web development in general, please consult 
 - Detailed break down of JSON Outline Schema (the format that site.json conforms to) -- https://github.com/haxtheweb/json-outline-schema
 
 ## Thurs
-- Feedback and setting the requirements of the check-in 1
+- Trick or Treat; this time Treat. No class Thursday, here are the requirements for staying on task in Check-in 1.
+- A drawing / picture of how you will implement the requirements
+- boilerplate code from hax CLI, should already have it on github and in a build pipeline with vercel
+- written next 3 steps to keep on task
+- written any questions you still have
+
+## Sunday
+- Check-in 1 is due turned into Cantvas
+
+## Tues
+- Review of any questions / group discussion and code review
 - More time to work
-
-
 
 - End of Week 12, we will introduce Project 2 so you can choose to start on it prior to break if you desire.
 
