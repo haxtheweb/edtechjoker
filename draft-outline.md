@@ -34,9 +34,17 @@ Before saying "it doesn't work" with web development in general, please consult 
 ## Sunday
 - Check-in 1 is due turned into Cantvas
 
-## Tues
-- Review of any questions / group discussion and code review
-- More time to work
+## Nov 5 - Tues
+- Be a citizen
+- https://www.youtube.com/watch?v=ebCiTkG8CdI Here is a review of 1 submission in a lot of detail. I point out things it should have, other ideas for how to improve this, but it gets A LOT of things right out of the gate and is a good pace-car for where most of you will be driving.
+- Keep working
+
+# Thurs
+- Discussion groups. We'll be getting in groups of 4ish to share and discuss problems we're having (30 min)
+  - For each person, talk about (with your code out showing each other).
+  - What do you think you have working?
+  - What do you need direction on?
+- More time to ask questions in class. This is largely a come to class and work on your project day.
 
 - End of Week 12, we will introduce Project 2 so you can choose to start on it prior to break if you desire.
 
