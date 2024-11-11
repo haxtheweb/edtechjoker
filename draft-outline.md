@@ -53,6 +53,7 @@ Before saying "it doesn't work" with web development in general, please consult 
 
 # Week 12 Tues
 - Review and working time in class
+- https://www.youtube.com/watch?v=MQxPLRxdIt0
 - More discussion
 
 ## Week 12 - Thurs
