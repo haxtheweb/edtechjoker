@@ -54,6 +54,7 @@ Before saying "it doesn't work" with web development in general, please consult 
 # Week 12 Tues
 - Watch ahead of time: https://www.youtube.com/watch?v=MQxPLRxdIt0
 - Live Review of https://ist-256-project1.vercel.app/ code and functionality
+- https://www.youtube.com/watch?v=Qp148-CfdBk
 - More time to work and ask questions
 
 ## Week 12 - Thurs
