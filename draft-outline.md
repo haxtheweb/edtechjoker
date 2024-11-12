@@ -52,9 +52,9 @@ Before saying "it doesn't work" with web development in general, please consult 
 - Reflect on what you have left to do and what your next 3 steps are.
 
 # Week 12 Tues
-- Review and working time in class
-- https://www.youtube.com/watch?v=MQxPLRxdIt0
-- More discussion
+- Watch ahead of time: https://www.youtube.com/watch?v=MQxPLRxdIt0
+- Live Review of https://ist-256-project1.vercel.app/ code and functionality
+- More time to work and ask questions
 
 ## Week 12 - Thurs
 - Project 2 discussed as far as scope and requirements
