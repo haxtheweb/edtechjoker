@@ -17,6 +17,8 @@ Before saying "it doesn't work" with web development in general, please consult 
 - [Week 8](fa24/week-8.md)
 - [Week 9](fa24/week-9.md)
 
+- [Project One Description and Rubric](https://github.com/haxtheweb/issues/issues/2174)
+
 # Week 10-11-12
 ## Week 10 Tues
 - Check ins, review and feedback / critique of submissions associated with [Project 1](https://github.com/haxtheweb/issues/issues/2174)
