@@ -21,7 +21,10 @@ Before saying "it doesn't work" with web development in general, please consult 
 
 # Week 13
 ## Tues
-- Start looking at Project 2
+- There are two projects. You must select a project and state which project you are doing by end of class Tuesday. Read and explore the requirements of each. They are different projects but have similar scopes. One is far more state management heavy as well as very detail oriented in # of requirements. The other is a mix of state management, design, and data structure building on the previous project as far as scope.
+- [\[project-2a\] Character Creator / rpg-me promotional tool](https://github.com/haxtheweb/issues/issues/1414)
+- [\[project-2b\] Use-cases dashboard comp](https://github.com/haxtheweb/issues/issues/2182)
+- After making your selection, put in the comments for the issue that you're going to work on the one in question and post a link to the boilerplate hax CLI made repo as your starting point.
 
 ## Thursday
 - Working time in class
