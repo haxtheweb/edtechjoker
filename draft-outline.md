@@ -27,9 +27,31 @@ Before saying "it doesn't work" with web development in general, please consult 
 - After making your selection, put in the comments for the issue that you're going to work on the one in question and post a link to the boilerplate hax CLI made repo as your starting point.
 
 ## Thursday
-- Working time in class
+**A reminder of requirements for project creation and submission: PROJECT MUST BE COMPLETED USING THE HAX TOOLING TO ENSURE WE ARE WRITING CODE USING PLATFORM LEVEL WEB COMPONENTS. SUBMISSIONS DONE IN TOOLING AND TECHNOLOGY NOT LIT.DEV BASED WILL NOT BE EVALUATED.**
+
+We'll be grouping up based on project selected to answer the following discussion questions:
+
+## project-2a Character Creator / rpg-me promotional tool
+**Sit with 6 people total, not the people you've been collaborating with so that you both get different discussions / perspectives)**
+- Where are you starting?
+- What form inputs are you using?
+- What fields are you going to add to your app to manage the relationship between the form and the character?
+- What's the character sizing to be managed responsively?
+- How are you approaching the "stateful" aspect of share links in the URL
+- Any other considerations / unknowns?
+
+## project-2b Use-cases dashboard comp
+- Where are you starting?
+- Which of the comps are you going off of?
+- What properties need to be accounted for in the data model?
+- What is a good structure for the JSON file?
+- How many unique elements are there to help with scoping?
+- Any other considerations / unknowns?
+
+This will run about 30 minutes and I'd like answers / take aways posted to the thread associated with your project. (adding below this post)
 
 # Week 14 - Turkey
+end of week 14, Sunday Dec 1 is when check in 1 is due
 
 # Week 14,15,16
 - Check ins, review and feedback / critique of submissions associated with Project 2 (TBA)
