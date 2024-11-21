@@ -40,6 +40,15 @@ We'll be grouping up based on project selected to answer the following discussio
 - How are you approaching the "stateful" aspect of share links in the URL
 - Any other considerations / unknowns?
 
+- "we want to make things like 60% of the screen" - rpg-character requires a numerical value for height / width. It can't be % based bc of how SVGs work.
+
+```js
+const height = window.innerHeight;
+// window width
+const width = window.innerWidth;
+console.log(height, width);
+```
+
 ## project-2b Use-cases dashboard comp
 - Where are you starting?
 - Which of the comps are you going off of?
