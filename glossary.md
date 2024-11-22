@@ -198,7 +198,8 @@ It can also be used for other tasks related to containers.
 
 
 ## Nginx
-
+Nginx is an open source web server software that used for reverse proxy, load balancing, and caching. In order to make your computer a web server, you must use this software or another one similar to it. 
+Link: https://www.papertrail.com/solution/guides/nginx/#:~:text=NGINX%20is%20open%2Dsource%20web,IMAP%2C%20POP3%2C%20and%20SMTP.
 
 ## Apache Web server
 Also known as an Apache HTTP Server, an Apache web server is an open-source software that essentially helps websites accesible on the internet
