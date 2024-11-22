@@ -129,6 +129,7 @@ https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introd
 ## Angular
 
 ## React
+React is a language that is a component-based and open-source JavaScript library for front-end development. It is used to build interfaces for single-page applications. React allows user to write their code within JavaCript.JSX. 
 
 ## Vue.js
 
