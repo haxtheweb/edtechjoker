@@ -127,7 +127,16 @@ https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introd
 
 
 ## Angular
+Angular is an open-source web application framework maintained by Google and a community of developers. It is designed to build dynamic and interactive single-page applications (SPAs) efficiently. With Angular, developers can create robust, scalable, and maintainable web applications.
+Features:
+*Custom Components
+*Data Binding
+*Dependency Injection
+*Testing
+*Browser Compatibility
 
+Source: 
+https://www.geeksforgeeks.org/what-is-angular/#
 ## React
 
 ## Vue.js
