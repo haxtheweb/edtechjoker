@@ -210,6 +210,7 @@ https://httpd.apache.org/
 
 
 ## Varnish
+Varnish is an HTTP reverse proxy that works by caching frequently requested web pages. 
 
 
 ## Traefik (Golang)
