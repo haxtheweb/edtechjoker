@@ -10,7 +10,14 @@ More to read: https://www.coursera.org/articles/front-end-developer, https://boo
 Hawwwwwww teeee meee laaaa
 
 ## CSS
+CSS is used for sylizing HTML documents. This allows for a more unique websites and gives developers a way to express their website the way the want. Some examples of things that cna be done in CSS are:
+* Color
+* Size
+* Layout
+* Animation
+* And much more
 
+https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS
 
 ## JavaScript
 JavaScript is an object-oriented computer programming language commonly used to create interactive effects within web browsers. JavaScript is involved in just about every website known to man. Whether they update their content in real time, have funny animations, any effects on screen, etc uses JavaScript. 
