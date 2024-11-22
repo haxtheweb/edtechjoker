@@ -18,6 +18,7 @@ https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_Ja
 https://www.w3schools.com/whatis/whatis_js.asp
 
 ## Yarn
+Yarn is an established open-source package manager used to manage dependencies in JavaScript projects. It assists with the process of installing, updating, configuring, and removing packages dependencies, eventually helping you reach your objectives faster with fewer distractions. For more info click this link: https://yarnpkg.com/getting-started
 
 
 ## NPM
