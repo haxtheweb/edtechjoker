@@ -134,6 +134,7 @@ https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introd
 
 
 ## Golang
+Google's GoLang, shortened as Go is an open-source programming language that was created in 2009. It is intended for efficient, concurrent, and scalable system programming with an emphasis on simplicity and usability. Go is a popular choice for building networked and distributed systems, web applications, and other types of software because it has strong typing, garbage collection, and syntax similar to C.
 
 
 ## SQL
