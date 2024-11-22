@@ -187,7 +187,6 @@ It can also be used for other tasks related to containers.
 
 ## Accessibility / A11y
 
-
 ## Internationalization / i18n
 
 
@@ -211,6 +210,11 @@ https://httpd.apache.org/
 
 ## Varnish
 
+Varnish is a free software that can speed up web applications, providing fast and efficient web experiences. It is also known as "a caching HTTP reverse proxy." It  It can go onto any server with HTTP, and with Varnish, you are able to manage how requests and responses are handled.
+
+https://varnish-cache.org/intro/
+
+https://www.varnish-software.com/
 
 ## Traefik (Golang)
 
