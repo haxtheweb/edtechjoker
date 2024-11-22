@@ -210,6 +210,7 @@ https://httpd.apache.org/
 
 
 ## Varnish
+Varnish is a configuration system that uses a proprietary language call Varnish Configuration Language or VCL. The files run in subroutines called ```vcl_recv``` and ```vcl_fetch``` which will be the primary things you edit. https://varnish-cache.org/docs/2.1/tutorial/vcl.html 
 
 
 ## Traefik (Golang)
