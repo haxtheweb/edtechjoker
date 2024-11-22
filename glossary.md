@@ -50,7 +50,15 @@ https://www.markdownguide.org/getting-started/
 
 
 ## Gulp.js
-
+Gulp.js is an open soruce JavaScript toolkit used as a streaming build system in frotned development. It is a task runner built on Node.js used in automation of reptitive tasks. Gulp reads the file system and pipes the data at hand from one single-purposed plugin to another through the .pipe() operator
+https://gulpjs.com/ 
+```// Images task Example
+gulp.task('images', function () {
+    return gulp.src('images/*.{png,gif,jpg}')
+        .pipe(imagemin())
+        .pipe(gulp.dest('dist/images/'));
+});
+```
 
 
 ## IDE
