@@ -65,6 +65,10 @@ end of week 14, Sunday Dec 1 is when check in 1 is due
 # Week 15,16
 ## Tues
 I'll do a live review of two projects based on check in 1 that are both making great progress, giving feedback and time to ask questions. Then you'll have more time to work.
+- [Class Recording of review](https://www.youtube.com/watch?v=BsdiRoCOuA8)
+- Project A - https://github.com/Eglicky/rpg-new
+- Project B - https://github.com/izzabizz5/hax-use-case-app
+
 ## Thusday
 - time to group up and answer key considerations, more time to work
 ## Sunday
