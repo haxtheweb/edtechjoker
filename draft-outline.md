@@ -19,7 +19,7 @@ Before saying "it doesn't work" with web development in general, please consult 
 - [Week 10-11-12](fa24/week-10-11-12.md)
 - [Project One Description and Rubric](https://github.com/haxtheweb/issues/issues/2174)
 
-# Week 13
+# Week 13 - Final Project
 ## Tues
 - There are two projects. You must select a project and state which project you are doing by end of class Tuesday. Read and explore the requirements of each. They are different projects but have similar scopes. One is far more state management heavy as well as very detail oriented in # of requirements. The other is a mix of state management, design, and data structure building on the previous project as far as scope.
 - [\[project-2a\] Character Creator / rpg-me promotional tool](https://github.com/haxtheweb/issues/issues/1414)
@@ -62,5 +62,16 @@ This will run about 30 minutes and I'd like answers / take aways posted to the t
 # Week 14 - Turkey
 end of week 14, Sunday Dec 1 is when check in 1 is due
 
-# Week 14,15,16
-- Check ins, review and feedback / critique of submissions associated with Project 2 (TBA)
+# Week 15,16
+## Tues
+I'll do a live review of two projects based on check in 1 that are both making great progress, giving feedback and time to ask questions. Then you'll have more time to work.
+## Thusday
+- time to group up and answer key considerations, more time to work
+## Sunday
+- Check in 2 is due.
+- This check in should include code that is largely working and in the right direction (3pts)
+- demo built on vercel is required (2pts)
+- any questions / issues you are having that you will bring to class / office hours for TAs (1pts)
+
+# Week 16
+- More discussion group time and requirements improvement
