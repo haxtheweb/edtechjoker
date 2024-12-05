@@ -70,7 +70,8 @@ I'll do a live review of two projects based on check in 1 that are both making g
 - Project B - https://github.com/izzabizz5/hax-use-case-app
 
 ## Thusday
-- time to group up and answer key considerations, more time to work
+- Remote office hours - no class
+
 ## Sunday
 - Check in 2 is due.
 - This check in should include code that is largely working and in the right direction (3pts)
