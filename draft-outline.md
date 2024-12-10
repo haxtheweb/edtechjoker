@@ -79,4 +79,15 @@ I'll do a live review of two projects based on check in 1 that are both making g
 - any questions / issues you are having that you will bring to class / office hours for TAs (1pts)
 
 # Week 16
-- More discussion group time and requirements improvement
+## Tuesday
+Live review of these two projects:
+- https://github.com/tay3434/rpg-character/ 
+- https://github.com/nazman-hub/HAX-dashboard 
+- recording: 
+More time to work and ask question
+
+## Thursday
+- Last chance to get help and resolve issues IRL
+- Last class. Come to say goodbye / fist bump
+- It's been fun working with you this semester. Good luck out there.
+- Final Project is Due Dec 17 by 11:59pm. Anything submitted after that is considered late and subject to late policy
