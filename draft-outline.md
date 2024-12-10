@@ -85,6 +85,33 @@ Live review of these two projects:
 - https://github.com/nazman-hub/HAX-dashboard 
 - recording: https://www.youtube.com/watch?v=CY8wnl40lgM 
 More time to work and ask question
+### "My icons won't load on vercel"
+If you have having issues w/ icons on vercel but they work locally; try this. Run the following command:
+```bash
+npm install --save rollup-plugin-copy
+```
+then edit `rollup.config.js` and add this import
+```js
+import copy from 'rollup-plugin-copy';
+```
+then after the `html({}),` block in this object, call the following
+```js
+ copy({
+  targets: [
+    {
+      src: 'node_modules/@haxtheweb/simple-icon/lib/svgs',
+      dest: 'public',
+    },
+    {
+      src: 'node_modules/@haxtheweb/hax-iconset/lib/svgs',
+      dest: 'public',
+    },
+  ],
+}),
+```
+similar past solution: https://github.com/btopro/haxcms-user-flow/blob/master/rollup.config.js
+
+This *may* be needed if you use `simple-icon` but is not gaurunteed.
 
 ## Thursday
 - Last chance to get help and resolve issues IRL
