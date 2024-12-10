@@ -83,7 +83,7 @@ I'll do a live review of two projects based on check in 1 that are both making g
 Live review of these two projects:
 - https://github.com/tay3434/rpg-character/ 
 - https://github.com/nazman-hub/HAX-dashboard 
-- recording: 
+- recording: https://www.youtube.com/watch?v=CY8wnl40lgM 
 More time to work and ask question
 
 ## Thursday
