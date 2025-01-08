@@ -36,4 +36,4 @@ List a sub-set of this list compiled by X @mujeeb0147 - https://twitter.com/muje
 - [common-issues.md](common-issues.md) is for.. common... issues. We all have them, especially when getting a pattern for learning down. To make my life more plesant and you to get answers faster, look through it before you have issues as we dig into code. It's a very repeatable feedback loop.
 - https://lit.dev - I will assign things from the tutorial / playground there but its on you to get into documentation and better understand the library and how it impacts the web
 - https://lit.dev/learn/ - different tutorials in video, written and playground form. Really great stuff here though a lot of it is a bit more advanced than how we'll be approaching Lit for development
-- https://open-wc.org/ - OpenWC is the toolchain we're using, probably won't need this site but worth mentioning at least
+- https://playground.hax.cloud/ - HAX playground to learn about the CLI we'll use in class. Install locally via `npm install --global @haxtheweb/create`
