@@ -8,113 +8,116 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 Before saying "it doesn't work" with web development in general, please consult this [common issues document](common-issues.md). It is the solution to 95% of the problems I've seen young web devs have when working with web components, terminal, VS code and javascript/html/css more broadly.
 
 # Past weeks
-- [Week 1 & 2 - git / intro](fa24/week1-2.md)
-- [Week 3](fa24/week-3.md)
-- [Week 4](fa24/week-4.md)
-- [Week 5](fa24/week-5.md)
-- [Week 6](fa24/week-6.md)
-- [Week 7](fa24/week-7.md)
-- [Week 8](fa24/week-8.md)
-- [Week 9](fa24/week-9.md)
-- [Week 10-11-12](fa24/week-10-11-12.md)
-- [Project One Description and Rubric](https://github.com/haxtheweb/issues/issues/2174)
+- To be filled out as we go
 
-# Week 13 - Final Project
-## Tues
-- There are two projects. You must select a project and state which project you are doing by end of class Tuesday. Read and explore the requirements of each. They are different projects but have similar scopes. One is far more state management heavy as well as very detail oriented in # of requirements. The other is a mix of state management, design, and data structure building on the previous project as far as scope.
-- [\[project-2a\] Character Creator / rpg-me promotional tool](https://github.com/haxtheweb/issues/issues/1414)
-- [\[project-2b\] Use-cases dashboard comp](https://github.com/haxtheweb/issues/issues/2182)
-- After making your selection, put in the comments for the issue that you're going to work on the one in question and post a link to the boilerplate hax CLI made repo as your starting point.
+# Week 1 - The one with getting started
+## Tues - The one where we go through the contract
+- Welcome and syllabus day
+- Context setting what we'll be working on, learning about and the industry at large as well as establishing what brought me from the classrooms you've taken to the stage where I am today and online
+- This is a rare sit and listen day so you should be googling stuff and installing requirements for the class https://oer.hax.psu.edu/bto108/sites/ist256/requirements 
 
-## Thursday
-**A reminder of requirements for project creation and submission: PROJECT MUST BE COMPLETED USING THE HAX TOOLING TO ENSURE WE ARE WRITING CODE USING PLATFORM LEVEL WEB COMPONENTS. SUBMISSIONS DONE IN TOOLING AND TECHNOLOGY NOT LIT.DEV BASED WILL NOT BE EVALUATED.**
+## Wed - between class if possible
+- https://oer.hax.psu.edu/bto108/sites/ist256/requirements - get accounts on these services
+- Install the software mentioned and bring any issues you have to class
+- *If you have issues with vercel, please contact their support as soon as possible. They take awhile to respond sometimes and it will enhance your ability to see 'built' work out at live web addresses when having it.*
 
-We'll be grouping up based on project selected to answer the following discussion questions:
+## Thurs: Get basic structure around the big 3, fundamentals and playing with stuff
+- We'll "hack" the penn state website and learn that the browser is the debugging environment
+- Play with a very watered down "web application" called the "Stupid Simpsons App"
+- Check out a code pen, a really easy way of learning HTML/CSS/JS by remixing examples of others
+- https://oer.hax.psu.edu/bto108/sites/ist256/activities/day-1
 
-## project-2a Character Creator / rpg-me promotional tool
-**Sit with 6 people total, not the people you've been collaborating with so that you both get different discussions / perspectives)**
-- Where are you starting?
-- What form inputs are you using?
-- What fields are you going to add to your app to manage the relationship between the form and the character?
-- What's the character sizing to be managed responsively?
-- How are you approaching the "stateful" aspect of share links in the URL
-- Any other considerations / unknowns?
+## Homework
+- https://www.w3schools.com/ -- Do the "Learn HTML" tutorials (all of them, this is mostly a primer and they go quick as you start to get them)
+- Create an account on https://github.com 
+- Create accounts on the services listed here: https://oer.hax.psu.edu/bto108/sites/ist256/requirements
+- Create a **PUBLIC** Gist on https://gist.github.com/ called **week-1.md** (so that you can write markdown and practice doing so)
+- Watch this video on terminal basics: https://www.youtube.com/watch?v=cwTswuFkMH4 
+- Read this [common issues document](common-issues.md) (and keep it in mind going forward as it'll save us time and time is valuable!):
+- Watch the following video / have it open in another tab: https://youtu.be/DWvRV9KuTjk 
+- Write responses using Markdown (Look it up if you don't know how to do it but bottom right corner in gist will have a `M^` button w/ details):
+  - If the question is a simple answer / response. Then make it a HEADING using markdown for the question `## `
+  - If the question has multiple responses (like 5 syntaxes) then make the question a HEADING level 2, but the responses using a bulleted list (look this up)
+  - If you end up adding a code sample, use the ` ``` ` three back ticks syntax in order to show the code in a block.
+- Questions to answer
+  - Was the backend or frontend responsible for the bug in the video?
+  - What languages do you see in this video? List ALL of them. If you're not sure what the language is, but you know there's an additional one, indicate that.
+  - What tools, strategies, and workflows used in the video do you think are common across all web development?
+  - What strategies used in the video help with debugging?
+  - What strategies have you used before that are shown here for debugging?
+  - What tools and approaches used in the video do you think help in quality control / quality assurance?
+  - What are 5 syntaxes / pieces of code shown you DO recognize (could be of any scale or size), time stamp (link) or screenshot it and list what they are them. (screen shots can be drag and dropped into the comment area below your gist)
+  - What are 5 syntaxes / pieces of code shown you DON'T recognize, time stamp (link) or screenshot it and list what they are them. (screen shots can be drag and dropped into the comment area below your gist)
+  - You just wrote responses to these questions in Markdown. What even is that? (insert meme here :p). What is Markdown and how is it similar, different, or related to HTML?
+  - What are 3 things you CAN NOT do in markdown that you CAN do in HTML?
 
-- "we want to make things like 60% of the screen" - rpg-character requires a numerical value for height / width. It can't be % based bc of how SVGs work.
+*Submit the link to your GIST using the Cantvas HW 1 Dropbox*
 
-```js
-const height = window.innerHeight;
-// window width
-const width = window.innerWidth;
-console.log(height, width);
-```
+# Week 2 - The one with Git..
 
-## project-2b Use-cases dashboard comp
-- Where are you starting?
-- Which of the comps are you going off of?
-- What properties need to be accounted for in the data model?
-- What is a good structure for the JSON file?
-- How many unique elements are there to help with scoping?
-- Any other considerations / unknowns?
-
-This will run about 30 minutes and I'd like answers / take aways posted to the thread associated with your project. (adding below this post)
-
-# Week 14 - Turkey
-end of week 14, Sunday Dec 1 is when check in 1 is due
-
-# Week 15,16
-## Tues
-I'll do a live review of two projects based on check in 1 that are both making great progress, giving feedback and time to ask questions. Then you'll have more time to work.
-- [Class Recording of review](https://www.youtube.com/watch?v=BsdiRoCOuA8)
-- Project A - https://github.com/Eglicky/rpg-new
-- Project B - https://github.com/izzabizz5/hax-use-case-app
-
-## Thusday
-- Remote office hours - no class
-
-## Sunday
-- Check in 2 is due.
-- This check in should include code that is largely working and in the right direction (3pts)
-- demo built on vercel is required (2pts)
-- any questions / issues you are having that you will bring to class / office hours for TAs (1pts)
-
-# Week 16
+# Week 2: Git / Github
 ## Tuesday
-Live review of these two projects:
-- https://github.com/tay3434/rpg-character/ 
-- https://github.com/nazman-hub/HAX-dashboard 
-- recording: https://www.youtube.com/watch?v=CY8wnl40lgM 
-More time to work and ask question
-### "My icons won't load on vercel"
-If you have having issues w/ icons on vercel but they work locally; try this. Run the following command:
-```bash
-npm install --save rollup-plugin-copy
-```
-then edit `rollup.config.js` and add this import
-```js
-import copy from 'rollup-plugin-copy';
-```
-then after the `html({}),` block in this object, call the following
-```js
- copy({
-  targets: [
-    {
-      src: 'node_modules/@haxtheweb/simple-icon/lib/svgs',
-      dest: 'public',
-    },
-    {
-      src: 'node_modules/@haxtheweb/hax-iconset/lib/svgs',
-      dest: 'public',
-    },
-  ],
-}),
-```
-similar past solution: https://github.com/btopro/haxcms-user-flow/blob/master/rollup.config.js
+- Git lecture
+- Slides: https://docs.google.com/presentation/d/1bfNIILQxz8giCLSszmdvDnfNDXY9fpcgYgc-cDE1fFQ/edit?usp=sharing
+- Git activity in class
 
-This *may* be needed if you use `simple-icon` but is not gaurunteed.
+## Wed between class
+- Watch this video of me solving a problem and the full end to end pipeline with github and process: https://www.youtube.com/watch?v=oc7sNh2Zisg
+- **HW Part 1** listed below: do between class for discussion as well as jump starting the homework
 
 ## Thursday
-- Last chance to get help and resolve issues IRL
-- Last class. Come to say goodbye / fist bump
-- It's been fun working with you this semester. Good luck out there.
-- Final Project is Due Dec 17 by 11:59pm. Anything submitted after that is considered late and subject to late policy
+- Slide deck for Thurs which I will run through very quickly (you can read on your own time or use as basis to google concepts) https://docs.google.com/presentation/d/1rbC4d-sXTyDUArLPXl-tBEQ8ZJldD9_QFfuFhgIW73g/edit?usp=sharing
+- Live coding / paint by numbers: Let's make a button
+- Starting into homework in class below as Part 2 (Part 1 you will do independently)
+
+## Homework
+Two-part homework this week; we will have time in class Thurs to start and then Tues the focus will be critique via submissions generated by the class.
+
+### HW Part 1
+- https://www.w3schools.com/ -- Do the "Learn CSS" tutorials (all of them, this is mostly a primer and they go quick as you start to get them)
+- Fork this pen on codepen https://codepen.io/btopro/pen/gOjGpam
+- Try to make more than 1 meme by duplicating the HTML portion of the code
+- Modify the text / image used in the meme on the HTML portion
+- Try to modify the font-size using the CSS tab.
+- Make a new HAX.PSU.EDU BLOG POST where you try to answer the following questions
+  - Provide a Link to your fork of the codepen
+  - Look at the CSS / styles; What's special about `--meme-maker-font-size-medium`?
+  - Look at @media in styles() what does this do?
+  - In the CSS area, write a selector for changing the font color on both tags. If you can change this, how did you do it? If  you can't, why don't you think it is working?
+
+### Part 2:
+- here's what I made in a previous class: https://codepen.io/btopro/pen/dyrWXBp
+- Working with your pod, come up with an agreed upon visual as to how you'd conceive the following problem:
+#### We need to make a card with a fancy button on it
+- I will model the button on the white board
+- I'll use codepen to create the button based on my model - https://codepen.io/btopro/pen/dyrWXBp
+- You are free to follow along and copy or just watch and ingest technique
+
+#### Now it's your turn, kicked up a notch
+- Working with your Pod, created a shared model of a card visually based on the requirements below
+- model things after the screenshot / pen and paper copy you came up with
+
+#### Required steps:
+- Create a new codepen from scratch and try to create a "card" using a mix of semantic, div and other tags to lay the card out:
+- Create a simple “card” using a few SECTION or DIV tags, a Heading for the title, a Paragraph for description of the image an IMG for an image, and a button on the card that says "Details" which links to hax.psu.edu
+- Make the image a fixed size via height / width and ensure the card is no bigger than 400px wide (height is weird in CSS, ignore height)
+- Use the Border, Margin, and padding attributes in order to space the card to visually be appealing (the internet can help influence something to model, try making things 8px and then 12, then 16 to find what you like, ratios are key)
+- Add a media query that only shows the details button when the screen is smaller than 800px (generally a small tablet) but larger than 500px (phone)
+- Add a media query that scales the card (and image / items within) when on a screen smaller than 500px (generally considered phone)
+- Create a new blog post on hax.psu.edu
+
+#### Remediation
+I will not verify you completing the assigned tutorials from HTML and CSS, but both are important to understand the fundamentals of the langauges and you'll ask less questions about it if you did them:
+- https://www.w3schools.com/html/default.asp
+- https://www.w3schools.com/css/default.asp
+- https://oer.hax.psu.edu/bto108/sites/ist256/resources -- the resources section of the course site has links to free "books" which cover a lot of fundamentals as well
+
+## Homework Submission
+**Submit the link to your HAX.PSU BLOG POST in Canvas**
+The HAX.PSU BLOG POST should include the following:
+- A link to your code pen fork from Part 1 of the meme and part 2 of the "Card"
+- Answers to the questions asked about part 1.
+- If you found particular websites helpful from a tutorial perspective on any of these specific requirements, then include them so we can share with the class.
+- If you have questioned unanswered / things you couldn't figure out from the "Card" activity, what are they?
+- a picture of the mock up you were trying to model the card off of (YOU CAN UPLOAD VIA DRAG AND DROP OR BLOCKS TAB OR MERLIN MENU AT THE TOP OF THE UI)
+
