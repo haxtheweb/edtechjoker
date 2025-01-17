@@ -2,6 +2,103 @@
 
 This is a list of common problems and common remedies. Before raising your hand or saying your stuck, ensure you've consulted this list as it's most likely what I am going to ask you to run through.
 
+# Table of Contents
+[Windows Installation](#windows-installation)
+
+[MacOS Installation](#macos-installation)
+
+[I did X and it didn't work](#i-did-x-and-it-didnt-work)
+
+## Windows Installation
+If you have an error like this:
+```ps1
+Error on terminal: node.ps1 cannot be loaded because running scripts is disabled on this system.
+```
+Then you'll need to modify your PowerShell permissions on Windows with the following steps.
+
+1. Open **PowerShell** as **Administrator**
+2. Run the command
+   
+   ``` ps1
+   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
+   ```
+
+3. Restart your terminal
+
+PowerShell blocks all scripts downloaded from the internet by default. This command will allow PowerShell to run downloads that have a trusted signature.
+
+## MacOS Installation
+If you have an error like this with **global** commands:
+``` bash
+EACCES: permission denied, access '/usr/local/lib/node_modules'
+```
+Then you'll need to modify some folder permissions on your system. MacOS is more locked down than Windows or Linux, but there are a few ways to overcome this.
+
+### Using Sudo
+As a Unix-based operating system, MacOS allows you to run console commands as an administrator, or superuser. **sudo** is short for **superuser do**. You can run a command with **sudo** by adding it to the front of the line.
+* ```
+  sudo npm install -g packagename
+  ```
+  
+* ```
+  sudo hax start
+  ```
+  
+This will work for the scope of the class, but the **sudo** keyword will need to be used before every **global** command.
+
+### Modifying Folder Ownership
+You can also change the owner of this global **node_modules** folder to yourself. This can be more convenient since you won't need to use **sudo** on every command. Either target the specific `node` folder:
+* ```
+  sudo chown -R $USER /usr/local/lib/node_modules
+  ```
+  
+Or target its parent `usr/local`:
+* ```
+  sudo chown -R $USER /usr/local/
+  ```
+
+**NOTE:** Do not modify these commands without consulting the teaching team. Running **chown** (change owner) on the top level `/usr/` folder can risk breaking your OS install.
+
+### Changing the Node PATH (Advanced)
+Making your own custom **Node PATH** is a more preferred solution for security purposes. However, it is also more complex to setup. If you're interested in trying to apply this, please follow these commands in order:
+1. Make a new folder in your **home** directory
+   
+   ```
+   mkdir "${HOME}/.npm-packages"
+   ```
+
+2. Point to your new folder with **npm**. This makes it the new target for global packages.
+   
+   ```
+   npm config set prefix "${HOME}/.npm-packages"
+   ```
+   
+4. Make sure that you're currently in the **home** directory
+   
+   ```
+   cd ~
+   ```
+   
+5. Enter your **.zshrc** file
+   
+   ```
+   open -t .zshrc
+   ```
+   
+6. Add your new folder to the **system PATH** by pasting these lines at the end of the file
+   
+   ```
+   NPM_PACKAGES="${HOME}/.npm-packages"
+     
+   export PATH="$PATH:$NPM_PACKAGES/bin"
+     
+   # Preserve MANPATH if you already defined it somewhere in your config.
+   # Otherwise, fall back to `manpath` so we can inherit from `/etc/manpath`.
+   export MANPATH="${MANPATH-$(manpath)}:$NPM_PACKAGES/share/man"
+   ```
+   
+6) Save the file and restart your terminal
+
 ## I did X and it didn't work
 
 ### Terminal / command line
