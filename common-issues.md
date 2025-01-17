@@ -34,20 +34,8 @@ EACCES: permission denied, access '/usr/local/lib/node_modules'
 ```
 Then you'll need to modify some folder permissions on your system. MacOS is more locked down than Windows or Linux, but there are a few ways to overcome this.
 
-### Using Sudo
-As a Unix-based operating system, MacOS allows you to run console commands as an administrator, or superuser. **sudo** is short for **superuser do**. You can run a command with **sudo** by adding it to the front of the line.
-* ```
-  sudo npm install -g packagename
-  ```
-  
-* ```
-  sudo hax start
-  ```
-  
-This will work for the scope of the class, but the **sudo** keyword will need to be used before every **global** command.
-
 ### Modifying Folder Ownership
-You can also change the owner of this global **node_modules** folder to yourself. This can be more convenient since you won't need to use **sudo** on every command. Either target the specific `node` folder:
+You can change the owner of this global **node_modules** folder to yourself. Either target the specific `node` folder:
 * ```
   sudo chown -R $USER /usr/local/lib/node_modules
   ```
@@ -98,6 +86,18 @@ Making your own custom **Node PATH** is a more preferred solution for security p
    ```
    
 6) Save the file and restart your terminal
+
+### Using Sudo (Last Resort)
+As a Unix-based operating system, MacOS allows you to run console commands as an administrator, or superuser. **sudo** is short for **superuser do**. You can run a command with **sudo** by adding it to the front of the line.
+* ```
+  sudo npm install -g packagename
+  ```
+  
+* ```
+  sudo hax start
+  ```
+  
+**NOTE:** This will work for the scope of the class, but there are some inherent security implications with it. In this circumstance, every **Node** process will run as a **superuser**. Any malicious script would then have full permissions on your system. Only use this approach as a last resort.
 
 ## I did X and it didn't work
 
