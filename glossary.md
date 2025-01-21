@@ -39,7 +39,14 @@ https://www.markdownguide.org/getting-started/
 
 
 ## WordPress CMS
+WordPress is a free and open-source content management system written in PHP and paired with a MySQL or MariaDB database with supported HTTPS. Features include a plugin architecture and a template system, referred to within WordPress as Themes.
 
+- A great CMS for starters
+- Really terrible community right now
+- oi... it's got a11y issues big time
+
+[Wordpress CMS](https://wordpress.org)
+[Wordpress](https://wordpress.com)
 
 ## Backdrop CMS
 
