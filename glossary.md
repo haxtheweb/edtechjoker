@@ -5,6 +5,16 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## HTML
+HTML, HyperText Markup Language is the standardized markup language for web page documents. It allows for the configuration and formation of 
+web page content.
+
+- Is a very cool language
+- Very fun
+- Used in conjuction with CSS and JS
+
+[W3Schools](https://www.w3schools.com/html/)
+[Wikipedia](https://en.wikipedia.org/wiki/HTML)
+[HTML](https://html.com/)
 
 ## CSS
 
