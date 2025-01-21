@@ -183,7 +183,11 @@ It can also be used for other tasks related to containers.
 
 
 ## Nginx
+is an open-source software that serves web pages, balances loads, caches content, and more.
+NGINX Plus and NGINX are the best-in-class web server and application delivery solutions used by high‑traffic websites such as Dropbox, Netflix, and Zynga. More than 350 million websites worldwide rely on NGINX Plus and NGINX Open Source to deliver their content quickly, reliably, and securely.
 
+
+https://nginx.org/
 
 ## Apache Web server
 Also known as an Apache HTTP Server, an Apache web server is an open-source software that essentially helps websites accesible on the internet
