@@ -23,7 +23,7 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## Git
-Git is a free, open-source version control system (VCS) that tracks changes to code files and projects. It's used by developers to collaborate on projects, maintain code quality, and solve problems. Git is used to track changes in the source code, enabling multiple developers to work together on non-linear development.
+Git is a free, open-source version control system (VCS) that tracks changes to code files and projects. It's used by developers to collaborate on projects, maintain code quality, and solve problems. Git is used to track changes in the source code, enabling multiple developers to work together on non-linear development. 
 Sources:
 [Simplilearn](https://www.simplilearn.com/tutorials/git-tutorial/what-is-git#:~:text=What%20is%20Git%3F&text=Git%20is%20a%20DevOps%20tool,together%20on%20non-linear%20development.)
 [git-scm](https://git-scm.com)
