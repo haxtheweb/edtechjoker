@@ -48,13 +48,17 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## VSCode
-Visual Studio Code, commonly known as VScode, is a source code editor created by everyone's favorite company Microsoft. Features include debugging, syntax highlighting, code completion, snippets, code refactoring and Git. VScode is a useful tool to wrtie a multitude of coding languages in a singular loaction/application.
+Visual Studio Code, commonly known as VScode, is a source code editor created by everyone's favorite company Microsoft. Features include debugging, syntax highlighting, code completion, snippets, code refactoring, and Git. VScode is a useful tool to write a multitude of coding languages in a singular action/application.
 https://code.visualstudio.com/
 https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## Syntactically Awesome Style Sheets (Sass)
+Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets (CSS). SassScript is the actual scripting language itself. Sass consists of two syntaxes. 
+The original syntax, called "the indented syntax," uses a syntax similar to Haml. It uses indentation to separate code blocks and newline characters to separate rules. The newer syntax, SCSS (Sassy CSS), uses block formatting like that of CSS. It uses braces to denote code blocks and semicolons to separate rules within a block. The indented syntax and SCSS files are traditionally given the extensions .sass and .scss, respectively.
 
+[Sass Website](https://sass-lang.com/)
+[Intro to Sass](https://www.w3schools.com/sass/sass_intro.asp)
 
 ## Web Components
 
