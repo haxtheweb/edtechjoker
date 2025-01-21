@@ -23,7 +23,9 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## Git
-
+Git is a distributed version control system used to track changes in code, collaborate on projects, and manage source code efficiently. It allows multiple developers to work on the same project simultaneously without overwriting each other's changes. Git provides tools to save snapshots of your project (commits), view or revert to previous versions, and resolve conflicts when merging changes from different contributors.
+https://www.geeksforgeeks.org/what-is-git/
+https://www.freecodecamp.org/news/what-is-git-and-how-to-use-it-c341b049ae61/
 
 ## Content Management System
 
@@ -49,8 +51,8 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 ## VSCode
 Visual Studio Code, commonly known as VScode, is a source code editor created by everyone's favorite company Microsoft. Features include debugging, syntax highlighting, code completion, snippets, code refactoring and Git. VScode is a useful tool to wrtie a multitude of coding languages in a singular loaction/application.
-https://code.visualstudio.com/
-https://en.wikipedia.org/wiki/Visual_Studio_Code
+- https://code.visualstudio.com/
+- https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## Syntactically Awesome Style Sheets (Sass)
