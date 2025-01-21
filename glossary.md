@@ -26,6 +26,9 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## Content Management System
+A CMS is a tool that helps users create, edit, organize, and publish content. CMS can be used to build websites, online stores, and other digital content. Some examples of CMS include Drupal, Squarespace, Magento, and Shopify. CMS can be used by teams to manage content for a variety of purposes, including creating blogs, selling products, and tracking analytics. 
+https://kinsta.com/knowledgebase/content-management-system/
+https://www.optimizely.com/optimization-glossary/content-management-system/
 
 
 ## Drupal CMS
