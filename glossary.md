@@ -137,7 +137,10 @@ https://www.oracle.com/mysql/what-is-mysql/
 
 
 ## Python
+Python is a high-level, general-purpose programming language known for its readability and simplicity. It was created by Guido van Rossum and first released in 1991
+1. Python supports multiple programming paradigms, including procedural, object-oriented, and functional programming
 
+https://www.python.org/doc/essays/blurb/
 
 ## Docker
 Think of Docker like a special box filled with building blocks, the kind you'd use to make awesome stuff like houses, cars, or robots. You know how building things is fun, but redoing them exactly the same way can be a bit of a chore? Well, Docker comes to the rescue! It's like a super-efficient building block organizer. You can store all the specific blocks you need in this virtual box, and when you want to build something again, Docker helps you put them all together effortlessly.
