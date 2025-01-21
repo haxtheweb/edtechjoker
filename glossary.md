@@ -213,6 +213,7 @@ OpenFaaS makes it easy for developers to deploy event-driven functions and micro
 * Easy to use - built-in UI, powerful CLI and one-click installation
 * Scale as you go - handle spikes in traffic, and scale down when idle
 * Ecosystem - community marketplace for functions and language templates
+
 [https://www.openfaas.com/]
 ## PaaS
 (Platform as a Service) 
