@@ -75,7 +75,10 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## Open Source Software
-
+Open source software (OSS) is software that is available for anyone to use, modify, and distribute.
+* Source code
+* License
+* Collaboration
 
 ## Apereo Foundation
 
