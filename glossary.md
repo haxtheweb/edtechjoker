@@ -72,7 +72,9 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## HAXTheWeb
+Built on top of the W3C meta-specification "web components" the HAX authoring environment is extended by extending the web. HAX knows how to edit web components.
 
+Write HTML without realizing it, in a highly semantic, forever format that never breaks, won't need maintained, and yet is easy to use. Let's unlock creativity and self expression for all users, regardless of technical ability.
 
 ## Open Source Software
 
