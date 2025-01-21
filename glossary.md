@@ -2,34 +2,25 @@
 Write a paragraph explaining the term below, including 2-3 relevent links to more information about the topic.
 
 ## Front end Developer
-A front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to access and interact with the site or app. When you visit a website, the design elements you see were created by a front-end developer. Front-end developers create the user interface (UI) that determines what each part of a site or application does and how it will look.
 
-More to read: https://www.coursera.org/articles/front-end-developer, https://bootcamp.berkeley.edu/resources/coding/learn-web-development/what-does-a-front-end-web-developer-do/
 
 ## HTML
-Hawwwwwww teeee meee laaaa
 
 ## CSS
 
 
 ## JavaScript
-JavaScript is an object-oriented computer programming language commonly used to create interactive effects within web browsers. JavaScript is involved in just about every website known to man. Whether they update their content in real time, have funny animations, any effects on screen, etc uses JavaScript. 
-https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript
-https://www.w3schools.com/whatis/whatis_js.asp
 
 ## Yarn
 
 
 ## NPM
-Node Package Manager or NPM for short is where developers can find, create or build code packages. This can be especially useful for web development where developers have large amount of code and they can use the package manager to handle dependencies. npm is the world largest software registry and currently contains over 800,000 code packages. These packages are open source. [For more info click here](https://www.npmjs.com/) [or to learn how to use it click here](https://www.w3schools.com/whatis/whatis_npm.asp)
+
 
 ## Package Manager
 
 ## Markdown
-Markdown is a lightweight markup language that is essentially a simplified version of HTML. It is used to write in this GitHub file. You can use Markdown by using symbols and other elements to indicate what text is to be changed when formatted. Markdown is a more user-friendly method to format text as it has simple syntax and a smaller scale of stylistic options than HTML. Eventually, Markdown can be translated into HTML but requires an additional processor. 
 
-https://www.knowledgehut.com/blog/web-development/what-is-markdown
-https://www.markdownguide.org/getting-started/
 
 ## Git
 
@@ -54,8 +45,7 @@ https://www.markdownguide.org/getting-started/
 
 
 ## IDE
-An IDE, or Integrated Development Environment, is an application used to write, run, and test code. IDEs are used by programmers to develop software in an easy manner without having to risk ruining live versions of the code. Basic functions of an IDE usually include a source code editor, a build automation tool, and a debugger. 
-https://umbraco.com/knowledge-base/development-environment/#:~:text=The%20purpose%20of%20a%20development,working%20on%20a%20live%20website.
+
 
 ## VSCode
 Visual Studio Code, commonly known as VScode, is a source code editor created by everyone's favorite company Microsoft. Features include debugging, syntax highlighting, code completion, snippets, code refactoring and Git. VScode is a useful tool to wrtie a multitude of coding languages in a singular loaction/application.
@@ -81,13 +71,7 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 ## WCFactory
 
 
-## LRNWebComponents
-
-
-## ELMS: Learning Network
-
-
-## HAX (editor)
+## HAXTheWeb
 
 
 ## Open Source Software
@@ -104,6 +88,7 @@ Bash is a scripting language that lets users execute commands, do complex operat
 https://unstop.com/blog/what-is-bash
 
 ## SEO
+
 
 ## PHP
 PHP is an open source server-side scripting language which developers use. Server-side means that the script is being executed on the back-end instead of the front-end. PHP is mostly used for webservers and can also run on the command line. There are a lot of things that PHP can do, including: encrypting data,send and recieve cookies, generate dynamic page content, among others. Companies like Facebook, Wikipedia use PHP. Some advantages of PHP include:
@@ -219,8 +204,6 @@ https://httpd.apache.org/
 
 
 ## Webpack
-Webpack is a static module bundling tool that was mostly designed for Jacascript, but is also works for HTML and CSS. Webpack is a tool the bundles pieces of code and their dependencies together into one file or multiple files by procesing the application and creating a dependency graph.  Webpack is a free and open source tool that can be used to efficinetly enhance workflows and the performance of web applications. Learn more about Webpack here: https://webpack.js.org/ and here: https://www.freecodecamp.org/news/an-intro-to-webpack-what-it-is-and-how-to-use-it-8304ecdc3c60/
-
 
 
 ## OpenFaaS
