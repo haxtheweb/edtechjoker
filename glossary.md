@@ -35,7 +35,10 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## Backdrop CMS
+Backdrop is a Content Management System. A CMS is a database driven website that allows people to log in, and with permission, allows them to edit nearly any page. Backdrop can be used to create almost any type of website.
 
+[Backdrop CMS ] (https://backdropcms.org)
+[Backdrop CMS | CMS ] (https://www.drupal.org/backdrop-cms)
 
 ## GravCMS
 
