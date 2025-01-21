@@ -57,7 +57,10 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## Web Components
-
+Web components make up websites. They are standardized components that allow for easy website development. You can also create custom components.
+They consist of HTML elements.
+https://developer.mozilla.org/en-US/docs/Web/API/Web_components
+https://javascript.info/web-components
 
 ## LitElement
 
