@@ -21,7 +21,7 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 ## Markdown
 Markdown is a lightweight markup language that many technical professionals use to create and edit technical documents. With Markdown, you write text in a plain text editor (such as vi or Emacs), inserting special characters to create headers, boldface, bullets, and so on.
-https://developers.google.com/tech-writing/one/markdown#:~:text=Markdown%20is%20a%20lightweight%20markup,%2C%20bullets%2C%20and%20so%20on.
+[Markdown](https://developers.google.com/tech-writing/one/markdown#:~:text=Markdown%20is%20a%20lightweight%20markup,%2C%20bullets%2C%20and%20so%20on.)
 
 ## Git
 
