@@ -114,6 +114,12 @@ https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introd
 ## Angular
 
 ## React
+React is a JavaScript library for building user interfaces (UIs). It allows developers to create reusable UI components, which can be combined to build complex applications. React is widely used in web development, mobile app development, and even desktop app development.
+- Created by Facebook
+- Based on a component-based architecture that makes it easy to manage and update UIs by breaking them into smaller, reusable parts.
+Sources:
+- https://www.w3schools.com/whatis/whatis_react.asp
+- https://www.geeksforgeeks.org/what-is-react/
 
 ## Vue.js
 
