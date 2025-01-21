@@ -15,6 +15,9 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## NPM
+NPM stands for node package manager. This is the worlds largest software library. NPM is a free open source registry used for javascript packages.
+
+https://www.w3schools.com/whatis/whatis_npm.asp
 
 
 ## Package Manager
