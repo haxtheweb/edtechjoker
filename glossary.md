@@ -213,6 +213,11 @@ https://httpd.apache.org/
 (Platform as a Service) 
 PaaS (Platform as a Service), as the name suggests, provides you computing platforms which typically includes operating system, programming language execution environment, database, web server etc. Examples: AWS Elastic Beanstalk, Windows Azure, Heroku, Force.com, Google App Engine, Apache Stratos.
 
+* Cloud computing service
+* Provider hosts hardware and software
+* Users can access the hardware and software over the internet
+* Provides the users with tools to build, run, and manage applications. 
+
 ## SaaS
 Saas stands for Software as a Service and is a way for applications to be accessed over the internet
 (Software as a Service) is a software licensing and delivery model in which software is licensed on a subscription basis.
