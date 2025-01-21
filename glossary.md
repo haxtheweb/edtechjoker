@@ -41,7 +41,7 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## Gulp.js
-
+Gulp is a task runner that uses Node.js as a platform. Gulp purely uses the JavaScript code and helps to run front-end tasks and large-scale web applications. It builds system automated tasks like CSS and HTML minification, concatenating library files, and compiling the SASS files. These tasks can be run using Shell or Bash scripts on the command line.
 
 
 ## IDE
