@@ -20,7 +20,11 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 ## Package Manager
 
 ## Markdown
-
+Markdown is a markup language that allows users to add formatting to plain text documents. It's used to create technical documents, documentation, blog posts, and more. 
+* Can be used in a plain text editor
+* Simpiler alternative to HTML
+* Not much space for styling formats
+[link] (https://www.markdownguide.org/getting-started/)
 
 ## Git
 
