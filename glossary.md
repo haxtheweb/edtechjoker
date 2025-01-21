@@ -12,7 +12,10 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 ## JavaScript
 
 ## Yarn
+- Yarn coding is an open-source package manager primarily used for JavaScript projects, that allows developers to easily install, manage, and update required libraries for their code.
+- Often considered a faster and more reliable alternative to the standard "npm" package manager that comes with Node.JS
 
+[Yarn](https://yarnpkg.com)
 
 ## NPM
 
