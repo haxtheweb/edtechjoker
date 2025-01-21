@@ -24,7 +24,12 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 ## Package Manager
 
 ## Markdown
-
+- Lightweight markup language
+- Makes formatting plain text easier
+- Very helpful to translate to HTML
+- Use .md and used very often for coding and documentation\
+[What is Markdown?](https://www.markdownguide.org/getting-started/)\
+[Using Markdown with Apple News Format (interesting](https://developer.apple.com/documentation/applenews/using-markdown-with-apple-news-format)
 
 ## Git
 
@@ -49,16 +54,26 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## IDE
-
+- https://www.codecademy.com/article/what-is-an-ide
+- https://www.techtarget.com/searchsoftwarequality/definition/integrated-development-environment
+- https://www.geeksforgeeks.org/what-is-ide/
+- An Integrated Development Environment (IDE) is an application that provides comprehensive facilities to computer programmers for software development
+- These IDE's provide an easier and frendlier experance for the user
+- They also help with debugging and solving issues you may not be sure how to solve yourself
+- Some IDE's are also custom to what you are looking for some beign database based or mobile apps atc
 
 ## VSCode
-Visual Studio Code, commonly known as VScode, is a source code editor created by everyone's favorite company Microsoft. Features include debugging, syntax highlighting, code completion, snippets, code refactoring and Git. VScode is a useful tool to wrtie a multitude of coding languages in a singular loaction/application.
+Visual Studio Code, commonly known as VScode, is a source code editor created by everyone's favorite company Microsoft. Features include debugging, syntax highlighting, code completion, snippets, code refactoring, and Git. VScode is a useful tool to write a multitude of coding languages in a singular action/application.
 https://code.visualstudio.com/
 https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## Syntactically Awesome Style Sheets (Sass)
+Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets (CSS). SassScript is the actual scripting language itself. Sass consists of two syntaxes. 
+The original syntax, called "the indented syntax," uses a syntax similar to Haml. It uses indentation to separate code blocks and newline characters to separate rules. The newer syntax, SCSS (Sassy CSS), uses block formatting like that of CSS. It uses braces to denote code blocks and semicolons to separate rules within a block. The indented syntax and SCSS files are traditionally given the extensions .sass and .scss, respectively.
 
+[Sass Website](https://sass-lang.com/)
+[Intro to Sass](https://www.w3schools.com/sass/sass_intro.asp)
 
 ## Web Components
 
@@ -141,7 +156,10 @@ https://www.oracle.com/mysql/what-is-mysql/
 
 
 ## Python
+Python is a high-level, general-purpose programming language known for its readability and simplicity. It was created by Guido van Rossum and first released in 1991
+1. Python supports multiple programming paradigms, including procedural, object-oriented, and functional programming
 
+https://www.python.org/doc/essays/blurb/
 
 ## Docker
 Think of Docker like a special box filled with building blocks, the kind you'd use to make awesome stuff like houses, cars, or robots. You know how building things is fun, but redoing them exactly the same way can be a bit of a chore? Well, Docker comes to the rescue! It's like a super-efficient building block organizer. You can store all the specific blocks you need in this virtual box, and when you want to build something again, Docker helps you put them all together effortlessly.
