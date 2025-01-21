@@ -49,7 +49,8 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 - An Integrated Development Environment (IDE) is an application that provides comprehensive facilities to computer programmers for software development
 - These IDE's provide an easier and frendlier experance for the user
 - They also help with debugging and solving issues you may not be sure how to solve yourself
-
+- Some IDE's are also custom to what you are looking for some beign database based or mobile apps atc
+  
 ## VSCode
 Visual Studio Code, commonly known as VScode, is a source code editor created by everyone's favorite company Microsoft. Features include debugging, syntax highlighting, code completion, snippets, code refactoring and Git. VScode is a useful tool to wrtie a multitude of coding languages in a singular loaction/application.
 https://code.visualstudio.com/
