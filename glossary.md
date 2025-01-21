@@ -41,7 +41,15 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## Gulp.js
+Gulp.js is a toolkit to automate and enhance your workflow. It is a task runner that uses Node.js as a platform. Gulp uses JavaScript code to run front-end tasks and large-scale web applications. 
 
+Things gulp does:
+- builds system automated tasks like CSS and HTML minification
+- concatenates library files
+- compiles the SASS files.
+
+https://medium.com/swlh/a-beginners-guide-to-gulp-4097f8f8f919
+https://gulpjs.com/
 
 
 ## IDE
