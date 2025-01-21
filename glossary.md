@@ -32,7 +32,7 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## WordPress CMS
-
+open-source content management system (CMS) that allows users to create, manage, and modify websites easily without needing to code from scratch. It is one of the most popular CMS platforms in the world and powers over 40% of websites on the internet.
 
 ## Backdrop CMS
 
@@ -60,7 +60,7 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## LitElement
-
+a lightweight, fast, and simple library for building Web Components using JavaScript or TypeScript. It is developed by the Polymer Project team at Google and allows you to create reusable custom elements with minimal boilerplate. LitElement is part of the larger Lit library.
 
 ## lit-html
 
