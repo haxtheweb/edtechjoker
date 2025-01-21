@@ -2,14 +2,18 @@
 Write a paragraph explaining the term below, including 2-3 relevent links to more information about the topic.
 
 ## Front end Developer
+A front-end developer creates the visible parts of a website or web application that users interact with. They use programming languages like HTML, CSS, and JavaScript to design and implement the user interface (UI). 
 
 
 ## HTML
+Hypertext Markup Language, a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.
 
 ## CSS
+CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.
 
 
 ## JavaScript
+JavaScript (often abbreviated as JS) is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. It is used to add interactivity and dynamic behavior to web pages, enabling features like:
 
 ## Yarn
 
@@ -32,7 +36,9 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## WordPress CMS
-
+WordPress is a free, open-source content management system (CMS) that allows users to build and manage websites. It's a popular choice for individuals who want to create blogs or websites without coding experience. 
+- Great for CMS starters
+- 
 
 ## Backdrop CMS
 
