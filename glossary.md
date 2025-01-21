@@ -20,7 +20,12 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 ## Package Manager
 
 ## Markdown
-
+- Lightweight markup language
+- Makes formatting plain text easier
+- Very helpful to translate to HTML
+- Use .md and used very often for coding and documentation\
+[What is Markdown?](https://www.markdownguide.org/getting-started/)\
+[Using Markdown with Apple News Format (interesting](https://developer.apple.com/documentation/applenews/using-markdown-with-apple-news-format)
 
 ## Git
 
