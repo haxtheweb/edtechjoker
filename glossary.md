@@ -45,7 +45,7 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## IDE
-
+IDE or Integrated Development Environment is a software application that provides comprehensive facilities to programmers for software development. Some popular IDEs include Visual Studio, Eclipse, and IntelliJ IDEA. IDEs are designed o maximize programmer productivity by offering a cohesive set of tools in a single interface, making the development process more efficient and streamlined.
 
 ## VSCode
 Visual Studio Code, commonly known as VScode, is a source code editor created by everyone's favorite company Microsoft. Features include debugging, syntax highlighting, code completion, snippets, code refactoring and Git. VScode is a useful tool to wrtie a multitude of coding languages in a singular loaction/application.
