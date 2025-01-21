@@ -225,8 +225,14 @@ https://httpd.apache.org/
 
 
 ## OpenFaaS
+OpenFaaS makes it easy for developers to deploy event-driven functions and microservices to Kubernetes without repetitive, boiler-plate coding. Package your code or an existing binary in a Docker image to get a highly scalable endpoint with auto-scaling and metrics.
+* Portable functions platform - run functions on any cloud or on-premises without fear of lock-in
+* Write functions in any language and package them in Docker/OCI-format containers
+* Easy to use - built-in UI, powerful CLI and one-click installation
+* Scale as you go - handle spikes in traffic, and scale down when idle
+* Ecosystem - community marketplace for functions and language templates
 
-
+[https://www.openfaas.com/]
 ## PaaS
 (Platform as a Service) 
 PaaS (Platform as a Service), as the name suggests, provides you computing platforms which typically includes operating system, programming language execution environment, database, web server etc. Examples: AWS Elastic Beanstalk, Windows Azure, Heroku, Force.com, Google App Engine, Apache Stratos.
