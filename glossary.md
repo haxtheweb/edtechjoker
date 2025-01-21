@@ -60,7 +60,8 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## LitElement
-
+- used to create fast, lightweight web components
+- uses lit-html
 
 ## lit-html
 
