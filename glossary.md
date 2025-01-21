@@ -5,6 +5,10 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## HTML
+**HTML (HyperText Markup Language)** is a markup language that defines the content of a website and it's structure. Other langauges, (such as CSS and JavaScript,) can interact with HTML to alter the display of the content of a page and how users interact with it. Often used in-tandem with other languages. 
+
+[W3Schools](https://www.w3schools.com/Html/), a brief tutorial on HTML
+[OneCompiler](https://onecompiler.com/html), which can be used to view live code.
 
 ## CSS
 
