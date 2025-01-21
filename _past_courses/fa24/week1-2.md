@@ -1,15 +1,3 @@
-# Draft outline
-This is a draft of the course. The topics we'll cover and the order. It will be established and modified based on student needs and how things are going / what people ask for as far as needing things that match the trajectory we're on.
-
-# Schedule
-This schedule will be modified as we go. Look to it for what we are doing in clas that day / week. This becomes more refined as we get closer to the dates. I modulate based on needing to remediate on concepts of adding concepts based on how far we get that week.
-
-# Common issues
-Before saying "it doesn't work" with web development in general, please consult this [common issues document](common-issues.md). It is the solution to 95% of the problems I've seen young web devs have when working with web components, terminal, VS code and javascript/html/css more broadly.
-
-# Past weeks
-- To be filled out as we go
-
 # Week 1 - The one with getting started
 ## Tues - The one where we go through the contract
 - Welcome and syllabus day
@@ -120,4 +108,3 @@ The HAX.PSU BLOG POST should include the following:
 - If you found particular websites helpful from a tutorial perspective on any of these specific requirements, then include them so we can share with the class.
 - If you have questioned unanswered / things you couldn't figure out from the "Card" activity, what are they?
 - a picture of the mock up you were trying to model the card off of (YOU CAN UPLOAD VIA DRAG AND DROP OR BLOCKS TAB OR MERLIN MENU AT THE TOP OF THE UI)
-
