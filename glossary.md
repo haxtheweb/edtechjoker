@@ -112,7 +112,8 @@ https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introd
 
 
 ## Angular
-
+Angular is a popular web application framework developed and maintained by Google. It's used for building dynamic, single-page web applications (SPAs)
+ *It's a complete rewrite of the older AngularJS (Angular 1.x), built with TypeScript and offering improved performance and features. When people say "Angular" today, they typically mean Angular 2+ (the modern versions), not AngularJS.
 ## React
 
 ## Vue.js
