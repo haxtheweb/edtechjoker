@@ -15,7 +15,11 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## NPM
-
+NPM stands for Node Packet Manager. 
+[NPM Link](https://www.w3schools.com/whatis/whatis_npm.asp)
+- Worlds largest software repository
+- Free
+- Can manage and install dependencies 
 
 ## Package Manager
 
