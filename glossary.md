@@ -5,7 +5,7 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## HTML
-The standard markup language used to create and design web pages. It defines the structure and layout of a web page by using a variety of tags and attributes. 
+HyperText Markup Language,is the standard markup language used to create and design web pages. It defines the structure and layout of a web page by using a variety of tags and attributes. 
 
 [](https://www.geeksforgeeks.org/uses-of-html/)
 ## CSS
