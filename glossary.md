@@ -86,6 +86,9 @@ The original syntax, called "the indented syntax," uses a syntax similar to Haml
 
 
 ## Apereo Foundation
+Apereo Foundation is a non-profit organization that supports open source software for education and research institutions.It supports a community-driven ecosystem that develops and sustains software projects, promoting collaboration, innovation, and knowledge sharing.
+https://www.apereo.org/about
+https://www.apereo.org/programs
 
 
 ## TravisCI
