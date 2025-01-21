@@ -81,7 +81,7 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## TravisCI
-
+GIthub is a competitor to Travis CI. https://www.travis-ci.com/ is the website for Travis CI. It is less popular but it is still a viable alternative. Travis CI is a hosted Continuous Integration tool.
 
 ## Bash (sh)
 Bash is a scripting language that lets users execute commands, do complex operations, and automate tasks. It is especially useful for Linux and MacOS users.
