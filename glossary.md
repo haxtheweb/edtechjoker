@@ -111,7 +111,10 @@ https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introd
 ## Bootstrap (design library)
 
 
-## Angular
+## Angular 
+* Angular is an open-source framework for building single-page web applications (SPAs).
+* It is written in TypeScript and maintained by Google.
+* [What is TypeScript?](https://www.typescriptlang.org/)  
 
 ## React
 
