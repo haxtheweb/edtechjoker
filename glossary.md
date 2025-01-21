@@ -46,8 +46,8 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## Gulp.js
-
-
+Gulp is an open-source JavaScript toolkit, used as a streaming build system in front-end web development. 
+https://gulpjs.com/
 
 ## IDE
 - https://www.codecademy.com/article/what-is-an-ide
