@@ -81,6 +81,9 @@ The original syntax, called "the indented syntax," uses a syntax similar to Haml
 
 
 ## HAXcms
+HAXcms, Headless Authoring eXperience Content Management System, is a backend website creator. Its integrations are all put together and is considered "The magic script". it works through a flat file structure.
+https://oer.hax.psu.edu/mvw5669/sites/interaction-designs/haxcms
+https://oer.hax.psu.edu/bto108/sites/haxcellence/documentation/haxcms/integrations
 
 
 ## WCFactory
