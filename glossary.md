@@ -5,7 +5,12 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## HTML
-
+https://www.w3schools.com/html/html_intro.asp
+* Stands for Hypertext Markup Language.
+* It is used to create web pages.
+* Describes the structure of a web page
+* Tells browser how to display elements
+* HTML documents themselves always begin with <HTML> and end with </HTML>
 ## CSS
 
 
