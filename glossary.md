@@ -5,11 +5,20 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## HTML
+-A standard markup language 
+-Designs the layout and framework of a webpage 
+https://developer.mozilla.org/en-US/docs/Web/HTML
+https://html.com/
 
 ## CSS
 
 
 ## JavaScript
+-Versatile high level programming language 
+-Runs on the browser but can also be executed on servers
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript
+
+
 
 ## Yarn
 
