@@ -5,6 +5,23 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## HTML
+ * More info: https://www.w3schools.com/html/
+ * HTML is a markup langauge for web pages. It is widely used and stands as the basic framework for all web page design. With HTML there are various elements that define the content of the web page. This includes layout, text, images, videos and overall strcuture.
+ * Here is a code sample:
+ ```
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+</body>
+</html>
+``` 
 
 ## CSS
 
