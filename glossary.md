@@ -7,6 +7,7 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 ## HTML
 
 ## CSS
+CSS (Cascading Style Sheets) is a stylesheet language used to define the visual presentation and layout of HTML elements on web pages. It allows developers to control aspects like colors, fonts, spacing, and responsiveness, enabling a separation of content (HTML) from design. CSS improves web design efficiency by applying consistent styles across multiple pages and supports features like media queries for responsive designs. Developers can include CSS in three ways: inline, internal (within a <style> tag in the HTML document), or external (via a .css file linked to the HTML). CSS3, the latest version, introduces advanced features like animations, transitions, and grid layouts, enhancing the capabilities of modern web design. For more details, visit W3Schools CSS Introduction, Mozilla Developer Network CSS Guide, and CSS Tricks.
 
 
 ## JavaScript
