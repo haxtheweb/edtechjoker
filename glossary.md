@@ -137,7 +137,8 @@ https://www.oracle.com/mysql/what-is-mysql/
 
 
 ## Python
-
+Python is a dynamic, high-level, object oriented programming language. With numerous built in features, Python is used for everything from back-end programming to data analysis to machine learning. Python has incredibly easy to read syntax and extensive libraries making it an ideal langauge for first time programmers.
+- https://www.python.org/doc/essays/blurb/
 
 ## Docker
 Think of Docker like a special box filled with building blocks, the kind you'd use to make awesome stuff like houses, cars, or robots. You know how building things is fun, but redoing them exactly the same way can be a bit of a chore? Well, Docker comes to the rescue! It's like a super-efficient building block organizer. You can store all the specific blocks you need in this virtual box, and when you want to build something again, Docker helps you put them all together effortlessly.
