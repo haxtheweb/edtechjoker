@@ -45,6 +45,9 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## IDE
+IDE is short for Integrated Development Environment it helps programmers to consolidate the different aspects of writing a computer program. IDE's increase productivity by combining common activities 
+https://www.codecademy.com/article/what-is-an-ide
+https://aws.amazon.com/what-is/ide/
 
 
 ## VSCode
