@@ -7,7 +7,8 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 ## HTML
 
 ## CSS
-
+- Cascading Style Sheets
+- used to describe the presentation of a document written in HTML or XML
 
 ## JavaScript
 
