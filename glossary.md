@@ -75,7 +75,7 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## Open Source Software
-
+computer software where the source code is publicly available, allowing users to access, modify, and distribute the software freely under the terms of its license. People can modify and share because it's design is publicly designed.
 
 ## Apereo Foundation
 
