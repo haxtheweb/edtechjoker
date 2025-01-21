@@ -54,6 +54,8 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 
 ## Syntactically Awesome Style Sheets (Sass)
+Sass is a pre-processor scripting language that is compile into CSS. It provide more features and abilties then CSS and many other CSS extension languages. It's industry approved and come with many different type of framework to enhahnce CSS. It make writing CSS code less complicated, cleaner, and efficient.
+https://sass-lang.com/
 
 
 ## Web Components
