@@ -134,7 +134,9 @@ MySQL is the world’s most popular open source database. According to DB-Engine
 https://www.oracle.com/mysql/what-is-mysql/
 
 ## WebAssembly
-
+WebAssembly is a binary instruction format for a stack-based virtual machine. WebAssembly is a type of code that can be run in modern web browsers — it is a low-level assembly-like language with a compact binary format that runs with near-native performance and provides languages such as C/C++, C# and Rust with a compilation target so that they can run on the web. To simply put it, WebAssembly provides a way to run code written in multiple languages on the web at near-native speed, with client apps running on the web that previously couldn't have done so.
+- https://webassembly.org/
+- https://developer.mozilla.org/en-US/docs/WebAssembly
 
 ## Python
 
