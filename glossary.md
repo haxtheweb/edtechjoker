@@ -3,6 +3,8 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 ## Front end Developer
 
+A front-end developer uses HTML, CSS, and JavaScript to develop the graphical user interface of a website, so users can view and interact with the website.  
+https://en.wikipedia.org/wiki/Front-end_web_development
 
 ## HTML
 
