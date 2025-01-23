@@ -67,7 +67,7 @@ Before saying "it doesn't work" with web development in general, please consult 
 
 ## Thursday
 - Slide deck for Thurs which I will run through very quickly (you can read on your own time or use as basis to google concepts) https://docs.google.com/presentation/d/1rbC4d-sXTyDUArLPXl-tBEQ8ZJldD9_QFfuFhgIW73g/edit?usp=sharing
-- Live coding / paint by numbers: Let's make a button
+- **Live coding / paint by numbers**: Let's make a button
 - Starting into homework in class below as Part 2 (Part 1 you will do independently)
 
 ## Homework
