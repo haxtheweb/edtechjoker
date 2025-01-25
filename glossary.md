@@ -46,7 +46,7 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## Gulp.js
-
+Gulp is a task runner that uses Node.js as a platform. Gulp purely uses the JavaScript code and helps to run front-end tasks and large-scale web applications. It builds system automated tasks like CSS and HTML minification, concatenating library files, and compiling the SASS files. These tasks can be run using Shell or Bash scripts on the command line.
 
 
 ## IDE
@@ -87,7 +87,9 @@ The original syntax, called "the indented syntax," uses a syntax similar to Haml
 
 
 ## HAXTheWeb
+Built on top of the W3C meta-specification "web components" the HAX authoring environment is extended by extending the web. HAX knows how to edit web components.
 
+Write HTML without realizing it, in a highly semantic, forever format that never breaks, won't need maintained, and yet is easy to use. Let's unlock creativity and self expression for all users, regardless of technical ability.
 
 ## Open Source Software
 
