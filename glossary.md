@@ -2,7 +2,7 @@
 Write a paragraph explaining the term below, including 2-3 relevent links to more information about the topic.
 
 ## Front end Developer
-
+### A front-end developer is a professional responsible for designing and implementing the user interface (UI) and user experience (UX) of websites or applications. They focus on the client-facing side of a project, ensuring that users can interact with the system seamlessly. This involves writing and maintaining code in languages such as HTML, CSS, and JavaScript to create visually appealing and responsive designs. Front-end developers also utilize frameworks like React, Angular, or Vue.js to build dynamic interfaces, and they often work closely with back-end developers to integrate UI components with server-side logic. Their role is essential in bridging the gap between design and functionality, ensuring a positive and efficient user experience. For more information, check out MDN Web Docs on Front-End Development or explore freeCodeCamp’s Guide to Front-End Development.
 
 ## HTML
 
