@@ -17,7 +17,6 @@ Before saying "it doesn't work" with web development in general, please consult 
 - Slides: https://docs.google.com/presentation/d/1ZlNgZiPT2dHqUsdpQh2CdbbGvYmEeG8Br5SDIp371lY/edit?usp=sharing
 - We'll dig into the code written the previous week and see different ways of solving the same problem
 - You'll work with your pod to implement specific changes brought up in class
-- FlexBox really easy to understand - https://twitter.com/snowinglater/status/1615787738468610050
 
 Issue: I have an image on the page
 - I need to add a button that adds a new image next to it when I hit the button
