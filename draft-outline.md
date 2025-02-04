@@ -29,6 +29,7 @@ This week we'll start looking at how our code fits (or doesn't) into the modern 
 - https://codepen.io/ProdByBobo/pen/emOQobV
 - https://codepen.io/Baaba-Aly-Ba/pen/LEPvgLm?editors=1010
 - https://codepen.io/PedroJuanCA/pen/azoPNWx?editors=1010
+- https://codepen.io/Tim-Lakatos/pen/ogvVWZQ?editors=1010
 
 ## Remediations and enhancements to look for
 - Here's some general things to apply during activity one
