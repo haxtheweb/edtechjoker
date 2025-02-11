@@ -17,6 +17,7 @@ We take the first leep into big kid web development, it is shockingly difficult 
 
 # Crit
 - https://github.com/michaelnipper3/polaris-chip
+- Class recording: https://www.youtube.com/watch?v=er70EwxF8EU
 - Install and follow along if it helps but what's more likely is that you should have your own code up and running and as I run through things if you have similar issues in your code, you should be taking note of the changes to apply
 
 # Enhancements for Thursday
