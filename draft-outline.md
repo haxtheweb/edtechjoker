@@ -17,14 +17,7 @@ We take the first leep into big kid web development, it is shockingly difficult 
 
 # Crit
 - https://github.com/michaelnipper3/polaris-chip
-- Install these and follow along if it helps but what's more likely is that you should have your own code up and running and as I run through things if you have similar issues in your code, you should be taking note of the changes to apply
-
-
-## Past Crits
-- https://github.com/djr23523/Polaris-Chip
-- https://github.com/nrousseau4/polaris-chip
-- past: https://github.com/SkylerKoba88/polaris-chip
-- video of the above: https://youtu.be/Yv6L7fTrhv4
+- Install and follow along if it helps but what's more likely is that you should have your own code up and running and as I run through things if you have similar issues in your code, you should be taking note of the changes to apply
 
 # Enhancements for Thursday
 - Once you get your code working the way we discuss in class (A card that is my-card which you can define several copiies of in the index.html) Then I'd like you to make the following enhancements
@@ -45,7 +38,7 @@ my-card[fancy] {
 
 # Thursday
 ## Let's get fancy with CSS selectors
-**Class Recording** - https://www.youtube.com/watch?v=9GIR4TM-gwY
+**Past Class Recording** - https://www.youtube.com/watch?v=9GIR4TM-gwY
 
 - Adding a 'reflected' variable to our element. Reflected variables allow you to change the properties of your card and have the CSS change as a result
 - live code demo adding a reflected variable in CSS so that `:host([fancy]) { background-color: golden; }` works
@@ -186,6 +179,9 @@ After that we will work on a new element. Each time we work on a new project the
 - publish to npm / leverage in the production project
 
 ### Get ahead
-Next week, and going forward, we will use a new "tooling" that you actually installed earleirin the course.
-`npx @haxtheweb/create`. If you want to get ahead, we're going to start using that tooling to produce web components that leverage a design system called DDD. DDD is based on how Penn State wants properties to look (broadly speaking) as far as spacing, colors and font usage.
+Next week, and going forward, we will use a new "tooling" that you actually installed earlier in the course.
+`npm install --global @haxtheweb/create` and then `hax start`. If you want to get ahead, we're going to start using that tooling to produce web components that leverage a design system called DDD. DDD is based on how Penn State wants properties to look (broadly speaking) as far as spacing, colors and font usage.
 Next week we will use this tooliing to build a new element and get it pushed to github then published on vercel to understand that workflow. Once we get that down and where DDD is as far as visual documentation, you'll get to build a card to spec using university spacing to try and match the composite in question.
+
+You can see what the tooling should look like by going to this site: https://playground.hax.cloud/
+This is running a copy of the `hax` program in the browser so you can see what the output should look like and how it should work. **YOU MUST INSTALL THIS ON YOUR COMPUTER SO YOU CAN WORK ON CODE THAT IS DEPLOYED TO GITHUB VIA VERCEL. THIS IS PURELY FOR DEMO PURPOSES TO UNDERSTAND WHAT IT LOOKS LIKE**
