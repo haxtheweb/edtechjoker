@@ -39,6 +39,7 @@ my-card[fancy] {
 
 # Thursday
 ## Let's get fancy with CSS selectors
+class recording -- https://www.youtube.com/watch?v=tGfWOXXvCdQ
 **Past Class Recording** - https://www.youtube.com/watch?v=9GIR4TM-gwY
 
 - Adding a 'reflected' variable to our element. Reflected variables allow you to change the properties of your card and have the CSS change as a result
