@@ -181,8 +181,27 @@ After that we will work on a new element. Each time we work on a new project the
 
 ### Get ahead
 Next week, and going forward, we will use a new "tooling" that you actually installed earlier in the course.
-`npm install --global @haxtheweb/create` and then `hax start`. If you want to get ahead, we're going to start using that tooling to produce web components that leverage a design system called DDD. DDD is based on how Penn State wants properties to look (broadly speaking) as far as spacing, colors and font usage.
+```
+npm install --global @haxtheweb/create
+
+```
+Then you can run `hax start` or `hax webcomponent` to start creating a web component. If you want to get ahead, we're going to start using that tooling to produce web components that leverage a design system called DDD. DDD is based on how Penn State wants properties to look (broadly speaking) as far as spacing, colors and font usage.
+
+You can learn more about the details of DDD here: https://haxtheweb.org/documentation/ddd
+
 Next week we will use this tooliing to build a new element and get it pushed to github then published on vercel to understand that workflow. Once we get that down and where DDD is as far as visual documentation, you'll get to build a card to spec using university spacing to try and match the composite in question.
 
 You can see what the tooling should look like by going to this site: https://playground.hax.cloud/
 This is running a copy of the `hax` program in the browser so you can see what the output should look like and how it should work. **YOU MUST INSTALL THIS ON YOUR COMPUTER SO YOU CAN WORK ON CODE THAT IS DEPLOYED TO GITHUB VIA VERCEL. THIS IS PURELY FOR DEMO PURPOSES TO UNDERSTAND WHAT IT LOOKS LIKE**
+
+#### Instructor note
+
+While DDD is not some widely recognized standard, Bootstrap, Tailwind and Material (Google) are common in industry, as is the concept of design systems generally speaking. EA Games will have their own design system vs Adobe vs Red hat. We are leveraging DDD:
+
+- To learn how to implement CSS variables
+- To learn how to implement `SuperClass`'s so that we can "mix-in" functionality between class'ed objects
+- To learn how to read documentation and leverage an existing project
+- To make the things we make in class "feel" like the university / HAX to benefit future students!
+- Do realize DDD was made by a former IST 256 student.. just like you, who learned in class, then made something awesome!
+
+As with everything in this class, my goal is to give you skills so that you understand the low levels of the browser and it's languages so that you can extrapolate and better understand ANY design system, library or framework that you come across.
