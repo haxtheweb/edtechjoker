@@ -57,9 +57,9 @@ openChanged(e) {
 ```
 
 ## Tues
-
+- If you don't have a vercel.com account that is hooked up to github, please do this now.
 - We'll quickly go over 1 well made solution doing many things correct
-- Have your code open
+- Have your code open so you can apply anything where you were stuck
 - https://github.com/dylanabke/polaris-chip
 
 ### Class Activity
@@ -74,15 +74,24 @@ openChanged(e) {
 - https://haxtheweb.org/welcome/what-is-hax/meme-maker to see an example
 - Add this meme to your card to replace the image you have by doing the following
 - Get this working locally and then pushed up to github for vercel to rebuild
+- You now have a pipeline end to end
 
 ## Stretch time
+We are going to use a new tooling to start working on this project. This is the developer on-boarding tooling that I wrote for our HAX community.
+
+- Open a terminal window, navigate to where you'd like to run it from (for me that's `~/Documents/git/btopro` but can be wherever you are storing your code)
+- if you didn't run `npm install --global @haxtheweb/create` then do so, otherwise you should be able to just run `hax start`
+- I will step through the CLI in class so you can see how it works though it is pretty straight forward
+- We've created code, that is currently on our machine, in version control, but is NOT on github. Let's fix that.
+- Open **github.com website**, create a **new empty project** with the same name `counter-app`
+- Open **github desktop**. Add project and select `counter-app`. Push the code up to github.com
+
 The rest of class is to start into this and ask questions of me / our TAs / each other. We'll also have time to work on Thursday. I've given you the wiring and process to start building things with web components. SO, now its your turn. Below are the requirements for the
 homework this week. Discuss them with your pod, co-work, share research, and come up with how to best build the following:
 
 # Counter App
 - "Counter" is the most common demo repo in any project implementation because it illustrates simple "state management"
-- Using your current repo; create a new element in `src/counter-app.js`
-- Discuss with people around you the steps to map this out just like how we started with the Card.
+- Discuss with your team just like how we started with the Card.
 
 - What does the design look like (roughly)? What HTML / CSS requirements are there
 - What properties should this have?
@@ -150,13 +159,13 @@ makeItRain() {
 
 ## Homework
 - Commit your solution to the above problem to your git repo
-- Ideally this will be built and working on vercel; (if that part doesn't work, not end of world)
+- go to vercel.com and connect this account to your github account / repo.
+- If you do this, your project should automatically start building on vercel for a CI pipeline / demo space
 - Turn in a link to your github repo and the link to your project working on vercel (should be like whatever.vercel.app as an address)
 
 ### Considerations
 - I know it's THON this weekend
 - Do the best you can to provide the most complete solution you can
+- We'll have discussions and in-class review to improve the quality of solutions
 - Next week we'll remediate to improve solutions and ensure everyone stretches to the same level
 - LAs will grade harshly based on requirements, but realize this is still only 2 points. The more critical thing will be the feedback given as far as what's missing
-
-
