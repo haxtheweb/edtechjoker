@@ -61,6 +61,7 @@ openChanged(e) {
 - We'll quickly go over 1 well made solution doing many things correct
 - Have your code open so you can apply anything where you were stuck
 - https://github.com/dylanabke/polaris-chip
+- https://www.youtube.com/watch?v=SLHHVYR2CyI
 
 ### Class Activity
 
