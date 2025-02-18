@@ -58,15 +58,15 @@ openChanged(e) {
 
 ## Tues
 
-- We'll quickly go over 1 well made solution doing everything correct
+- We'll quickly go over 1 well made solution doing many things correct
 - Have your code open
-- https://github.com/NickBoi0/polaris-chip
-- https://github.com/drichards6/polaris-chip
+- https://github.com/dylanabke/polaris-chip
 
 ### Class Activity
 
 - ~30 min activity
 - Let's wire our repo up to vercel (if you don't have vercel working bc of account lock, not end of the world; just watch w/ a partner)
+- Now we have a build pipeline.
 - We'll pull in an existing resource called meme-maker
 - first we have to install it `npm install --save @haxtheweb/meme-maker`
 - then we have to import the reference to the meme into our card `import "@haxtheweb/meme-maker/meme-maker.js";`
@@ -82,7 +82,7 @@ homework this week. Discuss them with your pod, co-work, share research, and com
 # Counter App
 - "Counter" is the most common demo repo in any project implementation because it illustrates simple "state management"
 - Using your current repo; create a new element in `src/counter-app.js`
-- Discuss with your team just like how we started with the Card.
+- Discuss with people around you the steps to map this out just like how we started with the Card.
 
 - What does the design look like (roughly)? What HTML / CSS requirements are there
 - What properties should this have?
@@ -115,7 +115,7 @@ homework this week. Discuss them with your pod, co-work, share research, and com
 - when the counter hits 21, `makeItRain` by using the `updated(changedProperties)` lifeCycle method - https://lit.dev/docs/components/lifecycle/#updated
 
 ### Leveraging outside code
-install outside code: `npm install @lrnwebcomponents/multiple-choice --save`
+install outside code: `npm install @haxtheweb/multiple-choice --save`
 use it to wrap the content you want to explode (probably the entire counter to be honest) - `<confetti-container id="confetti"></confetti-container>`
 Here's some JS that can be used to make it rain confetti
 
@@ -131,7 +131,7 @@ makeItRain() {
   // this is called a dynamic import. It means it won't import the code for confetti until this method is called
   // the .then() syntax after is because dynamic imports return a Promise object. Meaning the then() code
   // will only run AFTER the code is imported and available to us
-  import("@lrnwebcomponents/multiple-choice/lib/confetti-container.js").then(
+  import("@haxtheweb/multiple-choice/lib/confetti-container.js").then(
     (module) => {
       // This is a minor timing 'hack'. We know the code library above will import prior to this running
       // The "set timeout 0" means "wait 1 microtask and run it on the next cycle.
