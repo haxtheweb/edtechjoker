@@ -69,7 +69,7 @@ openChanged(e) {
 - Now we have a build pipeline.
 - We'll pull in an existing resource called meme-maker
 - first we have to install it `npm install --save @haxtheweb/meme-maker`
-- then we have to import the reference to the meme into our card `import "@haxtheweb/meme-maker/meme-maker.js";`
+- then we have to import the reference to the meme into our card just like the lit import `import "@haxtheweb/meme-maker/meme-maker.js";`
 - Now we can leverage an implementation of the meme-maker tag in our card.
 - https://haxtheweb.org/welcome/what-is-hax/meme-maker to see an example
 - Add this meme to your card to replace the image you have by doing the following
