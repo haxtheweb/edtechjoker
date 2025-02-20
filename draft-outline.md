@@ -12,6 +12,7 @@ Before saying "it doesn't work" with web development in general, please consult 
 - [Week 3](sp25/week-3.md)
 - [Week 4](sp25/week-4.md)
 - [Week 5](sp25/week-5.md)
+- Week 6
 
 # Grading note
 Going forward TAs are going to be instructed to do the following:
