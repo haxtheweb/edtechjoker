@@ -77,7 +77,7 @@ openChanged(e) {
 - Get this working locally and then pushed up to github for vercel to rebuild
 - You now have a pipeline end to end
 
-## Stretch time
+# Counter App - Stretch time
 We are going to use a new tooling to start working on this project. This is the developer on-boarding tooling that I wrote for our HAX community.
 
 - Open a terminal window, navigate to where you'd like to run it from (for me that's `~/Documents/git/btopro` but can be wherever you are storing your code)
@@ -90,19 +90,20 @@ We are going to use a new tooling to start working on this project. This is the 
 The rest of class is to start into this and ask questions of me / our TAs / each other. We'll also have time to work on Thursday. I've given you the wiring and process to start building things with web components. SO, now its your turn. Below are the requirements for the
 homework this week. Discuss them with your pod, co-work, share research, and come up with how to best build the following:
 
-# Counter App
+# Counter App Requirements
 - "Counter" is the most common demo repo in any project implementation because it illustrates simple "state management"
-- Discuss with your team just like how we started with the Card.
+- Discuss with your people around you, just like how we started with the Card.
 
 - What does the design look like (roughly)? What HTML / CSS requirements are there
 - What properties should this have?
 - Are there flexible HTML areas?
-- Is there anything we have to worry about to ensure this remains stateful
+- Is there anything we have to worry about to ensure this remains "stateful"
 
 ### HTML / Demo
-- Web component so that we can get `<counter-app counter="16" min="10" max="25"></counter-app>` as for how the HTML is written
-- Ideally there would be multiple in you `index.html` but only 2 are required.
-- 1 that has sane defaults so it "just works" with `<counter-app></counter-app>` and 1 with values supplied
+- Ideally there would be multiple in you `index.html` but only 2 instances are required.
+- Each is a Web component so that we can get `<counter-app counter="16" min="10" max="25"></counter-app>` as for how the HTML is written
+- 1 that has sane defaults so it "just works" with `<counter-app></counter-app>` and 1 with values supplied like above
+- THIS IS NOT WITH ANY JAVASCRIPT IN THE INDEX.HTML FILE. ALL JS CODE AND LOGIC IS SELF CONTAINED TO THE WEB COMPONENT
 
 ### shadowRoot / render contents
 - I just want to print the current `counter` number with 2 buttons below it. One that's `+` and one thats `-`
@@ -111,7 +112,8 @@ homework this week. Discuss them with your pod, co-work, share research, and com
 - This should shoot for the minimum amount of `html` tags required in order to generate a decent looking counter
 
 ### styles
-- The number should be a rather large font size
+- Use DDD for the following via CSS variables. You can read about these here: https://haxtheweb.org/documentation/ddd
+- The number should be a rather large font size.
 - the buttons should be next to each other but below the number
 - the buttons should have focus / hover states
 - when we hit 18 on the counter the color of the number should change
@@ -132,6 +134,9 @@ Here's some JS that can be used to make it rain confetti
 ```js
 
 updated(changedProperties) {
+  if (super.updated) {
+    super.updated(changedProperties);
+  }
   if (changedProperties.has('counter')) {
     // do your testing of the value and make it rain by calling makeItRain
   }
@@ -169,4 +174,4 @@ makeItRain() {
 - Do the best you can to provide the most complete solution you can
 - We'll have discussions and in-class review to improve the quality of solutions
 - Next week we'll remediate to improve solutions and ensure everyone stretches to the same level
-- LAs will grade harshly based on requirements, but realize this is still only 2 points. The more critical thing will be the feedback given as far as what's missing
+- LAs will grade harshly based on requirements, but realize this is still only 4 points. The more critical thing will be the feedback given as far as what's missing as opposed to real attempts that are broken
