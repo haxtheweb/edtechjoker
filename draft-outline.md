@@ -169,6 +169,7 @@ makeItRain() {
 - go to vercel.com and connect this account to your github account / repo.
 - If you do this, your project should automatically start building on vercel for a CI pipeline / demo space
 - Turn in a link to your github repo and the link to your project working on vercel (should be like whatever.vercel.app as an address)
+- **A link to github is turned into Cantvas**
 
 ### Considerations
 - I know it's THON this weekend
