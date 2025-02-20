@@ -78,6 +78,7 @@ openChanged(e) {
 - You now have a pipeline end to end
 
 # Counter App - Stretch time
+- recording (audio did not record :( ) - https://www.youtube.com/watch?v=ISWJEjc2QR0
 We are going to use a new tooling to start working on this project. This is the developer on-boarding tooling that I wrote for our HAX community.
 
 - Open a terminal window, navigate to where you'd like to run it from (for me that's `~/Documents/git/btopro` but can be wherever you are storing your code)
