@@ -21,14 +21,14 @@ Before saying "it doesn't work" with web development in general, please consult 
 - So let's blow things up a bit
 
 ## 20+ minutes
-- With the people around you, review your last blog post and code.
-- Mark someone as the 'scribe' to document the conversation
+- With the people around you, review your last two code projects.
+- Mark someone as the 'scribe' to document the conversation and create a https://gist.github.com/ in order to takes notes
 
-### Everyone discuss what you struggled with in the 1st stretch (converting card to Lit)
+### Everyone discuss what you struggled with in the 1st stretch (converting card to Lit / modern web dev approach)
 
 - When someone nailed it, show how you achieved that
 - If EVERYONE struggled with something and didn't get it; write down what your pod DID NOT GET AT ALL
-- If everyone nailed something, write that down in another column
+- If everyone nailed something, write that down in another group
 
 ### Everyone discuss what you struggled with in Stretch 2 (counter-app)
 
@@ -37,11 +37,12 @@ Before saying "it doesn't work" with web development in general, please consult 
 - If everyone nailed something, write that down in another column
 
 ### Scribes. What did we not understand?
+- Post your gist to teams so others can see
 - We'll go a pod at a time. What concepts / things in both stretches did you NOT understand?
 - If there's other related concepts to what we're doing, let's say it's "I don't understand the difference between let, const, var" then we'll address those sorts of things as we go
 - Nothing is out of bound as far as aspects of doing these stretches that you didn't understand. The point of the unconference format is to resolve gaps in knowledge. We grow when we question.
 - When someone mentions something that they didn't get, if your group wrote down that you 'got it' for that concept, raise your hand / say so.
-- We'll write down on the board concepts that need additional coverage and require a break out group to resolve
+- We'll assemble concepts that need additional coverage and require a break out group to resolve
 - After this list is generated, we'll form mini-study groups for each concept
 - People that feel confident they understood the concept, you are the defacto instructor there. LA's and I will also join discussion groups to help ensure content is accurate.
 - People that feel lost on a concept, you are the students working with that instructor to better understand the concept
@@ -49,10 +50,18 @@ Before saying "it doesn't work" with web development in general, please consult 
 - This will involve getting up and moving. If we have 3 concepts, that's 3 groups. if we have 8 concepts its' 8. this will be highly contextual to the topic space / what is missing
 - This will go on for about 20 minutes or so so that people have time to fix and implement what they didn't get
 - If you lead a group as the 'teacher' you get stickers
+- This time is provided for you to catch up, get feedback from peers, and improve your work for resubmission
+
+### Debrief
+- Now I want you each to make a gist / write the following:
+  - What did you learn?
+  - What did you get resolved that you previously were stuck on?
+  - What did you think of the unconference format?
+
 
 ## Thursday - The GuEsT LeCtUrE
 - We will have a Guest Lecture so please be prompt to class.
-- This is my favorite guest, and my favorite topic.
+- This is my favorite guest, and a memorable topic.
 - For this topic, you are asked to bring a pen and paper. Physical mediums are always better for ideation.
 - Also bring an open mind.
 - I will ask that devices are away. Laptops, Phones, just you.. listen, and write things down you find relevant
@@ -67,11 +76,14 @@ These questions are things I want you to think about while you listen / take not
 - How can you apply this to your life?
 
 ## Homework
-- Write a HAX.psu blog post about your experience with this 'unconference' style of learning
+- Write a HAX.psu blog post about your experience with this 'unconference' style of learning based on your previous answers from Tues
 - Apply any additional remediations you desire to both Stretches, resubmit and notify LAs that you want to resubmit something to improve your grade.
   - You can gain full credit on these for meeting all requirements
+  - Remember after resubmitting to contact the LAs so they can regrade since they don't get notificatitons of resubmission
 - What did you learn that you were unsure of prior to the unconference groups? If you lead a group, how did teaching refine or change what you thought you knew?
 - What (if anything) was your take away from the talk "With the right tools, you can build anything" / sum up your notes (or include them)?
 - What other topics do you wish were covered or questions you have about the web, career, life, anything you need to grow but can't find the answers to?
-- Turn this in by Sunday night. This concludes the HW driven aspect of the course; the course is now project driven.
+- Turn this in by Sunday night.
+
+This concludes the HW driven aspect of the course; the course is now project driven.
 
