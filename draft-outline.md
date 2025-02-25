@@ -20,6 +20,7 @@ Life is reading inflection points and being prepared for change.
 ## Tues - Unconference
 - I'll run through giving feedback to 1 solution quickly, then it'll be into a different way of solving our own problems.
   - https://github.com/s0rany/counter-app
+  - Class review: https://www.youtube.com/watch?v=heHP4lh6gvE
 - An "Unconference" is where the schedule and topics are set by the participants in the event
 - I love unconferences and feel that I learn WAY MORE at them than a traditional learning experience
 - So let's blow things up a bit
