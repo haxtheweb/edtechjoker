@@ -15,13 +15,17 @@ Before saying "it doesn't work" with web development in general, please consult 
 - [Week 6](sp25/week-6.md)
 
 # Week 7 - The inflection point
-
+Life is reading inflection points and being prepared for change.
+- Have both of your code projects open and ready to discuss
 ## Tues - Unconference
+- I'll run through giving feedback to 1 solution quickly, then it'll be into a different way of solving our own problems.
+  - https://github.com/s0rany/counter-app
+- An "Unconference" is where the schedule and topics are set by the participants in the event
 - I love unconferences and feel that I learn WAY MORE at them than a traditional learning experience
 - So let's blow things up a bit
 
 ## 20+ minutes
-- With the people around you, review your last two code projects.
+- With the people around you, review your last two code projects. These groups should be between 3 and 6 people. Move chairs as needed
 - Mark someone as the 'scribe' to document the conversation and create a https://gist.github.com/ in order to takes notes
 
 ### Everyone discuss what you struggled with in the 1st stretch (converting card to Lit / modern web dev approach)
