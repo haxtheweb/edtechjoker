@@ -118,3 +118,19 @@ Both of these Render data from a remote source via `fetch`. They are comparable 
 - https://github.com/haxtheweb/issues/issues/1764 - common capability that we find in most email clients
 - https://github.com/haxtheweb/issues/issues/1464 - community building RPG character
 
+## Commonality between these is `fetch` and json
+- If you are using Chrome (which I recommend) then you should get the [JSON Formatter plugin](https://chromewebstore.google.com/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) it helps visualize JSON structures more easily in the browser to understand how to go through the data
+- We need to use `fetch` to obtain data - https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+
+## Example repo using fetch
+- past versions of the class built this: https://github.com/btopro/nasa-search
+- fetching data from a remote source -- This is JSON data https://images-api.nasa.gov/search?media_type=image&q=Saturn
+- https://github.com/btopro/nasa-search/blob/main/nasa-search.js#L58-L105 - here's how the feedback loop works between user input, triggering fetching data, and then obtaining the results and printing them out.
+
+# Check in 1 due March 16
+- Check in 1 is a status check to see how far you've gotten on the project
+- You should have an element up on vercel / github that is rebuilding automatically
+- You should have `fetch` connecting to obtain data
+- You should have at least a starting point for your demo that is functioning
+
+You will have time in class Thursday then the following Tues/Thurs after break. The goal is to turn in Project Zer0 March 23rd. The best solutions will be shown in class and we'll start into Project 1.
