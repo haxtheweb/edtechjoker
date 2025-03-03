@@ -13,82 +13,108 @@ Before saying "it doesn't work" with web development in general, please consult 
 - [Week 4](sp25/week-4.md)
 - [Week 5](sp25/week-5.md)
 - [Week 6](sp25/week-6.md)
+- [Week 7](sp25/week-7.md)
 
-# Week 7 - The inflection point
-Life is reading inflection points and being prepared for change.
-- Have both of your code projects open and ready to discuss
-## Tues - Unconference
-- I'll run through giving feedback to 1 solution quickly, then it'll be into a different way of solving our own problems.
-  - https://github.com/s0rany/counter-app
-  - Class review: https://www.youtube.com/watch?v=heHP4lh6gvE
-- An "Unconference" is where the schedule and topics are set by the participants in the event
-- I love unconferences and feel that I learn WAY MORE at them than a traditional learning experience
-- So let's blow things up a bit
+# Week 8 - Its go time
 
-## 20+ minutes
-- With the people around you, review your last two code projects. These groups should be between 3 and 6 people. Move chairs as needed
-- Mark someone as the 'scribe' to document the conversation and create a https://gist.github.com/ in order to takes notes
+## Tues - lecture question debrief
+This is not ALL, but is a sampling of questions that people left that I'd like to address as best as I can.
 
-### Everyone discuss what you struggled with in the 1st stretch (converting card to Lit / modern web dev approach)
+> I know we will be working on tickets for HAX but what does that mean exactly? I also still get a bit confused on the use of lit and how it works with HTMl, CSS and JS.
 
-- When someone nailed it, show how you achieved that
-- If EVERYONE struggled with something and didn't get it; write down what your pod DID NOT GET AT ALL
-- If everyone nailed something, write that down in another group
+**We'll continue to learn these by doing. Still examples, still feedback, projects that people have asked for in HAX. These will still be in the form of projects as opposed to "go figure out how to fix this one thing".**
 
-### Everyone discuss what you struggled with in Stretch 2 (counter-app)
+> I wish he talked more about the different possibilities of non-tech career paths one could take with web development skills at hand instead of just the ones conventionally in tech. 
 
-- When someone nailed it, show how you achieved that
-- If EVERYONE struggled with something and didn't get it; write down what your pod DID NOT GET AT ALL
-- If everyone nailed something, write that down in another column
+**Project managers, information architects, Designers, Product owners, Marketing, all of these things can tie into web dev skills. You can go into these, but when you start in the hard skills and then move to the soft skills it's easier to understand what's possible, how the product is shaped by the tech involved, and what timelines should reasonably look like.**
 
-### Scribes. What did we not understand?
-- Post your gist to teams so others can see
-- We'll go a pod at a time. What concepts / things in both stretches did you NOT understand?
-- If there's other related concepts to what we're doing, let's say it's "I don't understand the difference between let, const, var" then we'll address those sorts of things as we go
-- Nothing is out of bound as far as aspects of doing these stretches that you didn't understand. The point of the unconference format is to resolve gaps in knowledge. We grow when we question.
-- When someone mentions something that they didn't get, if your group wrote down that you 'got it' for that concept, raise your hand / say so.
-- We'll assemble concepts that need additional coverage and require a break out group to resolve
-- After this list is generated, we'll form mini-study groups for each concept
-- People that feel confident they understood the concept, you are the defacto instructor there. LA's and I will also join discussion groups to help ensure content is accurate.
-- People that feel lost on a concept, you are the students working with that instructor to better understand the concept
+> How do you know when it’s time to change direction?
 
-- This will involve getting up and moving. If we have 3 concepts, that's 3 groups. if we have 8 concepts its' 8. this will be highly contextual to the topic space / what is missing
-- This will go on for about 20 minutes or so so that people have time to fix and implement what they didn't get
-- If you lead a group as the 'teacher' you get stickers
-- This time is provided for you to catch up, get feedback from peers, and improve your work for resubmission
+**Great question. In life we are always progressing forward or decaying. There is no stationary. So if it feels like you are stationary for awhile, you probably are in decay and it's time to change something in routine to break into a new cycle / routine. At the mega-trend level when you see people panic, that's usually the time to hit pause and consider a different way. In my own career, people were loving what I was saying in the rooms I was speaking. I wasn't learning, so I had to find a new way forward.**
 
-### Debrief
-- Now I want you each to make a gist / write the following:
-  - What did you learn?
-  - What did you get resolved that you previously were stuck on?
-  - What did you think of the unconference format?
+> What really matters when choosing a career?
+
+**What will it do to your life style? Stress but growth? Long hours but high pay? Remote but isolating? Where will you live and what does that look like. What if this job folds or sucks 6 months in? What's the backup plan? Do you work to live or do you live to work? If your job isn't your passion, does it allow time for you to pursue your passion bc of the $?**
+
+> I think covering different applications that web development could contribute to different majors would be interesting. I am a cybersecurity student, and I feel it would be interesting how the topics covered in this course could be applied in the field of cybersecurity and network security overall.
+
+**Cyber security, every company has a website, tools like Cloudflare to prevent Denial of Service Attacks (DOS) or even more fun, Distributed Denial of service attacks *DDOS*.**
+https://www.cloudflare.com/learning/ddos/famous-ddos-attacks/
+
+> One question I have is for a career in tech do you think it's more normal for people to stay with one 
+> job for their entire career or would you say jumping around from different jobs every couple of years 
+> is more the style. From my personal experience I feel like I've seen big tech names constantly changing careers. 
+> Obviously there are a lot of other factors that go into a decision like that but basically what have you seen as 
+> the more common practice?
+
+- **Generally 3 years. Don't hop after 1 year or less than 1 year, ever; unless it's a toxic situation and there is no hope of change or it will look weird on resume and you'll have to explain it.**
+- **3 former HAX core members now work elsewhere. 1 left for Red hat, then after 1.5 years jumped to Adobe.**
+- **Another left for Red Hat and has been there for ~4 years**
+- **From being around Drupal for 10+ years, I saw a lot of 2-3 years and then move somewhere. In gov space it's usually closer to 1.5 years (tho recent developments might change that)**
+- **In Education, it's a bit more common to park in a job. I don't really consider my self a developer at this point; I'm a researcher and educator, who is also an elite developer.**
+
+> How do you know what career path to take with the web?
+
+**You don't. You just have to start doing things on your own, not for anyone but yourself. Have a club, a parent, a friend that needs a website? Offer to make it for them for free. Also learning to make your own websites is the real lesson of my personal success and growth. I started at 12, then picked it back up like 4 years later for a club. Then did it for personal stuff in high school and projects. By College I was able to communicate value in what I had done before because of having a "portfolio". Then it keeps building from there. Leave space for personal projects because that's where you'll find passion for the craft.**
+
+> The only other question I have is "can you figure out what I am passionate about?"
+> Obviously I know you can't, but I am struggling to find my passion. 
+> I want to find something that drives me as much as HAX drives you. 
+> The passion you have is inspiring, along with the amount of knowledge you have.
+> I hope to have something like that in my life soon.
+
+- **If you can't go into the woods for several hours without sound or screens, then you'll never know. Replace 'the woods' with a car ride, a bus trip, sitting up staring at the ceiling at night asking yourself 'what do you want in life'.**
+- **I didn't wake up and say "I want to be an activist" or "I want to invent a new way of making things on the internet". That is an emergent pattern. I won't claim to know what I wanted to do till I was 26. Most of that knowledge came from meeting people, going places, speaking about stuff, making things, failing, failing, failing, and most importantly being a parent. Marriage and having kids are two of the biggest singular inflection points for me because they forced me to consider what matters and what I would do for people other than myself.**
+- **Part of me woke up one day because a friend got hurt. Another part woke up because of seeing the way people were treated in a community that was really toxic. Another part of me woke up from seeing how much money we waste on bad tech in education. Part of me woke up by going to grad school. Part of me woke up from failed relationships in college. It's no one thing, it's the sum of events that creates a person.**
+- **A big part of me woke up by taking STS courses and being in the STS interest house. Science, Technology, and Society. This used to be a major at the university and I got a minor in it (it no longer exists I don't believe but could be wrong). We would watch controversial films and projections of how technology influences the world around us, then we'd discuss them.**
+- **These were not part of that course, but these are films that I have watched that altered my perspective on the interconnectedness of the world. This is a good way to set the foundation for finding your passion -- to recognize the world's problems and start thinking of alternative forms of action in solving them**
+- https://www.filmsforaction.org/watch/bbc-all-watched-over-by-machines-of-loving-grace/ - Content Warning. The rise of the internet and how utopian thinking in cyberspace has caused a dystopian reality that investors have no interest in fixing. After all, just go hang out online bruh
+- Hypernormalisation - Strong Content Warning. The topics and cinematography shows aftermaths of violence in order to drive home the point "this is not normal and yet we're acting like it is because there's too much data".
+- We Are Legion The Story of the Hacktivists Full HD Documentary - Again, Content Warning as far as language and topics. Traces aspects of Hacktivism. Where the Anonymous hacker group formed and things they have done (less how, more social influence and impact as well as why people who got arrested were doing what they were doing). https://www.youtube.com/watch?v=4D1WJsdu6W8
+- V for Vendetta - One person can change the world by starting a movement
+- The Dark Knight - Villians motives always intregue me. This came out in 2008 when I was in grad school. The notion of someone doing things to change a broken equalibrium was inspiring.
+- Watchmen (movie) - Alternative realities always make me question what reality we could have now if we made small decisions differently
 
 
-## Thursday - The GuEsT LeCtUrE
-- We will have a Guest Lecture so please be prompt to class.
-- This is my favorite guest, and a memorable topic.
-- For this topic, you are asked to bring a pen and paper. Physical mediums are always better for ideation.
-- Also bring an open mind.
-- I will ask that devices are away. Laptops, Phones, just you.. listen, and write things down you find relevant
+> I wish we discussed a bit more about the best way to get started - 
+> like how do I go about finding that passion?
+> A quick summary of some main projects that led you to this point would be nice 
+> to see that progression quickly shown, would be very inspirational.
 
-These questions are things I want you to think about while you listen / take notes:
+- **Be where you are not expected. I go to art galleries when I can't produce art. Listen to music when I can't make it. Or walk in the woods / arboretum and just appreciate the design of living things. Sitting quietly by a stream with a notebook, doing anything that disrupts my normal cycle of routine is a way to jog ideas and discover new perspectives.**
+- **Watch documentaries. See movies you don't think you'll like. Listen to podcasts that don't confirm your prior world view. Read books that are not for entertainment but for making you think differently.**
+- **This Might Get Me Fired: A Manual for Thriving in the Corporate Entrepreneurial Underground is an execllent and short read**
+- https://www.amazon.com/This-Might-Get-Fired-Entrepreneurial-ebook/dp/B07C9S9DBJ
+- **As far as progression of my own projects. I made a fake production company freshman year of college, I wrote a blog for creative writing, an online portfolio / resume that promoted the things I was working on outside of class. I'd do low cost sites, big things, anything in between that sounded interesting and difficult. If I didn't know how to do it that sounded even better than if I confidently did (though those were usually the cheaper things so if I failed I wouldn't freak out).**
+- **So I worked on things I saw a need for around me. I also didn't take web programming courses, and if my kids go to college (they probably will) if they are interested in IST I will tell them to take philosophy courses instead. Seek out ways of making yourself a more complete person, who happens to web.**
+- **Seek to be a "Polymath", not a specialist. Polymaths are lonely, it is far harder. But they cure disease, create new industries, and solve big problems because they can see other aspects of the problem where specialization leads to everything needing the hammer you are weilding. Be able to envision and invent remixable hammer rather than leveraging an existing hammer.**
+- https://en.wikipedia.org/wiki/Polymath
 
-- What do you hope to do with your degree?
-- What could you go pursue regardless of degree?
-- How do you assign value to people or goals you have in life?
-- How do you detect or know when it's time to change (direction, roomates, career, location, anything)?
-- What (if anything) was your take away from the talk "With the right tools, you can build anything"?
-- How can you apply this to your life?
+> I need to find a job
 
-## Homework
-- Write a HAX.psu blog post about your experience with this 'unconference' style of learning based on your previous answers from Tues
-- Apply any additional remediations you desire to both Stretches, resubmit and notify LAs that you want to resubmit something to improve your grade.
-  - You can gain full credit on these for meeting all requirements
-  - Remember after resubmitting to contact the LAs so they can regrade since they don't get notificatitons of resubmission
-- What did you learn that you were unsure of prior to the unconference groups? If you lead a group, how did teaching refine or change what you thought you knew?
-- What (if anything) was your take away from the talk "With the right tools, you can build anything" / sum up your notes (or include them)?
-- What other topics do you wish were covered or questions you have about the web, career, life, anything you need to grow but can't find the answers to?
-- Turn this in by Sunday night.
+- **Do work that is not related to a job. Talk about it on linkedIn. Have a professional persona either on youtube or just social media. Resume, simple website that is a portfolio. DO NOT JUST INCLUDE STUFF FROM SCHOOL. Personally I don't care about your school projects. I want to see creativity, flexibility, something unique. Have an idea, do it. That isn't just a bootcamp that helps you make a counter app like we did. It can be a website that has a photo gallery. Show range, that you appear in many things and have other interests. Play sports, make a site about it. Enjoy fishing, make site about your catches. Learn Wordpress, Vue, React, anything that you know is online but don't know how to do it. Pick a direction and a scope and there are a ton of youtube videos that can help you figure it out**
+- **Go to professional but also adhoc events. Join clubs, network. Social currency is a real thing. It's not just 'who you know' it's that you met Jane and Jane is great at CSS and she helped you make this cool thing and you saw her talk and here's her youtube channel. This build credibility, network effects, 1 thing in many places relationships so that people can go 'oh Jane knows XYZ, I can employ her'. Class and a piece of paper are the baseline that you complete requirements; that's helpful but now show me that you are divergent, dynamic, different, new. Everyone can complete requirements. You need to do things beyond those.**
+- **Do a HAX Lab internship. Join the HAX Club. Do projects outside of class that are in other languages. Do internships elsewhere. Ask faculty you enjoy if they have anything you could work on or learn with them. There are many other labs looking for people to help with stuff. This becomes a papertrail of doing things for people and learning in the process. We always don't know just before we do.**
 
-This concludes the HW driven aspect of the course; the course is now project driven.
+> Resources you used throughout your learning journey (which seems to be never-ending)
+
+- **Free or low cost tech events. The biggest life hack is meetups. There are so many free and low cost events in major urban areas that you go to these things online or IRL and you meet people who do the thing. Networking with these people, asking what they do, finding things you can learn from them. Peer to peer forms a more complete person through these connections and it's amazing the number of calls / emails I got back in the day (I stopped consulting so I could coach my kids in hockey. They'll grow up. I need to be present with them and help them where I can for our long term relationship together. Consulting work is transactional and forgettable; though really cool when it happens for sure).**
+- **A lot of events I spoke at early on were free events. Also make presentations about short topics and do them as youtube videos. Don't have to be crazy high production value. But make a blog post, do a video about it, and then show the code repo associated with the blog post and video. This pattern will help you get better at speaking about what it is you know how to do as well as create a trail of things you've done so you have things to talk about in an interview setting.**
+
+> How you turn the fear of not knowing something into the desire to figure it out.
+
+- **Near death experiences unfortunate were my fuel for this. You can't transfer those, but stage fright is a real thing and probably a similar concern for many. There is a pressure that comes from being asked to act like you know everything. The truth is, you have to accept that you don't know everything and then genuinely work to improve and seek out the answer to things you don't know. Starting from a humble place that I know nothing, I am no different, can be crushing but it is required for you to always be able to ask of another person "hey how did that work". Then pulling threads you start to unpack it. Youtube and discussing things you learned there is another great way to get over the fear of not knowing. Also, learning to embrace the fear. You don't know everything, and the preasure that comes from going from not knowing to knowing, over and over and over and over again, is what will get you over it.**
+- **I hated public speaking growing up. After my 1st talk I gave where I planned for 3 weeks for it, designing decks, what I'd say, making the system I'd show off... I went and spoke to a room that had 8 people in it. 6 of whom were other speakers or coworkers. I had freted for 3 weeks about speaking to 2 people.**
+- **In 18 years of public speaking, I have only had 1 talk be combative where audience members attacked me. Oddly enough - it was an education event, and it's because I was presenting HAX as a way of effectively eliminating many of the systems there. A CIO of another university berated me that I didn't know what I was talking about and we needed solutions that were XYZ (went on to press for things he was backing at the conference). This was a hilarious exchange that is unfortunately not on tape because other audience members were actively defending me and saying my ideas were inspiring; came up later and said "I don't know what that guys problem was".**
+
+## Project Zer0
+- The course lists 2 projects. Project Zer0 is effectively a few homeworks strung together as check ins.
+- This is to provide a stepping stone into bigger projects
+- This is also graded much less harshly
+- Talk to the people around you and agree upon which of these projects you want to work on.
+
+## Projects to choose from
+Both of these Render data from a remote source via `fetch`. They are comparable scope, pick the one that you want to. One involves reading through a single data item and designing for it. The other involves looping through an Array of data and using form inputs to allow people to change the data visualized
+- https://github.com/haxtheweb/issues/issues/1764 - common capability that we find in most email clients
+- https://github.com/haxtheweb/issues/issues/1464 - community building RPG character
 
