@@ -17,6 +17,8 @@ Before saying "it doesn't work" with web development in general, please consult 
 
 # Week 8 - Its go time
 
+- Look up from the screen. Find reality. https://www.youtube.com/watch?v=BIsH686xWl0
+
 ## Project Zer0
 - The course lists 2 projects. Project Zer0 is effectively a few homeworks strung together as check ins.
 - This is to provide a stepping stone into bigger projects
