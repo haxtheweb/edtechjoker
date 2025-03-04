@@ -28,6 +28,14 @@ This is not ALL, but is a sampling of questions that people left that I'd like t
 
 **Project managers, information architects, Designers, Product owners, Marketing, all of these things can tie into web dev skills. You can go into these, but when you start in the hard skills and then move to the soft skills it's easier to understand what's possible, how the product is shaped by the tech involved, and what timelines should reasonably look like.**
 
+> The only thing that I wish I knew was HOW to get started on things. Do I google what I'm interested in? Do I ask someone near me?
+
+**Solve your own problems, then Solve someone's problem. That doesn't nessecarily have to be tech or even on a job, jobs just offer problems to solve. Solve enough problems and engage with engaging media, not brain rot, and you'll view the world differently. View the world differently and you'll find bigger problems to solve.**
+
+> prediction on what languages/tools could take over the future of tech and this space
+
+**javascript. hard stop. there are no other tools over a long enough timeline so long as the web and the browser are the primary method of discovering information.**
+
 > Honestly, I think the hardest challenge is knowing where to start. Technology is so ever changing and it very easy to get lost. My question would just be where to get started. I feel like I've had all these conversations with all these professionals, and something is yet to click and really make me feel like "Yea that's what I want to do with my life".
 
 **Help someone you know. A real person with a real problem that technology can solve. Pursue that. Maybe it's setting up a printer, a purchasing decision. Maybe it's building a website. Start with small intentional actions and find the things you like and don't enjoy from there. It doesn't happen in class for everyone, it didn't for me. I didn't find my passion until I was 26. From 22-26 it was an interesting job, but more or less just a job. At 30, when my boss and I got into a huge argument, I knew what I believed in and how to pursue it. Small steps every day help you find your place in the world or sometimes the place finds you.**
