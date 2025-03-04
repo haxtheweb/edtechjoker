@@ -32,6 +32,10 @@ This is not ALL, but is a sampling of questions that people left that I'd like t
 
 **Solve your own problems, then Solve someone's problem. That doesn't nessecarily have to be tech or even on a job, jobs just offer problems to solve. Solve enough problems and engage with engaging media, not brain rot, and you'll view the world differently. View the world differently and you'll find bigger problems to solve.**
 
+> How do you know that web is your career, how do you decide it? Is it just because of passion? And what would you recommend us to do to decide on our career path?
+
+**Do it for awhile. Do you enjoy it? Are you learning? If those match, can you find work that pays you to do it? Start with free work in web, parents, friends, your own blog, build up from there. Passion comes from muse. Muse arrives through observation of enough mixed influences. Allow your career path to deviate. Dig in, crush it at a job and work as hard as you can early. Then if it's not 'going anywhere' find something else.**
+
 > put something motivating as your background
 
 **hilarious take away, and yes. Do that. Every day for 4 years I woke up to Muse - Uprising https://www.youtube.com/watch?v=Y4R6k8_iIkE song drives my wife nuts now.**
