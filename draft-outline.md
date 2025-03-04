@@ -32,6 +32,10 @@ This is not ALL, but is a sampling of questions that people left that I'd like t
 
 **Solve your own problems, then Solve someone's problem. That doesn't nessecarily have to be tech or even on a job, jobs just offer problems to solve. Solve enough problems and engage with engaging media, not brain rot, and you'll view the world differently. View the world differently and you'll find bigger problems to solve.**
 
+> put something motivating as your background
+
+**hilarious take away, and yes. Do that. Every day for 4 years I woke up to Muse - Uprising https://www.youtube.com/watch?v=Y4R6k8_iIkE song drives my wife nuts now.**
+
 > prediction on what languages/tools could take over the future of tech and this space
 
 **javascript. hard stop. there are no other tools over a long enough timeline so long as the web and the browser are the primary method of discovering information.**
