@@ -28,6 +28,10 @@ This is not ALL, but is a sampling of questions that people left that I'd like t
 
 **Project managers, information architects, Designers, Product owners, Marketing, all of these things can tie into web dev skills. You can go into these, but when you start in the hard skills and then move to the soft skills it's easier to understand what's possible, how the product is shaped by the tech involved, and what timelines should reasonably look like.**
 
+> Honestly, I think the hardest challenge is knowing where to start. Technology is so ever changing and it very easy to get lost. My question would just be where to get started. I feel like I've had all these conversations with all these professionals, and something is yet to click and really make me feel like "Yea that's what I want to do with my life".
+
+**Help someone you know. A real person with a real problem that technology can solve. Pursue that. Maybe it's setting up a printer, a purchasing decision. Maybe it's building a website. Start with small intentional actions and find the things you like and don't enjoy from there. It doesn't happen in class for everyone, it didn't for me. I didn't find my passion until I was 26. From 22-26 it was an interesting job, but more or less just a job. At 30, when my boss and I got into a huge argument, I knew what I believed in and how to pursue it. Small steps every day help you find your place in the world or sometimes the place finds you.**
+
 > How do you know when it’s time to change direction?
 
 **Great question. In life we are always progressing forward or decaying. There is no stationary. So if it feels like you are stationary for awhile, you probably are in decay and it's time to change something in routine to break into a new cycle / routine. At the mega-trend level when you see people panic, that's usually the time to hit pause and consider a different way. In my own career, people were loving what I was saying in the rooms I was speaking. I wasn't learning, so I had to find a new way forward.**
