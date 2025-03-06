@@ -38,6 +38,10 @@ Both of these Render data from a remote source via `fetch`. They are comparable 
 - RPG hint: https://codepen.io/btopro/pen/VYwbLoa (don't reference the asset this way but this is how the html ends up working)
 - URL parse hint: https://codepen.io/btopro/pen/XJWRmrw?editors=1010
 
+## A guest speaker today
+- former student of mine
+- now in graduate school
+
 ## Example repo using fetch
 - past versions of the class built this: https://github.com/btopro/nasa-search
 - fetching data from a remote source -- This is JSON data https://images-api.nasa.gov/search?media_type=image&q=Saturn
