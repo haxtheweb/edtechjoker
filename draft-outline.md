@@ -50,3 +50,6 @@ Both of these Render data from a remote source via `fetch`. They are comparable 
 - You should have at least a starting point for your demo that is functioning
 
 You will have time in class Thursday then the following Tues/Thurs after break. The goal is to turn in Project Zer0 March 23rd. The best solutions will be shown in class and we'll start into Project 1.
+
+# Light reading
+[Absorb as much of this as you can](https://dev.to/btopro/web-component-shadow-roots-x-design-system-constructable-style-sheets-4g60). This is probably PhD level web dev if I had to classify as far as depth of APIs, why they work to solve a problem and then how we leverage them for maximizing performance. You don't have to read this, but if you want some indicator of things we're building. If this sorta thing is of interest to you, consider joining [HAX The Club or HAX Lab](https://bit.ly/hax-discord) via the Discord community.
