@@ -38,3 +38,12 @@ Before saying "it doesn't work" with web development in general, please consult 
 
 ## Code review
 Examples from both. Even if it's not yours, follow along because it can still provide insight into syntax and approaches
+## link card metadata
+- https://github.com/PlayGamesMakeGames/link-preview-card -- beyond requirements, needs styling, needs refactor but worth discussing
+- https://github.com/BetaGam3r/link-preview-card - great looking solution we will review
+
+## rpg character community visualization
+- https://rpg-contributers.vercel.app/ - there's no code and it's not a valid web component, but it should end up looking at least something like this
+- https://github.com/eman1230/ist256project1 - incorrectly named, still some work to do but a REALLY strong solution thus far!
+
+Ask questions, and yes, you can leverage both of the reviewed current projects to help you make your own code better. A direct copy and paste no and a single commit that just does everything that they did exactly like they did... no. But the methods, render method, styles, etc are all really well done and should be a model you can copy in general to get to the solution rapidly!
