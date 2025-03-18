@@ -37,6 +37,7 @@ Before saying "it doesn't work" with web development in general, please consult 
 - https://github.com/btopro/nasa-search/blob/main/nasa-search.js#L58-L105 - here's how the feedback loop works between user input, triggering fetching data, and then obtaining the results and printing them out.
 
 ## Code review
+- recording (part) from class - https://www.youtube.com/watch?v=ZjD8HaQxv_c
 Examples from both. Even if it's not yours, follow along because it can still provide insight into syntax and approaches
 ## link card metadata
 - https://github.com/PlayGamesMakeGames/link-preview-card -- beyond requirements, needs styling, needs refactor but worth discussing
