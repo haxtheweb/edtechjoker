@@ -60,12 +60,14 @@ Everyone open laptops and run npm install --global @haxtheweb/create
 
 This will ensure you have all the latest commands we support
 
+`hax audit`
+
 When submitting your webcomponent for grading, I want you to have run hax audit. Do this from the terminal in your project. HAX audit will tell you css variables and design issues in your project. Any project that has not resolved these reported issues is an automatic 2 points off.
 
 The most complete, accurate solution is +4 bonus. This is effectively a +2% in the course.
 
-Rubric for grading 
-Does it meet all the requirements 
-Does it work on vercel
-Is it a webcomponent 
-Is it passing the DDD audit
+# Rubric for grading 
+- Does it meet all the requirements 
+- Does it work on vercel
+- Is it a webcomponent 
+- Is it passing the DDD audit
