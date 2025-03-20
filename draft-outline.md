@@ -48,3 +48,27 @@ Examples from both. Even if it's not yours, follow along because it can still pr
 - https://github.com/eman1230/ist256project1 - incorrectly named, still some work to do but a REALLY strong solution thus far!
 
 Ask questions, and yes, you can leverage both of the reviewed current projects to help you make your own code better. A direct copy and paste no and a single commit that just does everything that they did exactly like they did... no. But the methods, render method, styles, etc are all really well done and should be a model you can copy in general to get to the solution rapidly!
+
+## Thursday
+
+How do we step into json objects to know how they work?
+
+How do we debug when the screen goes blank white?
+
+How do we do conditional rendering?
+
+How do we install new assets, be specific as to the terminal commands involved
+
+Everyone open laptops and run npm install --global @haxtheweb/create 
+
+This will ensure you have all the latest commands we support
+
+When submitting your webcomponent for grading, I want you to have run hax audit. Do this from the terminal in your project. HAX audit will tell you css variables and design issues in your project. Any project that has not resolved these reported issues is an automatic 2 points off.
+
+The most complete, accurate solution is +4 bonus. This is effectively a +2% in the course.
+
+Rubric for grading 
+Does it meet all the requirements 
+Does it work on vercel
+Is it a webcomponent 
+Is it passing the DDD audit
