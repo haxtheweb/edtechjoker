@@ -51,13 +51,10 @@ Ask questions, and yes, you can leverage both of the reviewed current projects t
 
 ## Thursday
 
-How do we step into json objects to know how they work?
-
-How do we debug when the screen goes blank white?
-
-How do we do conditional rendering?
-
-How do we install new assets, be specific as to the terminal commands involved
+- How do we step into json objects to know how they work?
+- How do we debug when the screen goes blank white?
+- How do we do conditional rendering?
+- How do we install new assets, be specific as to the terminal commands involved
 
 Everyone open laptops and run npm install --global @haxtheweb/create 
 
