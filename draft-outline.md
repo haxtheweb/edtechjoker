@@ -72,4 +72,6 @@ Project 1 is worth 12% of your overall grade. You will be judged largely on meet
 ### for ddd-steps-list does a picture need to be implemented. The screenshot has one but the link does not
 **It is a flexible content area so it needs to have a `<slot>` which supports rendering anything**
 
+CSS Circles - https://codepen.io/fudime/pen/wjeRrq?editors=1100
+
 Good luck!
