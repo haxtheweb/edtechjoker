@@ -39,4 +39,37 @@ Project 1 is worth 12% of your overall grade. You will be judged largely on meet
   - What you are planning to do next
   - Current issues you are having
 
+## Questions from class
+How does DDD work exactly? I want to make it so everything can theme off of the data-primary. I have checked out the simple colors files and Im guessing there is something with that.
+
+**We will cover this in class, probably next week, maybe Thursday. In the DDD docs section look at how simple-cta works and it's what we'll be going for** - https://haxtheweb.org/documentation/ddd
+ 
+does the titles of the card font color have to be the same color as the bar 
+
+**This is a cool idea but could cause an accessibiliy issue if the primary line was like neon yellow (which is a world campus color...)**
+ 
+For card, is data-accent also a property of the cards? Or is it just a property of the card list (like, can a card determine the background-color (accent) of the entire thing or is it strictly for the card-list)  
+
+**Yes, this is a good idea**
+ 
+Do I have the ability to create multiple elements through the HAX CLI?
+
+**No, make the `-list` one as name of the project / repo in question. Then make a file next to it called `whatever-card.js` or `ddd-list-item.js` and make the code there for it to work
+
+What do you mean by multiple elements? Is that possible? I know we've only worked with making one element before. 
+ **same as above**
+
+ What tags are allowed in the ddd-list-steps-item tag
+ **This should not be there**
+```html
+<ddd-steps-list>
+<p>I am not supposed to be here</p>
+  <ddd-steps-list-item title="I should be here">
+      <p>Also fine because it's a child of a child.</p>
+    <ul>
+        <li>Thing also fine</li>
+    </ul>
+  </ddd-steps-list-item>
+```
+
 Good luck!
