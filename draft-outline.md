@@ -77,7 +77,7 @@ Project 1 is worth 12% of your overall grade. You will be judged largely on meet
 - Common issue in copy and paste of file / build issues has to do with haxProperties() and i18n parts of code. These can be removed.
 - Great example of future problems being solved based on existing witnessed:
   - https://github.com/haxtheweb/issues/issues/2258
-⁠  - https://github.com/haxtheweb/issues/issues/2259
+  - https://github.com/haxtheweb/issues/issues/2259
   - https://codepen.io/fudime/pen/wjeRrq?editors=1100 here's a way to do a circle in CSS if it helps. Borders can also be set to border-style dashed
 - In constructor you are able to do this.querySelectorAll which can get you an array of the items in the LIGHT DOM of the element in question as opposed to shadow
 - I would work on the card stand alone. The card list is in charge of the responsive aspects
