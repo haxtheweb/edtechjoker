@@ -73,19 +73,20 @@ Project 1 is worth 12% of your overall grade. You will be judged largely on meet
 **It is a flexible content area so it needs to have a `<slot>` which supports rendering anything**
 
 # Thursday
-Common issue in copy and paste of file / build issues has to do with haxProperties() and i18n parts of code. These can be removed.
 
+- Common issue in copy and paste of file / build issues has to do with haxProperties() and i18n parts of code. These can be removed.
 - Great example of future problems being solved based on existing witnessed:
   - https://github.com/haxtheweb/issues/issues/2258
 ⁠  - https://github.com/haxtheweb/issues/issues/2259
-⁠  - https://codepen.io/fudime/pen/wjeRrq?editors=1100 -- here's a way to do a circle in CSS if it helps. Borders can also be set to border-style dashed
+  - https://codepen.io/fudime/pen/wjeRrq?editors=1100 here's a way to do a circle in CSS if it helps. Borders can also be set to border-style dashed
 - In constructor you are able to do this.querySelectorAll which can get you an array of the items in the LIGHT DOM of the element in question as opposed to shadow
 - I would work on the card stand alone. The card list is in charge of the responsive aspects
 - DDDSuper brings in the variables / minimal aspects of the design system. If you instead build on DDD itself as opposed to LitElement, then you get the entire design system. Given that you have - requirements associated with data-primary this is a hint as to how to manage that:
   - https://github.com/haxtheweb/webcomponents/blob/master/elements/simple-cta/src/simple-cta.js
   - You can find simple-cta in the DDD documentation under "buttons" - https://haxtheweb.org/documentation/ddd
 - I made a video for github-rpg-contributors and will make one for link-preview-card when I get time: https://dev.to/btopro/hax-sip-github-rpg-contributors-24ka
-⁠- **HAX The Club has it's 1st meeting tonight 116 Borland building! Meeting is at 7pm for those interested in building websites for clubs and getting more involved in the project / community.**
+
+⁠**HAX The Club has it's 1st meeting tonight 116 Borland building! Meeting is at 7pm for those interested in building websites for clubs and getting more involved in the project / community.**
 
 
 Good luck!
