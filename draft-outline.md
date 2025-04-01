@@ -18,6 +18,31 @@ Before saying "it doesn't work" with web development in general, please consult 
 - Week 9 - Spring Break
 - [Week 10](sp25/week-10.md)
 
+# Week 12
+- More time to work and ask questions
+- Here's some more hints based on questions in check in 1.
+
+# GENERAL THING
+- THIS IS NOT AN INTERPRETIVE ASSIGNMENT. THIS IS ABOUT MAKING IT LOOK AND BEHAVE EXACTLY AS SHOWN BUT WITH THE REQUIREMENTS IN QUESTION
+- ENVISION THIS LIKE INDUSTRY. TAKE THINGS FROM A VISUAL PROTOTYPE TO REALITY FOR THE CLIENT
+- This must be done using the `hax` tooling. If it is not built using vercel, real web components like we have been doing, it will not score well... at all if at all.
+
+# Repos to review today:
+- https://github.com/nickcos912/ddd-steps-list
+- https://github.com/daa5767/ddd-card-list
+- both of these have some oddness to them, they are in no way perfect, but they both exhibit some good steps in the right direction toward both of the scopes involved
+- Even if one is not yours, you can easily learn from both
+
+Great image visualizing the problem at hand to attack for card
+![image](https://github.com/user-attachments/assets/9170b262-7d7a-4381-923c-d5203ab1408d)
+
+"How do I make the cards place next to each other"
+- https://developer.mozilla.org/en-US/docs/Web/CSS/::slotted can be used to style as will be shown in class, however cards being `display: inline-block;` will achieve this
+- @media query can be combined with ::slotted in order to organize different based on the screen -- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries
+
+Open time to keep working. Thursday will be more time to keep working and bringing questions not cleared up today.
+
+
 # Week 11,12,13 - Project 1
 We are going to work on Project 1. This is going to still involve time coming to class, attendence, and check ins weekly. You will have 3 weeks to work on and complete Project 1 to the best of your ability. You must pick between one of two options. Once again, working with people around you is the best way to arrive at the optimal solution. This one also has clearer lines of separation (both involve 2 elements, a list, a functional element as well as a visual element).
 
