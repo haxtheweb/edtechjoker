@@ -30,6 +30,7 @@ Before saying "it doesn't work" with web development in general, please consult 
 # Repos to review today:
 - https://github.com/nickcos912/ddd-steps-list
 - https://github.com/daa5767/ddd-card-list
+- https://www.youtube.com/watch?v=cdePitOaZko
 - both of these have some oddness to them, they are in no way perfect, but they both exhibit some good steps in the right direction toward both of the scopes involved
 - Even if one is not yours, you can easily learn from both
 
