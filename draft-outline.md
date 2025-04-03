@@ -43,6 +43,10 @@ Great image visualizing the problem at hand to attack for card
 
 Open time to keep working. Thursday will be more time to keep working and bringing questions not cleared up today.
 
+## Check in 2
+- your project should be done with the functional aspects
+- your project should almost be done from the design/visual aspects
+- Turn in a link to your public code, vercel working, and any questions you have
 
 # Week 11,12,13 - Project 1
 We are going to work on Project 1. This is going to still involve time coming to class, attendence, and check ins weekly. You will have 3 weeks to work on and complete Project 1 to the best of your ability. You must pick between one of two options. Once again, working with people around you is the best way to arrive at the optimal solution. This one also has clearer lines of separation (both involve 2 elements, a list, a functional element as well as a visual element).
