@@ -45,6 +45,7 @@ Open time to keep working. Thursday will be more time to keep working and bringi
 
 # Thursday
 hint on a possible way to handle a really long line. Not exactly this way but provides interesting concept.
+- https://tranquil-spring.surge.sh/ -- inspect to see how data-primary works
 - https://grid.layoutit.com/
 - https://jsfiddle.net/NBMRp/
 
