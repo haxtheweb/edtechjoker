@@ -44,7 +44,10 @@ Great image visualizing the problem at hand to attack for card
 Open time to keep working. Thursday will be more time to keep working and bringing questions not cleared up today.
 
 # Thursday
-https://jsfiddle.net/NBMRp/ -- hint on a possible way to handle a really long line. Not exactly this way but provides interesting concept.
+hint on a possible way to handle a really long line. Not exactly this way but provides interesting concept.
+- https://grid.layoutit.com/
+- https://jsfiddle.net/NBMRp/
+
 `[!] (plugin rollup-plugin-import-meta-assets) Error: ENOENT: no such file or directory, open '/vercel/path0/locales/ddd-card.ar.json` if you have an error like this make sure to remove the reference to the internationalization work
 ## Check in 2
 - your project should be done with the functional aspects
