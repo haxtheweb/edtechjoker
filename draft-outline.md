@@ -41,7 +41,17 @@ Before saying "it doesn't work" with web development in general, please consult 
 - also make sure they are side by side
 ![data-accent relationship](https://github.com/user-attachments/assets/493e7d19-d21c-4b65-8019-9c3b630332b5)
 
+When applying `data-primary` watch out for..
+- that it applies to the background color. Primary is intended per DDD to be a PRIMARY COLOR. This means that it COULD be text, however modifying text in this way looks a bit ridiculous. Only apply this to a mark, a line, a border, etc
+- Also, there is a variable that is used for when data-primary is leveraged for background colors called `--lowContrast-override`. The 2nd screenshot shows how to use this so that if you have a really bright color background that the design system automatically switches from white to black on the color used for the text.
 
+![data-primary in list](https://github.com/user-attachments/assets/e7c7ffbc-ee2e-40f4-bb6a-54e1157be923)
+
+![accessibility and lowContrast variable](https://github.com/user-attachments/assets/5eba3b9c-8215-4d3c-9c09-ef483daa0289)
+
+
+
+========
 
 # Week 12
 - More time to work and ask questions
