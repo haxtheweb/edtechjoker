@@ -18,6 +18,16 @@ Before saying "it doesn't work" with web development in general, please consult 
 - Week 9 - Spring Break
 - [Week 10](sp25/week-10.md)
 
+# Project 2 - Due May 6, 2025
+- Weeks 14,15,16
+- Select one of the following projects. Both are identical scope, slightly different design and slightly different name / design work.
+## Portfolio project
+- [Creating the "Very" portfolio called portfolio-very-theme #2283](https://github.com/haxtheweb/issues/issues/2283)
+- [Creating the "Sidebar" portfolio called portfolio-sidebar-theme #2284](https://github.com/haxtheweb/issues/issues/2284)
+
+# Project 1 - Due Sunday, April 13.
+Weeks 11,12,13 below have everything discussed and shared.
+
 # Week 13 - Last week to work on Project 1
 - More time to work and ask questions
 
@@ -48,7 +58,6 @@ When applying `data-primary` watch out for..
 ![data-primary in list](https://github.com/user-attachments/assets/e7c7ffbc-ee2e-40f4-bb6a-54e1157be923)
 
 ![accessibility and lowContrast variable](https://github.com/user-attachments/assets/5eba3b9c-8215-4d3c-9c09-ef483daa0289)
-
 
 
 ========
