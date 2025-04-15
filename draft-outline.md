@@ -36,3 +36,7 @@ These are 3 "build a full websites" that use similar tools and approaches to pul
 - HAX [dot] PSU source - https://github.com/haxtheweb/hax-psu/tree/master (src directory has the hax-psu element, index.html minimal css / html work)
 - "Journey" - https://github.com/btopro/journey - Another portfolio comp that I am working on for this potential client. This one is more sophisticated but the visual demo might be useful to help w/ understanding some concepts. This is built using HAXcms though so don't try to match the JS going on as it won't work for what you are doing
 - HAX The Club - https://github.com/haxtheweb/hax-the-club - start of the hax the club website showing some navigational aspects and more fun stuff.
+
+## Questions answered:
+- `hax webcomponent` should be run to produce this. The "site" is actually a webcomponent. If you inspect the `hax-psu` site you'll see 1 tag "is the site". Same with `hax-the-club` which if you inspect "is the site"
+- "what web components should I make" - well, one is the site itself like `what-ever-theme`. Then probably a screen tag for sizing and position like `what-ever-screen`, a scroll button, a "header with links" tag of some kind, and a "button" or "heading" tag of some kind. Or a "footer".
