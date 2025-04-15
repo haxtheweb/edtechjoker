@@ -42,3 +42,12 @@ These are 3 "build a full websites" that use similar tools and approaches to pul
 - "what web components should I make" - well, one is the site itself like `what-ever-theme`. Then probably a screen tag for sizing and position like `what-ever-screen`, a scroll button, a "header with links" tag of some kind, and a "button" or "heading" tag of some kind. Or a "footer".
 - the `wrapper` / "full theme" element like `what-ever-theme` is probably going to have very little design in it. It's probably just going to be 100vh for height by 100vw for width. Then it's primary job is having a `<slot>` and the "screens" going inside of it.
 - I would start by designing 1 screen, having 5 of them top to bottom, and then start working your way up from there.
+- How do I install the scroll button?
+
+`npm install --save @haxtheweb/scroll-button`
+
+`import '@haxtheweb/scroll-button/scroll-button.js';`
+
+`<scroll-button></scroll-button>`
+
+you'll want to apply CSS to position it in the bottom corner of the screen or somewhere else logical.
