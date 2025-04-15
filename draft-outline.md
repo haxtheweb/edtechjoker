@@ -20,8 +20,19 @@ Before saying "it doesn't work" with web development in general, please consult 
 - [Week 11,12,13](sp25/week-11-12-13.md)
 
 # Project 2 - Due May 6, 2025
-- Weeks 14,15,16
+- Weeks 14,15,16 - "I want to build a full website" - Knowing how to build small things, it then becomes the same process to keep working your way up to a 'full website'. So let's do it!
+- Check in 1 - April 20 - comp drawing, repo hooked up, starting point / direction of where you are going
+- Check in 2 - April 27 - should be taking shape, starting to look like the real deal
+- Class will be spent going over examples, encouraging group discussions about how to solve design challenges and functional challenges
 - Select one of the following projects. Both are identical scope, slightly different design and slightly different name / design work.
+
 ## Portfolio project
+These are actual comps from a potential client / HAX Lab partner organization. The organization is working on graduate student portfolios to help students land employment outside of academia.
 - [Creating the "Very" portfolio called portfolio-very-theme #2283](https://github.com/haxtheweb/issues/issues/2283)
 - [Creating the "Sidebar" portfolio called portfolio-sidebar-theme #2284](https://github.com/haxtheweb/issues/issues/2284)
+
+## My inspiration projects
+These are 3 "build a full websites" that use similar tools and approaches to pull off. You are free to pick apart at these to learn different css / js approaches that are what I would consider "The right way"
+- HAX [dot] PSU source - https://github.com/haxtheweb/hax-psu/tree/master (src directory has the hax-psu element, index.html minimal css / html work)
+- "Journey" - https://github.com/btopro/journey - Another portfolio comp that I am working on for this potential client. This one is more sophisticated but the visual demo might be useful to help w/ understanding some concepts. This is built using HAXcms though so don't try to match the JS going on as it won't work for what you are doing
+- HAX The Club - https://github.com/haxtheweb/hax-the-club - start of the hax the club website showing some navigational aspects and more fun stuff.
