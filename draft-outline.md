@@ -51,3 +51,6 @@ These are 3 "build a full websites" that use similar tools and approaches to pul
 `<scroll-button></scroll-button>`
 
 you'll want to apply CSS to position it in the bottom corner of the screen or somewhere else logical.
+
+Example that could be reverse engineered for some simplified CSS though not in global scope.
+https://codepen.io/btopro/pen/wBBBaLV
