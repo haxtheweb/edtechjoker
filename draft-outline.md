@@ -54,3 +54,5 @@ you'll want to apply CSS to position it in the bottom corner of the screen or so
 
 Example that could be reverse engineered for some simplified CSS though not in global scope.
 https://codepen.io/btopro/pen/wBBBaLV
+
+In the "very" theme you do not have to make a star or have it animate in the corner. It is mostly just to show "hey there's a thing here" / visual representation. An icon, image, or nothing are fine there.
