@@ -20,6 +20,10 @@ Before saying "it doesn't work" with web development in general, please consult 
 - [Week 11,12,13](sp25/week-11-12-13.md)
 
 # Project 2 - Due May 6, 2025
+
+- Full walk through of considerations for design, working with spacing and location - https://www.youtube.com/watch?v=zOZg-edAz5c
+- Full walk through of an approach to statefully build the floating navigation based on the elements in the slot - https://www.youtube.com/watch?v=KjltjzbCffQ
+
 - Weeks 14,15,16 - "I want to build a full website" - Knowing how to build small things, it then becomes the same process to keep working your way up to a 'full website'. So let's do it!
 - Check in 1 - April 20 - comp drawing, repo hooked up, starting point / direction of where you are going
 - Check in 2 - April 27 - should be taking shape, starting to look like the real deal
