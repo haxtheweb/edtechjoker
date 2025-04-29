@@ -90,7 +90,10 @@ The original syntax, called "the indented syntax," uses a syntax similar to Haml
 
 
 ## Open Source Software
-
+Open source software (OSS) is software that is available for anyone to use, modify, and distribute.
+* Source code
+* License
+* Collaboration
 
 ## Apereo Foundation
 
