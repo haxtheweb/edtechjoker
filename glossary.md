@@ -15,7 +15,13 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## NPM
+NPM, or Node Package Manager, is a package manager for JavaScript used in collaboration with Node.js. It utilizes 2 primary functions which include allowing developers to install, manager, and publish packages (Command Line Interface), and serves as a registry for develops to share and reuse code. NPM simplifies dependency management and streamlines the development process for centralizing a platform for JavaScript packages.
 
+[Website 1](https://www.w3schools.com/whatis/whatis_npm.asp)
+
+[Website 2](https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager)
+
+[Website 3](https://www.npmjs.com/)
 
 ## Package Manager
 
