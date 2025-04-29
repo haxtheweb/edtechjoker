@@ -2,6 +2,10 @@
 Write a paragraph explaining the term below, including 2-3 relevent links to more information about the topic.
 
 ## Front end Developer
+A Front-End Developer designs the parts of websites and apps that you see and use. They use HTML to create the structure, CSS to style it, and JavaScript to make it interactive.
+- https://www.w3schools.com/whatis/whatis_frontenddev.asp#:~:text=A%20Front-End%20Developer%20is%20%EE%80%80someone%20who%20creates
+- https://www.freecodecamp.org/news/front-end-developer-what-is-front-end-development-explained-in-plain-english/ 
+
 
 
 ## HTML
