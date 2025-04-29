@@ -20,6 +20,11 @@ Before saying "it doesn't work" with web development in general, please consult 
 - [Week 11,12,13](sp25/week-11-12-13.md)
 
 # Project 2 - Due May 6, 2025
+
+## Major hint / help after Check in 2
+- I'll walk through https://github.com/PedroJuanCA/portfolio-sidebar-theme in class
+- I'll walk through https://github.com/paigehohman/portfolio-very-theme in class
+
 ## Major hint / help after Check in 1
 - https://github.com/btopro/portfolio-sidebar-theme
 - Full walk through of considerations for design, working with spacing and location - https://www.youtube.com/watch?v=zOZg-edAz5c
