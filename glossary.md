@@ -10,6 +10,11 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## JavaScript
+JavaScript is a programming language that makes websites fun and interactive. It’s what lets you click buttons, play videos, or see live updates on a page. While HTML builds the structure and CSS makes it look good, JavaScript brings it to life. It works in all web browsers and can even be used to run things on servers.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
+https://www.javascript.com/
+
+
 
 ## Yarn
 
