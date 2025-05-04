@@ -75,7 +75,9 @@ The original syntax, called "the indented syntax," uses a syntax similar to Haml
 
 
 ## LitElement
-
+LitElement is a lightweight web component library that simplifies building fast and reusable components using the Web Components standard. It leverages a declarative approach with reactive properties, enabling efficient updates to the DOM. With its small footprint and seamless integration into modern web frameworks, LitElement is ideal for creating maintainable and performant UI elements.
+https://lit.dev/
+https://www.npmjs.com/package/lit-element
 
 ## lit-html
 
