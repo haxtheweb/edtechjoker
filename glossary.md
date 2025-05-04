@@ -34,7 +34,9 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## Drupal CMS
-
+Drupal CMS is a content management software that is often used to make a majority of the websites and applications that are used by users daily.
+[Drupal CMS](https://new.drupal.org)
+[Drupal CMS](https://new.drupal.com)
 
 ## WordPress CMS
 
