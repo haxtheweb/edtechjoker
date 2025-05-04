@@ -75,7 +75,8 @@ The original syntax, called "the indented syntax," uses a syntax similar to Haml
 
 
 ## LitElement
-
+- used to create fast, lightweight web components
+- uses lit-html
 
 ## lit-html
 
