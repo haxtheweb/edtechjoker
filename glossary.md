@@ -78,7 +78,7 @@ The original syntax, called "the indented syntax," uses a syntax similar to Haml
 
 
 ## lit-html
-
+Lit-html is a simple, modern, safe, small and fast HTML templating library for JavaScript. Lit-html lets you write HTML templates in JavaScript using template literals with embedded JavaScript expressions. Lit-html identifies the static and dynamic parts of your templates so it can efficiently update just the changed portions.
 
 ## HAXcms
 
