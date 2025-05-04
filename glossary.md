@@ -15,7 +15,10 @@ Write a paragraph explaining the term below, including 2-3 relevent links to mor
 
 
 ## NPM
-
+It's a library and registry for JavaScript software packages. npm also has command-line tools to help you install the different packages and manage their dependencies. It is an online repository for the publishing of open-source Node.js projects and a command-line utility for interacting with said repository helping with installing packages and managing package versions and dependencies.
+https://www.npmjs.com/
+https://careerfoundry.com/en/blog/web-development/what-is-npm/#:~:text=npm%20stands%20for%20Node%20Package,over%2011%20million%20developers%20worldwide.
+https://www.npmjs.com/
 
 ## Package Manager
 
