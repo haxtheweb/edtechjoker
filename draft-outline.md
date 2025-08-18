@@ -8,62 +8,115 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 Before saying "it doesn't work" with web development in general, please consult this [common issues document](common-issues.md). It is the solution to 95% of the problems I've seen young web devs have when working with web components, terminal, VS code and javascript/html/css more broadly.
 
 # Past weeks
-- [Week 1 & 2](sp25/week-1-2.md)
-- [Week 3](sp25/week-3.md)
-- [Week 4](sp25/week-4.md)
-- [Week 5](sp25/week-5.md)
-- [Week 6](sp25/week-6.md)
-- [Week 7](sp25/week-7.md)
-- [Week 8](sp25/week-8.md)
-- Week 9 - Spring Break
-- [Week 10](sp25/week-10.md)
-- [Week 11,12,13](sp25/week-11-12-13.md)
+- Week 1/2
 
-# Project 2 - Due May 6, 2025
+# Week 1 - The one with getting started
+## Day 1.1 - The one where we go through the contract
+- Welcome and syllabus day
+- Context setting what we'll be working on, learning about and the industry at large as well as establishing what brought me from the classrooms you've taken to the stage where I am today and online
+- This is a rare sit and listen day so you should be googling stuff and installing requirements for the class https://oer.hax.psu.edu/bto108/sites/ist256/requirements 
 
-## Major hint / help after Check in 2
-- I'll walk through https://github.com/PedroJuanCA/portfolio-sidebar-theme in class
-- I'll walk through https://github.com/paigehohman/portfolio-very-theme in class
+## Between class if possible
+- https://oer.hax.psu.edu/bto108/sites/ist256/requirements - get accounts on these services
+- Install the software mentioned and bring any issues you have to class
+- *If you have issues with vercel, please contact their support as soon as possible. They take awhile to respond sometimes and it will enhance your ability to see 'built' work out at live web addresses when having it.*
 
-## Major hint / help after Check in 1
-- https://github.com/btopro/portfolio-sidebar-theme
-- Full walk through of considerations for design, working with spacing and location - https://www.youtube.com/watch?v=zOZg-edAz5c
-- Full walk through of an approach to statefully build the floating navigation based on the elements in the slot - https://www.youtube.com/watch?v=KjltjzbCffQ
+## Day 1.2: Get basic structure around the big 3, fundamentals and playing with stuff
+- We'll "hack" the penn state website and learn that the browser is the debugging environment
+- Play with a very watered down "web application" called the "Stupid Simpsons App"
+- Check out a code pen, a really easy way of learning HTML/CSS/JS by remixing examples of others
+- https://oer.hax.psu.edu/bto108/sites/ist256/activities/day-1
 
-# Project 2 continues
-- Weeks 14,15,16 - "I want to build a full website" - Knowing how to build small things, it then becomes the same process to keep working your way up to a 'full website'. So let's do it!
-- Check in 1 - April 20 - comp drawing, repo hooked up, starting point / direction of where you are going
-- Check in 2 - April 27 - should be taking shape, starting to look like the real deal
-- Class will be spent going over examples, encouraging group discussions about how to solve design challenges and functional challenges
-- Select one of the following projects. Both are identical scope, slightly different design and slightly different name / design work.
+## Day 1.3 / Homework
+- https://www.w3schools.com/ -- Do the "Learn HTML" tutorials (all of them, this is mostly a primer and they go quick as you start to get them)
+- Create an account on https://github.com 
+- Create accounts on the services listed here: https://oer.hax.psu.edu/bto108/sites/ist256/requirements
+- Create a **PUBLIC** Gist on https://gist.github.com/ called **week-1.md** (so that you can write markdown and practice doing so)
+- Watch this video on terminal basics: https://www.youtube.com/watch?v=cwTswuFkMH4 
+- Read this [common issues document](common-issues.md) (and keep it in mind going forward as it'll save us time and time is valuable!):
+- Watch the following video / have it open in another tab: https://youtu.be/DWvRV9KuTjk 
+- Write responses using Markdown (Look it up if you don't know how to do it but bottom right corner in gist will have a `M^` button w/ details):
+  - If the question is a simple answer / response. Then make it a HEADING using markdown for the question `## `
+  - If the question has multiple responses (like 5 syntaxes) then make the question a HEADING level 2, but the responses using a bulleted list (look this up)
+  - If you end up adding a code sample, use the ` ``` ` three back ticks syntax in order to show the code in a block.
+- Questions to answer
+  - Was the backend or frontend responsible for the bug in the video?
+  - What languages do you see in this video? List ALL of them. If you're not sure what the language is, but you know there's an additional one, indicate that.
+  - What tools, strategies, and workflows used in the video do you think are common across all web development?
+  - What strategies used in the video help with debugging?
+  - What strategies have you used before that are shown here for debugging?
+  - What tools and approaches used in the video do you think help in quality control / quality assurance?
+  - What are 5 syntaxes / pieces of code shown you DO recognize (could be of any scale or size), time stamp (link) or screenshot it and list what they are them. (screen shots can be drag and dropped into the comment area below your gist)
+  - What are 5 syntaxes / pieces of code shown you DON'T recognize, time stamp (link) or screenshot it and list what they are them. (screen shots can be drag and dropped into the comment area below your gist)
+  - You just wrote responses to these questions in Markdown. What even is that? (insert meme here :p). What is Markdown and how is it similar, different, or related to HTML?
+  - What are 3 things you CAN NOT do in markdown that you CAN do in HTML?
 
-## Portfolio project
-These are actual comps from a potential client / HAX Lab partner organization. The organization is working on graduate student portfolios to help students land employment outside of academia.
-- [Creating the "Very" portfolio called portfolio-very-theme #2283](https://github.com/haxtheweb/issues/issues/2283)
-- [Creating the "Sidebar" portfolio called portfolio-sidebar-theme #2284](https://github.com/haxtheweb/issues/issues/2284)
+*Submit the link to your GIST using the Cantvas HW 1 Dropbox*
 
-## My inspiration projects
-These are 3 "build a full websites" that use similar tools and approaches to pull off. You are free to pick apart at these to learn different css / js approaches that are what I would consider "The right way"
-- HAX [dot] PSU source - https://github.com/haxtheweb/hax-psu/tree/master (src directory has the hax-psu element, index.html minimal css / html work)
-- "Journey" - https://github.com/btopro/journey - Another portfolio comp that I am working on for this potential client. This one is more sophisticated but the visual demo might be useful to help w/ understanding some concepts. This is built using HAXcms though so don't try to match the JS going on as it won't work for what you are doing
-- HAX The Club - https://github.com/haxtheweb/hax-the-club - start of the hax the club website showing some navigational aspects and more fun stuff.
+# Week 2 - The one with Git..
 
-## Questions answered:
-- `hax webcomponent` should be run to produce this. The "site" is actually a webcomponent. If you inspect the `hax-psu` site you'll see 1 tag "is the site". Same with `hax-the-club` which if you inspect "is the site"
-- "what web components should I make" - well, one is the site itself like `what-ever-theme`. Then probably a screen tag for sizing and position like `what-ever-screen`, a scroll button, a "header with links" tag of some kind, and a "button" or "heading" tag of some kind. Or a "footer".
-- the `wrapper` / "full theme" element like `what-ever-theme` is probably going to have very little design in it. It's probably just going to be 100vh for height by 100vw for width. Then it's primary job is having a `<slot>` and the "screens" going inside of it.
-- I would start by designing 1 screen, having 5 of them top to bottom, and then start working your way up from there.
-- How do I install the scroll button?
+# Week 2: Git / Github
+## Day 2.1
+- Git lecture
+- Slides: https://docs.google.com/presentation/d/1bfNIILQxz8giCLSszmdvDnfNDXY9fpcgYgc-cDE1fFQ/edit?usp=sharing
+- Git activity in class
 
-`npm install --save @haxtheweb/scroll-button`
+## Between class
+- Watch this video of me solving a problem and the full end to end pipeline with github and process: https://www.youtube.com/watch?v=oc7sNh2Zisg
+- **HW Part 1** listed below: do between class for discussion as well as jump starting the homework
 
-`import '@haxtheweb/scroll-button/scroll-button.js';`
+## Day 2.2
+- Slide deck which I will run through very quickly (you can read on your own time or use as basis to google concepts) https://docs.google.com/presentation/d/1rbC4d-sXTyDUArLPXl-tBEQ8ZJldD9_QFfuFhgIW73g/edit?usp=sharing
+- Live coding / paint by numbers: Let's make a button
+- Starting into homework in class below as Part 2 (Part 1 you will do independently)
 
-`<scroll-button></scroll-button>`
+## Day 2.3 / Homework
+Two-part homework this week; we will have time in class to start and then the focus will be critique via submissions generated by the class.
 
-you'll want to apply CSS to position it in the bottom corner of the screen or somewhere else logical.
+### HW Part 1
+- https://www.w3schools.com/ -- Do the "Learn CSS" tutorials (all of them, this is mostly a primer and they go quick as you start to get them)
+- Fork this pen on codepen https://codepen.io/btopro/pen/gOjGpam
+- Try to make more than 1 meme by duplicating the HTML portion of the code
+- Modify the text / image used in the meme on the HTML portion
+- Try to modify the font-size using the CSS tab.
+- Make a new HAX.PSU.EDU BLOG POST where you try to answer the following questions
+  - Provide a Link to your fork of the codepen
+  - Look at the CSS / styles; What's special about `--meme-maker-font-size-medium`?
+  - Look at @media in styles() what does this do?
+  - In the CSS area, write a selector for changing the font color on both tags. If you can change this, how did you do it? If  you can't, why don't you think it is working?
 
-Example that could be reverse engineered for some simplified CSS though not in global scope.
-https://codepen.io/btopro/pen/wBBBaLV
+### Part 2:
+- here's what I made in a previous class: https://codepen.io/btopro/pen/dyrWXBp
+- Working with your pod, come up with an agreed upon visual as to how you'd conceive the following problem:
+#### We need to make a card with a fancy button on it
+- I will model the button on the white board
+- I'll use codepen to create the button based on my model - https://codepen.io/btopro/pen/dyrWXBp
+- You are free to follow along and copy or just watch and ingest technique
 
-In the "very" theme you do not have to make a star or have it animate in the corner. It is mostly just to show "hey there's a thing here" / visual representation. An icon, image, or nothing are fine there.
+#### Now it's your turn, kicked up a notch
+- Working with your Pod, created a shared model of a card visually based on the requirements below
+- model things after the screenshot / pen and paper copy you came up with
+
+#### Required steps:
+- Create a new codepen from scratch and try to create a "card" using a mix of semantic, div and other tags to lay the card out:
+- Create a simple “card” using a few SECTION or DIV tags, a Heading for the title, a Paragraph for description of the image an IMG for an image, and a button on the card that says "Details" which links to hax.psu.edu
+- Make the image a fixed size via height / width and ensure the card is no bigger than 400px wide (height is weird in CSS, ignore height)
+- Use the Border, Margin, and padding attributes in order to space the card to visually be appealing (the internet can help influence something to model, try making things 8px and then 12, then 16 to find what you like, ratios are key)
+- Add a media query that only shows the details button when the screen is smaller than 800px (generally a small tablet) but larger than 500px (phone)
+- Add a media query that scales the card (and image / items within) when on a screen smaller than 500px (generally considered phone)
+- Create a new blog post on hax.psu.edu
+
+#### Remediation
+I will not verify you completing the assigned tutorials from HTML and CSS, but both are important to understand the fundamentals of the langauges and you'll ask less questions about it if you did them:
+- https://www.w3schools.com/html/default.asp
+- https://www.w3schools.com/css/default.asp
+- https://oer.hax.psu.edu/bto108/sites/ist256/resources -- the resources section of the course site has links to free "books" which cover a lot of fundamentals as well
+
+## Homework Submission
+**Submit the link to your HAX.PSU BLOG POST in Canvas**
+The HAX.PSU BLOG POST should include the following:
+- A link to your code pen fork from Part 1 of the meme and part 2 of the "Card"
+- Answers to the questions asked about part 1.
+- If you found particular websites helpful from a tutorial perspective on any of these specific requirements, then include them so we can share with the class.
+- If you have questioned unanswered / things you couldn't figure out from the "Card" activity, what are they?
+- a picture of the mock up you were trying to model the card off of (YOU CAN UPLOAD VIA DRAG AND DROP OR BLOCKS TAB OR MERLIN MENU AT THE TOP OF THE UI)
