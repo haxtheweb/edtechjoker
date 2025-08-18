@@ -1,38 +1,238 @@
-# Common issues
+# Common Issues for New Web Developers
 
-This is a list of common problems and common remedies. Before raising your hand or saying your stuck, ensure you've consulted this list as it's most likely what I am going to ask you to run through.
+**New to web development? You're in the right place!** 🎯
+
+This guide helps you solve the most common problems students face when starting web development. Before asking for help, check this list first - it covers 90% of the issues you'll encounter.
+
+**Don't panic!** Every developer has been where you are. These problems are normal and solvable.
+
+## 🚀 Quick Start for New Students
+
+**First time here? Follow these steps in order:**
+
+1. **Install Node.js** - Go to [nodejs.org](https://nodejs.org) and download the LTS version
+2. **Install the HAX CLI** - Open terminal and run: `npm install --global @haxtheweb/create`
+3. **Test it works** - Run: `hax --version` (you should see a version number)
+4. **Explore HAX** - Run: `hax start` (launches interactive menu with Merlin 🧙)
+5. **Create your first component** - Choose "webcomponent" from the menu, or run: `hax webcomponent`
+6. **If something breaks** - Check the sections below!
 
 # Table of Contents
-[Windows Installation](#windows-installation)
+- [🚀 Quick Start for New Students](#-quick-start-for-new-students)
+- [HAX Command Line Tool](#hax-command-line-tool)
+  - [What is HAX?](#what-is-hax)
+  - [Installing HAX CLI](#installing-hax-cli)
+  - [Main HAX Commands](#main-hax-commands)
+  - [HAX Troubleshooting](#hax-troubleshooting)
+- [Windows Installation](#windows-installation)
+- [MacOS Installation](#macos-installation)
+  - [Modifying Folder Ownership](#modifying-folder-ownership)
+  - [Changing the Node PATH (Advanced)](#changing-the-node-path-advanced)
+  - [Using Sudo (Last Resort)](#using-sudo-last-resort)
+- [I did X and it didn't work](#i-did-x-and-it-didnt-work)
+  - [Terminal / command line](#terminal--command-line)
+    - [It says "whatever" is not a command](#it-says-whatever-is-not-a-command)
+    - [Common commands](#common-commands)
+  - [Browser / your running code](#browser--your-running-code)
+  - [HTML common mistakes](#html-common-mistakes)
+  - [CSS common mistakes](#css-common-mistakes)
+  - [JS Common mistakes](#js-common-mistakes)
+- [Get in the habit of doing these all the time](#get-in-the-habit-of-doing-these-all-the-time)
+- [Video of how to get started / OS level explainer](#video-of-how-to-get-started--os-level-explainer)
+- [Lit life cycle activity](#lit-life-cycle-activity)
 
-[MacOS Installation](#macos-installation)
+## HAX Command Line Tool
 
-[I did X and it didn't work](#i-did-x-and-it-didnt-work)
+### What is HAX?
+**HAX** is "The Web : CLI" - a powerful command-line interface for building modern web components and sites. It provides:
+- An interactive wizard for choosing what to build (`hax start`)
+- Tools for creating and managing web components (`hax webcomponent`)
+- HAXsite creation and management (`hax site`)
+- Development servers and build tools
+- Integration with the HAX ecosystem
 
-## Windows Installation
-If you have an error like this:
+### Installing HAX CLI
+
+**Step 1: Install Node.js**
+- Download from [nodejs.org](https://nodejs.org) (get the LTS version)
+- Verify: `node --version` (should show a version like v18.x.x or higher)
+
+**Step 2: Install HAX globally**
+```bash
+npm install --global @haxtheweb/create
+```
+
+**Step 3: Test installation**
+```bash
+hax --version
+```
+
+**If you get "command not found" errors, check the installation troubleshooting sections below.**
+
+### Main HAX Commands
+
+#### `hax start` - Interactive Menu
+**The main entry point - shows you options for what to build**
+- Launches an interactive wizard with Merlin 🧙
+- Helps you choose between creating web components, sites, etc.
+- Great for beginners who want to explore what HAX can do
+
+```bash
+hax start
+```
+
+#### `hax webcomponent` - Create Web Components
+**Build Lit-based web components with HAX recommendations**
+
+**Common usage:**
+```bash
+# Interactive creation
+hax webcomponent
+
+# Create component with specific name
+hax webcomponent --name my-awesome-button
+
+# Start development server for existing web component project
+hax webcomponent start
+
+# Add new element to existing project
+hax webcomponent wc:element
+```
+
+**Available actions:**
+- `start` - Launch project development server
+- `wc:stats` - Check status of web component
+- `wc:element` - Add new Lit component to existing project
+- `wc:haxproperties` - Write haxProperties schema
+
+#### `hax site` - Create and Manage HAX Sites
+**Build and manage HAX-powered websites**
+
+**Common usage:**
+```bash
+# Interactive site creation
+hax site
+
+# Create site with specific name
+hax site --name my-awesome-site
+
+# Launch existing site in browser
+hax site start
+
+# Launch in development mode
+hax site serve
+
+# Add a new page
+hax site node:add
+```
+
+**Popular actions:**
+- `start` - Launch site in browser
+- `serve` - Development mode with live reloading
+- `node:add` - Add a new page
+- `node:edit` - Edit existing page
+- `site:theme` - Change site theme
+- `site:stats` - Check site statistics
+
+### HAX Troubleshooting
+
+#### Problem: "hax: command not found"
+**Solutions:**
+1. **Install HAX:** `npm install --global @haxtheweb/create`
+2. **Permission issues:** Check MacOS/Windows installation sections above
+3. **Restart terminal** after installation
+4. **Check PATH:** Try `npm list -g @haxtheweb/create`
+
+#### Problem: HAX commands fail with permission errors
+**On MacOS/Linux:**
+```bash
+# Fix npm permissions (recommended method)
+npm config set prefix ~/.local
+export PATH=$PATH:~/.local/bin
+```
+
+**On Windows:** Use PowerShell as Administrator (see Windows section above)
+
+#### Problem: "hax start" shows weird characters or doesn't work
+**Possible causes:**
+1. **Terminal doesn't support Unicode** - Try a different terminal (Windows Terminal, iTerm2, etc.)
+2. **Old Node.js version** - Update to Node.js LTS
+3. **Terminal window too small** - Make it wider/taller
+
+#### Problem: Development server won't start
+**Check these:**
+1. **Port in use:** Look for "EADDRINUSE" error - close other servers or use different port
+2. **Wrong directory:** Make sure you're in a project folder with `package.json`
+3. **Dependencies missing:** Run `npm install` in the project folder
+4. **Firewall blocking:** Allow Node.js through your firewall
+
+#### Common HAX Workflow
+**For beginners, this is the typical flow:**
+
+1. **Start HAX and explore:**
+   ```bash
+   hax start
+   ```
+
+2. **Create your first web component:**
+   ```bash
+   hax webcomponent
+   # Follow the prompts to name your component
+   ```
+
+3. **Start development:**
+   ```bash
+   cd your-component-name
+   hax webcomponent start
+   ```
+
+4. **Edit and test:** Make changes to your component and see them live
+
+5. **Later, create a site to showcase your components:**
+   ```bash
+   hax site
+   # Follow prompts to create a site
+   ```
+
+## Windows Installation Issues
+
+### Problem: "Scripts are disabled" Error
+If you see this error when trying to run Node.js commands:
 ```ps1
 Error on terminal: node.ps1 cannot be loaded because running scripts is disabled on this system.
 ```
-Then you'll need to modify your PowerShell permissions on Windows with the following steps.
 
-1. Open **PowerShell** as **Administrator**
-2. Run the command
-   
-   ``` ps1
+**What this means:** Windows blocks downloaded programs from running by default for security.
+
+**How to fix it:**
+
+1. **Open PowerShell as Administrator**
+   - Press `Windows key + X`
+   - Click "Windows PowerShell (Admin)" or "Terminal (Admin)"
+   - If you see a popup asking "Do you want to allow this app to make changes?", click "Yes"
+
+2. **Run this command** (copy and paste it exactly):
+   ```ps1
    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
    ```
+   - Press Enter
+   - If it asks "Do you want to change the execution policy?", type `Y` and press Enter
 
-3. Restart your terminal
+3. **Close PowerShell and open a new terminal window**
 
-PowerShell blocks all scripts downloaded from the internet by default. This command will allow PowerShell to run downloads that have a trusted signature.
+**What this does:** Allows Windows to run trusted programs (like Node.js) that you download, while still blocking potentially harmful scripts.
 
-## MacOS Installation
-If you have an error like this with **global** commands:
+## MacOS Installation Issues
+
+### Problem: "Permission denied" Error
+If you see this error when trying to install packages:
 ``` bash
 EACCES: permission denied, access '/usr/local/lib/node_modules'
 ```
-Then you'll need to modify some folder permissions on your system. MacOS is more locked down than Windows or Linux, but there are a few ways to overcome this.
+
+**What this means:** MacOS is protecting system folders from being modified. This is good for security!
+
+**Three ways to fix it** (pick ONE method):
 
 ### Modifying Folder Ownership
 You can change the owner of this global **node_modules** folder to yourself. Either target the specific `node` folder:
@@ -101,17 +301,44 @@ As a Unix-based operating system, MacOS allows you to run console commands as an
 
 ## I did X and it didn't work
 
-### Terminal / command line
-- look up before the command you typed, google the error. it's usually red, or some kind of "whatever is undefined"
-- terminal commands don't start with a `$` and you may have copy and pasted incorrectly
-- ensure you are in the correct directory when you run the command
+### Terminal / command line problems
 
-#### It says "whatever" is not a command
-every repo ever that has a `package.json` in it needs to be installed. The feedback loop is ALWAYS:
-1. git clone / download the thing
-2. go to the project in a terminal window and run `npm install` to install the dependencies
-3. reading `package.json` you can see the commands available under `scripts` though `npm start` is pretty common followed by `npm run dev`
-4. YOU MUST BE IN THE SAME DIRECTORY AS THAT package.json FILE IN ORDER TO EXECUTE COMMANDS
+**First things to check:**
+- **Look for error messages** - They're usually in red text and tell you exactly what's wrong
+- **Check for typos** - Terminal commands don't start with `$` (that's just how tutorials show them)
+- **Make sure you're in the right folder** - Many commands only work in specific directories
+
+#### Problem: "whatever is not a command" 
+**What this means:** You're trying to run a command that isn't installed or available.
+
+**The universal fix for web development projects:**
+Every project folder that has a `package.json` file needs to be "installed" first. Here's the process:
+
+1. **Download the project** 
+   ```bash
+   git clone https://github.com/username/project-name.git
+   ```
+
+2. **Go into the project folder**
+   ```bash
+   cd project-name
+   ```
+
+3. **Install the project's dependencies** (this downloads all the tools it needs)
+   ```bash
+   npm install
+   ```
+
+4. **Start the project** (check the `package.json` file for available commands)
+   ```bash
+   npm start
+   ```
+   or sometimes:
+   ```bash
+   npm run dev
+   ```
+
+**IMPORTANT:** You MUST be in the same folder as the `package.json` file to run these commands!
 
 #### Common commands
 - `cd` change directory `cd whatever` moves into the `whatever` directory
