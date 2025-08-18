@@ -15,7 +15,7 @@ Class Thursday recording: https://www.youtube.com/watch?v=5QvFN0GL1hs
 - ~30 min activity
 - We have `<slot>` on our card so that we can support "flexible HTML". Let's take that to the extreme case
 - Let's put a quiz question on our card. This could be a daunting task, except there are already well made ones as a result of this class!
-- https://oer.hax.psu.edu/bto108/sites/haxcellence/tutorials/block-usage/question-types
+- https://haxtheweb.org/tutorials/block-usage/question-types
 - Pick one of these documented elements, and add it to your project
 - `npm install --save @haxtheweb/whichever-you-pick`
 - Look at how the example source is used (can copy and paste this into your demo)
