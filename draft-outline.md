@@ -9,7 +9,7 @@ Before saying "it doesn't work" with web development in general, please consult 
 
 # Week 1 - The one with getting started
 ## Day 1.1 - The one where we go through the contract
-- Welcome and syllabus day
+- Welcome and syllabus day. Take this quick survey - https://forms.gle/hpdTyW7cRNdySKQ28
 - Context setting what we'll be working on, learning about and the industry at large as well as establishing what brought me from the classrooms you've taken to the stage where I am today and online
 - This is a rare sit and listen day so you should be googling stuff and installing requirements for the class https://oer.hax.psu.edu/bto108/sites/ist256/requirements 
 
@@ -120,5 +120,6 @@ The HAX.PSU BLOG POST should include the following:
 - If you found particular websites helpful from a tutorial perspective on any of these specific requirements, then include them so we can share with the class.
 - If you have questioned unanswered / things you couldn't figure out from the "Card" activity, what are they?
 - a picture of the mock up you were trying to model the card off of (YOU CAN UPLOAD VIA DRAG AND DROP OR BLOCKS TAB OR MERLIN MENU AT THE TOP OF THE UI)
+
 
 
