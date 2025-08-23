@@ -7,9 +7,6 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 # Common issues
 Before saying "it doesn't work" with web development in general, please consult this [common issues document](common-issues.md). It is the solution to 95% of the problems I've seen young web devs have when working with web components, terminal, VS code and javascript/html/css more broadly.
 
-# Past weeks
-- Week 1/2
-
 # Week 1 - The one with getting started
 ## Day 1.1 - The one where we go through the contract
 - Welcome and syllabus day
@@ -56,6 +53,9 @@ Before saying "it doesn't work" with web development in general, please consult 
 # Week 2 - The one with Git..
 
 # Week 2: Git / Github
+
+## Day 2.1 - Labor Day
+
 ## Day 2.2
 - Git lecture
 - Slides: https://docs.google.com/presentation/d/1bfNIILQxz8giCLSszmdvDnfNDXY9fpcgYgc-cDE1fFQ/edit?usp=sharing
@@ -120,4 +120,5 @@ The HAX.PSU BLOG POST should include the following:
 - If you found particular websites helpful from a tutorial perspective on any of these specific requirements, then include them so we can share with the class.
 - If you have questioned unanswered / things you couldn't figure out from the "Card" activity, what are they?
 - a picture of the mock up you were trying to model the card off of (YOU CAN UPLOAD VIA DRAG AND DROP OR BLOCKS TAB OR MERLIN MENU AT THE TOP OF THE UI)
+
 
