@@ -7,6 +7,9 @@ This schedule will be modified as we go. Look to it for what we are doing in cla
 # Common issues
 Before saying "it doesn't work" with web development in general, please consult this [common issues document](common-issues.md). It is the solution to 95% of the problems I've seen young web devs have when working with web components, terminal, VS code and javascript/html/css more broadly.
 
+# Tutoring support on campus
+TAs have office hours and we use time in class for help too, but https://ist.psu.edu/learning/tutoring/university-park is also available.
+
 # Week 1 - The one with getting started
 ## Day 1.1 - The one where we go through the contract
 - Welcome and syllabus day. Take this quick survey - https://forms.gle/hpdTyW7cRNdySKQ28
@@ -120,6 +123,7 @@ The HAX.PSU BLOG POST should include the following:
 - If you found particular websites helpful from a tutorial perspective on any of these specific requirements, then include them so we can share with the class.
 - If you have questioned unanswered / things you couldn't figure out from the "Card" activity, what are they?
 - a picture of the mock up you were trying to model the card off of (YOU CAN UPLOAD VIA DRAG AND DROP OR BLOCKS TAB OR MERLIN MENU AT THE TOP OF THE UI)
+
 
 
 
