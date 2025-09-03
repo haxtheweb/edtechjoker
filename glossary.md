@@ -19,10 +19,10 @@ Node.js is a JavaScript runtime built on Chrome’s V8 engine that allows JavaSc
 
 ## JavaScript
 JavaScript is the core programming language of the web, enabling dynamic behavior in websites and web applications. It’s essential because it allows developers to create interactive UI, handle user input, update content without reloading pages (AJAX), and work with modern frameworks, APIs, and back-end environments like Node.js.
-''' for (let index = 0; index < this.items.length; index++) {
+``` for (let index = 0; index < this.items.length; index++) {
   // do something
 }
-'''
+```
 
 ## Git
 
