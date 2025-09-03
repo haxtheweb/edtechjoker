@@ -18,6 +18,8 @@ Define each term below by writing a paragraph explaining what it is and why it's
 
 
 ## Git
+Git is a repository for working collaboratively on coding projects.
+https://www.w3schools.com/git/git_intro.asp?remote=github
 
 
 ## HAXTheWeb
