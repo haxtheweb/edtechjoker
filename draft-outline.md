@@ -24,14 +24,6 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 ## Problems discovered (I'll write these on the board and translate here for after)
 - 
 
-## Known "problems" I want you to be able to fix
-- Remove all references to "tag names" and replace them with a class name selector
-- add a "hover" state which also works with "focus"
-- Make sure when we hit our button that it goes to the link
-- Make sure that when we TAB into the button, that it doesn't tab to the link AND the button, it should only tag to 1 (this is accessibility or a11y work for short)
-
-By the end of class I want you to try and combine all of your cards into a new code pen (being able to copy and paste from the people in your pod to create a new one that has all 4 cards and all the CSS / HTML for the cards in the same pen)
-
 ## Remediation
 - Swap codepens / audit the codepen of your pod. Look for the following and anything else you don’t understand
 - Clean up your current card CSS so that **media queries work** - this was a common thing that was missing in HW2.
@@ -45,12 +37,18 @@ By the end of class I want you to try and combine all of your cards into a new c
 ```
 - in order to get things "to sit next to each other" look up how to use the `display` attribute in `CSS`. This defaults to `block` for `div` and most tags but changing it to `flex` means "make things flex side by side inside of me"
 - `class="thing"` NOT `class   =   "thing"`
+- Remove all references to "tag names" and replace them with a class name selector
+- add a "hover" state which also works with "focus"
+- Make sure when we hit our button that it goes to the link
+- Make sure that when we TAB into the button, that it doesn't tab to the link AND the button, it should only tag to 1 (this is accessibility or a11y work for short)
 - Drop usage of `id="whatever"` unless for card or button
 - Usage of padding and margin that’s either base 8 or base 16
 - Remove `<br> <center> <b> <body> <head>` and any other tags discussed that have no purpose of other parallels
 - Replace all inline styles with CSS class / selector
 - Replace all tag specific CSS selectors with classes
-- Make another “card” so that 2 live on the screen side by side, then another so that 3 do
+- Make another 'card' so that 2 live on the screen side by side, then another so that 3 do
+
+By the end of class I want you to try and combine all of your cards into a new code pen (being able to copy and paste from the people in your pod to create a new one that has all 4 cards and all the CSS / HTML for the cards in the same pen)
 
 # In between class
 Read through this slide deck https://docs.google.com/presentation/d/1ZlNgZiPT2dHqUsdpQh2CdbbGvYmEeG8Br5SDIp371lY/edit?usp=sharing
@@ -131,3 +129,4 @@ Additional logic to add:
 - Create a HAX.PSU blog post that has answers to the above after watching the videos
 - Finish the "code by the numbers" work started in class together **but applied to your card you made previously** and provide a link in your blog post
 - drop link to your post into canvas HW3
+
