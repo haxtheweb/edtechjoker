@@ -10,120 +10,124 @@ Before saying "it doesn't work" with web development in general, please consult 
 # Tutoring support on campus
 TAs have office hours and we use time in class for help too, but https://ist.psu.edu/learning/tutoring/university-park is also available.
 
-# Week 1 - The one with getting started
-## Day 1.1 - The one where we go through the contract
-- Welcome and syllabus day. Take this quick survey - https://forms.gle/hpdTyW7cRNdySKQ28
-- Context setting what we'll be working on, learning about and the industry at large as well as establishing what brought me from the classrooms you've taken to the stage where I am today and online
-- This is a rare sit and listen day so you should be googling stuff and installing requirements for the class https://oer.hax.psu.edu/bto108/sites/ist256/requirements 
+# Past weeks
+- [Week 1 and 2](fa25/week1-2.md)
 
-## Between class if possible
-- https://oer.hax.psu.edu/bto108/sites/ist256/requirements - get accounts on these services
-- Install the software mentioned and bring any issues you have to class
-- *If you have issues with vercel, please contact their support as soon as possible. They take awhile to respond sometimes and it will enhance your ability to see 'built' work out at live web addresses when having it.*
+# Week 3: Code pen some moe
 
-## Day 1.2: Get basic structure around the big 3, fundamentals and playing with stuff
-- We'll "hack" the penn state website and learn that the browser is the debugging environment
-- Play with a very watered down "web application" called the "Stupid Simpsons App"
-- Check out a code pen, a really easy way of learning HTML/CSS/JS by remixing examples of others
-- https://oer.hax.psu.edu/bto108/sites/ist256/activities/day-1
+## Day 3.1
+- Teams Mooooooood.
+- We'll dig into the code written the previous week and see different ways of solving the same problem
+- You'll work with your pod to implement specific changes brought up in class
+- I'll pull up some examples and discuss things that work well and things that we need to account for.
 
-## Day 1.3 / Homework
-- https://www.w3schools.com/ -- Do the "Learn HTML" tutorials (all of them, this is mostly a primer and they go quick as you start to get them)
-- Create an account on https://github.com 
-- Create accounts on the services listed here: https://oer.hax.psu.edu/bto108/sites/ist256/requirements
-- Create a **PUBLIC** Gist on https://gist.github.com/ called **week-1.md** (so that you can write markdown and practice doing so)
-- Watch this video on terminal basics: https://www.youtube.com/watch?v=cwTswuFkMH4 
-- Read this [common issues document](common-issues.md) (and keep it in mind going forward as it'll save us time and time is valuable!):
-- Watch the following video / have it open in another tab: https://youtu.be/DWvRV9KuTjk 
-- Write responses using Markdown (Look it up if you don't know how to do it but bottom right corner in gist will have a `M^` button w/ details):
-  - If the question is a simple answer / response. Then make it a HEADING using markdown for the question `## `
-  - If the question has multiple responses (like 5 syntaxes) then make the question a HEADING level 2, but the responses using a bulleted list (look this up)
-  - If you end up adding a code sample, use the ` ``` ` three back ticks syntax in order to show the code in a block.
-- Questions to answer
-  - Was the backend or frontend responsible for the bug in the video?
-  - What languages do you see in this video? List ALL of them. If you're not sure what the language is, but you know there's an additional one, indicate that.
-  - What tools, strategies, and workflows used in the video do you think are common across all web development?
-  - What strategies used in the video help with debugging?
-  - What strategies have you used before that are shown here for debugging?
-  - What tools and approaches used in the video do you think help in quality control / quality assurance?
-  - What are 5 syntaxes / pieces of code shown you DO recognize (could be of any scale or size), time stamp (link) or screenshot it and list what they are them. (screen shots can be drag and dropped into the comment area below your gist)
-  - What are 5 syntaxes / pieces of code shown you DON'T recognize, time stamp (link) or screenshot it and list what they are them. (screen shots can be drag and dropped into the comment area below your gist)
-  - You just wrote responses to these questions in Markdown. What even is that? (insert meme here :p). What is Markdown and how is it similar, different, or related to HTML?
-  - What are 3 things you CAN NOT do in markdown that you CAN do in HTML?
+## Problems discovered (I'll write these on the board and translate here for after)
+- 
 
-*Submit the link to your GIST using the Cantvas HW 1 Dropbox*
+## Known "problems" I want you to be able to fix
+- Remove all references to "tag names" and replace them with a class name selector
+- add a "hover" state which also works with "focus"
+- Make sure when we hit our button that it goes to the link
+- Make sure that when we TAB into the button, that it doesn't tab to the link AND the button, it should only tag to 1 (this is accessibility or a11y work for short)
 
-# Week 2 - The one with Git..
+By the end of class I want you to try and combine all of your cards into a new code pen (being able to copy and paste from the people in your pod to create a new one that has all 4 cards and all the CSS / HTML for the cards in the same pen)
 
-# Week 2: Git / Github
+## Remediation
+- Swap codepens / audit the codepen of your pod. Look for the following and anything else you don’t understand
+- Clean up your current card CSS so that **media queries work** - this was a common thing that was missing in HW2.
+- **Use border and background-color to visually make your card look like a card** - it shouldn't just be a blank white space. It should visually appear as a single card, even if it has multiple things inside of it
+- create a wrapper div around your entire design, then another so you can put all the cards in it as a container
+```
+<div class="wrapper">
+..... your stuff to be a card
+..... your stuff to be another card
+</div>
+```
+- in order to get things "to sit next to each other" look up how to use the `display` attribute in `CSS`. This defaults to `block` for `div` and most tags but changing it to `flex` means "make things flex side by side inside of me"
+- `class="thing"` NOT `class   =   "thing"`
+- Drop usage of `id="whatever"` unless for card or button
+- Usage of padding and margin that’s either base 8 or base 16
+- Remove `<br> <center> <b> <body> <head>` and any other tags discussed that have no purpose of other parallels
+- Replace all inline styles with CSS class / selector
+- Replace all tag specific CSS selectors with classes
+- Make another “card” so that 2 live on the screen side by side, then another so that 3 do
 
-## Day 2.1 - Labor Day
+# In between class
+Read through this slide deck https://docs.google.com/presentation/d/1ZlNgZiPT2dHqUsdpQh2CdbbGvYmEeG8Br5SDIp371lY/edit?usp=sharing
+I will speed run through this
 
-## Day 2.2
-- Git lecture
-- Slides: https://docs.google.com/presentation/d/1bfNIILQxz8giCLSszmdvDnfNDXY9fpcgYgc-cDE1fFQ/edit?usp=sharing
-- Git activity in class
+# Day 3.2
+- Slides: https://docs.google.com/presentation/d/1ZlNgZiPT2dHqUsdpQh2CdbbGvYmEeG8Br5SDIp371lY/edit?usp=sharing -- review these outside of class as I will likely just burn through them
 
-## Between class
-- Watch this video of me solving a problem and the full end to end pipeline with github and process: https://www.youtube.com/watch?v=oc7sNh2Zisg
-- **HW Part 1** listed below: do between class for discussion as well as jump starting the homework
+Issue: I have an image on the page
+- I need to add a button that adds a new image next to it when I hit the button
+- Take 2 minutes and type up the following answers into Teams as to your guess:
+- What’s the first step?
+- How do I make the button?
+- We only have 1 image, how do we get another there?
+  - https://github.com/btopro.png
 
-## Day 2.3
-- Slide deck which I will run through very quickly (you can read on your own time or use as basis to google concepts) https://docs.google.com/presentation/d/1rbC4d-sXTyDUArLPXl-tBEQ8ZJldD9_QFfuFhgIW73g/edit?usp=sharing
-- Live coding / paint by numbers: Let's make a button
-- Starting into homework in class below as Part 2 (Part 1 you will do independently)
+## after the questions
+- Starting point I'll post in Teams once we think through above briefly
 
-## Homework
-Two-part homework this week; we will have time in class to start and then the focus will be critique via submissions generated by the class.
+## Wed - start into the homework as far as watching videos and responding to things on hax.psu
 
-### HW Part 1
-- https://www.w3schools.com/ -- Do the "Learn CSS" tutorials (all of them, this is mostly a primer and they go quick as you start to get them)
-- Fork this pen on codepen https://codepen.io/btopro/pen/gOjGpam
-- Try to make more than 1 meme by duplicating the HTML portion of the code
-- Modify the text / image used in the meme on the HTML portion
-- Try to modify the font-size using the CSS tab.
-- Make a new HAX.PSU.EDU BLOG POST where you try to answer the following questions
-  - Provide a Link to your fork of the codepen
-  - Look at the CSS / styles; What's special about `--meme-maker-font-size-medium`?
-  - Look at @media in styles() what does this do?
-  - In the CSS area, write a selector for changing the font color on both tags. If you can change this, how did you do it? If  you can't, why don't you think it is working?
+## Thursday
 
-### Part 2:
-- here's what I made in a previous class: https://codepen.io/btopro/pen/dyrWXBp
-- Working with your pod, come up with an agreed upon visual as to how you'd conceive the following problem:
-#### We need to make a card with a fancy button on it
-- I will model the button on the white board
-- I'll use codepen to create the button based on my model - https://codepen.io/btopro/pen/dyrWXBp
-- You are free to follow along and copy or just watch and ingest technique
+### Live code
+- Follow along as we step through https://codepen.io/btopro/pen/zYVbGyO
+- I'll wire this up so that the button is able to duplicate the "card" in the pen
 
-#### Now it's your turn, kicked up a notch
-- Working with your Pod, created a shared model of a card visually based on the requirements below
-- model things after the screenshot / pen and paper copy you came up with
+### Code by Numbers
+The way these activities will work:
+- I will give a series of steps that are required
+- I will start doing the activity live in class with you following along
+- I'll ask questions, sometimes playing dumb, sometimes legitimate as far as how we want something to work
+- The faster we get through these tasks, the more of them you already have done. Hence the more responses I get to questions, the more likely we are to finish more of the activity
+- I will stop as I progress through code by numbers and stop to give you a chance to chew on it
+- We will do the things in question to a fork, clone, example, etc. **that mirrors what you are to do on your own project code**
+- **For example, if in class we start with a card repo and wire up a button, after the live activity you will then wire up that button in YOUR card repo**
+- The next class I'll then use examples people produced as the basis for what we'll review together
+- This feedback loop will continue repeating, usually each loop finishing it's cycle with additional tasks for you to do out of class + blog about a specific topic
 
-#### Required steps:
-- Create a new codepen from scratch and try to create a "card" using a mix of semantic, div and other tags to lay the card out:
-- Create a simple “card” using a few SECTION or DIV tags, a Heading for the title, a Paragraph for description of the image an IMG for an image, and a button on the card that says "Details" which links to hax.psu.edu
-- Make the image a fixed size via height / width and ensure the card is no bigger than 400px wide (height is weird in CSS, ignore height)
-- Use the Border, Margin, and padding attributes in order to space the card to visually be appealing (the internet can help influence something to model, try making things 8px and then 12, then 16 to find what you like, ratios are key)
-- Add a media query that only shows the details button when the screen is smaller than 800px (generally a small tablet) but larger than 500px (phone)
-- Add a media query that scales the card (and image / items within) when on a screen smaller than 500px (generally considered phone)
-- Create a new blog post on hax.psu.edu
+#### Code By The Numbers
+- We're going to start from this pen about amazing professors: https://codepen.io/btopro/pen/PoLJXVj
+- Recording from a past class running through this activity: https://www.youtube.com/watch?v=LGZHodz7dLo
+- Fork the pen and follow along / answering questions in the activity along the way
+- Let's add a button that when we press it, it generates a new copy of our card
+- Let's add a button that when we press it, the title of the card changes
+- Let's add a button that when we press it, the image changes to a different image
+- Let's add a button that when we press it, the background-color of the card changes **via a css Class**
+- Let's add a button that when we press it, the LAST CARD gets removed
+Additional logic to add:
+- Let's make sure that when we go to remove cards, that we don't delete our only one
+- Let's make sure that when we go to add cards, we don't add more than 10
+- Let's make sure when we change the background-color that we can toggle it off and on **for all of the cards on the screen**
 
-#### Remediation
-I will not verify you completing the assigned tutorials from HTML and CSS, but both are important to understand the fundamentals of the langauges and you'll ask less questions about it if you did them:
-- https://www.w3schools.com/html/default.asp
-- https://www.w3schools.com/css/default.asp
-- https://oer.hax.psu.edu/bto108/sites/ist256/resources -- the resources section of the course site has links to free "books" which cover a lot of fundamentals as well
+# Homework
+- Some examples that can help you apply to your card
+  - https://codepen.io/btopro/pen/OJqjoLb  (pen from Tues)
+  - https://codepen.io/btopro/pen/PoLJXVj (the pen from Thurs)
+  - https://codepen.io/btopro/pen/QWzdMav (example of class toggling)
+- Add things to yours that say "Code By The Numbers" above
+
+## Watch the following
+- https://www.youtube.com/watch?v=cM9KTKQ_4H0 -- see where new ideas come from, but also lots of stepping through logic between HTML and JS accessing / state modification
+- https://www.youtube.com/watch?v=yORXfAb2Gvo -- a short primer on the general feedback loop of searching for a type of event on MDN and then testing it
+
+## Answer these questions
+
+### Video 1:
+- What made the idea viable?
+- What is the original issue with the Lit code highlighter?
+- What’s a strategy you can engage in in order to refactor toward better code? What strategy / how many iterations did I go through to get “better code”? - What makes this code better?
+
+### Video 2:
+- What weird event did I implement to solve a UX problem?
+- What is the difference between document and window in javascript? What is globalThis?? Find these on Mozilla Developer Network page to explore what they are and what you can do with them.
+- Find 5 events that user input can generate via the MDN Web Docs. Link to examples
 
 ## Homework Submission
-**Submit the link to your HAX.PSU BLOG POST in Canvas**
-The HAX.PSU BLOG POST should include the following:
-- A link to your code pen fork from Part 1 of the meme and part 2 of the "Card"
-- Answers to the questions asked about part 1.
-- If you found particular websites helpful from a tutorial perspective on any of these specific requirements, then include them so we can share with the class.
-- If you have questioned unanswered / things you couldn't figure out from the "Card" activity, what are they?
-- a picture of the mock up you were trying to model the card off of (YOU CAN UPLOAD VIA DRAG AND DROP OR BLOCKS TAB OR MERLIN MENU AT THE TOP OF THE UI)
-
-
-
-
+- Create a HAX.PSU blog post that has answers to the above after watching the videos
+- Finish the "code by the numbers" work started in class together **but applied to your card you made previously** and provide a link in your blog post
+- drop link to your post into canvas HW3
