@@ -68,9 +68,9 @@ Issue: I have an image on the page
 ## after the questions
 - Starting point I'll post in Teams once we think through above briefly
 
-## Wed - start into the homework as far as watching videos and responding to things on hax.psu
+## Between class start into the homework as far as watching videos and responding to things on hax.psu
 
-## Thursday
+## Day 3.3
 
 ### Live code
 - Follow along as we step through https://codepen.io/btopro/pen/zYVbGyO
@@ -104,8 +104,8 @@ Additional logic to add:
 
 # Homework
 - Some examples that can help you apply to your card
-  - https://codepen.io/btopro/pen/OJqjoLb  (pen from Tues)
-  - https://codepen.io/btopro/pen/PoLJXVj (the pen from Thurs)
+  - https://codepen.io/btopro/pen/OJqjoLb 
+  - https://codepen.io/btopro/pen/PoLJXVj
   - https://codepen.io/btopro/pen/QWzdMav (example of class toggling)
 - Add things to yours that say "Code By The Numbers" above
 
@@ -129,4 +129,3 @@ Additional logic to add:
 - Create a HAX.PSU blog post that has answers to the above after watching the videos
 - Finish the "code by the numbers" work started in class together **but applied to your card you made previously** and provide a link in your blog post
 - drop link to your post into canvas HW3
-
