@@ -12,6 +12,7 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 
 # Past weeks
 - [Week 1 and 2](fa25/week-1-2.md)
+- Week 3
 
 # Week 3: Code pen some moe
 
@@ -129,4 +130,5 @@ Additional logic to add:
 - Create a HAX.PSU blog post that has answers to the above after watching the videos
 - Finish the "code by the numbers" work started in class together **but applied to your card you made previously** and provide a link in your blog post
 - drop link to your post into canvas HW3
+
 
