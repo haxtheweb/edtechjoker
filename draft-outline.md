@@ -64,6 +64,7 @@ This week we'll start looking at how our code fits (or doesn't) into the modern 
 
 # BETWEEN CLASS WATCH/READ THE LECTURE ON JS ECOSYSTEMS AND HOW THEY WORK
 - JS Ecosystems / landscape: https://docs.google.com/presentation/d/1XC6OuYVe3fOdGmpZ_Q9aGXOPJKjj5VbfR3vMvCUJBdk/edit?usp=sharing
+- RECORDED LECTURE: https://www.youtube.com/watch?v=VyWw2JFnCRA
 
 ### Additional help
 If you need additional help after watching that, here's some next steps
@@ -110,9 +111,6 @@ Now it's your turn:
 - Create 5 implementations of this in the demo / index.html area (meaning 5 different implementations of `<my-card>` using attributes)
 - Run through the lit tutorial - https://lit.dev/tutorials/intro-to-lit/ to help **MAKE SURE IT IS USING JS AND NOT TS**
 
-### Bonus 2pts
-Skipping ahead a week or so, try and get your JS wired up so that you can modify things on the card via your buttons. hint: buttons and js are in the demo as opposed to in your card. You'll need to rescope your calls and some other aspects to get the data to change, added, calculated how many there are, etc.
-
 ## Submission
 - HAX.psu post with the following:
 - link(s) to your github repo that you made
@@ -122,3 +120,4 @@ Skipping ahead a week or so, try and get your JS wired up so that you can modify
   - Same, but what DOES make sense? Is this a superior approach to coding in the 'global scope' ala code pen, or does this scoping make it more complicated?
     - If more compplicated, what makes it harder?
     - If superior approach, why did you feel this was easier than the code pen based global way?
+
