@@ -6,9 +6,6 @@
 - You'll work with your pod to implement specific changes brought up in class
 - I'll pull up some examples and discuss things that work well and things that we need to account for.
 
-## Problems discovered (I'll write these on the board and translate here for after)
-- 
-
 ## Remediation
 - Swap codepens / audit the codepen of your pod. Look for the following and anything else you don’t understand
 - Clean up your current card CSS so that **media queries work** - this was a common thing that was missing in HW2.
@@ -114,4 +111,6 @@ Additional logic to add:
 - Create a HAX.PSU blog post that has answers to the above after watching the videos
 - Finish the "code by the numbers" work started in class together **but applied to your card you made previously** and provide a link in your blog post
 - drop link to your post into canvas HW3
+
+
 
