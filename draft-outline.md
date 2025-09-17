@@ -75,40 +75,36 @@ If you need additional help after watching that, here's some next steps
 - DM me or the TA with **specific questions** you have have how to do **specific things** and we are happy to help
 
 # 4.2
-- type `npm run` which will list the commands you can run. _Almost every project_ responds to `npm start` or `npm run start`
-  - This should open up a browser window. Set your display up so these are side by side
-- Let's start digging through the code
-- This is not currently meeting brand guideance. Let's update that so that we can push this out and match the brand
-- if you nail the little stuff, the syntax, the small structures, minimizing CSS and HTML and JS written to complete tasks, then thinking in bigger and bigger structures is more natural. It's a big pattern.
-
 Now that we have some workflow and process down, let's start looking at a web component and building from juuust above nothing
-Quick deck: What is web components? https://docs.google.com/presentation/d/1cvM-4v745oQWcpX4M0ytFLQd_eIyaOJgUEgs4V6UFk0/edit?usp=sharing
-## Code by numbers
+- Quick deck: What is web components? https://docs.google.com/presentation/d/1cvM-4v745oQWcpX4M0ytFLQd_eIyaOJgUEgs4V6UFk0/edit?usp=sharing
+
+## Code by numbers (follow along, answering questions as we go)
 - Take this boilerplate: https://github.com/btopro/polaris-chip make a template for yourself
 - get this code cloned to your computer
 - follow along in class
-
-### Activity 10 min discussion
+- Currently this element supports a "title". The title property allows usage like follows: `<polaris-chip title="Cool"></polaris-chip>`
+- This will render the title with some styling. We need to expand this support linking
 - What properties could we add to make this support links?
-- What data type is this?
+- What data type should this be?
 - What are the steps required to do this? What needs accounted for / changed in code.
 - If we wanted to do an 'active' state that is for 'hover', focus and to draw attention by default, how could we do that?
-- Post in Teams what properties you came up with?
 
-### Activity 10 min
-- Pod activity. Look at your cards in your pod. What properties could you add to make your card flexible?
+### Activity
+- Pod activity. Look at your cards in your pod. What properties could you add to make your card flexible? What parts of your HTML / CSS should be static, and what parts should users be able to enter as a property in order to change via a variable?
+- When I say flexible I mean, how could we allow someone to leverage `<my-card></my-card>` in a similar way to polaris-chip in order to produce your cards each time. If you have a poke-card. Then something like `<poke-card source="https://address.com/image" name="Charmander"></poke-card>`
 - Are there any 'active' or visual 'state' driven capabilities to your card?
-- Are there any areas that could be HTML in nature?
+- Are there any areas that could be HTML in nature? If so, research what a `<slot>` tag is and how we can use it for the description (for example).
 
-## 4.3 / Homework
+## 4.3 in-class / Homework
 
 Now it's your turn:
 
 - Apply your CSS / HTML of a card to the my-card element
 - Ignore the card modifying JS for now; we're just trying to get our card visually there
 - Try to add your properties into the element so that you can change the variables to make instances of your card
-  - You should have at least 2-4 properties that I can think of at a glance
+  - **You should have at least 2-4 properties that I can think of at a glance**
 - Create 5 implementations of this in the demo / index.html area (meaning 5 different implementations of `<my-card>` using attributes)
+- Get your code back up on github (meaning you commit it locally after making changes, then `git push` to get it back on github
 - Run through the lit tutorial - https://lit.dev/tutorials/intro-to-lit/ to help **MAKE SURE IT IS USING JS AND NOT TS**
 
 ## Submission
@@ -120,4 +116,5 @@ Now it's your turn:
   - Same, but what DOES make sense? Is this a superior approach to coding in the 'global scope' ala code pen, or does this scoping make it more complicated?
     - If more compplicated, what makes it harder?
     - If superior approach, why did you feel this was easier than the code pen based global way?
+
 
