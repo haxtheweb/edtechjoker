@@ -19,8 +19,12 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 We take the first leep into big kid web development, it is shockingly difficult at first. I can see that in the feedback you gave to answers. Today, we're going to go through some of the things that went well as well as what didn't. The goal of today is to get everyone in class to have their web component working and get everyone the help they need.
 
 # 5.1 - Crit
-- https://github.com/michaelnipper3/polaris-chip
+- https://github.com/petriedavid/polaris-chip
+- https://github.com/DavidEydelman/card-for-class
+- https://github.com/DaGooseful/My-New-Cards
+
 - Class recording (past crit): https://www.youtube.com/watch?v=er70EwxF8EU
+- (repo in this vid) https://github.com/michaelnipper3/polaris-chip
 - Install and follow along if it helps but what's more likely is that you should have your own code up and running and as I run through things if you have similar issues in your code, you should be taking note of the changes to apply
 
 # Enhancements to make from class
@@ -209,4 +213,5 @@ While DDD is not some widely recognized standard, Bootstrap, Tailwind and Materi
 - Do realize DDD was made by a former IST 256 student.. just like you, who learned in class, then made something awesome!
 
 As with everything in this class, my goal is to give you skills so that you understand the low levels of the browser and it's languages so that you can extrapolate and better understand ANY design system, library or framework that you come across.
+
 
