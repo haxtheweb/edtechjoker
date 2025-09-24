@@ -168,7 +168,7 @@ openChanged(e) {
 
 ## Homework
 - Get your card to have a `fancy` attribute like from class that changes the styling
-- Add the details and summary so that when you toggle details it also toggle fancy
+- Add the `details` and `summary` so that when you toggle details it also toggle fancy
 - Ensure that when you change fancy (or set it ahead of time) that it ensures we collapse or expand to match
 - Add support for `<slot>` and get your description to load that way instead of via property (unless you want to support both like in the example)
 - Get your images / titles allowing for the cards to look relatively uniform (not some squishy, some gigantic by constraining image max size)
@@ -213,5 +213,6 @@ While DDD is not some widely recognized standard, Bootstrap, Tailwind and Materi
 - Do realize DDD was made by a former IST 256 student.. just like you, who learned in class, then made something awesome!
 
 As with everything in this class, my goal is to give you skills so that you understand the low levels of the browser and it's languages so that you can extrapolate and better understand ANY design system, library or framework that you come across.
+
 
 
