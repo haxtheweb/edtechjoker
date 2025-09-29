@@ -80,6 +80,7 @@ homework this week. Discuss them with your pod, co-work, share research, and com
 
 ### styles
 - Use DDD for the following via CSS variables. You can read about these here: https://haxtheweb.org/documentation/ddd
+  - example: `color: var(--ddd-theme-default-wonderPurple);` will get you the wonder purple color. Expand collapsible areas to see other CSS variables that you can leverage. DDD was made by a former IST 256 student as part of a semester independent study project!
 - The number should be a rather large font size.
 - the buttons should be next to each other but below the number
 - the buttons should have focus / hover states
@@ -142,4 +143,5 @@ makeItRain() {
 - We'll have discussions and in-class review to improve the quality of solutions
 - Next week we'll remediate to improve solutions and ensure everyone stretches to the same level
 - LAs will grade harshly based on requirements, but realize this is still only a few points. The more critical thing will be the feedback given as far as what's missing as opposed to real attempts that are broken
+
 
