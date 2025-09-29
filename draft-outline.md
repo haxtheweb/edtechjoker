@@ -24,11 +24,10 @@ This week we will learn the following by doing:
 - using new tooling and starting on a counter-app
 
 ## 6.1 / 6.2 / 6.3
+- a past card for review (no audio) if you need help resolving issues in yours
+  - https://github.com/dylanabke/polaris-chip
+  - https://www.youtube.com/watch?v=SLHHVYR2CyI
 - If you don't have a vercel.com account that is hooked up to github, please do this now.
-- We'll quickly go over 1 well made solution doing many things correct
-- Have your code open so you can apply anything where you were stuck
-- https://github.com/dylanabke/polaris-chip
-- https://www.youtube.com/watch?v=SLHHVYR2CyI
 
 ### Class Activity
 
@@ -143,3 +142,4 @@ makeItRain() {
 - We'll have discussions and in-class review to improve the quality of solutions
 - Next week we'll remediate to improve solutions and ensure everyone stretches to the same level
 - LAs will grade harshly based on requirements, but realize this is still only a few points. The more critical thing will be the feedback given as far as what's missing as opposed to real attempts that are broken
+
