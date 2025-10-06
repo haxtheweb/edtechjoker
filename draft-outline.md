@@ -50,3 +50,6 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 
 ## AI for Ideation
 - Let's take today and work on the counter app but using two different services to understand how we can use AI to ideate as opposed to actually building the app for us.
+- https://bolt.new/ (web)
+- https://warp.dev/ (locally)
+
