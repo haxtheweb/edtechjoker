@@ -19,6 +19,9 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 
 # Week 7 - The one with another project
 
+## Crit
+- counter-app -- https://github.com/elliebluejay/counter-app
+
 # HAX Club meets Mondays - 7pm 121 Ag Engineering building
 - tonight we'll keep working on forming teams
 - It's a great place to work in the hax ecosystem and learn through open source contribution
@@ -55,3 +58,4 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 - Let's take today and work on the counter app but using two different services to understand how we can use AI to ideate as opposed to actually building the app for us.
 - https://bolt.new/ (web)
 - https://warp.dev/ (locally)
+
