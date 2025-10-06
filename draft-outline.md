@@ -47,9 +47,11 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 - Must use the Design System (DDD) in order to provide visual consistency
 - Must support light and dark mode effectively
 - Must be mobile responsive
+- Must use more than 1 web component. 1 that is the 'app' called `ice-planner` and at least 1 other. Could be `app-button` or `number-input` or any parts of the app you think would be useful to make into a stand alone web component to leverage in your code
+- Can pull in outside code / elements as desired
+- Can work together in pairs to attack this problem (unique submissions still turned in but encouraged to work together)
 
 ## AI for Ideation
 - Let's take today and work on the counter app but using two different services to understand how we can use AI to ideate as opposed to actually building the app for us.
 - https://bolt.new/ (web)
 - https://warp.dev/ (locally)
-
