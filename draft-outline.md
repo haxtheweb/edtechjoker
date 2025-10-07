@@ -38,11 +38,7 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 - Counters are silly, but they give us the fundamentals of what's involved in creating and delivering an "app". Now let's try our hands at one
 - These are some requirements I came up with for a project I was thinking of recently. As a youth hockey president, I have to manage a decent sized budget relative to how many teams we have and how much ice is. This serves as a great base to put our skills to use to try and solve a problem by making a very small 'app'
 - Here is the issue: https://github.com/haxtheweb/issues/issues/2359
-- For Sunday you will be expected to turn in the following:
-  - Code that is on github, building, that is named `ice-planner`
-  - drawings, white boards, visuals of what you intend to build
-  - Code that starts working and apears to meet the objectives
-  - AI can be used to help build, but must meet the following core requirements (where AI can struggle..)
+
 
 # Requirements
 - Meet the requirements of the issue
@@ -59,3 +55,28 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 - https://bolt.new/ (web)
 - https://warp.dev/ (locally)
 
+# 7.2
+- Here is the issue: https://github.com/haxtheweb/issues/issues/2359
+- White boarding the problem
+- Naming components (at least 1)
+- What events on input fields can help us react to user input?
+- Some reasonable defaults to help visualize the problem:
+  - Ice costs $300 / hour
+  - Number of slots for a season is 50 (so 50 hours)
+  - Overhead for transaction fees is 2%
+  - Coaches cost $3000
+  - Jerseys cost $88
+  - number of players should default to 1 (so you don't get division by 0 errors)
+- Support a logo, team name property as well as setting default values vs clicking / typing in inputs to change values.
+- When we modify any of the above values, it should recalculate the total as well as the total per player costs
+
+- At the end of this class period, take a picture of your whiteboarding discussion and post it to Teams so others can review.
+
+# 7.3
+- Here is the issue: https://github.com/haxtheweb/issues/issues/2359
+- More time working on the problem and starting to code the solution
+- For Sunday you will be expected to turn in the following:
+  - Code that is on github, building, that is named `ice-planner`
+  - drawings, white boards, visuals of what you intend to build
+  - Code that starts working and apears to meet the objectives
+  - AI can be used to help build, but must meet the following core requirements (where AI can struggle..)
