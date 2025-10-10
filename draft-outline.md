@@ -29,7 +29,7 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 # Code sprint requirement out of class
 - 10% of your grade is experiential learning through code sprint participation. This is wrapped up in 2, 5%, 3 hour blocks of time out experiencing coding and open source in the world.
 - Oct 25 is HACK PSU. Participation in this event, which I'll be at most of the weekend, constitutes 5%. Register a team and bring a project to work on (HAX or otherwise, this is about engagement in open source / open community of coding) and work all weekend and you'll get the full 10%.
-- There is a special guest lecture Oct 13th at 7pm for HAX Club. This lecture is the fusion of technology, life advise, and purpose. What we do with the skills we attain matters, and we have big questions to resolve when we leave the classroom with these super powers. What will you do with yours?
+- **There is a special guest lecture Oct 13th at 7pm for HAX Club. This lecture is the fusion of technology, life advise, and purpose. What we do with the skills we attain matters, and we have big questions to resolve when we leave the classroom with these super powers. What will you do with yours?**
 - **attending this lecture can be leveraged to replace a code-sprint requirement and I highly recommend attending.**
 - I will ask that devices are away. Laptops, Phones, just you.. listen, and write things down you find relevant. The lecture is about an hour with time for questions and discussion after.
 - There will be other opportunities to attend and participate in sprints at HAX Club that count but these are 2 big ones coming up this month
@@ -80,3 +80,4 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
   - drawings, white boards, visuals of what you intend to build
   - Code that starts working and apears to meet the objectives
   - AI can be used to help build, but must meet the following core requirements (where AI can struggle..)
+
