@@ -29,7 +29,8 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 - using `updated()` effectively to maximize statefulnessions yoa
 - Example repo for updated and events: https://github.com/btopro/ice-planner
 - Recalling and setting state from the URL for default case and sharing cost worksheets
-- https://www.sitepoint.com/get-url-parameters-with-javascript/
+  - https://www.sitepoint.com/get-url-parameters-with-javascript/
+  - https://rpg-me.hax.cloud?seed=05700899&hat=none -- example of what is expected to add
 
 # 8.1 - @ HAX Club 7pm 121 Ag Engineering building
 - There is a guest lecture Monday night simply titled: "With the right tools, you can build anything"
@@ -47,4 +48,5 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 # 8.3 - Working day
 - Last day to work in class and ask questions
 - the app is due Sunday prior to midnight
+
 
