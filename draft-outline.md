@@ -21,7 +21,10 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 # Week 8
 
 # 8.1 - crit
-- Going through and reviewing examples and offering feedback in class
+- Going through and reviewing examples and offering feedback in class:
+  - https://github.com/firaol4/ice-palnner
+  - https://github.com/Kiwi-veg404/ice-planner
+  - https://github.com/btopro/ice-planner
 - Event propagation and custom event management
 - using `updated()` effectively to maximize statefulnessions yoa
 - Example repo for updated and events: https://github.com/btopro/ice-planner
@@ -44,3 +47,4 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 # 8.3 - Working day
 - Last day to work in class and ask questions
 - the app is due Sunday prior to midnight
+
