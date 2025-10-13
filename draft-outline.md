@@ -16,7 +16,7 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 - [Week 4](fa25/week-4.md)
 - [Week 5](fa25/week-5.md)
 - [Week 6](fa25/week-6.md)
-- [Week 7](fa25/week-7/md)
+- [Week 7](fa25/week-7.md)
 
 # Week 8
 
@@ -48,5 +48,6 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 # 8.3 - Working day
 - Last day to work in class and ask questions
 - the app is due Sunday prior to midnight
+
 
 
