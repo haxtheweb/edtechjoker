@@ -19,7 +19,7 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 - [Week 7](fa25/week-7.md)
 
 # Week 8
-https://github.com/haxtheweb/issues/issues/2359
+Project due Sunday: https://github.com/haxtheweb/issues/issues/2359
 # 8.1 - crit
 - Going through and reviewing examples and offering feedback in class:
   - https://github.com/firaol4/ice-palnner
@@ -47,7 +47,8 @@ https://github.com/haxtheweb/issues/issues/2359
 
 # 8.3 - Working day
 - Last day to work in class and ask questions
-- the app is due Sunday prior to midnight
+- the app is due Sunday prior to midnight - https://github.com/haxtheweb/issues/issues/2359
+
 
 
 
