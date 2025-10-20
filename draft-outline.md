@@ -24,5 +24,35 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 - 3 Weeks for a project from assignment to deliverable. Worth a lot more of grade than week-to-week assignments have been
 - Class still takes place with Mon/Wed being content / collaboration focused; Friday being a working day focus
 
-## Let's see what the project is
+## 9.1 Let's see what the project is
 - [project 1] [What the Fox Say](https://github.com/haxtheweb/issues/issues/2476)
+
+## 9.2 - Loading and presenting data
+- We want to load data from the fox website using fetch
+- The API for this is located at https://randomfox.ca/floof/
+- working with and walking through JSON data
+```json
+{
+  "data": [
+    {
+      "source": "https://github.com/btopro.png",
+      "title": "Educator"
+    },
+    {
+      "source": "https://github.com/btopro.png",
+      "title": "Educator"
+    }
+  ]
+}
+```
+
+`data[0].source` - array position 0 and the source property
+
+- This is a good plugin to get for inspecting and viewing JSON data responses -- https://chromewebstore.google.com/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en
+- IntersectionOberser implementation article I wrote awhile back -- https://dev.to/btopro/adding-an-intersectionobserver-to-any-web-component-3io1
+
+## 9.3 - Working day in class
+- Work to get Check-in 1 far along as possible
+- The requirement for the check in is getting the names of things initially in place, having an image-card type of element which presents the image data
+- Laying out this card in some manor, being able to request data from https://randomfox.ca/floof/ and presenting the image-card on screen so that when we refresh the new fox appears each time
+- This will demonstrate you have a grasp on the design aspects as well as data loading apsects of this project
