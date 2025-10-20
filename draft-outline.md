@@ -56,3 +56,13 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 - The requirement for the check in is getting the names of things initially in place, having an image-card type of element which presents the image data
 - Laying out this card in some manor, being able to request data from https://randomfox.ca/floof/ and presenting the image-card on screen so that when we refresh the new fox appears each time
 - This will demonstrate you have a grasp on the design aspects as well as data loading apsects of this project
+
+## Saturday Coding in the community opportunity
+https://hackpsu.org/
+### Evidence
+- You are registered and check in at the event
+- you produce code on the weekend / a project you are striving towards
+- You turn in the repo produced on the weekend (whatever that may be, doesn't have to be related to class but can be) in the Canvas dropbox
+- attend the whole event, submit what you did / evidence you were there, get 10% credit for the class while networking and learning by doing (whatever you do!)
+## Sunday
+- Check-in 1 is due. See project for requirements for check in 1
