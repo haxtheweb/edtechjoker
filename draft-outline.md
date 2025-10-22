@@ -65,4 +65,9 @@ https://hackpsu.org/
 - You turn in the repo produced on the weekend (whatever that may be, doesn't have to be related to class but can be) in the Canvas dropbox
 - attend the whole event, submit what you did / evidence you were there, get 10% credit for the class while networking and learning by doing (whatever you do!)
 ## Sunday
-- Check-in 1 is due. See project for requirements for check in 1
+- Check-in 1 is due. See project for requirements for check in 1.
+- The further you get on it early, the more feedback you can receive, the beter your solution, the better the outcomes
+
+# Looking ahead to 10
+- We'll work on data modeling in class. What is the structure of our API? How should we store data? Comparing and contrasting approaches
+- We'll look at localStorage API. How it can be used to store data across page loads
