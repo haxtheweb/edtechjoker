@@ -36,20 +36,20 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
   "data": [
     {
       "source": "https://github.com/btopro.png",
-      "title": "Educator"
+      "title": "Inventor"
     },
     {
-      "source": "https://github.com/btopro.png",
-      "title": "Educator"
+      "source": "https://github.com/haxtheweb.png",
+      "title": "Invention"
     }
   ]
 }
 ```
-
-`data[0].source` - array position 0 and the source property
-
+- Here's a codepen that has comments spelling out how to work with JSON data as well as fetch information from websites:
+- https://codepen.io/btopro/pen/LEGdLyo?editors=1010
 - This is a good plugin to get for inspecting and viewing JSON data responses -- https://chromewebstore.google.com/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en
 - IntersectionOberser implementation article I wrote awhile back -- https://dev.to/btopro/adding-an-intersectionobserver-to-any-web-component-3io1
+- You are not required to use IntersectionObserver however several designs I saw proposed would make it easier to generate a solution while using
 
 ## 9.3 - Working day in class
 - Work to get Check-in 1 far along as possible
