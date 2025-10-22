@@ -51,6 +51,15 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 - IntersectionOberser implementation article I wrote awhile back -- https://dev.to/btopro/adding-an-intersectionobserver-to-any-web-component-3io1
 - You are not required to use IntersectionObserver however several designs I saw proposed would make it easier to generate a solution while using
 
+Conditional rendering in this case would be helpful!
+```js
+render() {
+  return this.elementVisible
+    ? html`Cute fox ${this.image}`
+    : ``; // otherwise render nothing
+}
+```
+
 ## 9.3 - Working day in class
 - Work to get Check-in 1 far along as possible
 - The requirement for the check in is getting the names of things initially in place, having an image-card type of element which presents the image data
@@ -71,3 +80,4 @@ https://hackpsu.org/
 # Looking ahead to 10
 - We'll work on data modeling in class. What is the structure of our API? How should we store data? Comparing and contrasting approaches
 - We'll look at localStorage API. How it can be used to store data across page loads
+
