@@ -81,7 +81,9 @@ These are the assumed base line requirements. Without these, there is nothing to
 
 # 10.2
 - localStorage / recalling portions of state so we can keep track of likes on the photos (locally only, this is not stored)
+- https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
 - Vercel `/api/` endpoints for loading data and working with vercel in local development.
+- https://github.com/btopro/ist-vercel-demo
 
 # 10.3 - Halloween
 - There will be no class today, work on your projects for Check in 2
@@ -90,3 +92,4 @@ These are the assumed base line requirements. Without these, there is nothing to
 - Check in 2 is due
 - Next week will largely be a working week and reviewing things in class that people have created
 - If you still think you can just turn in whatever AI stuff you have via Copy and Paste, it's not going to go well
+
