@@ -22,9 +22,33 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 - [Week 10](fa25/week-10.md)
 
 # Week 11
+Project 1 is due this weekend - https://github.com/haxtheweb/issues/issues/2476
 
 # 11.1
 
+Examples to review
+- Ok conceptually but AI, not loading data from the endpoint, not using DDD, but interesting solutions within - https://project-1-umber-pi.vercel.app/
+- Decent data structure to review - https://raw.githubusercontent.com/MamanMadaan/project-1/refs/heads/main/api/chefs.json
+- Deep dive on this project, may want to pull down locally to load - https://github.com/DaGooseful/fox-app
+  - missing `/api/` call for the json data
+  - using DDD
+  - really interesting way of handling "likes" data
+  - clean up demo so there's less content in itt
+  - resizing cards for sure
+  - no hard coded image references
+  - "fox by" alt data isn't perfect but not a terrible way of handling things
+
 # 11.2
+- Class is discussion time to answer some questions of each other and compare work
 
 # 11.3
+Open office hours
+
+# Project 1 due
+Project due Sunday
+
+# Looking ahead
+- Project 2 will actually be broken into several in-class oriented UX studies; starting to a UX study of the ice planner app you did as well as the photo loading project
+- These UX studies will then segway into micro-projects, several of them
+- This UX feedback will serve as the basis for doing work on HAX
+- **This section will be heavily in-class discussion and explaining the code to write oriented**
