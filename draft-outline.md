@@ -25,8 +25,8 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 Project 1 is due this weekend - https://github.com/haxtheweb/issues/issues/2476
 
 # 11.1
-
-Examples to review
+1 week until this is due and we've got a few decent examples but no one that's perfect or near perfect so let's fix that through some examples.
+## Examples to review
 - Ok conceptually but AI, not loading data from the endpoint, not using DDD, but interesting solutions within - https://project-1-umber-pi.vercel.app/
 - Decent data structure to review - https://raw.githubusercontent.com/MamanMadaan/project-1/refs/heads/main/api/chefs.json
 - Deep dive on this project, may want to pull down locally to load - https://github.com/DaGooseful/fox-app
@@ -40,6 +40,7 @@ Examples to review
 
 # 11.2
 - Class is discussion time to answer some questions of each other and compare work
+- You'll have some questions to ask of each other and post as evidence of class discussion on Teams
 
 # 11.3
 Open office hours
@@ -52,3 +53,4 @@ Project due Sunday
 - These UX studies will then segway into micro-projects, several of them
 - This UX feedback will serve as the basis for doing work on HAX
 - **This section will be heavily in-class discussion and explaining the code to write oriented**
+
