@@ -42,8 +42,31 @@ Project 1 is due this weekend - https://github.com/haxtheweb/issues/issues/2476
 - Class is discussion time to answer some questions of each other and compare work
 - You'll have some questions to ask of each other and post as evidence of class discussion on Teams
 
+## Discussion
+Have someone else work with your app by loading it up. After they play with it a bit, ask the following questions:
+
+> How does the app make photo viewing and sharing feel intuitive or enjoyable for the user?
+
+> What design decisions (layout, color scheme, interactions) either added to or detracted from the experience?
+
+> Is spacing distracting or uniform?
+
+> Is color distracting or uniform?
+
+> How is the mobile experience?
+
+> How is the dark mode experience if toggled?
+
+> What visual improvements could be made based on your usage of the app?
+
+> What functionality / requirements are you currently lacking or stuck on? See if anyone else in your pod have this issue resolved and discuss how you implemented it.
+
+> If you had more time to work on this project and extend it's functionality, what’s the next feature / improvement you’d prioritize? How would you go about achieving it?
+
+Answers in Teams by the end of class for attendence today; after your pod has participated in this discussion activity, work to implement enhancements and ask questions
+
 # 11.3
-Open office hours
+Open office hours to implement changes. Reminder that this is due this weekend and is a significant portion of your grade!
 
 # Project 1 due
 Project due Sunday
@@ -53,4 +76,5 @@ Project due Sunday
 - These UX studies will then segway into micro-projects, several of them
 - This UX feedback will serve as the basis for doing work on HAX
 - **This section will be heavily in-class discussion and explaining the code to write oriented**
+
 
