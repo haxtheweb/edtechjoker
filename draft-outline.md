@@ -42,6 +42,11 @@ Project 1 is due this weekend - https://github.com/haxtheweb/issues/issues/2476
 - Class is discussion time to answer some questions of each other and compare work
 - You'll have some questions to ask of each other and post as evidence of class discussion on Teams
 
+## vercel data issues
+"my stuff loads locally but not in vercel"
+- `new URL("./data.json", import.meta.url).href` -- is most likely the issue. This is because when we do a "build routine" it needs to trace and find every file. `new URL` helps this process know what to find
+- also make sure we're looking at the `/api/data` style way of meeting that requirement. See this app and how the weather.js file works to make your data be served by a vercel endpoint instead of a direct file -- https://github.com/btopro/ist-vercel-demo
+
 ## Discussion
 Have someone else work with your app by loading it up. After they play with it a bit, ask the following questions:
 
@@ -76,5 +81,6 @@ Project due Sunday
 - These UX studies will then segway into micro-projects, several of them
 - This UX feedback will serve as the basis for doing work on HAX
 - **This section will be heavily in-class discussion and explaining the code to write oriented**
+
 
 
