@@ -22,6 +22,13 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 - [Week 10](fa25/week-10.md)
 - [Week 11](fa25/week-11.md)
 
+
+# Coding in the world / outside of class
+Seminar tonight about open source involvement which can count toward 5% of your grade for attending the lecture and participating in the small UX study we'll be doing and asking questions. Afterwards, write up your experience / what you did and get credit. 6-7pm tonight in Westgate E205
+
+![UX Study ICDO x HAX](https://github.com/user-attachments/assets/785af92e-5dce-4d33-9556-b258484d433c)
+
+
 # Week 12 - Project 2 - site analysis and construction
 
 ## Overview
@@ -91,3 +98,4 @@ You can't copyright UX or Design, however we do want to ensure we're not just di
 
 # Homework
 - See research check in details above. Needing to have screenshots, whiteboards, names, a plan for the brand
+
