@@ -85,3 +85,9 @@ You can't copyright UX or Design, however we do want to ensure we're not just di
 # 12.2
 - Additional review of a specific aspect of this project which is the menu. Looking at JSON Outline Schema as a data standard in order to turn it into a menu
 - Additional review of the calendar / schedule aspect of this. How we might envision that data loading and being presented
+
+# 12.3
+- Additional working time together as a pod and to ask questions
+
+# Homework
+- See research check in details above. Needing to have screenshots, whiteboards, names, a plan for the brand
