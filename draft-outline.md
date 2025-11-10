@@ -20,67 +20,68 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 - [Week 8](fa25/week-8.md)
 - [Week 9](fa25/week-9.md)
 - [Week 10](fa25/week-10.md)
+- [Week 11](fa25/week-11.md)
 
-# Week 11
-Project 1 is due this weekend - https://github.com/haxtheweb/issues/issues/2476
+# Week 12 - Project 2 - site analysis and construction
 
-# 11.1
-1 week until this is due and we've got a few decent examples but no one that's perfect or near perfect so let's fix that through some examples.
-## Examples to review
-- Ok conceptually but AI, not loading data from the endpoint, not using DDD, but interesting solutions within - https://project-1-umber-pi.vercel.app/
-- Decent data structure to review - https://raw.githubusercontent.com/MamanMadaan/project-1/refs/heads/main/api/chefs.json
-- Deep dive on this project, may want to pull down locally to load - https://github.com/DaGooseful/fox-app
-  - missing `/api/` call for the json data
-  - using DDD
-  - really interesting way of handling "likes" data
-  - clean up demo so there's less content in itt
-  - resizing cards for sure
-  - no hard coded image references
-  - "fox by" alt data isn't perfect but not a terrible way of handling things
+## Overview
+- It is common when looking to build websites to analyze competitors. What they are doing right, wrong, and areas for improvement.
+- Building on the past ice-planning app scope, as well as the API loading image gallery scope, we're going to analyze a site for a client
+- The goal is to identify strengths, weaknesses, and then architect a competing solution utilizing a newer approach to development
 
-# 11.2
-- Class is discussion time to answer some questions of each other and compare work
-- You'll have some questions to ask of each other and post as evidence of class discussion on Teams
+## Sports Association Website (Situational context, totally not real)
+The youth sports market vertical is ripe for revenue generation. Parents demand high qualiy web tools to go along with the overprofessionalization of youth sports. Given this space that our VCs have connections to in order to pour cash in to generate endless cash off of parents love and excess resources, combined with your demonstrated ability to deliver web projects in the past, we feel it is critical to build web properties that sell parents on youth sports. This tool is not a direct to consumer, but it is direct to non-profits who need these tools to promote their brand awareness and image. That image of taking sports seriously can lead to higher revenue streams for the non-profits and more sustainable associations. We are building a marketing conglomerate in order to tap into this multi-billion-dolloar youth sports industry.
 
-## vercel data issues
-"my stuff loads locally but not in vercel"
-- `new URL("./data.json", import.meta.url).href` -- is most likely the issue. This is because when we do a "build routine" it needs to trace and find every file. `new URL` helps this process know what to find
-- also make sure we're looking at the `/api/data` style way of meeting that requirement. See this app and how the weather.js file works to make your data be served by a vercel endpoint instead of a direct file -- https://github.com/btopro/ist-vercel-demo
+Target website we are trying to analyze, improve upon, in order to pitch to our VCs that wek now what we're doing is this - https://www.scyiha.org/
 
-## Discussion
-Have someone else work with your app by loading it up. After they play with it a bit, ask the following questions:
+You can't copyright UX or Design, however we do want to ensure we're not just directly copying this brand so we'd ask that you use AI in order to generate assets related to the fictional sports association of your choice.
 
-> How does the app make photo viewing and sharing feel intuitive or enjoyable for the user?
+# High level Fun for your team
+- Create a name / brand for your project team as well as for the fictional association you are building a brand towards
+- This is pod based work; work in pairs (no more than 4 to a pod)
+- In this instance, we will expect to see commits to multiple repositories / forks of those repositories and getting contributions back into the same space.
+- If leveraging the same repo and using branches makes more sense to you then you are able to do so
 
-> What design decisions (layout, color scheme, interactions) either added to or detracted from the experience?
+## High level Requirements
+- Creating a highly functional prototype homepage. Only 3 pages below the top level need to work (an approach known as routing), but there should be mock content that appears functional
+- Needs to be built using Vercel, DDD design system, HAX CLI, all the tools we've been using
+- Needs to be accessible, mobile responsive, dark mode responsive
+- Needs to be built using multiple web components. These components can be drawn from npmjs.com / repurposing past work (like `@haxtheweb/simple-cta` for example: https://www.npmjs.com/package/@haxtheweb/simple-cta) or be custom build for the project
 
-> Is spacing distracting or uniform?
+## Digging into requirements
+- You must have a top level menu that expands and collapses to illustrate many additional menu items
+- You must have colors and branding for your fake sports association which leverages DDD colors to form a pallet and AI for logo generation
+- You must map out in the existing website, what could be a reusable block, and your app must have at least **10 reusable components**
+- You must load data for the 'schedule' from an `/api/schedule` based vercel endpoint. This data can be a static JSON file as before, or come from a calendar API if getting tricky. Regardless, there must be a band of rendered elements showcasing the up-coming games for the organization in question
+- You must meet all of the high level requirements above
+- You must have a header, footer, all of the types of "bands" of content that exist in the site you are reviewing
+- You must create your own brand to stick with consistency in colors, logos, etc
+- Fonts must come from DDD
+- Spacing, sizing, borders, padding, etc must all come from DDD
+- You must style and present multiple links to other areas of content
+- The content you are linking off to should be logical
+- At least 3 of the links need to be clickable and engage in a technique known as "Routing". Routing is where when the URL changes, the website loads different content. This is similar to the starting point concept with your image gallery and the `?image=56` in the URL but think of it like `?page=parent-info` to load the parent-info content
+- Menu content must be loaded from `/api/menu` and be a simple JSON structure to present links and headings in the appropriate order, and leverage a version of https://github.com/haxtheweb/json-outline-schema 
 
-> Is color distracting or uniform?
+# Research check in
+- This week's check in is research based. Analysis of the initial website, forming your team as well as association content, What exists currently
+- We will do whiteboarding in class and need to submit photos breaking down and analyizing each part
+- Where can we generate 10 components from this 'app'? What are they named? How do we effectively divvy them up amongst our development team?
 
-> How is the mobile experience?
+# Check in 1 / 2
+- progress check in
+- time in class becomes analysis of the pages of this site, breaking down concepts, discovering what isn't working well with the existing and then reviewing what people are generating in class and discussing as a group
 
-> How is the dark mode experience if toggled?
+# Final project submission
+- Final project timeline / dates
 
-> What visual improvements could be made based on your usage of the app?
+<img width="369" height="333" alt="image" src="https://github.com/user-attachments/assets/5fd63c02-659f-4b51-ac71-e0072556db13" />
 
-> What functionality / requirements are you currently lacking or stuck on? See if anyone else in your pod have this issue resolved and discuss how you implemented it.
+# 12.1
+- Reading through above
+- Reviewing the site that exists
+- Starting to explore how we break this up and establishing our brand as a company / pod as well as the target association we are geared towards
 
-> If you had more time to work on this project and extend it's functionality, what’s the next feature / improvement you’d prioritize? How would you go about achieving it?
-
-Answers in Teams by the end of class for attendence today; after your pod has participated in this discussion activity, work to implement enhancements and ask questions
-
-# 11.3
-Open office hours to implement changes. Reminder that this is due this weekend and is a significant portion of your grade!
-
-# Project 1 due
-Project due Sunday
-
-# Looking ahead
-- Project 2 will actually be broken into several in-class oriented UX studies; starting to a UX study of the ice planner app you did as well as the photo loading project
-- These UX studies will then segway into micro-projects, several of them
-- This UX feedback will serve as the basis for doing work on HAX
-- **This section will be heavily in-class discussion and explaining the code to write oriented**
-
-
-
+# 12.2
+- Additional review of a specific aspect of this project which is the menu. Looking at JSON Outline Schema as a data standard in order to turn it into a menu
+- Additional review of the calendar / schedule aspect of this. How we might envision that data loading and being presented
