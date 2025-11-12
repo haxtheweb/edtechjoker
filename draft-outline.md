@@ -26,9 +26,6 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 # Coding in the world / outside of class
 Seminar tonight about open source involvement which can count toward 5% of your grade for attending the lecture and participating in the small UX study we'll be doing and asking questions. Afterwards, write up your experience / what you did and get credit. 6-7pm tonight in Westgate E205
 
-![UX Study ICDO x HAX](https://github.com/user-attachments/assets/785af92e-5dce-4d33-9556-b258484d433c)
-
-
 # Week 12 - Project 2 - site analysis and construction
 
 ## Overview
@@ -90,12 +87,22 @@ You can't copyright UX or Design, however we do want to ensure we're not just di
 - Starting to explore how we break this up and establishing our brand as a company / pod as well as the target association we are geared towards
 
 # 12.2
-- Additional review of a specific aspect of this project which is the menu. Looking at JSON Outline Schema as a data standard in order to turn it into a menu
+- Additional review of a specific aspect of this project which is the menu. Looking at [JSON Outline Schema](https://github.com/haxtheweb/json-outline-schema) as a data standard in order to turn it into a menu
 - Additional review of the calendar / schedule aspect of this. How we might envision that data loading and being presented
+- Model data with your pod:
+  - Draw a picture of your menu and a few menu items, diagraming size, spacing, functioanlity, touch vs hover vs focus, dark mode, mobile, etc
+  - How do the parts of the picture relate to data coming from a [JSON Outline Schema](https://github.com/haxtheweb/json-outline-schema) response
+  - Can this response data be used to power any other aspects of your interface?
+  - Draw a picture of your calendar widget, diagraming size, spacing, functionality, mobile vs desktop, dark mode, etc
+  - How should data be modeled for the request to this endpoint? What information is needed? What's the simplest way of conveying this information?
+- As part of attendence, submit drawings / white board postings to the day's team's thread.
 
 # 12.3
 - Additional working time together as a pod and to ask questions
+- Use these class periods to get deeper feedback on your development efforts
 
 # Homework
 - See research check in details above. Needing to have screenshots, whiteboards, names, a plan for the brand
+- Submit to the dropbox
+
 
