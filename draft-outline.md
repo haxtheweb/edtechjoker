@@ -30,7 +30,7 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 - get credit for the coding in the world aspect to the course
 - still several oppourtunities to get this rather easy 5% x 2 part of your grade
 - anything beyond the 2 are bonus
-- WESTGATE 202ish
+- WESTGATE E202
 
 ## Week 13.1
 Review of some different examples from last project
@@ -66,5 +66,6 @@ Check in 1 is due the Sunday AFTER thanksgiving break so you should have ample t
 - code, repo, initial build state on vercel
 - start of as many of the 10 elements as possible, even if just stubbed out with limited code in them
 - 1st page starting to take shape color, brand, etc
+
 
 
