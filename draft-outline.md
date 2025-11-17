@@ -38,6 +38,15 @@ Review of some different examples from last project
 - https://image-project-16g9.vercel.app
 - https://project-1-brown-nine.vercel.app/
 
+## Class activity
+- name all your components
+- write them out, discuss, agree upon a consistent naming convention for them
+- what are some properties they have?
+- What DDD colors will they use?
+- `{appname}-{usage}` - whatever you want, but must be consistent; also the overall appname element should make sense
+- After agreeing on the name of things, take a picture to document this, and then start building your repo using the HAX tooling to get it started and out on github.
+- Remember, to add new elements just create additional `what-ever.js` blocks and extend from Lit / DDD just like the base one does.
+
 Routing articles to read
 - https://dev.to/rohanbagchi/how-to-write-a-vanillajs-router-hk3
 - https://medium.com/@george.norberg/history-api-getting-started-36bfc82ddefc
@@ -56,3 +65,4 @@ Check in 1 is due the Sunday AFTER thanksgiving break so you should have ample t
 - code, repo, initial build state on vercel
 - start of as many of the 10 elements as possible, even if just stubbed out with limited code in them
 - 1st page starting to take shape color, brand, etc
+
