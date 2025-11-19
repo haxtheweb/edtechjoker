@@ -59,13 +59,24 @@ Routing user flow:
 
 This is similar to reflection of a property to an attribute in an element in order to keep state. There is a change to state (the "page" to display) and we reflect that change in the address bar via the slug change. Many of you did something similar with the `?image=42` style URL change.
 
-13.2 and 13.3 will be additional time in class to work on your project.
+## 13.2
+- Create your code repos
+- stub out your elements by name
+- start to establish their properties
+- get your index to load all the stub elements (just so you don't forget to wire them in)
+- get it building on vercel
+- you likely will have assets you are including with your project (images among others). See this example rollup.config.js file and note the 'copy' section. This is a plugin you will need to add to your package.json file, but it enables vercel to be able to pick up and load the assets correctly https://github.com/haxtheweb/hax-the-club/blob/main/rollup.config.js
+
+13.3 will be additional time in class to work on your project as well as an extra in class activity.
+
+
 Check in 1 is due the Sunday AFTER thanksgiving break so you should have ample time to make a lot of progress on it the next 2 weeks
 
 ## Check in expectations
 - code, repo, initial build state on vercel
 - start of as many of the 10 elements as possible, even if just stubbed out with limited code in them
 - 1st page starting to take shape color, brand, etc
+
 
 
 
