@@ -25,6 +25,8 @@ Node.js is essentially what runs JavaScript, It is what 'does' stuff within the 
 
 
 ## Git
+Git is a repository for working collaboratively on coding projects.
+https://www.w3schools.com/git/git_intro.asp?remote=github
 
 
 ## HAXTheWeb
