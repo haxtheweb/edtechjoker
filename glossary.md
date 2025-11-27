@@ -22,6 +22,9 @@ Node.js is essentially what runs JavaScript, It is what 'does' stuff within the 
 *https://www.reddit.com/r/learnjavascript/comments/3d4hs5/eli5_what_in_the_heck_is_nodejs/
 
 ## JavaScript
+A programming language for the web that is used for user interaction on a website. It works alongside HTML and CSS to create web pages for the internet. Despite the name, it is an entirely different language from Java.
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript 
+https://www.geeksforgeeks.org/javascript/introduction-to-javascript/
 
 
 ## Git
