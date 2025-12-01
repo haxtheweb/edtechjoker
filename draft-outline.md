@@ -25,11 +25,11 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 - [Week 13](fa25/week-13.md)
 
 # HAX Club meeting Monday night 7pm
-come to a code sprint, work on things for ~2 hours
-get credit for the coding in the world aspect to the course
-still several oppourtunities to get this rather easy 5% x 2 part of your grade
-anything beyond the 2 are bonus
-WESTGATE E202
+- come to a code sprint, work on things for ~2 hours
+- get credit for the coding in the world aspect to the course
+- still several oppourtunities to get this rather easy 5% x 2 part of your grade
+- anything beyond the 2 are bonus
+- **WESTGATE E202**
 
 
 # Week 14-15
@@ -53,5 +53,6 @@ Class activity
 14.2
 - Any questions answered and reviewed
 - More time to work in class with your group
+
 
 
