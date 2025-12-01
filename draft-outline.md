@@ -30,6 +30,7 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 - Great starting point, deep dive on code structure
   - https://github.com/Kiwi-veg404/kiwi-the-icer
   - https://kiwi-the-icer.vercel.app/
+- Another great start -- https://nittany-offensive-operations-associ.vercel.app/
 - PWA rewrite via vercel.json -- https://vercel.com/docs/project-configuration#rewrites-examples
 - This way when you go to the `/slug` it won't hit a 404
 
@@ -44,3 +45,4 @@ Class activity
 14.2
 - Any questions answered and reviewed
 - More time to work in class with your group
+
