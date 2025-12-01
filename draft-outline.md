@@ -54,5 +54,13 @@ Class activity
 - Any questions answered and reviewed
 - More time to work in class with your group
 
+14.3 - more time to work in class
+
+Sunday Check in 2
+- It should have a working vercel build link
+- it should have at least 10 elements stubbed out if not started
+- the site should start looking like the site
+- routing should be in place
+
 
 
