@@ -31,6 +31,8 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 - anything beyond the 2 are bonus
 - **WESTGATE E202**
 
+# PROJECT 2 REQUIREMENTS
+https://github.com/haxtheweb/edtechjoker/blob/master/fa25/week-12.md
 
 # Week 14-15
 
@@ -61,6 +63,7 @@ Sunday Check in 2
 - it should have at least 10 elements stubbed out if not started
 - the site should start looking like the site
 - routing should be in place
+
 
 
 
