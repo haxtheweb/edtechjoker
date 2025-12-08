@@ -35,6 +35,16 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 https://github.com/haxtheweb/edtechjoker/blob/master/fa25/week-12.md
 
 # Week 14-15
+The last week of class!
+15.1
+- https://github.com/nguyenjanel/tussey-snowboard
+- https://github.com/dcagliola/kenny-emporium
+- https://project-2-ruddy-chi.vercel.app/
+- https://nittany-offensive-operations-associ.vercel.app/
+- https://the-badmen.vercel.app/
+- https://kiwi-the-icer.vercel.app/schedule -- ROUTING WORKING ON VERCEL! -- https://github.com/Kiwi-veg404/kiwi-the-icer
+
+15.2 / 15.3 group work
 
 14.1
 - Great starting point, deep dive on code structure
@@ -63,6 +73,7 @@ Sunday Check in 2
 - it should have at least 10 elements stubbed out if not started
 - the site should start looking like the site
 - routing should be in place
+
 
 
 
