@@ -45,6 +45,13 @@ The last week of class!
 - https://kiwi-the-icer.vercel.app/schedule -- ROUTING WORKING ON VERCEL! -- https://github.com/Kiwi-veg404/kiwi-the-icer
 - https://github.com/Kiwi-veg404/kiwi-the-icer/blob/main/vercel.json
 
+## vercel no like my images
+```js
+const coolImage = new URL("./images/coolImage.jpg", import.meta.url).href;
+// then in your render
+html`<img src="${coolImage}" />`
+```
+
 15.2 / 15.3 group work
 
 14.1
@@ -74,6 +81,7 @@ Sunday Check in 2
 - it should have at least 10 elements stubbed out if not started
 - the site should start looking like the site
 - routing should be in place
+
 
 
 
