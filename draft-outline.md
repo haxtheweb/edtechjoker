@@ -43,6 +43,7 @@ The last week of class!
 - https://nittany-offensive-operations-associ.vercel.app/
 - https://the-badmen.vercel.app/
 - https://kiwi-the-icer.vercel.app/schedule -- ROUTING WORKING ON VERCEL! -- https://github.com/Kiwi-veg404/kiwi-the-icer
+- https://github.com/Kiwi-veg404/kiwi-the-icer/blob/main/vercel.json
 
 15.2 / 15.3 group work
 
@@ -73,6 +74,7 @@ Sunday Check in 2
 - it should have at least 10 elements stubbed out if not started
 - the site should start looking like the site
 - routing should be in place
+
 
 
 
