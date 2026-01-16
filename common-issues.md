@@ -243,7 +243,7 @@ You can change the owner of this global **node_modules** folder to yourself. Eit
 Or target its parent `usr/local`:
 * ```
   sudo chown -R $USER /usr/local/bin
-  sudo chown -R $USER /usr/local/man
+  sudo chown -R $USER /usr/local/share
   ```
 
 **NOTE:** Do not modify these commands without consulting the teaching team. Running **chown** (change owner) on the top level `/usr/` folder can risk breaking your OS install.
