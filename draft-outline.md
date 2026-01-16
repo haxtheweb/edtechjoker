@@ -36,7 +36,21 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 - Check out a code pen, a really easy way of learning HTML/CSS/JS by remixing examples of others
 - https://oer.hax.psu.edu/bto108/sites/ist256/activities/day-1
 
-## Day 1.3 / Homework
+## Day 1.3
+- Explain what GitHub is just enough to get an account and see some projects
+- Same for vercel
+- Same for codepen
+- Same for vscode with plugins
+- Same with making a website on HAX.psu
+- Same with installing HAX locally on your machine
+- Need to get to the screen that says welcome to hax
+
+Each step of the way it's like 5 minutes to walk through while they get an account and then answer any questions people have.
+
+- Show an example submission of how we want things submitted this semester
+- Then show the one submission made to canvas as the example of what is expected and that, in general, submissions will be made outside of canvas and then you'll link to them
+
+## Homework
 - https://www.w3schools.com/ -- Do the "Learn HTML" tutorials (all of them, this is mostly a primer and they go quick as you start to get them)
 - Create an account on https://github.com 
 - Create accounts on the services listed here: https://oer.hax.psu.edu/bto108/sites/ist256/requirements
@@ -132,3 +146,4 @@ The HAX.PSU BLOG POST should include the following:
 - If you found particular websites helpful from a tutorial perspective on any of these specific requirements, then include them so we can share with the class.
 - If you have questioned unanswered / things you couldn't figure out from the "Card" activity, what are they?
 - a picture of the mock up you were trying to model the card off of (YOU CAN UPLOAD VIA DRAG AND DROP OR BLOCKS TAB OR MERLIN MENU AT THE TOP OF THE UI)
+
