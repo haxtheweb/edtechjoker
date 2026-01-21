@@ -9,6 +9,9 @@ Define each term below by writing a paragraph explaining what it is and why it's
 
 
 ## NPM
+NPM is the main repository for JavaScript to share packages and register software. It can quickly download and install software in a command line.
+```C:\>npm install <package>```
+*https://www.w3schools.com/whatis/whatis_npm.asp
 
 
 ## Node.js
