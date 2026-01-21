@@ -20,7 +20,10 @@ Node.js is essentially what runs JavaScript, It is what 'does' stuff within the 
 *https://www.reddit.com/r/learnjavascript/comments/3d4hs5/eli5_what_in_the_heck_is_nodejs/
 
 ## JavaScript
+JavaScript is a scripting lanaguage that allows there to be complex features on a web page. Some complex features include: timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, and many more. It works alongside HTML and CSS to help fully design a web page.
 
+*https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript
+*https://www.w3schools.com/whatis/whatis_js.asp
 
 ## Git
 
