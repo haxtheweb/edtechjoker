@@ -21,6 +21,26 @@ Node.js is essentially what runs JavaScript, It is what 'does' stuff within the 
 
 ## JavaScript
 
+JavaScript is a high-level, interpreted programming language primarily used to make websites interactive and dynamic. While HTML structures a webpage and CSS styles it, JavaScript adds behavior—allowing pages to respond to user actions, update content without reloading, and communicate with servers. Today, JavaScript runs not only in browsers but also on servers (via Node.js), making it one of the most versatile and widely used languages in modern software development.
+
+### Key Features of JavaScript
+- Runs directly in the browser (no compilation required)
+- Enables interactive elements like buttons, forms, and animations
+- Supports event-driven programming (clicks, key presses, etc.)
+- Can be used on both the front end and back end
+- Has a massive ecosystem of libraries and frameworks (React, Node.js, Vue, etc.)
+
+### Example JavaScript Code
+```javascript
+// Simple JavaScript example
+function greet(name) {
+  return `Hello, ${name}! Welcome to JavaScript.`;
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  console.log(greet("World"));
+});
+```
 
 ## Git
 
