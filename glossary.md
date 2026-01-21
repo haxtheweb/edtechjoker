@@ -9,6 +9,10 @@ Define each term below by writing a paragraph explaining what it is and why it's
 
 
 ## NPM
+NPM is the default package manager for Node.js JavaScript. It is an online repository for reusable code, and a command line tool for developers to install, share, and manage software packages and their dependencies in their projects. It handles the relationships between different packages in projects and it hHelps track and manage specific versions of packages to avoid conflicts.
+
+*https://blog.packagecloud.io/what-is-npm/#:~:text=Getting%20Started%20with%20NPM,public%20repository%20of%20JavaScript%20code.
+*https://www.contrastsecurity.com/glossary/npm#:~:text=npm%20is%20a%20package%20manager,protect%20their%20projects%20from%20vulnerabilities.
 
 
 ## Node.js
