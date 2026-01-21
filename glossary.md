@@ -24,6 +24,27 @@ Node.js is essentially what runs JavaScript, It is what 'does' stuff within the 
 *https://www.reddit.com/r/learnjavascript/comments/3d4hs5/eli5_what_in_the_heck_is_nodejs/
 
 ## JavaScript
+- Client-side & server-side: Runs in the browser and on servers (via Node.js).
+- Interpreted, not compiled: Executed line-by-line by the JS engine.
+- Event-driven: Reacts to user actions (clicks, typing) and async events.
+- Dynamically typed: Variables don’t need fixed types.
+- First-class functions: Functions can be stored, passed, and returned.
+- Asynchronous by default: Uses callbacks, promises, and async/await.
+- Core of the web: Works with HTML (structure) and CSS (style).
+
+''' // ===== Utilities =====
+const greetUser = (name) => `Hello, ${name}!`;
+
+// ===== DOM Elements =====
+const greetButton = document.querySelector("#greet-btn");
+
+// ===== Event Handlers =====
+const handleGreetClick = () => {
+  console.log(greetUser("David"));
+};
+
+// ===== Event Listeners =====
+greetButton.addEventListener("click", handleGreetClick); '''
 
 
 ## Git
