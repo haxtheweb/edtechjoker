@@ -9,7 +9,9 @@ Define each term below by writing a paragraph explaining what it is and why it's
 
 
 ## NPM
+the node package manager is the default package manager for node.js.
 
+*https://www.google.com/url?sa=i&source=web&rct=j&url=https://blog.packagecloud.io/what-is-npm/&ved=2ahUKEwiLo6bX_ZySAxWqNmIAHd_xGFoQqYcPegYIAQgAECo&opi=89978449&cd&psig=AOvVaw0pj5GgL1cNtsPPZ8fmJQEu&ust=1769096907864000
 
 ## Node.js
 Node.js is essentially what runs JavaScript, It is what 'does' stuff within the file. It is a high performance, single-threaded event loop that is very popular for building modern web applications.It is also known for it's scalability and for having an extensive ecosystem:
