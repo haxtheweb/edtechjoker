@@ -40,7 +40,7 @@ function greet(name) {
 document.addEventListener("DOMContentLoaded", () => {
   console.log(greet("World"));
 });
-
+```
 
 ## Git
 
