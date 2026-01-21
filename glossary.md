@@ -9,6 +9,10 @@ Define each term below by writing a paragraph explaining what it is and why it's
 
 
 ## NPM
+NPM is the world's largest software registry and the default package manager for the Node.js JavaScript runtime, used by developers to discover, install, share, and manage code libraries. It is used for building applications, streamlining dependency management and deployment.
+
+*https://www.w3schools.com/whatis/whatis_npm.asp
+*https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager
 
 
 ## Node.js
