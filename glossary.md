@@ -9,6 +9,9 @@ Define each term below by writing a paragraph explaining what it is and why it's
 
 
 ## NPM
+Node Package Manager is the default package manager for Node.js. It is a repository for javaScript and a place where developers can share code. NPM is free to use and allows developers to reuse code.  
+
+*https://www.w3schools.com/whatis/whatis_npm.asp
 
 
 ## Node.js
