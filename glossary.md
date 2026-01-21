@@ -4,6 +4,10 @@ Define each term below by writing a paragraph explaining what it is and why it's
 
 ## Web Components
 
+Web components are APIs that allow you to be able to create a new HTML tag that can be custom, reused and encapsulated. This than allows developers to build componets that have the fetures such as being reusable.
+
+https://www.freecodecamp.org/news/a-brief-introduction-to-web-components/
+https://coherent-labs.com/posts/web-components/
 
 ## Lit
 
