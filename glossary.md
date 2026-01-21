@@ -9,7 +9,9 @@ Define each term below by writing a paragraph explaining what it is and why it's
 
 
 ## NPM
-
+NPM is a package manager used by Node.js. This means that open source developers can send their open source code into NPM which allows others to use it. It's a command line tool that is used to search for, install, and manage packages. 
+- https://www.w3schools.com/whatis/whatis_npm.asp
+- https://www.contrastsecurity.com/glossary/npm
 
 ## Node.js
 Node.js is essentially what runs JavaScript, It is what 'does' stuff within the file. It is a high performance, single-threaded event loop that is very popular for building modern web applications.It is also known for it's scalability and for having an extensive ecosystem:
@@ -23,6 +25,7 @@ Node.js is essentially what runs JavaScript, It is what 'does' stuff within the 
 
 
 ## Git
+
 
 
 ## HAXTheWeb
