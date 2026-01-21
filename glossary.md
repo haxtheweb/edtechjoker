@@ -3,6 +3,10 @@
 Define each term below by writing a paragraph explaining what it is and why it's important for web development. Include 2-3 relevant links for more information.
 
 ## Web Components
+Web Components are a set of standard web APIs that let developers create reusable, custom HTML elements with their own structure and styles. They use technologies like Custom Elements, Shadow DOM, and HTML Templates to keep components isolated and easy to reuse. Web Components are important for web development because they help build modular and maintainable interfaces that work across browsers and frameworks, reducing duplicated code and improving consistency in large applications.
+
+* https://developer.mozilla.org/en-US/docs/Web/Web_Components
+* https://webcomponents.org/introduction
 
 
 ## Lit
