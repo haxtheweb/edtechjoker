@@ -2,8 +2,9 @@
 
 Define each term below by writing a paragraph explaining what it is and why it's important for web development. Include 2-3 relevant links for more information.
 
-## Web Components
 
+## Web Components
+Web Components are browser standard ways to create your own elements in HTML that cna be reused. Usually they are built on three main pieces. 1. JavaScript APIs to define new HTML tags, 2. Shadow DOM which is a private DOM tree which is attached to an element so its internal markup and CSS dont leak. 3. HTML templates which are chunks of HTML that aren't rendered. 
 
 ## Lit
 
