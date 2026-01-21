@@ -23,7 +23,8 @@ Node.js is essentially what runs JavaScript, It is what 'does' stuff within the 
 
 
 ## Git
-
+Git helps you track the changes you have made while coding. It can help manage changes being made while working collabratily. 
+https://www.reddit.com/r/learnprogramming/comments/pymrss/can_someone_for_the_love_of_god_explain_what_git/
 
 ## HAXTheWeb
 
