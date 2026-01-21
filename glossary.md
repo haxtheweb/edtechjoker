@@ -2,18 +2,18 @@
 
 Define each term below by writing a paragraph explaining what it is and why it's important for web development. Include 2-3 relevant links for more information.
 
-## Web Components 
-Web components are a suite of standardized web platform technologies that let developers create custom, reusable HTML elements with their own structures, styling, and behavior, so they work across web pages and applications without interfering with other code. These components se broswer APIs such as custom elements, shadow DOM, and templates.
+## Web Components
+Web components are a suite of technologies that allow developers to create reusable elements of new HTML elements and their behavior.  They are important for web development because they are essential in building capable applications
 
-*https://developer.mozilla.org/en-US/docs/Web/API/Web_components
+https://developer.mozilla.org/en-US/docs/Web/API/Web_components
 
 ## Lit
+Lit is a modern JavaScript library that is designed to simplify the creation of web components.  They are important in web development because they are efficient for developing fast, reusable, and scalable UI components
 
+https://blogs.perficient.com/2025/05/05/lit-js-building-fast-lightweight-and-scalable-web-components/
 
 ## NPM
-the node package manager is the default package manager for node.js.
 
-*https://www.google.com/url?sa=i&source=web&rct=j&url=https://blog.packagecloud.io/what-is-npm/&ved=2ahUKEwiLo6bX_ZySAxWqNmIAHd_xGFoQqYcPegYIAQgAECo&opi=89978449&cd&psig=AOvVaw0pj5GgL1cNtsPPZ8fmJQEu&ust=1769096907864000
 
 ## Node.js
 Node.js is essentially what runs JavaScript, It is what 'does' stuff within the file. It is a high performance, single-threaded event loop that is very popular for building modern web applications.It is also known for it's scalability and for having an extensive ecosystem:
