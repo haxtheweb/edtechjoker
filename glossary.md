@@ -9,7 +9,10 @@ Define each term below by writing a paragraph explaining what it is and why it's
 
 
 ## NPM
+NPM (Node Package Manager) is the world's largest software registry with hundreds of thousands of open-source code packages that are free to use. It is from this abundance of FOSS that NPM has become vital to the functionsof many elements of the modern internet through being very easy to access, download, and use.
 
+www.w3schools.com/whatis/whatis_npm.asp
+https://stackoverflow.com/questions/31930370/what-is-npm-and-why-do-i-need-it
 
 ## Node.js
 Node.js is essentially what runs JavaScript, It is what 'does' stuff within the file. It is a high performance, single-threaded event loop that is very popular for building modern web applications.It is also known for it's scalability and for having an extensive ecosystem:
