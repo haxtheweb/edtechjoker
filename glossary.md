@@ -23,7 +23,7 @@ Node.js is essentially what runs JavaScript, It is what 'does' stuff within the 
 
 
 ## Git
-
+Git is a free and open-source version control system, designed to help you track changes in your code, and work more effectively on a team.
 
 ## HAXTheWeb
 
