@@ -9,8 +9,8 @@ Define each term below by writing a paragraph explaining what it is and why it's
 
 
 ## NPM
-
-
+NPM is a Node Packet Manager. It is the default package manager for Node.js. It serves as a massive repository for JavaScript. NPM is crucial for managing project dependencies.
+https://www.w3schools.com/whatis/whatis_npm.asp
 ## Node.js
 Node.js is essentially what runs JavaScript, It is what 'does' stuff within the file. It is a high performance, single-threaded event loop that is very popular for building modern web applications.It is also known for it's scalability and for having an extensive ecosystem:
 *Event-Driven, non-blocking I/O = great for real time applications
