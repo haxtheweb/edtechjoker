@@ -1,4 +1,4 @@
-# Glossary
+# Glossary :):):)
 
 Define each term below by writing a paragraph explaining what it is and why it's important for web development. Include 2-3 relevant links for more information.
 
@@ -6,7 +6,9 @@ Define each term below by writing a paragraph explaining what it is and why it's
 
 
 ## Lit
+Lit is a simple library that is used for bguidling fast, lightweight web components. Web components can be used in any HTML environment, making it an extremely useful tool for developing sharable components and systems.  
 
+*https://lit.dev/docs/ 
 
 ## NPM
 
