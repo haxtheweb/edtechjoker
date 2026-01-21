@@ -9,7 +9,10 @@ Define each term below by writing a paragraph explaining what it is and why it's
 
 
 ## NPM
+NPM (Node Package Manager) is a package management system for JavaScript and Node.js that helps developers find, install, update, and manage reusable code packages (libraries) in their projects. It also works as a command-line tool that lets you run project scripts, handle dependencies automatically, and keep track of package versions
+For example, ``` npm install --global @haxtheweb/create```
 
+*https://www.w3schools.com/whatis/whatis_npm.asp
 
 ## Node.js
 Node.js is essentially what runs JavaScript, It is what 'does' stuff within the file. It is a high performance, single-threaded event loop that is very popular for building modern web applications.It is also known for it's scalability and for having an extensive ecosystem:
