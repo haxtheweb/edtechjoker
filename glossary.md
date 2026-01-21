@@ -8,7 +8,9 @@ Define each term below by writing a paragraph explaining what it is and why it's
 ## Lit
 
 
-## NPM
+## NPM - Node Packet Manager - this is a command line tool that is used to install Javascript packages. Makes it easier for developers to reuse code. Works as an active online repository for developers to post, take ad share code.
+- https://www.w3schools.com/whatis/whatis_npm.asp
+  
 
 
 ## Node.js
