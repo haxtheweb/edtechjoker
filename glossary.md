@@ -9,6 +9,7 @@ Define each term below by writing a paragraph explaining what it is and why it's
 
 
 ## NPM
+NPM stands for Node Package Manager, and is a package manager for JavaScript by npm. A package manager is a piece of software that automates package handling, things like updating, installing, configuring, and deleting packages and their dependecies. Using the command line, ```npm init``` creates a package.json file that keeps track of your project's metadata and dependencies.
 
 
 ## Node.js
