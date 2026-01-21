@@ -9,6 +9,8 @@ Define each term below by writing a paragraph explaining what it is and why it's
 
 
 ## NPM
+NPM (Node Package Manager) is the default package management system for Node.js that is used to install, manage, and share reusable JavaScript packages and libraries. It provides a command line tool and an online registry. Developers use NPM to add frameworks and libraries, manage dependancy versions, and run predefined scripts.
+https://www.w3schools.com/whatis/whatis_npm.asp 
 
 
 ## Node.js
