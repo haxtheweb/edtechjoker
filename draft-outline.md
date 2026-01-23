@@ -34,7 +34,12 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 
 ## Day 2.3
 - Slide deck which I will run through very quickly (you can read on your own time or use as basis to google concepts) https://docs.google.com/presentation/d/1rbC4d-sXTyDUArLPXl-tBEQ8ZJldD9_QFfuFhgIW73g/edit?usp=sharing
-- Live coding / paint by numbers: Let's make a button
+- Live coding / paint by numbers: Let's make a button in codepen https://codepen.io/
+ - I will model the button on the white board
+ - I will start asking you to type the same thing I am so we are all on the same page
+ - I will enhance the button to do different things
+ - I want you to search for "In HTML, how do I make a link open in a new window"
+ - This is effectively the way to learn how to build and interface with the small aspects of the language in order to understand how to build bigger things
 - Starting into homework in class below as Part 2 (Part 1 you will do independently)
 
 ## Homework
@@ -87,5 +92,6 @@ The HAX.PSU BLOG POST should include the following:
 - If you found particular websites helpful from a tutorial perspective on any of these specific requirements, then include them so we can share with the class.
 - If you have questioned unanswered / things you couldn't figure out from the "Card" activity, what are they?
 - a picture of the mock up you were trying to model the card off of (YOU CAN UPLOAD VIA DRAG AND DROP OR BLOCKS TAB OR MERLIN MENU AT THE TOP OF THE UI)
+
 
 
