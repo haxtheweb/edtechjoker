@@ -1,22 +1,18 @@
 
 # Week 3: Code pen some moe
 
-## Tuesday
-- Teams Mooooooood.
-- Slides: https://docs.google.com/presentation/d/1ZlNgZiPT2dHqUsdpQh2CdbbGvYmEeG8Br5SDIp371lY/edit?usp=sharing
+# 3.1 - snow day
+-  Slides: https://docs.google.com/presentation/d/1ZlNgZiPT2dHqUsdpQh2CdbbGvYmEeG8Br5SDIp371lY/edit?usp=sharing
+-  work through the slide deck and follow the links / google for more detail. We'll be doing an activity in class on Wed
+
+## 3.2
+- Slides: https://docs.google.com/presentation/d/1ZlNgZiPT2dHqUsdpQh2CdbbGvYmEeG8Br5SDIp371lY/edit?usp=sharing (same as above, for reference)
+- What is a Golden Ratio?
+```
+the ratio of a larger to a smaller quantity when this is the same as the ratio of their sum to the larger of the two quantities (i.e. 1 to about 1.618), describing a geometric proportion that is considered to be particularly pleasing to the eye.
+```
 - We'll dig into the code written the previous week and see different ways of solving the same problem
 - You'll work with your pod to implement specific changes brought up in class
-
-Issue: I have an image on the page
-- I need to add a button that adds a new image next to it when I hit the button
-- Take 2 minutes and type up the following answers into Teams as to your guess:
-- What’s the first step?
-- How do I make the button?
-- We only have 1 image, how do we get another there?
-  - https://github.com/btopro.png
-
-## after the questions
-- Starting point I'll post in Teams once we think through above briefly
 
 ## Remediation
 - Swap codepens / audit the codepen of your pod. Look for the following and anything else you don’t understand
@@ -38,13 +34,24 @@ Issue: I have an image on the page
 - Replace all tag specific CSS selectors with classes
 - Make another “card” so that 2 live on the screen side by side, then another so that 3 do
 
-## Wed - start into the homework as far as watching videos and responding to things on hax.psu
+## Friday - start into the homework as far as watching videos and responding to things on hax.psu
 
-## Thursday
+## 3.3
+
+## Code by Numbers
+Issue: I have an image on the page
+- I need to add a button that adds a new image next to it when I hit the button
+- Take 2 minutes and type up the following answers into Teams as to your guess:
+- What’s the first step?
+- How do I make the button?
+- We only have 1 image, how do we get another there?
+  - https://github.com/btopro.png
+## after the questions
+- Starting point I'll post in Teams once we think through above briefly
 
 ### Live code
 - Follow along as we step through https://codepen.io/btopro/pen/zYVbGyO
-- I'll wire this up so that the button is able to duplicate the "card" in the pen
+- This shows javascript, using CSS as the selector, to duplicate HTML elements
 
 ### Code by Numbers
 The way these activities will work:
@@ -74,8 +81,8 @@ Additional logic to add:
 
 # Homework
 - Some examples that can help you apply to your card
-  - https://codepen.io/btopro/pen/OJqjoLb  (pen from Tues)
-  - https://codepen.io/btopro/pen/PoLJXVj (the pen from Thurs)
+  - https://codepen.io/btopro/pen/OJqjoLb  
+  - https://codepen.io/btopro/pen/PoLJXVj 
   - https://codepen.io/btopro/pen/QWzdMav (example of class toggling)
 - Add things to yours that say "Code By The Numbers" above
 
