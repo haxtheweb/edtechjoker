@@ -28,6 +28,7 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 -  work through the slide deck and follow the links / google for more detail. We'll be doing an activity in class on Wed
 
 ## 3.2
+- the door was locked: https://codepen.io/btopro/pen/bNbzEEy
 - Slides: https://docs.google.com/presentation/d/1ZlNgZiPT2dHqUsdpQh2CdbbGvYmEeG8Br5SDIp371lY/edit?usp=sharing (same as above, for reference)
 - What is a Golden Ratio?
 ```
@@ -128,3 +129,4 @@ Additional logic to add:
 - Create a HAX.PSU blog post that has answers to the above after watching the videos
 - Finish the "code by the numbers" work started in class together **but applied to your card you made previously** and provide a link in your blog post
 - drop link to your post into canvas HW3
+
