@@ -112,13 +112,14 @@ Now it's your turn:
 - Create 5 implementations of this in the demo / index.html area (meaning 5 different implementations of `<my-card>` using attributes)
 - Get your code back up on github (meaning you commit it locally after making changes, then `git push` to get it back on github
 - Run through the lit tutorial - https://lit.dev/tutorials/intro-to-lit/ to help **MAKE SURE IT IS USING JS AND NOT TS**
+- Go through this cheat sheet and make sure you understand the examples -- https://lit.dev/articles/lit-cheat-sheet/ -- **MAKE SURE IT IS USING JS AND NOT TS**
 
 ## Submission
 - HAX.psu post with the following:
 - link(s) to your github repo that you made
 - Answer the following:
 - When doing the tutorial, what did you get stuck on?
-  - In reading through the deck / tutorials / googling, what's not making sense?
+  - In reading through the deck / tutorials / googling / "lit cheat sheet", what's not making sense?
   - Same, but what DOES make sense? Is this a superior approach to coding in the 'global scope' ala code pen, or does this scoping make it more complicated?
     - If more compplicated, what makes it harder?
     - If superior approach, why did you feel this was easier than the code pen based global way?
