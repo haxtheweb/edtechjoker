@@ -28,7 +28,7 @@ NPM (Node Package Manager) is the world's largest software registry and the defa
 * https://www.w3schools.com/nodejs/nodejs_npm.asp
 
 ## Node.js
-Node.js is essentially what runs JavaScript, It is what 'does' stuff within the file. It is a high performance, single-threaded event loop that is very popular for building modern web applications. It is also known for its scalability and for having an extensive ecosystem:
+Node.js is essentially what runs JavaScript, It is what 'does' stuff within the file. It is a high performance, single-threaded event loop that is very popular for building modern web applications. Not to mention, Node.js allows developers to use JavaScript for the front-end along with the back-end. It is also known for its scalability and for having an extensive ecosystem:
 * Event-Driven, non-blocking I/O = great for real time applications
 * Collection of libraries making development easier
 
@@ -44,8 +44,6 @@ JavaScript is a high-level, interpreted programming language that is one of the 
 
 ## Git
 Git is a distributed version control system that tracks changes in source code during software development. It allows multiple developers to work on the same project simultaneously without overwriting each other's work through the use of branches and merging. Git is indispensable in modern web development because it provides a "safety net," allowing developers to revert to previous versions of code if something breaks. It also facilitates collaboration and code reviews.
-
-
 
 * https://git-scm.com/doc
 * https://www.atlassian.com/git/tutorials/what-is-version-control
