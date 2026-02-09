@@ -63,7 +63,6 @@ my-card[fancy] {
 </my-card>
 ```
 
-# 5.2 / 5.3 (based on how far we get each day)
 ## Let's get fancy with CSS selectors
 **Past class class recording** -- https://www.youtube.com/watch?v=tGfWOXXvCdQ
 **another Past class recording** - https://www.youtube.com/watch?v=9GIR4TM-gwY
@@ -112,7 +111,7 @@ display: block;
   </div>
 </details>
 ```
-
+# 5.2 / 5.3 (based on how far we get each day)
 ## Let's make it so when fancy changes, our details area opens as well
 - A few of you have asked "Is this just a design element? Where does the JS go?" or some version of "Should I add methods to my card?"
 - This is an example of when it makes sense to do something like that -- responding to events and actions in the element itself
@@ -218,5 +217,6 @@ While DDD is not some widely recognized standard, Bootstrap, Tailwind and Materi
 - Do realize DDD was made by a former IST 256 student.. just like you, who learned in class, then made something awesome!
 
 As with everything in this class, my goal is to give you skills so that you understand the low levels of the browser and it's languages so that you can extrapolate and better understand ANY design system, library or framework that you come across.
+
 
 
