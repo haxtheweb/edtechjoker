@@ -14,6 +14,7 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 - [Week 1](sp26/week-1-2.md)
 - [Week 2](sp26/week-1-2.md)
 - [Week 3](sp26/week-3.md)
+- [Week 4](sp26/week-4.md)
 
 # HAX Club meeting Monday night 7pm ECoRE Bldg (West 1) room 103
 - come to a code sprint, work on things for ~2 hours
@@ -21,105 +22,201 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 - learn how to get more involved in the HAX community
 - bonus 2.5% in the class for making contributions and participating with building in HAX Club (up to 5% bonus)
 
-# Week 4 - The one with real development
-This week we'll start looking at how our code fits (or doesn't) into the modern JS ecosystem. What we've made so far is old school, vanilla, simple. Now we'll start looking into how moderen JS is shipped and worked with as well as provide review and revision to the work that's been done.
 
-## 4.1
-## POLICY NOTE
-- TAs are giving feedback on correct and incorrectness
-- If you lose points it is typically for lacking things asked for / meeting all requirements
-- Incentivized office hours: go to office hours for help when you are stuck to remove late penalty (this is the week of only, not waiting 4 weeks and then getting help)
+# Week 5
+We take the first leep into big kid web development, it is shockingly difficult at first. I can see that in the feedback you gave to answers. Today, we're going to go through some of the things that went well as well as what didn't. The goal of today is to get everyone in class to have their web component working and get everyone the help they need.
 
-## Code crit from HW3 30 min
+# 5.1 - Crit
+- Class recording (past crit): https://www.youtube.com/watch?v=er70EwxF8EU
+- (repo in this vid) https://github.com/michaelnipper3/polaris-chip
 
-### Examples for critique
-- https://codepen.io/interested-learner/pen/vEKJqYG
-- https://codepen.io/Abhi-PSU/pen/dPXmxPL
-- https://codepen.io/mcenci24/pen/xbOpppZ?editors=1010
-- https://codepen.io/DylDay/pen/bNeaaoK?editors=1010
+You are free to install and run through these but it's better to have your code up so that you can compare and contrast approaches and ask questions of the work on screen
 
-## Remediations and enhancements to look for
-- Here's some general things to apply during activity one
-1. make sure that things like `class="whatever"` is NOT `class = "whatever"` spaces in attributes are not allowed
-2. if your testing for a style "state" like for example `if (thing.style.display == "block") { } ` change this to test if there's a class OR attribute. If the class exists `if (thing.classList.contains('namedclass')) {` then toggle the class on and off
-3. ensure you comment your functions to understand what they do. Generally I comment my own comment which each "novel" block of code; as in thing that I had to think about / figure out or that might be odd looking from my typical conventions (as you are early on, this should be very often as a result)
-4. ENSURE ALL TAGS THAT OPEN, CLOSE WHERE YOU EXPECT THEM TO
-5. remove reliance on `id="whatever"` and then `querySelector("#whatever")` but ESPECIALLY `document.getElementById('whatever')` . Refactor these to be `.whatever` and `class="whatever"` and `querySelector('.whatever')` or suffer the wrath of component architecture (and a11y, and ridicule) moving forward!!
-6. When using `@media` queries, verify you are using to use the same selector as you are doing in the rest of the document
+- https://oer.hax.psu.edu/gtc5173/sites/reflection-4-blog-post/
+- https://oer.hax.psu.edu/dmd6769/sites/reflection-4/home
+- https://oer.hax.psu.edu/mjr7121/sites/reflection-4/  -- clean up to make more generic, remove some things
+- https://github.com/sawyerw/poleris-chip/blob/main/src/my-card.js -- reactive vs reading the 1st time only.
+- https://github.com/SoofinProt/Web-Components-Class -- Gold Stars
 
-### Activity: Let's get our bearrings and peak behind how something is built
-- https://hax.psu.edu/ - Open it up and let's look around a modern repo structure
-- https://github.com/haxtheweb/hax-psu - Activity; do all the following, following along while I do it. If you are stuck, ask the person next to you / around you. If they don't know, ask for a LA / me.
-  - Fork this code on the github website
-  - Use github desktop / commandline to pull a copy of the code down locally
-  - I tend to store ALL development work on my file system like
-  -  `~/Documents/git/{USERNAME}/{REPONAME}` - don't care what structure you use but make it logical / some place you know where to access it
-  - Open VS Code; File menu -> Open Folder.. and select the repo you pulled down
-  - Let's get some plugins: _Click Extensions_ (building blocks on the left menu) then search for `lit-html` and `lit-plugin` and `HTML CSS Support`
-  - Open a terminal (VS Code -> Terminal menu -> New terminal)
-    - personally I usually have terminal open outside of VS Code but it's typically a preference thing as opposed to required. Some windows environments can be goofy and require this hence mentioning here
-  - type `pwd` this should list where you are currently in the file system
-  - type `node -v` to verify that it has access to node (it should if you installed it previously from week 1)
-  - type `ls -las` this should list everything in the folder (`dir` is a simplified view of this info)
-  - type `npm install` as long as you see a `package.json` in the previous step - **This is how you interface with ALL MODERN JAVASCRIPT CODE REPOS**
-  - type `npm run` which will list the commands you can run. _Almost every project_ responds to `npm start` or `npm run start`
-  - This should open up a browser window. Set your display up so these are side by side
-- Let's start digging through the code
-- I'll step through the code and what I've been building recently, applying concepts from class but at higher scales
-- if you nail the little stuff, the syntax, the small structures, minimizing CSS and HTML and JS written to complete tasks, then thinking in bigger and bigger structures is more natural. It's a big pattern.
 
-# BETWEEN CLASS WATCH/READ THE LECTURE ON JS ECOSYSTEMS AND HOW THEY WORK
-- JS Ecosystems / landscape: https://docs.google.com/presentation/d/1XC6OuYVe3fOdGmpZ_Q9aGXOPJKjj5VbfR3vMvCUJBdk/edit?usp=sharing
-- RECORDED LECTURE: https://www.youtube.com/watch?v=VyWw2JFnCRA
+## Some general things I noticed
+- many reference lists being hard -- they are and we won't use them for a bit but good to see the syntax a head of time https://lit.dev/articles/lit-cheat-sheet/#rendering-lists
+- many admit it makes sense conceptually but is harder to read; I'll definitely buy that. that's the price of reusability at times -- abstraction
+- Make sure any human written text in your element is made into a variable so it can be reused / translated / repurposed / etc
+- Make sure any property you want to have the user implement like `<my-card name="stuff">` requires that in our `static get properties()` we have it declared (most are strings, we'll get into Boolean soon)
 
-### Additional help
-If you need additional help after watching that, here's some next steps
-- Run through JS fundamentals here https://www.w3schools.com/js/default.asp
-- CSS fundamentals here https://www.w3schools.com/css/default.asp
-- HTML fundamentals here https://www.w3schools.com/html/default.asp
-- Go to TA's office hours, there's a ton of them, that's what they are there for!
-- DM me or the TA with **specific questions** you have have how to do **specific things** and we are happy to help
 
-# 4.2
-Now that we have some workflow and process down, let's start looking at a web component and building from juuust above nothing
-- Quick deck: What is web components? https://docs.google.com/presentation/d/1cvM-4v745oQWcpX4M0ytFLQd_eIyaOJgUEgs4V6UFk0/edit?usp=sharing
+# Enhancements to make from class
+- Once you get your code working the way we discuss in class (A card that is my-card which you can define several copiies of in the index.html) Then I'd like you to make the following enhancements
+- We need to use the `<slot></slot>` tag. This tag allows you to define where "flexible HTML areas" should be presented. Properties in lit will only allow you to do Strings, NOT HTML (even bolding text in a paragraph will be escaped as opposed to bold)
+- We need to use CSS variables and then demonstrate how they work in the index.html file
 
-## Code by numbers (follow along, answering questions as we go)
-- Take this boilerplate: https://github.com/btopro/polaris-chip make a template for yourself
-- get this code cloned to your computer
-- follow along in class
-- Currently this element supports a "title". The title property allows usage like follows: `<polaris-chip title="Cool"></polaris-chip>`
-- This will render the title with some styling. We need to expand this support linking
-- What properties could we add to make this support links?
-- What data type should this be?
-- What are the steps required to do this? What needs accounted for / changed in code.
-- If we wanted to do an 'active' state that is for 'hover', focus and to draw attention by default, how could we do that?
+The goal is for next class, to have working cards which have the following in your `index.html` and rendering correctly.
+```html
+<style>
+my-card[fancy] {
+  --my-card-fancy-bg: #FF0000;
+}
+</style>
+<my-card title="Minesotta Wild">
+  <p>A professional hockey team, yet they have terrible colors. I wish I had a <strong>AWESOME</strong> neon yellow / lime jersey like their retro-reverse jerseys</p>
+</my-card>
+```
 
-### Activity
-- Pod activity. Look at your cards in your pod. What properties could you add to make your card flexible? What parts of your HTML / CSS should be static, and what parts should users be able to enter as a property in order to change via a variable?
-- When I say flexible I mean, how could we allow someone to leverage `<my-card></my-card>` in a similar way to polaris-chip in order to produce your cards each time. If you have a poke-card. Then something like `<poke-card source="https://address.com/image" name="Charmander"></poke-card>`
-- Are there any 'active' or visual 'state' driven capabilities to your card?
-- Are there any areas that could be HTML in nature? If so, research what a `<slot>` tag is and how we can use it for the description (for example).
+# 5.2 / 5.3 (based on how far we get each day)
+## Let's get fancy with CSS selectors
+**Past class class recording** -- https://www.youtube.com/watch?v=tGfWOXXvCdQ
+**another Past class recording** - https://www.youtube.com/watch?v=9GIR4TM-gwY
 
-## 4.3 in-class / Homework
+- Adding a 'reflected' variable to our element. Reflected variables allow you to change the properties of your card and have the CSS change as a result
+- live code demo adding a reflected variable in CSS so that `:host([fancy]) { background-color: golden; }` works
+- `fancy: { type: Boolean, reflect: true }`
+- Follow along and add support for `fancy` so that we can add fancy which changes the background color / borders / drop shadow of our card
+- https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
+```js
 
-Now it's your turn:
+constructor() {
+  super();
+  this.fancy = false;
+}
 
-- Apply your CSS / HTML of a card to the my-card element
-- Ignore the card modifying JS for now; we're just trying to get our card visually there
-- Try to add your properties into the element so that you can change the variables to make instances of your card
-  - **You should have at least 2-4 properties that I can think of at a glance**
-- Create 5 implementations of this in the demo / index.html area (meaning 5 different implementations of `<my-card>` using attributes)
-- Get your code back up on github (meaning you commit it locally after making changes, then `git push` to get it back on github
-- Run through the lit tutorial - https://lit.dev/tutorials/intro-to-lit/ to help **MAKE SURE IT IS USING JS AND NOT TS**
-- Go through this cheat sheet and make sure you understand the examples -- https://lit.dev/articles/lit-cheat-sheet/ -- **MAKE SURE IT IS USING JS AND NOT TS**
+static get properties() {
+  return {
+    fancy: { type: Boolean, reflect: true }
+  }
+}
+```
 
-## Submission
-- HAX.psu post with the following:
-- link(s) to your github repo that you made
-- Answer the following:
-- When doing the tutorial, what did you get stuck on?
-  - In reading through the deck / tutorials / googling / "lit cheat sheet", what's not making sense?
-  - Same, but what DOES make sense? Is this a superior approach to coding in the 'global scope' ala code pen, or does this scoping make it more complicated?
-    - If more compplicated, what makes it harder?
-    - If superior approach, why did you feel this was easier than the code pen based global way?
+```css
+:host([fancy]) {
+display: block;
+  background-color: pink;
+  border: 2px solid fuchsia;
+  box-shadow: 10px 5px 5px red;
+}
+```
+
+## Let's support flexible HTML areas in web components
+- Some of you had properties that were "description" or really long blobs of text to put on the card.
+- Let's try an experiment. In either your title or 'description' property try to make some of the text bold
+- What happens? Why did this happen? Throw a screen shot in Teams of what happens when you tried to apply this
+- `<slot>` to the rescue, but let's put it in 2 new tags that can work together `<details>` and `<summary>`
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details - allows you to collapse an area
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Slot (the docs on slot are confusing but including just so you see them)
+ 
+```html
+<details ?open="${this.fancy}">
+  <summary>Description</summary>
+  <div>
+    <slot>${this.description}</slot>
+  </div>
+</details>
+```
+
+## Let's make it so when fancy changes, our details area opens as well
+- A few of you have asked "Is this just a design element? Where does the JS go?" or some version of "Should I add methods to my card?"
+- This is an example of when it makes sense to do something like that -- responding to events and actions in the element itself
+- Let's add a method called `openChanged(e)` This will flip `fancy` between `true` and `false` based on the Details area opening and closing
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details#events -- details has a `toggle` event
+- **Question**: If the user is clicking this to open and close it, why are we not listening for the "click" event?
+
+```html
+<!-- put this in your render method where you had details -->
+  <details ?open="${this.fancy}" @toggle="${this.openChanged}">
+```
+Note that the `@` is somethign lit specific. You won't be able to do this in `index.html` and is a good example of "syntactical sugar", meaning something that is NOT vanilla.
+Here is the equivallent to what this is doing in case you were wondering
+```js
+this.shadowRoot.querySelector('details').addEventListener('toggle', this.openChanged.bind(this));
+```
+We won't do it that way but so you are aware; think of it like the jquery `$("details")` selector syntax but JUST for events to make it easier to read.
+
+This is the JS method I'll be adding to my `class`
+
+```js
+// put this anywhere on the MyCard class; just above render() is probably good
+openChanged(e) {
+  console.log(e);
+  if (e.target.getAttribute('open') !== null) {
+    this.fancy = true;
+  }
+  else {
+    this.fancy = false;
+  }
+}
+```
+
+## Additional Design considerations
+- Get your card to have height / sizing requirements so that long title don't bork the design
+- Same thing but with images -- https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio helpful article / attribute for this
+- Same thing but with the description area
+
+```css
+ details summary {
+    text-align: left;
+    font-size: 20px;
+    padding: 8px 0;
+  }
+
+  details[open] summary {
+    font-weight: bold;
+  }
+  
+  details div {
+    border: 2px solid black;
+    text-align: left;
+    padding: 8px;
+    height: 70px;
+    overflow: auto;
+  }
+```
+
+## Homework
+- Get your card to have a `fancy` attribute like from class that changes the styling
+- Add the `details` and `summary` so that when you toggle details it also toggle fancy
+- Ensure that when you change fancy (or set it ahead of time) that it ensures we collapse or expand to match
+- Add support for `<slot>` and get your description to load that way instead of via property (unless you want to support both like in the example)
+- Get your images / titles allowing for the cards to look relatively uniform (not some squishy, some gigantic by constraining image max size)
+- Turn into Canvas a link to your github repo where this code is located
+
+## Note
+This largely ends our work with the `card`. We will publish them to NPM and use them in a new repo to complete the end to end workflow of a developer in this space.
+
+After that we will work on a new element. Each time we work on a new project there will be less training wheels but this feedback loop is the same over and over again in the industry:
+- Get requirements
+- Make a design (step we are skipping a bit to learn)
+- Make a new element / boilerplate repo
+- Start to translate the design to the element
+- push up to github
+- Deploy demo to a URL (vercel for us starting next week / many others exist)
+- automated testing (skipping this to learn)
+- publish to npm / leverage in the production project
+
+### Get ahead
+Next week, and going forward, we will use a new "tooling" that you actually installed earlier in the course.
+```
+npm install --global @haxtheweb/create
+
+```
+Then you can run `hax start` or `hax webcomponent` to start creating a web component. If you want to get ahead, we're going to start using that tooling to produce web components that leverage a design system called DDD. DDD is based on how Penn State wants properties to look (broadly speaking) as far as spacing, colors and font usage.
+
+You can learn more about the details of DDD here: https://haxtheweb.org/documentation/ddd
+
+Next week we will use this tooliing to build a new element and get it pushed to github then published on vercel to understand that workflow. Once we get that down and where DDD is as far as visual documentation, you'll get to build a card to spec using university spacing to try and match the composite in question.
+
+You can see what the tooling should look like by going to this site: https://playground.hax.cloud/
+This is running a copy of the `hax` program in the browser so you can see what the output should look like and how it should work. **YOU MUST INSTALL THIS ON YOUR COMPUTER SO YOU CAN WORK ON CODE THAT IS DEPLOYED TO GITHUB VIA VERCEL. THIS IS PURELY FOR DEMO PURPOSES TO UNDERSTAND WHAT IT LOOKS LIKE**
+
+#### Instructor note
+
+While DDD is not some widely recognized standard, Bootstrap, Tailwind and Material (Google) are common in industry, as is the concept of design systems generally speaking. EA Games will have their own design system vs Adobe vs Red hat. We are leveraging DDD:
+
+- To learn how to implement CSS variables
+- To learn how to implement `SuperClass`'s so that we can "mix-in" functionality between class'ed objects
+- To learn how to read documentation and leverage an existing project
+- To make the things we make in class "feel" like the university / HAX to benefit future students!
+- Do realize DDD was made by a former IST 256 student.. just like you, who learned in class, then made something awesome!
+
+As with everything in this class, my goal is to give you skills so that you understand the low levels of the browser and it's languages so that you can extrapolate and better understand ANY design system, library or framework that you come across.
+
+
