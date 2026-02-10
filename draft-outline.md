@@ -22,7 +22,6 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 - learn how to get more involved in the HAX community
 - bonus 2.5% in the class for making contributions and participating with building in HAX Club (up to 5% bonus)
 
-
 # Week 5
 We take the first leep into big kid web development, it is shockingly difficult at first. I can see that in the feedback you gave to answers. Today, we're going to go through some of the things that went well as well as what didn't. The goal of today is to get everyone in class to have their web component working and get everyone the help they need.
 
@@ -36,8 +35,7 @@ You are free to install and run through these but it's better to have your code 
 - https://oer.hax.psu.edu/dmd6769/sites/reflection-4/home
 - https://oer.hax.psu.edu/mjr7121/sites/reflection-4/  -- clean up to make more generic, remove some things
 - https://github.com/sawyerw/poleris-chip/blob/main/src/my-card.js -- reactive vs reading the 1st time only.
-- https://github.com/SoofinProt/Web-Components-Class -- Gold Stars
-
+- https://github.com/SoofinProt/Web-Components-Class -- **Gold Stars**
 
 ## Some general things I noticed
 - many reference lists being hard -- they are and we won't use them for a bit but good to see the syntax a head of time https://lit.dev/articles/lit-cheat-sheet/#rendering-lists
@@ -95,6 +93,9 @@ display: block;
 }
 ```
 
+
+# 5.2 / 5.3
+
 ## Let's support flexible HTML areas in web components
 - Some of you had properties that were "description" or really long blobs of text to put on the card.
 - Let's try an experiment. In either your title or 'description' property try to make some of the text bold
@@ -111,7 +112,10 @@ display: block;
   </div>
 </details>
 ```
-# 5.2 / 5.3 (based on how far we get each day)
+- if you already have a slot, cool; let's replace that general area with a `details` tag which contains the slot
+- this also can help with the size of the card to ensure it's not overflowing dramaatically in the vertal direction
+- it also means you need to account for the size of the card when it's collapsed / expanded
+
 ## Let's make it so when fancy changes, our details area opens as well
 - A few of you have asked "Is this just a design element? Where does the JS go?" or some version of "Should I add methods to my card?"
 - This is an example of when it makes sense to do something like that -- responding to events and actions in the element itself
@@ -184,12 +188,13 @@ This largely ends our work with the `card`. We will publish them to NPM and use 
 After that we will work on a new element. Each time we work on a new project there will be less training wheels but this feedback loop is the same over and over again in the industry:
 - Get requirements
 - Make a design (step we are skipping a bit to learn)
-- Make a new element / boilerplate repo
+- Make an empty github repo
+- Make a new element locally on your computer with the same name
 - Start to translate the design to the element
 - push up to github
 - Deploy demo to a URL (vercel for us starting next week / many others exist)
-- automated testing (skipping this to learn)
-- publish to npm / leverage in the production project
+- automated testing (skipping this but comes into play naturally here as well)
+- publish to npm / leverage in the production project (for reuse elsewhere)
 
 ### Get ahead
 Next week, and going forward, we will use a new "tooling" that you actually installed earlier in the course.
@@ -217,6 +222,3 @@ While DDD is not some widely recognized standard, Bootstrap, Tailwind and Materi
 - Do realize DDD was made by a former IST 256 student.. just like you, who learned in class, then made something awesome!
 
 As with everything in this class, my goal is to give you skills so that you understand the low levels of the browser and it's languages so that you can extrapolate and better understand ANY design system, library or framework that you come across.
-
-
-
