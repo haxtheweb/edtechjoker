@@ -120,7 +120,6 @@ makeItRain() {
 - Turn in a link to your github repo and the link to your project working on vercel (should be like whatever.vercel.app as an address)
 - **I want you to have comments documenting each method in your counter-app code. You must be able to explain what is going on**
 - **A link to github is turned into Cantvas**
-- This is worth 5% of your grade (as are all of these section of homeworks)
 
 ### Considerations
 - Do the best you can to provide the most complete solution you can
