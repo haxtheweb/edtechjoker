@@ -211,6 +211,8 @@ Next week we will use this tooliing to build a new element and get it pushed to 
 You can see what the tooling should look like by going to this site: https://playground.hax.cloud/
 This is running a copy of the `hax` program in the browser so you can see what the output should look like and how it should work. **YOU MUST INSTALL THIS ON YOUR COMPUTER SO YOU CAN WORK ON CODE THAT IS DEPLOYED TO GITHUB VIA VERCEL. THIS IS PURELY FOR DEMO PURPOSES TO UNDERSTAND WHAT IT LOOKS LIKE**
 
+**If you don't have a vercel.com account that is hooked up to github, please do this now. You should be able to deploy your current project to vercel to see what it does by selecting it as a project.**
+
 #### Instructor note
 
 While DDD is not some widely recognized standard, Bootstrap, Tailwind and Material (Google) are common in industry, as is the concept of design systems generally speaking. EA Games will have their own design system vs Adobe vs Red hat. We are leveraging DDD:
@@ -222,3 +224,4 @@ While DDD is not some widely recognized standard, Bootstrap, Tailwind and Materi
 - Do realize DDD was made by a former IST 256 student.. just like you, who learned in class, then made something awesome!
 
 As with everything in this class, my goal is to give you skills so that you understand the low levels of the browser and it's languages so that you can extrapolate and better understand ANY design system, library or framework that you come across.
+
