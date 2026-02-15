@@ -8,6 +8,8 @@ Web Components are a suite of different technologies allowing you to create reus
 * https://developer.mozilla.org/en-US/docs/Web/API/Web_Components
 * https://www.webcomponents.org/introduction
 * https://css-tricks.com/an-introduction-to-web-components/
+
+* 
 ## Web Components 
 Web components are a suite of standardized web platform technologies that let developers create custom, reusable HTML elements with their own structures, styling, and behavior, so they work across web pages and applications without interfering with other code. These components se broswer APIs such as custom elements, shadow DOM, and templates.
 
