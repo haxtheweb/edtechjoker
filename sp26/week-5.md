@@ -200,4 +200,3 @@ While DDD is not some widely recognized standard, Bootstrap, Tailwind and Materi
 - Do realize DDD was made by a former IST 256 student.. just like you, who learned in class, then made something awesome!
 
 As with everything in this class, my goal is to give you skills so that you understand the low levels of the browser and it's languages so that you can extrapolate and better understand ANY design system, library or framework that you come across.
-
