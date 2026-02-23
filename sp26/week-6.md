@@ -9,6 +9,7 @@ This week we will learn the following by doing:
 - a past card for review (no audio) if you need help resolving issues in yours
   - https://github.com/dylanabke/polaris-chip
   - https://www.youtube.com/watch?v=SLHHVYR2CyI
+- A quick review of a solid example: https://github.com/sydney11-beep/polaris-chip1
 - If you don't have a vercel.com account that is hooked up to github, please do this now.
 
 ### Class Activity
@@ -126,6 +127,5 @@ makeItRain() {
 - We'll have discussions and in-class review to improve the quality of solutions
 - Next week we'll remediate to improve solutions and ensure everyone stretches to the same level
 - LAs will grade harshly based on requirements, but realize this is still only a few points. The more critical thing will be the feedback given as far as what's missing as opposed to real attempts that are broken
-
 
 
