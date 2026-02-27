@@ -76,4 +76,29 @@ this.dispatchEvent(indexChange);
 
 This will bubble up and convert your click into a `play-list-index-changed` event. Then in the render method for your `play-list-project` tag, you can listen for the `@play-list-index-changed` event on your `dots` element, and run a method that updates `index` across the whole little "app". This is a common state management technique called "Unidirectional Data Flow"
 
+# NOTE TO DELETE THE FOLLOWING SO YOUR CODE BUILDS
+we arent using these or talking about them this semester, so basically it will like low-key break your code which is not fire!
+
+```js
+static get haxProperties() {
+  return new URL(`./lib/${this.tag}.haxProperties.json`, import.meta.url)
+    .href;
+}
+```
+
+```js
+this.registerLocalization({
+  context: this,
+  localesPath:
+    new URL("./locales/counter-app-1.ar.json", import.meta.url).href +
+    "/../",
+});
+```
+
+## Homework this weekend is as follows:
+
+Make your repo, get code pipeline going from your computer, get vercel setup
+Get 4 elements at least stubbed out (names, files, etc)
+Start designing these 4 elements. If that means submitting photos of wire frames / properties you intend / etc then cool
+Get as much code written as you can
 
