@@ -48,3 +48,27 @@ Lots of time this week and next https://github.com/haxtheweb/issues/issues/1914
 
 # 7.3
 - Here is the issue: https://github.com/haxtheweb/issues/issues/1914
+
+## Logic needed and working ahead
+We've talked about events, but not event "bubbling" persay. When you click, technically that event goes up through the DOM. We also can create any event we feel like.
+- Custom event https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent/CustomEvent
+
+So for your element to work with several different tags, it means you can (for example) have your listing / dots / track element do the following:
+- be told how many slides there are from the `play-list-project` tag. It would count the tags in the `constructor()` via a querySelectorAll, then pass that number down to the `dots` element
+- The `dots` element would then print out the number of dots based on number of tags found
+- listening for a `@click` on a dot, we run a method
+- That method needs to know which dot we clicked (let's say the 3rd one). **then it can issue a custom event to notify the parent**
+
+```
+const index = e.detail.index; // need a way of tracking which item was clicked I am just saying it's index
+const indexChange = new CustomEvent("play-list-index-changed", {
+  composed: true,
+  bubbles: true,
+  detail: {
+    index: index
+  },
+});
+this.dispatchEvent(indexChange);
+```
+
+This will bubble up and convert your click into a `play-list-index-changed` event. Then in the render method for your `play-list-project` tag, you can listen for the `@play-list-index-changed` event on your `dots` element, and run a method that updates `index` across the whole little "app". This is a common state management technique called "Unidirectional Data Flow"
