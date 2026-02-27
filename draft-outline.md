@@ -59,7 +59,7 @@ So for your element to work with several different tags, it means you can (for e
 - listening for a `@click` on a dot, we run a method
 - That method needs to know which dot we clicked (let's say the 3rd one). **then it can issue a custom event to notify the parent**
 
-```
+```js
 const index = e.detail.index; // need a way of tracking which item was clicked I am just saying it's index
 const indexChange = new CustomEvent("play-list-index-changed", {
   composed: true,
@@ -72,3 +72,4 @@ this.dispatchEvent(indexChange);
 ```
 
 This will bubble up and convert your click into a `play-list-index-changed` event. Then in the render method for your `play-list-project` tag, you can listen for the `@play-list-index-changed` event on your `dots` element, and run a method that updates `index` across the whole little "app". This is a common state management technique called "Unidirectional Data Flow"
+
