@@ -50,6 +50,9 @@ Lots of time this week and next https://github.com/haxtheweb/issues/issues/1914
 - Here is the issue: https://github.com/haxtheweb/issues/issues/1914
 
 ## Logic needed and working ahead
+
+- remove the reference to localization and the `haxProperties` method
+
 We've talked about events, but not event "bubbling" persay. When you click, technically that event goes up through the DOM. We also can create any event we feel like.
 - Custom event https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent/CustomEvent
 
@@ -72,4 +75,5 @@ this.dispatchEvent(indexChange);
 ```
 
 This will bubble up and convert your click into a `play-list-index-changed` event. Then in the render method for your `play-list-project` tag, you can listen for the `@play-list-index-changed` event on your `dots` element, and run a method that updates `index` across the whole little "app". This is a common state management technique called "Unidirectional Data Flow"
+
 
