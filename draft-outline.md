@@ -16,89 +16,52 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 - [Week 3](sp26/week-3.md)
 - [Week 4](sp26/week-4.md)
 - [Week 5](sp26/week-5.md)
-- [Week 6](sp16/week-6.md)
+- [Week 6](sp26/week-6.md)
+- [Week 7](sp26/week-7.md)
 
-# Week 7 - The one with another project
-Lots of time this week and next https://github.com/haxtheweb/issues/issues/1914
+# Week 8 - more time with the slider project
+Issue we're working on https://github.com/haxtheweb/issues/issues/1914
 
-## Crit
-- counter-apps
-- https://github.com/jtarchb/counter-app
-- https://github.com/sawyerw/counter-app-1
-- https://github.com/mikegoga/counter-app
+## 8.1 Crit
+And a lot of it. This will be mostly going through examples produced in class:
 
-## PBL -- stretching to solve a real world problem -- The next 2 weeks.
-- Counters are silly, but they give us the fundamentals of what's involved in creating and delivering an "app". Now let's try our hands at one that's a little bigger scope
-- We have lots of content at work teaching art courses online. It is common for faculty to want to showcase student work or famous artist using a gallery type of approach
-- Here is the issue: https://github.com/haxtheweb/issues/issues/1914
+- https://github.com/justinlej12/play-list-design/blob/main/play-list-design.js -- make sure to define all of your elements in separate files. it's just cleaner to read, follow and maintain
+- https://github.com/justinlej12/play-list-design/blob/main/play-list-design.js#L249-L252 -- handle slot change showed up in several solutions; it's not bad but a bit needlessly complicated; though it would support dynamic injection of items (not a requirements)
+- https://github.com/ank5688/playlist-project/blob/main/playlist-project.js#L25-L30 -- while this one works and looks interesting as a demo, it needs to read off of it's own innerHTML in constructor like `this.querySelectorAll` to produce an array of DOM nodes. Otherwise we can't meet the requirements or update it easily by modifying the HTML
+- https://github.com/lstinq/play-list-project/blob/main/play-list-project.js#L59 -- don't do this, likely wont work anyway
+- https://github.com/lstinq/play-list-project/blob/main/play-list-project.js#L72C3-L78 -- I like the adding of keyboard navigation
+- https://github.com/lstinq/play-list-project/blob/main/play-list-project.js#L210-L213 -- make the indicator and the render slide into their own elements, but your on the right track
+- https://github.com/mrn2e/play-list-item/blob/main/index.html#L39 -- the issue says "make the demo content exactly this" so do that
+- https://github.com/mrn2e/play-list-item/blob/main/play-list-item.js#L121C11-L121C26 -- super interesting way of toggling an attribute, however it's a property so while this might work we should do more like `slide.active = !slide.active` this will make true false and false true
+- https://github.com/mrn2e/play-list-item/blob/main/play-list-item.js#L39 -- keeping a current index and attempting to track it's changes is great
+- https://github.com/mrn2e/play-list-item/blob/main/slide-arrow.js#L48 -- can't comment like this it will break CSS parsing
+- https://github.com/SoofinProt/play-list-project/blob/main/play-list-slide.js#L83-L84 -- this is a reasonable looking slide, however you don't need to do `getAttribute` and instead just stick to the property like `this.topHeading`
+- https://github.com/SoofinProt/play-list-project/blob/main/play-list-project.js#L151-L155 -- complicated but interesting way of attempting to know what slides there are then update the visual data to match. requestUpdate means there's either too complex a data structure or something isn't stateful if you need to call it to work. In this case it's case slides needs to be `type: Array` -- https://github.com/SoofinProt/play-list-project/blob/main/play-list-project.js#L11
 
-# Requirements
-- Meet the requirements of the issue
-- Must be produced using the hax tooling `hax webcomponent` command in order to create the app
-- Must use the Design System (DDD) in order to provide visual consistency
-- Must support light and dark mode effectively
-- Must be mobile responsive
-- Must use 4 custom web components. 2 are listed in the issue but there's another 2 that easily can be added
-- Can pull in outside code / elements as desired (this would count toward the other 2)
-- Can work together with others to craft the optimal solution.
-- Everyone turns in their own repo / work, but you can collaborate to build
+# Deep dive
+This is the solution we'll deep dive a bit more on and in my opinion has the most progression toward what the requirements were expressing. It still has work to go but has a lot that we can draw inspiration from
+- https://github.com/interested-learner/play-list-project
 
-# 7.2
-- Here is the issue: https://github.com/haxtheweb/issues/issues/1914
+# 8.2 - Sharing work in class
+DDD Auditing
+- Help find properties not using DDD and have an program suggest areas for improvement
+- use the `hax audit` command. Run this command from the same directory as your project (where you'd run `npm start`)
+- Not all of the feedback is useful but it's a good way of finding things that might not be using DDD when they could or should be
 
-# 7.3
-- Here is the issue: https://github.com/haxtheweb/issues/issues/1914
+Class auditing
+- Working with other people in your pod, explain to the person next to you how your code works, then do the reverse and write down the following reflection:
+  - Any interesting design considerations they used with `CustomEvent` and getting the indicator to reflect the same value as the activeIndex / slide to show
+  - How are each of you using events to manage and updating data statefully so that the entire "app" knows what is active?
+  - How are you handling what is visible? Is it with CSS, are you testing active as an attribute? What makes active show the right slide?
+  - Any issues / gaps in each project and work left to be done
+- After reflecting on these questions, start working together to research and implement the issues discovered. Call over for help if needed from me and the LAs.
+- **Turn in your reflection to Teams** this way you can find the feedback later and we know that you engaged in the activity today
 
-## Logic needed and working ahead
+# 8.3 - Working day
+- Last day to work in class and ask questions
+- Make sure you have all the functionality in the requirements to the best of your ability
+- the app is due Sunday after spring break - https://github.com/haxtheweb/issues/issues/1914
+- Submit a link to your github / vercel.app link (for reviewing the working demo) to the Canvas dropbox by Midnight Sunday
 
-- remove the reference to localization and the `haxProperties` method
-
-We've talked about events, but not event "bubbling" persay. When you click, technically that event goes up through the DOM. We also can create any event we feel like.
-- Custom event https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent/CustomEvent
-
-So for your element to work with several different tags, it means you can (for example) have your listing / dots / track element do the following:
-- be told how many slides there are from the `play-list-project` tag. It would count the tags in the `constructor()` via a querySelectorAll, then pass that number down to the `dots` element
-- The `dots` element would then print out the number of dots based on number of tags found
-- listening for a `@click` on a dot, we run a method
-- That method needs to know which dot we clicked (let's say the 3rd one). **then it can issue a custom event to notify the parent**
-
-```js
-const index = e.detail.index; // need a way of tracking which item was clicked I am just saying it's index
-const indexChange = new CustomEvent("play-list-index-changed", {
-  composed: true,
-  bubbles: true,
-  detail: {
-    index: index
-  },
-});
-this.dispatchEvent(indexChange);
-```
-
-This will bubble up and convert your click into a `play-list-index-changed` event. Then in the render method for your `play-list-project` tag, you can listen for the `@play-list-index-changed` event on your `dots` element, and run a method that updates `index` across the whole little "app". This is a common state management technique called "Unidirectional Data Flow"
-
-# NOTE TO DELETE THE FOLLOWING SO YOUR CODE BUILDS
-we arent using these or talking about them this semester, so basically it will like low-key break your code which is not fire!
-
-```js
-static get haxProperties() {
-  return new URL(`./lib/${this.tag}.haxProperties.json`, import.meta.url)
-    .href;
-}
-```
-
-```js
-this.registerLocalization({
-  context: this,
-  localesPath:
-    new URL("./locales/counter-app-1.ar.json", import.meta.url).href +
-    "/../",
-});
-```
-
-## Homework this weekend is as follows:
-
-Make your repo, get code pipeline going from your computer, get vercel setup
-Get 4 elements at least stubbed out (names, files, etc)
-Start designing these 4 elements. If that means submitting photos of wire frames / properties you intend / etc then cool
-Get as much code written as you can
-
+# Spring Break
+Have a great break! The week after we'll review some optimal solutions, start into a new project, and have a small lecture series to frame my life's work in hopes you find your spark of digital creativity to impact the world!
