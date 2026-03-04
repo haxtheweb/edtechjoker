@@ -43,15 +43,19 @@ This is the solution we'll deep dive a bit more on and in my opinion has the mos
 - https://github.com/interested-learner/play-list-project
 
 # 8.2 - Sharing work in class
-DDD Auditing
+
+## Reading and examples for Events
+This is a nice little tutorial with examples. While written using older JS ways of working (like writing onclick which you should not do) the sample code to demonstrate event bubbling and how the event handler responds at different places as the event bubbles up is well done and visualized nicely https://javascript.info/events
+
+## DDD Auditing
 - Help find properties not using DDD and have an program suggest areas for improvement
 - use the `hax audit` command. Run this command from the same directory as your project (where you'd run `npm start`)
 - Not all of the feedback is useful but it's a good way of finding things that might not be using DDD when they could or should be
 
-Class auditing
+## Class auditing
 - Working with other people in your pod, explain to the person next to you how your code works, then do the reverse and write down the following reflection:
   - Any interesting design considerations they used with `CustomEvent` and getting the indicator to reflect the same value as the activeIndex / slide to show
-  - How are each of you using events to manage and updating data statefully so that the entire "app" knows what is active?
+  - How are each of you using events to manage and updating data statefully so that the entire "app" knows what is active via the `index`?
   - How are you handling what is visible? Is it with CSS, are you testing active as an attribute? What makes active show the right slide?
   - Any issues / gaps in each project and work left to be done
 - After reflecting on these questions, start working together to research and implement the issues discovered. Call over for help if needed from me and the LAs.
@@ -65,3 +69,4 @@ Class auditing
 
 # Spring Break
 Have a great break! The week after we'll review some optimal solutions, start into a new project, and have a small lecture series to frame my life's work in hopes you find your spark of digital creativity to impact the world!
+
