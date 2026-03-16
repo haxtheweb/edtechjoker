@@ -25,6 +25,9 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 - 3 Weeks for a project from assignment to deliverable. Worth a lot more of grade than week-to-week assignments have been
 - Class still takes place with Mon/Wed being content / collaboration focused; Friday being a working day focus
 
+# THE GITHUB FOR THE FULL PROJECT DIRECTIONS
+SEE REQUIREMENTS https://github.com/haxtheweb/issues/issues/2617
+
 ## 9.1 Let's see what the project is
 - A pretty solid example if you had issues matching styling and functionality -- https://github.com/bpark5/play-list-project
 - Project 1 (which builds on this concept) https://github.com/haxtheweb/issues/issues/2617
