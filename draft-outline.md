@@ -68,6 +68,7 @@ SEE REQUIREMENTS https://github.com/haxtheweb/issues/issues/2617
 - This is a good plugin to get for inspecting and viewing JSON data responses -- https://chromewebstore.google.com/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en
 
 ## Lazy loading when visible
+- example of foxes loading in a lit element on click -- https://lit.dev/playground/#gist=dcb37ac0fd3afd96caa049dcac946059
 - A possible solution for lazyloading -- https://web.dev/articles/browser-level-image-lazy-loading
 - IntersectionOberser implementation article I wrote awhile back -- https://dev.to/btopro/adding-an-intersectionobserver-to-any-web-component-3io1
   - You are not required to use IntersectionObserver but it's one possible solution. IntersectionObservers would allow lazy loading the ENTIRE element on visibility as opposed to JUST the image
