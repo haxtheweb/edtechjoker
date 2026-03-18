@@ -66,9 +66,11 @@ SEE REQUIREMENTS https://github.com/haxtheweb/issues/issues/2617
 - Here's a codepen that has comments spelling out how to work with JSON data as well as fetch information from websites:
 - https://codepen.io/btopro/pen/LEGdLyo?editors=1010
 - This is a good plugin to get for inspecting and viewing JSON data responses -- https://chromewebstore.google.com/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en
-- IntersectionOberser implementation article I wrote awhile back -- https://dev.to/btopro/adding-an-intersectionobserver-to-any-web-component-3io1
-- You are not required to use IntersectionObserver but it's one possible solution
 
+## Lazy loading when visible
+- A possible solution for lazyloading -- https://web.dev/articles/browser-level-image-lazy-loading
+- IntersectionOberser implementation article I wrote awhile back -- https://dev.to/btopro/adding-an-intersectionobserver-to-any-web-component-3io1
+  - You are not required to use IntersectionObserver but it's one possible solution. IntersectionObservers would allow lazy loading the ENTIRE element on visibility as opposed to JUST the image
 Conditional rendering in this case would be helpful!
 ```js
 render() {
@@ -77,6 +79,7 @@ render() {
     : ``; // otherwise render nothing
 }
 ```
+- When leveraging these approaches; having Network Inspector open (right click, inspect, network tab) so that you can see when the images load to ensure it's as they are visible as opposed to all on initial load
 
 ## 9.3 - Working day in class
 - Work to get Check-in 1 far along as possible
