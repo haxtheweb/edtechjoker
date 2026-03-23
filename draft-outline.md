@@ -101,6 +101,10 @@ As per the requirements listed in the issue above:
 
 # 10.3
 - `Routing` example -- updating the URL to reflect 'state' in the page
+- visualizing routing expectation for the project:
+
+![Media](https://github.com/user-attachments/assets/95818d9e-054a-4283-8323-c3e0f3588d20)
+
 
 an example
 ```js
