@@ -91,9 +91,20 @@ As per the requirements listed in the issue above:
 - **Attendence today is turning in photographic evidence of your discussion and output from today in class**
 
 # 10.2
+Today and Friday will be time to continue working through the requirements. Here are some resources for reference, we'll roam the room helping people as they have questions. All of these things are to hit on the requirements to make them achievable. Remember you can work with others to split up investigation and dividing to conquer the project.
+
+## Local storage
 - localStorage / recalling portions of state so we can keep track of likes on the photos (locally only, this is not stored)
 - There's a lot of examples above from day 1 relative to how to potentially implement this feature
 - https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
+
+## Treating things as a microservice backend
+What we are trying to learn in this project is:
+- how to architect a design given requirements / constraints
+- the foundations of a 'website' as that's what we'll build for the final project
+- how modern applications interface with servers to load and present data
+
+To that last point, vecel allows us to go from a json file to a "Microservice" response from a server. Slipping the docs a bunch, vercel isn't just for deploying websites, it's for deploying AWS Lambdas without having to think about it. Effectively any `/api/whatever.js` file becomes an infinite scaling endpoint. This can just do some simple processing and return the response. In our case, this response is just taking the json file and returning it.
 - Vercel `/api/` endpoints for loading data and working with vercel in local development.
 - https://github.com/btopro/ist-vercel-demo -- look at how the `/api/` endpoint works for the weather.js
 - `npm i -g vercel` -- install locally so you can test endpoints you make
@@ -106,7 +117,7 @@ As per the requirements listed in the issue above:
 ![Media](https://github.com/user-attachments/assets/95818d9e-054a-4283-8323-c3e0f3588d20)
 
 
-an example
+an example function that can be used to update a location in the URL when some data changes.
 ```js
 function updateQueryParam(key, value) {
     const currentUrl = new URL(window.location.href);
@@ -117,9 +128,21 @@ function updateQueryParam(key, value) {
 }
 ```
 
+Here's an example of how to access the query params (like when the application loads). Some version of looking at the URL and loading it in as defaults could take place either in the `constructor` or the `firstUpdated` life-cycle
+```js
+// Get the full query string part of the URL (e.g., "?name=Ian&lastname=Felix")
+const queryString = window.location.search; 
+
+// Create a URLSearchParams object
+const urlParams = new URLSearchParams(queryString);
+const name = urlParams.get('name'); // 'Ian'
+const page = urlParams.get('page'); // null if not present as in the exampke above
+```
+
 # Check in 2
 - for Sunday your project should be taking shape visually
 - It should start being wired up to the new data structure you planned out
 - there should be the notes you took in making your structure
+- you should take a stab at getting `/api/` to work from vercel
 - you should take a stab at wiring up routing as well as localstorage
 - You'll have time next week to finalize things for the submission of this project
