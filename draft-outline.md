@@ -116,6 +116,7 @@ To that last point, vecel allows us to go from a json file to a "Microservice" r
 
 ![Media](https://github.com/user-attachments/assets/95818d9e-054a-4283-8323-c3e0f3588d20)
 
+loading data so it works locally and in vercel if referencing JSON `new URL("myData.json", import.meta.url).href`
 
 an example function that can be used to update a location in the URL when some data changes.
 ```js
