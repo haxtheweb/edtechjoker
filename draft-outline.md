@@ -56,5 +56,7 @@ This became a thing in 2024 for all "evergreen browsers" aka self-updating. This
 
 ## Improiving performance and accessibility
 Right click -> inspect -> Lighthouse tab. Then run the tests. This will give you feedback that digs in the weeds about how to improve things like SEO (search engines), accessibility (key to project), and 
- 
+
+`new URL("myData.json", import.meta.url).href` -- in order to point to the file so it works on vercel
+
 This week is time to work on these problems, improve output, improve data structures, ask questions, and work. Project 1 is due Sunday
