@@ -35,6 +35,9 @@ The youth sports market vertical is ripe for revenue generation. Parents demand 
 
 Target website we are trying to analyze, improve upon, in order to pitch to our VCs that wek now what we're doing is this - https://www.scyiha.org/
 
+# EXAMPLE FROM PRIOR SEMESTER
+- https://kenny-emporium-tau.vercel.app/
+
 You can't copyright UX or Design, however we do want to ensure we're not just directly copying this brand so we'd ask that you use AI in order to generate assets related to the fictional sports association of your choice.
 
 # High level Fun for your team
