@@ -21,42 +21,80 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 - [Week 8](sp26/week-8.md)
 - [Week 9](sp26/week-9.md)
 - [Week 10](sp26/week-10.md)
+- [Week 11](sp26/week-11.md)
 
-# THE GITHUB FOR THE FULL PROJECT DIRECTIONS
-SEE REQUIREMENTS https://github.com/haxtheweb/issues/issues/2617
-# Week 11
-Project 1 is due this Sunday. This is a working week. Here are some more examples that we'll step through some
+# Week 12 - Project 2 - site analysis and construction
 
-- https://instagram-app-wheat.vercel.app/
-  - Note the jumping around as images load. very distracting
-  - state updates great. likes maintained great. URL updated and recalled when reloading
-  - like button and layout on card need better overall design together
-  - dark mode support needed
-  - should support all attributes coming across the data.json structure; thumbnails should be used in some way
-  - https://instagram-app-wheat.vercel.app/6e934aec.json -- the data structure involved
+## Overview
+- It is common when looking to build websites to analyze competitors. What they are doing right, wrong, and areas for improvement.
+- Building on the past project scope, API loading image gallery, cards, counters, etc, we're going to analyze a site for a client
+- The goal is to identify strengths, weaknesses, and then architect a competing solution utilizing a newer approach to development
 
-- https://insta-clone-gilt-two.vercel.app/?page=7
-- improve arrows
-- good URL state management
-- like button needs better designed to be in context of the card
-- thumbnail support in some way
-- fixing FOUC; what happens when nothing is loaded yet (flash of unstyled content)
-- dark mode needs supported `light-dark()` is your friend
-- what is a `>` or `<` button? Use some other way of being an arrow and a `title` attribute for accessibility or the words next and previous for improved accessibility
-- data loads 15x
+## Sports Association Website (Situational context, totally not real)
+The youth sports market vertical is ripe for revenue generation. Parents demand high qualiy web tools to go along with the overprofessionalization of youth sports. Given this space that our VCs have connections to in order to pour cash in to generate endless cash off of parents love and excess resources, combined with your demonstrated ability to deliver web projects in the past, we feel it is critical to build web properties that sell parents on youth sports. This tool is not a direct to consumer, but it is direct to non-profits who need these tools to promote their brand awareness and image. That image of taking sports seriously can lead to higher revenue streams for the non-profits and more sustainable associations. We are building a marketing conglomerate in order to tap into this multi-billion-dolloar youth sports industry.
 
-## Becoming a Web architect
-My worldview is to try and make you understand how to build like an architect. Not just make divs, bring meaning and value to structure and improve UX as a result. Here's some more tools to improve on the designs that I am seeing out there. These are all things to read, understand, and then implement in your projects to improve their quality.
+Target website we are trying to analyze, improve upon, in order to pitch to our VCs that wek now what we're doing is this - https://www.scyiha.org/
 
-## Fixing FOUC
-Things bounce around, flash, look unstyled, images not loading and then its unprofessional and gives a bad first impression, ESPECIALLY on a slow loading connection -- https://dev.to/lyqht/what-the-fouc-is-happening-flash-of-unstyled-content-413j
+You can't copyright UX or Design, however we do want to ensure we're not just directly copying this brand so we'd ask that you use AI in order to generate assets related to the fictional sports association of your choice.
 
-## light-dark 2024 party
-This became a thing in 2024 for all "evergreen browsers" aka self-updating. This means we can use it everywhere and it's a game changer for dark mode support -- https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/color_value/light-dark
+# High level Fun for your team
+- Create a name / brand for your project team as well as for the fictional association you are building a brand towards
+- This is pod based work; work in pairs (no more than 4 to a pod)
+- In this instance, we will expect to see commits to multiple repositories / forks of those repositories and getting contributions back into the same space.
+- If leveraging the same repo and using branches makes more sense to you then you are able to do so
 
-## Improiving performance and accessibility
-Right click -> inspect -> Lighthouse tab. Then run the tests. This will give you feedback that digs in the weeds about how to improve things like SEO (search engines), accessibility (key to project), and 
+## High level Requirements
+- Creating a highly functional prototype homepage. Only 3 pages below the top level need to work (an approach known as routing implemented in the previous project), but there should be mock content that appears functional
+- Needs to be built using Vercel, DDD design system, HAX CLI, all the tools we've been using
+- Needs to be accessible, mobile responsive, dark mode responsive, performant (lighthouse audit)
+- Needs to be built using multiple web components. These components can be drawn from npmjs.com / repurposing past work (like `@haxtheweb/simple-cta` for example: https://www.npmjs.com/package/@haxtheweb/simple-cta) or be custom build for the project
 
-`new URL("myData.json", import.meta.url).href` -- in order to point to the file so it works on vercel
+## Digging into requirements
+- You must have a top level menu that expands and collapses to illustrate many additional menu items
+- You must have colors and branding for your fake sports association which leverages DDD colors to form a pallet and AI for logo generation
+- You must map out in the existing website, what could be a reusable block, and your app must have at least **10 reusable components**
+- You must load data for the 'schedule' from an `/api/schedule` based vercel endpoint. This data can be a static JSON file as before, or come from a calendar API if getting tricky. Regardless, there must be a band of rendered elements showcasing the up-coming games for the organization in question
+- You must meet all of the high level requirements above
+- You must have a header, footer, all of the types of "bands" of content that exist in the site you are reviewing
+- You must create your own brand to stick with consistency in colors, logos, etc
+- Fonts must come from DDD
+- Spacing, sizing, borders, padding, etc must all come from DDD
+- You must style and present multiple links to other areas of content
+- The content you are linking off to should be logical
+- At least 3 of the links need to be clickable and engage in a technique known as "Routing". Routing is where when the URL changes, the website loads different content. This is similar to the starting point concept with your image gallery and the `?image=56` in the URL but think of it like `?page=parent-info` to load the parent-info content
+- Menu content must be loaded from `/api/menu` and be a simple JSON structure to present links and headings in the appropriate order, and leverage a version of https://github.com/haxtheweb/json-outline-schema -- a data standard established for HAX sites to work
 
-This week is time to work on these problems, improve output, improve data structures, ask questions, and work. Project 1 is due Sunday
+# Research check in
+- This week's check in is research based. Analysis of the initial website, forming your team as well as association content, What exists currently
+- We will do whiteboarding/figma/pen-and-paper/low-fidelity-comp in class and need to submit photos breaking down and analyizing each part
+- Where can we generate 10 components from this 'app'? What are they named? How do we effectively divvy them up amongst our development team?
+
+# Check in 1 / 2
+- progress check in
+- time in class becomes analysis of the pages of this site, breaking down concepts, discovering what isn't working well with the existing and then reviewing what people are generating in class and discussing as a group
+
+# Final project submission Due Monday of Finals week
+
+# 12.1
+- Reading through above
+- Reviewing the site that exists
+- Starting to explore how we break this up and establishing our brand as a company / pod as well as the target association we are geared towards
+
+# 12.2
+- Additional review of a specific aspect of this project which is the menu. Looking at [JSON Outline Schema](https://github.com/haxtheweb/json-outline-schema) as a data standard in order to turn it into a menu
+- Additional review of the calendar / schedule aspect of this. How we might envision that data loading and being presented
+- Model data with your pod:
+  - Draw a picture of your menu and a few menu items, diagraming size, spacing, functioanlity, touch vs hover vs focus, dark mode, mobile, etc
+  - How do the parts of the picture relate to data coming from a [JSON Outline Schema](https://github.com/haxtheweb/json-outline-schema) response
+  - Can this response data be used to power any other aspects of your interface?
+  - Draw a picture of your calendar widget, diagraming size, spacing, functionality, mobile vs desktop, dark mode, etc
+  - How should data be modeled for the request to this endpoint? What information is needed? What's the simplest way of conveying this information?
+- As part of attendence, submit drawings / white board postings to the day's team's thread.
+
+# 12.3
+- Additional working time together as a pod and to ask questions
+- Use these class periods to get deeper feedback on your development efforts
+
+# Homework
+- See research check in details above. Needing to have screenshots, whiteboards, names, a plan for the brand
+- Submit to the dropbox
