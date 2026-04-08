@@ -85,6 +85,9 @@ You can't copyright UX or Design, however we do want to ensure we're not just di
 
 # 12.2
 - Additional review of a specific aspect of this project which is the menu. Looking at [JSON Outline Schema](https://github.com/haxtheweb/json-outline-schema) as a data standard in order to turn it into a menu
+- examples:
+  - https://haxtheweb.org/site.json
+  - https://btopro.com/site.json
 - Additional review of the calendar / schedule aspect of this. How we might envision that data loading and being presented
 - Model data with your pod:
   - Draw a picture of your menu and a few menu items, diagraming size, spacing, functioanlity, touch vs hover vs focus, dark mode, mobile, etc
