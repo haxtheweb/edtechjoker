@@ -98,6 +98,7 @@ You can't copyright UX or Design, however we do want to ensure we're not just di
 - As part of attendence, submit drawings / white board postings to the day's team's thread.
 
 # 12.3
+- Solid example from project 1 if looking for inspiration for a slider / playlist of items -- https://instagram-project-wine.vercel.app/
 - Additional working time together as a pod and to ask questions
 - Use these class periods to get deeper feedback on your development efforts
 
