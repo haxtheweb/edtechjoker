@@ -29,6 +29,9 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 
 ## Week 13.1
 
+# Rollup config change
+Make sure to edit this to match here -- https://github.com/igasparraj16/project-2/blob/main/rollup.config.js#L28
+
 ## Class activity
 - name all your components both as human name and machine_name (example: Top bar - olympic-ironing-top-bar)
 - write them out, discuss, agree upon a consistent naming convention for them
