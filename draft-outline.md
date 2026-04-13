@@ -24,6 +24,7 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 - [Week 11](sp26/week-11.md)
 - [Week 12](sp26/week-12.md)
 
+# [FINAL PROJECT DIRECTIONS AND OVERVIEW](sp26/week-12.md)
 
 # Week 13
 
