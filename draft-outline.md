@@ -61,7 +61,13 @@ This is similar to reflection of a property to an attribute in an element in ord
 - get your index to load all the stub elements (just so you don't forget to wire them in)
 - get it building on vercel
 - you likely will have assets you are including with your project (images among others). See this example rollup.config.js file and note the 'copy' section. This is a plugin you will need to add to your package.json file, but it enables vercel to be able to pick up and load the assets correctly https://github.com/haxtheweb/hax-the-club/blob/main/rollup.config.js
-
+- Also look at the esbuild part and you might need to change this line for vercel to work.
+```js
+esbuild({
+  minify: true,
+  target: ['chrome64', 'firefox67'],
+}),
+```
 13.3 will be additional time in class to work on your project as well as an extra in class activity.
 
 ## Check in expectations
