@@ -26,7 +26,7 @@ TAs have office hours and we use time in class for help too, but https://ist.psu
 
 # [FINAL PROJECT DIRECTIONS AND OVERVIEW](sp26/week-12.md)
 
-# Week 13
+# Week 13 - 15
 
 ## Week 13.1
 
@@ -74,3 +74,17 @@ esbuild({
 - code, repo, initial build state on vercel
 - start of as many of the 10 elements as possible, even if just stubbed out with limited code in them
 - 1st page starting to take shape color, brand, etc
+
+# 14
+- keep working and get feedback in class
+- attendence in class still
+
+## Check in 2
+- get as far as you can
+- all element should be named and implemented
+- data formats should be in place and starting to wire them up
+- it should start looking like a website structurally
+
+# 15
+- Final week of class, continue coming in and working on your website
+- May 4th project is due
