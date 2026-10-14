@@ -11,6 +11,9 @@ Why?
 - I use these tools in my own projects, thus making you more able to contribute to them directly
 - People taking my courses in the past have instantly gone into dev careers implementing web components because they are becoming a valid industry go to
 
+# Using an AI agent with this course?
+Point it at this repo. [AGENTS.md](AGENTS.md) explains how the course is laid out, [llms.txt](llms.txt) is a link map, and [.well-known/agent-skills/](.well-known/agent-skills/) has skills that make an agent tutor you through the material, crit your code the way we do in class, and troubleshoot setup using [common-issues.md](common-issues.md). Use it to learn faster, not to write your assignments for you.
+
 # I need a book
 If that's true. I suggest you read this. https://eloquentjavascript.net/ or http://Javascript.info
 I won't quiz you on it but it's going to make life a lot more logical as we go through things like event loop and JS logic.
