@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "edtechjoker-code-crit",
+      "type": "skill-md",
+      "description": "Critique a student's web development code the way IST 256 (haxtheweb/edtechjoker) runs crit — CodePen cards, Lit web components (my-card, counter-app, play-list), Project 1 image/API apps and the final multi-component website. Use when asked to review, grade-check, give feedback on, or \"crit\" a student repo or file from this course, or when a student wants to self-check before submitting. Applies the course's recurring feedback (classes not ids, declared and reflected properties, slots, CustomEvent data flow, DDD tokens, light-dark, FOUC, routing, Vercel) and points back to where each rule was taught. Produces feedback, not rewritten code.",
+      "url": "https://raw.githubusercontent.com/haxtheweb/edtechjoker/master/.well-known/agent-skills/edtechjoker-code-crit/SKILL.md",
+      "digest": "sha256:e51118601bf56ca56068a48f4727c1d41d8c93808811a3d3ed48a3f111425d73"
+    },
+    {
+      "name": "edtechjoker-ingest",
+      "type": "skill-md",
+      "description": "Read, index, summarize or remix the IST 256 \"edtechjoker\" course repo (haxtheweb/edtechjoker) — vanilla HTML/CSS/JS, web components, Lit, HAX CLI and DDD taught across semesters. Use when an agent needs to find where a concept is taught, build a knowledge base, search index, study guide, OER site or course outline from this repo, compare semesters, or answer \"what does this course say about X\". Separates the current semester (linked from draft-outline.md) from historical _past_courses material so old requirements are never presented as current.",
+      "url": "https://raw.githubusercontent.com/haxtheweb/edtechjoker/master/.well-known/agent-skills/edtechjoker-ingest/SKILL.md",
+      "digest": "sha256:a468acdc6d58b8529099314184c80e8c39a6bba2b6f96938730e00acf0d5e783"
+    },
+    {
+      "name": "edtechjoker-troubleshoot",
+      "type": "skill-md",
+      "description": "Diagnose why a student's IST 256 (haxtheweb/edtechjoker) setup or project will not install, run, build or deploy — Node.js/npm installs, EACCES permission errors, Windows \"scripts are disabled\", \"hax: command not found\", npx vs global hax, npm start failing, blank page in the browser, imports from node_modules, Lit/CSS syntax breaking the build, and Vercel builds or /api endpoints not working. Use when anyone on this course says \"it doesn't work\". Follows common-issues.md first and teaches the inspect-the-error feedback loop.",
+      "url": "https://raw.githubusercontent.com/haxtheweb/edtechjoker/master/.well-known/agent-skills/edtechjoker-troubleshoot/SKILL.md",
+      "digest": "sha256:d61e17984b5a924e0f44b5f1608fc340eef8791ff1b631161e20968851507bcd"
+    },
+    {
+      "name": "edtechjoker-tutor",
+      "type": "skill-md",
+      "description": "Tutor a student through IST 256 (haxtheweb/edtechjoker) concepts and assignments — HTML/CSS/JS fundamentals, Git, web components, Lit, the HAX CLI, DDD, Vercel, fetch/JSON, routing and the course projects (card, counter-app, play-list, image/API app, final website). Use when a student asks how to do something for this course, is stuck on homework or a project, or wants a concept explained the way the course teaches it. Guides with questions, small steps and pointers to the course files instead of writing the assignment for them.",
+      "url": "https://raw.githubusercontent.com/haxtheweb/edtechjoker/master/.well-known/agent-skills/edtechjoker-tutor/SKILL.md",
+      "digest": "sha256:a24bce8054bf891764c95fb00947e58a3f7f6adedf285de6edbaa6bb3a87b3a9"
+    }
+  ]
+}

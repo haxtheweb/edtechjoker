@@ -1,0 +1,23 @@
+name: Agent skills index
+
+on:
+  pull_request:
+    paths:
+      - ".well-known/agent-skills/**"
+      - "scripts/build-agent-skills-index.mjs"
+  push:
+    branches: [master]
+    paths:
+      - ".well-known/agent-skills/**"
+      - "scripts/build-agent-skills-index.mjs"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: index.json matches SKILL.md digests
+        run: node scripts/build-agent-skills-index.mjs --check
